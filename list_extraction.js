@@ -28,7 +28,8 @@ lr.on('line', function(line) {
 		url = line.substring(posLeft, posRight);
 	
 	// ...."List of xyz".... -> Split and get middle string by index
-	var subLine = line.split('"')[1];
+	// replace '/' to avoid adding directories
+	var subLine = line.split('"')[1].replace('/', '-');
 
 	// few sets containing 'List of' which aren´t lists are filtered
 	// e.g. see http://en.wikipedia.org/wiki/Disability/List_of_impairments
