@@ -1,3 +1,5 @@
 from django.contrib import admin
+from Lists_to_RDFs import *
 
-# Register your models here.
+admin.site.register(WikiList)
+admin.site.register(RDF)
