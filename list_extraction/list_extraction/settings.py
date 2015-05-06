@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Lists_to_RDFs',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -78,9 +79,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'LIST_OF',
-        'HOST': 'localhost',
-        'PORT': '30015',
-        'USER': 'root',
+        'HOST': 's18350503.onlinehome-server.info',
+        'PORT': '3306',
+        'USER': 'SYSTEM',
         'PASSWORD': 'manager',
     }
 }
