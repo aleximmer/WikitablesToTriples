@@ -20,6 +20,9 @@ class WikiAdmin(admin.ModelAdmin):
         models.TextField: {'widget': Textarea(attrs={'rows':30, 'cols':180})},
     }
 	inlines = [LinkInline, RDFInline]
+	list_display = ['title', 'url_ref']
+	list_display_links = ['title',]
+
 
 
 admin.site.register(WikiList, WikiAdmin)

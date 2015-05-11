@@ -6,6 +6,15 @@ class WikiList(models.Model):
 	summary = models.TextField()
 	url = models.URLField()
 
+	def __str__(self):
+		return self.title
+
+	def url_ref(self):
+		#return self.url
+		return u'<a href="%s">%s</a>' % (str(self.url), str(self.url))
+	url_ref.allow_tags = True
+	url_ref.short_description = 'Wikipedia URL'
+
 	class Meta:
 		verbose_name='Wikipedia List'
 		verbose_name_plural='Wikipedia Lists'
