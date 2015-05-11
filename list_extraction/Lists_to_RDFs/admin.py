@@ -7,13 +7,21 @@ class RDFInline(admin.TabularInline):
 	model = RDF
 	extra = 1
 
+class LinkInline(admin.TabularInline):
+	model = Link
+	extra = 1
+	formfield_overrides = {
+        models.CharField: {'widget': TextInput(attrs={'size':'160'})},
+    }
+
 class WikiAdmin(admin.ModelAdmin):
 	formfield_overrides = {
         models.CharField: {'widget': TextInput(attrs={'size':'80'})},
-        models.TextField: {'widget': Textarea(attrs={'rows':80, 'cols':180})},
+        models.TextField: {'widget': Textarea(attrs={'rows':30, 'cols':180})},
     }
-	inlines = [RDFInline,]
+	inlines = [LinkInline, RDFInline]
 
 
 admin.site.register(WikiList, WikiAdmin)
-admin.site.register(RDF)
+#admin.site.register(RDF)
+#admin.site.register(Link)
