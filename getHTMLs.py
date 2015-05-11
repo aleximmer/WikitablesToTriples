@@ -2,10 +2,7 @@ import wikipedia
 
 listsFile = open('data/Titles.txt', 'r')
 
-count = 0
 for line in listsFile:
-    print count
-    count += 1
     try:
         page = wikipedia.page(line.decode('unicode-escape'))
 
