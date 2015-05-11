@@ -1,3 +1,1 @@
 BeautifulSoup==3.2.1
-pyhdb==0.2.2
-virtualenv==12.1.1
