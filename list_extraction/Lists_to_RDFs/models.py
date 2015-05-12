@@ -2,6 +2,7 @@ from django.db import models
 
 class WikiList(models.Model):
 	title = models.CharField(max_length=128)
+	base_title = models.CharField(max_length=128)
 	html = models.TextField()
 	summary = models.TextField()
 	url = models.URLField()
@@ -10,7 +11,6 @@ class WikiList(models.Model):
 		return self.title
 
 	def url_ref(self):
-		#return self.url
 		return u'<a href="%s">%s</a>' % (str(self.url), str(self.url))
 	url_ref.allow_tags = True
 	url_ref.short_description = 'Wikipedia URL'

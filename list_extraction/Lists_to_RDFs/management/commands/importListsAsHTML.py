@@ -20,7 +20,7 @@ class Command(BaseCommand):
 				page = wikipedia.page(line.decode('unicode-escape'))
 
 				# create new WIki-List in DB
-				newList = WikiList(title=page.title, summary=page.summary, html=page.html(), url=page.url).save()
+				newList = WikiList(title=page.title, summary=page.summary, html=page.html(), url=page.url, base_title=line.decode('unicode-escape')).save()
 
 				# Append all links as foreign datasets
 				for link in page.links:
@@ -30,8 +30,8 @@ class Command(BaseCommand):
 			except Exception:
 				print("Failure, but continue")
         		failures = failures + 1
+        		print("failures: %s" % str(failures))
         		continue
 
-		print(failures)
 
 		return
