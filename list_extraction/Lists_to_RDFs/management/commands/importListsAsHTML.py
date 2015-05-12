@@ -4,34 +4,28 @@ import wikipedia
 
 class Command(BaseCommand):
 
-	def handle(slef, *args, **options):
-		# Server-Directory containing Titles-File
+	def handle(self, *args, **options):
 		try:
+			# Server-Directory containing Titles-File
 			listsFile = open('/home/projects/wiki-list_of-retrieval/data/Titles.txt', 'r')
 
 		except Exception:
 			print('open reading failed')
 
-		failures = 0
-
 		for line in listsFile:
-
 			try:
-				page = wikipedia.page(line.decode('unicode-escape'))
+				page = wikipedia.page(line)
 
-				# create new WIki-List in DB
-				newList = WikiList(title=page.title, summary=page.summary, html=page.html(), url=page.url, base_title=line.decode('unicode-escape')).save()
+				# create new Wiki-List in DB
+				newList = WikiList(title=page.title, summary=page.summary, html=page.html(), url=page.url, base_title=line)
+				newList.save()
 
 				# Append all links as foreign datasets
 				for link in page.links:
-					newLink = Link(wiki_list = newList, linkName=link).save()
-
+					Link(wiki_list=newList, link_name=link).save()
 
 			except Exception:
-				print("Failure, but continue")
-        		failures = failures + 1
-        		print("failures: %s" % str(failures))
-        		continue
+				continue
 
 
 		return
