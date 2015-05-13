@@ -9,7 +9,7 @@ readFile('../data/lists_of/List of Archdeacons of East Europe.html')
 		var data = getDataOfListArticle(data)
 		// Parse HTML in JSON
 		var bodyElem = parseHTML(data)
-		// mw-content-text markiert den Inahlt (ohne Quellenangabe, aber mit Einleitung und das Inhaltsverzeichnis ('toc')
+		// mw-content-text markiert den Inhalt (ohne Quellenangabe, aber mit Einleitung und das Inhaltsverzeichnis ('toc')
 		var contentElem = searchForTag(bodyElem, "div", "mw-content-text")
 		// Suche nach allen Auflistung, die nicht in 'toc' liegen
 		var lists = searchForTagOccurrences(contentElem, "ul", null, null, ['toc'])
