@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import urllib
 from wikitables.table import Table
 
-class Page:
+class TablePage:
 
     """This class abstracts Wikipedia articles to add table extraction functionality."""
 
@@ -19,6 +19,9 @@ class Page:
         self.contentOnly = contentOnly
         if title != self.title:
             print("Loaded \'%s\' instead of \'%s\'" % (self.title, title))
+
+    def __repr__(self):
+        return "Title:\n\t%s\nTables:\n\t" % self.title + "\n\t".join([str(t) for t in self.tables])
 
     @property
     def html(self):
