@@ -17,8 +17,6 @@ class TablePage:
         self.title = self.page.title
         self.url = self.page.url
         self.contentOnly = contentOnly
-        if title != self.title:
-            print("Loaded \'%s\' instead of \'%s\'" % (self.title, title))
 
     def __repr__(self):
         return "Title:\n\t%s\nTables:\n\t" % self.title + "\n\t".join([str(t) for t in self.tables])
@@ -43,7 +41,4 @@ class TablePage:
         if not self._tables:
             self._tables = [Table(table) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
-
-    @staticmethod
-    def filteredSections():
-        return ['References', 'See also']
+        

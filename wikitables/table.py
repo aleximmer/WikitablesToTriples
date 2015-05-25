@@ -24,4 +24,6 @@ class Table:
             if sibling.name == 'h2':
                 return sibling.span.text
 
-        return self.soup.parent.parent.parent.h1.text
+        for parent in self.soup.parents:
+            if parent.has_attr('id') and parent['id'] == 'content':
+                return parent.h1.text
