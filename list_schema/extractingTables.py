@@ -3,7 +3,8 @@
 from bs4 import BeautifulSoup
 import codecs
 import json
-
+import inflect
+import math
 
 # Nach TR-Tag suchen (muss THs enthalten)
 # 1.) Von dort die THs extrahieren als Header-Array und als JSON ausgeben
@@ -12,6 +13,11 @@ import json
 # Soup-Element ausgeben:
 # Mit Tags (inkl. Links der Entitäten) -> str(obj)
 # Nur Plain Text: obj.getText()
+
+# Engine, um Singular und Plural von Wörtern zu bilden
+p = inflect.engine()
+
+MIN_ENTITIES_COUNT = 0.4 # Mind. 40% müssen Entities sein, damit die Spalte der Key sein darf
 
 # Konstantendefinition für Rückgabewert-Typen
 def RETURN_AS_SOUP_ARRAY(): return 0
@@ -96,31 +102,132 @@ def extractUniqueColumns( htmlTable ):
 		raise ValueError('Can\'t find any column with unique entries (might be foreing keys)')
 	
 	return uniqueCols
-	
-# 3.) TODO: Weitere Techniken (inkl. Bewertung) implementieren:
-# 		A) Anzahl der Entitäten (prozentual) ausreichend?
-# 		B) Bewertung anhand von Spaltenname (Evidenz oder "Name"),
-#			Abstand vom linken Rand und der Anzahl an Entitäten geben
-#		C) Bewertung validieren (Erster Kandidat muss prozentual
-#			ausreichend vor den anderen Kandidaten liegen)
-#	Immer mit einem Array von Elementen mit dem Schema
-#	{'xPos': a, 'title': b, 'entries': c} arbeiten (siehe extractUniqueColumns)
-#	'title' wird im ausführenden Code nachgereicht (mittels extractTableHead)
-	
 
-# Testing:
+# Zählt ab, wie viele Einträge pro Spalte Links enthalten. Die Links werden
+# als Entitäten gewertet, wenn sie kein Image enthalten und
+# Wikipedia-intern sind (Präfix: '/wiki/...')
+# Prozentual betrachtet wird jeder Spalte eine Bewertung gegeben. Wenn 100%
+# der Einträge einer Spalte Entitäten sind, werden 50 Punkte vergeben.
+# TODO: Weitere Einschränkungen möglich? (Umso mehr Text vor dem Link o.ä.)
+def countEntities( cols ):
+	for i in range(len(cols)):
+		entries = cols[i]['entries']
+		entityCount = 0
+		multipleEnts = False
+		for entry in entries:
+			soup = BeautifulSoup(entry)
+			links = soup.findAll('a')
+			linksCount = len(links)
+			for link in links:
+				# Image werden nicht gezählt
+				if link.find('img') != None:
+					linksCount -= 1
+				# Ebenso dürfen es nur Wikipedia-interne Links sein
+				elif link['href'][0:5] != '/wiki':
+					linksCount -= 1
+			if linksCount > 0:
+				entityCount += 1
+				if linksCount > 1:
+					multipleEnts = True
+		
+		# Bewertung: Maximal 50 Punkte möglich (100% sind Entitäten)
+		cols[i]['rating'] = int(math.floor(50 * (entityCount / len(entries))))
+		cols[i]['entityCount'] = entityCount
+		cols[i]['multipleEntities'] = multipleEnts
+
+# Überprüft, ob im Spaltentitel das Wort 'Name" auftaucht (+20 Rating)
+# oder Übereinstimmungen mit dem Titel des Wikipedia-Artikels existieren.
+# Dabei wird der Singular und Plural betrachtet. Umso länger ein Wort ist,
+# für das eine Übereinstimmung gefunden wurde, desto mehr Punkte gibt es
+# im Rating (maximal 20/25), damit Nebenwörter wie "in", "the", "of", o.ä.
+# wenig Einfluss haben.
+def valuateByName( cols, articleName ):
+	# Entferne "List of" und teile die Wörter auf
+	articleNames = articleName[7:].split(' ')
+	
+	for i in range(len(cols)):
+		colName = cols[i]['title']
+		colNames = colName.lower().split()
+		# Titel auf den Inhalt 'Name' überprüfen
+		if 'name' in colNames:
+			cols[i]['rating'] += 20
+		else:
+			cols[i]['rating'] += 0
+		
+		# Titel mit dem Artikelnamen abgleichen
+		for word in colNames:
+			if word in articleNames:
+				# Wenn eines der Wörter auch im Artikelnamen auftaucht, erhöht das das Rating
+				# Die gegebene Punktzahl ist von der Wortlänge abhängig (Problematische Wörter
+				# wie "in", "the", "of" o.ä. haben dann wenig Einfluss)
+				cols[i]['rating'] += max(len(word), 20)
+			if p.plural(word) in articleNames:
+				# Wenn der Plural trifft, ist es ein wichtigerer Treffer als ein normaler
+				cols[i]['rating'] += max(len(word), 20) + 5
+
+# Umso näher die Spalte am linken Rand ist, desto wichtiger ist sie.
+# Es können maximal 20 Punkte aufgerechnet werden (für die erste Spalte).
+# Nach rechts hin nimmt die Punktvergabe hyperbolisch ab.
+# TODO: Linear, Quadratisch oder Hyperbolisch?
+def valuateByPosition( cols ):
+	colLen = len(cols)
+	for i in range(colLen):
+		posVal = i + 1
+		# Quadratisch bei 10 Spalten: 20, 16, 12, 9, 7, 5, ...
+		# Hyperbel bei 10 Spalten: 20, 10, 6, 5, 4, ...
+		addRating = int(math.floor(20 / posVal)) # Hyperbolisch
+		cols[i]['rating'] += addRating
+
+# Vergleicht die Ratings der Spalten, um die Key-Spalte zu ermitteln.
+# Das größte Rating muss 15% vor dem zweiten liegen. Außerdem müssen
+# mind. 40% der Einträge Entitäten sein. Wenn keine Key-Spalte gefunden
+# wurde, wird None zurückgegeben (ansonsten das Spaltenelement)
+def validateRatings( cols ):
+	cols.sort(key=lambda obj: obj['rating'], reverse=True)
+	rating1 = cols[0]['rating']
+	rating2 = cols[1]['rating']
+	print(str(rating2 / rating1))
+	# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
+	if (rating2 / rating1) > 0.85:
+		return None
+	
+	# Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
+	if cols[0]['multipleEntities']:
+		return None
+	
+	rowCount = len(cols[0]['entries'])
+	entityCount = cols[0]['entityCount']
+	# Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte nicht ausreichend verwertbar
+	if (entityCount / rowCount) < 0.4:
+		return None
+	
+	return cols[0]
+
+
+############################################# Testing ##############################################
 
 # Beispiel-Code (HTML einer Tabelle von Wikipedia)
 htmlTable = open('./htmlSource.txt').read().replace('\n', ' ')
+articleName = 'List of post-1692 Anglican parishes in the Province of Maryland'
 
 tableColNames = extractTableHead(htmlTable, RETURN_AS_STRING_ARRAY())
 uniqueCols = extractUniqueColumns(htmlTable)
 
-# Führe Title mit Entries und Position zusammen:
-uniqueCols = [{'xPos': col['xPos'], 'title': tableColNames[col['xPos']], 'entries': [entry for entry in col['entries']]} for col in uniqueCols]
+# Führe Title mit Entries und Position zusammen (Schema):
+uniqueCols = [{'xPos': col['xPos'], 'title': tableColNames[col['xPos']],
+		'entries': [entry for entry in col['entries']],
+		'rating': 0} for col in uniqueCols]
 
+# Zähle die Entities pro Spalte
+countEntities(uniqueCols)
 
-print(json.dumps(uniqueCols, sort_keys=True, indent=4))
+# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
+valuateByName(uniqueCols, articleName)
 
+# Umso weiter links, umso wertvoller ist die Spalte
+valuateByPosition(uniqueCols)
 
+# Validiere die Bewertungen der Spalten
+keyCol = validateRatings(uniqueCols)
 
+print(keyCol)
