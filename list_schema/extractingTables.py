@@ -5,6 +5,7 @@ import codecs
 import json
 import inflect
 import math
+import sys
 
 # Nach TR-Tag suchen (muss THs enthalten)
 # 1.) Von dort die THs extrahieren als Header-Array und als JSON ausgeben
@@ -186,7 +187,6 @@ def validateRatings( cols ):
 	cols.sort(key=lambda obj: obj['rating'], reverse=True)
 	rating1 = cols[0]['rating']
 	rating2 = cols[1]['rating']
-	print(str(rating2 / rating1))
 	# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
 	if (rating2 / rating1) > 0.85:
 		return None
@@ -203,31 +203,55 @@ def validateRatings( cols ):
 	
 	return cols[0]
 
+# Um die Testergebnisse zu visualisieren, werden die Ergebnisse
+# der drei Runden als CSV gespeichert
+def saveCSVData( roundsResults, cols, round ):
+	roundsResults.append([])
+	for col in cols:
+		roundsResults[round].append(col['rating'])
 
 ############################################# Testing ##############################################
 
 # Beispiel-Code (HTML einer Tabelle von Wikipedia)
 htmlTable = open('./htmlSource.txt').read().replace('\n', ' ')
 articleName = 'List of post-1692 Anglican parishes in the Province of Maryland'
-
 tableColNames = extractTableHead(htmlTable, RETURN_AS_STRING_ARRAY())
 uniqueCols = extractUniqueColumns(htmlTable)
+roundsResults = []
+
 
 # Führe Title mit Entries und Position zusammen (Schema):
 uniqueCols = [{'xPos': col['xPos'], 'title': tableColNames[col['xPos']],
 		'entries': [entry for entry in col['entries']],
 		'rating': 0} for col in uniqueCols]
 
+# Rating:
+
 # Zähle die Entities pro Spalte
 countEntities(uniqueCols)
+
+saveCSVData(roundsResults, uniqueCols, 0)
 
 # Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
 valuateByName(uniqueCols, articleName)
 
+saveCSVData(roundsResults, uniqueCols, 1)
+
 # Umso weiter links, umso wertvoller ist die Spalte
 valuateByPosition(uniqueCols)
+
+saveCSVData(roundsResults, uniqueCols, 2)
 
 # Validiere die Bewertungen der Spalten
 keyCol = validateRatings(uniqueCols)
 
-print(keyCol)
+# Ausgabe:
+if (len(sys.argv) > 1) and (sys.argv[1] == 'showCSV'):
+	# Zeige die Bewerungswerte der einzelnen Runden im CSV-Format:
+	roundsResultsAsCSV = '"";"Runde 1"; "Runde 2"; "Runde 3"\n'
+	for i in range(len(roundsResults[0])):
+		roundsResultsAsCSV += '"'+uniqueCols[i]['title']+'";"'+str(roundsResults[0][i])+'";"'+str(roundsResults[1][i])+'";"'+str(roundsResults[2][i])+'"\n'
+	roundsResultsAsCSV = roundsResultsAsCSV[:-1] # Letzten Zeilenumbruch entfernen
+	print(roundsResultsAsCSV)
+else:
+	print(json.dumps(keyCol, sort_keys=True, indent=4))
