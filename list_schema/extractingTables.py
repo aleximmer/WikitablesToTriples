@@ -18,8 +18,9 @@ import sys
 # Engine, um Singular und Plural von Wörtern zu bilden
 p = inflect.engine()
 
-MIN_ENTITIES_COUNT = 0.4 # Mind. 40% müssen Entities sein, damit die Spalte der Key sein darf
+# NOT IMPLEMENTED: MIN_ENTITIES_COUNT = 0.4 # Mind. 40% müssen Entities sein, damit die Spalte der Key sein darf
 
+# DEPRECATED
 # Konstantendefinition für Rückgabewert-Typen
 def RETURN_AS_SOUP_ARRAY(): return 0
 def RETURN_AS_STRING_ARRAY(): return 1
@@ -41,7 +42,7 @@ def returnWithType( obj, returnType):
 # wirft die Funktion einen ValueError.
 def extractTableHead( htmlTable, returnType = RETURN_AS_SOUP_ARRAY() ):
 	soup = BeautifulSoup(htmlTable)
-	quickView = htmlTable[0:50]+' [...]' 
+	quickView = htmlTable[0:50]+' [...]'
 	
 	# Erste Row (TR) egal ob im TBody oder sogar im THead ist die Kopfzeile (Aussage mit Tests überprüfen?)
 	header = soup.find('tr')
@@ -101,6 +102,15 @@ def extractUniqueColumns( htmlTable ):
 			uniqueCols.append({'xPos': j, 'entries': checkedValues})
 	if len(uniqueCols) == 0:
 		raise ValueError('Can\'t find any column with unique entries (might be foreing keys)')
+
+	# Führe Title mit Entries und Position zusammen (Schema):
+	tableColNames = extractTableHead(htmlTable, RETURN_AS_STRING_ARRAY())
+	uniqueCols = [{
+			'xPos': col['xPos'],
+			'title': tableColNames[col['xPos']],
+			'entries': col['entries'],
+			'rating': 0}
+				for col in uniqueCols]
 	
 	return uniqueCols
 
@@ -212,46 +222,55 @@ def saveCSVData( roundsResults, cols, round ):
 
 ############################################# Testing ##############################################
 
-# Beispiel-Code (HTML einer Tabelle von Wikipedia)
-htmlTable = open('./htmlSource.txt').read().replace('\n', ' ')
-articleName = 'List of post-1692 Anglican parishes in the Province of Maryland'
-tableColNames = extractTableHead(htmlTable, RETURN_AS_STRING_ARRAY())
-uniqueCols = extractUniqueColumns(htmlTable)
-roundsResults = []
+def test( fileName ):
+	# Open HTML file
+	htmlTable = open('Testing/'+fileName).read().replace('\n', ' ')
+	
+	# Extract articleName (and tableTitle) by fileName
+	parts = fileName.split('_')
+	articleName = parts[0]
+	if len(parts) > 2:
+		tableTitle = parts[2].split('.')[0]
+	else:
+		tableTitle = None
+	print('Testing: '+articleName)
+	
+	# Extracting and rating columns
+	uniqueCols = extractUniqueColumns(htmlTable)
+	roundsResults = []
+	
+	# Rating:
 
+	# Zähle die Entities pro Spalte
+	countEntities(uniqueCols)
 
-# Führe Title mit Entries und Position zusammen (Schema):
-uniqueCols = [{'xPos': col['xPos'], 'title': tableColNames[col['xPos']],
-		'entries': [entry for entry in col['entries']],
-		'rating': 0} for col in uniqueCols]
+	saveCSVData(roundsResults, uniqueCols, 0)
 
-# Rating:
+	# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
+	valuateByName(uniqueCols, articleName)
 
-# Zähle die Entities pro Spalte
-countEntities(uniqueCols)
+	saveCSVData(roundsResults, uniqueCols, 1)
 
-saveCSVData(roundsResults, uniqueCols, 0)
+	# Umso weiter links, umso wertvoller ist die Spalte
+	valuateByPosition(uniqueCols)
 
-# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-valuateByName(uniqueCols, articleName)
+	saveCSVData(roundsResults, uniqueCols, 2)
 
-saveCSVData(roundsResults, uniqueCols, 1)
+	# Validiere die Bewertungen der Spalten
+	keyCol = validateRatings(uniqueCols)
 
-# Umso weiter links, umso wertvoller ist die Spalte
-valuateByPosition(uniqueCols)
+	# Ausgabe:
+	if (len(sys.argv) > 1) and ('-showCSV' in sys.argv):
+		# Zeige die Bewerungswerte der einzelnen Runden im CSV-Format:
+		roundsResultsAsCSV = '"";"Runde 1"; "Runde 2"; "Runde 3"\n'
+		for i in range(len(roundsResults[0])):
+			roundsResultsAsCSV += '"'+uniqueCols[i]['title']+'";"'+str(roundsResults[0][i])+'";"'+str(roundsResults[1][i])+'";"'+str(roundsResults[2][i])+'"\n'
+		roundsResultsAsCSV = roundsResultsAsCSV[:-1] # Letzten Zeilenumbruch entfernen
+		print(roundsResultsAsCSV)
+	else:
+		print(json.dumps(keyCol, sort_keys=True, indent=4))
 
-saveCSVData(roundsResults, uniqueCols, 2)
-
-# Validiere die Bewertungen der Spalten
-keyCol = validateRatings(uniqueCols)
-
-# Ausgabe:
-if (len(sys.argv) > 1) and (sys.argv[1] == 'showCSV'):
-	# Zeige die Bewerungswerte der einzelnen Runden im CSV-Format:
-	roundsResultsAsCSV = '"";"Runde 1"; "Runde 2"; "Runde 3"\n'
-	for i in range(len(roundsResults[0])):
-		roundsResultsAsCSV += '"'+uniqueCols[i]['title']+'";"'+str(roundsResults[0][i])+'";"'+str(roundsResults[1][i])+'";"'+str(roundsResults[2][i])+'"\n'
-	roundsResultsAsCSV = roundsResultsAsCSV[:-1] # Letzten Zeilenumbruch entfernen
-	print(roundsResultsAsCSV)
+if (len(sys.argv) > 1) and (sys.argv[1][-4:] == '.txt'):
+	test(sys.argv[1])
 else:
-	print(json.dumps(keyCol, sort_keys=True, indent=4))
+	test('List of post-1692 Anglican parishes in the Province of Maryland_1.txt')
