@@ -11,8 +11,6 @@ def extractLists( tableName, tagName, tagClass=None, ignoreTOC=False, lookRecurs
 	# Hotfix for n dash (encoding throws UnicodeEncodingError)
 	htmlCont = htmlCont.replace('–', '-')
 	
-	print(htmlCont)
-	
 	# Parse html content
 	soup = BeautifulSoup(htmlCont)
 
