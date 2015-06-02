@@ -1,6 +1,6 @@
 data/lists_of
 node_modules/
 Sandbox
-script.py
+scripts
 
 *.pyc

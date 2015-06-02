@@ -41,4 +41,3 @@ class TablePage:
         if not self._tables:
             self._tables = [Table(table) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
-        

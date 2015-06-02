@@ -9,7 +9,7 @@ class Table:
         self.soup = soup
         self.caption = soup.find('caption')
         self.head = soup.find('thead')
-        self.body = soup.find('body')
+        self.body = soup.find('tbody')
         self.section = self._section()
 
     def __repr__(self):
