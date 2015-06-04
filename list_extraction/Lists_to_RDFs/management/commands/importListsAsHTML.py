@@ -5,9 +5,13 @@ import wikipedia
 class Command(BaseCommand):
 
 	def handle(self, *args, **options):
+		WikiList.objects.all().delete()
+		Link.objects.all().delete()
+		counter = 0
 		try:
 			# Server-Directory containing Titles-File
 			listsFile = open('/home/projects/wiki-list_of-retrieval/data/Titles.txt', 'r')
+			#listsFile = open('/Users/Alex/Documents/workspace/wiki-list_of-retrieval/data/Titles.txt', 'r')
 
 		except Exception:
 			print('open reading failed')
@@ -28,4 +32,7 @@ class Command(BaseCommand):
 				continue
 
 
+			counter = counter + 1
+			if counter == 1000:
+				return
 		return

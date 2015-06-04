@@ -44,7 +44,7 @@ h1 {
 	padding: 12px 20px;
 	margin-right: 50px;
 	min-width: 230px;
-	text-align: center
+	text-align: center;
 	left: 40px;
 }
 
@@ -76,6 +76,8 @@ h1 {
 }
 
 .decissionButton {
+	position: absolute;
+	left: 360px;
 	padding: 10px 16px;
 	font-size: 18px;
 	line-height: 1.33;

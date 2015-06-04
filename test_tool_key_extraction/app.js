@@ -1,31 +1,21 @@
-function isDemand() {
-	saveDecission(1);
-	alert('Is demand!');
-}
 
-function isntDemand() {
-	saveDecission(0);
-	alert('Is not a demand!');
-}
 
-function isntEnglish() {
-	saveDecission(0);
-	alert('Is not english!');
-}
-
-function ignorePost() {
-	alert('No decission -> Show next post');
-	loadNextPost();
+function valResult() {
+	selRadio = document.querySelector('input[name="column"]:checked')
+	alert(selRadio)
+	
+	// TODO: saveDecission(colNum)
+	// TODO: loadNextPost()
 }
 
 //---------------------------------------------------------------//
 
 function loadNextPost() {
-	// Content in 'post-content' und Autor in 'post-author'
+	// TODO
 }
 
-function saveDecission(dec) {
-	// Boolean in DB eintragen: 1/True [Behalten], 0/False [Löschen]
+function saveDecission(colNum) {
+	// TODO
 }
 
 //---------------------------------------------------------------//

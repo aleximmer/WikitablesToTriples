@@ -25,11 +25,12 @@
 				List of post-1692 Anglican parishes in the Province of Maryland
 			</div>
 			<div id="table-content" class="table-content-view">
-				<button id="deselect-radio" onclick="deselectRadioButton()">Deselect radio button</button>
-<!-- Table content START -->
+				<button id="deselect-radio" onclick="deselectRadioButton()">Deselect radio button (r)</button>
+<!-- TODO: Django Template Marker benutzen für Tablecontent und Anzahl der Rows -->
+	<!-- Table content START -->
 				<table class="wikitable sortable jquery-tablesorter" style="width:98%"">
 				<thead>
-	<!-- Own edit START -> FIXME: Count th? -->	
+		<!-- Own edit START -> FIXME: Count th? -->	
 				<tr id="decision-control"><form if="decision-form">
 					<td><input type="radio" name="column" value="0" onclick="updateDecisionStatus('green')"/></td>
 					<td><input type="radio" name="column" value="1" onclick="updateDecisionStatus('green')"/></td>
@@ -42,7 +43,7 @@
 					<td><input type="radio" name="column" value="8" onclick="updateDecisionStatus('green')"/></td>
 					<td><input type="radio" name="column" value="9" onclick="updateDecisionStatus('green')"/></td>
 				</form></tr>
-	<!-- Own edit END -->
+		<!-- Own edit END -->
 				<tr>
 				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Current church name</b></th>
 				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Image</b></th>
@@ -269,15 +270,28 @@
 				<td><a rel="nofollow" class="external autonumber" href="http://stpaulse.ipower.com/index.html">[14]</a></td>
 				</tr>
 				</tbody><tfoot></tfoot></table>
-<!-- Table content END -->
+	<!-- Table content END -->
 			</div>
 		</div>
 	</div>
 	<div class="submit-panel">
 		<label id="decission-status" class="redDec">There is no single key column</label>
 		&nbsp;&nbsp;&nbsp;
-		<button id="demand" type="button" class="decissionButton" onclick="isDemand()">Submit (s)</button>
+		<button id="demand" type="button" class="decissionButton" onclick="valResult()">Submit (s)</button>
 	</div>
+	
+	<script>
+		$(document).keydown(function(e) {
+		    if(e.which == 83) {
+				valResult()
+		    } else if (e.which == 82) {
+				deselectRadioButton()
+			} else {
+				return
+			}
+		    e.preventDefault(); // prevent the default action (scroll / move caret)
+		});
+	</script>
 </body>
 </html>
 
