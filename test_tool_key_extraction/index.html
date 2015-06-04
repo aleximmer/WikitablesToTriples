@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Tool: Extracting key column from wikipedia tables</title>
+	<meta charset="utf-8" />
+
+	<!-- Wikipedia styles START -->
+	<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%7Cext.rtlcite%2Cwikihiero%2CwikimediaBadges%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector&amp;*">
+	<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*">
+	<link rel="stylesheet" href="wikipedia.css">
+	<!-- Wikipedia styles END -->
+	
+	<link href="view.css" rel="stylesheet">
+	
+	<script src="jquery.js"></script>
+	<script src="app.js"></script>
+	<script src="shortcut.js"></script>
+</head>
+<body>
+	<div class="container2">
+		<div>
+			<h1>Choose key column!</h1>
+			<br/>
+			<div id="table-source" class="table-source-view">
+				List of post-1692 Anglican parishes in the Province of Maryland
+			</div>
+			<div id="table-content" class="table-content-view">
+				<button id="deselect-radio" onclick="deselectRadioButton()">Deselect radio button</button>
+<!-- Table content START -->
+				<table class="wikitable sortable jquery-tablesorter" style="width:98%"">
+				<thead>
+	<!-- Own edit START -> FIXME: Count th? -->	
+				<tr id="decision-control"><form if="decision-form">
+					<td><input type="radio" name="column" value="0" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="1" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="2" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="3" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="4" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="5" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="6" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="7" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="8" onclick="updateDecisionStatus('green')"/></td>
+					<td><input type="radio" name="column" value="9" onclick="updateDecisionStatus('green')"/></td>
+				</form></tr>
+	<!-- Own edit END -->
+				<tr>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Current church name</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Image</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Original parish name</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Location</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>County, etc.</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Year established</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Current status</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b><a href="/wiki/National_Register_of_Historic_Places" title="National Register of Historic Places">NRHP</a></b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Description</b></th>
+				<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending"><b>Website</b></th>
+				</tr></thead><tbody>
+				<tr>
+				<td>01. <a href="/wiki/All_Saints_Church_(Frederick,_Maryland)" title="All Saints Church (Frederick, Maryland)">All Saints Church Frederick</a></td>
+				<td><a href="http://en.wikipedia.org/wiki/File:Old_All_Saints_Episcopal_Church_in_Frederick.jpg" class="image" title="All Saints Church, erected 1813, Principal Parish Church until 1855"><img alt="All Saints Church, erected 1813, Principal Parish Church until 1855" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Old_All_Saints_Episcopal_Church_in_Frederick.jpg/100px-Old_All_Saints_Episcopal_Church_in_Frederick.jpg" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Old_All_Saints_Episcopal_Church_in_Frederick.jpg/150px-Old_All_Saints_Episcopal_Church_in_Frederick.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Old_All_Saints_Episcopal_Church_in_Frederick.jpg/200px-Old_All_Saints_Episcopal_Church_in_Frederick.jpg 2x" data-file-width="2560" data-file-height="1920"></a></td>
+				<td>All Saints' Parish</td>
+				<td><a href="/wiki/Frederick,_Maryland" title="Frederick, Maryland">Frederick</a><br>
+				106 West Church Street</td>
+				<td><a href="/wiki/Frederick_County,_Maryland" title="Frederick County, Maryland">Frederick</a></td>
+				<td>1742</td>
+				<td>Active parish</td>
+				<td>No</td>
+				<td>Frederick County split off <a href="/wiki/Charles_County,_Maryland" title="Charles County, Maryland">Charles County</a> in 1748</td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.allsaintsmd.org/index.php">[1]</a></td>
+				</tr>
+				<tr>
+				<td>02. Good Shepherd Church, Chesapeake City</td>
+				<td>
+				<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:Good_Shepherd_Church,_Chesapeake_City.jpg" class="image" title="Good Shepherd Church, Chesapeake City, Maryland"><img alt="Good Shepherd Church, Chesapeake City, Maryland" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Good_Shepherd_Church%2C_Chesapeake_City.jpg/100px-Good_Shepherd_Church%2C_Chesapeake_City.jpg" width="100" height="133" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Good_Shepherd_Church%2C_Chesapeake_City.jpg/150px-Good_Shepherd_Church%2C_Chesapeake_City.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Good_Shepherd_Church%2C_Chesapeake_City.jpg/200px-Good_Shepherd_Church%2C_Chesapeake_City.jpg 2x" data-file-width="1920" data-file-height="2560"></a></div>
+				</td>
+				<td>Augustine Parish</td>
+				<td>310 George Street<a href="/wiki/Chesapeake_City,_Maryland" title="Chesapeake City, Maryland">Chesapeake City</a></td>
+				<td><a href="/wiki/Cecil_County,_Maryland" title="Cecil County, Maryland">Cecil</a></td>
+				<td>1744</td>
+				<td>Active parish</td>
+				<td>No</td>
+				<td>Another church in parish, St. Augustine's, is at MD310 and Mitton Rd; both now in <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.dioceseofeaston.org/chescity.html">[2]</a></td>
+				</tr>
+				<tr>
+				<td>03. <a href="/wiki/Christ_Church,_Graveyard_and_Sexton%27s_House" title="Christ Church, Graveyard and Sexton's House">Christ Church IU Parish, Worton</a></td>
+				<td>
+				<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:Christ_church_IU_worton.jpg" class="image" title="Christ Church IU, Chester Parish, Worton, Maryland"><img alt="Christ Church IU, Chester Parish, Worton, Maryland" src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christ_church_IU_worton.jpg/100px-Christ_church_IU_worton.jpg" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christ_church_IU_worton.jpg/150px-Christ_church_IU_worton.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christ_church_IU_worton.jpg/200px-Christ_church_IU_worton.jpg 2x" data-file-width="2560" data-file-height="1920"></a></div>
+				</td>
+				<td>Chester Parish</td>
+				<td><a href="/wiki/Worton,_Maryland" title="Worton, Maryland">Worton</a><br>
+				25328 Lambs Meadow Road</td>
+				<td><a href="/wiki/Kent_County,_Maryland" title="Kent County, Maryland">Kent</a></td>
+				<td>1765</td>
+				<td>Active parish</td>
+				<td>Yes</td>
+				<td>now in <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a> and surrounded by historic cemetery. Other historic parish church is Emmanuel Church, Cross and High Streets, <a href="/wiki/Chestertown,_Maryland" title="Chestertown, Maryland">Chestertown, Maryland</a>, built in 1767 and which hosted founding diocesan convention.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.iuparish.org/">[3]</a></td>
+				</tr>
+				<tr>
+				<td>04. Christ Episcopal Church, Rockville</td>
+				<td>
+				<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:Christ_Church_Rockville.jpg" class="image" title="Christ Episcopal Church, Rockville, Maryland"><img alt="Christ Episcopal Church, Rockville, Maryland" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Christ_Church_Rockville.jpg/100px-Christ_Church_Rockville.jpg" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Christ_Church_Rockville.jpg/150px-Christ_Church_Rockville.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Christ_Church_Rockville.jpg/200px-Christ_Church_Rockville.jpg 2x" data-file-width="3264" data-file-height="2448"></a></div>
+				</td>
+				<td>Prince George's Parish</td>
+				<td><a href="/wiki/Rockville,_Maryland" title="Rockville, Maryland">Rockville</a><br>
+				107 S. Washington Street</td>
+				<td><a href="/wiki/Montgomery_County,_Maryland" title="Montgomery County, Maryland">Montgomery</a></td>
+				<td>1726</td>
+				<td>Active Parish</td>
+				<td>No</td>
+				<td>Now in <a href="/wiki/Episcopal_Diocese_of_Washington" title="Episcopal Diocese of Washington">Episcopal Diocese of Washington</a>; other parish church before creation of Montgomery County and Washington, D.C. is <a href="/wiki/St._Paul%27s_Episcopal_Church,_Rock_Creek_Parish_(Washington,_D.C.)" title="St. Paul's Episcopal Church, Rock Creek Parish (Washington, D.C.)">St. Paul's Episcopal Church, Rock Creek Parish (Washington, D.C.)</a>, whose current structure built 1775 is older than this rebuilt building</td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.christchurchrockville.org/">[4]</a></td>
+				</tr>
+				<tr>
+				<td>05; <a href="/wiki/St._Barnabas_Church_(Upper_Marlboro,_Maryland)" title="St. Barnabas Church (Upper Marlboro, Maryland)" class="mw-redirect">St. Barnabas' Episcopal Church, Leeland</a></td>
+				<td><a href="http://en.wikipedia.org/wiki/File:St._Barnabas_1.jpg" class="image"><img alt="St. Barnabas 1.jpg" src="http://upload.wikimedia.org/wikipedia/en/thumb/e/e8/St._Barnabas_1.jpg/100px-St._Barnabas_1.jpg" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/en/thumb/e/e8/St._Barnabas_1.jpg/150px-St._Barnabas_1.jpg 1.5x, http://upload.wikimedia.org/wikipedia/en/thumb/e/e8/St._Barnabas_1.jpg/200px-St._Barnabas_1.jpg 2x" data-file-width="640" data-file-height="480"></a></td>
+				<td>Queen Anne</td>
+				<td><a href="/wiki/Upper_Marlboro,_Maryland" title="Upper Marlboro, Maryland">Upper Marlboro</a><br>
+				14705 Oak Grove Road</td>
+				<td><a href="/wiki/Prince_George%27s_County,_Maryland" title="Prince George's County, Maryland">Prince George's</a></td>
+				<td>1704</td>
+				<td>Active parish</td>
+				<td>No</td>
+				<td>now in <a href="/wiki/Episcopal_Diocese_of_Washington" title="Episcopal Diocese of Washington">Episcopal Diocese of Washington</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.stbarnabas.net/">[5]</a></td>
+				</tr>
+				<tr>
+				<td>06. <a href="/wiki/Christ_Church_Guilford" title="Christ Church Guilford">Christ Church, Columbia</a></td>
+				<td><a href="http://en.wikipedia.org/wiki/File:Christ_Church_Guilford_Sept_09.JPG" class="image"><img alt="Christ Church Guilford Sept 09.JPG" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Christ_Church_Guilford_Sept_09.JPG/100px-Christ_Church_Guilford_Sept_09.JPG" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Christ_Church_Guilford_Sept_09.JPG/150px-Christ_Church_Guilford_Sept_09.JPG 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Christ_Church_Guilford_Sept_09.JPG/200px-Christ_Church_Guilford_Sept_09.JPG 2x" data-file-width="2592" data-file-height="1944"></a></td>
+				<td>Queen Caroline Parish</td>
+				<td><a href="/wiki/Columbia,_Maryland" title="Columbia, Maryland">Columbia</a><br>
+				6800 Oakland Mills Road</td>
+				<td><a href="/wiki/Howard_County,_Maryland" title="Howard County, Maryland">Howard</a></td>
+				<td>1728</td>
+				<td>Active parish</td>
+				<td>Yes</td>
+				<td>Howard County split from Anne Arundel County in 1838</td>
+				<td><a rel="nofollow" class="external autonumber" href="http://christchurchcolumbia.org/">[6]</a></td>
+				</tr>
+				<tr>
+				<td>07. <a href="/wiki/St._Andrew%27s_Church_(Leonardtown,_Maryland)" title="St. Andrew's Church (Leonardtown, Maryland)">St. Andrew's Church, Leonardtown</a></td>
+				<td><a href="http://en.wikipedia.org/wiki/File:St_Andrews_Church_Jul_09.JPG" class="image"><img alt="St Andrews Church Jul 09.JPG" src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/St_Andrews_Church_Jul_09.JPG/100px-St_Andrews_Church_Jul_09.JPG" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/St_Andrews_Church_Jul_09.JPG/150px-St_Andrews_Church_Jul_09.JPG 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/3/34/St_Andrews_Church_Jul_09.JPG/200px-St_Andrews_Church_Jul_09.JPG 2x" data-file-width="2592" data-file-height="1944"></a></td>
+				<td>St. Andrew's Parish</td>
+				<td><a href="/wiki/California,_Maryland" title="California, Maryland">California</a><br>
+				44078 St. Andrew's Church Road</td>
+				<td><a href="/wiki/St._Mary%27s_County,_Maryland" title="St. Mary's County, Maryland">St. Mary's</a></td>
+				<td>1744</td>
+				<td>Active parish</td>
+				<td>Yes</td>
+				<td>now in <a href="/wiki/Episcopal_Diocese_of_Washington" title="Episcopal Diocese of Washington">Episcopal Diocese of Washington</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.standrewssomd.org/">[7]</a></td>
+				</tr>
+				<tr>
+				<td>08. <a href="/wiki/St._Paul%27s_Episcopal_Church_(Hillsboro,_Maryland)" title="St. Paul's Episcopal Church (Hillsboro, Maryland)">St. Paul's, Hillsboro</a></td>
+				<td><a href="http://en.wikipedia.org/wiki/File:St_Pauls_Hillsboro.jpg" class="image"><img alt="St Pauls Hillsboro.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St_Pauls_Hillsboro.jpg/100px-St_Pauls_Hillsboro.jpg" width="100" height="88" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St_Pauls_Hillsboro.jpg/150px-St_Pauls_Hillsboro.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St_Pauls_Hillsboro.jpg/200px-St_Pauls_Hillsboro.jpg 2x" data-file-width="478" data-file-height="423"></a></td>
+				<td>St John's Parish</td>
+				<td><a href="/wiki/Hillsboro,_Maryland" title="Hillsboro, Maryland">Hillsboro</a><br>
+				Church Street, south of <a href="/wiki/Maryland_Route_404" title="Maryland Route 404">MD 404</a></td>
+				<td><a href="/wiki/Caroline_County,_Maryland" title="Caroline County, Maryland">Caroline</a></td>
+				<td>1748</td>
+				<td>Inactive</td>
+				<td>Yes</td>
+				<td>Caroline County split off Queen Anne's County in 1773; <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a> retreat center within former parish</td>
+				<td></td>
+				</tr>
+				<tr>
+				<td>09. <a href="/wiki/St._James_Church_(Monkton,_Maryland)" title="St. James Church (Monkton, Maryland)">St. James Church, Monkton</a></td>
+				<td>
+				<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:St._James_Church,_Monkton.jpg" class="image" title="St. James Episcopal Church, Monkton, Maryland"><img alt="St. James Episcopal Church, Monkton, Maryland" src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/St._James_Church%2C_Monkton.jpg/100px-St._James_Church%2C_Monkton.jpg" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/St._James_Church%2C_Monkton.jpg/150px-St._James_Church%2C_Monkton.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/St._James_Church%2C_Monkton.jpg/200px-St._James_Church%2C_Monkton.jpg 2x" data-file-width="3264" data-file-height="2448"></a></div>
+				</td>
+				<td>St. James' Parish</td>
+				<td><a href="/wiki/Monkton,_Maryland" title="Monkton, Maryland">Monkton</a><br>
+				3100 Monkton Road</td>
+				<td><a href="/wiki/Baltimore_County,_Maryland" title="Baltimore County, Maryland">Baltimore <i>County</i></a></td>
+				<td>1770</td>
+				<td>Active parish</td>
+				<td>Yes</td>
+				<td>former chapel of ease for St. John's Parish, Joppatowne</td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.saintjames.org/">[8]</a></td>
+				</tr>
+				<tr>
+				<td>10. <a href="/wiki/St._Luke%27s_Church_(Church_Hill,_Maryland)" title="St. Luke's Church (Church Hill, Maryland)">St. Luke's Church, Church Hill</a></td>
+				<td>
+				<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:St.LukesLRWalls.jpg" class="image" title="St.LukesLRWalls"><img alt="St.LukesLRWalls" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/St.LukesLRWalls.jpg/100px-St.LukesLRWalls.jpg" width="100" height="66" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/St.LukesLRWalls.jpg/150px-St.LukesLRWalls.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/St.LukesLRWalls.jpg/200px-St.LukesLRWalls.jpg 2x" data-file-width="1600" data-file-height="1061"></a></div>
+				</td>
+				<td>St. Luke's Parish</td>
+				<td><a href="/wiki/Church_Hill,_Maryland" title="Church Hill, Maryland">Church Hill</a></td>
+				<td><a href="/wiki/Queen_Anne%27s_County,_Maryland" title="Queen Anne's County, Maryland">Queen Anne's</a></td>
+				<td>1728</td>
+				<td>Active parish</td>
+				<td>Yes</td>
+				<td>now in <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.stlukesandstandrews.org/">[9]</a></td>
+				</tr>
+				<tr>
+				<td>11. <a href="/wiki/St._Mary_Anne%27s_Episcopal_Church" title="St. Mary Anne's Episcopal Church">St. Mary Anne's Episcopal Church</a>, North East</td>
+				<td><a href="http://en.wikipedia.org/wiki/File:HABS-StMarysNorthEastMD-087136pr.jpg" class="image"><img alt="HABS-StMarysNorthEastMD-087136pr.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/HABS-StMarysNorthEastMD-087136pr.jpg/100px-HABS-StMarysNorthEastMD-087136pr.jpg" width="100" height="70" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/HABS-StMarysNorthEastMD-087136pr.jpg/150px-HABS-StMarysNorthEastMD-087136pr.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/HABS-StMarysNorthEastMD-087136pr.jpg/200px-HABS-StMarysNorthEastMD-087136pr.jpg 2x" data-file-width="4724" data-file-height="3317"></a></td>
+				<td>St. Mary Anne Parish, or North Elk Parish</td>
+				<td><a href="/wiki/North_East,_Maryland" title="North East, Maryland">North East</a><br>
+				315 South Main Street</td>
+				<td><a href="/wiki/Cecil_County,_Maryland" title="Cecil County, Maryland">Cecil</a></td>
+				<td>1706</td>
+				<td>Active parish</td>
+				<td>No</td>
+				<td>now in <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.stmaryanne.org/">[10]</a></td>
+				</tr>
+				<tr>
+				<td>12. Christ Church, Denton</td>
+				<td>
+				<div class="floatleft"><a href="http://en.wikipedia.org/wiki/File:Christ_church_denton.JPG" class="image"><img alt="Christ church denton.JPG" src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Christ_church_denton.JPG/100px-Christ_church_denton.JPG" width="100" height="177" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Christ_church_denton.JPG/150px-Christ_church_denton.JPG 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Christ_church_denton.JPG/200px-Christ_church_denton.JPG 2x" data-file-width="296" data-file-height="524"></a></div>
+				</td>
+				<td>St. Mary's Whitechapel Parish</td>
+				<td><a href="/wiki/Denton,_Maryland" title="Denton, Maryland">Denton</a><br>
+				105 Gay Street</td>
+				<td><a href="/wiki/Caroline_County,_Maryland" title="Caroline County, Maryland">Caroline</a></td>
+				<td>1725</td>
+				<td>Active parish</td>
+				<td>No</td>
+				<td>Caroline County split from Dorchester County in 1773; now in <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.dioceseofeaston.org/denton.html">[11]</a></td>
+				</tr>
+				<tr>
+				<td>13. <a href="/wiki/St._Thomas_Church_(Owings_Mills,_Maryland)" title="St. Thomas Church (Owings Mills, Maryland)">St. Thomas Church, Owings Mills</a></td>
+				<td><a href="http://en.wikipedia.org/wiki/File:St_Thomas_Church_Owings_Mills_MD_01.jpg" class="image"><img alt="St Thomas Church Owings Mills MD 01.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/St_Thomas_Church_Owings_Mills_MD_01.jpg/100px-St_Thomas_Church_Owings_Mills_MD_01.jpg" width="100" height="75" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/St_Thomas_Church_Owings_Mills_MD_01.jpg/150px-St_Thomas_Church_Owings_Mills_MD_01.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/St_Thomas_Church_Owings_Mills_MD_01.jpg/200px-St_Thomas_Church_Owings_Mills_MD_01.jpg 2x" data-file-width="1600" data-file-height="1200"></a></td>
+				<td>St. Thomas' Parish</td>
+				<td><a href="/wiki/Owings_Mills,_Maryland" title="Owings Mills, Maryland">Owings Mills</a><br>
+				232 St. Thomas Lane</td>
+				<td><a href="/wiki/Baltimore_County,_Maryland" title="Baltimore County, Maryland">Baltimore <i>County</i></a></td>
+				<td>1742</td>
+				<td>Active parish</td>
+				<td>Yes</td>
+				<td></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://www.stthomaschurch.us/">[12]</a></td>
+				</tr>
+				<tr>
+				<td>14. Trinity Church, Charles County</td>
+				<td></td>
+				<td>Trinity Parish</td>
+				<td><a href="/wiki/Newport,_Charles_County,_Maryland" title="Newport, Charles County, Maryland">Newport</a><br>
+				Trinity Church<br>
+				9560 Trinity Church Road<br>
+				<a href="/wiki/Hughesville,_Maryland" title="Hughesville, Maryland">Hughesville</a><br>
+				Oldfields Chapel<br>
+				15837 Prince Frederick Road</td>
+				<td><a href="/wiki/Charles_County,_Maryland" title="Charles County, Maryland">Charles</a></td>
+				<td>1744</td>
+				<td>Active parish</td>
+				<td>No</td>
+				<td>now in <a href="/wiki/Episcopal_Diocese_of_Washington" title="Episcopal Diocese of Washington">Episcopal Diocese of Washington</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://trinitynewport.edow.org/">[13]</a></td>
+				</tr>
+				<tr>
+				<td>15. St. Paul's Episcopal Church, Worcester Parish</td>
+				<td><a href="http://en.wikipedia.org/wiki/File:St._Pauls_Berlin.jpg" class="image"><img alt="St. Pauls Berlin.jpg" src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/St._Pauls_Berlin.jpg/100px-St._Pauls_Berlin.jpg" width="100" height="58" srcset="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/St._Pauls_Berlin.jpg/150px-St._Pauls_Berlin.jpg 1.5x, http://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/St._Pauls_Berlin.jpg/200px-St._Pauls_Berlin.jpg 2x" data-file-width="717" data-file-height="416"></a></td>
+				<td>Worcester Parish</td>
+				<td><a href="/wiki/Berlin,_Maryland" title="Berlin, Maryland">Berlin</a><br>
+				St. Paul's<br>
+				3 Church Street<br>
+				<a href="/wiki/Showell,_Maryland" title="Showell, Maryland">Showell</a><br>
+				<a href="/wiki/St._Martin%27s_Episcopal_Church_(Showell,_Maryland)" title="St. Martin's Episcopal Church (Showell, Maryland)">St. Martin's, 1756</a></td>
+				<td><a href="/wiki/Worcester_County,_Maryland" title="Worcester County, Maryland">Worcester</a></td>
+				<td>1753</td>
+				<td>Active parish*</td>
+				<td>Yes*</td>
+				<td>*St. Paul's is active while<br>
+				St. Martin's, on the NRHP, is now a church museum. Now in <a href="/wiki/Episcopal_Diocese_of_Easton" title="Episcopal Diocese of Easton">Episcopal Diocese of Easton</a></td>
+				<td><a rel="nofollow" class="external autonumber" href="http://stpaulse.ipower.com/index.html">[14]</a></td>
+				</tr>
+				</tbody><tfoot></tfoot></table>
+<!-- Table content END -->
+			</div>
+		</div>
+	</div>
+	<div class="submit-panel">
+		<label id="decission-status" class="redDec">There is no single key column</label>
+		&nbsp;&nbsp;&nbsp;
+		<button id="demand" type="button" class="decissionButton" onclick="isDemand()">Submit (s)</button>
+	</div>
+</body>
+</html>
+
+<!-- Comments:
+	
+-->

@@ -1,12 +1,5 @@
-coverage==3.7.1
-Cython==0.22
-django-filter==0.9.2
-djangorestframework==3.1.0
-html2text==2015.4.14
+beautifulsoup4==4.3.2
+Django==1.8.2
 inflect==0.2.5
-ipython==3.1.0
-Markdown==2.6
-numpy==1.9.2
-pyhdb==0.2.3
-pyxdg==0.25
-team==1.0
+requests==2.7.0
+wikipedia==1.4.0

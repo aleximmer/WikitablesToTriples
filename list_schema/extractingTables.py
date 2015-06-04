@@ -86,12 +86,13 @@ def extractUniqueColumns( htmlTable ):
 	
 	# 2.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind
 	uniqueCols = []
+	
 	for j in range(colCount):
 		# Bereits angesehen Werte zwischenspeichern (für Einzigartigkeits-Check)
 		checkedValues = [0 for i in range(rowCount)]
 		unique = True
 		for i in range(rowCount):
-			value = tableData[i][j].strip() # Take plain text and remove alle white spaces from the side
+			value = tableData[i][j].strip() # Take plain text and remove all white spaces from the side
 			if value in checkedValues:
 				unique = False
 				break
@@ -197,18 +198,21 @@ def validateRatings( cols ):
 	cols.sort(key=lambda obj: obj['rating'], reverse=True)
 	rating1 = cols[0]['rating']
 	rating2 = cols[1]['rating']
+
 	# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
-	if (rating2 / rating1) > 0.85:
+	if round(rating2 / rating1, 2) > 0.85:
+		print('FAILED: Key column isn\'t clearly enough (beyond 15 % rating difference)')
 		return None
 	
 	# Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
 	if cols[0]['multipleEntities']:
-		return None
+		print('WARNING: Key column has fields with multiple entities')
 	
 	rowCount = len(cols[0]['entries'])
 	entityCount = cols[0]['entityCount']
 	# Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte nicht ausreichend verwertbar
 	if (entityCount / rowCount) < 0.4:
+		print('FAILED: Key column hasn\'t enough entities for later usage')
 		return None
 	
 	return cols[0]
@@ -258,16 +262,22 @@ def test( fileName ):
 
 	# Validiere die Bewertungen der Spalten
 	keyCol = validateRatings(uniqueCols)
+	if keyCol == None:
+		print('Keine Key-Spalte gefunden!')
 
 	# Ausgabe:
-	if (len(sys.argv) > 1) and ('-showCSV' in sys.argv):
-		# Zeige die Bewerungswerte der einzelnen Runden im CSV-Format:
+	if keyCol == None or ((len(sys.argv) > 1) and ('-showCSV' in sys.argv)):
+		# Zeige die Bewertungsergebnisse der einzelnen Runden im CSV-Format:
 		roundsResultsAsCSV = '"";"Runde 1"; "Runde 2"; "Runde 3"\n'
 		for i in range(len(roundsResults[0])):
 			roundsResultsAsCSV += '"'+uniqueCols[i]['title']+'";"'+str(roundsResults[0][i])+'";"'+str(roundsResults[1][i])+'";"'+str(roundsResults[2][i])+'"\n'
 		roundsResultsAsCSV = roundsResultsAsCSV[:-1] # Letzten Zeilenumbruch entfernen
 		print(roundsResultsAsCSV)
 	else:
+		fieldCount = len(keyCol['entries'])
+		keyCol['fieldCount'] = fieldCount
+		if fieldCount > 100:
+			keyCol['entries'] = keyCol['entries'][:100]
 		print(json.dumps(keyCol, sort_keys=True, indent=4))
 
 if (len(sys.argv) > 1) and (sys.argv[1][-4:] == '.txt'):
