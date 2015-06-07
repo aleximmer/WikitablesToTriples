@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-
+from sparql import getPredicates
 
 class Table:
 
@@ -50,8 +50,8 @@ class Table:
         return self.rows[i]
 
     def column(self, key):
-        if type(key) is int:
-            return []
+        i = key if type(key) is int else self.columnNames.index(key)
+        return [row[i] for row in self.rows]
 
     def skipTable(self):
         # Skip tables with rowspan/colspan
