@@ -57,6 +57,34 @@ class Table:
         # Skip tables with rowspan/colspan
         return True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]
 
+    def getPredicatesForColumns(self, from, to):
+        fromColumn = self.column(from)
+        valueStore = dict()
+        toColumn = self.column(to)
+        for i in range(0, len(columns)):
+            content, check = getContent(fromColumn[i])
+            if check:
+                 for predicates in getPredicates(content, toColumn[i]):
+                    if predicates in valueStore:
+                        valueStore[predicates] += 1
+                        else:
+                            valueStore[predicates] = 1
+        return valueStore
+
+
+
+
+    def getContent(cell):
+        link = soup.find('a', href = true)
+        if (not link):
+            literal = soup.stripped_strings[0]
+            return literal, false
+        else:
+            return link.replace('http://en.wikipedia.org/wiki', '<http://dbpedia.org/resource') + '>', true
+
+
+
+
     # def populateRows(self):
     #     trs = [tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
     #     rowLength = len(max(trs, lambda tr: len(tr)))
