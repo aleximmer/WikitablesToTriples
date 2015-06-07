@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from sparql import getPredicates
+from wikitables.sparql import getPredicates
 
 class Table:
 
@@ -57,30 +57,30 @@ class Table:
         # Skip tables with rowspan/colspan
         return True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]
 
-    def getPredicatesForColumns(self, from, to):
-        fromColumn = self.column(from)
+    def getPredicatesForColumns(self, fromColumn, toColumn):
+        fromData = self.column(fromColumn)
+        toData = self.column(toColumn)
         valueStore = dict()
-        toColumn = self.column(to)
-        for i in range(0, len(columns)):
-            content, check = getContent(fromColumn[i])
+        for i in range(0, len(fromData)):
+            fromContent, check = self.getContent(fromData[i])
+            toContent, _ = self.getContent(toData[i])
+
             if check:
-                 for predicates in getPredicates(content, toColumn[i]):
-                    if predicates in valueStore:
-                        valueStore[predicates] += 1
-                        else:
-                            valueStore[predicates] = 1
+                for predicate in getPredicates(fromContent, toContent):
+                    if predicate in valueStore:
+                        valueStore[predicate] += 1
+                    else:
+                        valueStore[predicate] = 1
+
         return valueStore
 
-
-
-
-    def getContent(cell):
-        link = soup.find('a', href = true)
-        if (not link):
-            literal = soup.stripped_strings[0]
-            return literal, false
+    def getContent(self, cell):
+        link = cell.find('a', href = True)
+        if not link:
+            literal = list(cell.strings)[0]
+            return literal, False
         else:
-            return link.replace('http://en.wikipedia.org/wiki', '<http://dbpedia.org/resource') + '>', true
+            return link['href'].replace('/wiki', '<http://dbpedia.org/resource') + '>', True
 
 
 
