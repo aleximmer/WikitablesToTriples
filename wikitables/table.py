@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-
+from sparql import getPredicates
 
 class Table:
 
