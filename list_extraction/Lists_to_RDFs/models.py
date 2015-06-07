@@ -6,6 +6,7 @@ class WikiList(models.Model):
 	html = models.TextField()
 	summary = models.TextField()
 	url = models.URLField()
+	has_tables = models.BooleanField(default=False)
 
 	def __str__(self):
 		return self.title
@@ -19,6 +20,13 @@ class WikiList(models.Model):
 		verbose_name='Wikipedia List'
 		verbose_name_plural='Wikipedia Lists'
 
+class WikiTable(models.Model):
+	wiki_list = models.ForeignKey(WikiList)
+	title = models.CharField(max_length=128)
+	html = models.TextField()
+
+	def __str__(self):
+		return self.title
 
 class RDF(models.Model):
 	wiki_list = models.ForeignKey(WikiList)

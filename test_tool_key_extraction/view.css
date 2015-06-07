@@ -1,0 +1,101 @@
+.container2 {
+	padding: 50px;
+	padding-top: 30px;
+}
+
+body {
+	background-color: #FFF;
+}
+
+h1 {
+	display: inline-table;
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
+.table-content-view {
+	position: absolute;
+	left: 50px;
+	top: 110px;
+	bottom: 90px;
+	right: 50px;
+	border: solid 2px #AAA;
+	background-color: #EEF;
+	padding: 5px;
+	overflow: auto;
+}
+
+.table-source-view {
+	text-align: right;
+	color: #555;
+	padding: 5px;
+}
+
+#decision-control {
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+#decission-status {
+	position: absolute;
+	font-size: 15px;
+	border-style: solid;
+	border-width: 2px;
+	padding: 12px 20px;
+	margin-right: 50px;
+	min-width: 230px;
+	text-align: center;
+	left: 40px;
+}
+
+.greenDec {
+	background-color: #AFA;
+	border-color: #ACA;
+}
+
+.redDec {
+	background-color: #FAA;
+	border-color: #CAA;
+}
+
+.noDec {
+	background-color: #CCC;
+	border-color: #888;
+}
+
+.submit-panel {
+	position: absolute;
+	height: 60px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding-top: 10px;
+	padding-left: 50px;
+	border-top: solid 2px #DDD;
+	background-color: #FFF;
+}
+
+.decissionButton {
+	position: absolute;
+	left: 360px;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	background-color: #DDD;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+}
+
+.decissionButton:hover, .decissionButton:focus, .decissionButton:active {
+	background-color: #CCC;
+}
