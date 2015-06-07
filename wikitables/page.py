@@ -1,9 +1,9 @@
 import wikipedia
 from bs4 import BeautifulSoup
-import urllib
+import requests
 from wikitables.table import Table
 
-class TablePage:
+class Page:
 
     """This class abstracts Wikipedia articles to add table extraction functionality."""
 
@@ -19,12 +19,12 @@ class TablePage:
         self.contentOnly = contentOnly
 
     def __repr__(self):
-        return "Title:\n\t%s\nTables:\n\t" % self.title + "\n\t".join([str(t) for t in self.tables])
+        return "Title:\n\t%s\n\t%s\nTables:\n\t" % (self.title, self.url) + "\n\t".join([str(t) for t in self.tables])
 
     @property
     def html(self):
         if not self._html:
-            self._html = urllib.request.urlopen(self.url).read()
+            self._html = requests.get(self.url).text
         return self._html
 
     @property
@@ -41,3 +41,6 @@ class TablePage:
         if not self._tables:
             self._tables = [Table(table) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
+
+    def hasTable(self):
+        return True if self.tables else False

@@ -1,2 +1,2 @@
-from wikitables.page import TablePage
+from wikitables.page import Page
 from wikitables.table import Table
