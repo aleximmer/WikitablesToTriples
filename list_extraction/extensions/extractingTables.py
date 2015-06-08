@@ -3,7 +3,7 @@
 from bs4 import BeautifulSoup
 import codecs
 import json
-import inflect
+import extensions.inflect as inflect
 import math
 import sys
 
@@ -68,8 +68,7 @@ def extractUniqueColumns( htmlTable ):
 	quickView = htmlTable[0:50]+' [...]'
 	
 	# 1.) Alle Spalten als 2D-Array extrahieren
-	body = soup.find('tbody')
-	rows = body.findAll('tr')
+	rows = soup.findAll('tr')
 	rowCount = len(rows)
 	colCount = len(rows[0].findAll('td'))
 	# Wenn die erste Zeile die Kopfzeile war, hat sie keine td-Tags -> Nächste Zeile nehmen
@@ -219,58 +218,3 @@ def saveCSVData( roundsResults, cols, round ):
 	roundsResults.append([])
 	for col in cols:
 		roundsResults[round].append(col['rating'])
-
-############################################# Testing ##############################################
-
-def test( fileName ):
-	# Open HTML file
-	htmlTable = open('Testing/'+fileName).read().replace('\n', ' ')
-	
-	# Extract articleName (and tableTitle) by fileName
-	parts = fileName.split('_')
-	articleName = parts[0]
-	if len(parts) > 2:
-		tableTitle = parts[2].split('.')[0]
-	else:
-		tableTitle = None
-	print('Testing: '+articleName)
-	
-	# Extracting and rating columns
-	uniqueCols = extractUniqueColumns(htmlTable)
-	roundsResults = []
-	
-	# Rating:
-
-	# Zähle die Entities pro Spalte
-	countEntities(uniqueCols)
-
-	saveCSVData(roundsResults, uniqueCols, 0)
-
-	# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-	valuateByName(uniqueCols, articleName)
-
-	saveCSVData(roundsResults, uniqueCols, 1)
-
-	# Umso weiter links, umso wertvoller ist die Spalte
-	valuateByPosition(uniqueCols)
-
-	saveCSVData(roundsResults, uniqueCols, 2)
-
-	# Validiere die Bewertungen der Spalten
-	keyCol = validateRatings(uniqueCols)
-
-	# Ausgabe:
-	if (len(sys.argv) > 1) and ('-showCSV' in sys.argv):
-		# Zeige die Bewerungswerte der einzelnen Runden im CSV-Format:
-		roundsResultsAsCSV = '"";"Runde 1"; "Runde 2"; "Runde 3"\n'
-		for i in range(len(roundsResults[0])):
-			roundsResultsAsCSV += '"'+uniqueCols[i]['title']+'";"'+str(roundsResults[0][i])+'";"'+str(roundsResults[1][i])+'";"'+str(roundsResults[2][i])+'"\n'
-		roundsResultsAsCSV = roundsResultsAsCSV[:-1] # Letzten Zeilenumbruch entfernen
-		print(roundsResultsAsCSV)
-	else:
-		print(json.dumps(keyCol, sort_keys=True, indent=4))
-
-if (len(sys.argv) > 1) and (sys.argv[1][-4:] == '.txt'):
-	test(sys.argv[1])
-else:
-	test('List of post-1692 Anglican parishes in the Province of Maryland_1.txt')
