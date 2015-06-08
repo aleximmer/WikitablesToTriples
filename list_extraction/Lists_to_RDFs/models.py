@@ -24,6 +24,9 @@ class WikiTable(models.Model):
 	wiki_list = models.ForeignKey(WikiList)
 	title = models.CharField(max_length=128)
 	html = models.TextField()
+	checked = models.BooleanField(default=False)
+	algo_col = models.CharField(max_length=128, blank=True, null=True)
+	hum_col = models.CharField(max_length=128, blank=True, null=True)
 
 	def __str__(self):
 		return self.title

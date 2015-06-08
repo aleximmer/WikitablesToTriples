@@ -1,9 +1,9 @@
 data/lists_of
 node_modules/
 Sandbox
+scripts
 script.py
 list_schema/*.png
-
 *.pyc
 # Byte-compiled / optimized / DLL files
 __pycache__/
