@@ -11,8 +11,8 @@ class Page:
     _soup = None
     _tables = None
 
-    """Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections."""
     def __init__(self, title, contentOnly=True):
+        """Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections."""
         self.page = wikipedia.page(title)
         self.title = self.page.title
         self.url = self.page.url

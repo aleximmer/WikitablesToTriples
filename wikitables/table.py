@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
-from wikitables.sparql import getPredicates
+import wikitables.sparql as sparql
+import itertools
 
 class Table:
 
@@ -57,33 +58,40 @@ class Table:
         # Skip tables with rowspan/colspan
         return True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]
 
-    def getPredicatesForColumns(self, fromColumn, toColumn):
-        fromData = self.column(fromColumn)
-        toData = self.column(toColumn)
-        valueStore = dict()
-        for i in range(0, len(fromData)):
-            fromContent, check = self.getContent(fromData[i])
-            toContent, _ = self.getContent(toData[i])
+    def predicatesForColumns(self, subColumn, objColumn, relative=False):
+        """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
+        Set 'relative' to True if you want relative occurances."""
+        subData = self.column(subColumn)
+        objData = self.column(objColumn)
+        predicates = {}
+        for i in range(0, len(subData)):
+            subContent = sparql.cellContent(subData[i])
+            objContent = sparql.cellContent(objData[i])
 
-            if check:
-                for predicate in getPredicates(fromContent, toContent):
-                    if predicate in valueStore:
-                        valueStore[predicate] += 1
-                    else:
-                        valueStore[predicate] = 1
+            if not sparql.isResource(subContent):
+                continue
 
-        return valueStore
+            for predicate in sparql.predicates(subContent, objContent):
+                if predicate in predicates:
+                    predicates[predicate] += 1
+                else:
+                    predicates[predicate] = 1
 
-    def getContent(self, cell):
-        link = cell.find('a', href = True)
-        if not link:
-            literal = list(cell.strings)[0]
-            return literal, False
-        else:
-            return link['href'].replace('/wiki', '<http://dbpedia.org/resource') + '>', True
+        if relative:
+            for p in predicates:
+                predicates[p] /= len(subData)
 
+        return predicates
 
-
+    def predicatesForAllColumns(self, relative=False):
+        predicates = []
+        for subColumn, objColumn in itertools.permutations(self.columnNames, 2):
+            predicates.append({
+                'subject': subColumn,
+                'object': objColumn,
+                'predicates': self.predicatesForColumns(subColumn, objColumn, relative)
+            })
+        return predicates
 
     # def populateRows(self):
     #     trs = [tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
