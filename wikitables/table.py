@@ -13,7 +13,7 @@ class Table:
         self.body = soup.find('tbody')
         self.section = self._section()
         self.columnNames = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
-        self.rows = [tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
+        self.rows = [tr.findAll('th') + tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
 
     def __repr__(self):
         if self.caption:
@@ -79,18 +79,22 @@ class Table:
 
         if relative:
             for p in predicates:
-                predicates[p] /= len(subData)
+                predicates[p] = round(predicates[p]/len(subData), 2)
 
         return predicates
 
-    def predicatesForAllColumns(self, relative=False):
+    def predicatesForAllColumns(self, relative=False, omit=False):
+        """Return predicates between all permutations of columns.
+        Set 'omit' to 'True' to leave out empty ones."""
         predicates = []
         for subColumn, objColumn in itertools.permutations(self.columnNames, 2):
-            predicates.append({
-                'subject': subColumn,
-                'object': objColumn,
-                'predicates': self.predicatesForColumns(subColumn, objColumn, relative)
-            })
+            pred = self.predicatesForColumns(subColumn, objColumn, relative)
+            if pred or not omit:
+                predicates.append({
+                    'subject': subColumn,
+                    'object': objColumn,
+                    'predicates': pred
+                })
         return predicates
 
     # def populateRows(self):
