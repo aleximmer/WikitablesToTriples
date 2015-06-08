@@ -67,38 +67,55 @@ def extractUniqueColumns( htmlTable ):
 	soup = BeautifulSoup(htmlTable)
 	quickView = htmlTable[0:50]+' [...]'
 	
-	# 1.) Alle Spalten als 2D-Array extrahieren
+	# Um Indexierungsprobleme komplett zu vermeiden TH durch TD ersetzen + THEAD & TBODY löschen
+	
+	# 1.) Überprüfen ob die Tabelle ein gültiges Format hat
+	rowSpan = htmlTable.find('rowspan')
+	colSpan = htmlTable.find('colspan')
+	if (rowSpan >= 0) or (colSpan >= 0):
+		raise ValueError('Table uses not supported formattings (rowspan or colspan): ' + quickView)
+	
+	# 2.) Alle Spalten als 2D-Array extrahieren
 	rows = soup.findAll('tr')
 	rowCount = len(rows)
 	colCount = len(rows[0].findAll('td'))
+	firstLineIsHeader = False
 	# Wenn die erste Zeile die Kopfzeile war, hat sie keine td-Tags -> Nächste Zeile nehmen
 	if colCount == 0:
 		if rowCount > 1:
+			firstLineIsHeader = True
 			colCount = len(rows[1].findAll('td'))
+			rowCount -= 1
 		else:
 			raise ValueError('Table doesn\'t contain rows (except the head line): ' + quickView)
 	
-	# 2D-Array der HTML-Tabelle erzeugen
+	# 3.) 2D-Array der HTML-Tabelle erzeugen
 	# Es wird nur der richtige Plaintext verglichen, aber der ganze HTML-Code gespeichert
-	tableData = [[dataField.getText() for dataField in rows[i].findAll('td')] for i in range(rowCount)]
-	tableDataRaw = [[str(dataField) for dataField in rows[i].findAll('td')] for i in range(rowCount)]
+	if firstLineIsHeader:
+		tableData = [[dataField.getText() for dataField in rows[i+1].findAll('td')] for i in range(rowCount)]
+		tableDataRaw = [[str(dataField) for dataField in rows[i+1].findAll('td')] for i in range(rowCount)]
+	else:
+		tableData = [[dataField.getText() for dataField in rows[i].findAll('td')] for i in range(rowCount)]
+		tableDataRaw = [[str(dataField) for dataField in rows[i].findAll('td')] for i in range(rowCount)]
 	
-	# 2.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind
+	# 4.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind (Vergleicht dafür inkl. Tags)
 	uniqueCols = []
 	for j in range(colCount):
 		# Bereits angesehen Werte zwischenspeichern (für Einzigartigkeits-Check)
 		checkedValues = [0 for i in range(rowCount)]
 		unique = True
 		for i in range(rowCount):
-			value = tableData[i][j].strip() # Take plain text and remove alle white spaces from the side
+			#FIXME: "list index out of range" -> tableData[0] leer -> findAll('td') hat nichts gefunden
+			# -> Header-Zeile wurde mitgelesen (soll nicht passieren)
+			value = tableDataRaw[i][j].strip() # Take plain text and remove alle white spaces from the side
 			if value in checkedValues:
 				unique = False
 				break
 			else:
 				checkedValues[i] = tableDataRaw[i][j].strip()
 		if unique:
-			# Alle Einträge der möglichen Key-Spalte als Array speichern
-			uniqueCols.append({'xPos': j, 'entries': checkedValues})
+			# Alle Einträge der möglichen Key-Spalte als Array speichern (plain, nicht raw)
+			uniqueCols.append({'xPos': j, 'entries': [tableData[x][j] for x in range(rowCount)]})
 	if len(uniqueCols) == 0:
 		raise ValueError('Can\'t find any column with unique entries (might be foreing keys)')
 
@@ -195,10 +212,11 @@ def valuateByPosition( cols ):
 def validateRatings( cols ):
 	cols.sort(key=lambda obj: obj['rating'], reverse=True)
 	rating1 = cols[0]['rating']
-	rating2 = cols[1]['rating']
-	# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
-	if (rating2 / rating1) > 0.85:
-		return None
+	if len(cols) > 1:
+		rating2 = cols[1]['rating']
+		# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
+		if (rating2 / rating1) > 0.85:
+			return None
 	
 	# Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
 	if cols[0]['multipleEntities']:
