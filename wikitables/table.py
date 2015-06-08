@@ -54,7 +54,7 @@ class Table:
         i = key if type(key) is int else self.columnNames.index(key)
         return [row[i] for row in self.rows]
 
-    def skipTable(self):
+    def skip(self):
         # Skip tables with rowspan/colspan
         return True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]
 

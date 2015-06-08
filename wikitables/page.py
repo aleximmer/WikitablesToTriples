@@ -46,7 +46,11 @@ class Page:
         return True if self.tables else False
 
     def predicates(self, relative=False, omit=False):
-        return [{
-            'table': repr(table),
-            'predicates': table.predicatesForAllColumns(relative, omit)
-        } for table in self.tables]
+        return {
+            'page': self.title,
+            'predicates': [
+                {
+                    'table': repr(table),
+                    'predicates': table.predicatesForAllColumns(relative, omit)
+                } for table in self.tables if not table.skip()]
+        }

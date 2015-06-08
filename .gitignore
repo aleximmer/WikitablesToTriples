@@ -1,8 +1,7 @@
 data/lists_of
 node_modules/
 Sandbox
-scripts
-script.py
+testdata
 list_schema/*.png
 *.pyc
 # Byte-compiled / optimized / DLL files

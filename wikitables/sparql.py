@@ -53,7 +53,9 @@ def cellContent(cell):
     #Try find a
     a = cell.find('a', href = True)
     if not a:
-        literal = ' '.join(cell.text.strip('\n \"').split())
+        literal = cell.text.strip('\n \"')
+        literal = ' '.join(literal.split())
+        literal = literal.replace('"', '\\"')
         return literal
     else:
         #Handle red links
