@@ -7,8 +7,8 @@ import wikitables as w
 from wikitables import Table, Page
 from helper import *
 
-savePath = '/Users/williraschkowski/Developer/knowledge-miners/scripts/testdata/%s.json'
-with open('/Users/williraschkowski/Developer/knowledge-miners/scripts/TitlesShuffled.csv', 'r') as f:
+savePath = './testdata/%s.json'
+with open('./TitlesShuffled.csv', 'r') as f:
     titles = csv.reader(f)
     count = 0
     next(titles)

@@ -1,7 +1,7 @@
 import os
 import json
 
-testDataPath = '/Users/williraschkowski/Developer/knowledge-miners/scripts/testdata/'
+testDataPath = './testdata/'
 paths = [os.path.join(testDataPath,fn) for fn in next(os.walk(testDataPath))[2] if fn.endswith('.json')]
 
 columnCount = {}

@@ -7,7 +7,7 @@ from random import randint
 from wikitables import Table, Page
 import os
 
-with open('/Users/williraschkowski/Developer/knowledge-miners/scripts/TitlesShuffled.csv', 'r') as f:
+with open('./TitlesShuffled.csv', 'r') as f:
     reader = csv.reader(f)
     for i, row in enumerate(reader):
         try:

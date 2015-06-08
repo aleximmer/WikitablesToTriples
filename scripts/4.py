@@ -8,7 +8,7 @@ from wikitables import Table, Page
 tables = 0
 skipped = 0
 
-with open('/Users/williraschkowski/Developer/knowledge-miners/scripts/tablePages.csv', 'r') as f:
+with open('./tablePages.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         page = row
