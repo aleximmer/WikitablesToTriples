@@ -1,6 +1,13 @@
-.container2 {
+.container {
+	display: none;
 	padding: 50px;
 	padding-top: 30px;
+}
+
+.startContainer {
+	padding: 50px;
+	padding-top: 100px;
+	text-align: center;
 }
 
 body {
@@ -64,6 +71,7 @@ h1 {
 }
 
 .submit-panel {
+	display: none;
 	position: absolute;
 	height: 60px;
 	bottom: 0px;

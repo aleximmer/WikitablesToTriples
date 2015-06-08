@@ -17,10 +17,7 @@
 	<script src="shortcut.js"></script>
 </head>
 <body>
-	<div class="startContainer">
-		<button id="start" type="button" class="decissionButton" onclick="loadNextPost()">Go (g)</button>
-	</div>
-	<div class="container">
+	<div class="container2">
 		<div>
 			<h1>Choose key column!</h1>
 			<br/>
@@ -280,26 +277,20 @@
 	<div class="submit-panel">
 		<label id="decission-status" class="redDec">There is no single key column</label>
 		&nbsp;&nbsp;&nbsp;
-		<button id="demand" type="button" class="decissionButton" onclick="evalResult()">Submit (s)</button>
+		<button id="demand" type="button" class="decissionButton" onclick="valResult()">Submit (s)</button>
 	</div>
 	
 	<script>
 		$(document).keydown(function(e) {
-			if (e.which == 71) // 'g' pressed
-				loadNextPost()
-		    else if(e.which == 83) // 's' pressed
-				evalResult()
-		    else if (e.which == 82) // 'r' pressed
+		    if(e.which == 83) {
+				valResult()
+		    } else if (e.which == 82) {
 				deselectRadioButton()
-			else
+			} else {
 				return
-			
+			}
 		    e.preventDefault(); // prevent the default action (scroll / move caret)
 		});
-		
-		// Onload:
-		$('.container').hide()
-		$('.submit-panel').hide()
 	</script>
 </body>
 </html>
