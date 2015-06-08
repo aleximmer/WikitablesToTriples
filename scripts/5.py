@@ -11,7 +11,7 @@ savePath = './testdata/%s.json'
 with open('./TitlesShuffled.csv', 'r') as f:
     titles = csv.reader(f)
     count = 0
-    next(titles)
+
     for title in titles:
         try:
             page = w.Page(title)
@@ -22,5 +22,6 @@ with open('./TitlesShuffled.csv', 'r') as f:
             json.dump(page.predicates(relative=True, omit=True), f)
 
         count += 1
-        if count == 3:
+        if count == 1:
+            notify(count, 'willi@raschkowski.com', 'PASSWORD')
             exit()
