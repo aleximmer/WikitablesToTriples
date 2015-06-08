@@ -23,7 +23,7 @@ where {
 
 def predicates(sub, obj):
     """Return predicates of form '?sub ?predicate ?obj.'"""
-    
+
     query = (rrQuery if isResource(obj) else rlQuery) % (sub, obj)
     sparql.setQuery(query)
 
@@ -32,6 +32,7 @@ def predicates(sub, obj):
 
     except SPARQLExceptions.QueryBadFormed as e:
         print("error occured with subject: %s, and object: %s" % (sub, obj))
+        print(query)
         return []
 
     else:
@@ -52,7 +53,9 @@ def cellContent(cell):
     #Try find a
     a = cell.find('a', href = True)
     if not a:
-        literal = cell.text.strip()
+        literal = cell.text.strip('\n \"')
+        literal = ' '.join(literal.split())
+        literal = literal.replace('"', '\\"')
         return literal
     else:
         #Handle red links

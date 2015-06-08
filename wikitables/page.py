@@ -44,3 +44,13 @@ class Page:
 
     def hasTable(self):
         return True if self.tables else False
+
+    def predicates(self, relative=False, omit=False):
+        return {
+            'page': self.title,
+            'predicates': [
+                {
+                    'table': repr(table),
+                    'predicates': table.predicatesForAllColumns(relative, omit)
+                } for table in self.tables if not table.skip()]
+        }
