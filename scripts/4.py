@@ -46,5 +46,6 @@ page = w.Page('List of WWE alumni (A\u2013C)')
 #     print(i)
 #     print(table.skip())
 with open('./result.json', 'w') as f:
-    data = page.tables[0].getP
+    data = page.tables[0].predicatesForColumns("Birth name", "Ring name(s)", relative=True)
+    print(json.dumps(data, indent=4))
     json.dump(data, f)

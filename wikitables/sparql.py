@@ -36,7 +36,9 @@ def predicates(sub, obj):
         return []
 
     else:
-        return [r['predicate']['value'] for r in results['results']['bindings'] if r]
+        if "http://www.w3.org/2000/01/rdf-schema#label" in list(set([r['predicate']['value'] for r in results['results']['bindings'] if r])):
+            print(query)
+        return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
 
 
 def cellContent(cell):
