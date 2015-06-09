@@ -2,6 +2,7 @@ import random
 import json
 import sys
 import io
+import time
 
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
@@ -12,26 +13,21 @@ from .models import WikiList, WikiTable
 from .forms import *
 
 from extensions.extractingTables import *
+print('PING')
 
-print(sys.stdout.encoding)
-# Bugfix "\u2014 maps to undefined
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'replace')
-
-#if sys.stdout.encoding != 'cp850':
-#    sys.stdout = codecs.getwriter('cp850')(sys.stdout.buffer, 'strict')
-#if sys.stderr.encoding != 'cp850':
-#    sys.stderr = codecs.getwriter('cp850')(sys.stderr.buffer, 'strict')
-print(sys.stdout.encoding)
+# TODO: Bugfix "\u2014 maps to undefined" but console output is delayed
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'xmlcharrefreplace')
+print('Hi: ' + sys.stdout.errors)
 
 # Create your views here.
 def testKeyExtraction(request):
-	page = WikiTable.objects.all()[1]
-	html = page.html
-	template = loader.get_template('KeyExtractionTest.html')
-	context = RequestContext(request, {
-		'table': html,
-	})
-	return HttpResponse(template.render(context))
+    page = WikiTable.objects.all()[1]
+    html = page.html
+    template = loader.get_template('KeyExtractionTest.html')
+    context = RequestContext(request, {
+        'table': html,
+    })
+    return HttpResponse(template.render(context))
 
 
 def get_hum_col(request):
@@ -76,14 +72,18 @@ def get_table_key(request):
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
     try:
-        print(htmlTable)
+        print(htmlTable[0:500])
         print(articleName)
     except Exception as e:
         print(articleName)
         raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
 
+    # Fix <th> tags because <th> is used in different ways:
+    htmlTable = fixTableHeaderTagsForOutput(htmlTable)
+
     # Extracting and rating columns
     uniqueCols = extractUniqueColumns(htmlTable)
+    print(htmlTable[0:100])
     
     # Rating:
 
@@ -95,6 +95,9 @@ def get_table_key(request):
 
     # Umso weiter links, umso wertvoller ist die Spalte
     valuateByPosition(uniqueCols)
+
+    # Für das Frontend wird die insgesamt Anzahl an Spalten benötigt
+    colCount = countAllCols(htmlTable)
 
     # Validiere die Bewertungen der Spalten
     keyCol = validateRatings(uniqueCols)
@@ -109,24 +112,18 @@ def get_table_key(request):
     #table.save()
 
     #----------- 3. Return JsonResponse
-    data = {'tableID': str(table.id), 'tableHTML': htmlTable, 'keyCol': str(keyCol), 'colInfos': str(uniqueCols)}
-
-
-    result = json.JSONEncoder().encode(data)
-    print(result)
-
-    response = JsonResponse(result, safe=False)
-    print(response)
+    data = {'tableID': table.id, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
+            'colCount': colCount, 'articleName': articleName}
+    response = JsonResponse(data, safe=False)
     return response
 
 def get_correct_key(request):
-    json_data = json.loads(request.body)
-    id = json_data['id']
-    key = json_data['key']
+    id = request.GET['id']
+    key = request.GET['key']
 
     table = WikiTable.objects.get(id=id)
     table.checked = True
     table.hum_col = str(key)
     #table.save()
-
+    return JsonResponse(['Thanks'], safe=False)
 
