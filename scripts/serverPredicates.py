@@ -24,6 +24,6 @@ with open('./TitlesShuffled.csv', 'r') as f:
             continue
 
         with open(path, 'w') as f:
+            print(page.title)
             data = page.predicates(relative=True, omit=True)
             json.dump(data, f)
-            print(page.title)

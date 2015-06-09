@@ -13,6 +13,7 @@ class Table:
         self.body = soup.find('tbody')
         self.section = self._section()
         self.columnNames = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
+
         self.rows = [tr.findAll('th') + tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
 
     def __repr__(self):
@@ -55,12 +56,16 @@ class Table:
         return [row[i] for row in self.rows]
 
     def skip(self):
-        # Skip tables with rowspan/colspan
-        if True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]:
+        # Something's wrong with rows (TODO: find 'something')
+
+        if not self.rows:
             return True
 
         # Skip tables with unequal row lengths
-        if max(self.rows, key=lambda row: len(row)) != min(self.rows, key=lambda row: len(row)):
+        if max([len(row) for row in self.rows]) != min([len(row) for row in self.rows]):
+            return True
+
+        if max([len(row) for row in self.rows]) != len(self.columnNames):
             return True
 
         return False
