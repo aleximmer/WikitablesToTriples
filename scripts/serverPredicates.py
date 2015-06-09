@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+
 import os.path, sys
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))
 
@@ -24,7 +26,8 @@ with open('./TitlesShuffled.csv', 'r') as f:
             continue
 
         with open(path, 'w') as f:
-            json.dump(page.predicates(relative=True, omit=True), f)
+            data = page.predicates(relative=True, omit=True)
+            json.dump(data, f)
             print(page.title)
 
         count += 1
