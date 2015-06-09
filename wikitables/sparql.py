@@ -31,7 +31,7 @@ def predicates(sub, obj):
         results = sparql.query().convert()
 
     except SPARQLExceptions.QueryBadFormed as e:
-        print("error occured with subject: %s, and object: %s" % (sub, obj))
+        print("queryBadFormed-error occured with subject: %s, and object: %s" % (sub, obj))
         print(query)
         return []
 

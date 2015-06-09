@@ -56,7 +56,14 @@ class Table:
 
     def skip(self):
         # Skip tables with rowspan/colspan
-        return True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]
+        if True in [td.has_attr('colspan') or td.has_attr('rowspan') for td in self.soup.findAll('td')]:
+            return True
+
+        # Skip tables with unequal row lengths
+        if max(self.rows, key=lambda row: len(row)) != min(self.rows, key=lambda row: len(row)):
+            return True
+
+        return False
 
     def predicatesForColumns(self, subColumn, objColumn, relative=False):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
