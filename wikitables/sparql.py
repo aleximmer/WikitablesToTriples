@@ -32,12 +32,9 @@ def predicates(sub, obj):
 
     except SPARQLExceptions.QueryBadFormed as e:
         print("queryBadFormed-error occured with subject: %s, and object: %s" % (sub, obj))
-        print(query)
         return []
 
     else:
-        if "http://www.w3.org/2000/01/rdf-schema#label" in list(set([r['predicate']['value'] for r in results['results']['bindings'] if r])):
-            print(query)
         return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
 
 
