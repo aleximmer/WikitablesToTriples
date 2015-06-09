@@ -34,10 +34,11 @@ titles = [
     'List of Top 25 albums for 1965 in Australia',
     'List of photo-sharing websites',
     'List of FBI Directors',
-    'List of SOE agents'
+    'List of SOE agents',
+    'List of hospitals in North Carolina'
 ]
 
-page = w.Page(titles[26])
+page = w.Page(titles[27])
 print(page)
 
 with open('./result.json', 'w') as f:

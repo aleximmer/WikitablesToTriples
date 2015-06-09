@@ -48,6 +48,7 @@ class Page:
     def predicates(self, relative=False, omit=False):
         return {
             'page': self.title,
+            'tables': len(self.tables),
             'predicates': [
                 {
                     'table': repr(table),

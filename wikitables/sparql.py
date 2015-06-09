@@ -56,6 +56,7 @@ def cellContent(cell):
         literal = cell.text.strip('\n \"')
         literal = ' '.join(literal.split())
         literal = literal.replace('"', '\\"')
+        literal = literal.replace('\\', '\\\\')
         return literal
     else:
         #Handle red links

@@ -1,5 +1,3 @@
-# -*- coding: UTF-8 -*-
-
 import os.path, sys
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))
 
@@ -29,8 +27,3 @@ with open('./TitlesShuffled.csv', 'r') as f:
             data = page.predicates(relative=True, omit=True)
             json.dump(data, f)
             print(page.title)
-
-        count += 1
-        if count % 50 == 0:
-            notify(count, 'willi@raschkowski.com', 'PASSWORD')
-            exit()
