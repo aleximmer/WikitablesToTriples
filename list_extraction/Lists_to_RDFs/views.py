@@ -1,5 +1,7 @@
 import random
 import json
+import sys
+import io
 
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
@@ -10,6 +12,16 @@ from .models import WikiList, WikiTable
 from .forms import *
 
 from extensions.extractingTables import *
+
+print(sys.stdout.encoding)
+# Bugfix "\u2014 maps to undefined
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'replace')
+
+#if sys.stdout.encoding != 'cp850':
+#    sys.stdout = codecs.getwriter('cp850')(sys.stdout.buffer, 'strict')
+#if sys.stderr.encoding != 'cp850':
+#    sys.stderr = codecs.getwriter('cp850')(sys.stderr.buffer, 'strict')
+print(sys.stdout.encoding)
 
 # Create your views here.
 def testKeyExtraction(request):
@@ -63,8 +75,12 @@ def get_table_key(request):
 
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
-    print(articleName)
-    print(htmlTable)
+    try:
+        print(htmlTable)
+        print(articleName)
+    except Exception as e:
+        print(articleName)
+        raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
 
     # Extracting and rating columns
     uniqueCols = extractUniqueColumns(htmlTable)
@@ -81,9 +97,13 @@ def get_table_key(request):
     valuateByPosition(uniqueCols)
 
     # Validiere die Bewertungen der Spalten
-    keyCol = validateRatings(uniqueCols)['xPos']
-    print(uniqueCols)
-    print(keyCol)
+    keyCol = validateRatings(uniqueCols)
+    if keyCol != None:
+        keyCol = keyCol['xPos']
+    else:
+        print('Can\'t extract a significant single key column')
+    print('Unique cols:' + str(uniqueCols))
+    print('Key col:' + str(keyCol))
 
     table.algo_col = str(keyCol)
     #table.save()
@@ -96,6 +116,7 @@ def get_table_key(request):
     print(result)
 
     response = JsonResponse(result, safe=False)
+    print(response)
     return response
 
 def get_correct_key(request):

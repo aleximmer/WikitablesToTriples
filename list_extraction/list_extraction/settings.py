@@ -77,12 +77,8 @@ WSGI_APPLICATION = 'list_extraction.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'LIST_OF',
-        'HOST': 's18350503.onlinehome-server.info',
-        'PORT': '3306',
-        'USER': 'SYSTEM',
-        'PASSWORD': 'manager',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
     }
 }
 

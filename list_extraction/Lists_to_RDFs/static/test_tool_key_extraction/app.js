@@ -13,8 +13,8 @@ function evalResult() {
 firstTime = true
 function loadNextPost() {
 	// TODO: Schnittstelle wieder einkommentieren
-	/*
-	$.getJSON("/table/KeyTest", null)
+	
+	$.getJSON("/Tables/KeyTest", null)
 		.done(function(json) {
 			console.log("JSON Data: \n\n" + json)
 			receiveJSON(json)
@@ -27,11 +27,13 @@ function loadNextPost() {
 		})
 		.fail(function(jqxhr, textStatus, error) {
 			console.log("Request Failed: " + textStatus + ", " + error)
+			alert(error)
 		});
-	*/
+	/*
 	$('.startContainer').hide()
 	$('.container').show()
 	$('.submit-panel').show()
+	*/
 }
 
 function receiveJSON(data) {
