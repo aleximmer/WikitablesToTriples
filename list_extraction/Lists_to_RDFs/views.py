@@ -13,12 +13,12 @@ from .models import WikiList, WikiTable
 from .forms import *
 
 from extensions.extractingTables import *
-print('PING')
 
 # TODO: Bugfix "\u2014 maps to undefined" but console output is delayed
+"""
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'xmlcharrefreplace')
 print('Hi: ' + sys.stdout.errors)
-
+"""
 # Create your views here.
 def testKeyExtraction(request):
     page = WikiTable.objects.all()[1]
@@ -64,55 +64,65 @@ def init_testing(request):
 def get_table_key(request):
     #----------- 1. retrieve random Table
     tables = WikiTable.objects.filter(checked=False)
-    upper_border = tables.count() - 1 
+    upper_border = tables.count() - 1
+    
     index = random.randint(0, upper_border)
     table = tables[index]
     htmlTable = table.html
 
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
+
     try:
-        print(htmlTable[0:500])
-        print(articleName)
+        """
+        try:
+            print(htmlTable[0:500])
+            print(articleName)
+        except Exception as e:
+            print(articleName)
+            raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
+        """
+
+        # Fix <th> tags because <th> is used in different ways:
+        htmlTable = fixTableHeaderTagsForOutput(htmlTable)
+
+        # Extracting and rating columns
+        uniqueCols = extractUniqueColumns(htmlTable)
+        
+        # Rating:
+
+        # Zähle die Entities pro Spalte
+        countEntities(uniqueCols)
+
+        # Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
+        valuateByName(uniqueCols, articleName)
+
+        # Umso weiter links, umso wertvoller ist die Spalte
+        valuateByPosition(uniqueCols)
+
+        # Validiere die Bewertungen der Spalten
+        keyCol = validateRatings(uniqueCols)
+        
+        # Für das Frontend wird die gesamte Anzahl an Spalten benötigt
+        colCount = countAllCols(htmlTable)
+        
+        if keyCol != None:
+            keyCol = keyCol['xPos']
+        else:
+            print('Can\'t extract a significant single key column')
+            keyCol = -1
+
     except Exception as e:
-        print(articleName)
-        raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
-
-    # Fix <th> tags because <th> is used in different ways:
-    htmlTable = fixTableHeaderTagsForOutput(htmlTable)
-
-    # Extracting and rating columns
-    uniqueCols = extractUniqueColumns(htmlTable)
-    print(htmlTable[0:100])
-    
-    # Rating:
-
-    # Zähle die Entities pro Spalte
-    countEntities(uniqueCols)
-
-    # Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-    valuateByName(uniqueCols, articleName)
-
-    # Umso weiter links, umso wertvoller ist die Spalte
-    valuateByPosition(uniqueCols)
-
-    # Für das Frontend wird die insgesamt Anzahl an Spalten benötigt
-    colCount = countAllCols(htmlTable)
-
-    # Validiere die Bewertungen der Spalten
-    keyCol = validateRatings(uniqueCols)
-    if keyCol != None:
-        keyCol = keyCol['xPos']
-    else:
-        print('Can\'t extract a significant single key column')
-    print('Unique cols:' + str(uniqueCols))
-    print('Key col:' + str(keyCol))
+        # Error caused by wrong html format or unsupported html encoding 
+        keyCol = -1
+        uniqueCols = []
+        colCount = countAllCols(htmlTable)
 
     table.algo_col = str(keyCol)
-    #table.save()
+    table.save()
 
     #----------- 3. Return JsonResponse
-    data = {'tableID': table.id, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
+    data = {'tableID': table.id, 'tableName': table.title, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
             'colCount': colCount, 'articleName': articleName}
     response = JsonResponse(data, safe=False)
     return response
@@ -124,6 +134,6 @@ def get_correct_key(request):
     table = WikiTable.objects.get(id=id)
     table.checked = True
     table.hum_col = str(key)
-    #table.save()
+    table.save()
     return JsonResponse(['Thanks'], safe=False)
 

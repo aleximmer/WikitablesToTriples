@@ -2,7 +2,7 @@
 
 function evalResult() {
 	selRadio = $('input[name="column"]:checked')
-	saveDecission(selRadio ? selRadio.value : -1)
+	saveDecission(selRadio ? selRadio.attr('value') : -1)
 	loadNextPost()
 }
 
@@ -14,8 +14,9 @@ function loadNextPost() {
 	$.getJSON("/Tables/KeyTest", null)
 		.done(function(json) {
 			tryCounter = 0
-			console.log("JSON Data:")
+			console.log("Received Table Data:")
 			console.log(json)
+			console.log(json['tableID'])
 			receiveJSON(json)
 			if (firstTime) {
 				firstTime = false
@@ -40,7 +41,8 @@ function receiveJSON(data) {
 	// data is a JSON object containing the table in html and
 	// results of the key extraction algorithm
 	
-	// Scheme: data = {'tableID': table.id, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols}
+	// Scheme: data = {'tableID': table.id, 'tableName': table.title, 'articleName': articleName,
+	//					'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols}
 
 	// 0. TableID speichern
 	currentTableID = data['tableID']
@@ -52,17 +54,38 @@ function receiveJSON(data) {
 	}
 	var radioButtonRow = ""
 	var len = parseInt(data['colCount'])
-	for(var i = 0; i < len; i++) {
+	
+	// Collect indexes of all unique columns
+	var uniqueColIndexes = []
+	for(var i = 0; i < len; i ++) {
+		// Check if column index is listed in colInfos
+		for(var j = 0; j < data['colInfos'].length; j++) {
+			if (i == data['colInfos'][j]['xPos']) {
+				uniqueColIndexes.push(i)
+			}
+		}
+	}
+	
+	for(var i = 0, uniqueID = 0; i < len; i++) {
+		var ratingStr = ''
+		if (uniqueColIndexes.indexOf(i) != -1) {
+			ratingStr = '<sub>('+data['colInfos'][uniqueID++]['rating']+')</sub>'
+		}
+		
 		radioButtonRow += '<td><input type="radio" name="column" value="'+i+'" onclick="updateDecisionStatus(\'green\')" ' +
-							((data['keyCol'] && data['keyCol']['xPos'] == i) ? 'checked="checked"' : '') + '/></td>'
+							((data['keyCol'] && data['keyCol']['xPos'] == i) ? 'checked="checked"' : '') + '/>' +
+							ratingStr + '</td>'
 	}
 	data['tableHTML'] = data['tableHTML'].slice(0, pos) + "<tr>" + radioButtonRow + "</tr>" + data['tableHTML'].slice(pos)
 	// 2. HTML-Code der Tabelle in $('#table-content') laden
-	$('#table-content').html(data['tableHTML'])
+	$('#table-content').html('<button id="deselect-radio" onclick="deselectRadioButton()">Deselect radio button (r)</button>'
+				+ data['tableHTML'])
 	// 3. Artikel- & Tabellenname in $('#table-source') laden
-	$('#table-source').html(data['articleName'])
+	$('#table-source').html(
+			'<b>' + data['articleName'] + '</b>' +
+			(data['tableName'] != 'None' ? ' > <b>' + data['tableName'] + '</b>' : ''))
 	// 4. $('#decission-status') updaten -> updateDecisionStatus
-	if (data['keyCol']) {
+	if (data['keyCol'] != null) {
 		$('input[name="column"][value="'+data['keyCol']+'"]').attr("checked","checked")
 		updateDecisionStatus('green')
 	} else {

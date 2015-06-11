@@ -236,25 +236,21 @@ def validateRatings( cols ):
 		rating2 = cols[1]["rating"]
 		# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
 		if (rating2 / rating1) > 0.85:
-			print("Nicht eindeutig genug")
+			print("Algorithmus scheiterte: Nicht eindeutig genug")
 			return None
 	
 	# Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
 	if cols[0]["multipleEntities"]:
-		print("Einträge kommen doppelt vor")
+		print("Algorithmus scheiterte: Einträge kommen doppelt vor")
 		return None
 	
 	rowCount = len(cols[0]["entries"])
 	entityCount = cols[0]["entityCount"]
 	# Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte nicht ausreichend verwertbar
-	print(entityCount)
-	print(rowCount)
-	print(entityCount / rowCount)
 	if (entityCount / rowCount) < 0.4:
-		print("Zu wenig Links")
+		print("Algorithmus scheiterte: Zu wenig Links")
 		return None
 	
-	print(cols[0])
 	return cols[0]
 
 # Um die Testergebnisse zu visualisieren, werden die Ergebnisse
