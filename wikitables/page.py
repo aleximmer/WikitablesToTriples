@@ -48,10 +48,11 @@ class Page:
     def predicates(self, relative=False, omit=False):
         return {
             'page': self.title,
-            'tables': len(self.tables),
-            'predicates': [
+            'no. of tables': len(self.tables),
+            'tables': [
                 {
                     'table': repr(table),
+                    'colums': table.columnNames,
                     'predicates': table.predicatesForAllColumns(relative, omit)
                 } for table in self.tables if not table.skip()]
         }
