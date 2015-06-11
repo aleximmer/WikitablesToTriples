@@ -32,11 +32,10 @@ def predicates(sub, obj):
 
     except SPARQLExceptions.QueryBadFormed as e:
         print("queryBadFormed-error occured with subject: %s, and object: %s" % (sub, obj))
-        print(query)
         return []
 
     else:
-        return [r['predicate']['value'] for r in results['results']['bindings'] if r]
+        return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
 
 
 def cellContent(cell):
@@ -55,8 +54,8 @@ def cellContent(cell):
     if not a:
         literal = cell.text.strip('\n \"')
         literal = ' '.join(literal.split())
-        literal = literal.replace('"', '\\"')
         literal = literal.replace('\\', '\\\\')
+        literal = literal.replace('"', '\\"')
         return literal
     else:
         #Handle red links

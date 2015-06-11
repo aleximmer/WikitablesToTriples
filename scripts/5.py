@@ -35,11 +35,20 @@ titles = [
     'List of photo-sharing websites',
     'List of FBI Directors',
     'List of SOE agents',
-    'List of hospitals in North Carolina'
+    'List of hospitals in North Carolina',
+    'List of cycling tracks and velodromes',
+    'Bad Girls Club (season 1)',
+    'List of institutions of higher education in Tamil Nadu'
 ]
 
-page = w.Page(titles[27])
-print(page)
+page = w.Page('List of Super Bowl winning Head Coaches')
+print(page.tables[1].skip())
+# for table in page.tables:
+#     print(table.skip())
+# data = page.predicates(relative=True, omit=False)
+# print(json.dumps(data, indent=4))
 
-with open('./result.json', 'w') as f:
-    json.dump(page.predicates(relative=True, omit=True), f)
+# with open('./result.json', 'w') as f:
+#     data = page.predicates(relative=True, omit=True)
+#     print(json.dumps(data, indent=4))
+#     json.dump(data, f)
