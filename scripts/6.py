@@ -12,7 +12,7 @@ for path in paths:
             page = json.load(f)
         except:
             continue
-
+        print(json.dumps(page, indent=4))
         tables += page['predicates']
         for table in page['predicates']:
             permutations += [t['predicates'] for t in table['predicates']]
