@@ -3,17 +3,9 @@
 from bs4 import BeautifulSoup
 import codecs
 import json
-import extensions.inflect as inflect
+import inflect
 import math
 import sys
-
-# Nach TR-Tag suchen (muss THs enthalten)
-# 1.) Von dort die THs extrahieren als Header-Array und als JSON ausgeben
-# 2.) Spalten in 2D-Array abspeichern und auf Einzigartigkeit überprüfen
-
-# Soup-Element ausgeben:
-# Mit Tags (inkl. Links der Entitäten) -> str(obj)
-# Nur Plain Text: obj.getText()
 
 # Engine, um Singular und Plural von Wörtern zu bilden
 p = inflect.engine()
@@ -305,3 +297,105 @@ def saveCSVData( roundsResults, cols, round ):
 	roundsResults.append([])
 	for col in cols:
 		roundsResults[round].append(col["rating"])
+
+def test( fileName ):
+	# Open HTML file
+	htmlTable = open('Testing/'+fileName).read().replace('\n', ' ')
+	
+	# Extract articleName (and tableTitle) by fileName
+	parts = fileName.split('_')
+	articleName = parts[0]
+	abstracts = ''
+	if len(parts) > 2:
+		tableTitle = parts[2].split('.')[0]
+	else:
+		tableTitle = None
+	print('Testing: '+articleName)
+	
+	# Rating:
+	# Extracting and rating columns
+	roundsResults = []
+	
+	try:
+		# Rating:
+		# Fix <th> tags because <th> is used in different ways:
+		originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
+		htmlTable = fixTableHeaderTagsForOutput(htmlTable)
+
+		# Extracting and rating columns
+		uniqueCols = extractUniqueColumns(htmlTable, originalHTML)
+
+		# Zähle die Entities pro Spalte
+		countEntities(uniqueCols)
+		saveCSVData(roundsResults, uniqueCols, 0)
+		
+		# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
+		valuateByName(uniqueCols, articleName)
+		saveCSVData(roundsResults, uniqueCols, 1)
+
+		# Umso weiter links, umso wertvoller ist die Spalte
+		valuateByPosition(uniqueCols)
+		saveCSVData(roundsResults, uniqueCols, 2)
+
+		# Nutze vertikale TH-Cols
+		lookForTHCol(uniqueCols, originalHTML)
+		saveCSVData(roundsResults, uniqueCols, 3)
+		
+		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
+		# TODO: In valuateByName übernehmen
+		textualEvidenceWithAbstracts(uniqueCols, abstracts)
+		saveCSVData(roundsResults, uniqueCols, 4)
+
+		# Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
+		findFittingColumnProperties(uniqueCols)
+		saveCSVData(roundsResults, uniqueCols, 5)
+
+		# Listen-Kategorien mit den Spaltennamen abgleichen
+		findMatchWithListCategories(uniqueCols, articleName)
+		saveCSVData(roundsResults, uniqueCols, 6)
+
+		# Validiere die Bewertungen der Spalten
+		colNames = [(col['title']+'.')[:-1] for col in uniqueCols] # Sorts by rating -> save titles for output
+		keyCol = validateRatings(uniqueCols)
+		
+		if keyCol != None:
+			keyColPos = keyCol['xPos']
+		else:
+			print('Can\'t extract a significant single key column')
+			keyColPos = -1
+	except Exception as e:
+		# Error caused by wrong html format or unsupported html encoding
+		print(e)
+		print('Can\'t extract a significant single key column')
+		keyCol = None
+		keyColPos = -1
+		uniqueCols = []
+		colCount = countAllCols(htmlTable)
+
+
+	print('KeyColPos: ' + str(keyColPos) +'\n');
+	
+	# Ausgabe:
+	if ((len(sys.argv) > 1) and ('-showCSV' in sys.argv)):
+		# Zeige die Bewertungsergebnisse der einzelnen Runden im CSV-Format:
+		roundsResultsAsCSV = '"";"Runde 1"; "Runde 2"; "Runde 3"; "Runde 4"\n' #; "Runde 5"; "Runde 6"; "Runde 7"\n'
+		for i in range(len(uniqueCols)):
+			roundsResultsAsCSV += '"'+colNames[i]+'";"'+str(roundsResults[0][i])
+			roundsResultsAsCSV += '";"'+str(roundsResults[1][i])+'";"'+str(roundsResults[2][i])+'";"'+str(roundsResults[3][i])
+			#roundsResultsAsCSV += '";"'+str(roundsResults[4][i])+'";"'+str(roundsResults[5][i])+'";"'+str(roundsResults[6][i])
+			roundsResultsAsCSV += '"\n'
+		roundsResultsAsCSV = roundsResultsAsCSV[:-1] # Letzten Zeilenumbruch entfernen
+		print(roundsResultsAsCSV)
+		print('\n')
+	else:
+		if keyCol != None:
+			fieldCount = len(keyCol['entries'])
+			keyCol['fieldCount'] = fieldCount
+			if fieldCount > 100:
+				keyCol['entries'] = keyCol['entries'][:100]
+			print(json.dumps(keyCol, sort_keys=True, indent=4))
+
+if (len(sys.argv) > 1) and (sys.argv[1][-4:] == '.txt'):
+	test(sys.argv[1])
+else:
+	test('List of post-1692 Anglican parishes in the Province of Maryland_1.txt')
