@@ -72,6 +72,8 @@ def get_table_key(request):
 
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
+    abstracts = '' #TODO
+    tableName = '' #TODO
 
     try:
         """
@@ -84,6 +86,7 @@ def get_table_key(request):
         """
 
         # Fix <th> tags because <th> is used in different ways:
+        originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
         htmlTable = fixTableHeaderTagsForOutput(htmlTable)
 
         # Extracting and rating columns
@@ -99,6 +102,18 @@ def get_table_key(request):
 
         # Umso weiter links, umso wertvoller ist die Spalte
         valuateByPosition(uniqueCols)
+
+        # Nutze vertikale TH-Cols
+        lookForTHCol(uniqueCols, originalHTML)
+        
+        # Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
+        # TODO: textualEvidenceWithAbstracts(uniqueCols, abstracts)
+
+        # Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
+        # TODO: findFittingColumnProperties(uniqueCols)
+
+        # Listen-Kategorien mit den Spaltennamen abgleichen
+        # TODO: findMatchWithListCategories(uniqueCols, articleName)
 
         # Validiere die Bewertungen der Spalten
         keyCol = validateRatings(uniqueCols)
