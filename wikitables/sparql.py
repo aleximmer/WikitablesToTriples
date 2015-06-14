@@ -35,13 +35,13 @@ where {
 
 def predicates(sub, obj=None):
     """Return predicates of form '?sub ?predicate ?obj.'"""
-    
+
     if obj:
         query = (rrQuery if isResource(obj) else rlQuery) % (sub, obj)
     else:
         query = rQuery % sub
     wrapper.setQuery(query)
-    print(query)
+    
     try:
         results = wrapper.query().convert()
 
