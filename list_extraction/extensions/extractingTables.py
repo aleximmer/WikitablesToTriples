@@ -6,6 +6,8 @@ import json
 import extensions.inflect as inflect
 import math
 import sys
+import re
+from  more_itertools import unique_everseen
 
 # Nach TR-Tag suchen (muss THs enthalten)
 # 1.) Von dort die THs extrahieren als Header-Array und als JSON ausgeben
@@ -19,8 +21,13 @@ import sys
 p = inflect.engine()
 
 # Thresholds:
-MIN_ENTITIES_COUNT = 0.4 # Mind. 40% müssen Entities sein, damit die Spalte der Key sein darf
-
+MIN_ENTITIES_COUNT = 0.4 # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
+MAX_ENTITIES_POINTS = 50 # Bei 100% Entitäten gibt es {x} Punkte
+COLNAME_NAME_POINTS = 20 # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
+COLNAME_MAX_WORD_POINTS = 20 # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
+COLNAME_PLURAL_HIT_POINTS = 10 # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
+COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
+COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
 
 # DEPRECATED
 # Konstantendefinition für Rückgabewert-Typen
@@ -104,10 +111,11 @@ def extractUniqueColumns( htmlTable, originalHTML ):
 	# Um Indexierungsprobleme komplett zu vermeiden TH durch TD ersetzen + THEAD & TBODY löschen
 	
 	# 1.) Überprüfen ob die Tabelle ein gültiges Format hat
-	rowSpan = htmlTable.find("rowspan")
-	colSpan = htmlTable.find("colspan")
-	if (rowSpan != -1) or (colSpan != -1):
-		raise ValueError("Table uses not supported formattings (rowspan or colspan): " + quickView)
+	it = re.finditer('(rowspan|colspan)="([0-9]*)"', htmlTable)
+	for match in it:
+		spanVal = match.group(2)
+		if spanVal != "1":
+			raise ValueError("Table uses not supported formattings ("+match.group(1)+" at "+str(match.span())+"): " + match.group())
 	
 	# 2.) Alle Spalten als 2D-Array extrahieren
 	rows = soup.findAll("tr")
@@ -182,6 +190,8 @@ def countEntities( cols ):
 		for entry in entries:
 			soup = BeautifulSoup(entry)
 			links = soup.findAll("a")
+			linksHref = [aTag["href"] for aTag in links]
+			linksHref = list(unique_everseen(linksHref))
 			linksCount = len(links)
 			for link in links:
 				# Image werden nicht gezählt
@@ -190,13 +200,18 @@ def countEntities( cols ):
 				# Ebenso dürfen es nur Wikipedia-interne Links sein
 				elif link["href"][0:5] != "/wiki":
 					linksCount -= 1
+				# Manche Tabellen setzen doppelte Verlinkunden (e.g. TableID = 513, List of Olympic medalists in basketball)
+				elif link["href"] in linksHref:
+					linksHref.remove(link["href"]) # Beim ersten Mal löschen
+				elif link["href"] not in linksHref:
+					linksCount -= 1 # Bei jedem weiteren Mal, die Anzahl korrigieren
 			if linksCount > 0:
 				entityCount += 1
 				if linksCount > 1:
 					multipleEnts = True
 		
 		# Bewertung: Maximal 50 Punkte möglich (100% sind Entitäten)
-		cols[i]["rating"] = int(math.floor(50 * (entityCount / len(entries))))
+		cols[i]["rating"] = int(math.floor(MAX_ENTITIES_POINTS * (entityCount / len(entries))))
 		cols[i]["entityCount"] = entityCount
 		cols[i]["multipleEntities"] = multipleEnts
 
@@ -213,11 +228,9 @@ def valuateByName( cols, articleName ):
 	for i in range(len(cols)):
 		colName = cols[i]["title"]
 		colNames = colName.lower().split()
-		# Titel auf den Inhalt "Name" überprüfen
-		if "name" in colNames:
-			cols[i]["rating"] += 20
-		else:
-			cols[i]["rating"] += 0
+		# Titel auf den Inhalt "Name" oder "Title" überprüfen
+		if "name" in colNames or "title" in colNames:
+			cols[i]["rating"] += COLNAME_NAME_POINTS
 		
 		# Titel mit dem Artikelnamen abgleichen
 		for word in colNames:
@@ -225,10 +238,10 @@ def valuateByName( cols, articleName ):
 				# Wenn eines der Wörter auch im Artikelnamen auftaucht, erhöht das das Rating
 				# Die gegebene Punktzahl ist von der Wortlänge abhängig (Problematische Wörter
 				# wie "in", "the", "of" o.ä. haben dann wenig Einfluss)
-				cols[i]["rating"] += max(len(word), 20)
+				cols[i]["rating"] += max(len(word), COLNAME_MAX_WORD_POINTS)
 			if p.plural(word) in articleNames:
 				# Wenn der Plural trifft, ist es ein wichtigerer Treffer als ein normaler
-				cols[i]["rating"] += max(len(word), 20) + 5
+				cols[i]["rating"] += max(len(word), COLNAME_MAX_WORD_POINTS) + COLNAME_PLURAL_HIT_POINTS
 
 # Umso näher die Spalte am linken Rand ist, desto wichtiger ist sie.
 # Es können maximal 20 Punkte aufgerechnet werden (für die erste Spalte).
@@ -240,7 +253,7 @@ def valuateByPosition( cols ):
 		posVal = i + 1
 		# Quadratisch bei 10 Spalten: 20, 16, 12, 9, 7, 5, ...
 		# Hyperbel bei 10 Spalten: 20, 10, 6, 5, 4, ...
-		addRating = int(math.floor(20 / posVal)) # Hyperbolisch
+		addRating = int(math.floor(COLPOS_MAX_POINTS / posVal)) # Hyperbolisch
 		cols[i]["rating"] += addRating
 
 # Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten sind mit
@@ -253,7 +266,7 @@ def lookForTHCol( uniqueCols, originalHTML ):
 				isVertical = False
 				break;
 		if isVertical:
-			uniqueCols[i]['rating'] += 15
+			uniqueCols[i]['rating'] += COL_TH_POINTS
 
 def textualEvidenceWithAbstracts( uniqueCols, abstracts ):
 	abstractsWords = abstracts.split(" ")
@@ -276,28 +289,31 @@ def findMatchWithListCategories( uniqueCols, articleName):
 # mind. 40% der Einträge Entitäten sein. Wenn keine Key-Spalte gefunden
 # wurde, wird None zurückgegeben (ansonsten das Spaltenelement)
 def validateRatings( cols ):
-	cols.sort(key=lambda obj: obj["rating"], reverse=True)
-	rating1 = cols[0]["rating"]
-	if len(cols) > 1:
-		rating2 = cols[1]["rating"]
+	# TODO: Ausgangsposition speichern oder nur max und 2-max herausfinden
+	# Create copy to keep the original order in cols
+	ratCols = [{'entries': col['entries'], 'rating': col['rating'], 'entityCount': col['entityCount'], 'multipleEntities': col['multipleEntities'], 'xPos': col['xPos']} for col in cols]
+	ratCols.sort(key=lambda obj: obj['rating'], reverse=True)
+	rating1 = ratCols[0]['rating']
+	if len(ratCols) > 1:
+		rating2 = ratCols[1]['rating']
 		# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
 		if (rating2 / rating1) > 0.85:
-			print("Algorithmus scheiterte: Nicht eindeutig genug")
+			print("Algorithm failed: Not clear enough")
 			return None
 	
 	# Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
-	if cols[0]["multipleEntities"]:
-		print("Algorithmus scheiterte: Einträge kommen doppelt vor")
+	if ratCols[0]["multipleEntities"]:
+		print("Algorithm failed: Entries contain more than one entity")
 		return None
 	
-	rowCount = len(cols[0]["entries"])
-	entityCount = cols[0]["entityCount"]
+	rowCount = len(ratCols[0]["entries"])
+	entityCount = ratCols[0]["entityCount"]
 	# Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte nicht ausreichend verwertbar
 	if (entityCount / rowCount) < MIN_ENTITIES_COUNT:
-		print("Algorithmus scheiterte: Zu wenig Links")
+		print("Algorithm failed: Too little entities")
 		return None
 	
-	return cols[0]
+	return ratCols[0]
 
 # Um die Testergebnisse zu visualisieren, werden die Ergebnisse
 # der drei Runden als CSV gespeichert
@@ -305,3 +321,127 @@ def saveCSVData( roundsResults, cols, round ):
 	roundsResults.append([])
 	for col in cols:
 		roundsResults[round].append(col["rating"])
+
+# TODO: Dokumentieren
+def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
+	try:
+		"""
+		try:
+		    print(htmlTable[0:500])
+		    print(articleName)
+		except Exception as e:
+		    print(articleName)
+		    raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
+		"""
+
+		# Fix <th> tags because <th> is used in different ways:
+		originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
+		htmlTable = fixTableHeaderTagsForOutput(htmlTable)
+
+		# Extracting and rating columns
+		uniqueCols = extractUniqueColumns(htmlTable, originalHTML)
+
+		# Rating:
+
+		# Zähle die Entities pro Spalte
+		countEntities(uniqueCols)
+
+		# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
+		valuateByName(uniqueCols, articleName)
+
+		# Umso weiter links, umso wertvoller ist die Spalte
+		valuateByPosition(uniqueCols)
+
+		# Nutze vertikale TH-Cols
+		lookForTHCol(uniqueCols, originalHTML)
+
+		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
+		# TODO: textualEvidenceWithAbstracts(uniqueCols, abstracts)
+
+		# Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
+		# TODO: findFittingColumnProperties(uniqueCols)
+
+		# Listen-Kategorien mit den Spaltennamen abgleichen
+		# TODO: findMatchWithListCategories(uniqueCols, articleName)
+
+		# Validiere die Bewertungen der Spalten
+		keyCol = validateRatings(uniqueCols)
+
+		# Für das Frontend wird die gesamte Anzahl an Spalten benötigt
+		colCount = countAllCols(htmlTable)
+
+		if keyCol != None:
+		    keyCol = keyCol['xPos']
+		else:
+		    print('Can\'t extract a significant single key column')
+		    keyCol = -1
+
+	except Exception as e:
+		# Error caused by wrong html format or unsupported html encoding
+		print('Error: ' + str(e))
+		keyCol = -1
+		uniqueCols = []
+		colCount = countAllCols(htmlTable)
+	
+	return {'originalHTML': originalHTML, 'uniqueCols': uniqueCols, 'colCount': colCount, 'keyCol': keyCol}
+
+
+# TODO: Dokumentieren
+def calculatePrecisionRecall( tables, debug=False ):
+	# True positives -> Right key selected
+	countTP = 0
+	# True negative -> Detected that there is no valid key column
+	countTN = 0
+	# False positive -> Detects mistakenly a key column or the wrong key column
+	countFP = 0
+	countWC = 0
+	# False negative -> Can't find an existing key column
+	countFN = 0
+	
+	for table in tables:
+		algoCol = table.algo_col
+		humCol = table.hum_col
+		
+		# There is no key columng
+		if humCol == -1:
+			if algoCol == -1: # Algorithm is right ("no detectable key column")
+				countTN += 1
+			else: # Algorithm is wrong (suggests a key column although there is no column)
+				countFP += 1
+		# There is a key column at position {x}
+		else:
+			if algoCol == humCol: # Algorithm is right ("found key column")
+				countTP += 1
+			elif algoCol == -1: # Algorithm is wrong (didn't find the existing key column)
+				countFN += 1
+			else: # Algorithm is wrong (suggests the wrong column as key column)
+				countWC += 1
+	if debug:
+		asString =  'True positive: '+str(countTP)+'\n'
+		asString += 'True negative: '+str(countTN)+'\n'
+		asString += 'False positive: '+str(countFP+countWC)+' ('+str(countWC)+' wrong columns + '+str(countFP)+' non existing columns) \n'
+		asString += 'False negative: '+str(countFN)+'\n'
+		print(asString)
+	
+	countFP += countWC
+	precision = countTP / (countTP + countFP)
+	recall = countTP / (countTP + countFN)
+	thresholdsState = {'MIN_ENTITIES_COUNT': 0.4, # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
+		'MAX_ENTITIES_POINTS': 50, # Bei 100% Entitäten gibt es {x} Punkte
+		'COLNAME_NAME_POINTS': 20, # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
+		'COLNAME_MAX_WORD_POINTS': 20, # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
+		'COLNAME_PLURAL_HIT_POINTS': 10, # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
+		'COLPOS_MAX_POINTS': 20, # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
+		'COL_TH_POINTS': 20} # Eine Spalte mit <th>-Tags erhält {x} Punkt}
+	
+	if debug:
+		asString = 'Precision: '+str(precision*100)+'%\nRecall: '+str(recall*100)+'%\n'
+		print(asString)
+	return {'precision': precision, 'recall': recall, 'thresholdsState':thresholdsState}
+
+def machineLearningWithPrecisionRecall( tables, debug=False ):
+	return calculatePrecisionRecall(tables, debug)
+	# TODO: Machine learning: Passe Thresholds an und für es wieder aus
+	
+	
+

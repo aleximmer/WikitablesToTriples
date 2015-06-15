@@ -7,4 +7,5 @@ urlpatterns = patterns('',
 	url(r'KeyForm/', views.get_hum_col, name='Key Extraction Form'),
 	url(r'KeyTestStart/', views.init_testing, name='Init Testing'),
 	url(r'KeyTest/', views.get_table_key, name='Key Test'),
-	url(r'KeyResult/', views.get_correct_key, name='Key Test Result'),)
+	url(r'KeyResult/', views.get_correct_key, name='Key Test Result'),
+	url(r'KeyPrecRec/', views.get_prec_rec, name='Calculate Precision and Recall'))

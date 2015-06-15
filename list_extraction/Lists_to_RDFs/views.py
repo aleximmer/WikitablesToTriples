@@ -67,6 +67,12 @@ def get_table_key(request):
     upper_border = tables.count() - 1
     
     index = random.randint(0, upper_border)
+    # Example for colspan="1" -> Allow
+    """
+    for i in range(0, len(tables)):
+        if tables[i].id == 513:    
+            index = i
+    """
     table = tables[index]
     htmlTable = table.html
 
@@ -75,63 +81,12 @@ def get_table_key(request):
     abstracts = '' #TODO
     tableName = '' #TODO
 
-    try:
-        """
-        try:
-            print(htmlTable[0:500])
-            print(articleName)
-        except Exception as e:
-            print(articleName)
-            raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
-        """
-
-        # Fix <th> tags because <th> is used in different ways:
-        originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
-        htmlTable = fixTableHeaderTagsForOutput(htmlTable)
-
-        # Extracting and rating columns
-        uniqueCols = extractUniqueColumns(htmlTable)
-        
-        # Rating:
-
-        # Zähle die Entities pro Spalte
-        countEntities(uniqueCols)
-
-        # Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-        valuateByName(uniqueCols, articleName)
-
-        # Umso weiter links, umso wertvoller ist die Spalte
-        valuateByPosition(uniqueCols)
-
-        # Nutze vertikale TH-Cols
-        lookForTHCol(uniqueCols, originalHTML)
-        
-        # Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
-        # TODO: textualEvidenceWithAbstracts(uniqueCols, abstracts)
-
-        # Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
-        # TODO: findFittingColumnProperties(uniqueCols)
-
-        # Listen-Kategorien mit den Spaltennamen abgleichen
-        # TODO: findMatchWithListCategories(uniqueCols, articleName)
-
-        # Validiere die Bewertungen der Spalten
-        keyCol = validateRatings(uniqueCols)
-        
-        # Für das Frontend wird die gesamte Anzahl an Spalten benötigt
-        colCount = countAllCols(htmlTable)
-        
-        if keyCol != None:
-            keyCol = keyCol['xPos']
-        else:
-            print('Can\'t extract a significant single key column')
-            keyCol = -1
-
-    except Exception as e:
-        # Error caused by wrong html format or unsupported html encoding 
-        keyCol = -1
-        uniqueCols = []
-        colCount = countAllCols(htmlTable)
+    # See extensions/extractingTables.py for algorithm informations
+    result = extractKeyColumn(htmlTable, articleName, tableName, abstracts)
+    htmlTable = result['originalHTML']
+    uniqueCols = result['uniqueCols']
+    colCount = result['colCount']
+    keyCol = result['keyCol']
 
     table.algo_col = str(keyCol)
     table.save()
@@ -151,4 +106,15 @@ def get_correct_key(request):
     table.hum_col = str(key)
     table.save()
     return JsonResponse(['Thanks'], safe=False)
+
+def get_prec_rec(request):
+    # Retrieve all rated tables
+    tables = WikiTable.objects.filter(checked=True)
+    result = machineLearningWithPrecisionRecall(tables, True) # Print results in console (debug)
+	# TODO: Machine learning for thresholdStates
+	
+    return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'thresholdsState': result['thresholdsState']})
+
+
+
 

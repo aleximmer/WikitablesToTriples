@@ -85,7 +85,7 @@ function receiveJSON(data) {
 			'<b>' + data['articleName'] + '</b>' +
 			(data['tableName'] != 'None' ? ' > <b>' + data['tableName'] + '</b>' : ''))
 	// 4. $('#decission-status') updaten -> updateDecisionStatus
-	if (data['keyCol'] != null) {
+	if (data['keyCol'] != null && data['keyCol'] != -1) {
 		$('input[name="column"][value="'+data['keyCol']+'"]').attr("checked","checked")
 		updateDecisionStatus('green')
 	} else {
