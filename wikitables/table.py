@@ -70,7 +70,7 @@ class Table:
 
         return False
 
-    def predicatesForColumns(self, subColumn, objColumn, relative=False):
+    def predicatesForColumns(self, subColumn, objColumn, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
         Set 'relative' to True if you want relative occurances."""
         subData = self.column(subColumn)
@@ -80,7 +80,7 @@ class Table:
             subContent = sparql.cellContent(subData[i])
             objContent = sparql.cellContent(objData[i])
 
-            if not sparql.isResource(subContent):
+            if not (objContent and sparql.isResource(subContent)):
                 continue
 
             for predicate in sparql.predicates(subContent, objContent):
@@ -95,7 +95,7 @@ class Table:
 
         return predicates
 
-    def predicatesForAllColumns(self, relative=False, omit=False):
+    def predicatesForAllColumns(self, relative=True, omit=False):
         """Return predicates between all permutations of columns.
         Set 'omit' to 'True' to leave out empty ones."""
         predicates = []

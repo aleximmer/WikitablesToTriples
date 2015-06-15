@@ -2,39 +2,55 @@ from bs4 import BeautifulSoup
 from SPARQLWrapper import SPARQLWrapper, JSON, SPARQLExceptions
 import json
 
-sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-sparql.setReturnFormat(JSON)
+wrapper = SPARQLWrapper("http://dbpedia.org/sparql")
+wrapper.setReturnFormat(JSON)
 
-# Resource -> Resource
+# Resource (with redirect) -> Resource (with redirect)
 rrQuery = """
 select ?predicate
 where {
-    %s ?predicate %s.
+    %s dbpedia-owl:wikiPageRedirects* ?subject.
+    %s dbpedia-owl:wikiPageRedirects* ?object.
+    ?subject ?predicate ?object.
 }"""
 
-# Resource -> Literal
+# Resource (with redirect) -> Literal
 rlQuery = """
 select ?predicate
 where {
-    %s ?predicate ?object.
+    %s dbpedia-owl:wikiPageRedirects* ?subject.
+    ?subject ?predicate ?object.
     FILTER(str(?object)="%s")
 }
 """
 
-def predicates(sub, obj):
+# Resource (with redirect)
+rQuery = """
+select ?predicate
+where {
+    %s dbpedia-owl:wikiPageRedirects* ?subject.
+    ?subject ?predicate ?object.
+}
+"""
+
+def predicates(sub, obj=None):
     """Return predicates of form '?sub ?predicate ?obj.'"""
 
-    query = (rrQuery if isResource(obj) else rlQuery) % (sub, obj)
-    sparql.setQuery(query)
-
+    if obj:
+        query = (rrQuery if isResource(obj) else rlQuery) % (sub, obj)
+    else:
+        query = rQuery % sub
+    wrapper.setQuery(query)
+    
     try:
-        results = sparql.query().convert()
+        results = wrapper.query().convert()
 
     except SPARQLExceptions.QueryBadFormed as e:
         print("queryBadFormed-error occured with subject: %s, and object: %s" % (sub, obj))
         return []
 
     else:
+        # print(list(set([r['predicate']['value'] for r in results['results']['bindings'] if r])))
         return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
 
 
