@@ -14,17 +14,16 @@ with open('./TitlesShuffled.csv', 'r') as f:
 
     for title, *_ in titles:
         path = savePath % title.replace('/', '\\')
-
+        print("%d\t%s" % (count, title))
         if os.path.isfile(path):
-            print(title)
             continue
 
         try:
             page = w.Page(title)
             data = page.predicates(relative=True, omit=True)
-        except Exception:
+        except Exception as e:
+            print(e)
             continue
         else:
             with open(path, 'w') as f:
-                print(page.title)
                 json.dump(data, f, indent=4)
