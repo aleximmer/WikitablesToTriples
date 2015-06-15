@@ -29,4 +29,4 @@ with open('./TitlesShuffled.csv', 'r') as f:
         else:
             with open(path, 'w') as f:
                 json.dump(data, f, indent=4)
-                print("%d\t(dumped)\t%s" % (count, title))
+                print("%d\tdumped\t%s" % (count, title))
