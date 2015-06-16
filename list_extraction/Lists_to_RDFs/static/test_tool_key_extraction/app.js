@@ -2,7 +2,7 @@
 
 function evalResult() {
 	selRadio = $('input[name="column"]:checked')
-	saveDecission(selRadio ? selRadio.attr('value') : -1)
+	saveDecission(selRadio.length > 0 ? selRadio.attr('value') : -1)
 	loadNextPost()
 }
 
@@ -94,12 +94,11 @@ function receiveJSON(data) {
 }
 
 function saveDecission(colNum) {
-	
 	$.ajax({
 		method: "GET",
 		url: "/Tables/KeyResult",
 		dataType: "json",
-		data: {id: currentTableID, key: colNum} // might be -1
+		data: {id: currentTableID, key: (colNum+"")} // might be -1
 	}).done(function() {
 			console.log("Result send!")
 		})

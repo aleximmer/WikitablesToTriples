@@ -70,7 +70,7 @@ def get_table_key(request):
     # Example for colspan="1" -> Allow
     """
     for i in range(0, len(tables)):
-        if tables[i].id == 513:    
+        if tables[i].id == 1212:    
             index = i
     """
     table = tables[index]
@@ -113,7 +113,7 @@ def get_prec_rec(request):
     result = machineLearningWithPrecisionRecall(tables, True) # Print results in console (debug)
 	# TODO: Machine learning for thresholdStates
 	
-    return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'thresholdsState': result['thresholdsState']})
+    return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'tableCount': result['tableCount'], 'thresholdsState': result['thresholdsState']})
 
 
 

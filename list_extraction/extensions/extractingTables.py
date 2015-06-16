@@ -7,6 +7,7 @@ import extensions.inflect as inflect
 import math
 import sys
 import re
+import traceback
 from  more_itertools import unique_everseen
 
 # Nach TR-Tag suchen (muss THs enthalten)
@@ -108,8 +109,6 @@ def extractUniqueColumns( htmlTable, originalHTML ):
 	soupOrig = BeautifulSoup(originalHTML)
 	quickView = originalHTML[0:50]+" [...]"
 	
-	# Um Indexierungsprobleme komplett zu vermeiden TH durch TD ersetzen + THEAD & TBODY löschen
-	
 	# 1.) Überprüfen ob die Tabelle ein gültiges Format hat
 	it = re.finditer('(rowspan|colspan)="([0-9]*)"', htmlTable)
 	for match in it:
@@ -135,13 +134,13 @@ def extractUniqueColumns( htmlTable, originalHTML ):
 	# 3.) 2D-Array der HTML-Tabelle reihenweise erzeugen
 	# Es wird nur der richtige Plaintext verglichen, aber der ganze HTML-Code gespeichert
 	if firstLineIsHeader:
-		#tableData = [[dataField.getText() for dataField in rows[i+1].findAll("td")] for i in range(rowCount)]
+		tableData = [[dataField.getText() for dataField in rows[i+1].findAll("td")] for i in range(rowCount)]
 		tableDataRaw = [[str(dataField) for dataField in rows[i+1].findAll("td")] for i in range(rowCount)]
 		tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[i+1].findAll(["th", "td"])] for i in range(rowCount)]
 	else:
-		#tableData = [[dataField.getText() for dataField in rows[i].findAll("td")] for i in range(rowCount)]
+		tableData = [[dataField.getText() for dataField in rows[i].findAll("td")] for i in range(rowCount)]
 		tableDataRaw = [[str(dataField) for dataField in rows[i].findAll("td")] for i in range(rowCount)]
-		tableDataRawOrig = [[str(dataField) for dataField in (rowsOrig[i].findAll("td") + rowsOrig[i].findAll("th"))] for i in range(rowCount)]
+		tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[i].findAll(["td", "th"])] for i in range(rowCount)]
 	
 	# 4.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind (Vergleicht dafür inkl. Tags)
 	uniqueCols = []
@@ -152,12 +151,17 @@ def extractUniqueColumns( htmlTable, originalHTML ):
 		for i in range(rowCount):
 			#FIXME: "list index out of range" -> tableData[0] leer -> findAll("td") hat nichts gefunden
 			# -> Header-Zeile wurde mitgelesen (soll nicht passieren)
-			value = tableDataRaw[i][j].strip() # Take plain text and remove alle white spaces from the side
-			if value in checkedValues:
-				unique = False
-				break
-			else:
-				checkedValues[i] = tableDataRaw[i][j].strip()
+			
+			# Take plain text and remove alle white spaces from the side
+			value = tableData[i][j].strip()
+			if len(value) > 0:
+				if value in checkedValues:
+					#FIXME: Manche Zwischen-Header-Zeilen mit leeren Zellen haben ein unsichtbares 
+					# y mit Ü-Pünktchen (e.g. List of airports in France > Airports in Metropolitan France)
+					unique = False
+					break
+				else:
+					checkedValues[i] = value
 		if unique:
 			# Alle Einträge der möglichen Key-Spalte als Array speichern (plain, nicht raw)
 			uniqueCols.append({"xPos": j, "entries": [tableDataRaw[x][j] for x in range(rowCount)], "entriesOrig": [tableDataRawOrig[x][j] for x in range(rowCount)]})
@@ -310,7 +314,7 @@ def validateRatings( cols ):
 	entityCount = ratCols[0]["entityCount"]
 	# Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte nicht ausreichend verwertbar
 	if (entityCount / rowCount) < MIN_ENTITIES_COUNT:
-		print("Algorithm failed: Too little entities")
+		print("Algorithm failed: Too less entities")
 		return None
 	
 	return ratCols[0]
@@ -377,8 +381,10 @@ def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 		    keyCol = -1
 
 	except Exception as e:
-		# Error caused by wrong html format or unsupported html encoding
+		# Might be an error caused by wrong html format or unsupported html encoding
+		# raise e
 		print('Error: ' + str(e))
+		print(traceback.format_exc())
 		keyCol = -1
 		uniqueCols = []
 		colCount = countAllCols(htmlTable)
@@ -399,12 +405,13 @@ def calculatePrecisionRecall( tables, debug=False ):
 	countFN = 0
 	
 	for table in tables:
-		algoCol = table.algo_col
-		humCol = table.hum_col
+		algoCol = str(table.algo_col)
+		humCol = (table.hum_col)
+		print(str(table.id) +': ' + algoCol + ' but is ' + humCol)
 		
 		# There is no key columng
-		if humCol == -1:
-			if algoCol == -1: # Algorithm is right ("no detectable key column")
+		if humCol == '-1':
+			if algoCol == '-1': # Algorithm is right ("no detectable key column")
 				countTN += 1
 			else: # Algorithm is wrong (suggests a key column although there is no column)
 				countFP += 1
@@ -412,7 +419,7 @@ def calculatePrecisionRecall( tables, debug=False ):
 		else:
 			if algoCol == humCol: # Algorithm is right ("found key column")
 				countTP += 1
-			elif algoCol == -1: # Algorithm is wrong (didn't find the existing key column)
+			elif algoCol == '-1': # Algorithm is wrong (didn't find the existing key column)
 				countFN += 1
 			else: # Algorithm is wrong (suggests the wrong column as key column)
 				countWC += 1
@@ -424,20 +431,25 @@ def calculatePrecisionRecall( tables, debug=False ):
 		print(asString)
 	
 	countFP += countWC
-	precision = countTP / (countTP + countFP)
-	recall = countTP / (countTP + countFN)
-	thresholdsState = {'MIN_ENTITIES_COUNT': 0.4, # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
-		'MAX_ENTITIES_POINTS': 50, # Bei 100% Entitäten gibt es {x} Punkte
-		'COLNAME_NAME_POINTS': 20, # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
-		'COLNAME_MAX_WORD_POINTS': 20, # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
-		'COLNAME_PLURAL_HIT_POINTS': 10, # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
-		'COLPOS_MAX_POINTS': 20, # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
-		'COL_TH_POINTS': 20} # Eine Spalte mit <th>-Tags erhält {x} Punkt}
+	if (countTP+countFP) > 0 and (countTP+countFN) > 0:
+		precision = round(countTP / (countTP + countFP), 2)
+		recall = round(countTP / (countTP + countFN), 2)
+	else:
+		precision = 0
+		recall = 0
+	thresholdsState = {
+		'MIN_ENTITIES_COUNT': MIN_ENTITIES_COUNT, # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
+		'MAX_ENTITIES_POINTS': MAX_ENTITIES_POINTS, # Bei 100% Entitäten gibt es {x} Punkte
+		'COLNAME_NAME_POINTS': COLNAME_NAME_POINTS, # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
+		'COLNAME_MAX_WORD_POINTS': COLNAME_MAX_WORD_POINTS, # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
+		'COLNAME_PLURAL_HIT_POINTS': COLNAME_PLURAL_HIT_POINTS, # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
+		'COLPOS_MAX_POINTS': COLPOS_MAX_POINTS, # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
+		'COL_TH_POINTS': COL_TH_POINTS} # Eine Spalte mit <th>-Tags erhält {x} Punkt}
 	
 	if debug:
 		asString = 'Precision: '+str(precision*100)+'%\nRecall: '+str(recall*100)+'%\n'
 		print(asString)
-	return {'precision': precision, 'recall': recall, 'thresholdsState':thresholdsState}
+	return {'precision': precision, 'recall': recall, 'tableCount': len(tables), 'thresholdsState':thresholdsState}
 
 def machineLearningWithPrecisionRecall( tables, debug=False ):
 	return calculatePrecisionRecall(tables, debug)
