@@ -55,7 +55,11 @@ def get_table_key(request):
 
     for column in mod_table.columnNames:
         if column != keyCol:
-            pos_ontologies.append(mod_table.predicatesForColumns(keyCol, column))
+            result = mod_table.predicatesForColumns(keyCol, column) # FIXME: Ist immer leer
+            print(str(table.id) + ': ' + column + ' > ' + str(result))
+            pos_ontologies.append(result)
+        else:
+            pos_ontologies.append({'keyCol': 'Is key column'})
 
     #----------- 3. Return JsonResponse
     data = {'tableID': table.id, 'tableName': tableName, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,

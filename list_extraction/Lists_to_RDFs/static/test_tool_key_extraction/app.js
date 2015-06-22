@@ -42,11 +42,11 @@ function receiveJSON(data) {
 	// results of the key extraction algorithm
 	
 	// Scheme: data = {'tableID': table.id, 'tableName': table.title, 'articleName': articleName,
-	//					'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols}
+	//					'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols, 'ontologies': pos_ontologies}
 
 	// 0. TableID speichern
 	currentTableID = data['tableID']
-	// 1. Im HTML über indexOf vor dem ersten "<tr>" die RadioButton einfügen (Anzahl = count(data['colInfos']))
+	// 1. Im HTML �ber indexOf vor dem ersten "<tr>" die RadioButton einf�gen (Anzahl = count(data['colInfos']))
 	//		- Dabei das Ergebnis des Algorithmus direkt markieren (value=id)
 	var pos = data['tableHTML'].search(/<tr[^>]*>/)
 	if (pos == -1) {
@@ -70,11 +70,20 @@ function receiveJSON(data) {
 		var ratingStr = ''
 		if (uniqueColIndexes.indexOf(i) != -1) {
 			ratingStr = '<sub>('+data['colInfos'][uniqueID++]['rating']+')</sub>'
+		} else {
+			ratingStr = '<sub>(n.u.)</sub>'
 		}
 		
+		var ontologiesStr = '['
+		for(var j = 0; i < data['ontologies'].length; i++)
+			ontologiesStr += data['ontologies'][j]+','
+		ontologiesStr += ontologiesStr.substring(0, ontologiesStr.length-1)
+		
+		ontologiesStr += ']'
+			
 		radioButtonRow += '<td><input type="radio" name="column" value="'+i+'" onclick="updateDecisionStatus(\'green\')" ' +
 							((data['keyCol'] && data['keyCol']['xPos'] == i) ? 'checked="checked"' : '') + '/>' +
-							ratingStr + '</td>'
+							ratingStr + ontologiesStr+'</td>'
 	}
 	data['tableHTML'] = data['tableHTML'].slice(0, pos) + "<tr>" + radioButtonRow + "</tr>" + data['tableHTML'].slice(pos)
 	// 2. HTML-Code der Tabelle in $('#table-content') laden
