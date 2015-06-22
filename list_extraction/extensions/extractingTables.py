@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-from bs4 import BeautifulSoup
 import codecs
 import json
 import extensions.inflect as inflect
@@ -8,6 +6,8 @@ import math
 import sys
 import re
 import traceback
+
+from bs4 import BeautifulSoup
 from  more_itertools import unique_everseen
 
 # Nach TR-Tag suchen (muss THs enthalten)
