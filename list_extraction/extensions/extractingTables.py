@@ -29,6 +29,7 @@ COLNAME_MAX_WORD_POINTS = 20 # Wenn ein Wort-Treffer kann max {x} Punkte einbrin
 COLNAME_PLURAL_HIT_POINTS = 10 # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
 COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
 COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
+COL_RATING_RATIO = 0.85 # Der zweite Platz darf höchstens {x} vom ersten Platz entsprechen
 
 # DEPRECATED
 # Konstantendefinition für Rückgabewert-Typen
@@ -301,7 +302,7 @@ def validateRatings( cols ):
 	if len(ratCols) > 1:
 		rating2 = ratCols[1]['rating']
 		# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
-		if (rating2 / rating1) > 0.85:
+		if (rating2 / rating1) > COL_RATING_RATIO:
 			print("Algorithm failed: Not clear enough")
 			return None
 	
@@ -384,7 +385,7 @@ def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 		# Might be an error caused by wrong html format or unsupported html encoding
 		# raise e
 		print('Error: ' + str(e))
-		print(traceback.format_exc())
+		# print(traceback.format_exc())
 		keyCol = -1
 		uniqueCols = []
 		colCount = countAllCols(htmlTable)
@@ -407,7 +408,6 @@ def calculatePrecisionRecall( tables, debug=False ):
 	for table in tables:
 		algoCol = str(table.algo_col)
 		humCol = (table.hum_col)
-		print(str(table.id) +': ' + algoCol + ' but is ' + humCol)
 		
 		# There is no key columng
 		if humCol == '-1':
@@ -424,7 +424,9 @@ def calculatePrecisionRecall( tables, debug=False ):
 			else: # Algorithm is wrong (suggests the wrong column as key column)
 				countWC += 1
 	if debug:
-		asString =  'True positive: '+str(countTP)+'\n'
+		asString = '\n---------------------------------------------\n'
+		asString +=  'Tested tables: '+str(len(tables))+'\n'
+		asString +=  'True positive: '+str(countTP)+'\n'
 		asString += 'True negative: '+str(countTN)+'\n'
 		asString += 'False positive: '+str(countFP+countWC)+' ('+str(countWC)+' wrong columns + '+str(countFP)+' non existing columns) \n'
 		asString += 'False negative: '+str(countFN)+'\n'
@@ -432,28 +434,67 @@ def calculatePrecisionRecall( tables, debug=False ):
 	
 	countFP += countWC
 	if (countTP+countFP) > 0 and (countTP+countFN) > 0:
-		precision = round(countTP / (countTP + countFP), 2)
-		recall = round(countTP / (countTP + countFN), 2)
+		precision = round(countTP / (countTP + countFP), 4)
+		recall = round(countTP / (countTP + countFN), 4)
 	else:
 		precision = 0
 		recall = 0
 	thresholdsState = {
-		'MIN_ENTITIES_COUNT': MIN_ENTITIES_COUNT, # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
-		'MAX_ENTITIES_POINTS': MAX_ENTITIES_POINTS, # Bei 100% Entitäten gibt es {x} Punkte
-		'COLNAME_NAME_POINTS': COLNAME_NAME_POINTS, # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
-		'COLNAME_MAX_WORD_POINTS': COLNAME_MAX_WORD_POINTS, # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
-		'COLNAME_PLURAL_HIT_POINTS': COLNAME_PLURAL_HIT_POINTS, # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
-		'COLPOS_MAX_POINTS': COLPOS_MAX_POINTS, # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
-		'COL_TH_POINTS': COL_TH_POINTS} # Eine Spalte mit <th>-Tags erhält {x} Punkt}
+		'MIN_ENTITIES_COUNT': MIN_ENTITIES_COUNT,
+		'MAX_ENTITIES_POINTS': MAX_ENTITIES_POINTS,
+		'COLNAME_NAME_POINTS': COLNAME_NAME_POINTS,
+		'COLNAME_MAX_WORD_POINTS': COLNAME_MAX_WORD_POINTS,
+		'COLNAME_PLURAL_HIT_POINTS': COLNAME_PLURAL_HIT_POINTS,
+		'COLPOS_MAX_POINTS': COLPOS_MAX_POINTS,
+		'COL_TH_POINTS': COL_TH_POINTS,
+		'COL_RATING_RATIO': COL_RATING_RATIO}
 	
 	if debug:
 		asString = 'Precision: '+str(precision*100)+'%\nRecall: '+str(recall*100)+'%\n'
+		asString += '---------------------------------------------\n'
 		print(asString)
+	
 	return {'precision': precision, 'recall': recall, 'tableCount': len(tables), 'thresholdsState':thresholdsState}
 
 def machineLearningWithPrecisionRecall( tables, debug=False ):
 	return calculatePrecisionRecall(tables, debug)
 	# TODO: Machine learning: Passe Thresholds an und für es wieder aus
 	
+def changeThresholds(
+		minEntitiesCount=0.4,
+		maxEntitiesPoints=30,
+		colnameNamePoints=50,
+		colnameMaxWordPoints=10,
+		colnamePluralHitPoints=20,
+		colposMaxPoints=20,
+		colThPoints=40,
+		colRatingRatio=0.98):
+	# Define that the global vars are changing
+	global MIN_ENTITIES_COUNT,\
+		MAX_ENTITIES_POINTS,\
+		COLNAME_NAME_POINTS,\
+		COLNAME_MAX_WORD_POINTS,\
+		COLNAME_PLURAL_HIT_POINTS,\
+		COLPOS_MAX_POINTS,\
+		COL_TH_POINTS,\
+		COL_RATING_RATIO
 	
+	# Change Thresholds
+	MIN_ENTITIES_COUNT = minEntitiesCount
+	MAX_ENTITIES_POINTS = maxEntitiesPoints
+	COLNAME_NAME_POINTS = colnameNamePoints
+	COLNAME_MAX_WORD_POINTS = colnameMaxWordPoints
+	COLNAME_PLURAL_HIT_POINTS = colnamePluralHitPoints
+	COLPOS_MAX_POINTS = colposMaxPoints
+	COL_TH_POINTS = colThPoints
+	COL_RATING_RATIO = colRatingRatio
 
+def testWithCustomThresholds( tables, debug=False):
+	# Test all thresholds set to 10
+	changeThresholds()
+	for table in tables:
+		result = extractKeyColumn(table.html, str(table.wiki_list.title), '', '')
+		table.algo_col = result['keyCol']
+	
+	result = calculatePrecisionRecall(tables, debug)
+	return result
