@@ -8,6 +8,7 @@ from django.http import JsonResponse
 
 from .models import WikiList, WikiTable
 from extensions.extractingTables import *
+from extensions.table import *
 
 # Create your views here.
 """
@@ -31,6 +32,9 @@ def get_table_key(request):
     table = tables[index]
     htmlTable = table.html
 
+    # table represented by table-module in extensions 
+    mod_table = Table(htmlTable)
+
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
     abstracts = '' #TODO
@@ -46,9 +50,16 @@ def get_table_key(request):
     table.algo_col = str(keyCol)
     table.save()
 
+    # get possible ontologies to display for each table
+    pos_ontologies = []
+
+    for column in mod_table.columnNames:
+        if column != keyCol:
+            pos_ontologies.append(mod_table.predicatesForColumns(keyCol, column)
+
     #----------- 3. Return JsonResponse
     data = {'tableID': table.id, 'tableName': table.title, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
-            'colCount': colCount, 'articleName': articleName}
+            'colCount': colCount, 'articleName': articleName, 'ontologies': pos_ontologies}
     
     return JsonResponse(data, safe=False)
 
