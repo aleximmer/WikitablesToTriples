@@ -1,3 +1,6 @@
+/*
+Initial script used to save htmls to storage (using the server)
+*/
 var fs = require('fs')
 var request = require('request')
 var LineByLine = require('line-by-line')
@@ -34,13 +37,6 @@ lr.on('line', function(line) {
 	// few sets containing 'List of' which aren´t lists are filtered
 	// e.g. see http://en.wikipedia.org/wiki/Disability/List_of_impairments
 	// maybe apply later...
-	/*
-	if(subLine.substring(0, 7) == 'List of'){
-		console.log("read Url");
-		retrieveURL(url, subLine);
-	};
-	*/
-
 	retrieveURL(url, subLine);
 
 });
