@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import .sparql as sparql
+from . import sparql
 import itertools
 
 class Table:
@@ -7,6 +7,8 @@ class Table:
     """This class abstracts tables in Wikipedia articles to provide additional extraction functionality."""
 
     def __init__(self, soup):
+        if soup.__class__.__name__ == 'str':
+            soup = BeautifulSoup(soup)
         self.soup = soup
         self.caption = soup.find('caption')
         self.head = soup.find('thead')

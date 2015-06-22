@@ -38,7 +38,7 @@ def get_table_key(request):
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
     abstracts = '' #TODO
-    tableName = '' #TODO
+    tableName = table.title
 
     # See extensions/extractingTables.py for algorithm informations
     result = extractKeyColumn(htmlTable, articleName, tableName, abstracts)
@@ -55,10 +55,10 @@ def get_table_key(request):
 
     for column in mod_table.columnNames:
         if column != keyCol:
-            pos_ontologies.append(mod_table.predicatesForColumns(keyCol, column)
+            pos_ontologies.append(mod_table.predicatesForColumns(keyCol, column))
 
     #----------- 3. Return JsonResponse
-    data = {'tableID': table.id, 'tableName': table.title, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
+    data = {'tableID': table.id, 'tableName': tableName, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
             'colCount': colCount, 'articleName': articleName, 'ontologies': pos_ontologies}
     
     return JsonResponse(data, safe=False)
