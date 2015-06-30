@@ -1,0 +1,291 @@
+{
+    "no. of tables": 10,
+    "page": "Waheed Murad filmography",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'As an actor'",
+            "colums": [
+                "",
+                "Total",
+                "Urdu",
+                "Punjabi",
+                "Pushto",
+                "Diamond",
+                "Platinum",
+                "Golden",
+                "Silver",
+                "Flops"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 1.0,
+                        "http://dbpedia.org/property/starring": 1.0
+                    },
+                    "subject": "Film",
+                    "object": "Other actors"
+                }
+            ],
+            "table": "Unnamed table in section 'As an actor'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Other actors",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.75,
+                        "http://dbpedia.org/property/producer": 0.25
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.75,
+                        "http://dbpedia.org/property/starring": 0.75
+                    },
+                    "subject": "Film",
+                    "object": "Other actors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.25
+                    },
+                    "subject": "Film",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.25
+                    },
+                    "subject": "Other actors",
+                    "object": "Film"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.25
+                    },
+                    "subject": "Other actors",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'As an actor'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Other actors",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.31,
+                        "http://dbpedia.org/property/producer": 0.07
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.34,
+                        "http://dbpedia.org/property/starring": 0.31
+                    },
+                    "subject": "Film",
+                    "object": "Other actors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.03
+                    },
+                    "subject": "Other actors",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.03
+                    },
+                    "subject": "Other actors",
+                    "object": "Remarks"
+                }
+            ],
+            "table": "Unnamed table in section 'As an actor'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Other actors",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.14,
+                        "http://dbpedia.org/property/producer": 0.02,
+                        "http://dbpedia.org/property/writer": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.14,
+                        "http://dbpedia.org/property/starring": 0.14
+                    },
+                    "subject": "Film",
+                    "object": "Other actors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Remarks"
+                }
+            ],
+            "table": "Unnamed table in section 'As an actor'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Other actors",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/awards": 0.03
+                    },
+                    "subject": "Other actors",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.13
+                    },
+                    "subject": "Other actors",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'As an actor'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Other actors",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'As a cameo'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Cast",
+                "Business"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.45
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.55,
+                        "http://dbpedia.org/ontology/producer": 0.55,
+                        "http://dbpedia.org/property/producer": 0.55,
+                        "http://dbpedia.org/ontology/writer": 0.27,
+                        "http://dbpedia.org/property/starring": 0.45,
+                        "http://dbpedia.org/property/writer": 0.18
+                    },
+                    "subject": "Film",
+                    "object": "Cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.09,
+                        "http://dbpedia.org/ontology/award": 0.18
+                    },
+                    "subject": "Cast",
+                    "object": "Film"
+                }
+            ],
+            "table": "Unnamed table in section 'As a producer'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Cast",
+                "Business"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'As a director'",
+            "colums": [
+                "Year",
+                "Film",
+                "Cast",
+                "Business"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.75
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.75,
+                        "http://dbpedia.org/property/starring": 0.75
+                    },
+                    "subject": "Film",
+                    "object": "Cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.25
+                    },
+                    "subject": "Cast",
+                    "object": "Film"
+                }
+            ],
+            "table": "Unnamed table in section 'As a writer'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director",
+                "Cast",
+                "Business"
+            ]
+        }
+    ]
+}

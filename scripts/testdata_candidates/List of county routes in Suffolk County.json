@@ -1,0 +1,464 @@
+{
+    "no. of tables": 5,
+    "page": "List of county routes in Suffolk County, New York",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.02,
+                        "http://dbpedia.org/property/mile": 0.02
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/road": 0.1
+                    },
+                    "subject": "Route",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.05,
+                        "http://dbpedia.org/property/alternateName": 0.1,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.1
+                    },
+                    "subject": "Route",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/property/road": 0.05
+                    },
+                    "subject": "Route",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/road": 0.02
+                    },
+                    "subject": "Route",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "From",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/routeEnd": 0.05
+                    },
+                    "subject": "From",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.15,
+                        "http://dbpedia.org/ontology/county": 0.02,
+                        "http://dbpedia.org/property/locationSpecial": 0.02,
+                        "http://dbpedia.org/property/counties": 0.02
+                    },
+                    "subject": "From",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "From",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "To",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1,
+                        "http://dbpedia.org/property/road": 0.02
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.02,
+                        "http://dbpedia.org/property/location": 0.07
+                    },
+                    "subject": "To",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "To",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/road": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/location": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "To"
+                }
+            ],
+            "table": "Unnamed table in section 'Routes 26\u201350C'",
+            "colums": [
+                "Route",
+                "Length\n(mi)[1]",
+                "Length\n(km)",
+                "From",
+                "Via",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.07,
+                        "http://dbpedia.org/property/mile": 0.03
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.03
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.24
+                    },
+                    "subject": "Route",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/location": 0.34
+                    },
+                    "subject": "Route",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.34
+                    },
+                    "subject": "Route",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Route",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Via",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Via",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03
+                    },
+                    "subject": "To",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Via"
+                }
+            ],
+            "table": "Unnamed table in section 'Routes 51\u201375'",
+            "colums": [
+                "Route",
+                "Length\n(mi)[1]",
+                "Length\n(km)",
+                "From",
+                "Via",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.3,
+                        "http://dbpedia.org/property/mile": 0.17
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.07,
+                        "http://dbpedia.org/ontology/routeJunction": 0.07,
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/property/road": 0.03
+                    },
+                    "subject": "Route",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/property/alternateName": 0.03,
+                        "http://dbpedia.org/ontology/routeEnd": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Route",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/ontology/routeJunction": 0.03,
+                        "http://dbpedia.org/ontology/routeEnd": 0.07
+                    },
+                    "subject": "Route",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Route",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/road": 0.03
+                    },
+                    "subject": "From",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.03,
+                        "http://dbpedia.org/property/road": 0.03,
+                        "http://dbpedia.org/ontology/routeEnd": 0.1
+                    },
+                    "subject": "From",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.03
+                    },
+                    "subject": "Via",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.03
+                    },
+                    "subject": "Via",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "To",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.03
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/routeJunction": 0.03
+                    },
+                    "subject": "To",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/end": 0.03,
+                        "http://dbpedia.org/ontology/routeEnd": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Via"
+                }
+            ],
+            "table": "Unnamed table in section 'Routes 76\u2013100'",
+            "colums": [
+                "Route",
+                "Length\n(mi)[1]",
+                "Length\n(km)",
+                "From",
+                "Via",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.19,
+                        "http://dbpedia.org/property/mile": 0.12
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.12,
+                        "http://dbpedia.org/ontology/routeJunction": 0.06,
+                        "http://dbpedia.org/property/location": 0.5
+                    },
+                    "subject": "Route",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternateName": 0.06,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Route",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/routeEnd": 0.06
+                    },
+                    "subject": "Route",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "To",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.06,
+                        "http://dbpedia.org/property/mile": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Length\n(mi)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "To"
+                }
+            ],
+            "table": "Unnamed table in section 'Routes 101 and up'",
+            "colums": [
+                "Route",
+                "Length\n(mi)[1]",
+                "Length\n(km)",
+                "From",
+                "Via",
+                "To",
+                "Notes"
+            ]
+        }
+    ]
+}

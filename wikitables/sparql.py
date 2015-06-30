@@ -7,7 +7,7 @@ wrapper.setReturnFormat(JSON)
 
 # Resource (with redirect) -> Resource (with redirect)
 rrQuery = """
-select ?predicate
+select ?subject ?predicate ?object
 where {
     %s dbpedia-owl:wikiPageRedirects* ?subject.
     %s dbpedia-owl:wikiPageRedirects* ?object.
@@ -16,7 +16,7 @@ where {
 
 # Resource (with redirect) -> Literal
 rlQuery = """
-select ?predicate
+select ?subject ?predicate ?object
 where {
     %s dbpedia-owl:wikiPageRedirects* ?subject.
     ?subject ?predicate ?object.
@@ -26,7 +26,7 @@ where {
 
 # Resource (with redirect)
 rQuery = """
-select ?predicate
+select ?subject ?predicate ?object
 where {
     %s dbpedia-owl:wikiPageRedirects* ?subject.
     ?subject ?predicate ?object.
@@ -41,7 +41,7 @@ def predicates(sub, obj=None):
     else:
         query = rQuery % sub
     wrapper.setQuery(query)
-    
+
     try:
         results = wrapper.query().convert()
 
@@ -72,6 +72,7 @@ def cellContent(cell):
         literal = ' '.join(literal.split())
         literal = literal.replace('\\', '\\\\')
         literal = literal.replace('"', '\\"')
+        literal = literal.replace('.', '\\.')
         return literal
     else:
         #Handle red links
@@ -82,3 +83,6 @@ def cellContent(cell):
 
 def isResource(str):
     return str.startswith('<http://dbpedia.org/resource/')
+
+def predicateExists(sub, pre, obj):
+    return pre in predicates(sub, obj)

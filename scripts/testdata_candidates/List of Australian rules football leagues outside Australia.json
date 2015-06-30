@@ -1,0 +1,415 @@
+{
+    "no. of tables": 12,
+    "page": "Countries playing Australian rules football",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 1.0
+                    },
+                    "subject": "Overview",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "National team",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/jurisdiction": 1.0
+                    },
+                    "subject": "Governing Body",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/national": 0.5
+                    },
+                    "subject": "Overview",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.5
+                    },
+                    "subject": "Overview",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "National team",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/jurisdiction": 0.5,
+                        "http://dbpedia.org/property/headquarters": 0.5
+                    },
+                    "subject": "Governing Body",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/replaced": 0.5
+                    },
+                    "subject": "Governing Body",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "Main league competition(s)",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Americas'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Overview",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Overview",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Governing Body",
+                    "object": "Overview"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Governing Body",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Main league competition(s)",
+                    "object": "Overview"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Main league competition(s)",
+                    "object": "Governing Body"
+                }
+            ],
+            "table": "Unnamed table in section 'Americas'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "National team",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.07
+                    },
+                    "subject": "Overview",
+                    "object": "National team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/union": 0.07
+                    },
+                    "subject": "Overview",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.07,
+                        "http://dbpedia.org/ontology/country": 0.07
+                    },
+                    "subject": "Major teams/clubs",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/national": 0.14
+                    },
+                    "subject": "Overview",
+                    "object": "National team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/union": 0.14,
+                        "http://dbpedia.org/property/national": 0.14
+                    },
+                    "subject": "Overview",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.14,
+                        "http://dbpedia.org/property/national": 0.14
+                    },
+                    "subject": "Overview",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.43
+                    },
+                    "subject": "National team",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14,
+                        "http://dbpedia.org/property/national": 0.14
+                    },
+                    "subject": "National team",
+                    "object": "Overview"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/union": 0.14
+                    },
+                    "subject": "National team",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/regionServed": 0.14,
+                        "http://dbpedia.org/property/regionServed": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.14
+                    },
+                    "subject": "Governing Body",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.14
+                    },
+                    "subject": "Governing Body",
+                    "object": "Main league competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14
+                    },
+                    "subject": "Governing Body",
+                    "object": "Main cup competition(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.29
+                    },
+                    "subject": "Main league competition(s)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.14
+                    },
+                    "subject": "Main league competition(s)",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/regionServed": 0.14,
+                        "http://dbpedia.org/property/regionServed": 0.14
+                    },
+                    "subject": "Main cup competition(s)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14
+                    },
+                    "subject": "Main cup competition(s)",
+                    "object": "Overview"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14,
+                        "http://dbpedia.org/property/union": 0.14,
+                        "http://dbpedia.org/property/league": 0.14
+                    },
+                    "subject": "Main cup competition(s)",
+                    "object": "Governing Body"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/league": 0.14
+                    },
+                    "subject": "Main cup competition(s)",
+                    "object": "Main league competition(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Country",
+                "Overview",
+                "National team",
+                "Major teams/clubs",
+                "Governing Body",
+                "Main league competition(s)",
+                "Main cup competition(s)",
+                "Best IC performance"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "no. of tables": 2,
+    "page": "List of regional county municipalities and equivalent territories in Quebec",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02
+                    },
+                    "subject": "Region",
+                    "object": "code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.63,
+                        "http://dbpedia.org/property/p": 0.63
+                    },
+                    "subject": "Region",
+                    "object": "name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.9,
+                        "http://dbpedia.org/property/subdivisionName": 0.9
+                    },
+                    "subject": "name",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "name",
+                    "object": "code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.07,
+                        "http://dbpedia.org/property/p": 0.07,
+                        "http://dbpedia.org/property/seat": 0.71
+                    },
+                    "subject": "name",
+                    "object": "major communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.98,
+                        "http://dbpedia.org/property/subdivisionName": 0.98
+                    },
+                    "subject": "major communities",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordHighC": 0.01,
+                        "http://dbpedia.org/property/marRecordHighC": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01,
+                        "http://dbpedia.org/property/octHighC": 0.01,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/augMeanC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "major communities",
+                    "object": "code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.89
+                    },
+                    "subject": "major communities",
+                    "object": "name"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Region",
+                "Type",
+                "code",
+                "name",
+                "major communities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Region",
+                    "object": "code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.44,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/ontology/isPartOf": 0.06
+                    },
+                    "subject": "Region",
+                    "object": "name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/ontology/isPartOf": 0.06
+                    },
+                    "subject": "Region",
+                    "object": "major communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.69,
+                        "http://dbpedia.org/property/subdivisionName": 0.69
+                    },
+                    "subject": "name",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "name",
+                    "object": "code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06
+                    },
+                    "subject": "name",
+                    "object": "major communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.94,
+                        "http://dbpedia.org/property/subdivisionName": 0.94
+                    },
+                    "subject": "major communities",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "major communities",
+                    "object": "code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.19,
+                        "http://dbpedia.org/property/subdivisionName": 0.19
+                    },
+                    "subject": "major communities",
+                    "object": "name"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Region",
+                "Type",
+                "code",
+                "name",
+                "major communities"
+            ]
+        }
+    ]
+}

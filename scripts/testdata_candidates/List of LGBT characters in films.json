@@ -1,0 +1,291 @@
+{
+    "no. of tables": 23,
+    "page": "List of LGBT characters in film",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation/Gender Identity",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/lastAppearance": 0.04,
+                        "http://dbpedia.org/ontology/portrayer": 0.04
+                    },
+                    "subject": "Character",
+                    "object": "Show/film"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06,
+                        "http://dbpedia.org/ontology/starring": 0.06,
+                        "http://dbpedia.org/property/starring": 0.06,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Show/film",
+                    "object": "Character"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Character",
+                    "object": "Show/film"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Show/film",
+                    "object": "Character"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/extra": 0.17
+                    },
+                    "subject": "Show/film",
+                    "object": "Character"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.08,
+                        "http://dbpedia.org/ontology/series": 0.08
+                    },
+                    "subject": "Character",
+                    "object": "Show/film"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Character",
+                "Show/film",
+                "Orientation",
+                "Media"
+            ]
+        }
+    ]
+}

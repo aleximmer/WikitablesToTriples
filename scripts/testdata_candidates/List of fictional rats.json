@@ -1,0 +1,270 @@
+{
+    "no. of tables": 8,
+    "page": "List of fictional rodents",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33,
+                        "http://dbpedia.org/ontology/author": 0.33,
+                        "http://dbpedia.org/property/author": 0.33
+                    },
+                    "subject": "Character/s",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.67
+                    },
+                    "subject": "Character/s",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.33
+                    },
+                    "subject": "Author",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.33
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Work",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33,
+                        "http://dbpedia.org/ontology/author": 0.33,
+                        "http://dbpedia.org/property/author": 0.33
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Literature'",
+            "colums": [
+                "Character/s",
+                "Species",
+                "Author",
+                "Work",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/species": 0.33
+                    },
+                    "subject": "Character/s",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.33,
+                        "http://dbpedia.org/ontology/series": 0.33
+                    },
+                    "subject": "Character/s",
+                    "object": "Comic"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Comics'",
+            "colums": [
+                "Character/s",
+                "Species",
+                "Comic",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08,
+                        "http://dbpedia.org/ontology/title": 0.08,
+                        "http://dbpedia.org/property/title": 0.08
+                    },
+                    "subject": "Origin",
+                    "object": "Character/s"
+                }
+            ],
+            "table": "Unnamed table in section 'Folklore & mythology'",
+            "colums": [
+                "Character/s",
+                "Origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://xmlns.com/foaf/0.1/name": 0.33
+                    },
+                    "subject": "Film",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Character/s",
+                "Species",
+                "Film",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/species": 0.17
+                    },
+                    "subject": "Character/s",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.17,
+                        "http://dbpedia.org/property/starring": 0.17
+                    },
+                    "subject": "Television show",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Television'",
+            "colums": [
+                "Character/s",
+                "Species",
+                "Television show",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 1.0,
+                        "http://dbpedia.org/property/species": 1.0
+                    },
+                    "subject": "Character",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.5,
+                        "http://dbpedia.org/ontology/creator": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 0.5,
+                        "http://dbpedia.org/property/species": 0.5
+                    },
+                    "subject": "Work",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.5,
+                        "http://dbpedia.org/ontology/creator": 0.5
+                    },
+                    "subject": "Work",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Character"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 0.5,
+                        "http://dbpedia.org/property/species": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Work"
+                }
+            ],
+            "table": "Unnamed table in section 'Animation'",
+            "colums": [
+                "Character",
+                "Species",
+                "Work",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.33,
+                        "http://dbpedia.org/property/arcadeSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arcadeSystem": 0.33
+                    },
+                    "subject": "Game",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Video games'",
+            "colums": [
+                "Name",
+                "Type",
+                "Game",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Character/s",
+                    "object": "Use"
+                }
+            ],
+            "table": "Unnamed table in section 'Mascots & Others'",
+            "colums": [
+                "Character/s",
+                "Species",
+                "Use",
+                "Notes"
+            ]
+        }
+    ]
+}

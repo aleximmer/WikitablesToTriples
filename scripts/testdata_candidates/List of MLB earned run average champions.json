@@ -1,0 +1,225 @@
+{
+    "no. of tables": 4,
+    "page": "List of Major League Baseball earned run average champions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hsp": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "Leader"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Team": 0.03,
+                        "http://dbpedia.org/property/rd2Team": 0.01,
+                        "http://dbpedia.org/property/rd3Team": 0.01,
+                        "http://dbpedia.org/property/finalsChamp": 0.01,
+                        "http://dbpedia.org/property/finalsRunnerUp": 0.01,
+                        "http://dbpedia.org/property/conf2Champ": 0.03,
+                        "http://dbpedia.org/property/conf2RunnerUp": 0.02
+                    },
+                    "subject": "Year",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.01,
+                        "http://dbpedia.org/property/debutteam": 0.05,
+                        "http://dbpedia.org/property/finalteam": 0.02,
+                        "http://dbpedia.org/ontology/team": 0.96,
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/ontology/formerTeam": 0.63
+                    },
+                    "subject": "Leader",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.03,
+                        "http://dbpedia.org/property/after": 0.05
+                    },
+                    "subject": "Leader",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/list2.": 0.01,
+                        "http://dbpedia.org/property/list3.": 0.03,
+                        "http://dbpedia.org/property/list1.": 0.04,
+                        "http://dbpedia.org/property/retirednumbers": 0.06
+                    },
+                    "subject": "Team",
+                    "object": "Leader"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/list2.": 0.01,
+                        "http://dbpedia.org/property/list1.": 0.01,
+                        "http://dbpedia.org/property/retirednumbers": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.06,
+                        "http://dbpedia.org/property/after": 0.05
+                    },
+                    "subject": "Runner-up",
+                    "object": "Leader"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/finalteam": 0.02,
+                        "http://dbpedia.org/property/debutteam": 0.01,
+                        "http://dbpedia.org/ontology/team": 0.27,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/ontology/formerTeam": 0.18
+                    },
+                    "subject": "Runner-up",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'National League'",
+            "colums": [
+                "Year",
+                "Leader",
+                "ERA",
+                "Team",
+                "Runner-up",
+                "ERA",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mvp": 0.02
+                    },
+                    "subject": "Year",
+                    "object": "Leader"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conf1RunnerUp": 0.09,
+                        "http://dbpedia.org/property/rd1Team": 0.04,
+                        "http://dbpedia.org/property/rd2Team": 0.04
+                    },
+                    "subject": "Year",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rsp": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/finalteam": 0.01,
+                        "http://dbpedia.org/property/debutteam": 0.03,
+                        "http://dbpedia.org/ontology/team": 1.0,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/ontology/formerTeam": 0.74
+                    },
+                    "subject": "Leader",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.02,
+                        "http://dbpedia.org/property/after": 0.03
+                    },
+                    "subject": "Leader",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/list3.": 0.02,
+                        "http://dbpedia.org/property/list1.": 0.06
+                    },
+                    "subject": "Team",
+                    "object": "Leader"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/list1.": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.03,
+                        "http://dbpedia.org/property/after": 0.02
+                    },
+                    "subject": "Runner-up",
+                    "object": "Leader"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.24,
+                        "http://dbpedia.org/ontology/formerTeam": 0.13
+                    },
+                    "subject": "Runner-up",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'American League'",
+            "colums": [
+                "Year",
+                "Leader",
+                "ERA",
+                "Team",
+                "Runner-up",
+                "ERA",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/debutteam": 0.07,
+                        "http://dbpedia.org/ontology/team": 0.93,
+                        "http://dbpedia.org/ontology/formerTeam": 0.5
+                    },
+                    "subject": "Leader",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champion": 0.07,
+                        "http://dbpedia.org/ontology/team": 0.07
+                    },
+                    "subject": "League",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.36,
+                        "http://dbpedia.org/ontology/formerTeam": 0.21
+                    },
+                    "subject": "Runner-up",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'Other major leagues'",
+            "colums": [
+                "Year",
+                "Leader",
+                "ERA",
+                "Team",
+                "League",
+                "Runner-up",
+                "ERA",
+                "Ref"
+            ]
+        }
+    ]
+}

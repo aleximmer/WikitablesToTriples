@@ -1,0 +1,192 @@
+{
+    "no. of tables": 2,
+    "page": "List of songs in Guitar Hero World Tour",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.02,
+                        "http://dbpedia.org/property/recorded": 0.19,
+                        "http://dbpedia.org/property/released": 0.1,
+                        "http://dbpedia.org/property/thisSingle": 0.01,
+                        "http://dbpedia.org/property/nextSingle": 0.01,
+                        "http://dbpedia.org/property/fromAlbum": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.19,
+                        "http://dbpedia.org/property/artist": 0.83,
+                        "http://dbpedia.org/ontology/musicalBand": 0.73,
+                        "http://dbpedia.org/property/composer": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.19,
+                        "http://dbpedia.org/ontology/artist": 0.12,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.73,
+                        "http://dbpedia.org/property/producer": 0.05,
+                        "http://dbpedia.org/property/writer": 0.08
+                    },
+                    "subject": "Song",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.52,
+                        "http://dbpedia.org/ontology/genre": 0.51
+                    },
+                    "subject": "Song",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.7,
+                        "http://dbpedia.org/ontology/genre": 0.72
+                    },
+                    "subject": "Artist",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/landscape": 0.12
+                    },
+                    "subject": "Artist",
+                    "object": "Exportable?"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Genre",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Main setlist'",
+            "colums": [
+                "Year",
+                "Song",
+                "Artist",
+                "Genre",
+                "Vocals Tour\nVenue",
+                "Exportable?"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.01,
+                        "http://dbpedia.org/property/recorded": 0.05,
+                        "http://dbpedia.org/property/released": 0.02,
+                        "http://dbpedia.org/property/certyear": 0.01
+                    },
+                    "subject": "Song title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.01,
+                        "http://dbpedia.org/property/associatedActs": 0.01,
+                        "http://dbpedia.org/ontology/musicalBand": 0.37,
+                        "http://dbpedia.org/ontology/writer": 0.13,
+                        "http://dbpedia.org/ontology/artist": 0.18,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.37,
+                        "http://dbpedia.org/property/allWriting": 0.01,
+                        "http://dbpedia.org/property/chronology": 0.01,
+                        "http://dbpedia.org/ontology/associatedBand": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/artist": 0.53,
+                        "http://dbpedia.org/ontology/producer": 0.11,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/property/writer": 0.08
+                    },
+                    "subject": "Song title",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.02,
+                        "http://dbpedia.org/property/fromAlbum": 0.01,
+                        "http://dbpedia.org/property/label": 0.02,
+                        "http://dbpedia.org/property/album": 0.03,
+                        "http://dbpedia.org/ontology/album": 0.04
+                    },
+                    "subject": "Song title",
+                    "object": "Pack name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bandMember": 0.01,
+                        "http://dbpedia.org/property/currentMembers": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Song title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.06,
+                        "http://dbpedia.org/property/label": 0.06
+                    },
+                    "subject": "Artist",
+                    "object": "Pack name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/landscape": 0.17
+                    },
+                    "subject": "Artist",
+                    "object": "Forward compatible with GH5/BH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.07
+                    },
+                    "subject": "Pack name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allLyrics": 0.01,
+                        "http://dbpedia.org/property/title": 0.05
+                    },
+                    "subject": "Pack name",
+                    "object": "Song title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.12,
+                        "http://dbpedia.org/property/artist": 0.12
+                    },
+                    "subject": "Pack name",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'Downloadable content'",
+            "colums": [
+                "Year",
+                "Song title",
+                "Artist",
+                "Genre",
+                "Pack name",
+                "Release date",
+                "Forward compatible with GH5/BH"
+            ]
+        }
+    ]
+}

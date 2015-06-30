@@ -16,17 +16,17 @@ with open('./TitlesShuffled.csv', 'r') as f:
         count += 1
         path = savePath % title.replace('/', '\\')
         if os.path.isfile(path):
-            print("%d\texisting\t%s" % (count, title))
+            print("%d\texists\t%s" % (count, title))
             continue
 
         try:
             page = w.Page(title)
             data = page.predicates(relative=True, omit=True)
         except Exception as e:
-            print("%d\terror\t\t%s" % (count, title))
-            print(e)
+            print("%d\terror\t%s" % (count, title))
+            print("%s" % e)
             continue
         else:
             with open(path, 'w') as f:
                 json.dump(data, f, indent=4)
-                print("%d\tdumped\t%s" % (count, title))
+                print("%d\tdump\t%s" % (count, title))

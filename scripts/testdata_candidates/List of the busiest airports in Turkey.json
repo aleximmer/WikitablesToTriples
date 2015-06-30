@@ -1,0 +1,335 @@
+{
+    "no. of tables": 6,
+    "page": "List of the busiest airports in Turkey",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.02,
+                        "http://dbpedia.org/property/r1Number": 0.04
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.58,
+                        "http://dbpedia.org/ontology/location": 0.42,
+                        "http://dbpedia.org/property/location": 0.35,
+                        "http://dbpedia.org/property/cityServed": 0.48
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "2013"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/property/junHighC": 0.02,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/junRecordHighC": 0.02,
+                        "http://dbpedia.org/property/marRecordHighC": 0.02,
+                        "http://dbpedia.org/property/decHighC": 0.02,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/augHighC": 0.04,
+                        "http://dbpedia.org/property/julLowC": 0.02,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Turkish airports by passenger traffic'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code\n(IATA/ICAO)",
+                "2014",
+                "2013",
+                "2012",
+                "2011"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.02,
+                        "http://dbpedia.org/property/r1Number": 0.05,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.59,
+                        "http://dbpedia.org/ontology/location": 0.41,
+                        "http://dbpedia.org/property/location": 0.37,
+                        "http://dbpedia.org/property/cityServed": 0.54
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/julHumidity": 0.02,
+                        "http://dbpedia.org/property/julRecordHighC": 0.02,
+                        "http://dbpedia.org/property/junHighC": 0.05,
+                        "http://dbpedia.org/property/marRecordHighC": 0.02,
+                        "http://dbpedia.org/property/junRecordHighC": 0.02,
+                        "http://dbpedia.org/property/decHighC": 0.02,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/julLowC": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Turkish airports by passenger traffic'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code\n(IATA/ICAO)",
+                "Total\nPassengers\n2011",
+                "Total\nPassengers\n2012",
+                "Change\n2011/12"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.56,
+                        "http://dbpedia.org/ontology/location": 0.44,
+                        "http://dbpedia.org/property/location": 0.39,
+                        "http://dbpedia.org/property/cityServed": 0.49
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/augLowC": 0.02,
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/julLowC": 0.02,
+                        "http://dbpedia.org/property/marPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/decRecordHighC": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Turkish airports by passenger traffic'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code\n(IATA/ICAO)",
+                "Total\nPassengers\n2010",
+                "Total\nPassengers\n2011",
+                "Change\n2010/11"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.59,
+                        "http://dbpedia.org/ontology/location": 0.39,
+                        "http://dbpedia.org/property/location": 0.37,
+                        "http://dbpedia.org/property/cityServed": 0.51
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/augLowC": 0.02,
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/property/julHumidity": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/julRecordHighC": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/decRecordHighC": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Turkish airports by passenger traffic'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code\n(IATA/ICAO)",
+                "Total\nPassengers\n2009",
+                "Total\nPassengers\n2010",
+                "Change\n2009/10",
+                "Aircraft\nmovements\n2010"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.54,
+                        "http://dbpedia.org/ontology/location": 0.37,
+                        "http://dbpedia.org/property/location": 0.34,
+                        "http://dbpedia.org/property/cityServed": 0.46
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/julHumidity": 0.02,
+                        "http://dbpedia.org/property/marRainDays": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/mayLowC": 0.02,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/julRecordLowC": 0.02,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepSun": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Aircraft\nmovements\n2009"
+                }
+            ],
+            "table": "Unnamed table in section 'Turkish airports by passenger traffic'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code\n(IATA/ICAO)",
+                "Total\nPassengers\n2008",
+                "Total\nPassengers\n2009",
+                "Change\n2008/09",
+                "Aircraft\nmovements\n2009"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/r1Number": 0.02,
+                        "http://dbpedia.org/property/text": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.51,
+                        "http://dbpedia.org/ontology/location": 0.37,
+                        "http://dbpedia.org/property/location": 0.34,
+                        "http://dbpedia.org/property/cityServed": 0.46
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Total\nPassengers\n2007"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/julLowC": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/julHumidity": 0.02,
+                        "http://dbpedia.org/property/latd": 0.05,
+                        "http://dbpedia.org/property/marRecordHighC": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Total\nPassengers\n2007"
+                }
+            ],
+            "table": "Unnamed table in section 'Turkish airports by passenger traffic'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code\n(IATA/ICAO)",
+                "Total\nPassengers\n2007",
+                "Total\nPassengers\n2008",
+                "Change\n2007/08"
+            ]
+        }
+    ]
+}

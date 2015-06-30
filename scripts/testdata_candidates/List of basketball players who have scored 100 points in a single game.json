@@ -1,0 +1,339 @@
+{
+    "no. of tables": 7,
+    "page": "List of basketball players who have scored 100 points in a single game",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0,
+                        "http://dbpedia.org/ontology/draftTeam": 1.0,
+                        "http://dbpedia.org/property/draftTeam": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Points",
+                "Player",
+                "Date",
+                "Team",
+                "Opponent",
+                "Final score",
+                "FGM",
+                "FGA",
+                "3FGM",
+                "3FGA",
+                "FTM",
+                "FTA",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "FTA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "FGM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.17,
+                        "http://dbpedia.org/ontology/affiliation": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.17
+                    },
+                    "subject": "Opponent",
+                    "object": "FGM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    },
+                    "subject": "Notes",
+                    "object": "FTA"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Points",
+                "Player",
+                "Date",
+                "Team",
+                "Opponent",
+                "Final score",
+                "FGM",
+                "FGA",
+                "3FGM",
+                "3FGA",
+                "FTM",
+                "FTA",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highschool": 0.04,
+                        "http://dbpedia.org/ontology/highschool": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "High school\n(State)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "3FGM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 0.04,
+                        "http://dbpedia.org/property/heightFt": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "FTM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/meanelevus": 0.04
+                    },
+                    "subject": "High school\n(State)",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalGdpRank": 0.04,
+                        "http://dbpedia.org/property/poprank": 0.04,
+                        "http://dbpedia.org/property/arearank": 0.04
+                    },
+                    "subject": "High school\n(State)",
+                    "object": "3FGM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/densityrank": 0.04,
+                        "http://dbpedia.org/property/incomerank": 0.04
+                    },
+                    "subject": "High school\n(State)",
+                    "object": "FTM"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Points",
+                "Player",
+                "Date",
+                "High school\n(State)",
+                "Opponent",
+                "Final score",
+                "FGM",
+                "FGA",
+                "3FGM",
+                "3FGA",
+                "FTM",
+                "FTA",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "FTM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Points",
+                "Player",
+                "Date",
+                "Team",
+                "Opponent",
+                "Final score",
+                "FGM",
+                "FGA",
+                "3FGM",
+                "3FGA",
+                "FTM",
+                "FTA",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "3FGM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/birthPlace": 0.11,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highschool": 0.04,
+                        "http://dbpedia.org/property/team": 0.07,
+                        "http://dbpedia.org/property/highSchool": 0.04,
+                        "http://dbpedia.org/ontology/highschool": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "FGM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "FGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imagesize": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/ontology/country": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.15
+                    },
+                    "subject": "Team",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/num": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "FTM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leagues": 0.04,
+                        "http://dbpedia.org/ontology/league": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.11
+                    },
+                    "subject": "Opponent",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfPages": 0.04,
+                        "http://dbpedia.org/property/pages": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "3FGM"
+                }
+            ],
+            "table": "Unnamed table in section 'International'",
+            "colums": [
+                "Points",
+                "Nationality",
+                "Player",
+                "Date",
+                "Team",
+                "Opponent",
+                "Final score",
+                "FGM",
+                "FGA",
+                "3FGM",
+                "3FGA",
+                "FTM",
+                "FTA",
+                "Notes",
+                "Ref."
+            ]
+        }
+    ]
+}

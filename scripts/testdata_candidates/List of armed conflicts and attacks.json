@@ -1,0 +1,515 @@
+{
+    "no. of tables": 6,
+    "page": "List of terrorist incidents, January\u2013June 2011",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/quoted": 0.03
+                    },
+                    "subject": "Type",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novRecordLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.09,
+                        "http://dbpedia.org/property/title": 0.03,
+                        "http://dbpedia.org/property/latd": 0.09
+                    },
+                    "subject": "Location",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.03,
+                        "http://dbpedia.org/property/col": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.06
+                    },
+                    "subject": "Location",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Perpetrator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/pop": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pop": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.06
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 0.03,
+                        "http://dbpedia.org/property/ideology": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Details"
+                }
+            ],
+            "table": "Unnamed table in section 'February'",
+            "colums": [
+                "Date",
+                "Type",
+                "Dead",
+                "Injured",
+                "Location",
+                "Details",
+                "Perpetrator",
+                "State",
+                "Non-state"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/episodenumber": 0.02
+                    },
+                    "subject": "Type",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/episodenumber": 0.02
+                    },
+                    "subject": "Type",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/episodenumber": 0.02
+                    },
+                    "subject": "Type",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.02,
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/gini": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.1,
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.04,
+                        "http://dbpedia.org/ontology/leader": 0.04
+                    },
+                    "subject": "Location",
+                    "object": "Details"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/fatalities": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lonDeg": 0.02,
+                        "http://dbpedia.org/property/injuries": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headquarters": 0.02,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/executedBy": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Perpetrator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/garrison": 0.02
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'March'",
+            "colums": [
+                "Date",
+                "Type",
+                "Dead",
+                "Injured",
+                "Location",
+                "Details",
+                "Perpetrator",
+                "State",
+                "Non-state"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.06,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.03,
+                        "http://dbpedia.org/property/areaRank": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febSnowDays": 0.03,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.03,
+                        "http://dbpedia.org/property/janSnowDays": 0.03,
+                        "http://dbpedia.org/property/yearLowC": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.03,
+                        "http://dbpedia.org/property/title": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.03,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/fsiRank": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/injuries": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "Details",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/susperps": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Perpetrator"
+                }
+            ],
+            "table": "Unnamed table in section 'April'",
+            "colums": [
+                "Date",
+                "Type",
+                "Dead",
+                "Injured",
+                "Location",
+                "Details",
+                "Perpetrator",
+                "State",
+                "Non-state"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.02
+                    },
+                    "subject": "Type",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latitude": 0.02
+                    },
+                    "subject": "Type",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/gini": 0.04,
+                        "http://dbpedia.org/property/areaMagnitude": 0.02,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.06,
+                        "http://dbpedia.org/property/longm": 0.08,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/fsiRank": 0.04,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.08,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/casualties": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/injuries": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/perp": 0.02
+                    },
+                    "subject": "Details",
+                    "object": "Perpetrator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.02,
+                        "http://dbpedia.org/ontology/battle": 0.02
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Details"
+                }
+            ],
+            "table": "Unnamed table in section 'May'",
+            "colums": [
+                "Date",
+                "Type",
+                "Dead",
+                "Injured",
+                "Location",
+                "Details",
+                "Perpetrator",
+                "State",
+                "Non-state"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.09,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/fsiRank": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/fsiRank": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.03,
+                        "http://dbpedia.org/property/fsiRank": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/longm": 0.09,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allegiance": 0.03,
+                        "http://dbpedia.org/ontology/place": 0.06,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03,
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "Details",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Dead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Injured"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 0.03,
+                        "http://dbpedia.org/property/international": 0.03
+                    },
+                    "subject": "Perpetrator",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'June'",
+            "colums": [
+                "Date",
+                "Type",
+                "Dead",
+                "Injured",
+                "Location",
+                "Details",
+                "Perpetrator",
+                "State",
+                "Non-state"
+            ]
+        }
+    ]
+}

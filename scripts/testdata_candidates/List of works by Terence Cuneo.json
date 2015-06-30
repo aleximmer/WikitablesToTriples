@@ -1,0 +1,270 @@
+{
+    "no. of tables": 17,
+    "page": "List of works by Terence Cuneo",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.24
+                    },
+                    "subject": "Comments",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Ceremonial paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Collection",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.11
+                    },
+                    "subject": "Comments",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Comments",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/almaMater": 0.06,
+                        "http://dbpedia.org/ontology/almaMater": 0.06
+                    },
+                    "subject": "Comments",
+                    "object": "Collection"
+                }
+            ],
+            "table": "Unnamed table in section 'Portraits'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/ontology/militaryUnit": 0.02,
+                        "http://dbpedia.org/property/unit": 0.01
+                    },
+                    "subject": "Comments",
+                    "object": "Collection"
+                }
+            ],
+            "table": "Unnamed table in section 'Military paintings or illustrations'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Railway paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Automobile paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/open": 0.02,
+                        "http://dbpedia.org/property/completionDate": 0.02,
+                        "http://dbpedia.org/property/produced": 0.02
+                    },
+                    "subject": "Comments",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Industrial paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Industrial paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Animal paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mouse cartoons'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous paintings'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Illustrations'",
+            "colums": [
+                "Year",
+                "Title",
+                "Image",
+                "Dimensions",
+                "Collection",
+                "Comments"
+            ]
+        }
+    ]
+}

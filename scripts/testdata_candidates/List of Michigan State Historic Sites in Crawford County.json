@@ -1,0 +1,907 @@
+{
+    "no. of tables": 40,
+    "page": "List of Michigan State Historic Sites",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alcona County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.21,
+                        "http://dbpedia.org/property/nearestCity": 0.21,
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.21,
+                        "http://dbpedia.org/property/location": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Alger County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.08
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Alpena County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.3
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Antrim County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Arenac County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.1
+                    },
+                    "subject": "City",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Baraga County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Benzie County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country2AdminDivisions": 0.18
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Charlevoix County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.11,
+                        "http://dbpedia.org/property/nearestCity": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Cheboygan County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Clare County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Crawford County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.15,
+                        "http://dbpedia.org/ontology/nearestCity": 0.08,
+                        "http://dbpedia.org/property/nearestCity": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.23
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Location",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.08,
+                        "http://dbpedia.org/property/nearestCity": 0.08,
+                        "http://dbpedia.org/ontology/nearestCity": 0.08
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Delta County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Dickinson County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Gladwin County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.11,
+                        "http://dbpedia.org/property/nearestCity": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Gogebic County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.1,
+                        "http://dbpedia.org/property/nearestCity": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Iosco County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.21,
+                        "http://dbpedia.org/ontology/routeEnd": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.07
+                    },
+                    "subject": "City",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Iron County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.15,
+                        "http://dbpedia.org/property/city": 0.15,
+                        "http://dbpedia.org/ontology/location": 0.23
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Isabella County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Kalkaska County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.07,
+                        "http://dbpedia.org/ontology/nearestCity": 0.13,
+                        "http://dbpedia.org/property/locale": 0.07,
+                        "http://dbpedia.org/property/nearestCity": 0.13,
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.13,
+                        "http://dbpedia.org/property/nearestCity": 0.13,
+                        "http://dbpedia.org/ontology/routeEnd": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Keweenaw County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/ontology/countySeat": 0.2,
+                        "http://dbpedia.org/ontology/largestCity": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.4
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2
+                    },
+                    "subject": "City",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Lake County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.29,
+                        "http://dbpedia.org/property/location": 0.14
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Luce County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/homeport": 0.06,
+                        "http://dbpedia.org/property/shipHomeport": 0.06,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.06,
+                        "http://dbpedia.org/property/nearestCity": 0.06
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Mason County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.07,
+                        "http://dbpedia.org/property/city": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.07,
+                        "http://dbpedia.org/property/city": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Mecosta County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Menominee County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Midland County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Missaukee County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Montcalm County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Montmorency County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Newaygo County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.17,
+                        "http://dbpedia.org/property/nearestCity": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceana County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ogemaw County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Ontonagon County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Osceola County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oscoda County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.33,
+                        "http://dbpedia.org/ontology/largestCity": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "City",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Otsego County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Presque Isle County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Roscommon County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Schoolcraft County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.07,
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/property/cities": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Wexford County'",
+            "colums": [
+                "Name",
+                "Image",
+                "Location",
+                "City",
+                "Listing date"
+            ]
+        }
+    ]
+}

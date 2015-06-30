@@ -1,0 +1,321 @@
+{
+    "no. of tables": 7,
+    "page": "List of The Twilight Zone episodes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.92,
+                        "http://dbpedia.org/property/episode": 0.94,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/season": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.92,
+                        "http://dbpedia.org/property/episode": 0.94,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/season": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.36,
+                        "http://dbpedia.org/property/director": 0.42
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.08,
+                        "http://dbpedia.org/ontology/writer": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightin": 0.03
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightin": 0.03
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'The Twilight Zone television series (1959\u201364)'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.72,
+                        "http://dbpedia.org/property/episode": 0.72
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.03,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.28,
+                        "http://dbpedia.org/property/episode": 0.28,
+                        "http://dbpedia.org/property/season": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.34,
+                        "http://dbpedia.org/property/director": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.17,
+                        "http://dbpedia.org/ontology/writer": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseries"
+                }
+            ],
+            "table": "Unnamed table in section 'The Twilight Zone television series (1959\u201364)'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.68,
+                        "http://dbpedia.org/property/episode": 0.68
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.22,
+                        "http://dbpedia.org/property/episode": 0.22,
+                        "http://dbpedia.org/property/season": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.03,
+                        "http://dbpedia.org/ontology/director": 0.38,
+                        "http://dbpedia.org/property/director": 0.38,
+                        "http://dbpedia.org/ontology/writer": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.16,
+                        "http://dbpedia.org/ontology/writer": 0.16
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.86
+                    },
+                    "subject": "Title",
+                    "object": "Production code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.03,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/name": 0.03
+                    },
+                    "subject": "Directed by",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'The Twilight Zone television series (1959\u201364)'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.89,
+                        "http://dbpedia.org/property/episode": 0.89
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.56,
+                        "http://dbpedia.org/property/director": 0.56
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.33,
+                        "http://dbpedia.org/ontology/writer": 0.39
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.89
+                    },
+                    "subject": "Title",
+                    "object": "Production code"
+                }
+            ],
+            "table": "Unnamed table in section 'The Twilight Zone television series (1959\u201364)'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.83,
+                        "http://dbpedia.org/property/episode": 0.83
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.06,
+                        "http://dbpedia.org/property/episode": 0.06,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/season": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.42,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/property/director": 0.42
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.14,
+                        "http://dbpedia.org/ontology/writer": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.86
+                    },
+                    "subject": "Title",
+                    "object": "Production code"
+                }
+            ],
+            "table": "Unnamed table in section 'The Twilight Zone television series (1959\u201364)'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production code"
+            ]
+        }
+    ]
+}

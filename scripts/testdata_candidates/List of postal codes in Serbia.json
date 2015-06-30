@@ -1,0 +1,346 @@
+{
+    "no. of tables": 22,
+    "page": "Postal codes in Serbia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.53,
+                        "http://dbpedia.org/property/postalCode": 0.53
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.3,
+                        "http://dbpedia.org/property/postalCode": 0.3
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.2,
+                        "http://dbpedia.org/property/postalCode": 0.2
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.5,
+                        "http://dbpedia.org/property/postalCode": 0.5
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.67,
+                        "http://dbpedia.org/property/postalCode": 0.67
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.16,
+                        "http://dbpedia.org/property/postalCode": 0.17
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.4,
+                        "http://dbpedia.org/property/postalCode": 0.6
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.7,
+                        "http://dbpedia.org/property/postalCode": 0.7
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.24,
+                        "http://dbpedia.org/property/postalCode": 0.24
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.28,
+                        "http://dbpedia.org/property/postalCode": 0.29
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.27,
+                        "http://dbpedia.org/property/postalCode": 0.28
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.37,
+                        "http://dbpedia.org/property/postalCode": 0.37
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.31,
+                        "http://dbpedia.org/property/postalCode": 0.31
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.23,
+                        "http://dbpedia.org/property/postalCode": 0.23
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.11,
+                        "http://dbpedia.org/property/postalCode": 0.11
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.27,
+                        "http://dbpedia.org/property/postalCode": 0.28
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.42,
+                        "http://dbpedia.org/property/postalCode": 0.42
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.38,
+                        "http://dbpedia.org/property/postalCode": 0.38
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.27,
+                        "http://dbpedia.org/property/postalCode": 0.27
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.29,
+                        "http://dbpedia.org/property/postalCode": 0.29
+                    },
+                    "subject": "Place name",
+                    "object": "Postal code"
+                }
+            ],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Place name",
+                "Postal code"
+            ]
+        }
+    ]
+}

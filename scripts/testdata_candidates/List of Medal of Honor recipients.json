@@ -1,0 +1,222 @@
+{
+    "no. of tables": 6,
+    "page": "List of Medal of Honor recipients",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.07,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.07,
+                        "http://dbpedia.org/ontology/battle": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issuedBy": 0.13
+                    },
+                    "subject": "Rank",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.07,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.07
+                    },
+                    "subject": "Notes[9]",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.07
+                    },
+                    "subject": "Notes[9]",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.07
+                    },
+                    "subject": "Notes[9]",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section '19th century'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes[9]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/awards": 0.25,
+                        "http://dbpedia.org/ontology/award": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Notes[13]"
+                }
+            ],
+            "table": "Unnamed table in section '19th century'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes[13]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.12,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableCommander": 0.12,
+                        "http://dbpedia.org/property/notableCommanders": 0.12
+                    },
+                    "subject": "Unit",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.25
+                    },
+                    "subject": "Unit",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section '20th century'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes[20][21]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.33,
+                        "http://dbpedia.org/ontology/battle": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section '20th century'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes[23]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section '20th century'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes[28]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section '20th century'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes[43]"
+            ]
+        }
+    ]
+}

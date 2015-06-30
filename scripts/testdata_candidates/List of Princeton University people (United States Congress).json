@@ -1,0 +1,260 @@
+{
+    "page": "List of Princeton University people (United States Congress, Supreme Court, Continental Congress and Constitutional Convention)",
+    "no. of tables": 5,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Senate'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/region": 0.2,
+                        "http://dbpedia.org/property/placeOfBirth": 0.26,
+                        "http://dbpedia.org/ontology/residence": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.35,
+                        "http://dbpedia.org/ontology/deathPlace": 0.36,
+                        "http://dbpedia.org/property/deathPlace": 0.31,
+                        "http://dbpedia.org/property/placeOfDeath": 0.28,
+                        "http://dbpedia.org/property/state": 0.7,
+                        "http://dbpedia.org/property/residence": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/party": 0.02,
+                        "http://dbpedia.org/property/title": 0.16,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02,
+                        "http://dbpedia.org/property/office": 0.03,
+                        "http://dbpedia.org/property/party": 0.02,
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/property/shortDescription": 0.01,
+                        "http://dbpedia.org/property/state": 0.02,
+                        "http://dbpedia.org/property/order": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/senators": 0.02
+                    },
+                    "subject": "State",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Affiliation",
+                "State",
+                "Service",
+                "Notes",
+                "Refs"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'House of Representatives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/region": 0.08,
+                        "http://dbpedia.org/ontology/residence": 0.05,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/property/residence": 0.04,
+                        "http://dbpedia.org/property/district": 0.01,
+                        "http://dbpedia.org/property/state": 0.34,
+                        "http://dbpedia.org/ontology/birthPlace": 0.16,
+                        "http://dbpedia.org/property/placeOfBirth": 0.11,
+                        "http://dbpedia.org/ontology/deathPlace": 0.11,
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.01,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.01,
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/shortDescription": 0.01,
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/property/allegiance": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preceded": 0.01
+                    },
+                    "subject": "State",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vp": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/property/succeeded": 0.01,
+                        "http://dbpedia.org/ontology/state": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Affiliation",
+                "State",
+                "Service",
+                "Notes",
+                "Refs"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'U.S. Supreme Court'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/region": 0.17,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08,
+                        "http://dbpedia.org/property/title": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/deathPlace": 0.08,
+                        "http://dbpedia.org/property/almaMater": 0.08,
+                        "http://dbpedia.org/property/placeOfDeath": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/almaMater": 0.08,
+                        "http://dbpedia.org/property/state": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Affiliation",
+                "Service",
+                "Notes",
+                "Refs"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Continental Congress'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/restingPlace": 0.03,
+                        "http://dbpedia.org/ontology/region": 0.05,
+                        "http://dbpedia.org/ontology/residence": 0.03,
+                        "http://dbpedia.org/property/residence": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.11,
+                        "http://dbpedia.org/property/state": 0.13,
+                        "http://dbpedia.org/ontology/deathPlace": 0.29,
+                        "http://dbpedia.org/property/deathPlace": 0.24,
+                        "http://dbpedia.org/property/placeOfDeath": 0.24,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termStart": 0.03,
+                        "http://dbpedia.org/property/termEnd": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.08,
+                        "http://dbpedia.org/property/title": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Affiliation",
+                "State",
+                "Service",
+                "Notes",
+                "Refs"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Constitutional Convention'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/region": 0.3,
+                        "http://dbpedia.org/ontology/residence": 0.1,
+                        "http://dbpedia.org/property/residence": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/state": 0.3,
+                        "http://dbpedia.org/ontology/deathPlace": 0.3,
+                        "http://dbpedia.org/property/deathPlace": 0.2,
+                        "http://dbpedia.org/property/placeOfDeath": 0.3,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1,
+                        "http://dbpedia.org/property/birthPlace": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.1,
+                        "http://dbpedia.org/property/title": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Affiliation",
+                "State",
+                "Notes",
+                "Refs"
+            ]
+        }
+    ]
+}

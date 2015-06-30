@@ -1,0 +1,416 @@
+{
+    "no. of tables": 32,
+    "page": "List of Casualty episodes",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Director",
+                    "object": "Episode No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.04
+                    },
+                    "subject": "Writer(s)",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate[68]",
+                "Viewers (millions)[68]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aux": 0.02
+                    },
+                    "subject": "Episode",
+                    "object": "Viewers (millions)"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)[71]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode No.",
+                "Series No.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers (millions)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Writer(s)",
+                    "object": "Series\nNo."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Episode\nNo.",
+                "Series\nNo.",
+                "Episode",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "UK viewers\n(millions)[77][78]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Casualty@Holby City'",
+            "colums": [
+                "Episode #",
+                "Title",
+                "Director",
+                "Writer(s)",
+                "Original airdate",
+                "Viewers\n(in millions)"
+            ]
+        }
+    ]
+}

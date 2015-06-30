@@ -1,0 +1,256 @@
+{
+    "no. of tables": 6,
+    "page": "List of viceregal representatives of Elizabeth II",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.8,
+                        "http://dbpedia.org/ontology/leader": 0.8
+                    },
+                    "subject": "Country",
+                    "object": "Governor-general"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderTitle": 0.47
+                    },
+                    "subject": "Country",
+                    "object": "List"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfBirth": 0.33,
+                        "http://dbpedia.org/property/birthPlace": 0.27,
+                        "http://dbpedia.org/ontology/birthPlace": 0.47,
+                        "http://dbpedia.org/ontology/country": 0.13
+                    },
+                    "subject": "Governor-general",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/order": 0.07,
+                        "http://dbpedia.org/property/title": 0.67,
+                        "http://dbpedia.org/property/office": 0.47
+                    },
+                    "subject": "Governor-general",
+                    "object": "List"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.07,
+                        "http://dbpedia.org/property/residence": 0.07
+                    },
+                    "subject": "List",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.67,
+                        "http://dbpedia.org/ontology/incumbent": 0.07
+                    },
+                    "subject": "List",
+                    "object": "Governor-general"
+                }
+            ],
+            "table": "Unnamed table in section 'Commonwealth realms'",
+            "colums": [
+                "Country",
+                "Governor-general",
+                "Since",
+                "List"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderTitle": 0.93,
+                        "http://dbpedia.org/ontology/leaderTitle": 0.07
+                    },
+                    "subject": "British Overseas Territory",
+                    "object": "Viceregal representative"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.79,
+                        "http://dbpedia.org/ontology/leader": 0.79
+                    },
+                    "subject": "British Overseas Territory",
+                    "object": "Current holder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.07
+                    },
+                    "subject": "Viceregal representative",
+                    "object": "British Overseas Territory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.64
+                    },
+                    "subject": "Viceregal representative",
+                    "object": "Current holder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.43,
+                        "http://dbpedia.org/property/office": 0.57
+                    },
+                    "subject": "Current holder",
+                    "object": "Viceregal representative"
+                }
+            ],
+            "table": "Unnamed table in section 'British overseas territories'",
+            "colums": [
+                "British Overseas Territory",
+                "Viceregal representative",
+                "Current holder"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 1.0,
+                        "http://dbpedia.org/ontology/leader": 1.0
+                    },
+                    "subject": "Dependency",
+                    "object": "Lieutenant Governor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0,
+                        "http://dbpedia.org/property/office": 0.67
+                    },
+                    "subject": "Lieutenant Governor",
+                    "object": "List"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.67
+                    },
+                    "subject": "List",
+                    "object": "Lieutenant Governor"
+                }
+            ],
+            "table": "Unnamed table in section 'British Crown Dependencies'",
+            "colums": [
+                "Dependency",
+                "Lieutenant Governor",
+                "Since",
+                "List"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.5,
+                        "http://dbpedia.org/ontology/leader": 0.5
+                    },
+                    "subject": "Territory",
+                    "object": "Representative"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Representative",
+                    "object": "List"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.5
+                    },
+                    "subject": "List",
+                    "object": "Representative"
+                }
+            ],
+            "table": "Unnamed table in section 'States in free association with New Zealand'",
+            "colums": [
+                "Territory",
+                "Representative",
+                "Since",
+                "List"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/viceroy": 0.17
+                    },
+                    "subject": "State",
+                    "object": "Governor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.17,
+                        "http://dbpedia.org/property/birthPlace": 0.17
+                    },
+                    "subject": "Governor",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Governor",
+                    "object": "List"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.17
+                    },
+                    "subject": "List",
+                    "object": "Governor"
+                }
+            ],
+            "table": "Unnamed table in section 'Sub-national representatives'",
+            "colums": [
+                "State",
+                "Governor",
+                "Since",
+                "List"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/viceroy": 0.6
+                    },
+                    "subject": "Province",
+                    "object": "Lieutenant-Governor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.3,
+                        "http://dbpedia.org/property/birthPlace": 0.2,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1
+                    },
+                    "subject": "Lieutenant-Governor",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.1
+                    },
+                    "subject": "Lieutenant-Governor",
+                    "object": "List"
+                }
+            ],
+            "table": "Unnamed table in section 'Sub-national representatives'",
+            "colums": [
+                "Province",
+                "Lieutenant-Governor",
+                "Since",
+                "List"
+            ]
+        }
+    ]
+}

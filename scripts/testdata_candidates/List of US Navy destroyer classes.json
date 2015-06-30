@@ -1,0 +1,230 @@
+{
+    "no. of tables": 5,
+    "page": "List of destroyer classes of the United States Navy",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsPlanned": 0.11,
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.89,
+                        "http://dbpedia.org/property/shipPropulsion": 0.22,
+                        "http://dbpedia.org/property/shipComplement": 0.11,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.67
+                    },
+                    "subject": "Class name",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.44
+                    },
+                    "subject": "Class name",
+                    "object": "First ship laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inCommissionRange": 0.33
+                    },
+                    "subject": "Class name",
+                    "object": "Last ship commissioned"
+                }
+            ],
+            "table": "Unnamed table in section 'Pre\u2013World War I'",
+            "colums": [
+                "Class name",
+                "Number of ships",
+                "First ship laid down",
+                "Last ship commissioned",
+                "Notes",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsCompleted": 1.0,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.33
+                    },
+                    "subject": "Class name",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.67
+                    },
+                    "subject": "Class name",
+                    "object": "First ship laid down"
+                }
+            ],
+            "table": "Unnamed table in section 'World War I'",
+            "colums": [
+                "Class name",
+                "Number of ships",
+                "First ship laid down",
+                "Last ship commissioned",
+                "Notes",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.9,
+                        "http://dbpedia.org/property/shipArmament": 0.1,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.1
+                    },
+                    "subject": "Class name",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 1.0
+                    },
+                    "subject": "Class name",
+                    "object": "First ship laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inCommissionRange": 0.2
+                    },
+                    "subject": "Class name",
+                    "object": "Last ship commissioned"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Class name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "Class name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "First ship laid down"
+                }
+            ],
+            "table": "Unnamed table in section 'Between the world wars'",
+            "colums": [
+                "Class name",
+                "Number of ships",
+                "First ship laid down",
+                "Last ship commissioned",
+                "Notes",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.67,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.33
+                    },
+                    "subject": "Class name",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inCommissionRange": 0.33
+                    },
+                    "subject": "Class name",
+                    "object": "First ship laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subclasses": 0.33
+                    },
+                    "subject": "Class name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'World War II'",
+            "colums": [
+                "Class name",
+                "Number of ships",
+                "First ship laid down",
+                "Last ship commissioned",
+                "Notes",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.75,
+                        "http://dbpedia.org/property/totalShipsActive": 0.12,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.5
+                    },
+                    "subject": "Class name",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.5
+                    },
+                    "subject": "Class name",
+                    "object": "First ship laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Class name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Class name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.25,
+                        "http://dbpedia.org/property/totalShipsActive": 0.12,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.12
+                    },
+                    "subject": "Notes",
+                    "object": "Number of ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.12
+                    },
+                    "subject": "Notes",
+                    "object": "First ship laid down"
+                }
+            ],
+            "table": "Unnamed table in section 'Cold War and beyond'",
+            "colums": [
+                "Class name",
+                "Number of ships",
+                "First ship laid down",
+                "Last ship commissioned",
+                "Notes",
+                "References"
+            ]
+        }
+    ]
+}

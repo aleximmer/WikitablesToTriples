@@ -1,0 +1,152 @@
+{
+    "no. of tables": 1,
+    "page": "List of Cambridge United F.C. managers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manageryears": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Cambridge United career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.07,
+                        "http://dbpedia.org/property/nationalcaps": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/caps": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.18,
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/caps": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Drawn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.07,
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/caps": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Lost"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalYear": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Cambridge United career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.04,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/janLowC": 0.07,
+                        "http://dbpedia.org/property/decPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/marLowC": 0.04,
+                        "http://dbpedia.org/property/yearLowC": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.07,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/janHighC": 0.04,
+                        "http://dbpedia.org/property/janLowC": 0.07,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/yearLowC": 0.04,
+                        "http://dbpedia.org/property/decHighC": 0.04,
+                        "http://dbpedia.org/property/filename": 0.04,
+                        "http://dbpedia.org/property/mayLowC": 0.04,
+                        "http://dbpedia.org/property/febHighC": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.07,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.04,
+                        "http://dbpedia.org/property/marHighC": 0.07,
+                        "http://dbpedia.org/property/novHighC": 0.07,
+                        "http://dbpedia.org/property/sepLowC": 0.07,
+                        "http://dbpedia.org/property/decLowC": 0.04,
+                        "http://dbpedia.org/property/octHighC": 0.04,
+                        "http://dbpedia.org/property/marLowC": 0.04,
+                        "http://dbpedia.org/property/julLowC": 0.04,
+                        "http://dbpedia.org/property/janLowC": 0.04,
+                        "http://dbpedia.org/property/filename": 0.04,
+                        "http://dbpedia.org/property/aprHighC": 0.04,
+                        "http://dbpedia.org/property/junLowC": 0.07,
+                        "http://dbpedia.org/property/febLowC": 0.04,
+                        "http://dbpedia.org/property/yearHighC": 0.04,
+                        "http://dbpedia.org/property/longd": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Drawn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.04,
+                        "http://dbpedia.org/property/marHighC": 0.04,
+                        "http://dbpedia.org/property/sepLowC": 0.04,
+                        "http://dbpedia.org/property/julLowC": 0.04,
+                        "http://dbpedia.org/property/marLowC": 0.04,
+                        "http://dbpedia.org/property/aprHighC": 0.04,
+                        "http://dbpedia.org/property/janLowC": 0.07,
+                        "http://dbpedia.org/property/novHighC": 0.04,
+                        "http://dbpedia.org/property/decPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/junLowC": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.07,
+                        "http://dbpedia.org/property/longd": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Lost"
+                }
+            ],
+            "table": "Unnamed table in section 'Managers since 1970'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Cambridge United career",
+                "Games",
+                "Won",
+                "Drawn",
+                "Lost",
+                "% won",
+                "Pts/game"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,379 @@
+{
+    "page": "List of named passenger trains of Europe",
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Austria'",
+            "predicates": [
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatedBy": 0.07,
+                        "http://dbpedia.org/property/operator": 0.13,
+                        "http://dbpedia.org/property/formeroperator": 0.07
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/property/hqCity": 0.27,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07,
+                        "http://dbpedia.org/ontology/headquarter": 0.33,
+                        "http://dbpedia.org/property/foundation": 0.07
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Belarus'",
+            "predicates": [
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.07
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/property/hqCity": 0.07,
+                        "http://dbpedia.org/ontology/headquarter": 0.07
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Belgium'",
+            "predicates": [
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 1.0,
+                        "http://dbpedia.org/property/locationCity": 1.0
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Bulgaria'",
+            "predicates": [],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Czech Republic/Slovakia (formerly Czechoslovakia)'",
+            "predicates": [],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Finland'",
+            "predicates": [
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.83,
+                        "http://dbpedia.org/property/locationCity": 0.83
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'France'",
+            "predicates": [
+                {
+                    "object": "Train Number",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/trainnumber": 0.04
+                    }
+                },
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatedBy": 0.04,
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/property/formeroperator": 0.04
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/start": 0.04
+                    }
+                },
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Endpoints",
+                    "predicates": {
+                        "http://dbpedia.org/property/services": 0.04,
+                        "http://dbpedia.org/property/owned": 0.28,
+                        "http://dbpedia.org/ontology/owner": 0.28,
+                        "http://dbpedia.org/ontology/owningOrganisation": 0.28
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Germany'",
+            "predicates": [
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.05,
+                        "http://dbpedia.org/property/formeroperator": 0.26
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/start": 0.16
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Hungary'",
+            "predicates": [
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/headquarter": 0.4
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Kazakhstan'",
+            "predicates": [
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.33
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.33,
+                        "http://dbpedia.org/property/location": 0.33
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Netherlands'",
+            "predicates": [],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Poland'",
+            "predicates": [
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.17
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.17,
+                        "http://dbpedia.org/property/location": 0.17
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Portugal'",
+            "predicates": [
+                {
+                    "object": "Train Operator",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/operator": 0.08
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/lines": 0.08
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.23,
+                        "http://dbpedia.org/property/locationCity": 0.23
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Sweden'",
+            "predicates": [
+                {
+                    "object": "Train Name",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    }
+                },
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.33,
+                        "http://dbpedia.org/ontology/locationCity": 0.33,
+                        "http://dbpedia.org/property/locationCity": 0.33,
+                        "http://dbpedia.org/property/start": 0.33
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Ukraine'",
+            "predicates": [
+                {
+                    "object": "Train Endpoints",
+                    "subject": "Train Operator",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.5
+                    }
+                },
+                {
+                    "object": "Train Name",
+                    "subject": "Train Endpoints",
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.19,
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://dbpedia.org/property/location": 0.19,
+                        "http://dbpedia.org/property/pushpinMap": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.12,
+                        "http://dbpedia.org/property/name": 0.12
+                    }
+                }
+            ],
+            "colums": [
+                "Train Name",
+                "Train Number",
+                "Train Operator",
+                "Train Endpoints",
+                "Operated"
+            ]
+        }
+    ],
+    "no. of tables": 16
+}

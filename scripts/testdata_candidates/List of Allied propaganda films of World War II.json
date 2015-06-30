@@ -1,0 +1,226 @@
+{
+    "no. of tables": 26,
+    "page": "List of Allied propaganda films of World War II",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 1.0,
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/writer": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.06,
+                        "http://dbpedia.org/property/director": 0.06,
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/property/producer": 0.06,
+                        "http://dbpedia.org/ontology/writer": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.25,
+                        "http://dbpedia.org/property/director": 0.25,
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/ontology/writer": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/director": 0.05,
+                        "http://dbpedia.org/property/directors": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.38,
+                        "http://dbpedia.org/property/director": 0.38,
+                        "http://dbpedia.org/ontology/producer": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'British Empire and Commonwealth'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/narrator": 0.07,
+                        "http://dbpedia.org/property/narrator": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Title",
+                "Director",
+                "Agencies or Organizations involved",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Title",
+                "Director",
+                "Agencies or Organizations involved",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Title",
+                "Director",
+                "Agencies or Organizations involved",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/narrator": 0.33,
+                        "http://dbpedia.org/property/narrator": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Title",
+                "Director",
+                "Agencies or Organizations involved",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.25,
+                        "http://dbpedia.org/property/director": 0.25,
+                        "http://dbpedia.org/ontology/producer": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/narrator": 0.25,
+                        "http://dbpedia.org/property/narrator": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Note"
+                }
+            ],
+            "table": "Unnamed table in section 'Soviet Union'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Note"
+            ]
+        }
+    ]
+}

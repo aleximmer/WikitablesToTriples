@@ -1,0 +1,264 @@
+{
+    "no. of tables": 24,
+    "page": "List of awards and nominations received by Tom Hanks",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major award associations'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Winner"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major award associations'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major award associations'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major award associations'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major award associations'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major award associations'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/holder": 1.0
+                    },
+                    "subject": "Category",
+                    "object": "Lost to"
+                }
+            ],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Lost to"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.33
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Award",
+                "Result"
+            ]
+        }
+    ]
+}

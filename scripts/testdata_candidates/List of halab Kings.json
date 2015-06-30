@@ -1,0 +1,486 @@
+{
+    "no. of tables": 26,
+    "page": "List of rulers of Aleppo",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "King From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "King Until"
+                }
+            ],
+            "table": "Unnamed table in section 'Dynasty of Yamhad'",
+            "colums": [
+                "Portrait",
+                "Name",
+                "King From",
+                "King Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "King From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "King Until"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Dynasty of Yamhad'",
+            "colums": [
+                "Portrait",
+                "Name",
+                "King From",
+                "King Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Hittite Dynasty'",
+            "colums": [
+                "Portrait",
+                "Name",
+                "King From",
+                "King Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.5,
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Epithet",
+                    "object": "Emir From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.5
+                    },
+                    "subject": "Epithet",
+                    "object": "Emir Until"
+                }
+            ],
+            "table": "Unnamed table in section 'Hamdanid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hamdanid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hamdanid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lu'lu' Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lu'lu' Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lu'lu' Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.67
+                    },
+                    "subject": "Epithet",
+                    "object": "Emir From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.67
+                    },
+                    "subject": "Epithet",
+                    "object": "Emir Until"
+                }
+            ],
+            "table": "Unnamed table in section 'Mirdasid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mirdasid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mirdasid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mirdasid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mirdasid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mirdasid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Uqaylids Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Seljuq Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Sultan From",
+                "Sultan Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14,
+                        "http://dbpedia.org/property/name": 0.14,
+                        "http://xmlns.com/foaf/0.1/name": 0.14
+                    },
+                    "subject": "Epithet",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.43
+                    },
+                    "subject": "Epithet",
+                    "object": "Sultan From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.14
+                    },
+                    "subject": "Epithet",
+                    "object": "Sultan Until"
+                }
+            ],
+            "table": "Unnamed table in section 'Seljuq Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Sultan From",
+                "Sultan Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://xmlns.com/foaf/0.1/name": 0.33
+                    },
+                    "subject": "Epithet",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Artuqid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Artuqid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Zengid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Atabeg From",
+                "Atabeg Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Epithet",
+                    "object": "Emir From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.25
+                    },
+                    "subject": "Epithet",
+                    "object": "Emir Until"
+                }
+            ],
+            "table": "Unnamed table in section 'Zengid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Emir From",
+                "Emir Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.25
+                    },
+                    "subject": "Epithet",
+                    "object": "Sultan Until"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/consort": 0.25
+                    },
+                    "subject": "Epithet",
+                    "object": "Relationship with Predecessor(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Ayyubid Dynasty'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Sultan From",
+                "Sultan Until",
+                "Relationship with Predecessor(s)",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mamluks'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Sultan From",
+                "Sultan Until",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mamluks'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Sultan From",
+                "Sultan Until",
+                "Notes",
+                "Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mamluks'",
+            "colums": [
+                "Portrait",
+                "Epithet",
+                "Name",
+                "Sultan From",
+                "Sultan Until",
+                "Notes",
+                "Title"
+            ]
+        }
+    ]
+}

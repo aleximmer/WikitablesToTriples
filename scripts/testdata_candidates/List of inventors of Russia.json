@@ -1,0 +1,526 @@
+{
+    "no. of tables": 24,
+    "page": "List of Russian inventors",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownFor": 0.12,
+                        "http://dbpedia.org/ontology/knownFor": 0.12
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manufacturer": 0.12,
+                        "http://dbpedia.org/ontology/manufacturer": 0.12,
+                        "http://dbpedia.org/ontology/keyPerson": 0.06
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.06,
+                        "http://dbpedia.org/property/knownFor": 0.12,
+                        "http://dbpedia.org/ontology/knownFor": 0.18
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/designer": 0.2,
+                        "http://dbpedia.org/property/designer": 0.2
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownFor": 0.14,
+                        "http://dbpedia.org/ontology/knownFor": 0.14
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.09
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/keyPerson": 0.09
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 1.0
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.25,
+                        "http://dbpedia.org/ontology/knownFor": 0.25
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/keyPerson": 0.25
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownFor": 0.05,
+                        "http://dbpedia.org/ontology/knownFor": 0.18
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/designer": 0.05
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.08,
+                        "http://dbpedia.org/ontology/knownFor": 0.17
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/invented": 0.08,
+                        "http://dbpedia.org/ontology/keyPerson": 0.08
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.11,
+                        "http://dbpedia.org/ontology/knownFor": 0.06,
+                        "http://dbpedia.org/property/employer": 0.06
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/designer": 0.06,
+                        "http://dbpedia.org/property/designer": 0.17,
+                        "http://dbpedia.org/ontology/keyPerson": 0.06
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.33
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownFor": 0.5,
+                        "http://dbpedia.org/ontology/knownFor": 0.5
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.5,
+                        "http://dbpedia.org/ontology/creatorOfDish": 0.5
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.06,
+                        "http://dbpedia.org/property/knownFor": 0.06,
+                        "http://dbpedia.org/ontology/knownFor": 0.19,
+                        "http://dbpedia.org/property/employer": 0.06
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/designer": 0.06,
+                        "http://dbpedia.org/property/designer": 0.06,
+                        "http://dbpedia.org/property/keyPeople": 0.06,
+                        "http://dbpedia.org/ontology/keyPerson": 0.06
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.2
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.2,
+                        "http://dbpedia.org/property/developer": 0.2
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.05,
+                        "http://dbpedia.org/property/knownFor": 0.05,
+                        "http://dbpedia.org/ontology/occupation": 0.05,
+                        "http://dbpedia.org/ontology/knownFor": 0.05,
+                        "http://dbpedia.org/ontology/employer": 0.05
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/designer": 0.05,
+                        "http://dbpedia.org/ontology/keyPerson": 0.05
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1,
+                        "http://dbpedia.org/property/knownFor": 0.2,
+                        "http://dbpedia.org/ontology/knownFor": 0.2
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inventors": 0.1,
+                        "http://dbpedia.org/property/designer": 0.1
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownFor": 1.0,
+                        "http://dbpedia.org/ontology/knownFor": 1.0
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.25,
+                        "http://dbpedia.org/ontology/significantProject": 0.25,
+                        "http://dbpedia.org/property/significantProjects": 0.25
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/keyPeople": 0.25,
+                        "http://dbpedia.org/ontology/keyPerson": 0.25
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/significantDesign": 0.14,
+                        "http://dbpedia.org/ontology/knownFor": 0.29
+                    },
+                    "subject": "Person",
+                    "object": "Inventions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.14
+                    },
+                    "subject": "Inventions",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Inventions",
+                "Image"
+            ]
+        }
+    ]
+}

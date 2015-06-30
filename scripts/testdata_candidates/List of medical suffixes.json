@@ -1,0 +1,338 @@
+{
+    "no. of tables": 31,
+    "page": "List of medical roots, suffixes and prefixes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/supplies": 0.02,
+                        "http://dbpedia.org/ontology/supplies": 0.02
+                    },
+                    "subject": "Examples",
+                    "object": "Meaning"
+                }
+            ],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Examples"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Meaning",
+                    "object": "Example(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Meaning",
+                    "object": "Examples"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Examples",
+                    "object": "Meaning"
+                }
+            ],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Examples"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prefixes and suffixes'",
+            "colums": [
+                "Affix",
+                "Meaning",
+                "Origin language and etymology",
+                "Example(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'English meanings'",
+            "colums": [
+                "Bodily concept",
+                "Greek root in English",
+                "Latin root in English",
+                "Other root in English"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'English meanings'",
+            "colums": [
+                "Body part or component",
+                "Greek root",
+                "Latin root",
+                "Other root"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'English meanings'",
+            "colums": [
+                "Color",
+                "Greek root in English",
+                "Latin root in English",
+                "Other root"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'English meanings'",
+            "colums": [
+                "Description",
+                "Greek root in English",
+                "Latin root in English",
+                "Other root"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'English meanings'",
+            "colums": [
+                "Description",
+                "Greek root in English",
+                "Latin root in English",
+                "Other root"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'English meanings'",
+            "colums": [
+                "Description",
+                "Greek root in English",
+                "Latin root in English",
+                "Other root"
+            ]
+        }
+    ]
+}

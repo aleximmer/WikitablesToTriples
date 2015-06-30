@@ -1,0 +1,206 @@
+{
+    "no. of tables": 7,
+    "page": "List of fictional ungulates",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 0.14,
+                        "http://dbpedia.org/property/species": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.14,
+                        "http://dbpedia.org/ontology/series": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.43,
+                        "http://dbpedia.org/ontology/creator": 0.57
+                    },
+                    "subject": "Name",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 0.29,
+                        "http://dbpedia.org/property/species": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.29,
+                        "http://dbpedia.org/ontology/author": 0.43,
+                        "http://dbpedia.org/property/author": 0.57,
+                        "http://dbpedia.org/ontology/creator": 0.29
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 0.14,
+                        "http://dbpedia.org/property/species": 0.14
+                    },
+                    "subject": "Work",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.43
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14,
+                        "http://dbpedia.org/property/name": 0.14,
+                        "http://xmlns.com/foaf/0.1/name": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Literature'",
+            "colums": [
+                "Name",
+                "Species",
+                "Work",
+                "Author",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Literature'",
+            "colums": [
+                "Name",
+                "Species",
+                "Origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Myth"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25,
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Literature'",
+            "colums": [
+                "Name",
+                "Species",
+                "Myth",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Media'",
+            "colums": [
+                "Name",
+                "Species",
+                "Work",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/property/name": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.12
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Media'",
+            "colums": [
+                "Name",
+                "Species",
+                "Program",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://dbpedia.org/property/title": 0.33,
+                        "http://xmlns.com/foaf/0.1/name": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Video games'",
+            "colums": [
+                "Name",
+                "Species",
+                "Origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/species": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Species"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/species": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25,
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Species"
+                }
+            ],
+            "table": "Unnamed table in section 'Advertising mascots'",
+            "colums": [
+                "Name",
+                "Species",
+                "Brand",
+                "Notes"
+            ]
+        }
+    ]
+}

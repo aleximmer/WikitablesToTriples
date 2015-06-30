@@ -1,0 +1,142 @@
+{
+    "page": "List of hospitals in North Carolina",
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of hospitals in North Carolina\t\t\t'",
+            "predicates": [
+                {
+                    "object": "City",
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/property/location": 0.13,
+                        "http://dbpedia.org/ontology/locationCity": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.14,
+                        "http://dbpedia.org/property/locationCity": 0.02
+                    }
+                },
+                {
+                    "object": "Hospital beds",
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/beds": 0.06,
+                        "http://dbpedia.org/ontology/bedCount": 0.06
+                    }
+                },
+                {
+                    "object": "Operating rooms",
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    }
+                },
+                {
+                    "object": "Affiliation",
+                    "subject": "Name",
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01
+                    }
+                },
+                {
+                    "object": "Notes",
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.01
+                    }
+                },
+                {
+                    "object": "Hospital beds",
+                    "subject": "City",
+                    "predicates": {
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01
+                    }
+                },
+                {
+                    "object": "Operating rooms",
+                    "subject": "City",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/areaWater": 0.01,
+                        "http://dbpedia.org/property/febSnowInch": 0.01,
+                        "http://dbpedia.org/property/julRecordLowF": 0.01,
+                        "http://dbpedia.org/property/decRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/junSnowInch": 0.03,
+                        "http://dbpedia.org/property/sepSnowDays": 0.02,
+                        "http://dbpedia.org/property/aprSnowDays": 0.01,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/augSnowDays": 0.02,
+                        "http://dbpedia.org/property/octSnowInch": 0.03,
+                        "http://dbpedia.org/property/octSnowDays": 0.02,
+                        "http://dbpedia.org/property/sepSnowInch": 0.03,
+                        "http://dbpedia.org/property/julSnowInch": 0.03,
+                        "http://dbpedia.org/property/maySnowInch": 0.03,
+                        "http://dbpedia.org/property/augSnowInch": 0.03,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/maySnowDays": 0.02,
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/julSnowDays": 0.02,
+                        "http://dbpedia.org/property/junSnowDays": 0.02,
+                        "http://dbpedia.org/property/areaWaterKm": 0.01,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01
+                    }
+                }
+            ],
+            "colums": [
+                "Name",
+                "City",
+                "Hospital beds",
+                "Operating rooms",
+                "Trauma designation",
+                "Affiliation",
+                "Notes"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Other hospitals'",
+            "predicates": [
+                {
+                    "object": "City",
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25,
+                        "http://dbpedia.org/property/location": 0.25
+                    }
+                }
+            ],
+            "colums": [
+                "Name",
+                "City"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Other hospitals'",
+            "predicates": [
+                {
+                    "object": "Military base",
+                    "subject": "Military hospital",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.2,
+                        "http://dbpedia.org/property/location": 0.2
+                    }
+                }
+            ],
+            "colums": [
+                "Military hospital",
+                "Military base"
+            ]
+        }
+    ],
+    "no. of tables": 3
+}

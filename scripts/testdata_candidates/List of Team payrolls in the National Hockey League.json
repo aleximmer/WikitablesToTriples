@@ -1,0 +1,710 @@
+{
+    "no. of tables": 31,
+    "page": "List of team payrolls in the NHL",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'League'",
+            "colums": [
+                "Year",
+                "Average team payroll",
+                "\u00a0% change",
+                "Standard deviation",
+                "Team cap",
+                "Player cap"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/captain": 0.22,
+                        "http://dbpedia.org/property/pointsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/gaaleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/captain": 0.22,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/goalsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/assistsleader": 0.22,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/plusminusleader": 0.11,
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/goalsleader": 0.22,
+                        "http://dbpedia.org/property/altcaptain": 0.56
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.44,
+                        "http://dbpedia.org/property/name": 0.56,
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.33,
+                        "http://dbpedia.org/property/altcaptain": 0.11,
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/plusminusleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.33
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.33,
+                        "http://dbpedia.org/property/goalsleader": 0.33,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.33
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/pointsleader": 0.11,
+                        "http://dbpedia.org/property/gaaleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/assistsleader": 0.22,
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/assistsleader": 0.22,
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/pointsleader": 0.33,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/goalsleader": 0.22,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.12,
+                        "http://dbpedia.org/property/pointsleader": 0.12,
+                        "http://dbpedia.org/property/name": 0.12,
+                        "http://dbpedia.org/property/goalsleader": 0.38,
+                        "http://dbpedia.org/property/altcaptain": 0.25
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/pointsleader": 0.22,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/assistsleader": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pointsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/winsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Eastern Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/gaaleader": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.14,
+                        "http://dbpedia.org/property/name": 0.29,
+                        "http://dbpedia.org/property/winsleader": 0.14
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/plusminusleader": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/pointsleader": 0.44,
+                        "http://dbpedia.org/property/plusminusleader": 0.11,
+                        "http://dbpedia.org/property/goalsleader": 0.56,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/pointsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.22,
+                        "http://dbpedia.org/property/goalsleader": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.11,
+                        "http://dbpedia.org/property/name": 0.44,
+                        "http://dbpedia.org/property/winsleader": 0.22,
+                        "http://dbpedia.org/property/assistsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.14,
+                        "http://dbpedia.org/property/pointsleader": 0.14,
+                        "http://dbpedia.org/property/plusminusleader": 0.14,
+                        "http://dbpedia.org/property/goalsleader": 0.29
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gaaleader": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.22,
+                        "http://dbpedia.org/property/pointsleader": 0.22,
+                        "http://dbpedia.org/property/goalsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pointsleader": 0.11,
+                        "http://dbpedia.org/property/assistsleader": 0.11,
+                        "http://dbpedia.org/property/winsleader": 0.11,
+                        "http://dbpedia.org/property/name": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.11,
+                        "http://dbpedia.org/property/altcaptain": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.22,
+                        "http://dbpedia.org/property/altcaptain": 0.11,
+                        "http://dbpedia.org/property/name": 0.56,
+                        "http://dbpedia.org/property/assistsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pointsleader": 0.22,
+                        "http://dbpedia.org/property/assistsleader": 0.22,
+                        "http://dbpedia.org/property/goalsleader": 0.11
+                    },
+                    "subject": "Year",
+                    "object": "Top paid player(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Conference'",
+            "colums": [
+                "Year",
+                "Team payroll",
+                "\u00a0% change",
+                "Median salary",
+                "Top paid player(s)",
+                "Highest salary"
+            ]
+        }
+    ]
+}

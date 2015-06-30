@@ -1,0 +1,339 @@
+{
+    "page": "List of leading rugby union test point scorers",
+    "no. of tables": 3,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Top twenty scoring international players (Tier 1)'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruClubcaps": 0.05,
+                        "http://dbpedia.org/property/repcaps": 0.05
+                    },
+                    "subject": "Player",
+                    "object": "World\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/repcaps": 0.05
+                    },
+                    "subject": "Player",
+                    "object": "Tier\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.2,
+                        "http://dbpedia.org/property/ruNationalteam": 0.7,
+                        "http://dbpedia.org/property/repteam": 0.05,
+                        "http://dbpedia.org/property/title": 0.05
+                    },
+                    "subject": "Player",
+                    "object": "International team(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruNationalcaps": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruClubcaps": 0.05
+                    },
+                    "subject": "Player",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/statvalue": 0.05,
+                        "http://dbpedia.org/property/ruSevensnationalcomp": 0.05,
+                        "http://dbpedia.org/property/super14caps": 0.05
+                    },
+                    "subject": "Player",
+                    "object": "DG"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.55,
+                        "http://dbpedia.org/property/num": 0.05,
+                        "http://dbpedia.org/property/worldCupApps": 0.05
+                    },
+                    "subject": "International team(s)",
+                    "object": "World\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.5,
+                        "http://dbpedia.org/property/num": 0.05,
+                        "http://dbpedia.org/property/worldCupApps": 0.05
+                    },
+                    "subject": "International team(s)",
+                    "object": "Tier\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.1,
+                        "http://dbpedia.org/property/topScorer": 0.4,
+                        "http://dbpedia.org/property/name": 0.15
+                    },
+                    "subject": "International team(s)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.6,
+                        "http://dbpedia.org/property/num": 0.05,
+                        "http://dbpedia.org/property/first": 0.05,
+                        "http://dbpedia.org/property/worldCupApps": 0.15
+                    },
+                    "subject": "International team(s)",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.05
+                    },
+                    "subject": "International team(s)",
+                    "object": "Con"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.45,
+                        "http://dbpedia.org/property/worldCupApps": 0.1
+                    },
+                    "subject": "International team(s)",
+                    "object": "DG"
+                }
+            ],
+            "colums": [
+                "World\nRank",
+                "Tier\nRank",
+                "Points",
+                "Player",
+                "International team(s)",
+                "Years active",
+                "Caps",
+                "Tries",
+                "Con",
+                "Pen",
+                "DG",
+                "Avg. PTS\n(per game)",
+                "Source(s)"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Top ten scoring international players (Tier 2)[23]'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruClubcaps": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "World\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruClubcaps": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Tier\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/ruNationalteam": 0.6
+                    },
+                    "subject": "Player",
+                    "object": "International team(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruNationalcaps": 0.4
+                    },
+                    "subject": "Player",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruProvincecaps": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "DG"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "International team(s)",
+                    "object": "World\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.7,
+                        "http://dbpedia.org/property/first": 0.1
+                    },
+                    "subject": "International team(s)",
+                    "object": "Tier\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/try": 0.1,
+                        "http://dbpedia.org/property/con": 0.2,
+                        "http://dbpedia.org/property/pen": 0.2,
+                        "http://dbpedia.org/property/caps": 0.1,
+                        "http://dbpedia.org/property/topScorer": 0.6,
+                        "http://dbpedia.org/property/drop": 0.1,
+                        "http://dbpedia.org/property/name": 0.4
+                    },
+                    "subject": "International team(s)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/body": 0.1,
+                        "http://dbpedia.org/property/caps": 0.1,
+                        "http://dbpedia.org/property/leftarm": 0.1,
+                        "http://dbpedia.org/property/rightarm": 0.1,
+                        "http://dbpedia.org/property/socks": 0.1
+                    },
+                    "subject": "International team(s)",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.7,
+                        "http://dbpedia.org/property/score": 0.1,
+                        "http://dbpedia.org/property/worldCupApps": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "Con"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "International team(s)",
+                    "object": "Pe"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/body": 0.1,
+                        "http://dbpedia.org/property/first": 0.2,
+                        "http://dbpedia.org/property/caps": 0.7,
+                        "http://dbpedia.org/property/socks": 0.2,
+                        "http://dbpedia.org/property/worldCupApps": 0.1,
+                        "http://dbpedia.org/property/shorts": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "DG"
+                }
+            ],
+            "colums": [
+                "World\nRank",
+                "Tier\nRank",
+                "Points",
+                "Player",
+                "International team(s)",
+                "Years active",
+                "Caps",
+                "Tries",
+                "Con",
+                "Pe",
+                "DG",
+                "Avg. PTS\n(per game)",
+                "Source(s)"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Top five scoring international players (Tier 3)[34]'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruNationalteam": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "International team(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.6,
+                        "http://dbpedia.org/property/socks": 0.2,
+                        "http://dbpedia.org/property/bigloss": 0.2,
+                        "http://dbpedia.org/property/noWorldCupApps": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "Tier\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScorer": 0.2,
+                        "http://dbpedia.org/property/name": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.4,
+                        "http://dbpedia.org/property/worldCupApps": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "Pen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.2,
+                        "http://dbpedia.org/property/worldCupApps": 0.2
+                    },
+                    "subject": "International team(s)",
+                    "object": "DG"
+                }
+            ],
+            "colums": [
+                "World\nRank",
+                "Tier\nRank",
+                "Points",
+                "Player",
+                "International team(s)",
+                "Years active",
+                "Caps",
+                "Tries",
+                "Con",
+                "Pen",
+                "DG",
+                "Avg. PTS\n(per game)",
+                "Source(s)"
+            ]
+        }
+    ]
+}

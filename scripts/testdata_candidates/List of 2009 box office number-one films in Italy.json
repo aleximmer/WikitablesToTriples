@@ -1,0 +1,25 @@
+{
+    "no. of tables": 1,
+    "page": "List of 2009 box office number-one films in Italy",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.04
+                    },
+                    "subject": "Film",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'List of 2009 box office number-one films in Italy'",
+            "colums": [
+                "#",
+                "Weekend End Date",
+                "Film",
+                "Total Weekend Gross",
+                "Notes"
+            ]
+        }
+    ]
+}

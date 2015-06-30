@@ -1,0 +1,119 @@
+{
+    "page": "List of Survivor (U.S. TV series) contestants",
+    "no. of tables": 1,
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of Survivor (U.S. TV series) contestants\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.11,
+                        "http://dbpedia.org/ontology/residence": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/property/hometown": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Hometown"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/season": 0.0,
+                        "http://dbpedia.org/ontology/knownFor": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marLowF": 0.01,
+                        "http://dbpedia.org/property/janHighF": 0.01,
+                        "http://dbpedia.org/property/populationRank": 0.0,
+                        "http://dbpedia.org/property/populationDensityRank": 0.0,
+                        "http://dbpedia.org/property/julLowF": 0.0,
+                        "http://dbpedia.org/property/longS": 0.0,
+                        "http://dbpedia.org/property/julRecordLowF": 0.0,
+                        "http://dbpedia.org/property/janRecordLowF": 0.01,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.0,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.0,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/aprLowF": 0.0,
+                        "http://dbpedia.org/property/augRecordLowF": 0.0,
+                        "http://dbpedia.org/property/janLowF": 0.0,
+                        "http://dbpedia.org/property/decHighF": 0.0,
+                        "http://dbpedia.org/property/colwidth": 0.0,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/yearRecordLowF": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.0,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/decRecordLowF": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.0,
+                        "http://dbpedia.org/property/elevationM": 0.0,
+                        "http://dbpedia.org/property/junLowF": 0.01,
+                        "http://dbpedia.org/property/blank2Info": 0.0,
+                        "http://dbpedia.org/property/sepLowF": 0.0,
+                        "http://dbpedia.org/property/febLowF": 0.0,
+                        "http://dbpedia.org/property/elevationFt": 0.0,
+                        "http://dbpedia.org/property/longMinutes": 0.0,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/febRecordLowF": 0.01,
+                        "http://dbpedia.org/property/yearLowF": 0.0,
+                        "http://dbpedia.org/property/width": 0.0,
+                        "http://dbpedia.org/property/augLowF": 0.01,
+                        "http://dbpedia.org/property/decLowF": 0.0,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/febHighF": 0.0
+                    },
+                    "subject": "Hometown",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allStars": 0.0,
+                        "http://dbpedia.org/property/bloodVersusWater": 0.0,
+                        "http://dbpedia.org/property/winner": 0.04
+                    },
+                    "subject": "Season",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/viewers": 0.01,
+                        "http://dbpedia.org/property/numberDays": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/numberSurvivors": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Season",
+                    "object": "Age"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Age",
+                "Hometown",
+                "Season",
+                "Finish"
+            ]
+        }
+    ]
+}

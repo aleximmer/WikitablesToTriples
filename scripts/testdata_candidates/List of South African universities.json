@@ -1,0 +1,190 @@
+{
+    "no. of tables": 5,
+    "page": "List of universities in South Africa",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.09,
+                        "http://xmlns.com/foaf/0.1/nick": 0.09
+                    },
+                    "subject": "Institution",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.36
+                    },
+                    "subject": "Institution",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.91,
+                        "http://dbpedia.org/property/city": 0.55
+                    },
+                    "subject": "Institution",
+                    "object": "Location(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Public universities'",
+            "colums": [
+                "Institution",
+                "Nickname",
+                "Founded",
+                "University status",
+                "Undergrad",
+                "Postgrad",
+                "Total(2011)",
+                "Location(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.17,
+                        "http://xmlns.com/foaf/0.1/nick": 0.17
+                    },
+                    "subject": "Institution",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.33
+                    },
+                    "subject": "Institution",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postgrad": 0.17,
+                        "http://dbpedia.org/ontology/numberOfPostgraduateStudents": 0.17
+                    },
+                    "subject": "Institution",
+                    "object": "Postgrad"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.67,
+                        "http://dbpedia.org/property/city": 0.5
+                    },
+                    "subject": "Institution",
+                    "object": "Location(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.17,
+                        "http://dbpedia.org/property/city": 0.17
+                    },
+                    "subject": "Founded",
+                    "object": "Location(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Public universities'",
+            "colums": [
+                "Institution",
+                "Nickname",
+                "Founded",
+                "Undergrad",
+                "Postgrad",
+                "Total",
+                "Location(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.38
+                    },
+                    "subject": "Institution",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.25
+                    },
+                    "subject": "Institution",
+                    "object": "University status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.62,
+                        "http://dbpedia.org/property/city": 0.5
+                    },
+                    "subject": "Institution",
+                    "object": "Location(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Public universities'",
+            "colums": [
+                "Institution",
+                "Nickname",
+                "Founded",
+                "University status",
+                "Undergrad",
+                "Postgrad",
+                "Total(2011)",
+                "Location(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.14,
+                        "http://dbpedia.org/property/city": 0.09
+                    },
+                    "subject": "Institution",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.09
+                    },
+                    "subject": "Institution",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.23
+                    },
+                    "subject": "Institution",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerNames": 0.05
+                    },
+                    "subject": "Note",
+                    "object": "Institution"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.36,
+                        "http://dbpedia.org/property/city": 0.09
+                    },
+                    "subject": "Note",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.14
+                    },
+                    "subject": "Note",
+                    "object": "Closed"
+                }
+            ],
+            "table": "Unnamed table in section 'Defunct institutions'",
+            "colums": [
+                "Institution",
+                "Location",
+                "Founded",
+                "Closed",
+                "Note"
+            ]
+        }
+    ]
+}

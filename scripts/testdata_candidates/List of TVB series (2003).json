@@ -1,0 +1,267 @@
+{
+    "no. of tables": 7,
+    "page": "List of TVB series (2003)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numEpisodes": 0.5,
+                        "http://dbpedia.org/ontology/numberOfEpisodes": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Number of episodes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.58,
+                        "http://dbpedia.org/ontology/openingTheme": 0.17,
+                        "http://dbpedia.org/property/starring": 0.42
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Main cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.5,
+                        "http://dbpedia.org/ontology/openingTheme": 0.42,
+                        "http://dbpedia.org/property/starring": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Theme song (T)\nSub-theme song (ST)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.08
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "Main cast",
+                    "object": "Theme song (T)\nSub-theme song (ST)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "Theme song (T)\nSub-theme song (ST)",
+                    "object": "Main cast"
+                }
+            ],
+            "table": "Unnamed table in section 'First line series'",
+            "colums": [
+                "Airing\ndate",
+                "English title\n(Chinese title)",
+                "Number of episodes",
+                "Main cast",
+                "Theme song (T)\nSub-theme song (ST)",
+                "Genre",
+                "Notes",
+                "Official website"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numEpisodes": 0.5,
+                        "http://dbpedia.org/ontology/numberOfEpisodes": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Number of episodes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.5,
+                        "http://dbpedia.org/ontology/openingTheme": 0.5,
+                        "http://dbpedia.org/ontology/endingTheme": 0.25,
+                        "http://dbpedia.org/property/starring": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Main cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.5,
+                        "http://dbpedia.org/ontology/openingTheme": 0.5,
+                        "http://dbpedia.org/ontology/endingTheme": 0.25,
+                        "http://dbpedia.org/property/starring": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Theme song (T)\nSub-theme song (ST)"
+                }
+            ],
+            "table": "Unnamed table in section 'Second line series'",
+            "colums": [
+                "Airing\ndate",
+                "English title\n(Chinese title)",
+                "Number of episodes",
+                "Main cast",
+                "Theme song (T)\nSub-theme song (ST)",
+                "Genre",
+                "Notes",
+                "Official website"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numEpisodes": 0.5,
+                        "http://dbpedia.org/ontology/numberOfEpisodes": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Number of episodes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.5,
+                        "http://dbpedia.org/property/starring": 0.5
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Main cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.12,
+                        "http://dbpedia.org/ontology/openingTheme": 0.25,
+                        "http://dbpedia.org/property/opentheme": 0.12,
+                        "http://dbpedia.org/property/starring": 0.12
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Theme song (T)\nSub-theme song (ST)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.12
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Genre"
+                }
+            ],
+            "table": "Unnamed table in section 'Third line series'",
+            "colums": [
+                "Airing\ndate",
+                "English title\n(Chinese title)",
+                "Number of episodes",
+                "Main cast",
+                "Theme song (T)\nSub-theme song (ST)",
+                "Genre",
+                "Notes",
+                "Official website"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Saturday series'",
+            "colums": [
+                "Airing\ndate",
+                "English title\n(Chinese title)",
+                "Number of episodes",
+                "Main cast",
+                "Theme song (T)\nSub-theme song (ST)",
+                "Genre",
+                "Notes",
+                "Official website"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numEpisodes": 1.0,
+                        "http://dbpedia.org/ontology/numberOfEpisodes": 1.0
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Number of episodes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 1.0,
+                        "http://dbpedia.org/property/starring": 1.0
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Main cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/openingTheme": 1.0
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Theme song (T)\nSub-theme song (ST)"
+                }
+            ],
+            "table": "Unnamed table in section 'Sunday series'",
+            "colums": [
+                "Airing\ndate",
+                "English title\n(Chinese title)",
+                "Number of episodes",
+                "Main cast",
+                "Theme song (T)\nSub-theme song (ST)",
+                "Genre",
+                "Notes",
+                "Official website"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numEpisodes": 1.0,
+                        "http://dbpedia.org/ontology/numberOfEpisodes": 1.0
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Number of episodes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 1.0,
+                        "http://dbpedia.org/property/starring": 1.0
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Main cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/openingTheme": 1.0
+                    },
+                    "subject": "English title\n(Chinese title)",
+                    "object": "Theme song (T)\nSub-theme song (ST)"
+                }
+            ],
+            "table": "Unnamed table in section 'Warehoused series'",
+            "colums": [
+                "Oversea\nreleased date",
+                "English title\n(Chinese title)",
+                "Number of episodes",
+                "Main cast",
+                "Theme song (T)\nSub-theme song (ST)",
+                "Genre",
+                "Notes",
+                "Official website"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1
+                    },
+                    "subject": "Series",
+                    "object": "Peaking Points"
+                }
+            ],
+            "table": "Unnamed table in section 'Viewership Ratings'",
+            "colums": [
+                "Position",
+                "Series",
+                "Average Points",
+                "Peaking Points"
+            ]
+        }
+    ]
+}

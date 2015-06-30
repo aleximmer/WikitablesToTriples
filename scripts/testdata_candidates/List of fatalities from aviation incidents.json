@@ -1,0 +1,793 @@
+{
+    "no. of tables": 4,
+    "page": "List of fatalities from aviation accidents",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.11,
+                        "http://dbpedia.org/property/allegiance": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08,
+                        "http://dbpedia.org/property/placeofburial": 0.0,
+                        "http://dbpedia.org/property/shortDescription": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.12,
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.03,
+                        "http://dbpedia.org/property/residence": 0.0,
+                        "http://dbpedia.org/property/site": 0.0,
+                        "http://dbpedia.org/property/reason": 0.0,
+                        "http://dbpedia.org/property/operator": 0.0,
+                        "http://dbpedia.org/property/restingPlace": 0.0,
+                        "http://dbpedia.org/ontology/hometown": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/property/origin": 0.01,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/property/nationality": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.16,
+                        "http://dbpedia.org/ontology/residence": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/period": 0.0,
+                        "http://dbpedia.org/property/season": 0.0,
+                        "http://dbpedia.org/property/termEnd": 0.01,
+                        "http://dbpedia.org/property/careerEnd": 0.01,
+                        "http://dbpedia.org/property/finalyear": 0.01,
+                        "http://dbpedia.org/property/nfldraftedyear": 0.0,
+                        "http://dbpedia.org/property/endyear": 0.0,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/playingYears": 0.0,
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/dateOfDeath": 0.04,
+                        "http://dbpedia.org/property/lastBuschRace": 0.0,
+                        "http://dbpedia.org/property/lastRace": 0.01,
+                        "http://dbpedia.org/property/lastCupRace": 0.0,
+                        "http://dbpedia.org/property/deathDate": 0.0,
+                        "http://dbpedia.org/property/achievements": 0.0,
+                        "http://dbpedia.org/property/lastCupWin": 0.0,
+                        "http://dbpedia.org/property/name": 0.0,
+                        "http://dbpedia.org/property/cflallstar": 0.0,
+                        "http://dbpedia.org/property/deathCause": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/instrument": 0.0,
+                        "http://dbpedia.org/property/type": 0.0,
+                        "http://dbpedia.org/ontology/parent": 0.0,
+                        "http://dbpedia.org/ontology/knownFor": 0.01,
+                        "http://dbpedia.org/property/fields": 0.0,
+                        "http://dbpedia.org/property/movement": 0.0,
+                        "http://dbpedia.org/property/awards": 0.0,
+                        "http://dbpedia.org/property/succession": 0.0,
+                        "http://dbpedia.org/property/league": 0.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.01,
+                        "http://dbpedia.org/property/battles": 0.01,
+                        "http://dbpedia.org/property/associatedActs": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/parents": 0.0,
+                        "http://dbpedia.org/property/clubs": 0.0,
+                        "http://dbpedia.org/property/shortDescription": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0,
+                        "http://dbpedia.org/ontology/movement": 0.0,
+                        "http://dbpedia.org/property/placeOfDeath": 0.0,
+                        "http://dbpedia.org/ontology/team": 0.0,
+                        "http://dbpedia.org/property/office": 0.01,
+                        "http://dbpedia.org/property/order": 0.02,
+                        "http://dbpedia.org/ontology/associatedBand": 0.0,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.0,
+                        "http://dbpedia.org/property/occupation": 0.01,
+                        "http://dbpedia.org/ontology/league": 0.0,
+                        "http://dbpedia.org/property/commands": 0.0,
+                        "http://dbpedia.org/property/jr/srAndState": 0.0,
+                        "http://dbpedia.org/ontology/relative": 0.0,
+                        "http://dbpedia.org/property/administratingTeams": 0.0,
+                        "http://dbpedia.org/ontology/genre": 0.01,
+                        "http://dbpedia.org/property/genre": 0.01,
+                        "http://purl.org/dc/elements/1.1/description": 0.01,
+                        "http://dbpedia.org/ontology/occupation": 0.01,
+                        "http://dbpedia.org/ontology/battle": 0.01,
+                        "http://dbpedia.org/ontology/instrument": 0.0,
+                        "http://dbpedia.org/property/branch": 0.0,
+                        "http://dbpedia.org/ontology/field": 0.0,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 0.0,
+                        "http://dbpedia.org/property/aircraftType": 0.0,
+                        "http://dbpedia.org/ontology/mission": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/property/deathCause": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/ontology/deathCause": 0.01,
+                        "http://dbpedia.org/property/placeOfDeath": 0.0,
+                        "http://dbpedia.org/ontology/knownFor": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Flight/aircraft"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.18,
+                        "http://dbpedia.org/ontology/residence": 0.0,
+                        "http://dbpedia.org/property/site": 0.0,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.37,
+                        "http://dbpedia.org/ontology/bodyDiscovered": 0.0,
+                        "http://dbpedia.org/property/restingPlace": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.22,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Crash site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/occupation": 0.0,
+                        "http://dbpedia.org/ontology/occupation": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/ontology/award": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Cause/circumstances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.0,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.0,
+                        "http://dbpedia.org/property/populationCensusYear": 0.0,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.0,
+                        "http://dbpedia.org/property/giniYear": 0.01,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.02,
+                        "http://dbpedia.org/property/efYear": 0.01,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Nationality",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderTitle": 0.04,
+                        "http://dbpedia.org/property/centre": 0.0,
+                        "http://dbpedia.org/property/lowerHouse": 0.02,
+                        "http://dbpedia.org/ontology/ethnicGroup": 0.0,
+                        "http://dbpedia.org/property/upperHouse": 0.02
+                    },
+                    "subject": "Nationality",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commonName": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/largestCity": 0.0,
+                        "http://dbpedia.org/property/northeast": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.0,
+                        "http://dbpedia.org/property/voy": 0.0,
+                        "http://dbpedia.org/ontology/capital": 0.01,
+                        "http://dbpedia.org/property/capital": 0.01,
+                        "http://dbpedia.org/property/portal": 0.0,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/country": 0.0,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/property/north": 0.0
+                    },
+                    "subject": "Nationality",
+                    "object": "Crash site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/children": 0.0,
+                        "http://dbpedia.org/ontology/creator": 0.0,
+                        "http://dbpedia.org/ontology/spouse": 0.0,
+                        "http://dbpedia.org/ontology/child": 0.0,
+                        "http://dbpedia.org/ontology/notableCommander": 0.0,
+                        "http://dbpedia.org/property/creator": 0.0,
+                        "http://dbpedia.org/property/inaugural": 0.0,
+                        "http://dbpedia.org/ontology/deathCause": 0.0,
+                        "http://dbpedia.org/property/pastMembers": 0.0,
+                        "http://dbpedia.org/property/firstHolder": 0.0,
+                        "http://dbpedia.org/ontology/formerBandMember": 0.0,
+                        "http://dbpedia.org/property/notableCommanders": 0.0,
+                        "http://dbpedia.org/ontology/keyPerson": 0.0,
+                        "http://dbpedia.org/property/spouse": 0.0,
+                        "http://dbpedia.org/property/founder": 0.0,
+                        "http://dbpedia.org/ontology/foundedBy": 0.01,
+                        "http://dbpedia.org/property/deathCause": 0.0,
+                        "http://dbpedia.org/property/keyPeople": 0.0
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.0,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.0,
+                        "http://dbpedia.org/property/meetingPlace": 0.03,
+                        "http://dbpedia.org/property/residence": 0.0,
+                        "http://dbpedia.org/property/centre": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0,
+                        "http://dbpedia.org/property/pushpinMap": 0.0,
+                        "http://dbpedia.org/ontology/owningCompany": 0.0,
+                        "http://dbpedia.org/property/owner": 0.0,
+                        "http://dbpedia.org/property/jurisdiction": 0.0,
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/ontology/jurisdiction": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/locationCountry": 0.0,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.04,
+                        "http://dbpedia.org/ontology/locationCountry": 0.0,
+                        "http://dbpedia.org/property/country": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/property/placeOfBirth": 0.0,
+                        "http://dbpedia.org/property/birthPlace": 0.01
+                    },
+                    "subject": "Notability",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.0
+                    },
+                    "subject": "Notability",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/residence": 0.0,
+                        "http://dbpedia.org/property/country": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/property/birthPlace": 0.0
+                    },
+                    "subject": "Notability",
+                    "object": "Crash site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathCause": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/deathCause": 0.0
+                    },
+                    "subject": "Notability",
+                    "object": "Cause/circumstances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.0,
+                        "http://dbpedia.org/property/manufacturer": 0.0,
+                        "http://dbpedia.org/property/designer": 0.0,
+                        "http://dbpedia.org/property/crewMembers": 0.0,
+                        "http://dbpedia.org/ontology/designer": 0.01,
+                        "http://dbpedia.org/ontology/manufacturer": 0.0
+                    },
+                    "subject": "Flight/aircraft",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.0,
+                        "http://dbpedia.org/property/destination": 0.0,
+                        "http://dbpedia.org/ontology/origin": 0.05,
+                        "http://dbpedia.org/property/site": 0.02,
+                        "http://dbpedia.org/property/origin": 0.0,
+                        "http://dbpedia.org/property/nationalOrigin": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.0,
+                        "http://dbpedia.org/ontology/country": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/locationCountry": 0.0,
+                        "http://dbpedia.org/ontology/birthPlace": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0,
+                        "http://dbpedia.org/ontology/locationCountry": 0.0,
+                        "http://dbpedia.org/property/country": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/property/birthPlace": 0.0
+                    },
+                    "subject": "Flight/aircraft",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.01,
+                        "http://dbpedia.org/property/introduced": 0.01,
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/labelX": 0.0,
+                        "http://dbpedia.org/property/produced": 0.01,
+                        "http://dbpedia.org/property/name": 0.01
+                    },
+                    "subject": "Flight/aircraft",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.01,
+                        "http://dbpedia.org/property/manufacturer": 0.01,
+                        "http://dbpedia.org/ontology/manufacturer": 0.01
+                    },
+                    "subject": "Flight/aircraft",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stopover": 0.01,
+                        "http://dbpedia.org/ontology/headquarter": 0.0,
+                        "http://dbpedia.org/property/site": 0.04,
+                        "http://dbpedia.org/property/origin": 0.0
+                    },
+                    "subject": "Flight/aircraft",
+                    "object": "Crash site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.02,
+                        "http://dbpedia.org/property/shipType": 0.0,
+                        "http://dbpedia.org/property/site": 0.0,
+                        "http://dbpedia.org/ontology/type": 0.0,
+                        "http://dbpedia.org/property/cause2Note": 0.0,
+                        "http://dbpedia.org/property/occurrenceType": 0.0
+                    },
+                    "subject": "Flight/aircraft",
+                    "object": "Cause/circumstances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.0,
+                        "http://dbpedia.org/property/pushpinMap": 0.01,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/ontology/country": 0.3,
+                        "http://dbpedia.org/ontology/city": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/cityServed": 0.0,
+                        "http://dbpedia.org/ontology/twinCountry": 0.0,
+                        "http://dbpedia.org/property/country": 0.0,
+                        "http://dbpedia.org/property/twin2Country": 0.0
+                    },
+                    "subject": "Crash site",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/populationAsOf": 0.01
+                    },
+                    "subject": "Crash site",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/property/leaderTitle": 0.0,
+                        "http://dbpedia.org/property/blank2Info": 0.0,
+                        "http://dbpedia.org/ontology/owner": 0.0,
+                        "http://dbpedia.org/property/owner": 0.0
+                    },
+                    "subject": "Crash site",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.0,
+                        "http://dbpedia.org/property/operator": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/starring": 0.0
+                    },
+                    "subject": "Cause/circumstances",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.0,
+                        "http://dbpedia.org/property/destination": 0.0,
+                        "http://dbpedia.org/ontology/origin": 0.0,
+                        "http://dbpedia.org/property/site": 0.0,
+                        "http://dbpedia.org/property/origin": 0.0,
+                        "http://dbpedia.org/property/nationalOrigin": 0.0,
+                        "http://dbpedia.org/property/stopover": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/ontology/country": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.0,
+                        "http://dbpedia.org/property/nationality": 0.0,
+                        "http://dbpedia.org/ontology/birthPlace": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0,
+                        "http://dbpedia.org/property/cityServed": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/property/birthPlace": 0.0
+                    },
+                    "subject": "Cause/circumstances",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/label": 0.0,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/service": 0.0
+                    },
+                    "subject": "Cause/circumstances",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0
+                    },
+                    "subject": "Cause/circumstances",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aircraftType": 0.02,
+                        "http://dbpedia.org/property/plane2Type": 0.0,
+                        "http://dbpedia.org/property/operator": 0.0
+                    },
+                    "subject": "Cause/circumstances",
+                    "object": "Flight/aircraft"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.0,
+                        "http://dbpedia.org/property/destination": 0.0,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/property/site": 0.0,
+                        "http://dbpedia.org/property/origin": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01
+                    },
+                    "subject": "Cause/circumstances",
+                    "object": "Crash site"
+                }
+            ],
+            "table": "Unnamed table in section 'Individuals'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Year",
+                "Notability",
+                "Flight/aircraft",
+                "Crash site",
+                "Cause/circumstances"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.22,
+                        "http://dbpedia.org/ontology/hometown": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.11,
+                        "http://dbpedia.org/ontology/genre": 0.11,
+                        "http://dbpedia.org/property/genre": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Description of Members"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.22,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.22,
+                        "http://dbpedia.org/property/associatedActs": 0.22
+                    },
+                    "subject": "Description of Members",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.11,
+                        "http://dbpedia.org/property/deathPlace": 0.22,
+                        "http://dbpedia.org/ontology/deathPlace": 0.33
+                    },
+                    "subject": "Description of Members",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.11
+                    },
+                    "subject": "Flight/Aircraft",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/site": 0.11
+                    },
+                    "subject": "Flight/Aircraft",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.11,
+                        "http://dbpedia.org/property/cityServed": 0.11,
+                        "http://dbpedia.org/property/subdivisionName": 0.22,
+                        "http://dbpedia.org/ontology/country": 0.56
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aircraftType": 0.11
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Flight/Aircraft"
+                }
+            ],
+            "table": "Unnamed table in section 'Musical groups'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Year",
+                "Description of Members",
+                "Flight/Aircraft",
+                "Location",
+                "Cause/Circumstances"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/legislature": 1.0
+                    },
+                    "subject": "Nationality",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateYear": 1.0
+                    },
+                    "subject": "Nationality",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderTitle": 1.0
+                    },
+                    "subject": "Nationality",
+                    "object": "Description of Members"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 1.0
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aircraftType": 1.0
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Flight/Aircraft"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/destination": 1.0
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Political groups'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Year",
+                "Description of Members",
+                "Flight/Aircraft",
+                "Location",
+                "Cause/Circumstances"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/base": 0.04,
+                        "http://dbpedia.org/property/basedIn": 0.04,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/stadium": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.08,
+                        "http://dbpedia.org/property/country": 0.08,
+                        "http://dbpedia.org/property/origin": 0.04,
+                        "http://dbpedia.org/property/jurisdiction": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastRace": 0.04,
+                        "http://dbpedia.org/property/finalRace": 0.04,
+                        "http://dbpedia.org/property/debut": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constructors": 0.04,
+                        "http://dbpedia.org/property/mostCaps": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Description of Members"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Flight/Aircraft"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/basedIn": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.04,
+                        "http://dbpedia.org/property/team(s)_": 0.04,
+                        "http://dbpedia.org/property/youthclubs": 0.04,
+                        "http://dbpedia.org/ontology/team": 0.08
+                    },
+                    "subject": "Description of Members",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.08,
+                        "http://dbpedia.org/property/placeOfDeath": 0.04,
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/property/nationality": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04
+                    },
+                    "subject": "Description of Members",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastRace": 0.04
+                    },
+                    "subject": "Description of Members",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.08,
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08
+                    },
+                    "subject": "Description of Members",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Flight/Aircraft",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/destination": 0.04,
+                        "http://dbpedia.org/property/origin": 0.04
+                    },
+                    "subject": "Flight/Aircraft",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.04,
+                        "http://dbpedia.org/property/powerAlt": 0.04
+                    },
+                    "subject": "Flight/Aircraft",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastStopover": 0.04
+                    },
+                    "subject": "Flight/Aircraft",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.04
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/site": 0.04,
+                        "http://dbpedia.org/property/origin": 0.04
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.08
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/plane1Type": 0.04,
+                        "http://dbpedia.org/property/aircraftType": 0.2,
+                        "http://dbpedia.org/property/plane2Type": 0.04
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Flight/Aircraft"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stopover": 0.08
+                    },
+                    "subject": "Cause/Circumstances",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Sporting teams'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Year",
+                "Description of Members",
+                "Flight/Aircraft",
+                "Location",
+                "Cause/Circumstances"
+            ]
+        }
+    ]
+}

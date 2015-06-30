@@ -1,0 +1,178 @@
+{
+    "no. of tables": 4,
+    "page": "List of professional wrestling memorial shows",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/promotion": 0.38,
+                        "http://dbpedia.org/ontology/promotion": 0.38
+                    },
+                    "subject": "Name",
+                    "object": "Promotion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.12,
+                        "http://dbpedia.org/ontology/keyPerson": 0.12,
+                        "http://dbpedia.org/ontology/owningCompany": 0.12,
+                        "http://dbpedia.org/property/founder": 0.12,
+                        "http://dbpedia.org/ontology/owner": 0.12,
+                        "http://dbpedia.org/property/owner": 0.38,
+                        "http://dbpedia.org/property/keyPeople": 0.12
+                    },
+                    "subject": "Promotion",
+                    "object": "Organizer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.12
+                    },
+                    "subject": "Organizer(s)",
+                    "object": "Promotion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.12,
+                        "http://dbpedia.org/property/trainer": 0.12,
+                        "http://dbpedia.org/ontology/trainer": 0.12
+                    },
+                    "subject": "Notes",
+                    "object": "Organizer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Name",
+                "Promotion",
+                "Organizer(s)",
+                "Years active",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.08,
+                        "http://dbpedia.org/ontology/keyPerson": 0.15,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08,
+                        "http://dbpedia.org/property/founder": 0.15,
+                        "http://dbpedia.org/ontology/owner": 0.08,
+                        "http://dbpedia.org/property/keyPeople": 0.08
+                    },
+                    "subject": "Promotion",
+                    "object": "Organizer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/promotions": 0.08,
+                        "http://dbpedia.org/ontology/occupation": 0.08
+                    },
+                    "subject": "Organizer(s)",
+                    "object": "Promotion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/retired": 0.08
+                    },
+                    "subject": "Organizer(s)",
+                    "object": "Years active"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.08,
+                        "http://dbpedia.org/property/creator": 0.08,
+                        "http://dbpedia.org/ontology/creator": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Organizer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Name",
+                "Promotion",
+                "Organizer(s)",
+                "Years active",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/promotion": 0.3,
+                        "http://dbpedia.org/ontology/promotion": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Promotion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Team": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Organizer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owningCompany": 0.02,
+                        "http://dbpedia.org/ontology/keyPerson": 0.04,
+                        "http://dbpedia.org/property/founder": 0.19,
+                        "http://dbpedia.org/ontology/foundedBy": 0.04,
+                        "http://dbpedia.org/property/owner": 0.06,
+                        "http://dbpedia.org/ontology/owner": 0.02,
+                        "http://dbpedia.org/property/keyPeople": 0.04
+                    },
+                    "subject": "Promotion",
+                    "object": "Organizer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.02
+                    },
+                    "subject": "Organizer(s)",
+                    "object": "Promotion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.02,
+                        "http://dbpedia.org/ontology/creator": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Organizer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Name",
+                "Promotion",
+                "Organizer(s)",
+                "Years active",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/promotion": 0.15,
+                        "http://dbpedia.org/ontology/promotion": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Promotion"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Name",
+                "Promotion",
+                "Organizer(s)",
+                "Years active",
+                "Notes"
+            ]
+        }
+    ]
+}

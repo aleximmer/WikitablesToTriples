@@ -1,0 +1,445 @@
+{
+    "no. of tables": 9,
+    "page": "List of West Australian Football League premiers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.04,
+                        "http://dbpedia.org/property/mostRecentPremiership": 0.09,
+                        "http://dbpedia.org/property/years": 0.17,
+                        "http://dbpedia.org/property/dissolved": 0.04
+                    },
+                    "subject": "Premiers",
+                    "object": "Season"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "\nRunners Up\n",
+                "\nScore\n",
+                "Captain",
+                "Coach",
+                "\nBest on Ground\n",
+                "Venue",
+                "\nAttendance\n",
+                "\nUmpire(s)\n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.09
+                    },
+                    "subject": "Venue",
+                    "object": "Runners Up"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "Runners Up",
+                "Score",
+                "Captain",
+                "\nCoach\n",
+                "Best on Ground",
+                "Venue",
+                "Attendance",
+                "Umpire(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/backpocket": 0.1,
+                        "http://dbpedia.org/property/interchange": 0.2
+                    },
+                    "subject": "Premiers",
+                    "object": "Captain"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coach": 0.5
+                    },
+                    "subject": "Premiers",
+                    "object": "Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/backpocket": 0.1
+                    },
+                    "subject": "Premiers",
+                    "object": "Simpson Medal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wing": 0.1
+                    },
+                    "subject": "Runners Up",
+                    "object": "Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/debutTeam": 0.2,
+                        "http://dbpedia.org/property/debutteam": 0.2,
+                        "http://dbpedia.org/property/coachclubs": 0.1
+                    },
+                    "subject": "Captain",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachclubs": 0.1
+                    },
+                    "subject": "Coach",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/originalteam": 0.3
+                    },
+                    "subject": "Simpson Medal",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.2
+                    },
+                    "subject": "Venue",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.2
+                    },
+                    "subject": "Venue",
+                    "object": "Runners Up"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "Runners Up",
+                "Score",
+                "Captain",
+                "Coach",
+                "Simpson Medal",
+                "Venue",
+                "Attendance",
+                "Umpires"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coach": 1.0
+                    },
+                    "subject": "Premiers",
+                    "object": "Coach"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "Runners Up",
+                "Score",
+                "Captain",
+                "Coach",
+                "Simpson Medal",
+                "Venue",
+                "Attendance",
+                "Umpires"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coach": 0.33,
+                        "http://dbpedia.org/property/coach": 0.33
+                    },
+                    "subject": "Premiers",
+                    "object": "Captain"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/originalteam": 0.17,
+                        "http://dbpedia.org/property/clubs": 0.33,
+                        "http://dbpedia.org/property/coachingteams": 0.17,
+                        "http://dbpedia.org/property/coachclubs": 0.17
+                    },
+                    "subject": "Captain",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.17,
+                        "http://dbpedia.org/property/coachclubs": 0.17
+                    },
+                    "subject": "Coach",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.33,
+                        "http://dbpedia.org/property/originalteam": 0.5,
+                        "http://dbpedia.org/property/coachingteams": 0.17
+                    },
+                    "subject": "Simpson Medal",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constructionCost": 0.17
+                    },
+                    "subject": "Venue",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.33
+                    },
+                    "subject": "Venue",
+                    "object": "Runners Up"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "Runners Up",
+                "Score",
+                "Captain",
+                "Coach",
+                "Simpson Medal",
+                "Venue",
+                "Attendance",
+                "Umpires"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wing": 0.25
+                    },
+                    "subject": "Runners Up",
+                    "object": "Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/originalteam": 0.25
+                    },
+                    "subject": "Captain",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachyears": 0.25
+                    },
+                    "subject": "Coach",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/statsend": 0.25,
+                        "http://dbpedia.org/property/years": 0.25
+                    },
+                    "subject": "Simpson Medal",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/debutstadium": 0.25
+                    },
+                    "subject": "Simpson Medal",
+                    "object": "Venue"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "Runners Up",
+                "Score",
+                "Captain",
+                "Coach",
+                "Simpson Medal",
+                "Venue",
+                "Attendance",
+                "Umpires"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bogWinner": 0.21
+                    },
+                    "subject": "Season",
+                    "object": "Simpson Medal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.21,
+                        "http://dbpedia.org/property/stadium": 0.21
+                    },
+                    "subject": "Season",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/halfforwardflank": 0.07
+                    },
+                    "subject": "Premiers",
+                    "object": "Captain"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coach": 0.07,
+                        "http://dbpedia.org/property/coach": 0.07
+                    },
+                    "subject": "Premiers",
+                    "object": "Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/interchange": 0.14
+                    },
+                    "subject": "Premiers",
+                    "object": "Simpson Medal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/repstatsend": 0.07
+                    },
+                    "subject": "Captain",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentclub": 0.07,
+                        "http://dbpedia.org/property/clubs": 0.14
+                    },
+                    "subject": "Captain",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachyears": 0.07
+                    },
+                    "subject": "Coach",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.07,
+                        "http://dbpedia.org/property/coachclubs": 0.14,
+                        "http://dbpedia.org/property/coachingteams": 0.07
+                    },
+                    "subject": "Coach",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Simpson Medal",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentclub": 0.07,
+                        "http://dbpedia.org/property/clubs": 0.07,
+                        "http://dbpedia.org/property/originalteam": 0.07,
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Simpson Medal",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.36
+                    },
+                    "subject": "Venue",
+                    "object": "Premiers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.21
+                    },
+                    "subject": "Venue",
+                    "object": "Runners Up"
+                }
+            ],
+            "table": "Unnamed table in section 'Premiers'",
+            "colums": [
+                "Season",
+                "Premiers",
+                "Runners Up",
+                "Score",
+                "Captain",
+                "Coach",
+                "Simpson Medal",
+                "Venue",
+                "Attendance",
+                "Umpires"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.6
+                    },
+                    "subject": "Club",
+                    "object": "Premierships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mostRecentPremiership": 0.13,
+                        "http://dbpedia.org/property/season": 0.07,
+                        "http://dbpedia.org/property/years": 0.13,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/property/dissolved": 0.07
+                    },
+                    "subject": "Club",
+                    "object": "Most recent premiership"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/season": 0.07,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Club",
+                    "object": "Most recent Grand Final"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afterfinals": 0.07,
+                        "http://dbpedia.org/property/premierships": 0.07
+                    },
+                    "subject": "Club",
+                    "object": "Runners-up"
+                }
+            ],
+            "table": "Unnamed table in section 'Records'",
+            "colums": [
+                "Club",
+                "Premierships",
+                "Most recent premiership",
+                "Most recent Grand Final",
+                "Runners-up"
+            ]
+        }
+    ]
+}

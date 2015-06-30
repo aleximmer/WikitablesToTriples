@@ -1,0 +1,224 @@
+{
+    "no. of tables": 17,
+    "page": "List of English-language films with previous foreign-language film versions",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Chinese'",
+            "colums": [
+                "English-language film",
+                "Chinese-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Danish'",
+            "colums": [
+                "English-language film",
+                "Danish-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/basedOn": 0.25
+                    },
+                    "subject": "English-language film",
+                    "object": "Dutch-language film"
+                }
+            ],
+            "table": "Unnamed table in section 'Dutch'",
+            "colums": [
+                "English-language film",
+                "Dutch-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Filipino'",
+            "colums": [
+                "English-language film",
+                "Tagalog-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/basedOn": 0.03,
+                        "http://dbpedia.org/ontology/writer": 0.02
+                    },
+                    "subject": "English-language film",
+                    "object": "French-language film"
+                }
+            ],
+            "table": "Unnamed table in section 'French'",
+            "colums": [
+                "English-language film",
+                "French-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/basedOn": 0.12
+                    },
+                    "subject": "English-language film",
+                    "object": "German-language film"
+                }
+            ],
+            "table": "Unnamed table in section 'German'",
+            "colums": [
+                "English-language film",
+                "German-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/basedOn": 0.5
+                    },
+                    "subject": "English-language film",
+                    "object": "Hebrew-language film"
+                }
+            ],
+            "table": "Unnamed table in section 'Hebrew'",
+            "colums": [
+                "English-language film",
+                "Hebrew-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hindi'",
+            "colums": [
+                "English-language film",
+                "Hindi-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/basedOn": 0.5
+                    },
+                    "subject": "English-language film",
+                    "object": "Icelandic-language film"
+                }
+            ],
+            "table": "Unnamed table in section 'Icelandic'",
+            "colums": [
+                "English-language film",
+                "Icelandic-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Italian'",
+            "colums": [
+                "English-language film",
+                "Italian-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/basedOn": 0.05,
+                        "http://dbpedia.org/ontology/basedOn": 0.05
+                    },
+                    "subject": "English-language film",
+                    "object": "Japanese-language film"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Japanese-language film",
+                    "object": "Common source material (if any)"
+                }
+            ],
+            "table": "Unnamed table in section 'Japanese'",
+            "colums": [
+                "English-language film",
+                "Japanese-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Korean'",
+            "colums": [
+                "English-language film",
+                "Korean-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Norwegian'",
+            "colums": [
+                "English-language film",
+                "Norwegian-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Russian'",
+            "colums": [
+                "English-language film",
+                "Russian-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/basedOn": 0.2
+                    },
+                    "subject": "English-language film",
+                    "object": "Spanish-language film"
+                }
+            ],
+            "table": "Unnamed table in section 'Spanish'",
+            "colums": [
+                "English-language film",
+                "Spanish-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Swedish'",
+            "colums": [
+                "English-language film",
+                "Swedish-language film",
+                "Common source material (if any)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Thai'",
+            "colums": [
+                "English-language film",
+                "Thai-language film",
+                "Common source material (if any)"
+            ]
+        }
+    ]
+}

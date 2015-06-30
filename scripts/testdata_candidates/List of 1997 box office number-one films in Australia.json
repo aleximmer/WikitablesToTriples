@@ -1,0 +1,16 @@
+{
+    "no. of tables": 1,
+    "page": "List of 1997 box office number-one films in Australia",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '\n\t\t\t\tList of 1997 box office number-one films in Australia\t\t\t'",
+            "colums": [
+                "#",
+                "Weekend end date",
+                "Film",
+                "Total weekend gross"
+            ]
+        }
+    ]
+}

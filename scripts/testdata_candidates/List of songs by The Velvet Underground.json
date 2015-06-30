@@ -1,0 +1,363 @@
+{
+    "no. of tables": 20,
+    "page": "List of songs recorded by The Velvet Underground",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/album": 0.33,
+                        "http://dbpedia.org/ontology/album": 0.33
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.25
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/album": 0.5,
+                        "http://dbpedia.org/ontology/album": 0.5
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/album": 0.25,
+                        "http://dbpedia.org/ontology/album": 0.25
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/album": 0.08,
+                        "http://dbpedia.org/ontology/album": 0.08
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.23
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.08,
+                        "http://dbpedia.org/ontology/artist": 0.08
+                    },
+                    "subject": "Released recordings",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/album": 0.5,
+                        "http://dbpedia.org/ontology/album": 0.5
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.67
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fromAlbum": 0.09,
+                        "http://dbpedia.org/property/album": 0.09,
+                        "http://dbpedia.org/ontology/album": 0.18
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.18
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/album": 0.14,
+                        "http://dbpedia.org/ontology/album": 0.14
+                    },
+                    "subject": "Song title",
+                    "object": "Released recordings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.29
+                    },
+                    "subject": "Released recordings",
+                    "object": "Song title"
+                }
+            ],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Song title",
+                "Released recordings",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Unreleased songs'",
+            "colums": [
+                "Song title",
+                "Recordings/performances",
+                "Notes"
+            ]
+        }
+    ]
+}

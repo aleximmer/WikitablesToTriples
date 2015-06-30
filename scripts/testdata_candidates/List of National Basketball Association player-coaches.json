@@ -1,0 +1,235 @@
+{
+    "no. of tables": 2,
+    "page": "List of National Basketball Association player-coaches",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cteam": 0.3,
+                        "http://dbpedia.org/property/team": 0.68,
+                        "http://dbpedia.org/ontology/draftTeam": 0.15,
+                        "http://dbpedia.org/property/draftTeam": 0.15,
+                        "http://dbpedia.org/property/draftteam": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "Team(s) played and coached"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/heightFt": 0.03,
+                        "http://dbpedia.org/property/draftRound": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "G"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weightLb": 0.03,
+                        "http://dbpedia.org/property/heightIn": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/heightFt": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 0.03,
+                        "http://dbpedia.org/property/draftRound": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/heightFt": 0.03,
+                        "http://dbpedia.org/property/draftRound": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "G"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weightLb": 0.03,
+                        "http://dbpedia.org/property/heightIn": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/heightFt": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 0.03,
+                        "http://dbpedia.org/property/draftRound": 0.03
+                    },
+                    "subject": "Player-coach",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coach": 0.07,
+                        "http://dbpedia.org/property/coach": 0.05
+                    },
+                    "subject": "Team(s) played and coached",
+                    "object": "Player-coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/divChamps": 0.05,
+                        "http://dbpedia.org/property/confChamps": 0.03
+                    },
+                    "subject": "Team(s) played and coached",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/canEng": 0.03,
+                        "http://dbpedia.org/property/leagueChamps": 0.03,
+                        "http://dbpedia.org/property/shorts": 0.03,
+                        "http://dbpedia.org/property/body": 0.03
+                    },
+                    "subject": "Team(s) played and coached",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/divChamps": 0.05,
+                        "http://dbpedia.org/property/confChamps": 0.03
+                    },
+                    "subject": "Team(s) played and coached",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/canEng": 0.03,
+                        "http://dbpedia.org/property/leagueChamps": 0.03,
+                        "http://dbpedia.org/property/shorts": 0.03,
+                        "http://dbpedia.org/property/body": 0.03
+                    },
+                    "subject": "Team(s) played and coached",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mascot": 0.03,
+                        "http://dbpedia.org/property/affiliate": 0.05
+                    },
+                    "subject": "Team(s) played and coached",
+                    "object": "Honor(s) and award(s) won[c]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/finalsChamp": 0.03,
+                        "http://dbpedia.org/property/finalsRunnerUp": 0.07,
+                        "http://dbpedia.org/property/conf1Champ": 0.03,
+                        "http://dbpedia.org/property/seasonChamp": 0.03,
+                        "http://dbpedia.org/property/conf1RunnerUp": 0.05,
+                        "http://dbpedia.org/property/conf2RunnerUp": 0.05,
+                        "http://dbpedia.org/property/conf2Champ": 0.07
+                    },
+                    "subject": "Years[a]",
+                    "object": "Team(s) played and coached"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Seed": 0.03,
+                        "http://dbpedia.org/property/rd2Seed": 0.03,
+                        "http://dbpedia.org/property/rd2Score": 0.03,
+                        "http://dbpedia.org/property/rd1Score": 0.03,
+                        "http://dbpedia.org/property/noOfTeams": 0.03
+                    },
+                    "subject": "Years[a]",
+                    "object": "G"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score": 0.03
+                    },
+                    "subject": "Years[a]",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Seed": 0.03,
+                        "http://dbpedia.org/property/rd2Score": 0.03,
+                        "http://dbpedia.org/property/rd1Score": 0.03,
+                        "http://dbpedia.org/property/rd1Seed": 0.03
+                    },
+                    "subject": "Years[a]",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Seed": 0.03,
+                        "http://dbpedia.org/property/rd2Seed": 0.03,
+                        "http://dbpedia.org/property/rd2Score": 0.03,
+                        "http://dbpedia.org/property/rd1Score": 0.03,
+                        "http://dbpedia.org/property/noOfTeams": 0.03
+                    },
+                    "subject": "Years[a]",
+                    "object": "G"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score": 0.03
+                    },
+                    "subject": "Years[a]",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Seed": 0.03,
+                        "http://dbpedia.org/property/rd2Score": 0.03,
+                        "http://dbpedia.org/property/rd1Score": 0.03,
+                        "http://dbpedia.org/property/rd1Seed": 0.03
+                    },
+                    "subject": "Years[a]",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prevseasonYear": 0.05
+                    },
+                    "subject": "Years[a]",
+                    "object": "Honor(s) and award(s) won[c]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/championCoach": 0.05,
+                        "http://dbpedia.org/property/hofers": 0.03
+                    },
+                    "subject": "Championship(s) won[b]",
+                    "object": "Player-coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champion": 0.05
+                    },
+                    "subject": "Championship(s) won[b]",
+                    "object": "Team(s) played and coached"
+                }
+            ],
+            "table": "Unnamed table in section 'Player-coaches'",
+            "colums": [
+                "Player-coach",
+                "Team(s) played and coached",
+                "Years[a]",
+                "G",
+                "W",
+                "L",
+                "Win%",
+                "G",
+                "W",
+                "L",
+                "Win%",
+                "Championship(s) won[b]",
+                "Honor(s) and award(s) won[c]",
+                "Ref(s)."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "no. of tables": 3,
+    "page": "List of European stadiums by capacity",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.73,
+                        "http://dbpedia.org/property/owner": 0.2,
+                        "http://dbpedia.org/ontology/operator": 0.13,
+                        "http://dbpedia.org/ontology/owner": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.87
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.67,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Stadium",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.8,
+                        "http://dbpedia.org/ontology/owner": 0.33,
+                        "http://dbpedia.org/property/operator": 0.13,
+                        "http://dbpedia.org/ontology/tenant": 0.8,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/operator": 0.2
+                    },
+                    "subject": "Stadium",
+                    "object": "Tenant"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/brokeGround": 0.07,
+                        "http://dbpedia.org/property/opened": 0.13
+                    },
+                    "subject": "Stadium",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.33,
+                        "http://dbpedia.org/property/stateParty": 0.07,
+                        "http://dbpedia.org/ontology/country": 0.8
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/popyear": 0.07
+                    },
+                    "subject": "City",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.2,
+                        "http://dbpedia.org/property/capital": 0.13
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateYear": 0.07,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.2,
+                        "http://dbpedia.org/property/gdpPppYear": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.8,
+                        "http://dbpedia.org/property/ground": 0.8
+                    },
+                    "subject": "Tenant",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.87,
+                        "http://dbpedia.org/property/ground": 0.6
+                    },
+                    "subject": "Tenant",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.13,
+                        "http://dbpedia.org/property/ground": 0.07
+                    },
+                    "subject": "Tenant",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Current stadiums'",
+            "colums": [
+                "Stadium",
+                "Capacity",
+                "City",
+                "Country",
+                "Tenant",
+                "Built",
+                "Category"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.38,
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.62
+                    },
+                    "subject": "Stadium",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.54,
+                        "http://dbpedia.org/ontology/owner": 0.25,
+                        "http://dbpedia.org/property/operator": 0.17,
+                        "http://dbpedia.org/ontology/tenant": 0.62,
+                        "http://dbpedia.org/property/owner": 0.25,
+                        "http://dbpedia.org/ontology/operator": 0.25
+                    },
+                    "subject": "Stadium",
+                    "object": "Tenant"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.04,
+                        "http://dbpedia.org/property/opened": 0.04
+                    },
+                    "subject": "Stadium",
+                    "object": "Opening"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/stateParty": 0.12,
+                        "http://dbpedia.org/ontology/country": 0.67
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.08,
+                        "http://dbpedia.org/property/capital": 0.04
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.21,
+                        "http://dbpedia.org/property/ground": 0.12
+                    },
+                    "subject": "Tenant",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.42,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/stadium": 0.04,
+                        "http://dbpedia.org/property/ground": 0.33
+                    },
+                    "subject": "Tenant",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/name": 0.04
+                    },
+                    "subject": "Tenant",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Under construction'",
+            "colums": [
+                "Stadium",
+                "Capacity",
+                "City",
+                "Country",
+                "Tenant",
+                "Opening"
+            ]
+        }
+    ]
+}

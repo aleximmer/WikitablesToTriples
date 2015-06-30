@@ -1,0 +1,150 @@
+{
+    "no. of tables": 3,
+    "page": "UK Championship (snooker)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/otherWins": 0.04,
+                        "http://dbpedia.org/property/otherWins": 0.04,
+                        "http://dbpedia.org/property/id": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.44,
+                        "http://dbpedia.org/property/placeOfBirth": 0.3,
+                        "http://dbpedia.org/property/sportCountry": 0.04,
+                        "http://dbpedia.org/ontology/sportCountry": 0.15,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/rankingWins": 0.15,
+                        "http://dbpedia.org/property/highRanking": 0.15,
+                        "http://dbpedia.org/property/otherWins": 0.07,
+                        "http://dbpedia.org/property/minorWins": 0.11,
+                        "http://dbpedia.org/property/rankingWins": 0.15,
+                        "http://dbpedia.org/ontology/otherWins": 0.07,
+                        "http://dbpedia.org/ontology/highestRank": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/rankingWins": 0.11,
+                        "http://dbpedia.org/property/highRanking": 0.11,
+                        "http://dbpedia.org/ontology/otherWins": 0.11,
+                        "http://dbpedia.org/property/minorWins": 0.04,
+                        "http://dbpedia.org/property/rankingWins": 0.11,
+                        "http://dbpedia.org/property/otherWins": 0.11,
+                        "http://dbpedia.org/ontology/highestRank": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.04,
+                        "http://dbpedia.org/property/augLowC": 0.19,
+                        "http://dbpedia.org/property/janLowC": 0.04,
+                        "http://dbpedia.org/property/filename": 0.04,
+                        "http://dbpedia.org/property/sepHighC": 0.04,
+                        "http://dbpedia.org/property/aprHighC": 0.19,
+                        "http://dbpedia.org/property/marLowC": 0.04,
+                        "http://dbpedia.org/property/julLowC": 0.19,
+                        "http://dbpedia.org/property/febLowC": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.04,
+                        "http://dbpedia.org/property/janLowC": 0.26,
+                        "http://dbpedia.org/property/gdpPppRank": 0.04,
+                        "http://dbpedia.org/property/yearLowC": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.26,
+                        "http://dbpedia.org/property/longd": 0.19
+                    },
+                    "subject": "Nationality",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowC": 0.33,
+                        "http://dbpedia.org/property/novLowC": 0.04,
+                        "http://dbpedia.org/property/decLowC": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.33,
+                        "http://dbpedia.org/property/aprLowC": 0.04,
+                        "http://dbpedia.org/property/longd": 0.07
+                    },
+                    "subject": "Nationality",
+                    "object": "Runner-up"
+                }
+            ],
+            "table": "Unnamed table in section 'Stats'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Nationality",
+                "Winner",
+                "Runner-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/image": 0.14,
+                        "http://dbpedia.org/property/filename": 0.14,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Players"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.14,
+                        "http://dbpedia.org/property/establishedDate": 0.14,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.14,
+                        "http://dbpedia.org/property/sepHighC": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "First title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Last title"
+                }
+            ],
+            "table": "Unnamed table in section 'Stats'",
+            "colums": [
+                "Country",
+                "Players",
+                "Total",
+                "First title",
+                "Last title"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "no. of tables": 2,
+    "page": "List of 1994 box office number-one films in the United States",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.02,
+                        "http://dbpedia.org/property/starring": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'List of 1994 box office number-one films in the United States'",
+            "colums": [
+                "#",
+                "Weekend end date",
+                "Film",
+                "Box office[1]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/distributor": 0.8,
+                        "http://dbpedia.org/property/studio": 0.1,
+                        "http://dbpedia.org/ontology/distributor": 0.95
+                    },
+                    "subject": "Title",
+                    "object": "Studio"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.9,
+                        "http://dbpedia.org/property/screenplay": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.05,
+                        "http://dbpedia.org/property/starring": 0.8
+                    },
+                    "subject": "Title",
+                    "object": "Actors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.9,
+                        "http://dbpedia.org/ontology/producer": 0.2,
+                        "http://dbpedia.org/property/producer": 0.05,
+                        "http://dbpedia.org/property/screenplay": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.25,
+                        "http://dbpedia.org/ontology/director": 0.95
+                    },
+                    "subject": "Title",
+                    "object": "Director(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.05
+                    },
+                    "subject": "Director(s)",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest-grossing films'",
+            "colums": [
+                "Rank",
+                "Title",
+                "Studio",
+                "Actors",
+                "Director(s)",
+                "Domestic Gross[2]"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,250 @@
+{
+    "no. of tables": 5,
+    "page": "List of wars involving Poland",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Conflict",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.02
+                    },
+                    "subject": "Conflict",
+                    "object": "Enemies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/result": 0.02,
+                        "http://dbpedia.org/property/result": 0.02
+                    },
+                    "subject": "Conflict",
+                    "object": "Result"
+                }
+            ],
+            "table": "Unnamed table in section 'Piast Poland'",
+            "colums": [
+                "Date",
+                "Conflict",
+                "Allies",
+                "Enemies",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.02
+                    },
+                    "subject": "Conflict",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.02
+                    },
+                    "subject": "Conflict",
+                    "object": "Enemies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/result": 0.02,
+                        "http://dbpedia.org/property/result": 0.03
+                    },
+                    "subject": "Conflict",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/councilDate": 0.02
+                    },
+                    "subject": "Result",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Jagiellon Poland'",
+            "colums": [
+                "Date",
+                "Conflict",
+                "Allies",
+                "Enemies",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.04,
+                        "http://dbpedia.org/property/coa": 0.01
+                    },
+                    "subject": "Conflict",
+                    "object": "Allies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.03,
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01
+                    },
+                    "subject": "Conflict",
+                    "object": "Enemies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/result": 0.01,
+                        "http://dbpedia.org/ontology/place": 0.01,
+                        "http://dbpedia.org/property/result": 0.04,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/ontology/territory": 0.01,
+                        "http://dbpedia.org/property/place": 0.01
+                    },
+                    "subject": "Conflict",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.01
+                    },
+                    "subject": "Enemies",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Polish\u2013Lithuanian Commonwealth'",
+            "colums": [
+                "Date",
+                "Conflict",
+                "Allies",
+                "Enemies",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.1
+                    },
+                    "subject": "Conflict",
+                    "object": "Allies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.2,
+                        "http://dbpedia.org/property/combatant": 0.1,
+                        "http://dbpedia.org/property/place": 0.1
+                    },
+                    "subject": "Conflict",
+                    "object": "Enemies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/statYear": 0.1
+                    },
+                    "subject": "Enemies",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.1,
+                        "http://dbpedia.org/property/era": 0.1
+                    },
+                    "subject": "Enemies",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/eventPost": 0.1
+                    },
+                    "subject": "Enemies",
+                    "object": "Result"
+                }
+            ],
+            "table": "Unnamed table in section '19th century and World War I'",
+            "colums": [
+                "Date",
+                "Conflict",
+                "Allies",
+                "Enemies",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conflict": 0.04,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.04
+                    },
+                    "subject": "Conflict",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.04
+                    },
+                    "subject": "Conflict",
+                    "object": "Allies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.07,
+                        "http://dbpedia.org/property/place": 0.04
+                    },
+                    "subject": "Conflict",
+                    "object": "Enemies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/result": 0.07,
+                        "http://dbpedia.org/ontology/place": 0.04,
+                        "http://dbpedia.org/property/place": 0.04,
+                        "http://dbpedia.org/property/result": 0.07
+                    },
+                    "subject": "Conflict",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/era": 0.04
+                    },
+                    "subject": "Allies",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLeader": 0.04,
+                        "http://dbpedia.org/property/statYear": 0.04
+                    },
+                    "subject": "Enemies",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.15,
+                        "http://dbpedia.org/property/era": 0.15
+                    },
+                    "subject": "Enemies",
+                    "object": "Conflict"
+                }
+            ],
+            "table": "Unnamed table in section 'Modern history'",
+            "colums": [
+                "Date",
+                "Conflict",
+                "Allies",
+                "Enemies",
+                "Result"
+            ]
+        }
+    ]
+}

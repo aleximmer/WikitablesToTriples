@@ -1,0 +1,261 @@
+{
+    "page": "List of Alpha Phi Omega chapters",
+    "no. of tables": 4,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Chapter Geographical information'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/facultySize": 0.0,
+                        "http://dbpedia.org/property/faculty": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/usnwrNu": 0.0,
+                        "http://dbpedia.org/property/arwuW": 0.0,
+                        "http://dbpedia.org/property/thesN": 0.0,
+                        "http://dbpedia.org/property/arwuN": 0.0,
+                        "http://dbpedia.org/property/sports": 0.0,
+                        "http://dbpedia.org/property/wamoNu": 0.0
+                    },
+                    "subject": "School",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.0,
+                        "http://dbpedia.org/ontology/city": 0.7,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/property/city": 0.66,
+                        "http://dbpedia.org/property/campus": 0.0,
+                        "http://dbpedia.org/ontology/campus": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/nearestCity": 0.0,
+                        "http://dbpedia.org/ontology/affiliation": 0.0,
+                        "http://dbpedia.org/property/address": 0.0
+                    },
+                    "subject": "School",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hrlrW": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/quoted": 0.0,
+                        "http://dbpedia.org/property/usnwrLaw": 0.0,
+                        "http://dbpedia.org/property/thesW": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/facultySize": 0.0,
+                        "http://dbpedia.org/property/faculty": 0.0,
+                        "http://dbpedia.org/property/leidenRankingW": 0.0,
+                        "http://dbpedia.org/property/businessInsider": 0.0,
+                        "http://dbpedia.org/property/marksize": 0.0,
+                        "http://dbpedia.org/property/longDegrees": 0.0,
+                        "http://dbpedia.org/property/wamoNu": 0.0
+                    },
+                    "subject": "School",
+                    "object": "Section"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/robbery": 0.0,
+                        "http://dbpedia.org/property/junLowF": 0.0,
+                        "http://dbpedia.org/property/blankInfo": 0.0,
+                        "http://dbpedia.org/property/quoted": 0.0,
+                        "http://dbpedia.org/property/aprRecordHighF": 0.0,
+                        "http://dbpedia.org/property/mapsize": 0.0,
+                        "http://dbpedia.org/property/sepHighF": 0.0,
+                        "http://dbpedia.org/property/width": 0.0,
+                        "http://dbpedia.org/property/marRecordLowF": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/octHighF": 0.0,
+                        "http://dbpedia.org/property/janLowF": 0.0,
+                        "http://dbpedia.org/property/imagesize": 0.0,
+                        "http://dbpedia.org/property/areaWaterKm": 0.0,
+                        "http://dbpedia.org/property/sepRecordHighF": 0.0,
+                        "http://dbpedia.org/property/octLowF": 0.0,
+                        "http://dbpedia.org/property/augRecordHighF": 0.0
+                    },
+                    "subject": "Location",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/landmark": 0.0,
+                        "http://dbpedia.org/property/southwest": 0.0
+                    },
+                    "subject": "Location",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearRecordHighF": 0.0,
+                        "http://dbpedia.org/property/aprHighF": 0.0,
+                        "http://dbpedia.org/property/marLowF": 0.0,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/novRainInch": 0.0,
+                        "http://dbpedia.org/property/janHighF": 0.01,
+                        "http://dbpedia.org/property/populationRank": 0.0,
+                        "http://dbpedia.org/property/marHighF": 0.0,
+                        "http://dbpedia.org/property/julLowF": 0.0,
+                        "http://dbpedia.org/property/longS": 0.0,
+                        "http://dbpedia.org/property/julRecordLowF": 0.0,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/novRecordHighF": 0.0,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.0,
+                        "http://dbpedia.org/property/novLowF": 0.0,
+                        "http://dbpedia.org/property/decRecordHighF": 0.0,
+                        "http://dbpedia.org/property/rows": 0.0,
+                        "http://dbpedia.org/property/febRecordHighF": 0.0,
+                        "http://dbpedia.org/property/elevationImperial": 0.0,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/longd": 0.0,
+                        "http://dbpedia.org/property/areaTotalSqMi": 0.0,
+                        "http://dbpedia.org/property/decSnowDays": 0.0,
+                        "http://dbpedia.org/property/longs": 0.0,
+                        "http://dbpedia.org/property/latd": 0.0,
+                        "http://dbpedia.org/property/augRecordHighF": 0.0,
+                        "http://dbpedia.org/property/novHighF": 0.0,
+                        "http://dbpedia.org/property/longM": 0.0,
+                        "http://dbpedia.org/property/octRecordHighF": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.0,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/mayRecordHighF": 0.0,
+                        "http://dbpedia.org/property/junRecordHighF": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/febHighF": 0.0,
+                        "http://dbpedia.org/property/janRecordHighF": 0.0,
+                        "http://dbpedia.org/property/febLowF": 0.0,
+                        "http://dbpedia.org/property/aprRecordHighF": 0.0,
+                        "http://dbpedia.org/property/sepHighF": 0.0,
+                        "http://dbpedia.org/property/yearHighF": 0.0,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/decMeanF": 0.0,
+                        "http://dbpedia.org/property/decLowF": 0.0,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/marRecordHighF": 0.0
+                    },
+                    "subject": "Location",
+                    "object": "Section"
+                }
+            ],
+            "colums": [
+                "Number",
+                "Chapter",
+                "School",
+                "Location",
+                "Region",
+                "Section"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Chapter Chronological information'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/facultySize": 0.0,
+                        "http://dbpedia.org/property/faculty": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/usnwrNu": 0.0,
+                        "http://dbpedia.org/property/arwuW": 0.0,
+                        "http://dbpedia.org/property/thesN": 0.0,
+                        "http://dbpedia.org/property/arwuN": 0.0,
+                        "http://dbpedia.org/property/sports": 0.0,
+                        "http://dbpedia.org/property/wamoNu": 0.0
+                    },
+                    "subject": "School",
+                    "object": "Number"
+                }
+            ],
+            "colums": [
+                "Number",
+                "Chapter",
+                "School",
+                "Chartered date[3]",
+                "Status",
+                "Dates declared inactive[4]",
+                "Dates of reactivation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Petitioning Groups'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.38,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.38,
+                        "http://dbpedia.org/property/name": 0.38
+                    },
+                    "subject": "School",
+                    "object": "Petitioning Group Name\n[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.88,
+                        "http://dbpedia.org/property/city": 0.81
+                    },
+                    "subject": "School",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.06
+                    },
+                    "subject": "School",
+                    "object": "Section"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.06,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.06,
+                        "http://dbpedia.org/property/novRainInch": 0.06,
+                        "http://dbpedia.org/property/lats": 0.06
+                    },
+                    "subject": "Location",
+                    "object": "Section"
+                }
+            ],
+            "colums": [
+                "Petitioning Group Name\n[1]",
+                "Petitioning Group Ceremony",
+                "School",
+                "Location",
+                "Region",
+                "Section"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Interest Groups'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.22,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/property/name": 0.22
+                    },
+                    "subject": "School",
+                    "object": "Interest Group Name\n[2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 0.89
+                    },
+                    "subject": "School",
+                    "object": "Location"
+                }
+            ],
+            "colums": [
+                "Interest Group Name\n[2]",
+                "Interest Group Status Date",
+                "School",
+                "Location",
+                "Region",
+                "Section"
+            ]
+        }
+    ]
+}

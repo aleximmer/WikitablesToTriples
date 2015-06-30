@@ -1,0 +1,266 @@
+{
+    "no. of tables": 2,
+    "page": "List of Formula One World Drivers' Championship runners-up",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/longd": 0.09,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03,
+                        "http://dbpedia.org/property/ethnicGroups": 0.03,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.03,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.02
+                    },
+                    "subject": "Driver",
+                    "object": "Poles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/value": 0.03,
+                        "http://dbpedia.org/property/ethnicGroups": 0.02,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.02,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03,
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.03
+                    },
+                    "subject": "Driver",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/gdpRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.05,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02
+                    },
+                    "subject": "Driver",
+                    "object": "Podiums"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.02
+                    },
+                    "subject": "Driver",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.02,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/longd": 0.06,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03
+                    },
+                    "subject": "Driver",
+                    "object": "Margin of defeat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.06,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "Poles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.14,
+                        "http://dbpedia.org/property/gdpPppRank": 0.03,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/longm": 0.08
+                    },
+                    "subject": "Team",
+                    "object": "Podiums"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/callingCode": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/euseats": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Margin of defeat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/base": 0.02,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.02,
+                        "http://dbpedia.org/ontology/regionServed": 0.02
+                    },
+                    "subject": "Engine",
+                    "object": "Driver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/base": 0.02
+                    },
+                    "subject": "Engine",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/poles": 0.02,
+                        "http://dbpedia.org/property/fastestLaps": 0.02
+                    },
+                    "subject": "Engine",
+                    "object": "Poles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/podiums": 0.02
+                    },
+                    "subject": "Engine",
+                    "object": "Podiums"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/poles": 0.02,
+                        "http://dbpedia.org/property/fastestLaps": 0.02
+                    },
+                    "subject": "Engine",
+                    "object": "Margin of defeat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationCountry": 0.03,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/locationCountry": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Tyres",
+                    "object": "Driver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationCountry": 0.02,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/locationCountry": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Tyres",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/internationally": 0.09
+                    },
+                    "subject": "Tyres",
+                    "object": "Poles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/internationally": 0.06
+                    },
+                    "subject": "Tyres",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Tyres",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/internationally": 0.06
+                    },
+                    "subject": "Tyres",
+                    "object": "Margin of defeat"
+                }
+            ],
+            "table": "Unnamed table in section 'By season'",
+            "colums": [
+                "Season",
+                "Driver",
+                "Team",
+                "Engine",
+                "Tyres",
+                "Poles",
+                "Wins",
+                "Podiums",
+                "Points",
+                "Margin of defeat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.07,
+                        "http://dbpedia.org/property/longd": 0.07
+                    },
+                    "subject": "Driver",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.07
+                    },
+                    "subject": "Driver",
+                    "object": "Titles"
+                }
+            ],
+            "table": "Unnamed table in section 'By driver'",
+            "colums": [
+                "Driver",
+                "Runner-up",
+                "Titles"
+            ]
+        }
+    ]
+}

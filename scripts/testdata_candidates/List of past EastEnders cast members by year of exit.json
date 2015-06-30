@@ -1,0 +1,403 @@
+{
+    "no. of tables": 31,
+    "page": "List of past EastEnders characters",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/portrayer": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.09
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '2010s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.45
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.77
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '2000s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.7
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.48
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableRole": 0.04
+                    },
+                    "subject": "Actor(s)",
+                    "object": "Character"
+                }
+            ],
+            "table": "Unnamed table in section '2000s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.33
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.14
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.28
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.09
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.18
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.05
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.47
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.54
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.08
+                    },
+                    "subject": "Actor(s)",
+                    "object": "Character"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.47
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.37
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/portrayer": 0.43,
+                        "http://dbpedia.org/property/name": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.04
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.21
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.24,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.52
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.14
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.14
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.33
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.12
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.47
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.37
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.1
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.81
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Actor(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.9
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Character",
+                "Actor(s)",
+                "Duration"
+            ]
+        }
+    ]
+}

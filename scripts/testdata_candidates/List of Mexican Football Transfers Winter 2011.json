@@ -1,0 +1,938 @@
+{
+    "no. of tables": 36,
+    "page": "List of Mexican Football Transfers Winter 2011",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2,
+                        "http://dbpedia.org/property/latd": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2,
+                        "http://dbpedia.org/property/latd": 0.2
+                    },
+                    "subject": "From",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Am\u00e9rica'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Am\u00e9rica'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/centre": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/centre": 0.17
+                    },
+                    "subject": "From",
+                    "object": "Player"
+                }
+            ],
+            "table": "Unnamed table in section 'Atlante'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.17,
+                        "http://dbpedia.org/property/margin": 0.17,
+                        "http://dbpedia.org/property/latd": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.17,
+                        "http://dbpedia.org/property/margin": 0.17,
+                        "http://dbpedia.org/property/latd": 0.33
+                    },
+                    "subject": "To",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Atlante'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "From",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Atlas'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.11
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.11
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Atlas'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cruz Azul'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.33
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Cruz Azul'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.14
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Estudiantes Tecos'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Estudiantes Tecos'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Guadalajara'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Guadalajara'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.25
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "From",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Jaguares'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25,
+                        "http://dbpedia.org/property/longm": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25,
+                        "http://dbpedia.org/property/longm": 0.25
+                    },
+                    "subject": "To",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Jaguares'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.5,
+                        "http://dbpedia.org/property/margin": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.5,
+                        "http://dbpedia.org/property/margin": 0.5
+                    },
+                    "subject": "From",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Monterrey'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25
+                    },
+                    "subject": "To",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Monterrey'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.2
+                    },
+                    "subject": "From",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Morelia'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.25
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.25,
+                        "http://dbpedia.org/property/areaRank": 0.25,
+                        "http://dbpedia.org/property/latd": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.25,
+                        "http://dbpedia.org/property/areaRank": 0.25,
+                        "http://dbpedia.org/property/latd": 0.25
+                    },
+                    "subject": "To",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Morelia'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Pachuca'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageTop": 0.12
+                    },
+                    "subject": "Position",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.12
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Pachuca'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Puebla'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.25,
+                        "http://dbpedia.org/property/margin": 0.25
+                    },
+                    "subject": "To",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Puebla'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.33,
+                        "http://dbpedia.org/property/latm": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.33
+                    },
+                    "subject": "From",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Quer\u00e9taro'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageTop": 0.14
+                    },
+                    "subject": "Position",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hpiRank": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.14,
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Quer\u00e9taro'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "From",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'San Luis'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'San Luis'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Santos Laguna'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageTop": 1.0
+                    },
+                    "subject": "Position",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 1.0
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Santos Laguna'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Tijuana'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25,
+                        "http://dbpedia.org/property/latm": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationCensusRank": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25
+                    },
+                    "subject": "To",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Tijuana'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Toluca'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 1.0
+                    },
+                    "subject": "To",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'Toluca'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'UANL'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "From",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'UANL'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 1.0
+                    },
+                    "subject": "Position",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'UNAM'",
+            "colums": [
+                "#",
+                "Position",
+                "Player",
+                "Age",
+                "To",
+                "Date",
+                "Type",
+                "Source"
+            ]
+        }
+    ]
+}

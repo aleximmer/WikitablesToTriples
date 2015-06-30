@@ -1,0 +1,248 @@
+{
+    "no. of tables": 3,
+    "page": "List of the busiest airports in Mexico",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/ontology/elevation": 0.02
+                    },
+                    "subject": "Airport Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/cityServed": 0.12,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.38
+                    },
+                    "subject": "Airport Name",
+                    "object": "State of Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/cityServed": 0.22,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.56
+                    },
+                    "subject": "Airport Name",
+                    "object": "City Served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 1.0,
+                        "http://dbpedia.org/property/iata": 1.0,
+                        "http://dbpedia.org/property/pushpinLabel": 0.18
+                    },
+                    "subject": "Airport Name",
+                    "object": "IATA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/icaoLocationIdentifier": 1.0,
+                        "http://dbpedia.org/property/icao": 0.16
+                    },
+                    "subject": "Airport Name",
+                    "object": "ICAO"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.1,
+                        "http://dbpedia.org/property/populationDensityRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/postalCode": 0.02
+                    },
+                    "subject": "State of Location",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.64,
+                        "http://dbpedia.org/property/subdivisionName": 0.66,
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "State of Location",
+                    "object": "City Served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/property/junRecordHighC": 0.02,
+                        "http://dbpedia.org/property/junRecordLowC": 0.02,
+                        "http://dbpedia.org/property/marRecordLowC": 0.02,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.04,
+                        "http://dbpedia.org/property/octRecordLowC": 0.04,
+                        "http://dbpedia.org/property/aprRecordLowC": 0.02,
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.04,
+                        "http://dbpedia.org/property/febRainMm": 0.02,
+                        "http://dbpedia.org/property/febHighC": 0.04,
+                        "http://dbpedia.org/property/mayMeanC": 0.02,
+                        "http://dbpedia.org/property/aprMeanC": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/decRecordLowC": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/febRecordHighC": 0.02,
+                        "http://dbpedia.org/property/decRecordHighC": 0.02,
+                        "http://dbpedia.org/property/marRecordHighC": 0.02,
+                        "http://dbpedia.org/property/yearRecordLowC": 0.02,
+                        "http://dbpedia.org/property/sepRainMm": 0.02,
+                        "http://dbpedia.org/property/augRecordHighC": 0.02,
+                        "http://dbpedia.org/property/lats": 0.04,
+                        "http://dbpedia.org/property/julRecordHighC": 0.02,
+                        "http://dbpedia.org/property/novMeanC": 0.02,
+                        "http://dbpedia.org/property/novRecordLowC": 0.02,
+                        "http://dbpedia.org/property/julHighC": 0.02
+                    },
+                    "subject": "City Served",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank2InfoSec": 0.06,
+                        "http://dbpedia.org/property/blankInfo": 0.02,
+                        "http://dbpedia.org/property/blankInfoSec": 0.08,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.06,
+                        "http://dbpedia.org/property/blank5Info": 0.02
+                    },
+                    "subject": "City Served",
+                    "object": "Airport Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.92,
+                        "http://dbpedia.org/property/subdivisionName": 0.68,
+                        "http://dbpedia.org/ontology/type": 0.02
+                    },
+                    "subject": "City Served",
+                    "object": "State of Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnotes": 0.02
+                    },
+                    "subject": "City Served",
+                    "object": "IATA"
+                }
+            ],
+            "table": "Unnamed table in section 'Mexico's 50 busiest airports by passenger traffic since 2010'",
+            "colums": [
+                "#",
+                "Airport Name",
+                "State of Location",
+                "City Served",
+                "IATA",
+                "ICAO",
+                "2010",
+                "2011",
+                "2012",
+                "2013",
+                "2014",
+                "Growth (2013/14)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.1
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.8,
+                        "http://dbpedia.org/property/cityServed": 0.2,
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Airport",
+                    "object": "City/State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprRecordLowC": 0.1,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.1
+                    },
+                    "subject": "City/State",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfoSec": 0.1,
+                        "http://dbpedia.org/property/blank5Info": 0.1
+                    },
+                    "subject": "City/State",
+                    "object": "Airport"
+                }
+            ],
+            "table": "Unnamed table in section 'Mexico's 10 busiest airport by aircraft movements since 2010[2]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "City/State",
+                "2010",
+                "2011",
+                "2012",
+                "2013"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.1
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.6,
+                        "http://dbpedia.org/ontology/location": 0.5,
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/property/cityServed": 0.2
+                    },
+                    "subject": "Airport",
+                    "object": "City/States"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayRecordLowC": 0.1
+                    },
+                    "subject": "City/States",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank2InfoSec": 0.1,
+                        "http://dbpedia.org/property/blankInfoSec": 0.1,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.1,
+                        "http://dbpedia.org/property/blank5Info": 0.1
+                    },
+                    "subject": "City/States",
+                    "object": "Airport"
+                }
+            ],
+            "table": "Unnamed table in section 'Mexico's 10 busiest airports by cargo traffic [Nov. 2010-Oct. 2011][3]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "City/States",
+                "Total Cargo (tons)",
+                ""
+            ]
+        }
+    ]
+}

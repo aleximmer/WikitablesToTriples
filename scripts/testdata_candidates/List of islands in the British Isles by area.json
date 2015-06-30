@@ -1,0 +1,204 @@
+{
+    "page": "List of islands of the British Isles",
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of islands of the British Isles\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.5,
+                        "http://dbpedia.org/property/commonName": 0.5,
+                        "http://dbpedia.org/ontology/longName": 0.5,
+                        "http://dbpedia.org/property/conventionalLongName": 0.5
+                    },
+                    "subject": "Country",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Area (km\u00b2)",
+                "Population",
+                "Country"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of islands of the British Isles\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprRainDays": 0.02,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.02,
+                        "http://dbpedia.org/property/areaKm": 0.02,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/julRainDays": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augRecordHighC": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/population": 0.02,
+                        "http://dbpedia.org/property/novHighC": 0.02,
+                        "http://dbpedia.org/property/junRecordHighC": 0.02,
+                        "http://dbpedia.org/property/sepLowC": 0.02,
+                        "http://dbpedia.org/property/junLowC": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Rank (area)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/population": 0.03,
+                        "http://dbpedia.org/ontology/populationTotal": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Population[2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decSun": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Rank (pop.)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/unitaryAuthority": 0.37,
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.03,
+                        "http://dbpedia.org/ontology/archipelago": 0.07,
+                        "http://dbpedia.org/property/localAuthority": 0.36,
+                        "http://dbpedia.org/property/unitaryWales": 0.02,
+                        "http://dbpedia.org/property/unitaryScotland": 0.02,
+                        "http://dbpedia.org/property/shireCounty": 0.07,
+                        "http://dbpedia.org/property/islandGroup": 0.05,
+                        "http://dbpedia.org/ontology/principalArea": 0.02,
+                        "http://dbpedia.org/ontology/areaOfSearch": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.07,
+                        "http://dbpedia.org/ontology/ceremonialCounty": 0.02,
+                        "http://dbpedia.org/property/lieutenancyWales": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Island Group / Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.78,
+                        "http://dbpedia.org/property/country": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.03,
+                        "http://dbpedia.org/property/islands": 0.02
+                    },
+                    "subject": "Island Group / Location",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/ontology/numberOfIslands": 0.02,
+                        "http://dbpedia.org/property/areaTotalRank": 0.02,
+                        "http://dbpedia.org/property/totalIslands": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/property/febLowC": 0.03,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.02
+                    },
+                    "subject": "Island Group / Location",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decHighF": 0.02,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.02
+                    },
+                    "subject": "Island Group / Location",
+                    "object": "Rank (area)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.02
+                    },
+                    "subject": "Island Group / Location",
+                    "object": "Population[2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.02
+                    },
+                    "subject": "Island Group / Location",
+                    "object": "Rank (pop.)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.19,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Island Group / Location",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepHighC": 0.02,
+                        "http://dbpedia.org/property/yearLowC": 0.02,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/junHighC": 0.02,
+                        "http://dbpedia.org/property/novLowC": 0.02,
+                        "http://dbpedia.org/property/areaKm": 0.02,
+                        "http://dbpedia.org/property/aprLowC": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/julLowC": 0.02,
+                        "http://dbpedia.org/property/aprHighC": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/augLowC": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Rank (area)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/junHighC": 0.02,
+                        "http://dbpedia.org/property/novHighC": 0.02,
+                        "http://dbpedia.org/property/marHighC": 0.02,
+                        "http://dbpedia.org/property/mayHighC": 0.02,
+                        "http://dbpedia.org/property/sepLowC": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/junLowC": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Rank (pop.)"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Area (km\u00b2)",
+                "Rank (area)",
+                "Population[2]",
+                "Rank (pop.)",
+                "Island Group / Location",
+                "Country"
+            ]
+        }
+    ]
+}

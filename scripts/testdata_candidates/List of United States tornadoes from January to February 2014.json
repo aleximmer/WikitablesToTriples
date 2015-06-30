@@ -1,0 +1,672 @@
+{
+    "no. of tables": 16,
+    "page": "List of United States tornadoes from January to March 2014",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Confirmed tornadoes by Enhanced Fujita rating",
+            "colums": [
+                "EF0",
+                "EF1",
+                "EF2",
+                "EF3",
+                "EF4",
+                "EF5",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Confirmed tornadoes by Enhanced Fujita rating",
+            "colums": [
+                "EF0",
+                "EF1",
+                "EF2",
+                "EF3",
+                "EF4",
+                "EF5",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.75
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.75
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.25,
+                        "http://dbpedia.org/ontology/largestCity": 0.25
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.75,
+                        "http://dbpedia.org/ontology/isPartOf": 0.25
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.25
+                    },
+                    "subject": "Summary",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Saturday, January 11, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Confirmed tornadoes by Enhanced Fujita rating",
+            "colums": [
+                "EF0",
+                "EF1",
+                "EF2",
+                "EF3",
+                "EF4",
+                "EF5",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.22,
+                        "http://dbpedia.org/property/subdivisionName": 0.28,
+                        "http://dbpedia.org/ontology/isPartOf": 0.28,
+                        "http://dbpedia.org/ontology/region": 0.22
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.25,
+                        "http://dbpedia.org/ontology/isPartOf": 0.36,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.06,
+                        "http://dbpedia.org/ontology/largestCity": 0.03
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.97
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.06,
+                        "http://dbpedia.org/ontology/largestCity": 0.06
+                    },
+                    "subject": "County / Parish",
+                    "object": "Summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/ontology/county": 0.03,
+                        "http://dbpedia.org/property/counties": 0.03
+                    },
+                    "subject": "Summary",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.06,
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06
+                    },
+                    "subject": "Summary",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Thursday, February 20, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.67,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.11,
+                        "http://dbpedia.org/ontology/isPartOf": 0.67,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.33,
+                        "http://dbpedia.org/ontology/largestCity": 0.33
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.78
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.11
+                    },
+                    "subject": "Summary",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/county": 0.22,
+                        "http://dbpedia.org/property/counties": 0.22
+                    },
+                    "subject": "Summary",
+                    "object": "County / Parish"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Friday, February 21, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Friday, February 28, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Confirmed tornadoes by Enhanced Fujita rating",
+            "colums": [
+                "EF0",
+                "EF1",
+                "EF2",
+                "EF3",
+                "EF4",
+                "EF5",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestmetro": 1.0
+                    },
+                    "subject": "State",
+                    "object": "Summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/states": 1.0
+                    },
+                    "subject": "Summary",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Saturday, March 1, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 1.0,
+                        "http://dbpedia.org/property/namedFor": 0.33
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Thursday, March 6, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parts": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Tuesday, March 25, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.6
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.2
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Wednesday, March 26, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.75
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.5,
+                        "http://dbpedia.org/ontology/largestCity": 0.5
+                    },
+                    "subject": "County / Parish",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.25,
+                        "http://dbpedia.org/ontology/region": 0.25
+                    },
+                    "subject": "Summary",
+                    "object": "County / Parish"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Thursday, March 27, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 1.0,
+                        "http://dbpedia.org/ontology/region": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Friday, March 28, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.75
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.75,
+                        "http://dbpedia.org/ontology/isPartOf": 0.25
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestcounty": 0.5
+                    },
+                    "subject": "State",
+                    "object": "County / Parish"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Saturday, March 29, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "County / Parish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 1.0
+                    },
+                    "subject": "County / Parish",
+                    "object": "State"
+                }
+            ],
+            "table": "List of confirmed tornadoes \u2013 Monday, March 31, 2014[nb 1]",
+            "colums": [
+                "EF#",
+                "Location",
+                "County / Parish",
+                "State",
+                "Start Coord.",
+                "Time (UTC)",
+                "Path length",
+                "Max width",
+                "Damage[nb 2]",
+                "Summary",
+                "Refs"
+            ]
+        }
+    ]
+}

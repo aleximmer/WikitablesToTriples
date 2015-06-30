@@ -1,0 +1,337 @@
+{
+    "no. of tables": 6,
+    "page": "List of tram and light rail transit systems",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0,
+                        "http://dbpedia.org/property/stateParty": 0.25,
+                        "http://dbpedia.org/property/subdivisionName": 0.38
+                    },
+                    "subject": "Location",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.25,
+                        "http://dbpedia.org/property/capital": 0.5,
+                        "http://dbpedia.org/ontology/capital": 0.5,
+                        "http://dbpedia.org/property/largestCity": 0.12
+                    },
+                    "subject": "Country",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.12,
+                        "http://dbpedia.org/property/populationCensusYear": 0.25,
+                        "http://dbpedia.org/property/hdiYear": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.62,
+                        "http://dbpedia.org/ontology/location": 0.88
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.38,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/beganOperation": 0.38
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.88,
+                        "http://dbpedia.org/property/transitType": 0.75
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Location",
+                "Country",
+                "Relevant Wikipedia article",
+                "Year opened",
+                "Type"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.96,
+                        "http://dbpedia.org/property/stateParty": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/metroAreaPopDate": 0.0,
+                        "http://dbpedia.org/property/populationDate": 0.0,
+                        "http://dbpedia.org/property/urbanPopDate": 0.0
+                    },
+                    "subject": "Location",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/aprHumidity": 0.0,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/property/decSun": 0.0,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.0,
+                        "http://dbpedia.org/property/febHumidity": 0.0,
+                        "http://dbpedia.org/property/octHighC": 0.0,
+                        "http://dbpedia.org/property/parti5prosent": 0.0,
+                        "http://dbpedia.org/property/julHumidity": 0.0,
+                        "http://dbpedia.org/property/sepHighC": 0.01,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/yearSnowDays": 0.0,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/aprPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/janRainDays": 0.0,
+                        "http://dbpedia.org/property/febSun": 0.0,
+                        "http://dbpedia.org/property/sepRainDays": 0.0,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/augSun": 0.0,
+                        "http://dbpedia.org/property/febHighF": 0.0,
+                        "http://dbpedia.org/property/junSun": 0.0,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/novRainMm": 0.0,
+                        "http://dbpedia.org/property/aprLowC": 0.0,
+                        "http://dbpedia.org/property/junHumidity": 0.0,
+                        "http://dbpedia.org/property/octHumidity": 0.0
+                    },
+                    "subject": "Location",
+                    "object": "Stations"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.01,
+                        "http://dbpedia.org/property/largestMetropolitanArea": 0.01,
+                        "http://dbpedia.org/property/capital": 0.05,
+                        "http://dbpedia.org/ontology/capital": 0.06,
+                        "http://dbpedia.org/property/largestCity": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppYear": 0.0,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.01,
+                        "http://dbpedia.org/property/populationCensusYear": 0.01,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.0,
+                        "http://dbpedia.org/property/giniYear": 0.01,
+                        "http://dbpedia.org/property/frTotalPopulationEstimateYear": 0.0,
+                        "http://dbpedia.org/property/hdiYear": 0.0
+                    },
+                    "subject": "Country",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.0,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.0,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/property/yearSnowDays": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/longd": 0.0,
+                        "http://dbpedia.org/property/title": 0.0,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.0,
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.0
+                    },
+                    "subject": "Country",
+                    "object": "Stations"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/ontology/headquarter": 0.0,
+                        "http://dbpedia.org/property/era4Owner": 0.0,
+                        "http://dbpedia.org/ontology/owner": 0.01,
+                        "http://dbpedia.org/property/areaServed": 0.0,
+                        "http://dbpedia.org/property/locationCity": 0.0,
+                        "http://dbpedia.org/property/start": 0.0,
+                        "http://dbpedia.org/property/locale": 0.42,
+                        "http://dbpedia.org/property/era3Owner": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.25,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/ontology/routeStart": 0.0,
+                        "http://dbpedia.org/ontology/locationCity": 0.0,
+                        "http://dbpedia.org/ontology/regionServed": 0.0
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationCountry": 0.0,
+                        "http://dbpedia.org/ontology/country": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/ontology/locationCountry": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.12,
+                        "http://dbpedia.org/property/locale": 0.3,
+                        "http://dbpedia.org/property/areaServed": 0.0,
+                        "http://dbpedia.org/ontology/regionServed": 0.0
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/beganOperation": 0.13,
+                        "http://dbpedia.org/property/era1StartYear": 0.0,
+                        "http://dbpedia.org/property/foundation": 0.0,
+                        "http://dbpedia.org/property/open": 0.02
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfStations": 0.16,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/stops": 0.01,
+                        "http://dbpedia.org/property/era3Stops": 0.0,
+                        "http://dbpedia.org/property/era2Stops": 0.02,
+                        "http://dbpedia.org/property/stations": 0.16,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Stations"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.01,
+                        "http://dbpedia.org/property/transitType": 0.14,
+                        "http://dbpedia.org/property/era3Name": 0.02,
+                        "http://dbpedia.org/ontology/type": 0.21,
+                        "http://dbpedia.org/property/era4Name": 0.0,
+                        "http://dbpedia.org/property/era2Name": 0.07
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0
+                    },
+                    "subject": "Type",
+                    "object": "Stations"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Location",
+                "Country",
+                "Relevant Wikipedia article",
+                "Year opened",
+                "Stations",
+                "System length",
+                "Type"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.25,
+                        "http://dbpedia.org/property/largestCity": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppYear": 0.25,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.25
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stations": 0.25,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.25
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Stations"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.25
+                    },
+                    "subject": "Relevant Wikipedia article",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Location",
+                "Country",
+                "Relevant Wikipedia article",
+                "Year opened",
+                "Stations",
+                "System length",
+                "Type"
+            ]
+        }
+    ]
+}

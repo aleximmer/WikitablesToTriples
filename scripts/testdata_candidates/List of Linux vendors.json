@@ -1,0 +1,313 @@
+{
+    "no. of tables": 6,
+    "page": "Comparison of Linux distributions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.12,
+                        "http://dbpedia.org/property/developer": 0.25
+                    },
+                    "subject": "Distribution",
+                    "object": "Founder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.01,
+                        "http://dbpedia.org/property/developer": 0.14,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Distribution",
+                    "object": "Maintainer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.01
+                    },
+                    "subject": "Distribution",
+                    "object": "Initial release year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latestPreviewVersion": 0.01,
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.11,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.07
+                    },
+                    "subject": "Distribution",
+                    "object": "Current stable version"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/packageManager": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.03,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://dbpedia.org/property/updatemodel": 0.01
+                    },
+                    "subject": "Distribution",
+                    "object": "Forked from"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/knownFor": 0.07,
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/property/developer": 0.01,
+                        "http://dbpedia.org/property/knownFor": 0.05,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Founder",
+                    "object": "Distribution"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/knownFor": 0.01,
+                        "http://dbpedia.org/ontology/knownFor": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Founder",
+                    "object": "Maintainer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Maintainer",
+                    "object": "Distribution"
+                }
+            ],
+            "table": "Unnamed table in section 'General'",
+            "colums": [
+                "Distribution",
+                "Founder",
+                "Maintainer",
+                "Initial release year",
+                "Current stable version",
+                "Security updates (years)",
+                "Release date",
+                "System distribution commitment",
+                "Forked from",
+                "Target audience",
+                "Cost"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/ui": 0.12
+                    },
+                    "subject": "Distribution",
+                    "object": "Install-time desktop environment or window manager selection"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Install-time desktop environment or window manager selection",
+                    "object": "Distribution"
+                }
+            ],
+            "table": "Unnamed table in section 'Technical'",
+            "colums": [
+                "Distribution",
+                "Default file system",
+                "Default init system",
+                "Install-time desktop environment or window manager selection"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.03,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.03
+                    },
+                    "subject": "Distribution",
+                    "object": "x86"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.06,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.06
+                    },
+                    "subject": "Distribution",
+                    "object": "x86-64"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/supportedPlatforms": 0.03
+                    },
+                    "subject": "Distribution",
+                    "object": "arm"
+                }
+            ],
+            "table": "Unnamed table in section 'Instruction set architecture support'",
+            "colums": [
+                "Distribution",
+                "x86",
+                "x86-64",
+                "ia64",
+                "ppc[20]",
+                "ppc64",
+                "sparc32",
+                "sparc64",
+                "arm",
+                "hppa[21]",
+                "loongson",
+                "mips[22]",
+                "sh",
+                "s390",
+                "s390x",
+                "alpha[23]",
+                "m68k[24]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/updatemodel": 0.14,
+                        "http://dbpedia.org/property/packageManager": 0.08
+                    },
+                    "subject": "Distribution",
+                    "object": "Default package management tools"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/extension": 0.02
+                    },
+                    "subject": "Distribution",
+                    "object": "Package format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04
+                    },
+                    "subject": "Distribution",
+                    "object": "Graphical installation process"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Distribution",
+                    "object": "Netinstall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/updatemodel": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/operatingSystem": 0.02
+                    },
+                    "subject": "Default package management tools",
+                    "object": "Distribution"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Default package management tools",
+                    "object": "Default installer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.02
+                    },
+                    "subject": "Package format",
+                    "object": "Netinstall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.02
+                    },
+                    "subject": "Default installer",
+                    "object": "Distribution"
+                }
+            ],
+            "table": "Unnamed table in section 'Package management and installation'",
+            "colums": [
+                "Distribution",
+                "Approximate number of pre-compiled packages",
+                "Approximate number of source packages",
+                "Default package management tools",
+                "Package format",
+                "Default installer",
+                "Graphical installation process",
+                "Netinstall",
+                "Netboot"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.03,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.03
+                    },
+                    "subject": "Distribution",
+                    "object": "Boots from CD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.05,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.05
+                    },
+                    "subject": "Distribution",
+                    "object": "Boots from DVD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.03,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.03
+                    },
+                    "subject": "Distribution",
+                    "object": "Installable live CD/DVD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.05,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.05
+                    },
+                    "subject": "Distribution",
+                    "object": "Installable from USB"
+                }
+            ],
+            "table": "Unnamed table in section 'Live media'",
+            "colums": [
+                "Distribution",
+                "Size of media (MB)",
+                "RAM use (MB)",
+                "Boots from CD",
+                "Boots from DVD",
+                "Installable live CD/DVD",
+                "Installable from USB"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Security features'",
+            "colums": [
+                "Distribution",
+                "Compile time buffer checks",
+                "Mandatory access control",
+                "Software executable space protection",
+                "grsecurity",
+                "RSBAC"
+            ]
+        }
+    ]
+}

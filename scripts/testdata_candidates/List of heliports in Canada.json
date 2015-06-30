@@ -1,0 +1,220 @@
+{
+    "no. of tables": 2,
+    "page": "List of heliports in Canada",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Quantity"
+                }
+            ],
+            "table": "Heliports\nAll figures as of June 2014",
+            "colums": [
+                "Location",
+                "Quantity"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/icaoLocationIdentifier": 0.0,
+                        "http://dbpedia.org/property/icao": 0.0,
+                        "http://dbpedia.org/property/lid": 0.0,
+                        "http://dbpedia.org/property/pushpinLabel": 0.02,
+                        "http://dbpedia.org/ontology/locationIdentifier": 0.0,
+                        "http://dbpedia.org/property/tc": 0.02
+                    },
+                    "subject": "Name\u00a0\u00a0",
+                    "object": "ICAO (IATA)\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.04
+                    },
+                    "subject": "Name\u00a0\u00a0",
+                    "object": "Type\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/org/group": 0.02,
+                        "http://dbpedia.org/property/centre": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/operator": 0.03,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.03,
+                        "http://dbpedia.org/property/ownerOper": 0.01,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://dbpedia.org/ontology/operator": 0.03
+                    },
+                    "subject": "Name\u00a0\u00a0",
+                    "object": "Operator\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/region": 0.07,
+                        "http://dbpedia.org/property/owned": 0.0,
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.05,
+                        "http://dbpedia.org/property/address": 0.0,
+                        "http://dbpedia.org/property/cityServed": 0.01
+                    },
+                    "subject": "Name\u00a0\u00a0",
+                    "object": "Location\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/ontology/state": 0.1,
+                        "http://dbpedia.org/ontology/region": 0.0,
+                        "http://dbpedia.org/ontology/nearestCity": 0.0,
+                        "http://dbpedia.org/property/address": 0.0,
+                        "http://dbpedia.org/property/nearestCity": 0.0
+                    },
+                    "subject": "Name\u00a0\u00a0",
+                    "object": "Province\nTerritory\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/garrison": 0.0,
+                        "http://dbpedia.org/ontology/garrison": 0.0
+                    },
+                    "subject": "Operator\u00a0\u00a0",
+                    "object": "Name\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tc": 0.0,
+                        "http://dbpedia.org/property/pushpinLabel": 0.0
+                    },
+                    "subject": "Operator\u00a0\u00a0",
+                    "object": "ICAO (IATA)\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.0
+                    },
+                    "subject": "Operator\u00a0\u00a0",
+                    "object": "Type\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.02,
+                        "http://dbpedia.org/ontology/headquarter": 0.01,
+                        "http://dbpedia.org/property/headquarters": 0.0
+                    },
+                    "subject": "Operator\u00a0\u00a0",
+                    "object": "Location\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/callCentre": 0.01,
+                        "http://dbpedia.org/property/locationCity": 0.02,
+                        "http://dbpedia.org/ontology/state": 0.01,
+                        "http://dbpedia.org/property/areaServed": 0.12,
+                        "http://dbpedia.org/ontology/headquarter": 0.02,
+                        "http://dbpedia.org/property/headquarters": 0.01,
+                        "http://dbpedia.org/ontology/regionServed": 0.12,
+                        "http://dbpedia.org/ontology/locationCity": 0.02,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.13,
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/property/foundation": 0.0
+                    },
+                    "subject": "Operator\u00a0\u00a0",
+                    "object": "Province\nTerritory\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.0,
+                        "http://dbpedia.org/property/centre": 0.03,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.07,
+                        "http://dbpedia.org/property/officialName": 0.02,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/property/center": 0.0,
+                        "http://dbpedia.org/property/pushpinLabel": 0.01,
+                        "http://dbpedia.org/property/riverName": 0.0,
+                        "http://dbpedia.org/property/imageCaption": 0.0,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://dbpedia.org/property/cities": 0.0
+                    },
+                    "subject": "Location\u00a0\u00a0",
+                    "object": "Name\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tc": 0.01,
+                        "http://dbpedia.org/property/pushpinLabel": 0.01
+                    },
+                    "subject": "Location\u00a0\u00a0",
+                    "object": "ICAO (IATA)\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.02
+                    },
+                    "subject": "Location\u00a0\u00a0",
+                    "object": "Type\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/operator": 0.02,
+                        "http://dbpedia.org/ontology/owner": 0.0,
+                        "http://dbpedia.org/property/ownerOper": 0.0,
+                        "http://dbpedia.org/ontology/operator": 0.02
+                    },
+                    "subject": "Location\u00a0\u00a0",
+                    "object": "Operator\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.55,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/property/state/province": 0.0,
+                        "http://dbpedia.org/ontology/province": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.32,
+                        "http://dbpedia.org/ontology/country": 0.0
+                    },
+                    "subject": "Location\u00a0\u00a0",
+                    "object": "Province\nTerritory\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.08,
+                        "http://dbpedia.org/property/largestmetro": 0.01,
+                        "http://dbpedia.org/property/largestcity": 0.08
+                    },
+                    "subject": "Province\nTerritory\u00a0\u00a0",
+                    "object": "Location\u00a0\u00a0"
+                }
+            ],
+            "table": "Unnamed table in section 'List of heliports in Canada'",
+            "colums": [
+                "Name\u00a0\u00a0",
+                "ICAO (IATA)\u00a0\u00a0",
+                "Type\u00a0\u00a0",
+                "Operator\u00a0\u00a0",
+                "Location\u00a0\u00a0",
+                "Province\nTerritory\u00a0\u00a0",
+                "Coordinates\u00a0\u00a0"
+            ]
+        }
+    ]
+}

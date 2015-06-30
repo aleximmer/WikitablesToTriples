@@ -1,0 +1,673 @@
+{
+    "no. of tables": 27,
+    "page": "List of television spin-offs",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.1,
+                        "http://dbpedia.org/ontology/related": 0.4
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.1,
+                        "http://dbpedia.org/ontology/series": 0.1,
+                        "http://dbpedia.org/ontology/related": 0.4
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.26,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.1
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.13,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.13
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.29,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.32,
+                        "http://dbpedia.org/property/followedBy": 0.03
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/executiveProducer": 0.03,
+                        "http://dbpedia.org/property/precededBy": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/product": 0.03,
+                        "http://dbpedia.org/ontology/creator": 0.03,
+                        "http://dbpedia.org/ontology/previousWork": 0.32,
+                        "http://dbpedia.org/property/creator": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.26
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.32,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.11
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.14,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/related": 0.32
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.3,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.1
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.27,
+                        "http://dbpedia.org/property/spinOffTo": 0.03
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.14,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.14,
+                        "http://dbpedia.org/property/followedBy": 0.14
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.14,
+                        "http://dbpedia.org/property/related": 0.14,
+                        "http://dbpedia.org/ontology/related": 0.14
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.07,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.2
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.2,
+                        "http://dbpedia.org/property/company": 0.13,
+                        "http://dbpedia.org/ontology/openingTheme": 0.07,
+                        "http://dbpedia.org/ontology/related": 0.13,
+                        "http://dbpedia.org/ontology/company": 0.13
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.25,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.11
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.07,
+                        "http://dbpedia.org/property/series": 0.04,
+                        "http://dbpedia.org/ontology/related": 0.32,
+                        "http://dbpedia.org/ontology/series": 0.04
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.37,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.11
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.11,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/related": 0.37,
+                        "http://dbpedia.org/ontology/presenter": 0.05
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.22,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.11
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.22,
+                        "http://dbpedia.org/ontology/related": 0.11
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.23,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.08
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.15,
+                        "http://dbpedia.org/ontology/related": 0.23
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.25,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.38
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.25,
+                        "http://dbpedia.org/ontology/related": 0.25
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.06,
+                        "http://dbpedia.org/ontology/related": 0.17,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.28
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.28,
+                        "http://dbpedia.org/property/precededBy": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/ontology/related": 0.11
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/ontology/related": 0.15,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.21,
+                        "http://dbpedia.org/property/related": 0.03,
+                        "http://dbpedia.org/property/followedBy": 0.03
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.15,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.27,
+                        "http://dbpedia.org/property/related": 0.03
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/subsequentWork": 0.12
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/precededBy": 0.12,
+                        "http://dbpedia.org/ontology/previousWork": 0.12
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.33,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.22
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.22,
+                        "http://dbpedia.org/ontology/related": 0.44,
+                        "http://dbpedia.org/property/basedOn": 0.11,
+                        "http://dbpedia.org/ontology/basedOn": 0.11
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.04,
+                        "http://dbpedia.org/ontology/related": 0.35,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.23
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.31,
+                        "http://dbpedia.org/ontology/related": 0.23
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.11,
+                        "http://dbpedia.org/ontology/format": 0.06,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.33,
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/property/followedBy": 0.11
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/precededBy": 0.06,
+                        "http://dbpedia.org/ontology/previousWork": 0.28,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/ontology/related": 0.06
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.02,
+                        "http://dbpedia.org/ontology/related": 0.19,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.33,
+                        "http://dbpedia.org/property/followedBy": 0.05
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/precededBy": 0.09,
+                        "http://dbpedia.org/ontology/previousWork": 0.33,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/related": 0.16
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.12,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.12
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.12,
+                        "http://dbpedia.org/ontology/related": 0.12
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.17,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.17,
+                        "http://dbpedia.org/property/followedBy": 0.17
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.17
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04,
+                        "http://dbpedia.org/ontology/related": 0.22,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.22,
+                        "http://dbpedia.org/property/followedBy": 0.04
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/previousWork": 0.22,
+                        "http://dbpedia.org/ontology/related": 0.13
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.25
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25,
+                        "http://dbpedia.org/ontology/related": 0.25
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.5,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.5
+                    },
+                    "subject": "Parent series",
+                    "object": "Spin-off series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/precededBy": 0.5,
+                        "http://dbpedia.org/ontology/previousWork": 0.5
+                    },
+                    "subject": "Spin-off series",
+                    "object": "Parent series"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list by parent series'",
+            "colums": [
+                "Parent series",
+                "Spin-off series"
+            ]
+        }
+    ]
+}

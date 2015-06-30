@@ -1,0 +1,1163 @@
+{
+    "page": "List of Guitar Freaks and Drum Mania songs",
+    "tables": [
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.08,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.06,
+                        "http://dbpedia.org/ontology/artist": 0.03,
+                        "http://dbpedia.org/ontology/musicalBand": 0.06
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.04,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.04,
+                        "http://dbpedia.org/ontology/musicalBand": 0.04
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.04,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.04,
+                        "http://dbpedia.org/ontology/musicalBand": 0.04
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.14,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.14,
+                        "http://dbpedia.org/ontology/musicalBand": 0.14,
+                        "http://dbpedia.org/ontology/producer": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.04,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.04,
+                        "http://dbpedia.org/ontology/musicalBand": 0.04,
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/ontology/producer": 0.04
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.03,
+                        "http://dbpedia.org/ontology/artist": 0.03,
+                        "http://dbpedia.org/ontology/producer": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.03,
+                        "http://dbpedia.org/property/title": 0.03,
+                        "http://dbpedia.org/ontology/artist": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.25,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.25,
+                        "http://dbpedia.org/ontology/musicalBand": 0.25
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.05,
+                        "http://dbpedia.org/ontology/artist": 0.05
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.06,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.06,
+                        "http://dbpedia.org/ontology/musicalBand": 0.06,
+                        "http://dbpedia.org/ontology/artist": 0.03,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/ontology/producer": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.06,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.06,
+                        "http://dbpedia.org/ontology/musicalBand": 0.06
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.21,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.12,
+                        "http://dbpedia.org/ontology/musicalBand": 0.12,
+                        "http://dbpedia.org/ontology/artist": 0.08,
+                        "http://dbpedia.org/property/producer": 0.02,
+                        "http://dbpedia.org/ontology/producer": 0.02
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.14,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.08,
+                        "http://dbpedia.org/ontology/artist": 0.05,
+                        "http://dbpedia.org/ontology/musicalBand": 0.08,
+                        "http://dbpedia.org/ontology/producer": 0.05
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.05,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.05,
+                        "http://dbpedia.org/ontology/musicalBand": 0.05,
+                        "http://dbpedia.org/ontology/producer": 0.02,
+                        "http://dbpedia.org/ontology/previousWork": 0.02
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.03,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.03,
+                        "http://dbpedia.org/ontology/musicalBand": 0.03,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/property/writer": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.13,
+                        "http://dbpedia.org/property/fromAlbum": 0.03,
+                        "http://dbpedia.org/ontology/musicalBand": 0.13,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.13,
+                        "http://dbpedia.org/property/writer": 0.03,
+                        "http://dbpedia.org/ontology/album": 0.03,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/ontology/producer": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.04,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.04,
+                        "http://dbpedia.org/ontology/musicalBand": 0.04
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [
+                {
+                    "object": "Artist",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.11,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.11,
+                        "http://dbpedia.org/ontology/musicalBand": 0.11,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/property/writer": 0.03
+                    }
+                },
+                {
+                    "object": "Tier",
+                    "subject": "Song Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.03,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.03,
+                        "http://dbpedia.org/ontology/musicalBand": 0.03
+                    }
+                }
+            ],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List'",
+            "predicates": [],
+            "colums": [
+                "Song Name",
+                "Artist",
+                "Tier"
+            ]
+        }
+    ],
+    "no. of tables": 106
+}

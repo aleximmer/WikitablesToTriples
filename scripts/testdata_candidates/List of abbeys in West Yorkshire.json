@@ -1,0 +1,176 @@
+{
+    "no. of tables": 50,
+    "page": "List of monastic houses in England",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Foundation",
+                    "object": "Communities & Provenance"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dedication": 0.02
+                    },
+                    "subject": "Foundation",
+                    "object": "Formal Name or Dedication\n& Alternative Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Communities & Provenance",
+                    "object": "Foundation"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.02
+                    },
+                    "subject": "Foundation",
+                    "object": "Communities & Provenance"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names\nLocation\n"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical listing of establishments'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names"
+            ]
+        }
+    ]
+}

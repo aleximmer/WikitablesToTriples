@@ -1,0 +1,449 @@
+{
+    "no. of tables": 28,
+    "page": "List of countries by Human Development Index (1998)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/decSnowDays": 0.03,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.04,
+                        "http://dbpedia.org/property/otherSymbol": 0.08,
+                        "http://dbpedia.org/property/hdiRank": 0.04
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.04
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.05
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.1,
+                        "http://dbpedia.org/property/percentWater": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdi": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "HDI"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/areaRank": 0.1,
+                        "http://dbpedia.org/property/latd": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdi": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "HDI"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.1,
+                        "http://dbpedia.org/property/percentWater": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.1,
+                        "http://dbpedia.org/property/areaMagnitude": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowDays": 0.1,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.1,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.1,
+                        "http://dbpedia.org/property/percentWater": 0.1,
+                        "http://dbpedia.org/property/hdiRank": 0.1,
+                        "http://dbpedia.org/property/longd": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novRainDays": 0.1,
+                        "http://dbpedia.org/property/decRainDays": 0.1,
+                        "http://dbpedia.org/property/marRainDays": 0.1,
+                        "http://dbpedia.org/property/febRainDays": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novSnowDays": 0.1,
+                        "http://dbpedia.org/property/sovereigntyNote": 0.1,
+                        "http://dbpedia.org/property/aprSnowDays": 0.1,
+                        "http://dbpedia.org/property/value": 0.1,
+                        "http://dbpedia.org/property/ethnicGroups": 0.1,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.2,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdi": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "HDI"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.1,
+                        "http://dbpedia.org/property/areaMagnitude": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Rank",
+                "Country",
+                "HDI"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of countries by Human Development Index (1998)'",
+            "colums": [
+                "Region or Group",
+                "2010\nestimates\nfor 2010\nHDI[4]",
+                "2010\nestimates\nfor 2009\nHDI[4]"
+            ]
+        }
+    ]
+}

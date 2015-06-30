@@ -1,0 +1,225 @@
+{
+    "no. of tables": 9,
+    "page": "List of Israel State Cup winners",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unofficial cup winners\n(1922 to 1927)",
+            "colums": [
+                "Season",
+                "Winners"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Magen Shimshon winners\n(1923 to 1928)[8][9][10]",
+            "colums": [
+                "Season",
+                "Winners",
+                "runners-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champions": 0.78,
+                        "http://dbpedia.org/property/team": 0.78,
+                        "http://dbpedia.org/property/defendingChampions": 0.22
+                    },
+                    "subject": "Season",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.67,
+                        "http://dbpedia.org/property/defendingChampions": 0.06,
+                        "http://dbpedia.org/property/runnerUp": 0.67
+                    },
+                    "subject": "Season",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.11,
+                        "http://dbpedia.org/property/after": 0.11
+                    },
+                    "subject": "Winners",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.11,
+                        "http://dbpedia.org/property/after": 0.11
+                    },
+                    "subject": "Runners-up",
+                    "object": "Winners"
+                }
+            ],
+            "table": "People's Cup winners from 1928 to 1942 and 1946 to 1947",
+            "colums": [
+                "Season",
+                "Winners",
+                "Result",
+                "Runners-up"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unofficial \"War Cup\" winners from 1943 to 1945",
+            "colums": [
+                "Season",
+                "Winners",
+                "Result",
+                "Runners-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champions": 0.31,
+                        "http://dbpedia.org/property/team": 0.29,
+                        "http://dbpedia.org/property/defendingChampions": 0.09
+                    },
+                    "subject": "Season",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.31,
+                        "http://dbpedia.org/property/defendingChampions": 0.06,
+                        "http://dbpedia.org/property/runnerUp": 0.32
+                    },
+                    "subject": "Season",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.05,
+                        "http://dbpedia.org/property/after": 0.02
+                    },
+                    "subject": "Winners",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.02,
+                        "http://dbpedia.org/property/after": 0.05
+                    },
+                    "subject": "Runners-up",
+                    "object": "Winners"
+                }
+            ],
+            "table": "Israel State Cup winners since 1948",
+            "colums": [
+                "Season",
+                "Winners",
+                "Result",
+                "Runners-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.29
+                    },
+                    "subject": "Club",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.03,
+                        "http://dbpedia.org/property/no": 0.42
+                    },
+                    "subject": "Club",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champions": 0.06,
+                        "http://dbpedia.org/property/team": 0.03
+                    },
+                    "subject": "Cup-winning years",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/penaltyscore": 0.03
+                    },
+                    "subject": "Cup-winning years",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.03,
+                        "http://dbpedia.org/property/defendingChampions": 0.03,
+                        "http://dbpedia.org/property/runnerUp": 0.1
+                    },
+                    "subject": "Years as runners-up",
+                    "object": "Club"
+                }
+            ],
+            "table": "Total cup wins by club",
+            "colums": [
+                "Club",
+                "Winners",
+                "Runners-up",
+                "Cup-winning years",
+                "Years as runners-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.08
+                    },
+                    "subject": "City",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.92,
+                        "http://dbpedia.org/property/ground": 0.92
+                    },
+                    "subject": "Clubs",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.08,
+                        "http://dbpedia.org/property/no": 0.5
+                    },
+                    "subject": "Clubs",
+                    "object": "Won"
+                }
+            ],
+            "table": "Total cup wins by city",
+            "colums": [
+                "City",
+                "Won",
+                "Clubs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.14,
+                        "http://dbpedia.org/property/no": 0.57
+                    },
+                    "subject": "Clubs",
+                    "object": "Won"
+                }
+            ],
+            "table": "Total cup wins by district",
+            "colums": [
+                "District[16]",
+                "Won",
+                "Clubs"
+            ]
+        }
+    ]
+}

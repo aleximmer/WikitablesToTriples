@@ -1,0 +1,185 @@
+{
+    "no. of tables": 5,
+    "page": "List of generating stations in British Columbia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.05,
+                        "http://dbpedia.org/property/plantCommission": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/damOperator": 0.02,
+                        "http://dbpedia.org/property/plantOwner": 0.02,
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/property/plantOperator": 0.02,
+                        "http://dbpedia.org/property/owner": 0.04,
+                        "http://dbpedia.org/ontology/operator": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/officialName": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octSnowCm": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Capacity (MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Owner",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable'",
+            "colums": [
+                "Name",
+                "Date",
+                "Capacity (MW)",
+                "Location",
+                "Owner",
+                "Type",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRecordHighC": 0.08
+                    },
+                    "subject": "Location",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable'",
+            "colums": [
+                "Name",
+                "Date",
+                "Capacity (MW)",
+                "Location",
+                "Owner",
+                "Status",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Renewable'",
+            "colums": [
+                "Name",
+                "Date",
+                "Capacity (MW)",
+                "Location",
+                "Owner",
+                "Type",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commissioned": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Capacity (MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.4,
+                        "http://dbpedia.org/ontology/owner": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "Capacity (MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.2
+                    },
+                    "subject": "Owner",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Fossil fuel'",
+            "colums": [
+                "Name",
+                "Date",
+                "Capacity (MW)",
+                "Location",
+                "Owner",
+                "Type",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Fossil fuel'",
+            "colums": [
+                "Name",
+                "Date",
+                "Capacity (MW)",
+                "Location",
+                "Owner",
+                "Type",
+                "Ref"
+            ]
+        }
+    ]
+}

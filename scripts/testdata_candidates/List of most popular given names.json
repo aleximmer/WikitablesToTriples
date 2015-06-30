@@ -1,0 +1,433 @@
+{
+    "no. of tables": 10,
+    "page": "List of most popular given names",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.03
+                    },
+                    "subject": "No. 3",
+                    "object": "No. 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.03
+                    },
+                    "subject": "No. 4",
+                    "object": "No. 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.06
+                    },
+                    "subject": "No. 4",
+                    "object": "No. 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.03
+                    },
+                    "subject": "No. 4",
+                    "object": "No. 5"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.03
+                    },
+                    "subject": "No. 5",
+                    "object": "No. 6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.06
+                    },
+                    "subject": "No. 7",
+                    "object": "No. 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.03
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.03
+                    },
+                    "subject": "No. 10",
+                    "object": "No. 4"
+                }
+            ],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.04,
+                        "http://dbpedia.org/ontology/region": 0.04
+                    },
+                    "subject": "No. 1",
+                    "object": "Region (year)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.04
+                    },
+                    "subject": "No. 3",
+                    "object": "No. 5"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.04
+                    },
+                    "subject": "No. 3",
+                    "object": "No. 7"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "No. 6",
+                    "object": "No. 10"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "No. 10",
+                    "object": "No. 6"
+                }
+            ],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.04
+                    },
+                    "subject": "No. 1",
+                    "object": "No. 8"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "No. 2",
+                    "object": "No. 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.04
+                    },
+                    "subject": "No. 2",
+                    "object": "No. 8"
+                }
+            ],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.01
+                    },
+                    "subject": "No. 3",
+                    "object": "No. 6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.01
+                    },
+                    "subject": "No. 4",
+                    "object": "Region (year)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.01
+                    },
+                    "subject": "No. 5",
+                    "object": "No. 6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "No. 5",
+                    "object": "No. 9"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.01
+                    },
+                    "subject": "No. 6",
+                    "object": "Region (year)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.01
+                    },
+                    "subject": "No. 6",
+                    "object": "No. 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seealso": 0.01
+                    },
+                    "subject": "No. 7",
+                    "object": "No. 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seealso": 0.01
+                    },
+                    "subject": "No. 7",
+                    "object": "No. 6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "No. 9",
+                    "object": "No. 5"
+                }
+            ],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 1",
+                    "object": "No. 5"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 4",
+                    "object": "No. 6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 5",
+                    "object": "No. 8"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.08
+                    },
+                    "subject": "No. 6",
+                    "object": "No. 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 6",
+                    "object": "No. 8"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 7",
+                    "object": "No. 8"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.08
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.08
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 4"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.08
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 7"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relatedNames": 0.08
+                    },
+                    "subject": "No. 8",
+                    "object": "No. 10"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.08
+                    },
+                    "subject": "No. 10",
+                    "object": "No. 6"
+                }
+            ],
+            "table": "Unnamed table in section 'Popularity by region'",
+            "colums": [
+                "Region (year)",
+                "No. 1",
+                "No. 2",
+                "No. 3",
+                "No. 4",
+                "No. 5",
+                "No. 6",
+                "No. 7",
+                "No. 8",
+                "No. 9",
+                "No. 10"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "no. of tables": 1,
+    "page": "List of Irish by-elections",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/otherParty": 0.02,
+                        "http://dbpedia.org/property/party": 0.21,
+                        "http://dbpedia.org/ontology/party": 0.23,
+                        "http://dbpedia.org/property/otherparty": 0.01,
+                        "http://dbpedia.org/property/as": 0.01,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Winner",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/property/constituency": 0.17,
+                        "http://dbpedia.org/property/termStart": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.17
+                    },
+                    "subject": "Winner",
+                    "object": "Constituency"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relations": 0.01,
+                        "http://dbpedia.org/property/predecessor": 0.02,
+                        "http://dbpedia.org/ontology/relation": 0.01
+                    },
+                    "subject": "Winner",
+                    "object": "Outgoing"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/otherParty": 0.02,
+                        "http://dbpedia.org/property/party": 0.21,
+                        "http://dbpedia.org/ontology/party": 0.23,
+                        "http://dbpedia.org/property/otherparty": 0.01,
+                        "http://dbpedia.org/property/as": 0.01,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Winner",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/leader": 0.02,
+                        "http://dbpedia.org/property/leader": 0.02
+                    },
+                    "subject": "Party",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.01,
+                        "http://dbpedia.org/property/leader1Name": 0.01
+                    },
+                    "subject": "Party",
+                    "object": "Outgoing"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Party",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seats4Title": 0.01,
+                        "http://dbpedia.org/property/seats5Title": 0.01
+                    },
+                    "subject": "Party",
+                    "object": "Reason for vacancy\n\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afterElection": 0.05,
+                        "http://dbpedia.org/property/name": 0.8,
+                        "http://dbpedia.org/property/candidate": 0.44
+                    },
+                    "subject": "Constituency",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/affiliation": 0.03
+                    },
+                    "subject": "Constituency",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.81,
+                        "http://dbpedia.org/property/candidate": 0.23,
+                        "http://dbpedia.org/property/beforeElection": 0.07
+                    },
+                    "subject": "Constituency",
+                    "object": "Outgoing"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/affiliation": 0.03
+                    },
+                    "subject": "Constituency",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.91,
+                        "http://dbpedia.org/property/con": 0.91
+                    },
+                    "subject": "D\u00e1il",
+                    "object": "Constituency"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/td": 0.89
+                    },
+                    "subject": "D\u00e1il",
+                    "object": "Outgoing"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/note": 0.05,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/con": 0.01
+                    },
+                    "subject": "D\u00e1il",
+                    "object": "Reason for vacancy\n\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/successor": 0.02,
+                        "http://dbpedia.org/ontology/child": 0.01,
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/ontology/successor": 0.02
+                    },
+                    "subject": "Outgoing",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/as": 0.01,
+                        "http://dbpedia.org/property/party": 0.16,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/ontology/party": 0.16
+                    },
+                    "subject": "Outgoing",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/constituency": 0.13,
+                        "http://dbpedia.org/ontology/region": 0.12
+                    },
+                    "subject": "Outgoing",
+                    "object": "Constituency"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/as": 0.01,
+                        "http://dbpedia.org/property/party": 0.16,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/ontology/party": 0.16
+                    },
+                    "subject": "Outgoing",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.01,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/constituency": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.01
+                    },
+                    "subject": "Outgoing",
+                    "object": "Reason for vacancy\n\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/leader": 0.02,
+                        "http://dbpedia.org/property/leader": 0.02
+                    },
+                    "subject": "Party",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Party",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.01,
+                        "http://dbpedia.org/property/leader1Name": 0.01
+                    },
+                    "subject": "Party",
+                    "object": "Outgoing"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seats4Title": 0.01,
+                        "http://dbpedia.org/property/seats5Title": 0.01
+                    },
+                    "subject": "Party",
+                    "object": "Reason for vacancy\n\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/candidate": 0.01
+                    },
+                    "subject": "Reason for vacancy\n\n",
+                    "object": "Outgoing"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "",
+                "Winner",
+                "Party",
+                "Constituency",
+                "Date",
+                "D\u00e1il",
+                "",
+                "Outgoing",
+                "Party",
+                "Reason for vacancy\n\n"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "no. of tables": 6,
+    "page": "List of Princeton University people (government)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/region": 0.1,
+                        "http://dbpedia.org/property/office": 0.1,
+                        "http://dbpedia.org/property/state": 0.1,
+                        "http://dbpedia.org/property/title": 0.3,
+                        "http://dbpedia.org/property/order": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inaugural": 0.1
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and government '",
+            "colums": [
+                "Name",
+                "Affiliation",
+                "Notability",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.25,
+                        "http://dbpedia.org/ontology/region": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.75,
+                        "http://dbpedia.org/property/state": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and government '",
+            "colums": [
+                "Name",
+                "Affiliation",
+                "Notability",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shortDescription": 0.01,
+                        "http://dbpedia.org/property/post": 0.03,
+                        "http://dbpedia.org/property/office": 0.15,
+                        "http://dbpedia.org/property/order": 0.01,
+                        "http://dbpedia.org/property/succession": 0.01,
+                        "http://dbpedia.org/property/title": 0.53
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/chief1Name": 0.03,
+                        "http://dbpedia.org/ontology/leader": 0.03,
+                        "http://dbpedia.org/property/inaugural": 0.01
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and government '",
+            "colums": [
+                "Name",
+                "Affiliation",
+                "Notability",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and government '",
+            "colums": [
+                "Name",
+                "Affiliation",
+                "Notability",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.18,
+                        "http://dbpedia.org/property/deathPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfDeath": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06,
+                        "http://dbpedia.org/ontology/region": 0.17,
+                        "http://dbpedia.org/ontology/deathPlace": 0.14,
+                        "http://dbpedia.org/ontology/residence": 0.03,
+                        "http://dbpedia.org/property/state": 0.27,
+                        "http://dbpedia.org/property/residence": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "State/Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governor": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/property/party": 0.02,
+                        "http://dbpedia.org/property/battles": 0.02,
+                        "http://dbpedia.org/property/office": 0.02,
+                        "http://dbpedia.org/property/shortDescription": 0.02,
+                        "http://dbpedia.org/property/before": 0.02,
+                        "http://dbpedia.org/ontology/party": 0.02,
+                        "http://dbpedia.org/property/governor": 0.02,
+                        "http://dbpedia.org/property/title": 0.09,
+                        "http://dbpedia.org/property/after": 0.02,
+                        "http://dbpedia.org/ontology/battle": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/leaderName": 0.02
+                    },
+                    "subject": "State/Province",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lieutenant": 0.02,
+                        "http://dbpedia.org/ontology/lieutenant": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "State/Province"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and government '",
+            "colums": [
+                "Name",
+                "Affiliation",
+                "State/Province",
+                "Service",
+                "Notes",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/property/party": 0.04,
+                        "http://dbpedia.org/ontology/knownFor": 0.02,
+                        "http://dbpedia.org/property/office": 0.08,
+                        "http://dbpedia.org/property/knownFor": 0.02,
+                        "http://dbpedia.org/ontology/occupation": 0.04,
+                        "http://dbpedia.org/ontology/residence": 0.02,
+                        "http://dbpedia.org/property/occupation": 0.02,
+                        "http://dbpedia.org/ontology/party": 0.04,
+                        "http://dbpedia.org/property/order": 0.02,
+                        "http://dbpedia.org/property/succession": 0.02,
+                        "http://dbpedia.org/property/title": 0.27,
+                        "http://dbpedia.org/property/state": 0.02,
+                        "http://dbpedia.org/property/workInstitution": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.02,
+                        "http://dbpedia.org/property/author": 0.02,
+                        "http://dbpedia.org/property/senators": 0.02,
+                        "http://dbpedia.org/property/incumbent": 0.02,
+                        "http://dbpedia.org/ontology/editor": 0.02,
+                        "http://dbpedia.org/property/leaderName": 0.02,
+                        "http://dbpedia.org/property/inaugural": 0.02
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and government '",
+            "colums": [
+                "Name",
+                "Affiliation",
+                "Notability",
+                "Refs"
+            ]
+        }
+    ]
+}

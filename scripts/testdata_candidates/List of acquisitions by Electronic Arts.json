@@ -1,0 +1,27 @@
+{
+    "no. of tables": 3,
+    "page": "List of acquisitions by Electronic Arts",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.17
+                    },
+                    "subject": "Company",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Stakes'",
+            "colums": [
+                "Date",
+                "Company",
+                "Business",
+                "Country",
+                "Value",
+                "References"
+            ]
+        }
+    ]
+}

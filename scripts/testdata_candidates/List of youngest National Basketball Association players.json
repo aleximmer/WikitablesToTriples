@@ -1,0 +1,187 @@
+{
+    "no. of tables": 8,
+    "page": "List of oldest and youngest National Basketball Association players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.64,
+                        "http://dbpedia.org/ontology/draftTeam": 0.73,
+                        "http://dbpedia.org/property/draftTeam": 0.73,
+                        "http://dbpedia.org/property/draftteam": 0.09
+                    },
+                    "subject": "Player",
+                    "object": "Team(s) played (years)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.14
+                    },
+                    "subject": "Team(s) played (years)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.05
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Team(s) played (years)"
+                }
+            ],
+            "table": "Unnamed table in section 'Oldest players'",
+            "colums": [
+                "Player",
+                "Pos",
+                "Birth date",
+                "Last game",
+                "Age",
+                "Team(s) played (years)",
+                "Draft (pick)",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0,
+                        "http://dbpedia.org/ontology/draftTeam": 0.67,
+                        "http://dbpedia.org/property/draftTeam": 0.67,
+                        "http://dbpedia.org/ontology/team": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "Team(s) played (years)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.33
+                    },
+                    "subject": "Team(s) played (years)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.11
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.11
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Team(s) played (years)"
+                }
+            ],
+            "table": "Unnamed table in section 'Oldest players'",
+            "colums": [
+                "Player",
+                "Pos",
+                "Birth date",
+                "Age",
+                "Team(s) played (years)",
+                "Draft (pick)",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0,
+                        "http://dbpedia.org/ontology/draftTeam": 1.0,
+                        "http://dbpedia.org/property/draftTeam": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Team(s) played (years)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 1.0
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 1.0
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Team(s) played (years)"
+                }
+            ],
+            "table": "Unnamed table in section 'Oldest players'",
+            "colums": [
+                "Player",
+                "Pos",
+                "Birth date",
+                "Age",
+                "Team(s) played (years)",
+                "Draft (pick)",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.71,
+                        "http://dbpedia.org/ontology/draftTeam": 0.71,
+                        "http://dbpedia.org/property/draftTeam": 0.67,
+                        "http://dbpedia.org/ontology/team": 0.08
+                    },
+                    "subject": "Player",
+                    "object": "Team(s) played (years)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.08
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.12
+                    },
+                    "subject": "Draft (pick)",
+                    "object": "Team(s) played (years)"
+                }
+            ],
+            "table": "Unnamed table in section 'Youngest players'",
+            "colums": [
+                "Player",
+                "Pos",
+                "Birth date",
+                "First game",
+                "Age",
+                "Team(s) played (years)",
+                "Draft (pick)",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.11
+                    },
+                    "subject": "Player",
+                    "object": "Pos"
+                }
+            ],
+            "table": "Unnamed table in section 'Youngest players'",
+            "colums": [
+                "Player",
+                "Pos",
+                "Birth date",
+                "Age",
+                "Team(s) played (years)",
+                "Draft (pick)",
+                "Ref."
+            ]
+        }
+    ]
+}

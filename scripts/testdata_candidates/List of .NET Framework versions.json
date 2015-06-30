@@ -1,0 +1,23 @@
+{
+    "no. of tables": 2,
+    "page": ".NET Framework",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.25,
+                        "http://dbpedia.org/property/license": 0.17
+                    },
+                    "subject": "Component",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section 'Licensing'",
+            "colums": [
+                "Component",
+                "License"
+            ]
+        }
+    ]
+}

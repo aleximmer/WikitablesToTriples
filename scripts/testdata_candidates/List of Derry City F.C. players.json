@@ -1,0 +1,191 @@
+{
+    "no. of tables": 8,
+    "page": "List of Derry City F.C. players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.2,
+                        "http://dbpedia.org/property/clubnumber": 0.2,
+                        "http://dbpedia.org/property/nationalcaps": 0.2,
+                        "http://dbpedia.org/ontology/number": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Record appearances in the League of Ireland'",
+            "colums": [
+                "Rank",
+                "Player",
+                "Total appearances"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.17,
+                        "http://dbpedia.org/property/nationalgoals": 0.07,
+                        "http://dbpedia.org/property/nationalcaps": 0.66,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 0.69,
+                        "http://dbpedia.org/property/goals": 0.38,
+                        "http://dbpedia.org/property/totalgoals": 0.03,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.33,
+                        "http://dbpedia.org/property/nationalgoals": 0.17,
+                        "http://dbpedia.org/property/nationalcaps": 0.67,
+                        "http://dbpedia.org/property/caps": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 1.0,
+                        "http://dbpedia.org/property/goals": 0.67,
+                        "http://dbpedia.org/property/caps": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 0.25,
+                        "http://dbpedia.org/property/nationalcaps": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 1.0,
+                        "http://dbpedia.org/property/goals": 0.25,
+                        "http://dbpedia.org/property/caps": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalcaps": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 0.5,
+                        "http://dbpedia.org/property/nationalcaps": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 1.0,
+                        "http://dbpedia.org/property/nationalgoals": 1.0,
+                        "http://dbpedia.org/property/caps": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalcaps": 1.0,
+                        "http://dbpedia.org/property/caps": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 1.0,
+                        "http://dbpedia.org/property/nationalgoals": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of Derry City F.C. players'",
+            "colums": [
+                "Name",
+                "Caps",
+                "Goals"
+            ]
+        }
+    ]
+}

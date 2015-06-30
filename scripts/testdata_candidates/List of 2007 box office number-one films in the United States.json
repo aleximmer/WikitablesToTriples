@@ -1,0 +1,37 @@
+{
+    "no. of tables": 2,
+    "page": "List of 2007 box office number-one films in the United States",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of 2007 box office number-one films in the United States'",
+            "colums": [
+                "#",
+                "Date",
+                "Film",
+                "Gross[1]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/distributor": 0.7,
+                        "http://dbpedia.org/property/studio": 0.4,
+                        "http://dbpedia.org/ontology/distributor": 0.7
+                    },
+                    "subject": "Title",
+                    "object": "Studio"
+                }
+            ],
+            "table": "Highest-grossing films of 2007[2]",
+            "colums": [
+                "Rank",
+                "Title",
+                "Studio",
+                "Domestic Gross"
+            ]
+        }
+    ]
+}

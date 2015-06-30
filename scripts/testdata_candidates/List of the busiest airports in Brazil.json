@@ -1,0 +1,1898 @@
+{
+    "no. of tables": 29,
+    "page": "List of the busiest airports in Brazil",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.97,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.05,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.03,
+                        "http://dbpedia.org/property/febMeanC": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/janMeanC": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/febRecordHighC": 0.03,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/property/julLowC": 0.03,
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/property/mayMeanC": 0.03,
+                        "http://dbpedia.org/property/aprMeanC": 0.03,
+                        "http://dbpedia.org/property/decRecordLowC": 0.03,
+                        "http://dbpedia.org/property/mayRainCm": 0.03,
+                        "http://dbpedia.org/property/augLowC": 0.05,
+                        "http://dbpedia.org/property/octLowC": 0.03,
+                        "http://dbpedia.org/property/yearMeanC": 0.03,
+                        "http://dbpedia.org/property/janRecordLowC": 0.03,
+                        "http://dbpedia.org/property/augMeanC": 0.03,
+                        "http://dbpedia.org/property/decRecordHighC": 0.03,
+                        "http://dbpedia.org/property/junRecordHighC": 0.03,
+                        "http://dbpedia.org/property/mayLowC": 0.03,
+                        "http://dbpedia.org/property/areaCode": 0.03,
+                        "http://dbpedia.org/property/julRecordHighC": 0.03,
+                        "http://dbpedia.org/property/janRecordHighC": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03,
+                        "http://dbpedia.org/property/julRainCm": 0.03,
+                        "http://dbpedia.org/property/yearLowC": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.1,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section '2014'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                ""
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03,
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.97,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/lats": 0.05,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/novMeanC": 0.03,
+                        "http://dbpedia.org/property/areaCode": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/febRecordHighC": 0.03,
+                        "http://dbpedia.org/property/julRecordLowC": 0.03,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/property/julLowC": 0.03,
+                        "http://dbpedia.org/property/elevationM": 0.05,
+                        "http://dbpedia.org/property/decRecordHighC": 0.03,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/mayRainCm": 0.03,
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/yearLowC": 0.03,
+                        "http://dbpedia.org/property/decRecordLowC": 0.03,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/janRecordLowC": 0.03,
+                        "http://dbpedia.org/property/yearRecordLowC": 0.03,
+                        "http://dbpedia.org/property/junRecordHighC": 0.03,
+                        "http://dbpedia.org/property/mayLowC": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/julRecordHighC": 0.03,
+                        "http://dbpedia.org/property/janRecordHighC": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.05,
+                        "http://dbpedia.org/property/julRainCm": 0.03,
+                        "http://dbpedia.org/property/octLowC": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junRecordLowC": 0.03,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.12,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section '2013'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                ""
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.07,
+                        "http://dbpedia.org/property/longm": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.97,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.03,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/mayRecordHighC": 0.03,
+                        "http://dbpedia.org/property/augRainDays": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/yearLowC": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/julRecordLowC": 0.03,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/property/julLowC": 0.03,
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/decRecordLowC": 0.05,
+                        "http://dbpedia.org/property/mayRainCm": 0.03,
+                        "http://dbpedia.org/property/julRainDays": 0.03,
+                        "http://dbpedia.org/property/octLowC": 0.03,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/junRainDays": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03,
+                        "http://dbpedia.org/property/janRecordLowC": 0.05,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/yearRecordLowC": 0.03,
+                        "http://dbpedia.org/property/marRecordHighC": 0.03,
+                        "http://dbpedia.org/property/mayLowC": 0.05,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.03,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/julRainCm": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.15,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2012'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.04,
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/elevationF": 0.04,
+                        "http://dbpedia.org/property/lats": 0.04,
+                        "http://dbpedia.org/property/latd": 0.08
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.92
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julRainDays": 0.04,
+                        "http://dbpedia.org/property/octLowC": 0.04,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.08,
+                        "http://dbpedia.org/property/augRainDays": 0.04,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/junRainDays": 0.04,
+                        "http://dbpedia.org/ontology/area": 0.04,
+                        "http://dbpedia.org/property/augLowC": 0.04,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/julMeanC": 0.04,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.08,
+                        "http://dbpedia.org/property/mayLowC": 0.04,
+                        "http://dbpedia.org/property/aprLowC": 0.04,
+                        "http://dbpedia.org/property/junLowC": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04,
+                        "http://dbpedia.org/property/decRecordLowC": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.08,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.04
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.16,
+                        "http://dbpedia.org/property/junRecordLowC": 0.04,
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/julRainDays": 0.04
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2012'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.05,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/latd": 0.15
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.9
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordLowC": 0.05,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.05,
+                        "http://dbpedia.org/property/augRecordLowC": 0.05,
+                        "http://dbpedia.org/property/octRecordLowC": 0.05,
+                        "http://dbpedia.org/property/decRecordLowC": 0.05,
+                        "http://dbpedia.org/property/width": 0.05,
+                        "http://dbpedia.org/property/mayRainCm": 0.05,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/mayLowC": 0.05,
+                        "http://dbpedia.org/ontology/area": 0.05,
+                        "http://dbpedia.org/property/julLowC": 0.05,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/julRainCm": 0.05,
+                        "http://dbpedia.org/property/novRecordLowC": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/latd": 0.15
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.1,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2012'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.97,
+                        "http://dbpedia.org/property/cityServed": 0.9
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octMeanC": 0.03,
+                        "http://dbpedia.org/property/novMeanC": 0.03,
+                        "http://dbpedia.org/property/augRainDays": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/sepMeanC": 0.03,
+                        "http://dbpedia.org/property/janMeanC": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/aprMeanC": 0.03,
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/augHighC": 0.03,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/decMeanC": 0.07,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/julHighC": 0.03,
+                        "http://dbpedia.org/property/decRecordLowC": 0.03,
+                        "http://dbpedia.org/property/julRainDays": 0.03,
+                        "http://dbpedia.org/property/mayLowC": 0.03,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/junRainDays": 0.03,
+                        "http://dbpedia.org/property/janRecordLowC": 0.03,
+                        "http://dbpedia.org/property/marRainCm": 0.03,
+                        "http://dbpedia.org/property/sepHighC": 0.03,
+                        "http://dbpedia.org/property/marMeanC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/novRecordLowC": 0.03,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2011'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/r1Number": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.92
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.04,
+                        "http://dbpedia.org/property/r1Number": 0.04,
+                        "http://dbpedia.org/ontology/elevation": 0.04,
+                        "http://dbpedia.org/property/elevationM": 0.04,
+                        "http://dbpedia.org/property/longs": 0.12,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.08,
+                        "http://dbpedia.org/property/augRainDays": 0.04,
+                        "http://dbpedia.org/property/augLowC": 0.04,
+                        "http://dbpedia.org/ontology/area": 0.04,
+                        "http://dbpedia.org/property/marLowC": 0.04,
+                        "http://dbpedia.org/property/junLowC": 0.04,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.08,
+                        "http://dbpedia.org/property/elevationM": 0.04,
+                        "http://dbpedia.org/property/julMeanC": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04,
+                        "http://dbpedia.org/property/julRainDays": 0.04,
+                        "http://dbpedia.org/property/longs": 0.04,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/junRainDays": 0.04,
+                        "http://dbpedia.org/property/aprLowC": 0.04,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.08,
+                        "http://dbpedia.org/property/mayLowC": 0.04,
+                        "http://dbpedia.org/property/lats": 0.04,
+                        "http://dbpedia.org/ontology/elevation": 0.04,
+                        "http://dbpedia.org/property/octLowC": 0.04,
+                        "http://dbpedia.org/property/decLowC": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.04
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.08,
+                        "http://dbpedia.org/property/mayRainDays": 0.04,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.08,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/ontology/area": 0.08,
+                        "http://dbpedia.org/property/aprRainDays": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.12,
+                        "http://dbpedia.org/property/lats": 0.04
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2011'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.05,
+                        "http://dbpedia.org/property/latm": 0.1,
+                        "http://dbpedia.org/property/elevationF": 0.05,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.9
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordLowC": 0.1,
+                        "http://dbpedia.org/property/junRecordLowC": 0.05,
+                        "http://dbpedia.org/property/augLowC": 0.05,
+                        "http://dbpedia.org/ontology/area": 0.05,
+                        "http://dbpedia.org/property/janRecordLowC": 0.1,
+                        "http://dbpedia.org/property/aprRecordLowC": 0.05,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.15,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.1,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.05,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.1,
+                        "http://dbpedia.org/property/latd": 0.05,
+                        "http://dbpedia.org/property/longs": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.05,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2011'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.05,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.9
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.1,
+                        "http://dbpedia.org/property/longs": 0.05,
+                        "http://dbpedia.org/ontology/elevation": 0.1
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julRainDays": 0.05,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/augRainDays": 0.05,
+                        "http://dbpedia.org/property/mayLowC": 0.05,
+                        "http://dbpedia.org/property/junRainDays": 0.05,
+                        "http://dbpedia.org/ontology/area": 0.05,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.05,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.05,
+                        "http://dbpedia.org/ontology/area": 0.25,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/lats": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2010'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.05,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/longm": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.9
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.1,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/octRecordLowC": 0.05,
+                        "http://dbpedia.org/property/marRecordLowC": 0.05,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.05,
+                        "http://dbpedia.org/property/augLowC": 0.1,
+                        "http://dbpedia.org/ontology/area": 0.05,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.05,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.25,
+                        "http://dbpedia.org/property/junRecordLowC": 0.05,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2010'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/longm": 0.13,
+                        "http://dbpedia.org/property/latd": 0.13
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordLowC": 0.07,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.13,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/latd": 0.13,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.13,
+                        "http://dbpedia.org/ontology/elevation": 0.07,
+                        "http://dbpedia.org/property/lats": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.13,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2010'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/decRainDays": 0.07,
+                        "http://dbpedia.org/property/lats": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.13,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.13,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2009'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.13,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepRainDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febRainDays": 0.07,
+                        "http://dbpedia.org/property/junLowC": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.13,
+                        "http://dbpedia.org/property/utcOffset": 0.07,
+                        "http://dbpedia.org/ontology/utcOffset": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2009'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/longm": 0.13,
+                        "http://dbpedia.org/property/latd": 0.13
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordLowC": 0.07,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.13,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/augRecordLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/areaCode": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.13,
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.27,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2009'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayRainDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.27
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2008'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/lats": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/aprRainDays": 0.07,
+                        "http://dbpedia.org/property/octRainDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.4,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2008'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/elevationF": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.13
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.13,
+                        "http://dbpedia.org/property/febRecordLowC": 0.07,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2008'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/mayRainDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.4,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2007'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.07,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/elevationF": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/augLowC": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/novRainDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.33,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2007'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.07,
+                        "http://dbpedia.org/property/latm": 0.13,
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/augLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2007'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/lats": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.13,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.33,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2006'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.13
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.07,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.13,
+                        "http://dbpedia.org/property/longs": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepRainDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febRainDays": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.07,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.07,
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2006'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.33,
+                        "http://dbpedia.org/property/latm": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2006'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 1.0
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febRainDays": 0.07,
+                        "http://dbpedia.org/property/augLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/aprRecordLowC": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07,
+                        "http://dbpedia.org/property/decRainDays": 0.07,
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/property/junLowC": 0.07,
+                        "http://dbpedia.org/property/novRecordLowC": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2005'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.93
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.07,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/longs": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.07,
+                        "http://dbpedia.org/property/latm": 0.13,
+                        "http://dbpedia.org/property/mayLowC": 0.07,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.13,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2005'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/augRecordLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2005'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 1.0
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.13
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julRainDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/augRainDays": 0.07,
+                        "http://dbpedia.org/property/junRainDays": 0.07,
+                        "http://dbpedia.org/property/octRecordLowC": 0.07,
+                        "http://dbpedia.org/property/elevationM": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/julLowC": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.07,
+                        "http://dbpedia.org/property/longs": 0.07,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.13,
+                        "http://dbpedia.org/ontology/area": 0.2,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2004'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Movements",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 1.0
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/yearRecordLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/julRecordLowC": 0.07,
+                        "http://dbpedia.org/property/longs": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.27,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2004'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nPassengers",
+                "Annual\nchange",
+                "Rank\nchange",
+                "Capacity\nin use"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/r1Number": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 0.87
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/longs": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.13,
+                        "http://dbpedia.org/property/augRecordLowC": 0.07,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nchange"
+                }
+            ],
+            "table": "Unnamed table in section '2004'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Total\nCargo (Kg)1",
+                "Annual\nchange",
+                "Rank\nchange"
+            ]
+        }
+    ]
+}

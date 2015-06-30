@@ -1,0 +1,183 @@
+{
+    "no. of tables": 2,
+    "page": "List of Academy Award-winning foreign-language films",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.64,
+                        "http://dbpedia.org/property/name": 0.18,
+                        "http://dbpedia.org/property/title": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.23
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Original title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.14,
+                        "http://dbpedia.org/property/director": 0.23,
+                        "http://dbpedia.org/ontology/musicComposer": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.27,
+                        "http://dbpedia.org/ontology/cinematography": 0.05,
+                        "http://dbpedia.org/property/starring": 0.09,
+                        "http://dbpedia.org/property/cinematography": 0.05,
+                        "http://dbpedia.org/ontology/director": 0.23,
+                        "http://dbpedia.org/ontology/producer": 0.14,
+                        "http://dbpedia.org/property/music": 0.05,
+                        "http://dbpedia.org/ontology/narrator": 0.05,
+                        "http://dbpedia.org/property/writer": 0.05
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Winner(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.09
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/language": 0.09,
+                        "http://dbpedia.org/ontology/language": 0.14
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.05
+                    },
+                    "subject": "Category",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/awards": 0.05,
+                        "http://dbpedia.org/ontology/award": 0.05
+                    },
+                    "subject": "Winner(s)",
+                    "object": "Category"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.32,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.27
+                    },
+                    "subject": "Winner(s)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.09,
+                        "http://dbpedia.org/ontology/language": 0.77,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.59
+                    },
+                    "subject": "Country",
+                    "object": "Language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.5,
+                        "http://dbpedia.org/property/states": 0.18
+                    },
+                    "subject": "Language(s)",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Other categories'",
+            "colums": [
+                "Year\n(Ceremony)",
+                "Film title used in nomination",
+                "Original title",
+                "Category",
+                "Winner(s)",
+                "Country",
+                "Language(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Original title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Category"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 1.0,
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/writer": 1.0
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Winner(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.5
+                    },
+                    "subject": "Year\n(Ceremony)",
+                    "object": "Language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Winner(s)",
+                    "object": "Category"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.5,
+                        "http://dbpedia.org/ontology/language": 1.0,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.5
+                    },
+                    "subject": "Country",
+                    "object": "Language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.5,
+                        "http://dbpedia.org/property/states": 0.5
+                    },
+                    "subject": "Language(s)",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Academy Award-winning foreign language films using English dubbage'",
+            "colums": [
+                "Year\n(Ceremony)",
+                "Film title used in nomination",
+                "Original title",
+                "Category",
+                "Winner(s)",
+                "Country",
+                "Language(s)"
+            ]
+        }
+    ]
+}

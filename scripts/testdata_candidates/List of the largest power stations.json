@@ -1,0 +1,621 @@
+{
+    "no. of tables": 21,
+    "page": "List of largest power stations in the world",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.55,
+                        "http://dbpedia.org/ontology/country": 0.6,
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.3
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/plantAnnualGen": 0.05
+                    },
+                    "subject": "Station",
+                    "object": "Annual generation\n(TWh)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/primaryFuelType": 0.05,
+                        "http://dbpedia.org/property/primaryFuel": 0.05
+                    },
+                    "subject": "Station",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Top 20 largest power producing facilities'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity\n(MW)",
+                "Annual generation\n(TWh)",
+                "Type",
+                "Notes and Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.64,
+                        "http://dbpedia.org/ontology/country": 0.73,
+                        "http://dbpedia.org/property/subdivisionName": 0.09
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.75,
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.5,
+                        "http://dbpedia.org/ontology/country": 0.5,
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/property/locale": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.9,
+                        "http://dbpedia.org/ontology/country": 0.9
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.67,
+                        "http://dbpedia.org/ontology/country": 0.67
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.44
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.11,
+                        "http://dbpedia.org/property/width": 0.11,
+                        "http://dbpedia.org/property/latm": 0.11
+                    },
+                    "subject": "Country",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.3,
+                        "http://dbpedia.org/ontology/country": 0.3
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.1
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Geographic coordinate system",
+                "Capacity (MW)",
+                "",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.44,
+                        "http://dbpedia.org/ontology/country": 0.44
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.11
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.3,
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 1.0,
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.83,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 1.0,
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.2,
+                        "http://dbpedia.org/property/plantCapacity": 0.2
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.2,
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.17
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/maxPlannedCap": 0.17
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.12,
+                        "http://dbpedia.org/ontology/country": 0.12
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.38,
+                        "http://dbpedia.org/property/latD": 0.12
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.36,
+                        "http://dbpedia.org/ontology/country": 0.36
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.27,
+                        "http://dbpedia.org/property/maxPlannedCap": 0.18
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.25
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.25
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.5,
+                        "http://dbpedia.org/ontology/country": 0.62
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.5
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.7,
+                        "http://dbpedia.org/ontology/country": 0.9
+                    },
+                    "subject": "Station",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.1
+                    },
+                    "subject": "Station",
+                    "object": "Capacity (MW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Renewable power stations'",
+            "colums": [
+                "Rank",
+                "Station",
+                "Country",
+                "Location",
+                "Capacity (MW)",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.39,
+                        "http://dbpedia.org/ontology/country": 0.46,
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.14,
+                        "http://dbpedia.org/property/locale": 0.03,
+                        "http://dbpedia.org/property/locationCountry": 0.01
+                    },
+                    "subject": "Largest facility",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/fuelTypeName": 0.1,
+                        "http://dbpedia.org/property/primaryFuel": 0.04
+                    },
+                    "subject": "Largest facility",
+                    "object": "Fuel type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageSize": 0.01
+                    },
+                    "subject": "Largest facility",
+                    "object": "Unit capacity\n(MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/fuelTypeName": 0.1,
+                        "http://dbpedia.org/property/primaryFuel": 0.04
+                    },
+                    "subject": "Largest facility",
+                    "object": "Fuel type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.23,
+                        "http://dbpedia.org/property/location": 0.01
+                    },
+                    "subject": "Largest unit\n(name of power station)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/fuelTypeName": 0.01,
+                        "http://dbpedia.org/property/primaryFuel": 0.01
+                    },
+                    "subject": "Largest unit\n(name of power station)",
+                    "object": "Fuel type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/installedCapacity": 0.01
+                    },
+                    "subject": "Largest unit\n(name of power station)",
+                    "object": "Unit capacity\n(MW)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/fuelTypeName": 0.01,
+                        "http://dbpedia.org/property/primaryFuel": 0.01
+                    },
+                    "subject": "Largest unit\n(name of power station)",
+                    "object": "Fuel type"
+                }
+            ],
+            "table": "Unnamed table in section 'List of largest power station and unit within each country'",
+            "colums": [
+                "Country",
+                "",
+                "Largest facility",
+                "Capacity\n(MW)",
+                "Fuel type",
+                "Location",
+                "",
+                "Largest unit\n(name of power station)",
+                "Unit capacity\n(MW)",
+                "Fuel type",
+                "Location",
+                "",
+                "Refs"
+            ]
+        }
+    ]
+}

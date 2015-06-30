@@ -1,0 +1,233 @@
+{
+    "no. of tables": 4,
+    "page": "List of major home appliance manufacturers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.09,
+                        "http://dbpedia.org/ontology/foundedBy": 0.09
+                    },
+                    "subject": "Company",
+                    "object": "Brands"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.18,
+                        "http://dbpedia.org/ontology/location": 0.18
+                    },
+                    "subject": "Company",
+                    "object": "Headquarters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.18
+                    },
+                    "subject": "Company",
+                    "object": "Market Countries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.09,
+                        "http://dbpedia.org/ontology/parentCompany": 0.09
+                    },
+                    "subject": "Brands",
+                    "object": "Company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.09
+                    },
+                    "subject": "Brands",
+                    "object": "Headquarters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.09
+                    },
+                    "subject": "Brands",
+                    "object": "Market Countries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.09
+                    },
+                    "subject": "Headquarters",
+                    "object": "Market Countries"
+                }
+            ],
+            "table": "Unnamed table in section 'Active appliance manufacturers and brands'",
+            "colums": [
+                "Company",
+                "Brands",
+                "Primary Products",
+                "Headquarters",
+                "Market Countries",
+                "Website(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.21,
+                        "http://dbpedia.org/property/name": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.07
+                    },
+                    "subject": "Company",
+                    "object": "Brands"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationCity": 0.07,
+                        "http://dbpedia.org/ontology/locationCity": 0.14,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Company",
+                    "object": "Headquarters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.07
+                    },
+                    "subject": "Company",
+                    "object": "Market Countries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.07
+                    },
+                    "subject": "Brands",
+                    "object": "Market Countries"
+                }
+            ],
+            "table": "Unnamed table in section 'Active appliance manufacturers and brands'",
+            "colums": [
+                "Company",
+                "Brands",
+                "Primary Products",
+                "Headquarters",
+                "Market Countries",
+                "Website(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.15,
+                        "http://dbpedia.org/property/companyName": 0.08,
+                        "http://xmlns.com/foaf/0.1/name": 0.08
+                    },
+                    "subject": "Company",
+                    "object": "Brands"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationCity": 0.08,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.08,
+                        "http://dbpedia.org/property/location": 0.31,
+                        "http://dbpedia.org/ontology/locationCity": 0.15,
+                        "http://dbpedia.org/ontology/location": 0.46
+                    },
+                    "subject": "Company",
+                    "object": "Headquarters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.08
+                    },
+                    "subject": "Company",
+                    "object": "Market Countries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.08,
+                        "http://dbpedia.org/ontology/parentCompany": 0.08
+                    },
+                    "subject": "Brands",
+                    "object": "Company"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08,
+                        "http://dbpedia.org/property/name": 0.08,
+                        "http://xmlns.com/foaf/0.1/name": 0.08
+                    },
+                    "subject": "Headquarters",
+                    "object": "Company"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08,
+                        "http://dbpedia.org/property/name": 0.08,
+                        "http://xmlns.com/foaf/0.1/name": 0.08
+                    },
+                    "subject": "Headquarters",
+                    "object": "Brands"
+                }
+            ],
+            "table": "Unnamed table in section 'Active appliance manufacturers and brands'",
+            "colums": [
+                "Company",
+                "Brands",
+                "Primary Products",
+                "Headquarters",
+                "Market Countries",
+                "Website(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.22
+                    },
+                    "subject": "Company",
+                    "object": "Brands"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.22,
+                        "http://dbpedia.org/property/location": 0.13,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.13,
+                        "http://dbpedia.org/property/locationCity": 0.22
+                    },
+                    "subject": "Company",
+                    "object": "Headquarters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.09,
+                        "http://dbpedia.org/property/locationCountry": 0.04
+                    },
+                    "subject": "Company",
+                    "object": "Market Countries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/property/owner": 0.04,
+                        "http://dbpedia.org/ontology/parentCompany": 0.04,
+                        "http://dbpedia.org/ontology/owningCompany": 0.04
+                    },
+                    "subject": "Brands",
+                    "object": "Company"
+                }
+            ],
+            "table": "Unnamed table in section 'Active appliance manufacturers and brands'",
+            "colums": [
+                "Company",
+                "Brands",
+                "Primary Products",
+                "Headquarters",
+                "Market Countries",
+                "Website(s)"
+            ]
+        }
+    ]
+}

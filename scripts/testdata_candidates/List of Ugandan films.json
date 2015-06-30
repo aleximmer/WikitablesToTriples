@@ -1,0 +1,362 @@
+{
+    "no. of tables": 20,
+    "page": "List of African films",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 1.0,
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/writer": 1.0,
+                        "http://dbpedia.org/ontology/editing": 0.5,
+                        "http://dbpedia.org/ontology/producer": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Botswana'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Burundi'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cape Verde'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Central African Republic'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Eritrea'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Guinea-Bissau'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Liberia'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.25,
+                        "http://dbpedia.org/property/director": 0.25,
+                        "http://dbpedia.org/ontology/producer": 0.25,
+                        "http://dbpedia.org/property/producer": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.12
+                    },
+                    "subject": "Director",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Libya'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Madagascar'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/editing": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Malawi'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.2,
+                        "http://dbpedia.org/property/director": 0.1,
+                        "http://dbpedia.org/ontology/writer": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Namibia'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.05,
+                        "http://dbpedia.org/property/producer": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.05,
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/cinematography": 0.05,
+                        "http://dbpedia.org/property/writer": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Rwanda'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 1.0,
+                        "http://dbpedia.org/property/director": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Sierra Leone'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.17,
+                        "http://dbpedia.org/property/director": 0.17,
+                        "http://dbpedia.org/property/writer": 0.17,
+                        "http://dbpedia.org/ontology/writer": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Somalia'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 1.0,
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/producer": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Sudan'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.2,
+                        "http://dbpedia.org/property/director": 0.2,
+                        "http://dbpedia.org/property/writer": 0.2,
+                        "http://dbpedia.org/property/producer": 0.2,
+                        "http://dbpedia.org/ontology/writer": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Tanzania'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.14,
+                        "http://dbpedia.org/property/director": 0.14,
+                        "http://dbpedia.org/property/writer": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Sahara'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Zaire'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Genre",
+                "Notes"
+            ]
+        }
+    ]
+}

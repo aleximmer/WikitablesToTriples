@@ -1,0 +1,249 @@
+{
+    "no. of tables": 6,
+    "page": "List of New Zealand Test matches",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.03
+                    },
+                    "subject": "Opposition",
+                    "object": "M.No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/teamName": 0.22,
+                        "http://dbpedia.org/property/above": 0.2
+                    },
+                    "subject": "Opposition",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Place",
+                    "object": "M.No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.11
+                    },
+                    "subject": "Place",
+                    "object": "Opposition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastodihome": 0.2,
+                        "http://dbpedia.org/property/lasttestaway": 0.01,
+                        "http://dbpedia.org/property/firstt20ihome": 0.03,
+                        "http://dbpedia.org/property/onlyt20ihome": 0.02,
+                        "http://dbpedia.org/property/lasttesthome": 0.22,
+                        "http://dbpedia.org/property/firstodihome": 0.2,
+                        "http://dbpedia.org/property/lastt20ihome": 0.03,
+                        "http://dbpedia.org/property/firstodiaway": 0.02,
+                        "http://dbpedia.org/property/country": 0.2,
+                        "http://dbpedia.org/property/lastodiaway": 0.01,
+                        "http://dbpedia.org/property/firsttesthome": 0.22,
+                        "http://dbpedia.org/property/firsttestaway": 0.02
+                    },
+                    "subject": "Place",
+                    "object": "Result"
+                }
+            ],
+            "table": "Unnamed table in section 'Test Matches'",
+            "colums": [
+                "M.No",
+                "Test No.",
+                "Opposition",
+                "H/W",
+                "Result",
+                "Place",
+                "Start Date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/teamName": 0.17,
+                        "http://dbpedia.org/property/above": 0.1
+                    },
+                    "subject": "Opposition",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/suites": 0.01
+                    },
+                    "subject": "Place",
+                    "object": "M.No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.05,
+                        "http://dbpedia.org/property/tenants": 0.12
+                    },
+                    "subject": "Place",
+                    "object": "Opposition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastodihome": 0.24,
+                        "http://dbpedia.org/property/firstodihome": 0.23,
+                        "http://dbpedia.org/property/firstodiaway": 0.01,
+                        "http://dbpedia.org/property/firsttestaway": 0.01,
+                        "http://dbpedia.org/property/lasttestaway": 0.02,
+                        "http://dbpedia.org/property/country": 0.24,
+                        "http://dbpedia.org/property/firsttesthome": 0.25,
+                        "http://dbpedia.org/property/lasttesthome": 0.25,
+                        "http://dbpedia.org/property/team": 0.01
+                    },
+                    "subject": "Place",
+                    "object": "Result"
+                }
+            ],
+            "table": "Unnamed table in section 'Test Matches'",
+            "colums": [
+                "M.No",
+                "Test No.",
+                "Opposition",
+                "H/W",
+                "Result",
+                "Place",
+                "Start Date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Opposition",
+                    "object": "M.No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/teamName": 0.22,
+                        "http://dbpedia.org/property/above": 0.08
+                    },
+                    "subject": "Opposition",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.03
+                    },
+                    "subject": "Opposition",
+                    "object": "Place"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Place",
+                    "object": "M.No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.03,
+                        "http://dbpedia.org/property/tenants": 0.09
+                    },
+                    "subject": "Place",
+                    "object": "Opposition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastodihome": 0.23,
+                        "http://dbpedia.org/property/firstt20iaway": 0.01,
+                        "http://dbpedia.org/property/firstodiaway": 0.03,
+                        "http://dbpedia.org/property/lasttesthome": 0.25,
+                        "http://dbpedia.org/property/firstodihome": 0.23,
+                        "http://dbpedia.org/property/lastt20ihome": 0.01,
+                        "http://dbpedia.org/property/onlyt20ihome": 0.01,
+                        "http://dbpedia.org/property/team": 0.01,
+                        "http://dbpedia.org/property/country": 0.22,
+                        "http://dbpedia.org/property/lastodiaway": 0.01,
+                        "http://dbpedia.org/property/firsttesthome": 0.25,
+                        "http://dbpedia.org/property/firsttestaway": 0.01
+                    },
+                    "subject": "Place",
+                    "object": "Result"
+                }
+            ],
+            "table": "Unnamed table in section 'Test Matches'",
+            "colums": [
+                "M.No",
+                "Test No.",
+                "Opposition",
+                "H/W",
+                "Result",
+                "Place",
+                "Start Date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/teamName": 0.27,
+                        "http://dbpedia.org/property/above": 0.09
+                    },
+                    "subject": "Opposition",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.03,
+                        "http://dbpedia.org/property/venue": 0.01,
+                        "http://dbpedia.org/property/ground": 0.03
+                    },
+                    "subject": "Opposition",
+                    "object": "Place"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.01,
+                        "http://dbpedia.org/ontology/tenant": 0.03,
+                        "http://dbpedia.org/property/tenants": 0.12
+                    },
+                    "subject": "Place",
+                    "object": "Opposition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastodihome": 0.27,
+                        "http://dbpedia.org/property/firsttwenty20home": 0.02,
+                        "http://dbpedia.org/property/lasttestaway": 0.01,
+                        "http://dbpedia.org/property/firstt20ihome": 0.02,
+                        "http://dbpedia.org/property/firstodiaway": 0.01,
+                        "http://dbpedia.org/property/team": 0.01,
+                        "http://dbpedia.org/property/lasttesthome": 0.27,
+                        "http://dbpedia.org/property/firstodihome": 0.24,
+                        "http://dbpedia.org/property/lastt20ihome": 0.03,
+                        "http://dbpedia.org/property/onlyt20ihome": 0.01,
+                        "http://dbpedia.org/property/country": 0.28,
+                        "http://dbpedia.org/property/lastodiaway": 0.02,
+                        "http://dbpedia.org/property/firsttesthome": 0.27,
+                        "http://dbpedia.org/property/lasttwenty20home": 0.02,
+                        "http://dbpedia.org/property/firsttestaway": 0.01
+                    },
+                    "subject": "Place",
+                    "object": "Result"
+                }
+            ],
+            "table": "Unnamed table in section 'Test Matches'",
+            "colums": [
+                "M.No",
+                "Test No.",
+                "Opposition",
+                "H/W",
+                "Result",
+                "Place",
+                "Start Date"
+            ]
+        }
+    ]
+}

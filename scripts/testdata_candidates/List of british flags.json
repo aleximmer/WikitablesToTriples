@@ -1,0 +1,436 @@
+{
+    "no. of tables": 33,
+    "page": "List of British flags",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Current national flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description",
+                "Status"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ensigns'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/identificationSymbol": 0.12
+                    },
+                    "subject": "Use",
+                    "object": "Flag"
+                }
+            ],
+            "table": "Unnamed table in section 'Ensigns'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.4
+                    },
+                    "subject": "Use",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Ensigns'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ensigns'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ensigns'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ensigns'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Royal Standards'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Royal Standards'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parent": 0.17,
+                        "http://dbpedia.org/property/mother": 0.17
+                    },
+                    "subject": "Use",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.17
+                    },
+                    "subject": "Description",
+                    "object": "Use"
+                }
+            ],
+            "table": "Unnamed table in section 'Royal Standards'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Royal Standards'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Government'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Church'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Diplomatic flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Channel Islands and the Isle of Man (Crown dependencies)'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Use",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "Use"
+                }
+            ],
+            "table": "Unnamed table in section 'Overseas territories'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/flagcaption": 0.07
+                    },
+                    "subject": "Use",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Governors' flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Islands'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adoption": 0.02
+                    },
+                    "subject": "Use",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Local government areas'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.03,
+                        "http://dbpedia.org/ontology/leaderName": 0.03
+                    },
+                    "subject": "Use",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03
+                    },
+                    "subject": "Description",
+                    "object": "Use"
+                }
+            ],
+            "table": "Unnamed table in section 'Local government areas'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical and informal areas'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adoption": 0.02
+                    },
+                    "subject": "Use",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Historical and informal areas'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/identificationSymbol": 0.07
+                    },
+                    "subject": "Use",
+                    "object": "Flag"
+                }
+            ],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 0.2,
+                        "http://dbpedia.org/ontology/parent": 0.2
+                    },
+                    "subject": "Use",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.2
+                    },
+                    "subject": "Description",
+                    "object": "Use"
+                }
+            ],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/logo": 0.11
+                    },
+                    "subject": "Use",
+                    "object": "Flag"
+                }
+            ],
+            "table": "Unnamed table in section 'Historical flags'",
+            "colums": [
+                "Flag",
+                "Date",
+                "Use",
+                "Description"
+            ]
+        }
+    ]
+}

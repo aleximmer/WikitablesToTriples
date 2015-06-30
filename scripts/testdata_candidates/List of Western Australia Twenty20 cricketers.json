@@ -1,0 +1,255 @@
+{
+    "no. of tables": 1,
+    "page": "List of Western Australia Twenty20 cricketers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.48,
+                        "http://dbpedia.org/ontology/birthPlace": 0.52,
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Nat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/t20icap": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.07,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "HS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/batAvg": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Avg"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.07,
+                        "http://dbpedia.org/property/bestBowling": 0.07,
+                        "http://dbpedia.org/property/fivefor": 0.52,
+                        "http://dbpedia.org/property/heightinch": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.45,
+                        "http://dbpedia.org/property/topScore": 0.05,
+                        "http://dbpedia.org/property/catches/stumpings": 0.18,
+                        "http://dbpedia.org/property/100s/50s": 0.61,
+                        "http://dbpedia.org/property/runs": 0.05,
+                        "http://dbpedia.org/property/batAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "100"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.43,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/runs": 0.05,
+                        "http://dbpedia.org/property/heightinch": 0.05,
+                        "http://dbpedia.org/property/topScore": 0.05,
+                        "http://dbpedia.org/property/100s/50s": 0.48,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.09,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.32,
+                        "http://dbpedia.org/property/catches/stumpings": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "50"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.07,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.05,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.07,
+                        "http://dbpedia.org/property/runs": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Wkt"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Ave"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.09,
+                        "http://dbpedia.org/property/fivefor": 0.43,
+                        "http://dbpedia.org/property/runs": 0.07,
+                        "http://dbpedia.org/property/heightinch": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.05,
+                        "http://dbpedia.org/property/tenfor": 0.25,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.16,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.34,
+                        "http://dbpedia.org/property/catches/stumpings": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "3wi"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.36,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.05,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.2,
+                        "http://dbpedia.org/property/matches": 0.05,
+                        "http://dbpedia.org/property/100s/50s": 0.23,
+                        "http://dbpedia.org/property/bestBowling": 0.16,
+                        "http://dbpedia.org/property/columns": 0.05,
+                        "http://dbpedia.org/property/heightft": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "C"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.07,
+                        "http://dbpedia.org/property/bestBowling": 0.07,
+                        "http://dbpedia.org/property/fivefor": 0.61,
+                        "http://dbpedia.org/property/heightinch": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.66,
+                        "http://dbpedia.org/property/topScore": 0.05,
+                        "http://dbpedia.org/property/catches/stumpings": 0.18,
+                        "http://dbpedia.org/property/tenfor": 0.55,
+                        "http://dbpedia.org/property/runs": 0.07,
+                        "http://dbpedia.org/property/batAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "St"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/giniRank": 0.02
+                    },
+                    "subject": "Nat",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Nat",
+                    "object": "100"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02
+                    },
+                    "subject": "Nat",
+                    "object": "50"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02
+                    },
+                    "subject": "Nat",
+                    "object": "Wkt"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.02,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Nat",
+                    "object": "3wi"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.02,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.07,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.07,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Nat",
+                    "object": "C"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Nat",
+                    "object": "St"
+                }
+            ],
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "\u2116",
+                "Name",
+                "Nat",
+                "First",
+                "Last",
+                "Mat",
+                "Runs",
+                "HS",
+                "Avg",
+                "100",
+                "50",
+                "Wkt",
+                "BB",
+                "Ave",
+                "3wi",
+                "C",
+                "St",
+                "Ref"
+            ]
+        }
+    ]
+}

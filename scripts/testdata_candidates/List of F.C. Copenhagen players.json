@@ -1,0 +1,205 @@
+{
+    "no. of tables": 2,
+    "page": "List of F.C. Copenhagen players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.0,
+                        "http://dbpedia.org/property/birthPlace": 0.45,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Nat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalyears": 0.01,
+                        "http://dbpedia.org/property/years": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubnumber": 0.01,
+                        "http://dbpedia.org/property/goals": 0.04,
+                        "http://dbpedia.org/property/nationalcaps": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/nationalgoals": 0.02,
+                        "http://dbpedia.org/ontology/number": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/caps": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.38,
+                        "http://dbpedia.org/property/nationalgoals": 0.23,
+                        "http://dbpedia.org/property/nationalcaps": 0.04,
+                        "http://dbpedia.org/ontology/height": 0.02,
+                        "http://dbpedia.org/property/totalgoals": 0.01,
+                        "http://dbpedia.org/ontology/number": 0.0,
+                        "http://dbpedia.org/property/clubnumber": 0.0,
+                        "http://dbpedia.org/property/caps": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.07,
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/nationalcaps": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/caps": 0.45
+                    },
+                    "subject": "Name",
+                    "object": "League\ncaps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.6,
+                        "http://dbpedia.org/property/nationalgoals": 0.25,
+                        "http://dbpedia.org/property/nationalcaps": 0.04,
+                        "http://dbpedia.org/ontology/height": 0.02,
+                        "http://dbpedia.org/property/totalgoals": 0.02,
+                        "http://dbpedia.org/ontology/number": 0.01,
+                        "http://dbpedia.org/property/clubnumber": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/caps": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "League\ngoals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.0,
+                        "http://dbpedia.org/property/giniYear": 0.0,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.0,
+                        "http://dbpedia.org/property/gdpPppYear": 0.0
+                    },
+                    "subject": "Nat",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.01,
+                        "http://dbpedia.org/property/populationDensitySqMi": 0.0,
+                        "http://dbpedia.org/property/euseats": 0.0,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/title": 0.0,
+                        "http://dbpedia.org/property/febRainMm": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.0,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Nat",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.0,
+                        "http://dbpedia.org/property/augRainDays": 0.0,
+                        "http://dbpedia.org/property/octSnowDays": 0.0,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.0,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/property/marLowC": 0.0,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/novLowC": 0.01,
+                        "http://dbpedia.org/property/decLowC": 0.0,
+                        "http://dbpedia.org/property/julLowC": 0.0,
+                        "http://dbpedia.org/property/maySnowDays": 0.0,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/augLowC": 0.0,
+                        "http://dbpedia.org/property/febLowC": 0.0,
+                        "http://dbpedia.org/property/aprLowC": 0.01,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/sovereigntyNote": 0.01,
+                        "http://dbpedia.org/property/mayLowC": 0.0,
+                        "http://dbpedia.org/property/largestCity": 0.0,
+                        "http://dbpedia.org/property/junLowC": 0.0,
+                        "http://dbpedia.org/property/octLowC": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Nat",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.0,
+                        "http://dbpedia.org/property/gdpPppRank": 0.0,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/ontology/populationDensity": 0.0,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.0,
+                        "http://dbpedia.org/property/junRecordHighC": 0.0,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.0,
+                        "http://dbpedia.org/property/augLowC": 0.0,
+                        "http://dbpedia.org/property/yearLowC": 0.01,
+                        "http://dbpedia.org/property/width": 0.0,
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/property/populationDensityKm": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/sovereigntyNote": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/novRecordLowC": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Nat",
+                    "object": "League\ncaps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.0,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/octSnowDays": 0.0,
+                        "http://dbpedia.org/property/gdpPppRank": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/value": 0.0,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/aprLowC": 0.0,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/sovereigntyNote": 0.01,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/novLowC": 0.0,
+                        "http://dbpedia.org/property/maySnowDays": 0.0,
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Nat",
+                    "object": "League\ngoals"
+                }
+            ],
+            "table": "Unnamed table in section 'Players'",
+            "colums": [
+                "Name",
+                "Pos",
+                "Nat",
+                "Years",
+                "Caps",
+                "Goals",
+                "League\ncaps",
+                "League\ngoals"
+            ]
+        }
+    ]
+}

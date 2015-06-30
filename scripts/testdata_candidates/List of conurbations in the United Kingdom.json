@@ -1,0 +1,186 @@
+{
+    "no. of tables": 2,
+    "page": "List of urban areas in the United Kingdom",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.01,
+                        "http://dbpedia.org/property/augLowF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.03,
+                        "http://dbpedia.org/property/establishedDate": 0.01,
+                        "http://dbpedia.org/property/julLowF": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/mayHighF": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "Built-up area[4]",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/yearRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.01
+                    },
+                    "subject": "Built-up area[4]",
+                    "object": "Area (km\u00b2)[citation needed]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.03,
+                        "http://dbpedia.org/ontology/leaderName": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/p": 0.03
+                    },
+                    "subject": "Built-up area[4]",
+                    "object": "Major subdivisions[citation needed]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shireDistrict": 0.01,
+                        "http://dbpedia.org/property/officialName": 0.11,
+                        "http://dbpedia.org/property/centre": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.2,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.24,
+                        "http://dbpedia.org/property/hq": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/property/name": 0.09,
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Built-up area[4]",
+                    "object": "Metropolitan Area[5]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.01,
+                        "http://dbpedia.org/property/northeast": 0.01,
+                        "http://dbpedia.org/property/southeast": 0.01,
+                        "http://dbpedia.org/property/east": 0.01
+                    },
+                    "subject": "Built-up area[4]",
+                    "object": "Notable changes between 2001 and 2011 censuses [6]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01,
+                        "http://dbpedia.org/property/janSnowDays": 0.01,
+                        "http://dbpedia.org/property/augLowF": 0.01,
+                        "http://dbpedia.org/property/mayHighF": 0.01,
+                        "http://dbpedia.org/property/decMeanC": 0.01,
+                        "http://dbpedia.org/property/julLowF": 0.01,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/establishedDate": 0.01,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "Major subdivisions[citation needed]",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/district": 0.01,
+                        "http://dbpedia.org/property/shireDistrict": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/unitaryEngland": 0.01,
+                        "http://dbpedia.org/ontology/leaderName": 0.01
+                    },
+                    "subject": "Major subdivisions[citation needed]",
+                    "object": "Built-up area[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/areaUrbanKm": 0.04,
+                        "http://dbpedia.org/property/yearRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaUrban": 0.04
+                    },
+                    "subject": "Major subdivisions[citation needed]",
+                    "object": "Area (km\u00b2)[citation needed]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shireDistrict": 0.01,
+                        "http://dbpedia.org/property/centre": 0.11,
+                        "http://xmlns.com/foaf/0.1/nick": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.36,
+                        "http://dbpedia.org/property/hq": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.07,
+                        "http://dbpedia.org/property/name": 0.12,
+                        "http://dbpedia.org/property/officialName": 0.15,
+                        "http://xmlns.com/foaf/0.1/name": 0.27,
+                        "http://dbpedia.org/property/seat": 0.03,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/nickname": 0.01
+                    },
+                    "subject": "Major subdivisions[citation needed]",
+                    "object": "Metropolitan Area[5]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.03,
+                        "http://dbpedia.org/property/northeast": 0.01,
+                        "http://dbpedia.org/property/southeast": 0.01,
+                        "http://dbpedia.org/property/west": 0.01,
+                        "http://dbpedia.org/property/east": 0.01
+                    },
+                    "subject": "Major subdivisions[citation needed]",
+                    "object": "Notable changes between 2001 and 2011 censuses [6]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01
+                    },
+                    "subject": "Notable changes between 2001 and 2011 censuses [6]",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postTown": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/west": 0.01
+                    },
+                    "subject": "Notable changes between 2001 and 2011 censuses [6]",
+                    "object": "Built-up area[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postTown": 0.01,
+                        "http://dbpedia.org/property/southeast": 0.01,
+                        "http://dbpedia.org/property/west": 0.01,
+                        "http://dbpedia.org/property/unitaryEngland": 0.01
+                    },
+                    "subject": "Notable changes between 2001 and 2011 censuses [6]",
+                    "object": "Major subdivisions[citation needed]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postTown": 0.01
+                    },
+                    "subject": "Notable changes between 2001 and 2011 censuses [6]",
+                    "object": "Metropolitan Area[5]"
+                }
+            ],
+            "table": "Unnamed table in section 'List of most populous urban areas'",
+            "colums": [
+                "Rank",
+                "Built-up area[4]",
+                "Population\n(2011 Census)\n",
+                "Area (km\u00b2)[citation needed]",
+                "Density (People/km\u00b2)",
+                "Major subdivisions[citation needed]",
+                "Metropolitan Area[5]",
+                "Notable changes between 2001 and 2011 censuses [6]"
+            ]
+        }
+    ]
+}

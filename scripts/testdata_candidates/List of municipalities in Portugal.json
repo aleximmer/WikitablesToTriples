@@ -1,0 +1,286 @@
+{
+    "no. of tables": 2,
+    "page": "List of municipalities of Portugal",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novRainDays": 0.05,
+                        "http://dbpedia.org/property/partCount": 0.1,
+                        "http://dbpedia.org/property/governmentLongS": 0.05,
+                        "http://dbpedia.org/property/febRainDays": 0.05,
+                        "http://dbpedia.org/property/highestLatS": 0.05,
+                        "http://dbpedia.org/property/municipalities": 0.75
+                    },
+                    "subject": "District",
+                    "object": "Municipalities"
+                }
+            ],
+            "table": "Unnamed table in section 'Overview of districts'",
+            "colums": [
+                "District",
+                "Municipalities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestState": 0.0,
+                        "http://dbpedia.org/ontology/part": 0.01,
+                        "http://dbpedia.org/property/city": 0.01,
+                        "http://dbpedia.org/property/managementRegion": 0.0,
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/highestRegion": 0.0,
+                        "http://dbpedia.org/property/border": 0.0,
+                        "http://dbpedia.org/ontology/capital": 0.01,
+                        "http://dbpedia.org/property/capital": 0.04,
+                        "http://dbpedia.org/property/governmentCountry": 0.0,
+                        "http://dbpedia.org/ontology/highestRegion": 0.0,
+                        "http://dbpedia.org/property/governmentRegion": 0.0,
+                        "http://dbpedia.org/property/highestCountry": 0.0,
+                        "http://dbpedia.org/ontology/governmentCountry": 0.01,
+                        "http://dbpedia.org/ontology/governmentRegion": 0.0,
+                        "http://dbpedia.org/property/part": 0.09
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprHighC": 0.0
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "A. km\u00b2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensity": 0.0,
+                        "http://dbpedia.org/property/capitalLatS": 0.0,
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/parishes": 0.0,
+                        "http://dbpedia.org/property/municipalities": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/parliament": 0.01
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "A. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/areaCode": 0.0,
+                        "http://dbpedia.org/property/highestLatD": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/managementLatD": 0.0,
+                        "http://dbpedia.org/property/municipalities": 0.01,
+                        "http://dbpedia.org/property/parliament": 0.0
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "Pop. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensity": 0.01,
+                        "http://dbpedia.org/property/capitalLatS": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/octRainMm": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/municipalities": 0.02
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "PD. 1/km\u00b2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensity": 0.0,
+                        "http://dbpedia.org/property/managementElevation": 0.0,
+                        "http://dbpedia.org/ontology/managementElevation": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/governmentLongD": 0.0,
+                        "http://dbpedia.org/property/governmentLatM": 0.0,
+                        "http://dbpedia.org/property/managementLongD": 0.0,
+                        "http://dbpedia.org/property/febMeanC": 0.0,
+                        "http://dbpedia.org/property/managementLatM": 0.0,
+                        "http://dbpedia.org/property/capitalLongD": 0.0
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "PD. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.01
+                    },
+                    "subject": "District /\nAutonomous Region",
+                    "object": "No. of Parishes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.55,
+                        "http://dbpedia.org/ontology/lowestState": 0.0,
+                        "http://dbpedia.org/ontology/state": 0.09,
+                        "http://dbpedia.org/property/region": 0.07,
+                        "http://dbpedia.org/ontology/region": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.56,
+                        "http://dbpedia.org/ontology/governmentRegion": 0.0,
+                        "http://dbpedia.org/ontology/highestRegion": 0.0,
+                        "http://dbpedia.org/ontology/daylightSavingTimeZone": 0.06,
+                        "http://dbpedia.org/property/highestState": 0.0,
+                        "http://dbpedia.org/ontology/timeZone": 0.06,
+                        "http://dbpedia.org/property/district": 0.18,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/ontology/district": 0.18,
+                        "http://dbpedia.org/ontology/highestState": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "District /\nAutonomous Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.36,
+                        "http://dbpedia.org/property/area": 0.06,
+                        "http://dbpedia.org/property/areaLandKm": 0.0,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.44
+                    },
+                    "subject": "Municipality",
+                    "object": "A. km\u00b2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapSize": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/property/longm": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "A. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestLongS": 0.0,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/areaCode": 0.0,
+                        "http://dbpedia.org/property/partCount": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/mapSize": 0.0,
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/property/latd": 0.0
+                    },
+                    "subject": "Municipality",
+                    "object": "Pop. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensity": 0.02,
+                        "http://dbpedia.org/property/elevation": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/blankInfoSec": 0.01,
+                        "http://dbpedia.org/property/populationDensityKm": 0.42,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/ontology/populationDensity": 0.42,
+                        "http://dbpedia.org/property/governmentLatM": 0.0,
+                        "http://dbpedia.org/property/governmentLatS": 0.0,
+                        "http://dbpedia.org/property/partCount": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/latd": 0.0
+                    },
+                    "subject": "Municipality",
+                    "object": "PD. 1/km\u00b2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.0,
+                        "http://dbpedia.org/property/elevation": 0.0,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/governmentLongD": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0,
+                        "http://dbpedia.org/property/longM": 0.0,
+                        "http://dbpedia.org/property/populationDensityKm": 0.0,
+                        "http://dbpedia.org/property/longD": 0.0,
+                        "http://dbpedia.org/property/latd": 0.0
+                    },
+                    "subject": "Municipality",
+                    "object": "PD. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/partCount": 0.0,
+                        "http://dbpedia.org/property/governmentRegion": 0.0,
+                        "http://dbpedia.org/property/longD": 0.0,
+                        "http://dbpedia.org/property/part": 0.0,
+                        "http://dbpedia.org/ontology/governmentRegion": 0.0
+                    },
+                    "subject": "Municipality",
+                    "object": "No. of Parishes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderParty": 0.0
+                    },
+                    "subject": "Municipality",
+                    "object": "Ruling Party[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/district": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/district": 0.01
+                    },
+                    "subject": "No. of Parishes",
+                    "object": "District /\nAutonomous Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0
+                    },
+                    "subject": "No. of Parishes",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 0.01
+                    },
+                    "subject": "No. of Parishes",
+                    "object": "A. km\u00b2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/partCount": 0.0
+                    },
+                    "subject": "No. of Parishes",
+                    "object": "Pop. Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.0,
+                        "http://dbpedia.org/property/populationDensityKm": 0.0
+                    },
+                    "subject": "No. of Parishes",
+                    "object": "PD. 1/km\u00b2"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "District /\nAutonomous Region",
+                "Crest",
+                "Municipality",
+                "A. km\u00b2",
+                "A. Rank",
+                "Pop. Total",
+                "Pop. Rank",
+                "PD. 1/km\u00b2",
+                "PD. Rank",
+                "No. of Parishes",
+                "Ruling Party[1]"
+            ]
+        }
+    ]
+}

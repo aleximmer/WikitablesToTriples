@@ -1,0 +1,27 @@
+{
+    "no. of tables": 8,
+    "page": "List of 24 Hours of Le Mans winners",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.17,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.33,
+                        "http://dbpedia.org/property/ethnicGroups": 0.17,
+                        "http://dbpedia.org/property/value": 0.17,
+                        "http://dbpedia.org/property/longm": 0.17
+                    },
+                    "subject": "Country",
+                    "object": "Constructors"
+                }
+            ],
+            "table": "Unnamed table in section 'Records'",
+            "colums": [
+                "Country",
+                "Constructors",
+                "Total wins"
+            ]
+        }
+    ]
+}

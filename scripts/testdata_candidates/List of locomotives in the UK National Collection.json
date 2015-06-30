@@ -1,0 +1,654 @@
+{
+    "page": "List of rolling stock items in the UK National Collection",
+    "no. of tables": 14,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/startYear": 0.05
+                    },
+                    "subject": "Railway",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.2
+                    },
+                    "subject": "Number and name",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.05
+                    },
+                    "subject": "Number and name",
+                    "object": "Type or Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.1,
+                        "http://dbpedia.org/ontology/builder": 0.25
+                    },
+                    "subject": "Number and name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.15,
+                        "http://dbpedia.org/property/firstrundate": 0.05
+                    },
+                    "subject": "Number and name",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/disposition": 0.05,
+                        "http://dbpedia.org/property/currentowner": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05
+                    },
+                    "subject": "Number and name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessorLine": 0.05
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.05,
+                        "http://dbpedia.org/ontology/builder": 0.05
+                    },
+                    "subject": "Type or Class",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.05
+                    },
+                    "subject": "Type or Class",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtby": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Railway"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number and name",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.09,
+                        "http://dbpedia.org/ontology/builder": 0.05
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.09
+                    },
+                    "subject": "Type or Class",
+                    "object": "Number and name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.23,
+                        "http://dbpedia.org/ontology/builder": 0.23
+                    },
+                    "subject": "Type or Class",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.23
+                    },
+                    "subject": "Type or Class",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 0.05
+                    },
+                    "subject": "Builder",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Wheels",
+                    "object": "Works\nNumber"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number and name",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.07
+                    },
+                    "subject": "Number and name",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.07,
+                        "http://dbpedia.org/ontology/builder": 0.07
+                    },
+                    "subject": "Number and name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/serialnumber": 0.07
+                    },
+                    "subject": "Number and name",
+                    "object": "Works\nNumber"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.07,
+                        "http://dbpedia.org/property/railroad": 0.33,
+                        "http://dbpedia.org/ontology/builder": 0.13
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatorclass": 0.07,
+                        "http://dbpedia.org/property/caption": 0.07
+                    },
+                    "subject": "Type or Class",
+                    "object": "Number and name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.33,
+                        "http://dbpedia.org/ontology/rebuilder": 0.07,
+                        "http://dbpedia.org/ontology/builder": 0.33,
+                        "http://dbpedia.org/property/rebuilder": 0.07
+                    },
+                    "subject": "Type or Class",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.6
+                    },
+                    "subject": "Type or Class",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 0.07
+                    },
+                    "subject": "Builder",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Railway"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number and name",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/startYear": 0.05
+                    },
+                    "subject": "Railway",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.05
+                    },
+                    "subject": "Number and name",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroadclass": 0.2
+                    },
+                    "subject": "Number and name",
+                    "object": "Type or Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.1,
+                        "http://dbpedia.org/ontology/builder": 0.1
+                    },
+                    "subject": "Number and name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/serialnumber": 0.1
+                    },
+                    "subject": "Number and name",
+                    "object": "Works\nNumber"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.1
+                    },
+                    "subject": "Number and name",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentowner": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05
+                    },
+                    "subject": "Number and name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.1,
+                        "http://dbpedia.org/property/railroad": 0.1
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatorclass": 0.05,
+                        "http://dbpedia.org/property/preservedunits": 0.05,
+                        "http://dbpedia.org/property/fleetnumbers": 0.05
+                    },
+                    "subject": "Type or Class",
+                    "object": "Number and name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.05,
+                        "http://dbpedia.org/ontology/builder": 0.15
+                    },
+                    "subject": "Type or Class",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.45
+                    },
+                    "subject": "Type or Class",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 0.05
+                    },
+                    "subject": "Builder",
+                    "object": "Railway"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number and name",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.25,
+                        "http://dbpedia.org/ontology/builder": 0.25
+                    },
+                    "subject": "Number",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 0.25
+                    },
+                    "subject": "Number",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.25
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/builder": 0.25
+                    },
+                    "subject": "Type or Class",
+                    "object": "Builder"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/designer": 0.33,
+                        "http://dbpedia.org/property/designer": 0.33
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deliverydate": 0.33,
+                        "http://dbpedia.org/property/builddate": 0.33,
+                        "http://dbpedia.org/property/firstrundate": 0.33
+                    },
+                    "subject": "Type or Class",
+                    "object": "Built"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number or name",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Gauge",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Steam locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.33
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 0.33
+                    },
+                    "subject": "Builder",
+                    "object": "Railway"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Name",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Electric locomotives'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.25,
+                        "http://dbpedia.org/ontology/builder": 0.12
+                    },
+                    "subject": "Type or Class",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.38,
+                        "http://dbpedia.org/ontology/builder": 0.25
+                    },
+                    "subject": "Type or Class",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.25
+                    },
+                    "subject": "Type or Class",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/whytetype": 0.25
+                    },
+                    "subject": "Type or Class",
+                    "object": "Wheels"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number (current)",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Electric locomotives'",
+            "predicates": [],
+            "colums": [
+                "Railway",
+                "Number",
+                "Type or Class",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Gauge",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Electric locomotives'",
+            "predicates": [],
+            "colums": [
+                "Railway",
+                "Number",
+                "Class or Type",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Internal combustion'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/builder": 0.06
+                    },
+                    "subject": "Number",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/builder": 0.06
+                    },
+                    "subject": "Number",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.11
+                    },
+                    "subject": "Number",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/railroad": 0.06
+                    },
+                    "subject": "Type or\nClass",
+                    "object": "Railway"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/roadnumber": 0.06,
+                        "http://dbpedia.org/property/caption": 0.06
+                    },
+                    "subject": "Type or\nClass",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builder": 0.33,
+                        "http://dbpedia.org/ontology/builder": 0.39
+                    },
+                    "subject": "Type or\nClass",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builddate": 0.33
+                    },
+                    "subject": "Type or\nClass",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/uicclass": 0.06,
+                        "http://dbpedia.org/property/aarwheels": 0.06,
+                        "http://dbpedia.org/property/whytetype": 0.22
+                    },
+                    "subject": "Type or\nClass",
+                    "object": "Wheels"
+                }
+            ],
+            "colums": [
+                "Railway",
+                "Number",
+                "Type or\nClass",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Internal combustion'",
+            "predicates": [],
+            "colums": [
+                "Railway",
+                "Number",
+                "Type",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Wheels",
+                "Gauge",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Internal combustion'",
+            "predicates": [],
+            "colums": [
+                "Railway",
+                "Number",
+                "Class or Type",
+                "Builder",
+                "Works\nNumber",
+                "Built",
+                "Location",
+                "Object\u00a0Number",
+                "Image"
+            ]
+        }
+    ]
+}

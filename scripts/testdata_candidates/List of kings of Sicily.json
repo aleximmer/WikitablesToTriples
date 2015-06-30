@@ -1,0 +1,646 @@
+{
+    "no. of tables": 10,
+    "page": "List of monarchs of Sicily",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.33,
+                        "http://dbpedia.org/ontology/parent": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/placeOfBirth": 0.33,
+                        "http://dbpedia.org/property/parents": 0.33,
+                        "http://dbpedia.org/property/birthPlace": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.33,
+                        "http://dbpedia.org/ontology/spouse": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.33,
+                        "http://dbpedia.org/property/deathPlace": 0.33,
+                        "http://dbpedia.org/ontology/deathPlace": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.33
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Counts of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.29,
+                        "http://dbpedia.org/property/before": 0.14,
+                        "http://dbpedia.org/ontology/parent": 0.57,
+                        "http://dbpedia.org/property/regent": 0.14,
+                        "http://dbpedia.org/ontology/birthPlace": 0.14,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14,
+                        "http://dbpedia.org/property/father": 0.43,
+                        "http://dbpedia.org/ontology/predecessor": 0.43,
+                        "http://dbpedia.org/property/birthPlace": 0.14,
+                        "http://dbpedia.org/property/after": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.57,
+                        "http://dbpedia.org/property/with": 0.14,
+                        "http://dbpedia.org/ontology/spouse": 0.57
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.14,
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/ontology/deathPlace": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/regent": 0.14,
+                        "http://dbpedia.org/ontology/successor": 0.29,
+                        "http://dbpedia.org/property/successor": 0.29,
+                        "http://dbpedia.org/property/after": 0.14
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.29,
+                        "http://dbpedia.org/property/deathPlace": 0.29,
+                        "http://dbpedia.org/ontology/deathPlace": 0.29
+                    },
+                    "subject": "Birth",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.43,
+                        "http://dbpedia.org/property/after": 0.14,
+                        "http://dbpedia.org/ontology/spouse": 0.43
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 0.14,
+                        "http://dbpedia.org/property/placeOfBurial": 0.14
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 0.17,
+                        "http://dbpedia.org/ontology/parent": 0.17,
+                        "http://dbpedia.org/property/birthPlace": 0.17,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.83,
+                        "http://dbpedia.org/ontology/spouse": 0.83,
+                        "http://dbpedia.org/property/after": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.67,
+                        "http://dbpedia.org/property/deathPlace": 0.83,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.17
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.83,
+                        "http://dbpedia.org/property/with": 0.17,
+                        "http://dbpedia.org/ontology/spouse": 0.83
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.17
+                    },
+                    "subject": "Death",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.11,
+                        "http://dbpedia.org/ontology/parent": 0.11,
+                        "http://dbpedia.org/ontology/birthPlace": 0.56,
+                        "http://dbpedia.org/property/placeOfBirth": 0.44,
+                        "http://dbpedia.org/property/father": 0.11,
+                        "http://dbpedia.org/property/successor": 0.11,
+                        "http://dbpedia.org/property/birthPlace": 0.56,
+                        "http://dbpedia.org/property/burialPlace": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.11,
+                        "http://dbpedia.org/ontology/successor": 0.11,
+                        "http://dbpedia.org/ontology/predecessor": 0.11,
+                        "http://dbpedia.org/ontology/spouse": 0.78,
+                        "http://dbpedia.org/property/spouse": 0.78,
+                        "http://dbpedia.org/property/successor": 0.11,
+                        "http://dbpedia.org/property/regent": 0.22,
+                        "http://dbpedia.org/property/with": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.67,
+                        "http://dbpedia.org/property/deathPlace": 0.78,
+                        "http://dbpedia.org/ontology/deathPlace": 0.78
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.11,
+                        "http://dbpedia.org/property/issue": 0.11
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.11,
+                        "http://dbpedia.org/ontology/successor": 0.11,
+                        "http://dbpedia.org/ontology/spouse": 0.56,
+                        "http://dbpedia.org/property/spouse": 0.56,
+                        "http://dbpedia.org/ontology/predecessor": 0.11,
+                        "http://dbpedia.org/property/regent": 0.22,
+                        "http://dbpedia.org/property/with": 0.11,
+                        "http://dbpedia.org/property/successor": 0.11
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.4,
+                        "http://dbpedia.org/property/predecessor": 0.4,
+                        "http://dbpedia.org/ontology/parent": 0.4,
+                        "http://dbpedia.org/ontology/birthPlace": 0.6,
+                        "http://dbpedia.org/property/placeOfBirth": 0.6,
+                        "http://dbpedia.org/property/father": 0.4,
+                        "http://dbpedia.org/ontology/predecessor": 0.2,
+                        "http://dbpedia.org/property/birthPlace": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/predecessor": 0.4,
+                        "http://dbpedia.org/property/before": 0.2,
+                        "http://dbpedia.org/property/regent": 0.6,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.8,
+                        "http://dbpedia.org/property/deathPlace": 0.8,
+                        "http://dbpedia.org/ontology/deathPlace": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.4,
+                        "http://dbpedia.org/property/successor": 0.4,
+                        "http://dbpedia.org/property/issue": 0.4,
+                        "http://dbpedia.org/property/after": 0.4
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.2,
+                        "http://dbpedia.org/property/deathPlace": 0.2,
+                        "http://dbpedia.org/ontology/deathPlace": 0.2
+                    },
+                    "subject": "Birth",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/before": 0.2,
+                        "http://dbpedia.org/property/after": 0.2,
+                        "http://dbpedia.org/property/regent": 0.4,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.2,
+                        "http://dbpedia.org/ontology/deathPlace": 0.2
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.17,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.33,
+                        "http://dbpedia.org/property/deathPlace": 0.17,
+                        "http://dbpedia.org/property/placeOfBirth": 0.67,
+                        "http://dbpedia.org/property/birthPlace": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.83,
+                        "http://dbpedia.org/ontology/spouse": 0.83
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.17,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/placeOfBirth": 0.33,
+                        "http://dbpedia.org/property/deathPlace": 0.33,
+                        "http://dbpedia.org/property/birthPlace": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.83,
+                        "http://dbpedia.org/ontology/spouse": 0.83
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.17,
+                        "http://dbpedia.org/property/deathPlace": 0.17,
+                        "http://dbpedia.org/ontology/deathPlace": 0.17
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.17,
+                        "http://dbpedia.org/property/deathPlace": 0.17,
+                        "http://dbpedia.org/ontology/deathPlace": 0.17
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.5,
+                        "http://dbpedia.org/ontology/restingPlace": 0.5,
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBurial": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.5,
+                        "http://dbpedia.org/ontology/restingPlace": 0.5,
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBurial": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Sicily'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        }
+    ]
+}

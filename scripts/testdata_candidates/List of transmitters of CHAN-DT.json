@@ -1,0 +1,217 @@
+{
+    "page": "List of transmitters of CHAN-DT",
+    "no. of tables": 13,
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRainMm": 0.08,
+                        "http://dbpedia.org/property/junMeanC": 0.08,
+                        "http://dbpedia.org/property/latm": 0.08
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julRainDays": 0.17,
+                        "http://dbpedia.org/property/aprSnowDays": 0.17,
+                        "http://dbpedia.org/property/janRainMm": 0.17
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janRainDays": 0.17
+                    },
+                    "subject": "City/Town",
+                    "object": "Power (kW)"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprMeanC": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.17
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.11,
+                        "http://dbpedia.org/property/octMeanC": 0.11
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1,
+                        "http://dbpedia.org/property/junRainDays": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.12
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowCm": 0.33,
+                        "http://dbpedia.org/property/junLowC": 0.33
+                    },
+                    "subject": "City/Town",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Provincial transmitters'",
+            "colums": [
+                "City/Town",
+                "Call Sign",
+                "Channel",
+                "Power (kW)"
+            ]
+        }
+    ]
+}

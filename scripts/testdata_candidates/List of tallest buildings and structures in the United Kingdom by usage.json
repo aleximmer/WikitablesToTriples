@@ -1,0 +1,300 @@
+{
+    "no. of tables": 9,
+    "page": "List of tallest buildings and structures in the United Kingdom by usage",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Building",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "Building"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.17
+                    },
+                    "subject": "Building",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.17
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/completionDate": 0.67,
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Building",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.3
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/completionDate": 0.3
+                    },
+                    "subject": "Building",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.1,
+                        "http://dbpedia.org/property/subdivisionName": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "Building"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/openingDate": 0.2
+                    },
+                    "subject": "Building",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/borough": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spireQuantity": 0.06,
+                        "http://dbpedia.org/property/towerQuantity": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Building",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.19,
+                        "http://dbpedia.org/property/parish": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.31
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearCompleted": 0.06
+                    },
+                    "subject": "Building",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowC": 0.06
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.17,
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/estCompletion": 0.17,
+                        "http://dbpedia.org/property/completionDate": 0.33,
+                        "http://dbpedia.org/property/years": 0.17
+                    },
+                    "subject": "Building",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.17,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/property/city": 0.17,
+                        "http://dbpedia.org/ontology/type": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.5,
+                        "http://dbpedia.org/property/locationTown": 0.17
+                    },
+                    "subject": "Building",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/completionDate": 0.5
+                    },
+                    "subject": "Building",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Building",
+                "Location",
+                "Image",
+                "Height",
+                "Year",
+                "Notes"
+            ]
+        }
+    ]
+}

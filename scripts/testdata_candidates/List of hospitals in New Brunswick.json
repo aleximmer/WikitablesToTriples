@@ -1,0 +1,212 @@
+{
+    "page": "List of hospitals in New Brunswick",
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Current Hospital List'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/region": 0.22,
+                        "http://dbpedia.org/ontology/location": 0.04,
+                        "http://dbpedia.org/property/region": 0.22
+                    },
+                    "subject": "Hospital Name",
+                    "object": "Community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.04
+                    },
+                    "subject": "Hospital Name",
+                    "object": "Census Metropolitan Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bedCount": 0.3,
+                        "http://dbpedia.org/property/beds": 0.3
+                    },
+                    "subject": "Hospital Name",
+                    "object": "Bed Count"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 0.3,
+                        "http://dbpedia.org/property/org/group": 0.3
+                    },
+                    "subject": "Hospital Name",
+                    "object": "Operated by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09
+                    },
+                    "subject": "Community",
+                    "object": "Census Metropolitan Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.91,
+                        "http://dbpedia.org/property/subdivisionName": 0.91
+                    },
+                    "subject": "Community",
+                    "object": "Primary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Community",
+                    "object": "Secondary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank1Info": 0.04,
+                        "http://dbpedia.org/property/lats": 0.04
+                    },
+                    "subject": "Community",
+                    "object": "Bed Count"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestcity": 0.04
+                    },
+                    "subject": "Census Metropolitan Area",
+                    "object": "Community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.3,
+                        "http://dbpedia.org/property/southeast": 0.04,
+                        "http://dbpedia.org/property/northwest": 0.04,
+                        "http://dbpedia.org/property/north": 0.17,
+                        "http://dbpedia.org/property/west": 0.13,
+                        "http://dbpedia.org/property/northeast": 0.09,
+                        "http://dbpedia.org/property/east": 0.09
+                    },
+                    "subject": "Primary service county",
+                    "object": "Secondary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.13,
+                        "http://dbpedia.org/property/southeast": 0.04,
+                        "http://dbpedia.org/property/northwest": 0.04,
+                        "http://dbpedia.org/property/north": 0.26,
+                        "http://dbpedia.org/property/west": 0.22,
+                        "http://dbpedia.org/property/east": 0.04,
+                        "http://dbpedia.org/property/southwest": 0.04
+                    },
+                    "subject": "Primary service county",
+                    "object": "Tertiary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.17,
+                        "http://dbpedia.org/property/southeast": 0.09,
+                        "http://dbpedia.org/property/northwest": 0.09,
+                        "http://dbpedia.org/property/north": 0.22,
+                        "http://dbpedia.org/property/west": 0.09,
+                        "http://dbpedia.org/property/northeast": 0.13,
+                        "http://dbpedia.org/property/east": 0.13,
+                        "http://dbpedia.org/property/southwest": 0.04
+                    },
+                    "subject": "Secondary service county",
+                    "object": "Primary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southeast": 0.04,
+                        "http://dbpedia.org/property/northwest": 0.04,
+                        "http://dbpedia.org/property/north": 0.22,
+                        "http://dbpedia.org/property/west": 0.13,
+                        "http://dbpedia.org/property/northeast": 0.04,
+                        "http://dbpedia.org/property/east": 0.04
+                    },
+                    "subject": "Secondary service county",
+                    "object": "Tertiary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/west": 0.04,
+                        "http://dbpedia.org/property/south": 0.26,
+                        "http://dbpedia.org/property/east": 0.17,
+                        "http://dbpedia.org/property/north": 0.17,
+                        "http://dbpedia.org/property/northeast": 0.04
+                    },
+                    "subject": "Tertiary service county",
+                    "object": "Primary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.17,
+                        "http://dbpedia.org/property/southeast": 0.09,
+                        "http://dbpedia.org/property/west": 0.09,
+                        "http://dbpedia.org/property/northeast": 0.04,
+                        "http://dbpedia.org/property/east": 0.09,
+                        "http://dbpedia.org/property/southwest": 0.04
+                    },
+                    "subject": "Tertiary service county",
+                    "object": "Secondary service county"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/industry": 0.04,
+                        "http://dbpedia.org/ontology/industry": 0.04,
+                        "http://dbpedia.org/ontology/type": 0.04
+                    },
+                    "subject": "Operated by",
+                    "object": "Specialty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.09
+                    },
+                    "subject": "Operated by",
+                    "object": "Community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.09,
+                        "http://dbpedia.org/ontology/regionServed": 0.09,
+                        "http://dbpedia.org/property/areaServed": 0.09
+                    },
+                    "subject": "Operated by",
+                    "object": "Census Metropolitan Area"
+                }
+            ],
+            "colums": [
+                "Hospital Name",
+                "Type",
+                "Specialty",
+                "Community",
+                "Census Metropolitan Area",
+                "Primary service county",
+                "Secondary service county",
+                "Tertiary service county",
+                "Founded in community",
+                "Upgraded",
+                "Bed Count",
+                "Operated by",
+                "Notes"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Former Hospital List'",
+            "predicates": [],
+            "colums": [
+                "Hospital Name",
+                "Municipality",
+                "Census Metropolitan Area",
+                "Year Open",
+                "Year Closed",
+                "Last bed count",
+                "Fate of Hospital"
+            ]
+        }
+    ]
+}

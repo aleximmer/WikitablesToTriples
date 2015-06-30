@@ -1,0 +1,532 @@
+{
+    "no. of tables": 14,
+    "page": "List of Everton F.C. records and statistics",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.05,
+                        "http://dbpedia.org/property/octHighC": 0.05,
+                        "http://dbpedia.org/property/marHighC": 0.05,
+                        "http://dbpedia.org/property/sepLowC": 0.05,
+                        "http://dbpedia.org/property/julLowC": 0.05,
+                        "http://dbpedia.org/property/marLowC": 0.05,
+                        "http://dbpedia.org/property/junHighC": 0.05,
+                        "http://dbpedia.org/property/aprLowC": 0.05,
+                        "http://dbpedia.org/property/aprHighC": 0.05,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/novHighC": 0.05,
+                        "http://dbpedia.org/property/establishedDate": 0.05,
+                        "http://dbpedia.org/property/novLowC": 0.05,
+                        "http://dbpedia.org/property/junLowC": 0.05,
+                        "http://dbpedia.org/property/yearLowC": 0.05,
+                        "http://dbpedia.org/property/decLowC": 0.05,
+                        "http://dbpedia.org/property/yearHighC": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Apps",
+                "Years"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepHighC": 0.05,
+                        "http://dbpedia.org/property/octLowC": 0.05,
+                        "http://dbpedia.org/property/marHighC": 0.05,
+                        "http://dbpedia.org/property/junHighC": 0.05,
+                        "http://dbpedia.org/property/janHighC": 0.05,
+                        "http://dbpedia.org/property/octHighC": 0.05,
+                        "http://dbpedia.org/property/marLowC": 0.05,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/aprLowC": 0.05,
+                        "http://dbpedia.org/property/sepLowC": 0.05,
+                        "http://dbpedia.org/property/mayLowC": 0.05,
+                        "http://dbpedia.org/property/filename": 0.05,
+                        "http://dbpedia.org/property/junLowC": 0.05,
+                        "http://dbpedia.org/property/novLowC": 0.05,
+                        "http://dbpedia.org/property/decHighC": 0.05,
+                        "http://dbpedia.org/property/febHighC": 0.05,
+                        "http://dbpedia.org/property/decLowC": 0.05,
+                        "http://dbpedia.org/property/yearHighC": 0.05,
+                        "http://dbpedia.org/property/novHighC": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Apps",
+                "Years"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febHighC": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1,
+                        "http://dbpedia.org/property/filename": 0.1,
+                        "http://dbpedia.org/property/janHighC": 0.1,
+                        "http://dbpedia.org/property/mayLowC": 0.1,
+                        "http://dbpedia.org/property/octLowC": 0.1,
+                        "http://dbpedia.org/property/yearLowC": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Apps",
+                "Years"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.1,
+                        "http://dbpedia.org/property/marHighC": 0.1,
+                        "http://dbpedia.org/property/novHighC": 0.1,
+                        "http://dbpedia.org/property/novLowC": 0.1,
+                        "http://dbpedia.org/property/junLowC": 0.1,
+                        "http://dbpedia.org/property/yearLowC": 0.1,
+                        "http://dbpedia.org/property/hdiRank": 0.1,
+                        "http://dbpedia.org/property/aprLowC": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Apps",
+                "Years"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.08,
+                        "http://dbpedia.org/property/marHighC": 0.08,
+                        "http://dbpedia.org/property/junLowC": 0.08,
+                        "http://dbpedia.org/property/novLowC": 0.08,
+                        "http://dbpedia.org/property/decLowC": 0.08,
+                        "http://dbpedia.org/property/marLowC": 0.08,
+                        "http://dbpedia.org/property/longm": 0.08,
+                        "http://dbpedia.org/property/aprLowC": 0.08,
+                        "http://dbpedia.org/property/novHighC": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junHighC": 0.25,
+                        "http://dbpedia.org/property/sepHighC": 0.17,
+                        "http://dbpedia.org/property/julHighC": 0.08,
+                        "http://dbpedia.org/property/augHighC": 0.08,
+                        "http://dbpedia.org/property/giniRank": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Apps",
+                "Years"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novHighC": 0.09,
+                        "http://dbpedia.org/property/janLowC": 0.09,
+                        "http://dbpedia.org/property/filename": 0.09,
+                        "http://dbpedia.org/property/junLowC": 0.09,
+                        "http://dbpedia.org/property/sepLowC": 0.09,
+                        "http://dbpedia.org/property/marLowC": 0.09,
+                        "http://dbpedia.org/property/febLowC": 0.09,
+                        "http://dbpedia.org/property/marHighC": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/symbolWidth": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Years",
+                "Goals",
+                "Apps",
+                "Ave."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febHighC": 0.1,
+                        "http://dbpedia.org/property/marHighC": 0.1,
+                        "http://dbpedia.org/property/novHighC": 0.1,
+                        "http://dbpedia.org/property/janHighC": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/aprLowC": 0.1,
+                        "http://dbpedia.org/property/sepLowC": 0.1,
+                        "http://dbpedia.org/property/junLowC": 0.1,
+                        "http://dbpedia.org/property/mayLowC": 0.1,
+                        "http://dbpedia.org/property/filename": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1,
+                        "http://dbpedia.org/property/novLowC": 0.1,
+                        "http://dbpedia.org/property/janLowC": 0.1,
+                        "http://dbpedia.org/property/octLowC": 0.1,
+                        "http://dbpedia.org/property/febLowC": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Years",
+                "Goals",
+                "Apps",
+                "Ave."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.1,
+                        "http://dbpedia.org/property/marHighC": 0.1,
+                        "http://dbpedia.org/property/sepLowC": 0.1,
+                        "http://dbpedia.org/property/marLowC": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/janHighC": 0.1,
+                        "http://dbpedia.org/property/junLowC": 0.1,
+                        "http://dbpedia.org/property/mayLowC": 0.1,
+                        "http://dbpedia.org/property/filename": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1,
+                        "http://dbpedia.org/property/janLowC": 0.1,
+                        "http://dbpedia.org/property/febHighC": 0.1,
+                        "http://dbpedia.org/property/febLowC": 0.1,
+                        "http://dbpedia.org/property/novHighC": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprHighC": 0.1,
+                        "http://dbpedia.org/property/augLowC": 0.1,
+                        "http://dbpedia.org/property/mayHighC": 0.1,
+                        "http://dbpedia.org/property/longs": 0.1,
+                        "http://dbpedia.org/property/julLowC": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.1,
+                        "http://dbpedia.org/property/sepHighC": 0.1,
+                        "http://dbpedia.org/property/marHighC": 0.1,
+                        "http://dbpedia.org/property/sepLowC": 0.1,
+                        "http://dbpedia.org/property/junLowC": 0.1,
+                        "http://dbpedia.org/property/novHighC": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Years",
+                "Goals",
+                "Apps",
+                "Ave."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayLowC": 0.09,
+                        "http://dbpedia.org/property/janLowC": 0.09,
+                        "http://dbpedia.org/property/decHighC": 0.09,
+                        "http://dbpedia.org/property/janHighC": 0.09,
+                        "http://dbpedia.org/property/marLowC": 0.09,
+                        "http://dbpedia.org/property/octLowC": 0.09,
+                        "http://dbpedia.org/property/febHighC": 0.09,
+                        "http://dbpedia.org/property/febLowC": 0.09,
+                        "http://dbpedia.org/property/longm": 0.09,
+                        "http://dbpedia.org/property/longd": 0.09
+                    },
+                    "subject": "Name",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febHighC": 0.36,
+                        "http://dbpedia.org/property/mayLowC": 0.36,
+                        "http://dbpedia.org/property/janHighC": 0.36,
+                        "http://dbpedia.org/property/decHighC": 0.36,
+                        "http://dbpedia.org/property/junHighC": 0.09,
+                        "http://dbpedia.org/property/longm": 0.36,
+                        "http://dbpedia.org/property/octLowC": 0.36
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novLowC": 0.09,
+                        "http://dbpedia.org/property/marLowC": 0.09,
+                        "http://dbpedia.org/property/latm": 0.09,
+                        "http://dbpedia.org/property/sepHighC": 0.09,
+                        "http://dbpedia.org/property/aprLowC": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "",
+                "Name",
+                "Goals",
+                "Apps",
+                "Ave."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novLowC": 0.08,
+                        "http://dbpedia.org/property/decLowC": 0.08,
+                        "http://dbpedia.org/property/aprLowC": 0.08,
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novLowC": 0.38,
+                        "http://dbpedia.org/property/yearLowC": 0.08,
+                        "http://dbpedia.org/property/latm": 0.15,
+                        "http://dbpedia.org/property/aprLowC": 0.38
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayLowC": 0.08,
+                        "http://dbpedia.org/property/marHighC": 0.08,
+                        "http://dbpedia.org/property/novHighC": 0.08,
+                        "http://dbpedia.org/property/sepLowC": 0.08,
+                        "http://dbpedia.org/property/giniRank": 0.08,
+                        "http://dbpedia.org/property/fsiRank": 0.08,
+                        "http://dbpedia.org/property/longm": 0.08,
+                        "http://dbpedia.org/property/yearLowC": 0.08,
+                        "http://dbpedia.org/property/gdpPppRank": 0.08,
+                        "http://dbpedia.org/property/janHighC": 0.08,
+                        "http://dbpedia.org/property/decHighC": 0.08,
+                        "http://dbpedia.org/property/filename": 0.08,
+                        "http://dbpedia.org/property/augHighC": 0.08,
+                        "http://dbpedia.org/property/junLowC": 0.08,
+                        "http://dbpedia.org/property/febHighC": 0.08,
+                        "http://dbpedia.org/property/octLowC": 0.08,
+                        "http://dbpedia.org/property/julHighC": 0.08,
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Everton F.C. records and statistics'",
+            "colums": [
+                "#",
+                "Name",
+                "Goals",
+                "Apps",
+                "Ave."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.1,
+                        "http://dbpedia.org/property/novHighC": 0.1,
+                        "http://dbpedia.org/property/areaRank": 0.1,
+                        "http://dbpedia.org/property/marHighC": 0.1,
+                        "http://dbpedia.org/property/junLowC": 0.1,
+                        "http://dbpedia.org/property/novLowC": 0.1,
+                        "http://dbpedia.org/property/hdiRank": 0.1,
+                        "http://dbpedia.org/property/yearLowC": 0.1,
+                        "http://dbpedia.org/property/decLowC": 0.1,
+                        "http://dbpedia.org/property/aprLowC": 0.1,
+                        "http://dbpedia.org/property/filename": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Player Records'",
+            "colums": [
+                "#",
+                "Name",
+                "Apps",
+                "Clean Sheets"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.6,
+                        "http://dbpedia.org/property/other": 0.2
+                    },
+                    "subject": "Paid to",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "For",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Transfer records'",
+            "colums": [
+                "#",
+                "Fee",
+                "Paid to",
+                "For",
+                "Date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.8
+                    },
+                    "subject": "Paid by",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novLowC": 0.2,
+                        "http://dbpedia.org/property/janLowC": 0.2,
+                        "http://dbpedia.org/property/febLowC": 0.2,
+                        "http://dbpedia.org/property/aprLowC": 0.2,
+                        "http://dbpedia.org/property/marLowC": 0.2
+                    },
+                    "subject": "For",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Transfer records'",
+            "colums": [
+                "#",
+                "Fee",
+                "Paid by",
+                "For",
+                "Date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Young Player\nof the Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Reserve / U21 Player\nof the Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Academy Player\nof the Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Goal of the Season"
+                }
+            ],
+            "table": "Unnamed table in section 'Awards'",
+            "colums": [
+                "Season",
+                "Everton Player\nof the Season",
+                "Players' Player\nof the Season",
+                "Young Player\nof the Season",
+                "Reserve / U21 Player\nof the Season",
+                "Academy Player\nof the Season",
+                "Goal of the Season"
+            ]
+        }
+    ]
+}

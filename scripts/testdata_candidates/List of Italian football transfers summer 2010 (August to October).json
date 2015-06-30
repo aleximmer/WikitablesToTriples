@@ -1,0 +1,228 @@
+{
+    "no. of tables": 3,
+    "page": "List of Italian football transfers summer 2010 (August)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/co": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/managerclubs": 0.0,
+                        "http://dbpedia.org/ontology/team": 0.69,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02,
+                        "http://dbpedia.org/ontology/managerClub": 0.0,
+                        "http://dbpedia.org/property/currentclub": 0.04,
+                        "http://dbpedia.org/property/clubs": 0.7,
+                        "http://dbpedia.org/property/youthclubs": 0.2,
+                        "http://dbpedia.org/property/birthPlace": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Moving from"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01,
+                        "http://dbpedia.org/property/currentclub": 0.07,
+                        "http://dbpedia.org/property/clubs": 0.41,
+                        "http://dbpedia.org/property/youthclubs": 0.02,
+                        "http://dbpedia.org/ontology/team": 0.68
+                    },
+                    "subject": "Name",
+                    "object": "Moving to"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.0,
+                        "http://dbpedia.org/ontology/team": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Fee"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.11
+                    },
+                    "subject": "Moving from",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nat": 0.15,
+                        "http://dbpedia.org/property/areaLabel": 0.0,
+                        "http://dbpedia.org/property/portal": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.06,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06,
+                        "http://dbpedia.org/property/country": 0.01,
+                        "http://dbpedia.org/property/commonName": 0.06,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/voy": 0.01
+                    },
+                    "subject": "Moving from",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/other": 0.0
+                    },
+                    "subject": "Moving from",
+                    "object": "Moving to"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.08
+                    },
+                    "subject": "Moving to",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nat": 0.11,
+                        "http://dbpedia.org/property/commonName": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/name": 0.0,
+                        "http://dbpedia.org/property/voy": 0.0
+                    },
+                    "subject": "Moving to",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Summer transfer window (August)'",
+            "colums": [
+                "Date",
+                "Name",
+                "Nationality",
+                "Moving from",
+                "Moving to",
+                "Fee"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.42,
+                        "http://dbpedia.org/property/youthclubs": 0.37,
+                        "http://dbpedia.org/ontology/team": 0.47
+                    },
+                    "subject": "Name",
+                    "object": "Moving from"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentclub": 0.11,
+                        "http://dbpedia.org/property/clubs": 0.11,
+                        "http://dbpedia.org/ontology/team": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Moving to"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/nat": 0.05,
+                        "http://dbpedia.org/property/commonName": 0.05,
+                        "http://dbpedia.org/property/voy": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "Moving from",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.05
+                    },
+                    "subject": "Moving to",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nat": 0.05
+                    },
+                    "subject": "Moving to",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Summer transfer window (date unknown)'",
+            "colums": [
+                "Date",
+                "Name",
+                "Nationality",
+                "Moving from",
+                "Moving to",
+                "Fee"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.96,
+                        "http://dbpedia.org/property/youthclubs": 0.12,
+                        "http://dbpedia.org/ontology/team": 0.88
+                    },
+                    "subject": "Name",
+                    "object": "Moving from"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/property/currentclub": 0.12,
+                        "http://dbpedia.org/property/clubs": 0.77,
+                        "http://dbpedia.org/property/youthclubs": 0.04,
+                        "http://dbpedia.org/ontology/team": 0.69
+                    },
+                    "subject": "Name",
+                    "object": "Moving to"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.04
+                    },
+                    "subject": "Moving from",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nat": 0.08
+                    },
+                    "subject": "Moving from",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nat": 0.12,
+                        "http://dbpedia.org/ontology/longName": 0.08,
+                        "http://dbpedia.org/property/commonName": 0.08,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08,
+                        "http://xmlns.com/foaf/0.1/name": 0.08,
+                        "http://dbpedia.org/property/conventionalLongName": 0.08
+                    },
+                    "subject": "Moving to",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Out of Window Transfers'",
+            "colums": [
+                "Date",
+                "Name",
+                "Nationality",
+                "Moving from",
+                "Moving to",
+                "Fee"
+            ]
+        }
+    ]
+}

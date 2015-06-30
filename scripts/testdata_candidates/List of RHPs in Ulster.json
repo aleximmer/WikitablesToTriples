@@ -1,0 +1,143 @@
+{
+    "no. of tables": 2,
+    "page": "National Register of Historic Places listings in Ulster County, New York",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longDegrees": 0.01,
+                        "http://dbpedia.org/property/latMinutes": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/latDegrees": 0.01,
+                        "http://dbpedia.org/property/longSeconds": 0.01
+                    },
+                    "subject": "Name on the Register",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Name on the Register",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governingBody": 0.02,
+                        "http://dbpedia.org/ontology/locationCity": 0.01,
+                        "http://dbpedia.org/property/location": 0.36,
+                        "http://dbpedia.org/ontology/picture": 0.21,
+                        "http://dbpedia.org/property/locale": 0.01,
+                        "http://dbpedia.org/property/governingBody": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.67,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.02,
+                        "http://dbpedia.org/property/city": 0.01,
+                        "http://dbpedia.org/ontology/nearestCity": 0.04,
+                        "http://dbpedia.org/property/nearestCity": 0.03
+                    },
+                    "subject": "Name on the Register",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governingBody": 0.01,
+                        "http://dbpedia.org/property/architecture": 0.02,
+                        "http://dbpedia.org/property/governingBody": 0.01,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.02,
+                        "http://dbpedia.org/ontology/architect": 0.01,
+                        "http://dbpedia.org/property/architect": 0.02
+                    },
+                    "subject": "Name on the Register",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.01,
+                        "http://dbpedia.org/property/cspan": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julRecordHighF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/yearRecordHighF": 0.01,
+                        "http://dbpedia.org/property/augHighF": 0.01,
+                        "http://dbpedia.org/property/aprRecordHighF": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/coordinatesDisplay": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "City or town",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/landmark": 0.01
+                    },
+                    "subject": "City or town",
+                    "object": "Name on the Register"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.01,
+                        "http://dbpedia.org/property/locale": 0.01,
+                        "http://dbpedia.org/property/municipality": 0.01,
+                        "http://dbpedia.org/ontology/municipality": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Listings county-wide'",
+            "colums": [
+                "[3]",
+                "Name on the Register",
+                "Image",
+                "Date listed[4]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coordinatesDisplay": 1.0
+                    },
+                    "subject": "City or town",
+                    "object": "[3]"
+                }
+            ],
+            "table": "Unnamed table in section 'Former listings'",
+            "colums": [
+                "[3]",
+                "Name on the Register",
+                "Image",
+                "Date listed",
+                "Date removed",
+                "Location",
+                "City or town",
+                "Summary"
+            ]
+        }
+    ]
+}

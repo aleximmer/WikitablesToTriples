@@ -1,0 +1,376 @@
+{
+    "no. of tables": 29,
+    "page": "List of awards and nominations received by Gillian Anderson",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Motion picture awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Motion picture awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Motion picture awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Motion picture awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Motion picture awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.14
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.22
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Television awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Critic awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Critic awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Critic awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Critic awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Theatre Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Theatre Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Theatre Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Theatre Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Special Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Special Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result"
+            ]
+        }
+    ]
+}

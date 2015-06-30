@@ -1,0 +1,204 @@
+{
+    "no. of tables": 2,
+    "page": "List of sovereign states and dependent territories by population density",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowF": 0.0,
+                        "http://dbpedia.org/property/sepLowC": 0.0,
+                        "http://dbpedia.org/property/marLowC": 0.0,
+                        "http://dbpedia.org/property/areaKm": 0.0,
+                        "http://dbpedia.org/property/julLowC": 0.0,
+                        "http://dbpedia.org/property/janLowC": 0.0,
+                        "http://dbpedia.org/property/novLowC": 0.0,
+                        "http://dbpedia.org/property/octRainDays": 0.0,
+                        "http://dbpedia.org/property/latd": 0.0,
+                        "http://dbpedia.org/property/augLowC": 0.0,
+                        "http://dbpedia.org/property/novRecordLowC": 0.0,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/decLowC": 0.0,
+                        "http://dbpedia.org/property/populationDensityRank": 0.13,
+                        "http://dbpedia.org/property/aprLowC": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.0,
+                        "http://dbpedia.org/property/mayLowC": 0.0,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/junLowC": 0.0,
+                        "http://dbpedia.org/property/octLowC": 0.0,
+                        "http://dbpedia.org/property/febLowC": 0.0,
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/property/longd": 0.0
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Pos."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novRainDays": 0.0,
+                        "http://dbpedia.org/property/junRecordLowC": 0.0,
+                        "http://dbpedia.org/property/marRecordLowC": 0.0,
+                        "http://dbpedia.org/property/augRecordLowC": 0.0,
+                        "http://dbpedia.org/property/octRecordLowC": 0.0,
+                        "http://dbpedia.org/property/janRecordLowC": 0.0,
+                        "http://dbpedia.org/property/aprRecordLowC": 0.0,
+                        "http://dbpedia.org/property/areaKm": 0.07,
+                        "http://dbpedia.org/property/febRecordLowC": 0.0,
+                        "http://dbpedia.org/property/febRainDays": 0.0,
+                        "http://dbpedia.org/property/novRecordLowC": 0.0,
+                        "http://dbpedia.org/property/decRecordLowC": 0.0
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.0,
+                        "http://dbpedia.org/property/yearLowC": 0.0,
+                        "http://dbpedia.org/property/mayLowC": 0.0,
+                        "http://dbpedia.org/property/marHighC": 0.0,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/janHighC": 0.0,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/febHighC": 0.0,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.0,
+                        "http://dbpedia.org/property/areaSqMi": 0.06
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Area (mi\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationTotal": 0.0,
+                        "http://dbpedia.org/property/populationEstimate": 0.0
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Population"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/PopulatedPlace/populationDensity": 0.01,
+                        "http://dbpedia.org/property/width": 0.0,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.0,
+                        "http://dbpedia.org/property/symbolWidth": 0.0,
+                        "http://dbpedia.org/property/populationDensityKm": 0.04,
+                        "http://dbpedia.org/ontology/populationDensity": 0.04,
+                        "http://dbpedia.org/property/gdpPppRank": 0.0,
+                        "http://dbpedia.org/property/junRecordHighC": 0.0,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.0,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.0,
+                        "http://dbpedia.org/property/areaRank": 0.0,
+                        "http://dbpedia.org/property/longd": 0.0
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Density\n(pop./km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.0,
+                        "http://dbpedia.org/property/populationDensitySqMi": 0.02,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/property/longd": 0.0
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Density\n(pop./mi\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.02,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02,
+                        "http://dbpedia.org/property/populationCensusYear": 0.01,
+                        "http://dbpedia.org/property/giniYear": 0.0,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.03,
+                        "http://dbpedia.org/property/gdpPppYear": 0.03
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Main table'",
+            "colums": [
+                "Pos.",
+                "Country (or dependent territory)",
+                "Area (km\u00b2)",
+                "Area (mi\u00b2)",
+                "Population",
+                "Density\n(pop./km\u00b2)",
+                "Density\n(pop./mi\u00b2)",
+                "Date",
+                "Population source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensitySqMi": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/gini": 0.02,
+                        "http://dbpedia.org/property/febRainMm": 0.01,
+                        "http://dbpedia.org/property/decSnowDays": 0.01,
+                        "http://dbpedia.org/property/otherSymbol": 0.01,
+                        "http://dbpedia.org/property/ethnicGroups": 0.01,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Pos."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.01,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.01,
+                        "http://dbpedia.org/property/populationDensityKm": 0.07,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/yearRecordLowC": 0.01,
+                        "http://dbpedia.org/ontology/populationDensity": 0.07,
+                        "http://dbpedia.org/property/gdpPppRank": 0.01,
+                        "http://dbpedia.org/property/col": 0.01,
+                        "http://dbpedia.org/property/julRecordLowC": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Density\n(pop./km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensitySqMi": 0.06,
+                        "http://dbpedia.org/property/latm": 0.01
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Density\n(pop./mi\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.03,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.05,
+                        "http://dbpedia.org/property/gdpPppYear": 0.05
+                    },
+                    "subject": "Country (or dependent territory)",
+                    "object": "Date"
+                }
+            ],
+            "table": "Unnamed table in section 'Secondary table'",
+            "colums": [
+                "Pos.",
+                "Country (or dependent territory)",
+                "Area (km\u00b2)",
+                "Area (mi\u00b2)",
+                "Population",
+                "Density\n(pop./km\u00b2)",
+                "Density\n(pop./mi\u00b2)",
+                "Date",
+                "Population source"
+            ]
+        }
+    ]
+}

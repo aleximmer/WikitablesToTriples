@@ -1,0 +1,645 @@
+{
+    "no. of tables": 25,
+    "page": "List of drug-related deaths",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.05,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.05,
+                        "http://dbpedia.org/property/associatedActs": 0.05,
+                        "http://dbpedia.org/property/shortDescription": 0.05,
+                        "http://purl.org/dc/elements/1.1/description": 0.05,
+                        "http://dbpedia.org/property/occupation": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.05,
+                        "http://dbpedia.org/property/pastMembers": 0.05
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.09,
+                        "http://purl.org/dc/elements/1.1/description": 0.11,
+                        "http://dbpedia.org/property/associatedActs": 0.09,
+                        "http://dbpedia.org/property/occupation": 0.13,
+                        "http://dbpedia.org/property/shortDescription": 0.11,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.09,
+                        "http://dbpedia.org/property/pastMembers": 0.04
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.15,
+                        "http://dbpedia.org/ontology/partner": 0.03,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.15,
+                        "http://dbpedia.org/property/associatedActs": 0.12,
+                        "http://dbpedia.org/property/partner": 0.03,
+                        "http://dbpedia.org/property/shortDescription": 0.03,
+                        "http://purl.org/dc/elements/1.1/description": 0.03,
+                        "http://dbpedia.org/property/occupation": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathCause": 0.03,
+                        "http://dbpedia.org/property/deathCause": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Cause of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.12,
+                        "http://dbpedia.org/property/pastMembers": 0.12
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.04,
+                        "http://dbpedia.org/property/associatedActs": 0.04,
+                        "http://purl.org/dc/elements/1.1/description": 0.08,
+                        "http://dbpedia.org/property/occupation": 0.04,
+                        "http://dbpedia.org/property/shortDescription": 0.08,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.2,
+                        "http://dbpedia.org/property/known": 0.2,
+                        "http://purl.org/dc/elements/1.1/description": 0.2,
+                        "http://dbpedia.org/property/occupation": 0.2,
+                        "http://dbpedia.org/property/shortDescription": 0.2,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.4,
+                        "http://dbpedia.org/property/pastMembers": 0.4
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.07,
+                        "http://dbpedia.org/property/associatedActs": 0.07,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.07,
+                        "http://dbpedia.org/property/occupation": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.07,
+                        "http://dbpedia.org/property/pastMembers": 0.14
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.28,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.28,
+                        "http://dbpedia.org/property/associatedActs": 0.17,
+                        "http://dbpedia.org/property/occupation": 0.06,
+                        "http://dbpedia.org/property/shortDescription": 0.06,
+                        "http://purl.org/dc/elements/1.1/description": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.28,
+                        "http://dbpedia.org/property/pastMembers": 0.28
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.11,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.11,
+                        "http://dbpedia.org/property/associatedActs": 0.09,
+                        "http://dbpedia.org/property/occupation": 0.04,
+                        "http://dbpedia.org/property/shortDescription": 0.06,
+                        "http://purl.org/dc/elements/1.1/description": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.11,
+                        "http://dbpedia.org/property/pastMembers": 0.11
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.09,
+                        "http://dbpedia.org/property/associatedActs": 0.09,
+                        "http://purl.org/dc/elements/1.1/description": 0.09,
+                        "http://dbpedia.org/property/occupation": 0.18,
+                        "http://dbpedia.org/property/shortDescription": 0.09,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.18,
+                        "http://dbpedia.org/property/pastMembers": 0.09
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathCause": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Cause of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.07,
+                        "http://dbpedia.org/property/pastMembers": 0.07
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.09,
+                        "http://purl.org/dc/elements/1.1/description": 0.13,
+                        "http://dbpedia.org/property/occupation": 0.04,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.09,
+                        "http://dbpedia.org/property/shortDescription": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.04,
+                        "http://dbpedia.org/property/pastMembers": 0.04
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of Death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.18,
+                        "http://dbpedia.org/property/allegiance": 0.03,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.18,
+                        "http://dbpedia.org/property/associatedActs": 0.13,
+                        "http://dbpedia.org/property/occupation": 0.08,
+                        "http://dbpedia.org/property/shortDescription": 0.08,
+                        "http://purl.org/dc/elements/1.1/description": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.15,
+                        "http://dbpedia.org/property/pastMembers": 0.18
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.33,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.33,
+                        "http://dbpedia.org/property/pastMembers": 0.33
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.14,
+                        "http://dbpedia.org/property/associatedActs": 0.05,
+                        "http://purl.org/dc/elements/1.1/description": 0.14,
+                        "http://dbpedia.org/property/occupation": 0.14,
+                        "http://dbpedia.org/property/shortDescription": 0.14,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.14,
+                        "http://dbpedia.org/property/pastMembers": 0.14
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.5,
+                        "http://dbpedia.org/property/occupation": 0.5,
+                        "http://dbpedia.org/property/shortDescription": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                }
+            ],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.1,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.1,
+                        "http://dbpedia.org/property/associatedActs": 0.1,
+                        "http://dbpedia.org/property/occupation": 0.25,
+                        "http://dbpedia.org/property/shortDescription": 0.15,
+                        "http://purl.org/dc/elements/1.1/description": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.1
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.11,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.11,
+                        "http://dbpedia.org/property/associatedActs": 0.11,
+                        "http://dbpedia.org/property/shortDescription": 0.05,
+                        "http://purl.org/dc/elements/1.1/description": 0.05,
+                        "http://dbpedia.org/property/occupation": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.05,
+                        "http://dbpedia.org/property/pastMembers": 0.05
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.12,
+                        "http://dbpedia.org/property/associatedActs": 0.12,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.12,
+                        "http://dbpedia.org/property/occupation": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.12,
+                        "http://dbpedia.org/property/pastMembers": 0.12
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.14,
+                        "http://dbpedia.org/property/associatedActs": 0.09,
+                        "http://purl.org/dc/elements/1.1/description": 0.14,
+                        "http://dbpedia.org/property/occupation": 0.14,
+                        "http://dbpedia.org/property/shortDescription": 0.09,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Profession"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.05,
+                        "http://dbpedia.org/property/pastMembers": 0.05,
+                        "http://dbpedia.org/ontology/bandMember": 0.05,
+                        "http://dbpedia.org/property/currentMembers": 0.05
+                    },
+                    "subject": "Profession",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Name",
+                "Life",
+                "Profession",
+                "Cause of death",
+                "Reference"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1473 @@
+{
+    "no. of tables": 68,
+    "page": "List of computer system emulators",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '64-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 1.0,
+                        "http://dbpedia.org/property/operatingSystem": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 1.0,
+                        "http://dbpedia.org/property/license": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '64-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                }
+            ],
+            "table": "Unnamed table in section '64-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '64-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.2,
+                        "http://dbpedia.org/ontology/latestPreviewVersion": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.2,
+                        "http://dbpedia.org/property/operatingSystem": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.2,
+                        "http://dbpedia.org/property/license": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '64-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '60-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '48-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '36-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '36-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '36-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.25,
+                        "http://dbpedia.org/property/operatingSystem": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.5,
+                        "http://dbpedia.org/property/license": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "System",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Platform",
+                    "object": "System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.25
+                    },
+                    "subject": "Platform",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/license": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.21
+                    },
+                    "subject": "System",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.33,
+                        "http://dbpedia.org/property/license": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.22,
+                        "http://dbpedia.org/property/license": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.25,
+                        "http://dbpedia.org/ontology/latestPreviewVersion": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.5,
+                        "http://dbpedia.org/property/operatingSystem": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.75,
+                        "http://dbpedia.org/property/license": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/supportedPlatforms": 0.25
+                    },
+                    "subject": "Platform",
+                    "object": "System"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.33,
+                        "http://dbpedia.org/property/license": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '32-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '24-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '24-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '20-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '20-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '18-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '18-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '16-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '12-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.05,
+                        "http://dbpedia.org/property/license": 0.05
+                    },
+                    "subject": "Platform",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.08,
+                        "http://dbpedia.org/property/operatingSystem": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.08,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.04,
+                        "http://dbpedia.org/property/license": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.15,
+                        "http://dbpedia.org/property/license": 0.04
+                    },
+                    "subject": "Platform",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.12,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.12,
+                        "http://dbpedia.org/property/license": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.2,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.2,
+                        "http://dbpedia.org/property/license": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.06,
+                        "http://dbpedia.org/property/operatingSystem": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.12,
+                        "http://dbpedia.org/property/license": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12
+                    },
+                    "subject": "System",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.11
+                    },
+                    "subject": "System",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Actual version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.04,
+                        "http://dbpedia.org/property/license": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/license": 0.04
+                    },
+                    "subject": "Actual version",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/license": 0.04
+                    },
+                    "subject": "Platform",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operatingSystem": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section '8-bit systems'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'PDAs and smartphones'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Calculators'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.14,
+                        "http://dbpedia.org/property/license": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section 'Calculators'",
+            "colums": [
+                "Name",
+                "Actual version",
+                "Last release",
+                "System",
+                "Platform",
+                "License",
+                "Link"
+            ]
+        }
+    ]
+}

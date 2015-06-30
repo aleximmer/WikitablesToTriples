@@ -1,0 +1,420 @@
+{
+    "no. of tables": 9,
+    "page": "List of mountains in Norway by height",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/listing": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.84,
+                        "http://dbpedia.org/ontology/elevation": 0.84
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.56,
+                        "http://dbpedia.org/ontology/prominence": 0.56
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.84,
+                        "http://dbpedia.org/property/location": 0.76
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.04,
+                        "http://dbpedia.org/property/fremskrittspartiet": 0.04,
+                        "http://dbpedia.org/property/longs": 0.04,
+                        "http://dbpedia.org/property/h%C3%B8yre": 0.04,
+                        "http://dbpedia.org/property/populationDensityKm": 0.04,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04
+                    },
+                    "subject": "Topo map",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Elevation\n(ft)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longM": 0.04,
+                        "http://dbpedia.org/property/latM": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.5,
+                        "http://dbpedia.org/ontology/elevation": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.42,
+                        "http://dbpedia.org/ontology/prominence": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.54,
+                        "http://dbpedia.org/property/location": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.04,
+                        "http://dbpedia.org/property/lats": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationTotal": 0.04,
+                        "http://dbpedia.org/ontology/populationTotal": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Elevation\n(m)"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.48,
+                        "http://dbpedia.org/ontology/elevation": 0.48
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.28,
+                        "http://dbpedia.org/ontology/prominence": 0.28
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.32,
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Prominence\n(m)"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.32,
+                        "http://dbpedia.org/ontology/elevation": 0.32
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.04,
+                        "http://dbpedia.org/ontology/prominence": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.12,
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Prominence\n(m)"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.24,
+                        "http://dbpedia.org/ontology/elevation": 0.24
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.28,
+                        "http://dbpedia.org/ontology/prominence": 0.28
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.28,
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.16,
+                        "http://dbpedia.org/ontology/elevation": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.16,
+                        "http://dbpedia.org/ontology/prominence": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.2,
+                        "http://dbpedia.org/property/location": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.24,
+                        "http://dbpedia.org/ontology/elevation": 0.24
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.16,
+                        "http://dbpedia.org/ontology/prominence": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.24,
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.42,
+                        "http://dbpedia.org/ontology/elevation": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Elevation\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prominenceM": 0.42,
+                        "http://dbpedia.org/ontology/prominence": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Prominence\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.23,
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayorAsOf": 0.04,
+                        "http://dbpedia.org/property/populationAsOf": 0.08
+                    },
+                    "subject": "Municipality",
+                    "object": "Elevation\n(m)"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest peaks in Norway with prominence above 50 m'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Elevation\n(m)",
+                "Prominence\n(m)",
+                "Municipality",
+                "Topo map",
+                "Isolation\n(m)",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Cross tabulation of Norwegian peaks by height and primary factor (topographic prominence)",
+            "colums": [
+                "Height",
+                ">2400 m",
+                ">2300 m",
+                ">2200 m",
+                ">2100 m",
+                ">2000 m"
+            ]
+        }
+    ]
+}

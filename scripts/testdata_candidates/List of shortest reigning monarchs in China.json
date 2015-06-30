@@ -1,0 +1,564 @@
+{
+    "no. of tables": 6,
+    "page": "List of shortest-reigning monarchs",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.07,
+                        "http://dbpedia.org/property/shortDescription": 0.07,
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.13,
+                        "http://dbpedia.org/property/dynasty": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.13,
+                        "http://dbpedia.org/property/dateOfDeath": 0.13,
+                        "http://dbpedia.org/property/years": 0.47
+                    },
+                    "subject": "Name",
+                    "object": "Reign began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.4,
+                        "http://dbpedia.org/property/years": 0.13,
+                        "http://dbpedia.org/property/deathDate": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Reign ended"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mother": 0.07,
+                        "http://dbpedia.org/ontology/predecessor": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearStart": 0.07,
+                        "http://dbpedia.org/property/yearLeader": 0.07
+                    },
+                    "subject": "Country",
+                    "object": "Reign began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.07
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Reign began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Reign ended"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/succeeded": 0.07
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/child": 0.07,
+                        "http://dbpedia.org/ontology/successor": 0.2,
+                        "http://dbpedia.org/property/successor": 0.2,
+                        "http://dbpedia.org/property/after": 0.13
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/as": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preceded": 0.07,
+                        "http://dbpedia.org/property/dynasty": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.07,
+                        "http://dbpedia.org/property/dateOfDeath": 0.13,
+                        "http://dbpedia.org/property/deathDate": 0.07,
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Reign began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Reign ended"
+                }
+            ],
+            "table": "Unnamed table in section 'Obscure monarchs thought to reign less than a year'",
+            "colums": [
+                "Name",
+                "Country",
+                "Royal house/dynasty",
+                "Reign began",
+                "Reign ended",
+                "Length",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/property/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.03,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/royalHouse": 0.07,
+                        "http://dbpedia.org/property/house": 0.24,
+                        "http://dbpedia.org/property/years": 0.07,
+                        "http://dbpedia.org/property/dynasty": 0.1,
+                        "http://dbpedia.org/property/title": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.03,
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Reign began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.03,
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Reign ended"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.14,
+                        "http://dbpedia.org/ontology/successor": 0.03,
+                        "http://dbpedia.org/ontology/parent": 0.1,
+                        "http://dbpedia.org/ontology/predecessor": 0.17,
+                        "http://dbpedia.org/property/successor": 0.03,
+                        "http://dbpedia.org/property/father": 0.1,
+                        "http://dbpedia.org/property/before": 0.03,
+                        "http://dbpedia.org/property/regent": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leader": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/family": 0.03,
+                        "http://dbpedia.org/property/titleLeader": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leader": 0.07,
+                        "http://dbpedia.org/property/firstMonarch": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cadetBranches": 0.03,
+                        "http://dbpedia.org/property/leader": 0.03
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/titles": 0.03,
+                        "http://dbpedia.org/property/founder": 0.03,
+                        "http://dbpedia.org/property/country": 0.07,
+                        "http://dbpedia.org/property/titleLeader": 0.03,
+                        "http://dbpedia.org/property/title": 0.03
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.07
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.03,
+                        "http://dbpedia.org/ontology/successor": 0.14,
+                        "http://dbpedia.org/ontology/monarch": 0.03,
+                        "http://dbpedia.org/property/monarch": 0.03,
+                        "http://dbpedia.org/ontology/predecessor": 0.03,
+                        "http://dbpedia.org/property/after": 0.03,
+                        "http://dbpedia.org/property/successor": 0.07,
+                        "http://dbpedia.org/property/issue": 0.1,
+                        "http://dbpedia.org/property/predecessor": 0.03
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/succession": 0.03,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/royalHouse": 0.07,
+                        "http://dbpedia.org/property/house": 0.17,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03
+                    },
+                    "subject": "Comments",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.03
+                    },
+                    "subject": "Comments",
+                    "object": "Reign began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.03
+                    },
+                    "subject": "Comments",
+                    "object": "Reign ended"
+                }
+            ],
+            "table": "Unnamed table in section 'Less than a month'",
+            "colums": [
+                "Name",
+                "Country",
+                "Royal house/dynasty",
+                "Reign began",
+                "Reign ended",
+                "Length",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/royalHouse": 0.08,
+                        "http://dbpedia.org/property/house": 0.17,
+                        "http://dbpedia.org/property/title": 0.17,
+                        "http://dbpedia.org/property/dynasty": 0.17,
+                        "http://dbpedia.org/property/office": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.33,
+                        "http://dbpedia.org/property/before": 0.25,
+                        "http://dbpedia.org/ontology/parent": 0.17,
+                        "http://dbpedia.org/ontology/successor": 0.08,
+                        "http://dbpedia.org/property/father": 0.17,
+                        "http://dbpedia.org/ontology/predecessor": 0.33,
+                        "http://dbpedia.org/property/successor": 0.08,
+                        "http://dbpedia.org/property/after": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.08,
+                        "http://dbpedia.org/property/popplace": 0.08,
+                        "http://dbpedia.org/property/titles": 0.08,
+                        "http://dbpedia.org/property/estate": 0.08
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.08,
+                        "http://dbpedia.org/ontology/successor": 0.33,
+                        "http://dbpedia.org/property/next": 0.08,
+                        "http://dbpedia.org/ontology/predecessor": 0.08,
+                        "http://dbpedia.org/property/predecessor": 0.08,
+                        "http://dbpedia.org/property/successor": 0.25,
+                        "http://dbpedia.org/property/issue": 0.08,
+                        "http://dbpedia.org/property/after": 0.33
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08
+                    },
+                    "subject": "Comments",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/house": 0.25,
+                        "http://dbpedia.org/property/title": 0.08,
+                        "http://dbpedia.org/property/dynasty": 0.08
+                    },
+                    "subject": "Comments",
+                    "object": "Royal house/dynasty"
+                }
+            ],
+            "table": "Unnamed table in section 'Less than a week'",
+            "colums": [
+                "Name",
+                "Country",
+                "Royal house/dynasty",
+                "Reign began",
+                "Reign ended",
+                "Length",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/placeOfBirth": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/house": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/succession": 0.33,
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33,
+                        "http://dbpedia.org/property/titleLeader": 0.33
+                    },
+                    "subject": "Country",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/titleDeputy": 0.33
+                    },
+                    "subject": "Country",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.33,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33,
+                        "http://dbpedia.org/property/titleLeader": 0.33,
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.33,
+                        "http://dbpedia.org/property/commander": 0.33
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.33
+                    },
+                    "subject": "Comments",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.33
+                    },
+                    "subject": "Comments",
+                    "object": "Royal house/dynasty"
+                }
+            ],
+            "table": "Unnamed table in section 'Less than a day'",
+            "colums": [
+                "Name",
+                "Country",
+                "Royal house/dynasty",
+                "Reign began",
+                "Reign ended",
+                "Length",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ffh": 0.5,
+                        "http://dbpedia.org/property/house": 1.0,
+                        "http://dbpedia.org/property/mmh": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.5,
+                        "http://dbpedia.org/property/before": 0.5,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/property/f": 0.5,
+                        "http://dbpedia.org/ontology/predecessor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.5
+                    },
+                    "subject": "Country",
+                    "object": "Royal house/dynasty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.5
+                    },
+                    "subject": "Royal house/dynasty",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 1.0,
+                        "http://dbpedia.org/property/after": 0.5
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Comments",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/house": 0.5
+                    },
+                    "subject": "Comments",
+                    "object": "Royal house/dynasty"
+                }
+            ],
+            "table": "Unnamed table in section 'Less than an hour'",
+            "colums": [
+                "Name",
+                "Country",
+                "Royal house/dynasty",
+                "Reign began",
+                "Reign ended",
+                "Length",
+                "Comments"
+            ]
+        }
+    ]
+}

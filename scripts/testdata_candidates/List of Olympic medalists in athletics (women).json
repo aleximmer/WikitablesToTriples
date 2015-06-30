@@ -1,0 +1,292 @@
+{
+    "page": "List of Olympic medalists in athletics (women)",
+    "no. of tables": 27,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.06,
+                        "http://dbpedia.org/property/before": 0.06
+                    },
+                    "subject": "Silver",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.06
+                    },
+                    "subject": "Bronze",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.06
+                    },
+                    "subject": "Bronze",
+                    "object": "Silver"
+                }
+            ],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.08
+                    },
+                    "subject": "Silver",
+                    "object": "Bronze"
+                }
+            ],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.06,
+                        "http://dbpedia.org/property/before": 0.06
+                    },
+                    "subject": "Gold",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.06,
+                        "http://dbpedia.org/property/before": 0.06
+                    },
+                    "subject": "Silver",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.06,
+                        "http://dbpedia.org/property/before": 0.06
+                    },
+                    "subject": "Silver",
+                    "object": "Bronze"
+                }
+            ],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Current program'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Discontinued events'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Discontinued events'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Discontinued events'",
+            "predicates": [],
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Conversions of distances'",
+            "predicates": [],
+            "colums": [
+                "meters",
+                "yards",
+                "kilo-\nmeters",
+                "miles"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1137 @@
+{
+    "no. of tables": 36,
+    "page": "List of aircraft of World War II",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.08,
+                        "http://dbpedia.org/property/introduced": 0.56,
+                        "http://dbpedia.org/property/produced": 0.16
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.08,
+                        "http://dbpedia.org/ontology/origin": 0.08
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.04
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Operator(s)\nif different from country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.08,
+                        "http://dbpedia.org/property/introduced": 0.42,
+                        "http://dbpedia.org/property/firstFlight": 0.01,
+                        "http://dbpedia.org/property/produced": 0.18,
+                        "http://dbpedia.org/property/retired": 0.03
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.03,
+                        "http://dbpedia.org/property/nationalOrigin": 0.06,
+                        "http://dbpedia.org/ontology/origin": 0.09
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.15,
+                        "http://dbpedia.org/property/introduced": 0.3,
+                        "http://dbpedia.org/property/produced": 0.21,
+                        "http://dbpedia.org/property/retired": 0.03
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.06,
+                        "http://dbpedia.org/ontology/origin": 0.06
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/commonName": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Country of origin",
+                    "object": "Operator(s)\nif different from country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.14,
+                        "http://dbpedia.org/property/introduced": 0.14,
+                        "http://dbpedia.org/property/retired": 0.14
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.06,
+                        "http://dbpedia.org/property/introduced": 0.17,
+                        "http://dbpedia.org/property/produced": 0.33
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.06,
+                        "http://dbpedia.org/ontology/origin": 0.06
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moreUsers": 0.06
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Operator(s)\nif different from country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "Operator(s)\nif different from country of origin",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.16,
+                        "http://dbpedia.org/property/introduced": 0.32,
+                        "http://dbpedia.org/property/firstFlight": 0.03,
+                        "http://dbpedia.org/property/produced": 0.1,
+                        "http://dbpedia.org/property/retired": 0.01
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.03,
+                        "http://dbpedia.org/property/nationalOrigin": 0.06,
+                        "http://dbpedia.org/ontology/origin": 0.06
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.11,
+                        "http://dbpedia.org/property/introduced": 0.38,
+                        "http://dbpedia.org/property/produced": 0.17,
+                        "http://dbpedia.org/property/introduction": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.02,
+                        "http://dbpedia.org/ontology/origin": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.08,
+                        "http://dbpedia.org/property/introduced": 0.46,
+                        "http://dbpedia.org/property/produced": 0.21,
+                        "http://dbpedia.org/property/introduction": 0.04
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.17,
+                        "http://dbpedia.org/ontology/origin": 0.21
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.07,
+                        "http://dbpedia.org/property/introduced": 0.37,
+                        "http://dbpedia.org/property/produced": 0.22,
+                        "http://dbpedia.org/property/introduction": 0.04
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.04,
+                        "http://dbpedia.org/ontology/origin": 0.07
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.13,
+                        "http://dbpedia.org/property/introduced": 0.33,
+                        "http://dbpedia.org/property/produced": 0.2
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.03
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.1,
+                        "http://dbpedia.org/property/introduced": 0.31,
+                        "http://dbpedia.org/property/firstFlight": 0.11,
+                        "http://dbpedia.org/property/produced": 0.1
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.08,
+                        "http://dbpedia.org/ontology/origin": 0.08
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.09,
+                        "http://dbpedia.org/property/introduced": 0.3,
+                        "http://dbpedia.org/property/introduction": 0.09,
+                        "http://dbpedia.org/property/produced": 0.09,
+                        "http://dbpedia.org/property/retired": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.04,
+                        "http://dbpedia.org/property/nationalOrigin": 0.09,
+                        "http://dbpedia.org/ontology/origin": 0.13
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Operator(s)\nif different from country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/property/commonName": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Country of origin",
+                    "object": "Operator(s)\nif different from country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduction": 0.09,
+                        "http://dbpedia.org/property/introduced": 0.42,
+                        "http://dbpedia.org/property/firstFlight": 0.04,
+                        "http://dbpedia.org/property/produced": 0.16
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.02,
+                        "http://dbpedia.org/property/nationalOrigin": 0.13,
+                        "http://dbpedia.org/ontology/origin": 0.13
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/property/commonName": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Country of origin",
+                    "object": "Operator(s)\nif different from country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.31,
+                        "http://dbpedia.org/property/introduced": 0.3,
+                        "http://dbpedia.org/property/produced": 0.19,
+                        "http://dbpedia.org/property/introduction": 0.03
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.05,
+                        "http://dbpedia.org/ontology/origin": 0.05
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.25,
+                        "http://dbpedia.org/property/introduction": 0.17,
+                        "http://dbpedia.org/property/produced": 0.25,
+                        "http://dbpedia.org/property/introduced": 0.25
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.08,
+                        "http://dbpedia.org/ontology/origin": 0.08
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.19,
+                        "http://dbpedia.org/property/introduced": 0.5,
+                        "http://dbpedia.org/property/retired": 0.06,
+                        "http://dbpedia.org/property/produced": 0.38,
+                        "http://dbpedia.org/property/introduction": 0.06
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.25,
+                        "http://dbpedia.org/property/nationalOrigin": 0.06,
+                        "http://dbpedia.org/ontology/origin": 0.19
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.29,
+                        "http://dbpedia.org/property/introduced": 0.14,
+                        "http://dbpedia.org/property/produced": 0.14
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.14,
+                        "http://dbpedia.org/ontology/origin": 0.43
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.16,
+                        "http://dbpedia.org/property/introduced": 0.43,
+                        "http://dbpedia.org/property/numberBuilt": 0.02,
+                        "http://dbpedia.org/property/introduction": 0.02,
+                        "http://dbpedia.org/property/produced": 0.16,
+                        "http://dbpedia.org/ontology/numberBuilt": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.11,
+                        "http://dbpedia.org/ontology/origin": 0.11
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.15,
+                        "http://dbpedia.org/property/introduction": 0.04,
+                        "http://dbpedia.org/property/produced": 0.09,
+                        "http://dbpedia.org/property/introduced": 0.36
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.09,
+                        "http://dbpedia.org/ontology/origin": 0.09
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearRepresentative": 0.02,
+                        "http://dbpedia.org/property/yearLeader": 0.02,
+                        "http://dbpedia.org/property/statYear": 0.02
+                    },
+                    "subject": "Country of origin",
+                    "object": "Year\nin service"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.11,
+                        "http://dbpedia.org/property/introduced": 0.37,
+                        "http://dbpedia.org/property/produced": 0.32
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.05,
+                        "http://dbpedia.org/ontology/origin": 0.11
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/iso3166code": 0.05
+                    },
+                    "subject": "Country of origin",
+                    "object": "Operator(s)\nif different from country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.13,
+                        "http://dbpedia.org/property/introduced": 0.4,
+                        "http://dbpedia.org/property/produced": 0.2
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.07,
+                        "http://dbpedia.org/property/nationalOrigin": 0.07,
+                        "http://dbpedia.org/ontology/origin": 0.07
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduced": 0.38,
+                        "http://dbpedia.org/property/produced": 0.12
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.25,
+                        "http://dbpedia.org/property/introduced": 0.25
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduced": 0.25,
+                        "http://dbpedia.org/property/retired": 0.12,
+                        "http://dbpedia.org/property/service": 0.12
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nin service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/origin": 0.12
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Operational aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nin service",
+                "Country of origin",
+                "Operator(s)\nif different from country of origin"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.05,
+                        "http://dbpedia.org/property/produced": 0.12,
+                        "http://dbpedia.org/property/retired": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.21,
+                        "http://dbpedia.org/ontology/origin": 0.19
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLeader": 0.02
+                    },
+                    "subject": "Country of origin",
+                    "object": "Year\nfirst flight"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.06,
+                        "http://dbpedia.org/property/introduced": 0.03
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.19,
+                        "http://dbpedia.org/ontology/origin": 0.19
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.13,
+                        "http://dbpedia.org/property/introduced": 0.08,
+                        "http://dbpedia.org/property/produced": 0.08
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.21,
+                        "http://dbpedia.org/ontology/origin": 0.23
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLeader": 0.06
+                    },
+                    "subject": "Country of origin",
+                    "object": "Year\nfirst flight"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.07,
+                        "http://dbpedia.org/property/introduced": 0.13,
+                        "http://dbpedia.org/property/produced": 0.07
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.2,
+                        "http://dbpedia.org/ontology/origin": 0.2
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developedFrom": 0.07
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.33
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.05,
+                        "http://dbpedia.org/ontology/origin": 0.1
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.42,
+                        "http://dbpedia.org/property/introduced": 0.21,
+                        "http://dbpedia.org/property/produced": 0.11
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.16,
+                        "http://dbpedia.org/ontology/origin": 0.16
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.56
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.22,
+                        "http://dbpedia.org/ontology/origin": 0.22
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/productionDate": 0.22
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/origin": 0.22,
+                        "http://dbpedia.org/property/origin": 0.11
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.14,
+                        "http://dbpedia.org/property/produced": 0.07
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.03,
+                        "http://dbpedia.org/property/nationalOrigin": 0.21,
+                        "http://dbpedia.org/ontology/origin": 0.21
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developedFrom": 0.03,
+                        "http://dbpedia.org/ontology/predecessor": 0.03
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLeader": 0.03
+                    },
+                    "subject": "Country of origin",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Name of aircraft"
+                }
+            ],
+            "table": "Unnamed table in section 'Prototypes'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.18,
+                        "http://dbpedia.org/property/introduced": 0.05,
+                        "http://dbpedia.org/property/produced": 0.09
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.09,
+                        "http://dbpedia.org/ontology/origin": 0.09
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developedInto": 0.05,
+                        "http://dbpedia.org/property/type": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/variantsWithTheirOwnArticles": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developedFrom": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/variantsWithTheirOwnArticles": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Name of aircraft"
+                }
+            ],
+            "table": "Unnamed table in section 'Experimental aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstFlight": 0.2,
+                        "http://dbpedia.org/property/introduced": 0.2
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                }
+            ],
+            "table": "Unnamed table in section 'Experimental aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/introduced": 0.33
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Year\nfirst flight"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.33,
+                        "http://dbpedia.org/ontology/origin": 0.67
+                    },
+                    "subject": "Name of aircraft",
+                    "object": "Country of origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Experimental aircraft'",
+            "colums": [
+                "Name of aircraft",
+                "Year\nfirst flight",
+                "Country of origin",
+                "Notes"
+            ]
+        }
+    ]
+}

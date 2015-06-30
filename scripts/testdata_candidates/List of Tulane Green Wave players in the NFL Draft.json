@@ -1,0 +1,245 @@
+{
+    "no. of tables": 4,
+    "page": "List of Tulane Green Wave players in the NFL Draft",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nfldraftedyear": 0.12,
+                        "http://dbpedia.org/property/years": 0.12,
+                        "http://dbpedia.org/property/afldraftedyear": 0.12
+                    },
+                    "subject": "Player name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nfldraftedpick": 0.12,
+                        "http://dbpedia.org/property/afldraftedround": 0.25,
+                        "http://dbpedia.org/property/nfldraftedround": 0.12
+                    },
+                    "subject": "Player name",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afldraftedpick": 0.12
+                    },
+                    "subject": "Player name",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afldraftedpick": 0.25
+                    },
+                    "subject": "Player name",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/noConfChamps": 0.12
+                    },
+                    "subject": "AFL team[A 3]",
+                    "object": "Pick"
+                }
+            ],
+            "table": "Unnamed table in section 'Drafts'",
+            "colums": [
+                "Year",
+                "Round",
+                "Pick",
+                "Overall",
+                "Player name",
+                "Position",
+                "AFL team[A 3]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/note": 0.01,
+                        "http://dbpedia.org/property/round": 0.07,
+                        "http://dbpedia.org/property/picknum": 0.07,
+                        "http://dbpedia.org/property/time": 0.01,
+                        "http://dbpedia.org/property/fewest": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/round": 0.01,
+                        "http://dbpedia.org/property/picknum": 0.07,
+                        "http://dbpedia.org/property/note": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/picknum": 0.07
+                    },
+                    "subject": "Year",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.03
+                    },
+                    "subject": "Year",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.02,
+                        "http://dbpedia.org/property/team": 0.18,
+                        "http://dbpedia.org/property/most": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "NFL team[A 3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afldraftedyear": 0.01,
+                        "http://dbpedia.org/property/debutyear": 0.03,
+                        "http://dbpedia.org/property/draftyear": 0.07,
+                        "http://dbpedia.org/property/draftedyear": 0.01,
+                        "http://dbpedia.org/property/years": 0.04,
+                        "http://dbpedia.org/property/nfldraftedyear": 0.01
+                    },
+                    "subject": "Player name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nfldraftedpick": 0.01,
+                        "http://dbpedia.org/property/afldraftedround": 0.01,
+                        "http://dbpedia.org/property/draftedround": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/inches": 0.01,
+                        "http://dbpedia.org/property/heightIn": 0.01,
+                        "http://dbpedia.org/ontology/supplementalDraftRound": 0.01,
+                        "http://dbpedia.org/property/draftround": 0.19,
+                        "http://dbpedia.org/property/statvalue": 0.01,
+                        "http://dbpedia.org/property/nfldraftedround": 0.04,
+                        "http://dbpedia.org/property/heightin": 0.01,
+                        "http://dbpedia.org/property/suppdraftround": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/draftRound": 0.19,
+                        "http://dbpedia.org/property/rivalsStars": 0.01
+                    },
+                    "subject": "Player name",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nfldraftedpick": 0.01,
+                        "http://dbpedia.org/property/draftround": 0.01,
+                        "http://dbpedia.org/property/draftedround": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/nfldraftedround": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/draftpick": 0.01,
+                        "http://dbpedia.org/ontology/draftRound": 0.01,
+                        "http://dbpedia.org/property/afldraftedround": 0.01,
+                        "http://dbpedia.org/ontology/draftPick": 0.01
+                    },
+                    "subject": "Player name",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nfldraftedpick": 0.04,
+                        "http://dbpedia.org/property/afldraftedround": 0.01,
+                        "http://dbpedia.org/property/suppdraftpick": 0.01,
+                        "http://dbpedia.org/ontology/draftPick": 0.18,
+                        "http://dbpedia.org/property/draftedpick": 0.01,
+                        "http://dbpedia.org/ontology/number": 0.01,
+                        "http://dbpedia.org/property/number": 0.01,
+                        "http://dbpedia.org/property/draftpick": 0.18,
+                        "http://dbpedia.org/property/nfldraftedround": 0.01
+                    },
+                    "subject": "Player name",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerTeams": 0.01,
+                        "http://dbpedia.org/property/currentteam": 0.01,
+                        "http://dbpedia.org/property/nfldraftedteam": 0.01,
+                        "http://dbpedia.org/ontology/debutTeam": 0.01,
+                        "http://dbpedia.org/ontology/formerTeam": 0.01,
+                        "http://dbpedia.org/property/debutteam": 0.05,
+                        "http://dbpedia.org/ontology/team": 0.02
+                    },
+                    "subject": "Player name",
+                    "object": "NFL team[A 3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nflStartYr": 0.01,
+                        "http://dbpedia.org/property/founded": 0.01
+                    },
+                    "subject": "NFL team[A 3]",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/noSbChamps": 0.01
+                    },
+                    "subject": "NFL team[A 3]",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/noLeagueChamps": 0.01,
+                        "http://dbpedia.org/property/noConfChamps": 0.03
+                    },
+                    "subject": "NFL team[A 3]",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/noPlayoffAppearances": 0.01
+                    },
+                    "subject": "NFL team[A 3]",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/homeQtr": 0.01,
+                        "http://dbpedia.org/property/visitorQtr": 0.01,
+                        "http://dbpedia.org/property/quarter": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/homeQtr": 0.01,
+                        "http://dbpedia.org/property/visitorQtr": 0.01,
+                        "http://dbpedia.org/property/homeTotal": 0.01,
+                        "http://dbpedia.org/property/r": 0.01,
+                        "http://dbpedia.org/property/home": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Pick"
+                }
+            ],
+            "table": "Unnamed table in section 'Drafts'",
+            "colums": [
+                "Year",
+                "Round",
+                "Pick",
+                "Overall",
+                "Player name",
+                "Position",
+                "NFL team[A 3]",
+                "Notes"
+            ]
+        }
+    ]
+}

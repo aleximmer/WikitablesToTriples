@@ -1,0 +1,605 @@
+{
+    "no. of tables": 23,
+    "page": "List of Top Gear episodes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.1,
+                        "http://dbpedia.org/property/engine": 0.1,
+                        "http://dbpedia.org/property/transmission": 0.1
+                    },
+                    "subject": "Reviews",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.1,
+                        "http://dbpedia.org/property/engine": 0.1,
+                        "http://dbpedia.org/property/transmission": 0.1
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features/challenges",
+                "Guest(s)",
+                "Original air date",
+                "UK viewers\n(million)[2]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.2
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.1
+                    },
+                    "subject": "Guest(s)",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features/challenges",
+                "Guest(s)",
+                "Original air date",
+                "UK viewers\n(million)[3]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/engine": 0.11
+                    },
+                    "subject": "Features/challenges",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features/challenges",
+                "Guest(s)",
+                "Original air date",
+                "UK viewers\n(million)[5]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.2
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/childScore": 0.1
+                    },
+                    "subject": "Features/challenges",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features/challenges",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[6]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.11,
+                        "http://dbpedia.org/property/engine": 0.11
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[7]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/consChamp": 0.09,
+                        "http://dbpedia.org/property/gears": 0.09
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/engine": 0.09
+                    },
+                    "subject": "Features",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[8]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.14
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wins": 0.14
+                    },
+                    "subject": "Guest",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[9]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/children": 0.12
+                    },
+                    "subject": "Guest",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[11]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/transmission": 0.17
+                    },
+                    "subject": "Features",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[12]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1
+                    },
+                    "subject": "Reviews",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wins": 0.1,
+                        "http://dbpedia.org/property/transmission": 0.1
+                    },
+                    "subject": "Features",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[14]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/transmission": 0.17
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/children": 0.33
+                    },
+                    "subject": "Guest",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[19]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[21]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[22]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.14
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[24]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gears": 0.17
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/children": 0.17
+                    },
+                    "subject": "Guest",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[25]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/transmission": 0.12
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.12,
+                        "http://dbpedia.org/property/transmission": 0.12
+                    },
+                    "subject": "Features",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[28]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageAlt": 0.17,
+                        "http://dbpedia.org/property/imageSkyline": 0.17,
+                        "http://dbpedia.org/property/safetyPoints": 0.17
+                    },
+                    "subject": "Features",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[31]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.12,
+                        "http://dbpedia.org/property/adultStars": 0.12,
+                        "http://dbpedia.org/property/transmission": 0.12
+                    },
+                    "subject": "Reviews",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Reviews",
+                "Features/Challenges",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[32]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.14,
+                        "http://dbpedia.org/property/engine": 0.14
+                    },
+                    "subject": "Review",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.14,
+                        "http://dbpedia.org/property/transmission": 0.29
+                    },
+                    "subject": "Features/Challenges",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/lastPosition": 0.14,
+                        "http://dbpedia.org/property/lastPosition": 0.14
+                    },
+                    "subject": "Guest",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Review",
+                "Features/Challenges",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[36]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.17,
+                        "http://dbpedia.org/property/motor": 0.17
+                    },
+                    "subject": "Review",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.17
+                    },
+                    "subject": "Features/Challenges",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Review",
+                "Features/Challenges",
+                "Guest",
+                "Original air date",
+                "UK viewers\n(million)[39]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.14,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14
+                    },
+                    "subject": "Review",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Review",
+                "Features/challenges",
+                "Guest",
+                "Original air date",
+                "UK viewers (million)[40]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.1,
+                        "http://dbpedia.org/property/engine": 0.1
+                    },
+                    "subject": "Review",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.1,
+                        "http://dbpedia.org/property/engine": 0.2,
+                        "http://dbpedia.org/property/senateSeats": 0.1,
+                        "http://dbpedia.org/property/transmission": 0.1,
+                        "http://dbpedia.org/property/houseSeats": 0.1,
+                        "http://dbpedia.org/property/senateseats": 0.1,
+                        "http://dbpedia.org/property/maySnowDays": 0.1
+                    },
+                    "subject": "Features/challenges",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/carNumber": 0.1,
+                        "http://dbpedia.org/property/2014CarNumber": 0.1
+                    },
+                    "subject": "Guest",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "Total",
+                "No.",
+                "Title",
+                "Review",
+                "Features/challenges",
+                "Guest",
+                "Original air date",
+                "UK viewers (million)[41]"
+            ]
+        }
+    ]
+}

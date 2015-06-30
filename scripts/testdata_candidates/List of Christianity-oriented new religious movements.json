@@ -1,0 +1,135 @@
+{
+    "no. of tables": 1,
+    "page": "List of new religious movements",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.03,
+                        "http://dbpedia.org/ontology/foundedBy": 0.01,
+                        "http://dbpedia.org/ontology/author": 0.0,
+                        "http://dbpedia.org/property/spiritualFounder": 0.0,
+                        "http://dbpedia.org/property/foundingGuru": 0.0,
+                        "http://dbpedia.org/property/founders": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/separations": 0.0,
+                        "http://dbpedia.org/property/leader": 0.0,
+                        "http://dbpedia.org/ontology/keyPerson": 0.01,
+                        "http://dbpedia.org/property/founder": 0.06,
+                        "http://dbpedia.org/property/caption": 0.0,
+                        "http://dbpedia.org/property/data": 0.0,
+                        "http://dbpedia.org/property/keyPeople": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Founder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundingYear": 0.0,
+                        "http://dbpedia.org/property/foundedDate": 0.06,
+                        "http://dbpedia.org/property/formation": 0.02,
+                        "http://dbpedia.org/property/yearsActive": 0.0,
+                        "http://dbpedia.org/property/releaseDate": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Year founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/theology": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/orientation": 0.03,
+                        "http://dbpedia.org/property/parentOrganization": 0.0,
+                        "http://dbpedia.org/ontology/type": 0.01,
+                        "http://dbpedia.org/property/type": 0.01,
+                        "http://dbpedia.org/property/separatedFrom": 0.01,
+                        "http://dbpedia.org/ontology/parentOrganisation": 0.0,
+                        "http://dbpedia.org/property/schoolTradition": 0.0,
+                        "http://dbpedia.org/property/mainClassification": 0.0,
+                        "http://dbpedia.org/ontology/philosophicalSchool": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/religion": 0.04,
+                        "http://dbpedia.org/ontology/religion": 0.06,
+                        "http://dbpedia.org/ontology/knownFor": 0.06,
+                        "http://dbpedia.org/ontology/notableIdea": 0.0,
+                        "http://dbpedia.org/property/order": 0.0,
+                        "http://dbpedia.org/property/after": 0.0,
+                        "http://dbpedia.org/ontology/philosophicalSchool": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/ontology/occupation": 0.03,
+                        "http://dbpedia.org/property/notableIdeas": 0.01,
+                        "http://dbpedia.org/property/founder": 0.0,
+                        "http://dbpedia.org/ontology/movement": 0.0,
+                        "http://dbpedia.org/property/knownFor": 0.01,
+                        "http://dbpedia.org/property/office": 0.0,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/schoolTradition": 0.0
+                    },
+                    "subject": "Founder",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/period": 0.01,
+                        "http://dbpedia.org/property/dateOfDeath": 0.0,
+                        "http://dbpedia.org/property/termStart": 0.0,
+                        "http://dbpedia.org/property/foundedDate": 0.01,
+                        "http://dbpedia.org/property/yearsActive": 0.0,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Founder",
+                    "object": "Year founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/veneratedIn": 0.0,
+                        "http://dbpedia.org/ontology/religion": 0.03,
+                        "http://dbpedia.org/property/school": 0.0,
+                        "http://www.w3.org/2004/02/skos/core#subject": 0.0,
+                        "http://dbpedia.org/ontology/knownFor": 0.02,
+                        "http://dbpedia.org/ontology/notableIdea": 0.0,
+                        "http://dbpedia.org/property/notableIdeas": 0.0,
+                        "http://dbpedia.org/ontology/philosophicalSchool": 0.0,
+                        "http://dbpedia.org/ontology/occupation": 0.01,
+                        "http://dbpedia.org/property/religion": 0.03,
+                        "http://dbpedia.org/ontology/movement": 0.0,
+                        "http://dbpedia.org/property/schoolTradition": 0.0,
+                        "http://dbpedia.org/ontology/veneratedIn": 0.0,
+                        "http://dbpedia.org/property/office": 0.0
+                    },
+                    "subject": "Founder",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mainClassification": 0.0
+                    },
+                    "subject": "Type",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.02,
+                        "http://dbpedia.org/property/leader": 0.0,
+                        "http://dbpedia.org/property/data": 0.0
+                    },
+                    "subject": "Type",
+                    "object": "Founder"
+                }
+            ],
+            "table": "List of new religious movements",
+            "colums": [
+                "Name",
+                "Founder",
+                "Year founded",
+                "Type"
+            ]
+        }
+    ]
+}

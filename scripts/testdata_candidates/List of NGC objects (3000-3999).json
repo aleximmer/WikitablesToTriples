@@ -1,0 +1,318 @@
+{
+    "no. of tables": 10,
+    "page": "List of NGC objects (3001\u20134000)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.18,
+                        "http://dbpedia.org/property/name": 0.09,
+                        "http://xmlns.com/foaf/0.1/name": 0.09
+                    },
+                    "subject": "NGC number",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.36,
+                        "http://dbpedia.org/property/constell": 0.09
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                }
+            ],
+            "table": "Unnamed table in section '3001\u20133100'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "NGC number",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.3,
+                        "http://dbpedia.org/property/constellation": 0.07
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/appmagV": 0.11
+                    },
+                    "subject": "NGC number",
+                    "object": "Apparent magnitude"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.11
+                    },
+                    "subject": "Other names",
+                    "object": "Constellation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/appmagV": 0.04
+                    },
+                    "subject": "Other names",
+                    "object": "Apparent magnitude"
+                }
+            ],
+            "table": "Unnamed table in section '3101\u20133200'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.33,
+                        "http://dbpedia.org/property/constellation": 0.33
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                }
+            ],
+            "table": "Unnamed table in section '3201\u20133300'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.21,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/name": 0.21,
+                        "http://xmlns.com/foaf/0.1/name": 0.21
+                    },
+                    "subject": "NGC number",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.64,
+                        "http://dbpedia.org/property/constellation": 0.07
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/appmagV": 0.07
+                    },
+                    "subject": "NGC number",
+                    "object": "Apparent magnitude"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.07
+                    },
+                    "subject": "Other names",
+                    "object": "Constellation"
+                }
+            ],
+            "table": "Unnamed table in section '3301\u20133400'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 1.0
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                }
+            ],
+            "table": "Unnamed table in section '3401\u20133500'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.29,
+                        "http://dbpedia.org/property/name": 0.14,
+                        "http://xmlns.com/foaf/0.1/name": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notes": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Object type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.57,
+                        "http://dbpedia.org/property/constell": 0.14,
+                        "http://dbpedia.org/property/constellation": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/appmagV": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Apparent magnitude"
+                }
+            ],
+            "table": "Unnamed table in section '3601\u20133700'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.25,
+                        "http://dbpedia.org/property/constellation": 0.25
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                }
+            ],
+            "table": "Unnamed table in section '3701\u20133800'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.75
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/appmagV": 0.5
+                    },
+                    "subject": "NGC number",
+                    "object": "Apparent magnitude"
+                }
+            ],
+            "table": "Unnamed table in section '3801\u20133900'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.14,
+                        "http://dbpedia.org/ontology/type": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Object type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/constellationName": 0.57,
+                        "http://dbpedia.org/property/constell": 0.14,
+                        "http://dbpedia.org/property/constellation": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Constellation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/appmagV": 0.14
+                    },
+                    "subject": "NGC number",
+                    "object": "Apparent magnitude"
+                }
+            ],
+            "table": "Unnamed table in section '3901\u20134000'",
+            "colums": [
+                "NGC number",
+                "Other names",
+                "Object type",
+                "Constellation",
+                "Right ascension (J2000)",
+                "Declination (J2000)",
+                "Apparent magnitude"
+            ]
+        }
+    ]
+}

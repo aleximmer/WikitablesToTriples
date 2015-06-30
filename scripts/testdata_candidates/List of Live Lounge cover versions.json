@@ -1,0 +1,260 @@
+{
+    "no. of tables": 26,
+    "page": "List of Live Lounge cover versions",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '0\u20139'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.05,
+                        "http://dbpedia.org/property/artist": 0.05,
+                        "http://dbpedia.org/ontology/musicalBand": 0.05
+                    },
+                    "subject": "Song(s)",
+                    "object": "Artist/group"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.04,
+                        "http://dbpedia.org/property/artist": 0.04,
+                        "http://dbpedia.org/ontology/musicalBand": 0.04
+                    },
+                    "subject": "Song(s)",
+                    "object": "Artist/group"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'X'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Artist/group",
+                "Song(s)",
+                "Date(s)"
+            ]
+        }
+    ]
+}

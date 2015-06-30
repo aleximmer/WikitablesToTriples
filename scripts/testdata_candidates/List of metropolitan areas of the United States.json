@@ -1,0 +1,446 @@
+{
+    "no. of tables": 2,
+    "page": "List of metropolitan areas of the United States",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.0,
+                        "http://dbpedia.org/property/novSnowDays": 0.0,
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.0,
+                        "http://dbpedia.org/property/julRecordLowF": 0.0,
+                        "http://dbpedia.org/property/aprSnowInch": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/rankUs": 0.0
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/ontology/countySeat": 0.43,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/property/largestCity": 0.05,
+                        "http://dbpedia.org/property/label": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/part": 0.01,
+                        "http://dbpedia.org/property/seat": 0.04,
+                        "http://dbpedia.org/ontology/city": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14,
+                        "http://dbpedia.org/property/imageCaption": 0.0,
+                        "http://dbpedia.org/property/headquarters": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.53,
+                        "http://dbpedia.org/property/parts": 0.0,
+                        "http://dbpedia.org/property/p": 0.0
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "First principal city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.78,
+                        "http://dbpedia.org/ontology/largestCity": 0.0,
+                        "http://dbpedia.org/ontology/countySeat": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/ontology/isPartOf": 0.0,
+                        "http://dbpedia.org/property/seat": 0.0
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Most extensive statistical\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepSun": 0.0,
+                        "http://dbpedia.org/property/elevationM": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1,
+                        "http://dbpedia.org/ontology/region": 0.0,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/property/east": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/west": 0.0
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.0,
+                        "http://dbpedia.org/property/julRecordHighF": 0.0,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.0,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.0,
+                        "http://dbpedia.org/property/yearRecordHighF": 0.0,
+                        "http://dbpedia.org/property/aprRecordHighF": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/febRecordHighF": 0.0,
+                        "http://dbpedia.org/property/marRecordHighF": 0.0,
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/property/lats": 0.0,
+                        "http://dbpedia.org/property/octRecordHighF": 0.0,
+                        "http://dbpedia.org/property/julRecordLowF": 0.0,
+                        "http://dbpedia.org/property/elevationM": 0.0,
+                        "http://dbpedia.org/property/octRainDays": 0.0,
+                        "http://dbpedia.org/property/julHighF": 0.0,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.0
+                    },
+                    "subject": "First principal city",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.54,
+                        "http://dbpedia.org/property/district": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/ontology/district": 0.0,
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.53,
+                        "http://dbpedia.org/ontology/country": 0.0
+                    },
+                    "subject": "First principal city",
+                    "object": "Metropolitan or micropolitan\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.54,
+                        "http://dbpedia.org/property/district": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/ontology/district": 0.0,
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.53,
+                        "http://dbpedia.org/ontology/country": 0.0
+                    },
+                    "subject": "First principal city",
+                    "object": "Most extensive statistical\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepSun": 0.0,
+                        "http://dbpedia.org/property/longd": 0.0
+                    },
+                    "subject": "First principal city",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.0
+                    },
+                    "subject": "First principal city",
+                    "object": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.0,
+                        "http://dbpedia.org/property/novSnowDays": 0.0,
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.0,
+                        "http://dbpedia.org/property/aprSnowInch": 0.0,
+                        "http://dbpedia.org/property/febRecordHighF": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/rankUs": 0.0
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.91,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Metropolitan or micropolitan\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/ontology/countySeat": 0.43,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/property/largestCity": 0.05,
+                        "http://dbpedia.org/property/label": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/part": 0.01,
+                        "http://dbpedia.org/property/seat": 0.03,
+                        "http://dbpedia.org/ontology/city": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1,
+                        "http://dbpedia.org/property/exImageCap": 0.0,
+                        "http://dbpedia.org/property/imageCaption": 0.0,
+                        "http://dbpedia.org/property/headquarters": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.52,
+                        "http://dbpedia.org/property/parts": 0.0,
+                        "http://dbpedia.org/property/p": 0.0
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "First principal city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13,
+                        "http://dbpedia.org/ontology/region": 0.0,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/property/east": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/west": 0.0
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novSnowDays": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.0,
+                        "http://dbpedia.org/property/aprSnowInch": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/rankUs": 0.0
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.0,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/ontology/countySeat": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/p": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.15,
+                        "http://dbpedia.org/property/part": 0.0,
+                        "http://dbpedia.org/property/east": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.0,
+                        "http://dbpedia.org/property/seat": 0.0,
+                        "http://dbpedia.org/property/west": 0.0
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "Metropolitan or micropolitan\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/largestCity": 0.03,
+                        "http://dbpedia.org/ontology/countySeat": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.01,
+                        "http://dbpedia.org/ontology/part": 0.0,
+                        "http://dbpedia.org/property/seat": 0.0,
+                        "http://dbpedia.org/ontology/city": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/imageCaption": 0.0,
+                        "http://dbpedia.org/property/p": 0.0
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "First principal city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.0,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/ontology/countySeat": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/ontology/isPartOf": 0.0,
+                        "http://dbpedia.org/property/p": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13,
+                        "http://dbpedia.org/property/part": 0.0,
+                        "http://dbpedia.org/property/east": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.0,
+                        "http://dbpedia.org/property/seat": 0.0,
+                        "http://dbpedia.org/property/west": 0.0
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "Most extensive statistical\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "Code"
+                }
+            ],
+            "table": "Metropolitan and micropolitan areas of the United States of America\n",
+            "colums": [
+                "Rank",
+                "Metropolitan or micropolitan\u00a0area",
+                "First principal city",
+                "Most extensive statistical\u00a0area",
+                "Code",
+                "CSA 2012 Estimate",
+                "CSA 2010 Census",
+                "Change",
+                "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.08
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.67,
+                        "http://dbpedia.org/property/nickname": 0.17
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "First principal city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.92,
+                        "http://dbpedia.org/property/nickname": 0.17
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Most extensive statistical\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "Metropolitan or micropolitan\u00a0area",
+                    "object": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.17,
+                        "http://dbpedia.org/ontology/area": 0.08,
+                        "http://dbpedia.org/property/pos": 0.08,
+                        "http://dbpedia.org/property/lats": 0.08
+                    },
+                    "subject": "First principal city",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/property/nickname": 0.17,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "First principal city",
+                    "object": "Metropolitan or micropolitan\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/property/nickname": 0.17,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "First principal city",
+                    "object": "Most extensive statistical\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southeast": 0.08,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "First principal city",
+                    "object": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.08
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0,
+                        "http://dbpedia.org/property/nickname": 0.17
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Metropolitan or micropolitan\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.67,
+                        "http://dbpedia.org/property/nickname": 0.17
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "First principal city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "Most extensive statistical\u00a0area",
+                    "object": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "Metropolitan or micropolitan\u00a0area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/northwest": 0.08,
+                        "http://dbpedia.org/ontology/leaderName": 0.08
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "First principal city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17,
+                        "http://dbpedia.org/property/populationBlank2Title": 0.08
+                    },
+                    "subject": "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area",
+                    "object": "Most extensive statistical\u00a0area"
+                }
+            ],
+            "table": "Metropolitan and micropolitan areas of the Commonwealth of Puerto Rico\n",
+            "colums": [
+                "Rank",
+                "Metropolitan or micropolitan\u00a0area",
+                "First principal city",
+                "Most extensive statistical\u00a0area",
+                "Code",
+                "2012 Estimate",
+                "2010 Census",
+                "Change",
+                "Constituent Core\u00a0Based\u00a0Statistical\u00a0Areas\n\u2212or\u2212\nEncompassing Combined\u00a0Statistical\u00a0Area"
+            ]
+        }
+    ]
+}

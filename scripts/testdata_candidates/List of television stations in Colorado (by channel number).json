@@ -1,0 +1,208 @@
+{
+    "no. of tables": 1,
+    "page": "List of television stations in Colorado",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.29
+                    },
+                    "subject": "Area served",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "Area served",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "Area served",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.29
+                    },
+                    "subject": "City of license",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayRecordLowF": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "City of license",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepRecordLowF": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "City of license",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.62,
+                        "http://dbpedia.org/ontology/location": 0.62
+                    },
+                    "subject": "Callsign",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.09,
+                        "http://dbpedia.org/property/location": 0.65,
+                        "http://dbpedia.org/property/city": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.65
+                    },
+                    "subject": "Callsign",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/virtual": 0.06,
+                        "http://dbpedia.org/ontology/virtualChannel": 0.06,
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.65,
+                        "http://dbpedia.org/property/digital": 0.12,
+                        "http://dbpedia.org/property/stationBranding": 0.06
+                    },
+                    "subject": "Callsign",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.06,
+                        "http://dbpedia.org/property/otherChs": 0.03,
+                        "http://dbpedia.org/property/digital": 0.65,
+                        "http://dbpedia.org/property/stationBranding": 0.06
+                    },
+                    "subject": "Callsign",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.09,
+                        "http://dbpedia.org/property/affiliations": 0.74,
+                        "http://dbpedia.org/ontology/owningCompany": 0.06,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.85,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/property/formerAffiliations": 0.06
+                    },
+                    "subject": "Callsign",
+                    "object": "Network"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/airdate": 0.12,
+                        "http://dbpedia.org/ontology/sisterStation": 0.06,
+                        "http://dbpedia.org/property/sisterStations": 0.06,
+                        "http://dbpedia.org/property/callsignMeaning": 0.12,
+                        "http://dbpedia.org/property/haat": 0.12,
+                        "http://dbpedia.org/property/affiliations": 0.06,
+                        "http://dbpedia.org/property/facilityId": 0.12,
+                        "http://dbpedia.org/property/effectiveRadiatedPower": 0.12,
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.15,
+                        "http://dbpedia.org/property/coordinates": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.24,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.06,
+                        "http://dbpedia.org/property/digital": 0.12,
+                        "http://dbpedia.org/property/formerCallsigns": 0.12,
+                        "http://dbpedia.org/property/analog": 0.12,
+                        "http://dbpedia.org/property/formerAffiliations": 0.12
+                    },
+                    "subject": "Callsign",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/digital": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/airdate": 0.12,
+                        "http://dbpedia.org/ontology/sisterStation": 0.06,
+                        "http://dbpedia.org/property/sisterStations": 0.06,
+                        "http://dbpedia.org/property/callsignMeaning": 0.12,
+                        "http://dbpedia.org/property/haat": 0.12,
+                        "http://dbpedia.org/property/facilityId": 0.12,
+                        "http://dbpedia.org/property/effectiveRadiatedPower": 0.12,
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.12,
+                        "http://dbpedia.org/property/coordinates": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/property/digital": 0.12,
+                        "http://dbpedia.org/property/formerCallsigns": 0.12,
+                        "http://dbpedia.org/property/analog": 0.12,
+                        "http://dbpedia.org/property/formerAffiliations": 0.12
+                    },
+                    "subject": "Notes",
+                    "object": "Callsign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.06,
+                        "http://dbpedia.org/property/affiliations": 0.26,
+                        "http://dbpedia.org/property/network": 0.03,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.29,
+                        "http://dbpedia.org/ontology/owningCompany": 0.03,
+                        "http://dbpedia.org/property/sisterNames": 0.06,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Network"
+                }
+            ],
+            "table": "Unnamed table in section 'Full-power stations'",
+            "colums": [
+                "Area served",
+                "City of license",
+                "VC",
+                "RF",
+                "Callsign",
+                "Network",
+                "Notes"
+            ]
+        }
+    ]
+}

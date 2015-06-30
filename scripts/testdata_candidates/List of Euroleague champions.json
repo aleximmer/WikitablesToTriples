@@ -1,0 +1,233 @@
+{
+    "no. of tables": 5,
+    "page": "Euroleague Finals",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/q": 0.09
+                    },
+                    "subject": "Season",
+                    "object": "Points Scored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Top Scorer",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Top Scorer",
+                    "object": "Points Scored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Top Scorer",
+                    "object": "MVP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Top Scorer",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Top Scorer",
+                    "object": "Champion Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Top Scorer"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Points Scored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "MVP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Champion Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "MVP",
+                    "object": "Top Scorer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "MVP",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "MVP",
+                    "object": "Points Scored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "MVP",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "MVP",
+                    "object": "Champion Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Top Scorer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Points Scored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "MVP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Champion Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Champion Coach",
+                    "object": "Top Scorer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Champion Coach",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/gini": 0.02,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Champion Coach",
+                    "object": "Points Scored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Champion Coach",
+                    "object": "MVP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Champion Coach",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'Euroleague Finals Top Scorers, MVPs, and Champion coaches (1958 to present)'",
+            "colums": [
+                "Season",
+                "Top Scorer",
+                "Team",
+                "Points Scored",
+                "MVP",
+                "Team",
+                "Champion Coach"
+            ]
+        }
+    ]
+}

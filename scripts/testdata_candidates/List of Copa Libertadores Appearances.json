@@ -1,0 +1,660 @@
+{
+    "no. of tables": 9,
+    "page": "Copa Libertadores records and statistics",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/areaMagnitude": 0.1
+                    },
+                    "subject": "\n\n\n\nv\nt\ne\n\n\n\nClub",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.05,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/hpiRank": 0.03,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03
+                    },
+                    "subject": "\n\n\n\nv\nt\ne\n\n\n\nClub",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.03
+                    },
+                    "subject": "Years won",
+                    "object": "\n\n\n\nv\nt\ne\n\n\n\nClub"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score": 0.17,
+                        "http://dbpedia.org/property/rd3Score01secondleg": 0.03,
+                        "http://dbpedia.org/property/rd4Score01Agg": 0.05,
+                        "http://dbpedia.org/property/rd3Seed": 0.07,
+                        "http://dbpedia.org/property/rd1Score07firstleg": 0.05,
+                        "http://dbpedia.org/property/rd4Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score05firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score02Agg": 0.07,
+                        "http://dbpedia.org/property/rd2Score": 0.12,
+                        "http://dbpedia.org/property/rd1Score14Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score04firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score01firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score": 0.15,
+                        "http://dbpedia.org/property/rd1Score08secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score07Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score01secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score09firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/count": 0.3,
+                        "http://dbpedia.org/property/rd2Score08Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd4Score02Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score03secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score07Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score16Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score05Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score07secondleg": 0.05,
+                        "http://dbpedia.org/property/rd4Score": 0.07,
+                        "http://dbpedia.org/property/rd1Score04secondleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score04firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score02Agg": 0.07,
+                        "http://dbpedia.org/property/rd2Score02Agg": 0.07,
+                        "http://dbpedia.org/property/w": 0.05,
+                        "http://dbpedia.org/property/rd1Score05Agg": 0.07,
+                        "http://dbpedia.org/property/rd1Score14secondleg": 0.03,
+                        "http://dbpedia.org/property/rd4Score01firstleg": 0.03,
+                        "http://dbpedia.org/property/l": 0.05,
+                        "http://dbpedia.org/property/rd2Score06secondleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score12Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score10secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score12firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score01secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score01Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score15firstleg": 0.03,
+                        "http://dbpedia.org/property/d": 0.05,
+                        "http://dbpedia.org/property/rd2Score03Agg": 0.07,
+                        "http://dbpedia.org/property/rd4Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score06firstleg": 0.05,
+                        "http://dbpedia.org/property/rd3Score02secondleg": 0.05,
+                        "http://dbpedia.org/property/rd2Score07secondleg": 0.05,
+                        "http://dbpedia.org/property/rd2Score08secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score08firstleg": 0.03,
+                        "http://dbpedia.org/property/score": 0.17,
+                        "http://dbpedia.org/property/rd3Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/ga": 0.03,
+                        "http://dbpedia.org/property/rd1Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score10Agg": 0.12,
+                        "http://dbpedia.org/property/rd4Seed": 0.07,
+                        "http://dbpedia.org/property/rd1Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Seed": 0.1,
+                        "http://dbpedia.org/property/rd1Score11firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score05firstleg": 0.05,
+                        "http://dbpedia.org/property/p": 0.05,
+                        "http://dbpedia.org/property/penaltyscore": 0.03,
+                        "http://dbpedia.org/property/rd1Seed": 0.12,
+                        "http://dbpedia.org/property/rd1Score15Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score08Agg": 0.1,
+                        "http://dbpedia.org/property/rd2Score05secondleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score06Agg": 0.07
+                    },
+                    "subject": "Years won",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/l": 0.05,
+                        "http://dbpedia.org/property/rd1Score": 0.17,
+                        "http://dbpedia.org/property/socks": 0.03,
+                        "http://dbpedia.org/property/rd3Score03secondleg": 0.05,
+                        "http://dbpedia.org/property/rd2Score01firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score02Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score": 0.12,
+                        "http://dbpedia.org/property/rightarm": 0.03,
+                        "http://dbpedia.org/property/rd1Score06firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score": 0.15,
+                        "http://dbpedia.org/property/rd3Score04secondleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score01firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score07Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score06secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score04firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score04secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd3Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score03secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score08secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score05Agg": 0.07,
+                        "http://dbpedia.org/property/rd4Score": 0.1,
+                        "http://dbpedia.org/property/rd1Score04secondleg": 0.03,
+                        "http://dbpedia.org/property/count": 0.12,
+                        "http://dbpedia.org/property/rd2Score07firstleg": 0.05,
+                        "http://dbpedia.org/property/rd3Score02Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score09firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score06Agg": 0.07,
+                        "http://dbpedia.org/property/rd1Score05Agg": 0.03,
+                        "http://dbpedia.org/property/leftarm": 0.03,
+                        "http://dbpedia.org/property/rd2Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score08Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score13firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score10secondleg": 0.03,
+                        "http://dbpedia.org/property/d": 0.05,
+                        "http://dbpedia.org/property/rd1Score12secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score03Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score08firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score02secondleg": 0.05,
+                        "http://dbpedia.org/property/score": 0.12,
+                        "http://dbpedia.org/property/rd4Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score14firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Seed": 0.03,
+                        "http://dbpedia.org/property/w": 0.05,
+                        "http://dbpedia.org/property/rd1Seed": 0.03,
+                        "http://dbpedia.org/property/rd1Score15Agg": 0.03,
+                        "http://dbpedia.org/property/rd3Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score13secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score10Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score06Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score15secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score16Agg": 0.03
+                    },
+                    "subject": "Years won",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.05
+                    },
+                    "subject": "Years runner-up",
+                    "object": "\n\n\n\nv\nt\ne\n\n\n\nClub"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score03secondleg": 0.03,
+                        "http://dbpedia.org/property/l": 0.03,
+                        "http://dbpedia.org/property/rd1Score": 0.2,
+                        "http://dbpedia.org/property/socks": 0.03,
+                        "http://dbpedia.org/property/rd1Score16secondleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score03secondleg": 0.05,
+                        "http://dbpedia.org/property/rd2Score01firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score10firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score13secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score": 0.17,
+                        "http://dbpedia.org/property/rightarm": 0.03,
+                        "http://dbpedia.org/property/rd3Score01firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score06firstleg": 0.05,
+                        "http://dbpedia.org/property/rd3Score": 0.2,
+                        "http://dbpedia.org/property/rd3Score04secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score01firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score07Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score04firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score08Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score08secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score03secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score08secondleg": 0.05,
+                        "http://dbpedia.org/property/rd2Score05Agg": 0.03,
+                        "http://dbpedia.org/property/rd4Score": 0.2,
+                        "http://dbpedia.org/property/rd1Score04secondleg": 0.03,
+                        "http://dbpedia.org/property/count": 0.03,
+                        "http://dbpedia.org/property/rd2Score07firstleg": 0.05,
+                        "http://dbpedia.org/property/w": 0.03,
+                        "http://dbpedia.org/property/rd1Score09firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score05Agg": 0.03,
+                        "http://dbpedia.org/property/leftarm": 0.03,
+                        "http://dbpedia.org/property/rd2Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score13firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score01secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score01Agg": 0.03,
+                        "http://dbpedia.org/property/d": 0.03,
+                        "http://dbpedia.org/property/rd2Score03Agg": 0.03,
+                        "http://dbpedia.org/property/rd4Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score02secondleg": 0.05,
+                        "http://dbpedia.org/property/score": 0.17,
+                        "http://dbpedia.org/property/rd1Score15firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score14firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score11firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score03Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score08Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score06Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score15secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score16Agg": 0.03
+                    },
+                    "subject": "Years runner-up",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score": 0.23,
+                        "http://dbpedia.org/property/rd3Score02secondleg": 0.05,
+                        "http://dbpedia.org/property/rd4Score02Agg": 0.07,
+                        "http://dbpedia.org/property/rd1Score07firstleg": 0.05,
+                        "http://dbpedia.org/property/rd4Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score05firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score02Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score": 0.2,
+                        "http://dbpedia.org/property/rd1Score14Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score04firstleg": 0.03,
+                        "http://dbpedia.org/property/rd3Score": 0.15,
+                        "http://dbpedia.org/property/rd1Score12secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score07Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score06secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score09firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/count": 0.1,
+                        "http://dbpedia.org/property/rd2Score04secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score01Agg": 0.05,
+                        "http://dbpedia.org/property/rd3Score03firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score07Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score05secondleg": 0.05,
+                        "http://dbpedia.org/property/rd2Score05Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score07secondleg": 0.03,
+                        "http://dbpedia.org/property/rd4Score": 0.15,
+                        "http://dbpedia.org/property/rd3Score04firstleg": 0.05,
+                        "http://dbpedia.org/property/w": 0.03,
+                        "http://dbpedia.org/property/rd2Score02Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score06Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score04Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score14secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score04Agg": 0.03,
+                        "http://dbpedia.org/property/l": 0.03,
+                        "http://dbpedia.org/property/rd1Score09Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score06secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score12Agg": 0.05,
+                        "http://dbpedia.org/property/rd3Score04Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score10secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score03Agg": 0.07,
+                        "http://dbpedia.org/property/rd1Score01secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score12firstleg": 0.03,
+                        "http://dbpedia.org/property/d": 0.03,
+                        "http://dbpedia.org/property/rd4Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd2Score06firstleg": 0.03,
+                        "http://dbpedia.org/property/rd4Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score07secondleg": 0.03,
+                        "http://dbpedia.org/property/p": 0.03,
+                        "http://dbpedia.org/property/rd3Seed": 0.05,
+                        "http://dbpedia.org/property/score": 0.2,
+                        "http://dbpedia.org/property/rd4Seed": 0.03,
+                        "http://dbpedia.org/property/ga": 0.03,
+                        "http://dbpedia.org/property/rd1Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score05Agg": 0.05,
+                        "http://dbpedia.org/property/penaltyscore": 0.05,
+                        "http://dbpedia.org/property/rd1Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd2Seed": 0.05,
+                        "http://dbpedia.org/property/rd1Score11firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score05firstleg": 0.05,
+                        "http://dbpedia.org/property/rd1Score11Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Seed": 0.1,
+                        "http://dbpedia.org/property/rd1Score15Agg": 0.07,
+                        "http://dbpedia.org/property/rd3Score02firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score08Agg": 0.07,
+                        "http://dbpedia.org/property/rd1Score10Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score06Agg": 0.05
+                    },
+                    "subject": "Years runner-up",
+                    "object": "Runner-up"
+                }
+            ],
+            "table": "Performance in the Copa Libertadores by club",
+            "colums": [
+                "\n\n\n\nv\nt\ne\n\n\n\nClub",
+                "Won",
+                "Runner-up",
+                "Years won",
+                "Years runner-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.11,
+                        "http://dbpedia.org/property/hpiRank": 0.11
+                    },
+                    "subject": "Country",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.11,
+                        "http://dbpedia.org/property/latd": 0.11
+                    },
+                    "subject": "Country",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.11,
+                        "http://dbpedia.org/property/latd": 0.11
+                    },
+                    "subject": "Country",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.22,
+                        "http://dbpedia.org/property/ground": 0.11
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.11,
+                        "http://dbpedia.org/property/no": 0.44
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.44
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.44
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Runners-up"
+                }
+            ],
+            "table": "Unnamed table in section 'General performances'",
+            "colums": [
+                "Country",
+                "Winners",
+                "Runners-up",
+                "Winning clubs",
+                "Runners-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.09,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "City",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.04,
+                        "http://dbpedia.org/property/areaMagnitude": 0.04
+                    },
+                    "subject": "City",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.04,
+                        "http://dbpedia.org/property/areaMagnitude": 0.04
+                    },
+                    "subject": "City",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.09,
+                        "http://dbpedia.org/property/ground": 0.04
+                    },
+                    "subject": "Winning clubs",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.04,
+                        "http://dbpedia.org/property/no": 0.35
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/quoted": 0.04,
+                        "http://dbpedia.org/property/rightarm": 0.09,
+                        "http://dbpedia.org/property/body": 0.09,
+                        "http://dbpedia.org/property/socks": 0.09,
+                        "http://dbpedia.org/property/leftarm": 0.09,
+                        "http://dbpedia.org/property/no": 0.35,
+                        "http://dbpedia.org/property/shorts": 0.09
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/quoted": 0.04,
+                        "http://dbpedia.org/property/rightarm": 0.09,
+                        "http://dbpedia.org/property/body": 0.09,
+                        "http://dbpedia.org/property/socks": 0.09,
+                        "http://dbpedia.org/property/leftarm": 0.09,
+                        "http://dbpedia.org/property/no": 0.35,
+                        "http://dbpedia.org/property/shorts": 0.09
+                    },
+                    "subject": "Winning clubs",
+                    "object": "Runners-up"
+                }
+            ],
+            "table": "Unnamed table in section 'General performances'",
+            "colums": [
+                "City",
+                "Winners",
+                "Runners-up",
+                "Winning clubs",
+                "Runners-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.1
+                    },
+                    "subject": "Club",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapWidth": 0.1
+                    },
+                    "subject": "Club",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.1
+                    },
+                    "subject": "Club",
+                    "object": "GF"
+                }
+            ],
+            "table": "Unnamed table in section 'General performances'",
+            "colums": [
+                "Rank",
+                "Club",
+                "Years",
+                "Titles",
+                "Games",
+                "W",
+                "D",
+                "L",
+                "GF",
+                "GA",
+                "GD",
+                "Pts"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.01,
+                        "http://dbpedia.org/property/hpiRank": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.01,
+                        "http://dbpedia.org/property/gdpPppRank": 0.01,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "No. of appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.03
+                    },
+                    "subject": "Years in semifinals",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score": 0.2,
+                        "http://dbpedia.org/property/rd2Score06secondleg": 0.01,
+                        "http://dbpedia.org/property/rd3Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd4Score02Agg": 0.09,
+                        "http://dbpedia.org/property/rd1Score07firstleg": 0.01,
+                        "http://dbpedia.org/property/rd2Score05firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score02Agg": 0.06,
+                        "http://dbpedia.org/property/rd2Score": 0.19,
+                        "http://dbpedia.org/property/rd1Score14Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score06firstleg": 0.01,
+                        "http://dbpedia.org/property/rd3Score": 0.14,
+                        "http://dbpedia.org/property/rd1Score12secondleg": 0.01,
+                        "http://dbpedia.org/property/rd2Score07Agg": 0.04,
+                        "http://dbpedia.org/property/rd2Score02firstleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score10firstleg": 0.01,
+                        "http://dbpedia.org/property/rd2Score08Agg": 0.03,
+                        "http://dbpedia.org/property/rd2Score01Agg": 0.03,
+                        "http://dbpedia.org/property/rd3Score03firstleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score13Agg": 0.01,
+                        "http://dbpedia.org/property/rd2Score02secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score16Agg": 0.01,
+                        "http://dbpedia.org/property/rd2Score05Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score07secondleg": 0.01,
+                        "http://dbpedia.org/property/rd4Score": 0.13,
+                        "http://dbpedia.org/property/rd1Score04secondleg": 0.01,
+                        "http://dbpedia.org/property/count": 0.26,
+                        "http://dbpedia.org/property/rd3Score02Agg": 0.01,
+                        "http://dbpedia.org/property/rd2Score02Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score11firstleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score05Agg": 0.06,
+                        "http://dbpedia.org/property/rd1Score14secondleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score09Agg": 0.01,
+                        "http://dbpedia.org/property/l": 0.03,
+                        "http://dbpedia.org/property/rd1Score01secondleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score12Agg": 0.04,
+                        "http://dbpedia.org/property/rd3Score04Agg": 0.01,
+                        "http://dbpedia.org/property/rd1Score04Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score10secondleg": 0.03,
+                        "http://dbpedia.org/property/rd1Score01Agg": 0.01,
+                        "http://dbpedia.org/property/d": 0.03,
+                        "http://dbpedia.org/property/rd2Score03Agg": 0.04,
+                        "http://dbpedia.org/property/rd4Score02secondleg": 0.01,
+                        "http://dbpedia.org/property/rd2Score06firstleg": 0.03,
+                        "http://dbpedia.org/property/rd4Score01Agg": 0.06,
+                        "http://dbpedia.org/property/rd2Score07secondleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score09secondleg": 0.01,
+                        "http://dbpedia.org/property/p": 0.03,
+                        "http://dbpedia.org/property/rd3Seed": 0.04,
+                        "http://dbpedia.org/property/score": 0.24,
+                        "http://dbpedia.org/property/rd4Seed": 0.01,
+                        "http://dbpedia.org/property/ga": 0.03,
+                        "http://dbpedia.org/property/rd1Score15firstleg": 0.01,
+                        "http://dbpedia.org/property/rd2Score04Agg": 0.03,
+                        "http://dbpedia.org/property/penaltyscore": 0.01,
+                        "http://dbpedia.org/property/rd1Score02firstleg": 0.01,
+                        "http://dbpedia.org/property/w": 0.03,
+                        "http://dbpedia.org/property/rd1Score03Agg": 0.06,
+                        "http://dbpedia.org/property/rd2Seed": 0.06,
+                        "http://dbpedia.org/property/rd3Score04firstleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score07Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score05firstleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score11Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Seed": 0.09,
+                        "http://dbpedia.org/property/rd1Score15Agg": 0.06,
+                        "http://dbpedia.org/property/rd1Score08Agg": 0.09,
+                        "http://dbpedia.org/property/rd1Score10Agg": 0.06,
+                        "http://dbpedia.org/property/rd2Score05secondleg": 0.01,
+                        "http://dbpedia.org/property/rd1Score06Agg": 0.04,
+                        "http://dbpedia.org/property/associations": 0.01
+                    },
+                    "subject": "Years in semifinals",
+                    "object": "No. of appearances"
+                }
+            ],
+            "table": "Unnamed table in section 'Clubs'",
+            "colums": [
+                "Team",
+                "No. of appearances",
+                "Years in semifinals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.09,
+                        "http://dbpedia.org/property/longm": 0.09
+                    },
+                    "subject": "Country",
+                    "object": "Semifinals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.09,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.09,
+                        "http://dbpedia.org/property/latd": 0.09
+                    },
+                    "subject": "Country",
+                    "object": "Number\nof clubs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.18,
+                        "http://dbpedia.org/property/ground": 0.18
+                    },
+                    "subject": "Clubs",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.36
+                    },
+                    "subject": "Clubs",
+                    "object": "Semifinals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.82
+                    },
+                    "subject": "Clubs",
+                    "object": "Number\nof clubs"
+                }
+            ],
+            "table": "Unnamed table in section 'Clubs'",
+            "colums": [
+                "Country",
+                "Semifinals",
+                "Number\nof clubs",
+                "Clubs"
+            ]
+        }
+    ]
+}

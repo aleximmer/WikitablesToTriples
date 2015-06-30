@@ -1,0 +1,16 @@
+{
+    "no. of tables": 6,
+    "page": "Cars (franchise)",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Reception'",
+            "colums": [
+                "Film",
+                "Rotten Tomatoes",
+                "Metacritic",
+                "CinemaScore"
+            ]
+        }
+    ]
+}

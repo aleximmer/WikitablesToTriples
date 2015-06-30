@@ -1,0 +1,194 @@
+{
+    "no. of tables": 8,
+    "page": "Valleyfair",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.12,
+                        "http://dbpedia.org/property/opened": 0.38
+                    },
+                    "subject": "Coaster",
+                    "object": "Year Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manufacturer": 0.12
+                    },
+                    "subject": "Coaster",
+                    "object": "Manufacturer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.38
+                    },
+                    "subject": "Coaster",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.25,
+                        "http://dbpedia.org/property/carspertrain": 0.12
+                    },
+                    "subject": "Coaster",
+                    "object": "Thrill Rating[5]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.12
+                    },
+                    "subject": "Manufacturer",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Current attractions'",
+            "colums": [
+                "Coaster",
+                "Picture",
+                "Year Opened",
+                "Manufacturer",
+                "Description",
+                "Thrill Rating[5]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.14
+                    },
+                    "subject": "Ride",
+                    "object": "Year Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.14,
+                        "http://dbpedia.org/ontology/type": 0.14
+                    },
+                    "subject": "Ride",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14
+                    },
+                    "subject": "Ride",
+                    "object": "Thrill Rating[5]"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14,
+                        "http://dbpedia.org/property/name": 0.29
+                    },
+                    "subject": "Description",
+                    "object": "Ride"
+                }
+            ],
+            "table": "Unnamed table in section 'Current attractions'",
+            "colums": [
+                "Ride",
+                "Year Opened",
+                "Manufacturer",
+                "Description",
+                "Thrill Rating[5]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manufacturer": 0.09
+                    },
+                    "subject": "Ride",
+                    "object": "Manufacturer"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09,
+                        "http://dbpedia.org/property/name": 0.09,
+                        "http://xmlns.com/foaf/0.1/name": 0.09
+                    },
+                    "subject": "Description",
+                    "object": "Ride"
+                }
+            ],
+            "table": "Unnamed table in section 'Current attractions'",
+            "colums": [
+                "Ride",
+                "Year Opened",
+                "Manufacturer",
+                "Description",
+                "Thrill Rating[5]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.5
+                    },
+                    "subject": "Ride",
+                    "object": "Year Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/customValue": 0.5
+                    },
+                    "subject": "Ride",
+                    "object": "Manufacturer"
+                }
+            ],
+            "table": "Unnamed table in section 'Current attractions'",
+            "colums": [
+                "Ride",
+                "Year Opened",
+                "Manufacturer",
+                "Description",
+                "Thrill Rating[5]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Current attractions'",
+            "colums": [
+                "Ride",
+                "Year Opened",
+                "Manufacturer",
+                "Model/Type",
+                "Description",
+                "Thrill Rating[5]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Halloween Haunt at ValleySCARE'",
+            "colums": [
+                "Attraction",
+                "Type",
+                "Opened",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Halloween Haunt at ValleySCARE'",
+            "colums": [
+                "Attraction",
+                "Type",
+                "Opened",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Halloween Haunt at ValleySCARE'",
+            "colums": [
+                "Attraction",
+                "Type",
+                "Opened",
+                "Location"
+            ]
+        }
+    ]
+}

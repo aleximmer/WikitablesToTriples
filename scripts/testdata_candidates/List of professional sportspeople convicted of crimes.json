@@ -1,0 +1,227 @@
+{
+    "no. of tables": 31,
+    "page": "List of professional sportspeople convicted of crimes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.5,
+                        "http://dbpedia.org/ontology/team": 0.5
+                    },
+                    "subject": "Name v",
+                    "object": "Team when arrested"
+                }
+            ],
+            "table": "Unnamed table in section 'Association football'",
+            "colums": [
+                "Name v",
+                "Team when arrested",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 1.0,
+                        "http://dbpedia.org/property/youthclubs": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Team when arrested"
+                }
+            ],
+            "table": "Unnamed table in section 'Association football'",
+            "colums": [
+                "Name",
+                "Team when arrested",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Team when arrested"
+                }
+            ],
+            "table": "Unnamed table in section 'Association football'",
+            "colums": [
+                "Name",
+                "Team when arrested",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/managerclubs": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Team when arrested"
+                }
+            ],
+            "table": "Unnamed table in section 'Association football'",
+            "colums": [
+                "Name",
+                "Team when arrested",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Athletics (track and field)'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Australian rules football'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bodybuilding'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playingTeams": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Team when arrested"
+                }
+            ],
+            "table": "Unnamed table in section 'Canadian Football (Gridiron)'",
+            "colums": [
+                "Name",
+                "Team when arrested",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cycling'",
+            "colums": [
+                "Name",
+                "Discipline",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Diving'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Greco-Roman wrestling'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Horse racing'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Rugby union'",
+            "colums": [
+                "Name",
+                "Team when arrested",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sailing'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Snooker'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sumo wrestling'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Swimming'",
+            "colums": [
+                "Name",
+                "Offense",
+                "Sentence",
+                "Notes"
+            ]
+        }
+    ]
+}

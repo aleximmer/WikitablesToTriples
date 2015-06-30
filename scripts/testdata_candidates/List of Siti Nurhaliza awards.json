@@ -1,0 +1,364 @@
+{
+    "no. of tables": 58,
+    "page": "List of awards and nominations received by Siti Nurhaliza",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity and commerciality'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity and commerciality'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity and commerciality'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Popularity and commerciality'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 1.0,
+                        "http://dbpedia.org/property/populationEstimateYear": 1.0,
+                        "http://dbpedia.org/property/gdpNominalYear": 1.0,
+                        "http://dbpedia.org/property/gdpPppYear": 1.0
+                    },
+                    "subject": "Host Country",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.33,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.33,
+                        "http://dbpedia.org/property/gdpPppYear": 0.33
+                    },
+                    "subject": "Host Country",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'International accolades'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result",
+                "Host Country"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Product'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Product'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Product'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Product'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        }
+    ]
+}

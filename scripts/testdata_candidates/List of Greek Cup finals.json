@@ -1,0 +1,230 @@
+{
+    "no. of tables": 4,
+    "page": "List of Greek Cup finals",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.33
+                    },
+                    "subject": "Year",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.67
+                    },
+                    "subject": "Year",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.33,
+                        "http://dbpedia.org/property/other": 0.33
+                    },
+                    "subject": "Winner",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capacity": 0.33,
+                        "http://dbpedia.org/property/capacity": 0.33,
+                        "http://dbpedia.org/property/other": 0.67
+                    },
+                    "subject": "Runner-up",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Greek Cup Finals'",
+            "colums": [
+                "No.",
+                "Year",
+                "Winner",
+                "Scorers",
+                "Runner-up",
+                "Scorers",
+                "Score",
+                "Venue"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.5
+                    },
+                    "subject": "Year",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.5
+                    },
+                    "subject": "Winner",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.5,
+                        "http://dbpedia.org/property/ground": 0.5
+                    },
+                    "subject": "Winner",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Scorers",
+                    "object": "Scorers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 1.0
+                    },
+                    "subject": "Runner-up",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Scorers",
+                    "object": "Scorers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.5,
+                        "http://dbpedia.org/ontology/tenant": 1.0,
+                        "http://dbpedia.org/ontology/operator": 0.5,
+                        "http://dbpedia.org/property/tenants": 0.5
+                    },
+                    "subject": "Venue",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Greek Cup Finals'",
+            "colums": [
+                "No.",
+                "Year",
+                "Winner",
+                "Scorers",
+                "Runner-up",
+                "Scorers",
+                "Score",
+                "Venue"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rightarm": 0.16,
+                        "http://dbpedia.org/property/socks": 0.16,
+                        "http://dbpedia.org/property/body": 0.16,
+                        "http://dbpedia.org/property/shorts": 0.16,
+                        "http://dbpedia.org/property/leftarm": 0.16,
+                        "http://dbpedia.org/property/no": 0.32,
+                        "http://dbpedia.org/property/other": 0.05
+                    },
+                    "subject": "Club",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.53,
+                        "http://dbpedia.org/property/other": 0.05
+                    },
+                    "subject": "Club",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.47
+                    },
+                    "subject": "Winning years",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.11
+                    },
+                    "subject": "Winning years",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.11
+                    },
+                    "subject": "Winning years",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.63,
+                        "http://dbpedia.org/property/runnerUp": 0.11
+                    },
+                    "subject": "Runners-up years",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aggregatescore": 0.05,
+                        "http://dbpedia.org/property/socks": 0.05,
+                        "http://dbpedia.org/property/penaltyscore": 0.05,
+                        "http://dbpedia.org/property/score": 0.21,
+                        "http://dbpedia.org/property/shorts": 0.05
+                    },
+                    "subject": "Runners-up years",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aggregatescore": 0.05,
+                        "http://dbpedia.org/property/penaltyscore": 0.05,
+                        "http://dbpedia.org/property/score": 0.16
+                    },
+                    "subject": "Runners-up years",
+                    "object": "Runners-up"
+                }
+            ],
+            "table": "Unnamed table in section 'Results by Team'",
+            "colums": [
+                "Club",
+                "Winners",
+                "Runners-up",
+                "Winning years",
+                "Runners-up years"
+            ]
+        }
+    ]
+}

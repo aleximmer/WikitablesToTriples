@@ -1,0 +1,206 @@
+{
+    "no. of tables": 9,
+    "page": "List of historic places in Southwestern Ontario",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/municipality": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.17,
+                        "http://dbpedia.org/property/postalCode": 0.17
+                    },
+                    "subject": "Municipality",
+                    "object": "PC"
+                }
+            ],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.25,
+                        "http://dbpedia.org/property/postalCode": 0.25
+                    },
+                    "subject": "Municipality",
+                    "object": "PC"
+                }
+            ],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.69,
+                        "http://dbpedia.org/property/postalCode": 0.69
+                    },
+                    "subject": "Municipality",
+                    "object": "PC"
+                }
+            ],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/municipality": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/postalCode": 0.06,
+                        "http://dbpedia.org/property/postalCode": 0.06
+                    },
+                    "subject": "Municipality",
+                    "object": "PC"
+                }
+            ],
+            "table": "Unnamed table in section 'List of historic places in other subregions'",
+            "colums": [
+                "Name",
+                "Address",
+                "Municipality",
+                "PC",
+                "Coordinates",
+                "IDF",
+                "IDP",
+                "IDM",
+                "Image"
+            ]
+        }
+    ]
+}

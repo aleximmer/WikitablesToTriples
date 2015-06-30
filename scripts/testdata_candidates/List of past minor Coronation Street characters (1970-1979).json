@@ -1,0 +1,219 @@
+{
+    "no. of tables": 25,
+    "page": "List of past Coronation Street characters",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.47
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.26
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.67
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.17
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.44
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/last": 0.02,
+                        "http://dbpedia.org/property/years": 0.26,
+                        "http://dbpedia.org/property/duration": 0.04
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsactive": 0.06
+                    },
+                    "subject": "Actor",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                }
+            ],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 1.0
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.2
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                }
+            ],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Character",
+                    "object": "Duration"
+                }
+            ],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Character",
+                "Actor",
+                "Duration"
+            ]
+        }
+    ]
+}

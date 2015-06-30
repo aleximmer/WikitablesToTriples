@@ -1,0 +1,347 @@
+{
+    "no. of tables": 2,
+    "page": "List of game engines",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.03,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Primary programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.01,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Scripting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.03,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.06,
+                        "http://dbpedia.org/property/platforms": 0.03,
+                        "http://dbpedia.org/ontology/operatingSystem": 0.05,
+                        "http://dbpedia.org/property/operatingSystem": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Target platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notable games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.44,
+                        "http://dbpedia.org/property/license": 0.36
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.01,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes and references"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/influencedBy": 0.01,
+                        "http://dbpedia.org/property/influencedBy": 0.01
+                    },
+                    "subject": "Primary programming language",
+                    "object": "Scripting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.02
+                    },
+                    "subject": "Primary programming language",
+                    "object": "Cross-platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.01
+                    },
+                    "subject": "Primary programming language",
+                    "object": "SDL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.01,
+                        "http://dbpedia.org/property/operatingSystem": 0.01
+                    },
+                    "subject": "Primary programming language",
+                    "object": "Target platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.01,
+                        "http://dbpedia.org/property/influenced": 0.01,
+                        "http://dbpedia.org/ontology/influenced": 0.01
+                    },
+                    "subject": "Scripting",
+                    "object": "Primary programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Scripting",
+                    "object": "Cross-platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Scripting",
+                    "object": "SDL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.02,
+                        "http://dbpedia.org/property/license": 0.02
+                    },
+                    "subject": "Scripting",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmedIn": 0.02
+                    },
+                    "subject": "Target platform",
+                    "object": "Primary programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmedIn": 0.02
+                    },
+                    "subject": "Target platform",
+                    "object": "Scripting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.04
+                    },
+                    "subject": "Target platform",
+                    "object": "Cross-platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.01,
+                        "http://dbpedia.org/property/engine": 0.14,
+                        "http://dbpedia.org/ontology/gameEngine": 0.16,
+                        "http://dbpedia.org/property/developer": 0.01
+                    },
+                    "subject": "Notable games",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/engine": 0.01,
+                        "http://dbpedia.org/ontology/gameEngine": 0.01
+                    },
+                    "subject": "Notable games",
+                    "object": "Primary programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/engine": 0.01,
+                        "http://dbpedia.org/ontology/gameEngine": 0.01
+                    },
+                    "subject": "Notable games",
+                    "object": "Scripting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/computingPlatform": 0.24,
+                        "http://dbpedia.org/property/platforms": 0.21
+                    },
+                    "subject": "Notable games",
+                    "object": "Target platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.03,
+                        "http://dbpedia.org/property/license": 0.01
+                    },
+                    "subject": "Notable games",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.02,
+                        "http://dbpedia.org/ontology/genre": 0.02
+                    },
+                    "subject": "Notable games",
+                    "object": "Notes and references"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.4,
+                        "http://dbpedia.org/property/debianApproved": 0.93,
+                        "http://dbpedia.org/property/osiApproved": 0.94,
+                        "http://dbpedia.org/property/gplCompatible": 0.61,
+                        "http://dbpedia.org/property/linking": 0.71,
+                        "http://dbpedia.org/property/copyleft": 0.39,
+                        "http://dbpedia.org/property/freeSoftware": 0.93
+                    },
+                    "subject": "License",
+                    "object": "Cross-platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.48,
+                        "http://dbpedia.org/property/debianApproved": 0.35,
+                        "http://dbpedia.org/property/osiApproved": 0.42,
+                        "http://dbpedia.org/property/gplCompatible": 0.31,
+                        "http://dbpedia.org/property/linking": 0.43,
+                        "http://dbpedia.org/property/copyleft": 0.56,
+                        "http://dbpedia.org/property/freeSoftware": 0.36
+                    },
+                    "subject": "License",
+                    "object": "SDL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.01,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.01
+                    },
+                    "subject": "Notes and references",
+                    "object": "Primary programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.01
+                    },
+                    "subject": "Notes and references",
+                    "object": "Cross-platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.01,
+                        "http://dbpedia.org/property/operatingSystem": 0.02
+                    },
+                    "subject": "Notes and references",
+                    "object": "Target platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.02,
+                        "http://dbpedia.org/property/license": 0.02
+                    },
+                    "subject": "Notes and references",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section 'Free/libre and open source software'",
+            "colums": [
+                "Name",
+                "Primary programming language",
+                "Scripting",
+                "Cross-platform",
+                "SDL",
+                "2D/3D oriented",
+                "Target platform",
+                "Notable games",
+                "License",
+                "Notes and references"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.04
+                    },
+                    "subject": "Game engine",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/product": 0.01,
+                        "http://dbpedia.org/ontology/parentCompany": 0.01,
+                        "http://dbpedia.org/ontology/developer": 0.32,
+                        "http://dbpedia.org/property/developer": 0.32,
+                        "http://dbpedia.org/property/author": 0.01,
+                        "http://dbpedia.org/ontology/author": 0.01
+                    },
+                    "subject": "Game engine",
+                    "object": "Company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.01,
+                        "http://dbpedia.org/property/engine": 0.45,
+                        "http://dbpedia.org/ontology/gameEngine": 0.51,
+                        "http://dbpedia.org/property/publisher": 0.01,
+                        "http://dbpedia.org/ontology/developer": 0.05,
+                        "http://dbpedia.org/property/developer": 0.05,
+                        "http://dbpedia.org/property/designer": 0.01
+                    },
+                    "subject": "Games",
+                    "object": "Game engine"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.27,
+                        "http://dbpedia.org/property/engine": 0.05,
+                        "http://dbpedia.org/property/designer": 0.01,
+                        "http://dbpedia.org/ontology/distributor": 0.01,
+                        "http://dbpedia.org/ontology/designer": 0.01,
+                        "http://dbpedia.org/ontology/developer": 0.57,
+                        "http://dbpedia.org/property/developer": 0.55,
+                        "http://dbpedia.org/ontology/gameEngine": 0.07,
+                        "http://dbpedia.org/property/publisher": 0.22,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Games",
+                    "object": "Company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.11,
+                        "http://dbpedia.org/property/designer": 0.01
+                    },
+                    "subject": "Company",
+                    "object": "Game engine"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.01,
+                        "http://dbpedia.org/ontology/publisher": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.12,
+                        "http://dbpedia.org/property/publisher": 0.01,
+                        "http://dbpedia.org/property/products": 0.03,
+                        "http://dbpedia.org/property/developer": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Company",
+                    "object": "Games"
+                }
+            ],
+            "table": "Unnamed table in section 'With related games'",
+            "colums": [
+                "Game engine",
+                "Games",
+                "Company"
+            ]
+        }
+    ]
+}

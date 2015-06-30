@@ -1,0 +1,185 @@
+{
+    "page": "List of volcanoes in Indonesia",
+    "no. of tables": 7,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Geographical groups'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastEruption": 0.03,
+                        "http://dbpedia.org/property/type": 0.86,
+                        "http://dbpedia.org/property/elevation": 0.03,
+                        "http://dbpedia.org/ontology/type": 0.83
+                    },
+                    "subject": "Name",
+                    "object": "Shape"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevation": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Elevation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastEruption": 0.11,
+                        "http://dbpedia.org/property/type": 0.03,
+                        "http://dbpedia.org/property/elevation": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Last eruption (VEI)"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Shape",
+                "Elevation",
+                "Last eruption (VEI)",
+                "Geolocation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Geographical groups'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.89,
+                        "http://dbpedia.org/ontology/type": 0.91
+                    },
+                    "subject": "Name",
+                    "object": "Shape"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastEruption": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Last eruption (VEI)"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Shape",
+                "Elevation",
+                "Last eruption (VEI)",
+                "Geolocation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of volcanoes in Indonesia\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.8,
+                        "http://dbpedia.org/ontology/type": 0.9
+                    },
+                    "subject": "Name",
+                    "object": "Shape"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Shape",
+                "Elevation",
+                "Last eruption (VEI)",
+                "Geolocation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of volcanoes in Indonesia\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.89,
+                        "http://dbpedia.org/ontology/type": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Shape"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Shape",
+                "Elevation",
+                "Last eruption (VEI)",
+                "Geolocation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of volcanoes in Indonesia\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.93,
+                        "http://dbpedia.org/ontology/type": 0.93
+                    },
+                    "subject": "Name",
+                    "object": "Shape"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Shape",
+                "Elevation",
+                "Last eruption (VEI)",
+                "Geolocation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of volcanoes in Indonesia\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastEruption": 0.06,
+                        "http://dbpedia.org/property/type": 0.62,
+                        "http://dbpedia.org/ontology/type": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Shape"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastEruption": 0.19,
+                        "http://dbpedia.org/property/type": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Last eruption (VEI)"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Shape",
+                "Elevation",
+                "Last eruption (VEI)",
+                "Geolocation"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Major eruptions'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vei": 0.05,
+                        "http://dbpedia.org/property/latD": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Volcano",
+                    "object": "VEI"
+                }
+            ],
+            "colums": [
+                "Eruption date",
+                "Volcano",
+                "Cessation date",
+                "VEI",
+                "Characteristics",
+                "Tsunami",
+                "Tephra volume",
+                "Fatality",
+                "Sources"
+            ]
+        }
+    ]
+}

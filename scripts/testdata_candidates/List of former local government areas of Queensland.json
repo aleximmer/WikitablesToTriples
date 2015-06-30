@@ -1,0 +1,379 @@
+{
+    "no. of tables": 5,
+    "page": "List of former local government areas of Queensland",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.93
+                    },
+                    "subject": "LGA",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.66
+                    },
+                    "subject": "LGA",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.67
+                    },
+                    "subject": "LGA",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 0.13
+                    },
+                    "subject": "LGA",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationTotal": 0.07,
+                        "http://dbpedia.org/property/pop": 0.07
+                    },
+                    "subject": "LGA",
+                    "object": "Pop 2006"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nearSw": 0.01,
+                        "http://dbpedia.org/property/nearSe": 0.01,
+                        "http://dbpedia.org/property/nearS": 0.02,
+                        "http://dbpedia.org/property/nearNe": 0.01
+                    },
+                    "subject": "LGA",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.01,
+                        "http://dbpedia.org/property/lga": 0.05
+                    },
+                    "subject": "Seat",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.01
+                    },
+                    "subject": "Seat",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.54
+                    },
+                    "subject": "Seat",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.02
+                    },
+                    "subject": "Region",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.76
+                    },
+                    "subject": "Region",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nearNw": 0.01,
+                        "http://dbpedia.org/property/nearW": 0.01,
+                        "http://dbpedia.org/property/nearN": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.27
+                    },
+                    "subject": "Notes",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.51
+                    },
+                    "subject": "Notes",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Local government areas amalgamated in 2008'",
+            "colums": [
+                "LGA",
+                "Type",
+                "Seat",
+                "Region",
+                "Established",
+                "Area (km\u00b2)",
+                "Pop 2006",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.67
+                    },
+                    "subject": "LGA",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.75
+                    },
+                    "subject": "LGA",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.58
+                    },
+                    "subject": "LGA",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 0.17
+                    },
+                    "subject": "LGA",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nearE": 0.17,
+                        "http://dbpedia.org/property/nearSe": 0.17,
+                        "http://dbpedia.org/property/nearN": 0.08
+                    },
+                    "subject": "LGA",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.17
+                    },
+                    "subject": "Seat",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.17
+                    },
+                    "subject": "Region",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.83
+                    },
+                    "subject": "Notes",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.17
+                    },
+                    "subject": "Notes",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Local government areas amalgamated in the 1990s'",
+            "colums": [
+                "LGA",
+                "Type",
+                "Seat",
+                "Region",
+                "Established",
+                "Area (km\u00b2)",
+                "Pop 1991",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.17
+                    },
+                    "subject": "Region",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.75
+                    },
+                    "subject": "Notes",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Amalgamations in 1948-9'",
+            "colums": [
+                "LGA",
+                "Type",
+                "Seat",
+                "Region",
+                "Established",
+                "Area (km\u00b2)",
+                "Pop",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.3
+                    },
+                    "subject": "Seat",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 1.0
+                    },
+                    "subject": "Region",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Amalgamations into Greater Brisbane in 1925'",
+            "colums": [
+                "LGA",
+                "Type",
+                "Seat",
+                "Region",
+                "Established",
+                "Abolished",
+                "Area (km\u00b2)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.07
+                    },
+                    "subject": "LGA",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.03
+                    },
+                    "subject": "LGA",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.03
+                    },
+                    "subject": "LGA",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "LGA",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.13,
+                        "http://dbpedia.org/property/name": 0.2,
+                        "http://xmlns.com/foaf/0.1/name": 0.2
+                    },
+                    "subject": "Seat",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.2
+                    },
+                    "subject": "Seat",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.33
+                    },
+                    "subject": "Region",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.27
+                    },
+                    "subject": "Notes",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.83
+                    },
+                    "subject": "Notes",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.37
+                    },
+                    "subject": "Notes",
+                    "object": "Abolished"
+                }
+            ],
+            "table": "Unnamed table in section 'Other former local government areas'",
+            "colums": [
+                "LGA",
+                "Type",
+                "Seat",
+                "Region",
+                "Established",
+                "Abolished",
+                "Area (km\u00b2)",
+                "Notes"
+            ]
+        }
+    ]
+}

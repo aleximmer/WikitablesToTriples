@@ -1,0 +1,183 @@
+{
+    "no. of tables": 7,
+    "page": "List of earldoms",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Peerages and baronetcies of Britain and Ireland",
+            "colums": [
+                "Extant",
+                "All"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Earldoms in England before 1066'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creationDate": 0.0
+                    },
+                    "subject": "Title",
+                    "object": "Date of creation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/presentHolder": 0.0,
+                        "http://dbpedia.org/property/heirApparent": 0.0,
+                        "http://dbpedia.org/property/title": 0.0,
+                        "http://dbpedia.org/property/subsidiaryTitles": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/property/presentHolder": 0.0,
+                        "http://dbpedia.org/property/heirApparent": 0.0,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/subsidiaryTitles": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Earldoms in the Peerage of England, 1066\u20131707'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.18,
+                        "http://dbpedia.org/property/heirApparent": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/heirApparent": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Surname"
+                }
+            ],
+            "table": "Unnamed table in section 'Earldoms in the Peerage of Great Britain, 1707\u20131801'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/alias": 0.01,
+                        "http://dbpedia.org/property/alternativeNames": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Earldoms in the Peerage of Ireland, 1205\u20131831'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/surname": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.19,
+                        "http://dbpedia.org/property/firstHolder": 0.01,
+                        "http://dbpedia.org/property/presentHolder": 0.01,
+                        "http://dbpedia.org/property/subsidiaryTitles": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/succession": 0.01,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/subsidiaryTitles": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Earldoms in the Peerage of the United Kingdom, 1801\u2013present'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        }
+    ]
+}

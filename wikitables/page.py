@@ -45,7 +45,7 @@ class Page:
     def hasTable(self):
         return True if self.tables else False
 
-    def predicates(self, relative=False, omit=False):
+    def predicates(self, relative=True, omit=False):
         return {
             'page': self.title,
             'no. of tables': len(self.tables),

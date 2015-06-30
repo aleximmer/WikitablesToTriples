@@ -1,0 +1,179 @@
+{
+    "no. of tables": 3,
+    "page": "List of NFL 1,000-yard rushing duos",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Key",
+            "colums": [
+                "Symbol",
+                "Meaning"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.17,
+                        "http://dbpedia.org/property/divisionPlace": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.33,
+                        "http://dbpedia.org/property/r": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.33,
+                        "http://dbpedia.org/property/r": 0.17,
+                        "http://dbpedia.org/property/record": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "TDs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/proBowlers": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "Second-leading rusher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.33,
+                        "http://dbpedia.org/property/r": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.33,
+                        "http://dbpedia.org/property/r": 0.17,
+                        "http://dbpedia.org/property/record": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "TDs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftround": 0.17,
+                        "http://dbpedia.org/ontology/draftRound": 0.17
+                    },
+                    "subject": "Leading rusher",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.33,
+                        "http://dbpedia.org/ontology/position": 0.33
+                    },
+                    "subject": "Leading rusher",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/broadFt": 0.17,
+                        "http://dbpedia.org/property/heightIn": 0.17,
+                        "http://dbpedia.org/property/heightin": 0.17,
+                        "http://dbpedia.org/property/heightft": 0.17
+                    },
+                    "subject": "Leading rusher",
+                    "object": "TDs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.33,
+                        "http://dbpedia.org/ontology/position": 0.33
+                    },
+                    "subject": "Leading rusher",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/broadFt": 0.17,
+                        "http://dbpedia.org/property/heightIn": 0.17,
+                        "http://dbpedia.org/property/heightin": 0.17,
+                        "http://dbpedia.org/property/heightft": 0.17
+                    },
+                    "subject": "Leading rusher",
+                    "object": "TDs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightft": 0.17
+                    },
+                    "subject": "Second-leading rusher",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/statweek": 0.17
+                    },
+                    "subject": "Second-leading rusher",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/statweek": 0.17
+                    },
+                    "subject": "Second-leading rusher",
+                    "object": "Games"
+                }
+            ],
+            "table": "List of teammates with at least 1,000 rushing yards each",
+            "colums": [
+                "No.",
+                "Season",
+                "Team",
+                "Leading rusher",
+                "Position",
+                "Games",
+                "Yds.",
+                "Y/A",
+                "TDs",
+                "Second-leading rusher",
+                "Position",
+                "Games",
+                "Yds.",
+                "Y/A",
+                "TDs",
+                "Ref(s)."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afcchampion": 0.11
+                    },
+                    "subject": "Season",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/player": 0.11
+                    },
+                    "subject": "Team",
+                    "object": "Leading Rusher"
+                }
+            ],
+            "table": "Unnamed table in section '1,000-yard rushing duos'",
+            "colums": [
+                "Season",
+                "Team",
+                "Leading Rusher",
+                "Yds.",
+                "Second-leading Rusher",
+                "Yds.",
+                "Reference"
+            ]
+        }
+    ]
+}

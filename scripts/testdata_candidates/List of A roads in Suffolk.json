@@ -1,0 +1,52 @@
+{
+    "no. of tables": 2,
+    "page": "List of A roads in Suffolk",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major A roads'",
+            "colums": [
+                "Name:",
+                "To:",
+                "From:",
+                "Via:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "To:",
+                    "object": "From:"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/destinations": 0.14,
+                        "http://dbpedia.org/property/postTown": 0.05
+                    },
+                    "subject": "From:",
+                    "object": "To:"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postTown": 0.05
+                    },
+                    "subject": "Via:",
+                    "object": "To:"
+                }
+            ],
+            "table": "Unnamed table in section 'Minor A roads'",
+            "colums": [
+                "Name:",
+                "To:",
+                "From:",
+                "Via:"
+            ]
+        }
+    ]
+}

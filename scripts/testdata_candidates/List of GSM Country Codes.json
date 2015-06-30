@@ -1,0 +1,3918 @@
+{
+    "no. of tables": 235,
+    "page": "Mobile country code",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Test networks'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5,
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.25,
+                        "http://dbpedia.org/ontology/parentCompany": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.17,
+                        "http://xmlns.com/foaf/0.1/name": 0.17
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "References and notes",
+                    "object": "Bands (MHz)"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.42
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.04,
+                        "http://dbpedia.org/ontology/parentCompany": 0.04
+                    },
+                    "subject": "Operator",
+                    "object": "References and notes"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.29
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1
+                    },
+                    "subject": "Operator",
+                    "object": "MNC"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/ontology/parentCompany": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/ontology/owningCompany": 0.06,
+                        "http://dbpedia.org/property/owner": 0.06,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/ontology/owner": 0.06
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/logo": 0.02
+                    },
+                    "subject": "Operator",
+                    "object": "MNC"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.12
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/name": 0.2,
+                        "http://xmlns.com/foaf/0.1/name": 0.2
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Brand",
+                    "object": "References and notes"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/tradingName": 0.4
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.2,
+                        "http://dbpedia.org/ontology/parentCompany": 0.2
+                    },
+                    "subject": "Brand",
+                    "object": "References and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.2,
+                        "http://dbpedia.org/ontology/subsidiary": 0.2
+                    },
+                    "subject": "References and notes",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.19
+                    },
+                    "subject": "References and notes",
+                    "object": "Bands (MHz)"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Brand",
+                    "object": "MNC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.11,
+                        "http://dbpedia.org/ontology/parentCompany": 0.11,
+                        "http://dbpedia.org/ontology/owner": 0.16,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/ontology/owningCompany": 0.16,
+                        "http://dbpedia.org/property/owner": 0.05
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Operator",
+                    "object": "MNC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.16,
+                        "http://dbpedia.org/ontology/subsidiary": 0.16
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.03
+                    },
+                    "subject": "Operator",
+                    "object": "References and notes"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.03
+                    },
+                    "subject": "Operator",
+                    "object": "References and notes"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.22
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/ontology/parentCompany": 0.2
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.2,
+                        "http://dbpedia.org/ontology/subsidiary": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tradingName": 0.33
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.12,
+                        "http://dbpedia.org/property/name": 0.04,
+                        "http://dbpedia.org/ontology/parentCompany": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.04
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.12
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.11,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11,
+                        "http://dbpedia.org/property/name": 0.11,
+                        "http://xmlns.com/foaf/0.1/name": 0.11
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.23,
+                        "http://dbpedia.org/property/founder": 0.05,
+                        "http://dbpedia.org/property/owner": 0.05,
+                        "http://dbpedia.org/property/keyPeople": 0.05
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.24,
+                        "http://dbpedia.org/property/name": 0.13,
+                        "http://xmlns.com/foaf/0.1/name": 0.13
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.26
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tradingName": 0.25
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "References and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "References and notes",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "References and notes",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.11
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/companyName": 0.2,
+                        "http://xmlns.com/foaf/0.1/name": 0.2
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.17
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.5,
+                        "http://xmlns.com/foaf/0.1/name": 0.5
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/companyLogo": 0.05
+                    },
+                    "subject": "Brand",
+                    "object": "MNC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/companyName": 0.05,
+                        "http://dbpedia.org/property/name": 0.16,
+                        "http://xmlns.com/foaf/0.1/name": 0.21
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.09,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09,
+                        "http://dbpedia.org/ontology/parentCompany": 0.09
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.09,
+                        "http://dbpedia.org/ontology/subsidiary": 0.09
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 1.0,
+                        "http://dbpedia.org/property/owner": 1.0,
+                        "http://dbpedia.org/ontology/owningCompany": 1.0
+                    },
+                    "subject": "References and notes",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://xmlns.com/foaf/0.1/name": 0.33
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.07
+                    },
+                    "subject": "References and notes",
+                    "object": "MNC"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.22,
+                        "http://dbpedia.org/property/name": 0.11,
+                        "http://xmlns.com/foaf/0.1/name": 0.11
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1,
+                        "http://dbpedia.org/property/name": 0.1,
+                        "http://xmlns.com/foaf/0.1/name": 0.1
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06
+                    },
+                    "subject": "References and notes",
+                    "object": "Bands (MHz)"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.67
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.12,
+                        "http://dbpedia.org/ontology/parentCompany": 0.12
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05
+                    },
+                    "subject": "References and notes",
+                    "object": "Bands (MHz)"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.17
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.17,
+                        "http://dbpedia.org/property/companyName": 0.08,
+                        "http://dbpedia.org/property/name": 0.08,
+                        "http://xmlns.com/foaf/0.1/name": 0.17
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.06,
+                        "http://dbpedia.org/ontology/parentCompany": 0.06
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.2,
+                        "http://xmlns.com/foaf/0.1/name": 0.8
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02
+                    },
+                    "subject": "References and notes",
+                    "object": "Bands (MHz)"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "Brand",
+                    "object": "References and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Operator",
+                    "object": "References and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "References and notes",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "References and notes",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.17,
+                        "http://dbpedia.org/ontology/parentCompany": 0.17
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.1,
+                        "http://dbpedia.org/ontology/subsidiary": 0.1,
+                        "http://dbpedia.org/property/tradingName": 0.02,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.05,
+                        "http://dbpedia.org/property/name": 0.02
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.05,
+                        "http://dbpedia.org/ontology/parentCompany": 0.05
+                    },
+                    "subject": "Operator",
+                    "object": "References and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.05,
+                        "http://dbpedia.org/ontology/subsidiary": 0.05
+                    },
+                    "subject": "References and notes",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/companyName": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.12
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.12,
+                        "http://dbpedia.org/ontology/parentCompany": 0.12
+                    },
+                    "subject": "Brand",
+                    "object": "References and notes"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25,
+                        "http://dbpedia.org/property/name": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    },
+                    "subject": "Operator",
+                    "object": "Brand"
+                }
+            ],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Brand",
+                    "object": "Operator"
+                }
+            ],
+            "table": "Unnamed table in section 'International operators'",
+            "colums": [
+                "MCC",
+                "MNC",
+                "Brand",
+                "Operator",
+                "Status",
+                "Bands (MHz)",
+                "References and notes"
+            ]
+        }
+    ]
+}

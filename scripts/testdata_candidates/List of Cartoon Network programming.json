@@ -1,0 +1,237 @@
+{
+    "no. of tables": 21,
+    "page": "List of programs broadcast by Cartoon Network",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Current programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Current season",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Current programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Current season",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/episodenumber": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Current season"
+                }
+            ],
+            "table": "Unnamed table in section 'Current programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Current season",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Current programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Current season",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Current programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Upcoming programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Upcoming programming'",
+            "colums": [
+                "Title",
+                "Premiere year",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Upcoming programming'",
+            "colums": [
+                "Title",
+                "Premiere year",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Upcoming programming'",
+            "colums": [
+                "Title",
+                "Premiere year",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Finale date",
+                "Date(s) reran",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Premiere date",
+                "Finale date",
+                "Date(s) reran",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/executiveProducer": 0.0,
+                        "http://dbpedia.org/ontology/licensee": 0.0,
+                        "http://dbpedia.org/property/network": 0.01,
+                        "http://dbpedia.org/property/studio": 0.0,
+                        "http://dbpedia.org/ontology/creator": 0.0,
+                        "http://dbpedia.org/property/distributor": 0.0,
+                        "http://dbpedia.org/property/company": 0.01,
+                        "http://dbpedia.org/ontology/company": 0.0,
+                        "http://dbpedia.org/property/creator": 0.0,
+                        "http://dbpedia.org/ontology/network": 0.0
+                    },
+                    "subject": "Title",
+                    "object": "Distributor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastAired": 0.0
+                    },
+                    "subject": "Title",
+                    "object": "Year(s) aired"
+                }
+            ],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Distributor",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Distributor",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former programming'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Programming blocks'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Programming blocks'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Pilots'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Pilots'",
+            "colums": [
+                "Title",
+                "Year(s) aired",
+                "Note(s)"
+            ]
+        }
+    ]
+}

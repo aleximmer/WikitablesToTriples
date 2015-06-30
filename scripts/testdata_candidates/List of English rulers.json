@@ -1,0 +1,1022 @@
+{
+    "no. of tables": 24,
+    "page": "List of English monarchs",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.5,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 0.5,
+                        "http://dbpedia.org/property/predecessor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.5,
+                        "http://dbpedia.org/property/successor": 0.5,
+                        "http://dbpedia.org/property/issue": 1.0,
+                        "http://dbpedia.org/property/after": 0.5
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Wessex'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 1.0,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 1.0,
+                        "http://dbpedia.org/property/predecessor": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 1.0,
+                        "http://dbpedia.org/property/issue": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Wessex'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.14,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.57,
+                        "http://dbpedia.org/ontology/spouse": 0.57
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.29,
+                        "http://dbpedia.org/ontology/deathPlace": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.29,
+                        "http://dbpedia.org/property/successor": 0.14,
+                        "http://dbpedia.org/property/issue": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.43,
+                        "http://dbpedia.org/ontology/spouse": 0.57
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Wessex'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 1.0,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 1.0,
+                        "http://dbpedia.org/property/predecessor": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 1.0,
+                        "http://dbpedia.org/property/successor": 1.0,
+                        "http://dbpedia.org/property/after": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Denmark'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.5,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.5,
+                        "http://dbpedia.org/property/successor": 0.5,
+                        "http://dbpedia.org/property/issue": 0.5
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.5,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Wessex (restored, first time)'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.67,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.33,
+                        "http://dbpedia.org/ontology/spouse": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.67,
+                        "http://dbpedia.org/ontology/deathPlace": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.33,
+                        "http://dbpedia.org/property/successor": 0.67,
+                        "http://dbpedia.org/property/issue": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.33,
+                        "http://dbpedia.org/ontology/spouse": 0.33
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Denmark (restored)'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.67,
+                        "http://dbpedia.org/ontology/spouse": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.67,
+                        "http://dbpedia.org/ontology/spouse": 0.67
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Normandy'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Blois'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 1.0,
+                        "http://dbpedia.org/property/commander": 1.0
+                    },
+                    "subject": "Claim",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Blois'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.25,
+                        "http://dbpedia.org/ontology/parent": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.75,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5,
+                        "http://dbpedia.org/property/father": 0.25,
+                        "http://dbpedia.org/property/regent": 0.25,
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/property/after": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.25,
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 0.25,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/regent": 0.25
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 0.25,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Anjou'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 1.0,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 1.0,
+                        "http://dbpedia.org/property/after": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Anjou'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.4,
+                        "http://dbpedia.org/ontology/birthPlace": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 0.2,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.4,
+                        "http://dbpedia.org/ontology/deathPlace": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.6,
+                        "http://dbpedia.org/property/father": 0.6,
+                        "http://dbpedia.org/ontology/parent": 0.6,
+                        "http://dbpedia.org/ontology/predecessor": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Claim"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 0.2,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.2,
+                        "http://dbpedia.org/property/deathPlace": 0.2,
+                        "http://dbpedia.org/ontology/deathPlace": 0.2
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.6,
+                        "http://dbpedia.org/property/successor": 0.6,
+                        "http://dbpedia.org/property/issue": 0.6,
+                        "http://dbpedia.org/property/after": 0.4
+                    },
+                    "subject": "Claim",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Plantagenet'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.67,
+                        "http://dbpedia.org/property/spouses": 0.33,
+                        "http://dbpedia.org/ontology/spouse": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.33,
+                        "http://dbpedia.org/ontology/deathPlace": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Plantagenet'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Plantagenet'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 1.0
+                    },
+                    "subject": "Claim",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 1.0
+                    },
+                    "subject": "Claim",
+                    "object": "Marriages"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Plantagenet'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.67,
+                        "http://dbpedia.org/ontology/spouse": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.67,
+                        "http://dbpedia.org/ontology/spouse": 0.67
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.33
+                    },
+                    "subject": "Death",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Plantagenet'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Tudor'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parent": 0.5,
+                        "http://dbpedia.org/property/mother": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/property/before": 0.5,
+                        "http://dbpedia.org/property/predecessor": 0.5,
+                        "http://dbpedia.org/property/regent": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfBurial": 0.5,
+                        "http://dbpedia.org/ontology/restingPlace": 0.5,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.5
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.5,
+                        "http://dbpedia.org/property/predecessor": 0.5,
+                        "http://dbpedia.org/ontology/spouse": 1.0,
+                        "http://dbpedia.org/property/regent": 1.0,
+                        "http://dbpedia.org/property/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Tudor'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/property/mother": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 1.0
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Tudor'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Stuart'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death",
+                "Claim"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.5,
+                        "http://dbpedia.org/ontology/spouse": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/child": 0.5,
+                        "http://dbpedia.org/ontology/spouse": 0.5
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'House of Stuart'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Arms",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        }
+    ]
+}

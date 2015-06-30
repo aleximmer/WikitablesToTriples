@@ -1,0 +1,24 @@
+{
+    "no. of tables": 2,
+    "page": "List of 1998 ballet premieres",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/balletMasterInChief": 0.5
+                    },
+                    "subject": "company",
+                    "object": "choreographer"
+                }
+            ],
+            "table": "Unnamed table in section 'List of 1998 ballet premieres'",
+            "colums": [
+                "title",
+                "choreographer",
+                "composer",
+                "company"
+            ]
+        }
+    ]
+}

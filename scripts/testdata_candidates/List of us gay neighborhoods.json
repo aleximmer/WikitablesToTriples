@@ -1,0 +1,333 @@
+{
+    "no. of tables": 21,
+    "page": "List of gay villages",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Argentina'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.05
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Australia'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Brazil'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.12,
+                        "http://dbpedia.org/ontology/isPartOf": 0.38,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.38,
+                        "http://dbpedia.org/property/maint": 0.12
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Canada'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Colombia'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cuba'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Czech Republic'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.08
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'France'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.17,
+                        "http://dbpedia.org/property/town": 0.17
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Germany'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Greece'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/frazioni": 0.33
+                    },
+                    "subject": "City",
+                    "object": "Name of village"
+                }
+            ],
+            "table": "Unnamed table in section 'Italy'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Japan'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mexico'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'New Zealand'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'The Philippines'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestState": 0.33,
+                        "http://dbpedia.org/ontology/lowestState": 0.33,
+                        "http://dbpedia.org/ontology/owner": 0.33,
+                        "http://dbpedia.org/ontology/owningOrganisation": 0.33,
+                        "http://dbpedia.org/ontology/highestState": 0.33,
+                        "http://dbpedia.org/property/lowestState": 0.33
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Portugal'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South Africa'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South Korea'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.04
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Spain'",
+            "colums": [
+                "Name of village",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/lieutenancyArea": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Name of village",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'United Kingdom'",
+            "colums": [
+                "Name of village",
+                "City",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/east": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.39,
+                        "http://dbpedia.org/property/southeast": 0.01,
+                        "http://dbpedia.org/property/district": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.11,
+                        "http://dbpedia.org/property/subdivisionName": 0.36,
+                        "http://dbpedia.org/property/southwest": 0.01,
+                        "http://dbpedia.org/ontology/district": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/type": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/property/south": 0.01,
+                        "http://dbpedia.org/property/settlementType": 0.01
+                    },
+                    "subject": "Name of village",
+                    "object": "City or County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/largestCity": 0.01,
+                        "http://dbpedia.org/property/north": 0.01,
+                        "http://dbpedia.org/ontology/countySeat": 0.06,
+                        "http://dbpedia.org/ontology/largestCity": 0.04,
+                        "http://dbpedia.org/property/seat": 0.01
+                    },
+                    "subject": "City or County",
+                    "object": "Name of village"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Name of village",
+                "City or County"
+            ]
+        }
+    ]
+}

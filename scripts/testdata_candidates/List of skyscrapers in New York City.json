@@ -1,0 +1,292 @@
+{
+    "no. of tables": 7,
+    "page": "List of tallest buildings in New York City",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternateNames": 0.01,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/property/elevatorCount": 0.01,
+                        "http://dbpedia.org/property/rows": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topFloor": 0.03,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/floors": 0.01,
+                        "http://dbpedia.org/ontology/floorCount": 0.61,
+                        "http://dbpedia.org/property/floorCount": 0.6,
+                        "http://dbpedia.org/property/latDegrees": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.03,
+                        "http://dbpedia.org/property/opening": 0.13,
+                        "http://dbpedia.org/property/openingDate": 0.01,
+                        "http://dbpedia.org/property/startDate": 0.04,
+                        "http://dbpedia.org/property/built": 0.02,
+                        "http://dbpedia.org/property/estCompletion": 0.01,
+                        "http://dbpedia.org/property/completionDate": 0.56,
+                        "http://dbpedia.org/property/years": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developer": 0.01,
+                        "http://dbpedia.org/ontology/tenant": 0.01,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/ontology/owner": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/floorCount": 0.01,
+                        "http://dbpedia.org/property/floorCount": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.01,
+                        "http://dbpedia.org/property/completionDate": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Image",
+                "Height\nft (m)",
+                "Floors",
+                "Year",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternateNames": 0.09,
+                        "http://dbpedia.org/property/caption": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Pinn.\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternateNames": 0.09,
+                        "http://dbpedia.org/property/caption": 0.09,
+                        "http://dbpedia.org/property/rows": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Std.\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.55,
+                        "http://dbpedia.org/ontology/floorCount": 0.55
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.09,
+                        "http://dbpedia.org/property/opening": 0.18,
+                        "http://dbpedia.org/property/completionDate": 0.45,
+                        "http://dbpedia.org/property/years": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'List of tallest buildings in New York City'",
+            "colums": [
+                "Pinn.\nRank",
+                "Std.\nRank",
+                "Name",
+                "Pinnacle\nheight\nft (m)",
+                "Standard\nheight\nft (m)",
+                "Floors",
+                "Year",
+                "Sources"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.2
+                    },
+                    "subject": "Borough",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.2,
+                        "http://dbpedia.org/ontology/floorCount": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings'",
+            "colums": [
+                "Borough",
+                "Name",
+                "Height\nft (m)",
+                "Floors",
+                "Year",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.17,
+                        "http://dbpedia.org/ontology/floorCount": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.04,
+                        "http://dbpedia.org/property/estCompletion": 0.13,
+                        "http://dbpedia.org/property/completionDate": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Year(est.)"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest under construction or proposed'",
+            "colums": [
+                "Name",
+                "Image\nor rendering",
+                "Height*\nft (m)",
+                "Floors",
+                "Year(est.)",
+                ""
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/floorCount": 0.1,
+                        "http://dbpedia.org/ontology/floorCount": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest under construction or proposed'",
+            "colums": [
+                "Name",
+                "Height*\nft (m)",
+                "Floors",
+                "Year*",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.4,
+                        "http://dbpedia.org/ontology/floorCount": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.2,
+                        "http://dbpedia.org/property/opening": 0.2,
+                        "http://dbpedia.org/property/completionDate": 0.2,
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Com-\npleted\nin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demolishedDate": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Des-\ntroyed\nin"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest destroyed'",
+            "colums": [
+                "Name",
+                "Image",
+                "Height\nft (m)",
+                "Floors",
+                "Com-\npleted\nin",
+                "Des-\ntroyed\nin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longSeconds": 0.06,
+                        "http://dbpedia.org/property/floorCount": 0.44,
+                        "http://dbpedia.org/ontology/floorCount": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Floors"
+                }
+            ],
+            "table": "Unnamed table in section 'Timeline of tallest buildings'",
+            "colums": [
+                "Name",
+                "Image",
+                "Street address",
+                "Years as\ntallest",
+                "Height\nft (m)",
+                "Floors",
+                "Notes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "no. of tables": 2,
+    "page": "List of 3D films",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.3
+                    },
+                    "subject": "Title",
+                    "object": "Prod. Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/distributor": 0.03,
+                        "http://dbpedia.org/property/distributor": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Camera System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ridersPerVehicle": 0.03,
+                        "http://dbpedia.org/property/duration": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Runtime min"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.41
+                    },
+                    "subject": "Notes",
+                    "object": "Prod. Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Short films'",
+            "colums": [
+                "Title",
+                "Release Date",
+                "Prod. Country",
+                "Camera System",
+                "Aspect Ratio",
+                "Runtime min",
+                "Notes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+{
+    "no. of tables": 8,
+    "page": "List of Indian reserves in Canada",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Indian reserve",
+                    "object": "Government/band"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Indian reserve",
+                    "object": "Communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Government/band",
+                    "object": "Communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southwest": 0.04
+                    },
+                    "subject": "Communities",
+                    "object": "Indian reserve"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04,
+                        "http://dbpedia.org/property/southwest": 0.04
+                    },
+                    "subject": "Communities",
+                    "object": "Government/band"
+                }
+            ],
+            "table": "Unnamed table in section 'New Brunswick'",
+            "colums": [
+                "Indian reserve",
+                "Government/band",
+                "Tribal council",
+                "Ethnic/national group",
+                "Communities",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Newfoundland and Labrador'",
+            "colums": [
+                "Indian reserve[1]",
+                "Government/band",
+                "Tribal council",
+                "Ethnic/national group",
+                "Communities",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Indian reserve",
+                    "object": "Government/band"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Indian reserve",
+                    "object": "Communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Communities",
+                    "object": "Indian reserve"
+                }
+            ],
+            "table": "Unnamed table in section 'Nova Scotia'",
+            "colums": [
+                "Indian reserve",
+                "Government/band",
+                "Tribal council",
+                "Ethnic/national group",
+                "Communities",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.03,
+                        "http://dbpedia.org/property/settlementType": 0.03
+                    },
+                    "subject": "Indian reserve[1][1]",
+                    "object": "Government/band"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.03,
+                        "http://dbpedia.org/property/settlementType": 0.03,
+                        "http://dbpedia.org/property/establishedTitle": 0.03
+                    },
+                    "subject": "Indian reserve[1][1]",
+                    "object": "Tribal council"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.24
+                    },
+                    "subject": "Indian reserve[1][1]",
+                    "object": "Communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.03,
+                        "http://dbpedia.org/property/settlementType": 0.03,
+                        "http://dbpedia.org/property/establishedTitle": 0.03
+                    },
+                    "subject": "Government/band",
+                    "object": "Tribal council"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.48
+                    },
+                    "subject": "Communities",
+                    "object": "Indian reserve[1][1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.24,
+                        "http://dbpedia.org/ontology/type": 0.03,
+                        "http://dbpedia.org/property/settlementType": 0.03
+                    },
+                    "subject": "Communities",
+                    "object": "Government/band"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.03,
+                        "http://dbpedia.org/property/settlementType": 0.03,
+                        "http://dbpedia.org/property/establishedTitle": 0.03
+                    },
+                    "subject": "Communities",
+                    "object": "Tribal council"
+                }
+            ],
+            "table": "Unnamed table in section 'Northwest Territories'",
+            "colums": [
+                "Indian reserve[1][1]",
+                "Government/band",
+                "Tribal council",
+                "Ethnic/national group",
+                "Communities",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prince Edward Island'",
+            "colums": [
+                "Indian reserve[1]",
+                "Government/band",
+                "Tribal council",
+                "Ethnic/national group",
+                "Communities",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.2,
+                        "http://dbpedia.org/property/langs": 0.2
+                    },
+                    "subject": "Indian reserve[1]",
+                    "object": "Ethnic/national group"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.27,
+                        "http://dbpedia.org/property/langs": 0.27
+                    },
+                    "subject": "Government/band",
+                    "object": "Ethnic/national group"
+                }
+            ],
+            "table": "Unnamed table in section 'Yukon'",
+            "colums": [
+                "Indian reserve[1]",
+                "Government/band",
+                "Tribal council",
+                "Ethnic/national group",
+                "Communities",
+                "Comments"
+            ]
+        }
+    ]
+}

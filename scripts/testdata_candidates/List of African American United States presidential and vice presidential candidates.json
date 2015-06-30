@@ -1,0 +1,410 @@
+{
+    "no. of tables": 5,
+    "page": "List of African-American United States presidential and vice presidential candidates",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afterElection": 1.0,
+                        "http://dbpedia.org/property/name": 1.0,
+                        "http://dbpedia.org/property/beforeElection": 0.5
+                    },
+                    "subject": "Year",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vpName": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0,
+                        "http://dbpedia.org/ontology/party": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vicepresident": 1.0,
+                        "http://dbpedia.org/ontology/vicePresident": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 1.0,
+                        "http://dbpedia.org/property/president": 1.0
+                    },
+                    "subject": "Running Mate",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0,
+                        "http://dbpedia.org/ontology/party": 1.0
+                    },
+                    "subject": "Running Mate",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'U.S. Presidential candidates: Party nominees'",
+            "colums": [
+                "Year",
+                "Name",
+                "Party",
+                "Running Mate",
+                "Electoral\nVotes",
+                "Total\nElectoral\nVotes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afterElection": 0.05,
+                        "http://dbpedia.org/property/name": 0.26,
+                        "http://dbpedia.org/property/beforeElection": 0.03
+                    },
+                    "subject": "Year",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.29
+                    },
+                    "subject": "Year",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vpName": 0.24
+                    },
+                    "subject": "Year",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/organization": 0.03,
+                        "http://dbpedia.org/property/party": 0.18,
+                        "http://dbpedia.org/ontology/party": 0.21
+                    },
+                    "subject": "Name",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.11,
+                        "http://dbpedia.org/property/runningmate": 0.03,
+                        "http://dbpedia.org/property/vicepresident": 0.05,
+                        "http://dbpedia.org/ontology/runningMate": 0.03,
+                        "http://dbpedia.org/ontology/vicePresident": 0.05,
+                        "http://dbpedia.org/property/after": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Party",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Party",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/candidate": 0.03
+                    },
+                    "subject": "Running Mate",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.16,
+                        "http://dbpedia.org/ontology/president": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/property/president": 0.05,
+                        "http://dbpedia.org/property/after": 0.11
+                    },
+                    "subject": "Running Mate",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherparty": 0.11,
+                        "http://dbpedia.org/ontology/otherParty": 0.11,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/party": 0.08,
+                        "http://dbpedia.org/ontology/party": 0.08
+                    },
+                    "subject": "Running Mate",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'U.S. Presidential candidates: Party nominees'",
+            "colums": [
+                "Year",
+                "Name",
+                "Party",
+                "Running Mate",
+                "Votes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vpName": 0.5
+                    },
+                    "subject": "Year",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.5
+                    },
+                    "subject": "Year",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.5
+                    },
+                    "subject": "Year",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/office": 0.09,
+                        "http://dbpedia.org/property/party": 0.27,
+                        "http://dbpedia.org/property/title": 0.05,
+                        "http://dbpedia.org/ontology/party": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 0.09,
+                        "http://dbpedia.org/property/president": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/before": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Party",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Party",
+                    "object": "Running Mate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.05
+                    },
+                    "subject": "Running Mate",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.14,
+                        "http://dbpedia.org/property/vicePresident": 0.18
+                    },
+                    "subject": "Running Mate",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherparty": 0.09,
+                        "http://dbpedia.org/property/employer": 0.05,
+                        "http://dbpedia.org/property/party": 0.41,
+                        "http://dbpedia.org/ontology/party": 0.41,
+                        "http://dbpedia.org/ontology/otherParty": 0.09,
+                        "http://dbpedia.org/property/title": 0.09
+                    },
+                    "subject": "Running Mate",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'U.S. Vice-Presidential candidates: Party nominees'",
+            "colums": [
+                "Year",
+                "Name",
+                "Party",
+                "Running Mate",
+                "Votes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.82
+                    },
+                    "subject": "Year",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vpName": 0.05,
+                        "http://dbpedia.org/property/afterElection": 0.27,
+                        "http://dbpedia.org/property/beforeElection": 0.05,
+                        "http://dbpedia.org/property/name": 0.91,
+                        "http://dbpedia.org/property/nominee": 0.55
+                    },
+                    "subject": "Year",
+                    "object": "Nomination winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.64,
+                        "http://dbpedia.org/ontology/party": 0.64
+                    },
+                    "subject": "Name",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/candidate": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Nomination winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pres": 0.05
+                    },
+                    "subject": "Party",
+                    "object": "Nomination winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/speakers": 0.05
+                    },
+                    "subject": "Details",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afterElection": 0.05,
+                        "http://dbpedia.org/property/presidentialNominee": 0.14
+                    },
+                    "subject": "Details",
+                    "object": "Nomination winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/candidate": 0.05
+                    },
+                    "subject": "Nomination winner",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.18,
+                        "http://dbpedia.org/property/party": 0.77,
+                        "http://dbpedia.org/ontology/party": 0.82
+                    },
+                    "subject": "Nomination winner",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'U.S. President: Other candidates for party nomination'",
+            "colums": [
+                "Year",
+                "Name",
+                "Party",
+                "Details",
+                "Nomination winner"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.89
+                    },
+                    "subject": "Year",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vpName": 0.56,
+                        "http://dbpedia.org/property/runningMate": 0.22
+                    },
+                    "subject": "Year",
+                    "object": "Nomination winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.78,
+                        "http://dbpedia.org/ontology/party": 0.78
+                    },
+                    "subject": "Name",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.11
+                    },
+                    "subject": "Details",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vpName": 0.11,
+                        "http://dbpedia.org/property/vicePresidentialNominee": 0.33
+                    },
+                    "subject": "Details",
+                    "object": "Nomination winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.78,
+                        "http://dbpedia.org/property/party": 0.78,
+                        "http://dbpedia.org/ontology/party": 0.89
+                    },
+                    "subject": "Nomination winner",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'U.S. Vice-President: Other candidates for party nomination'",
+            "colums": [
+                "Year",
+                "Name",
+                "Party",
+                "Details",
+                "Nomination winner"
+            ]
+        }
+    ]
+}

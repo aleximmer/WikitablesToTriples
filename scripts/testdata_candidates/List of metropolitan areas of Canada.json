@@ -1,0 +1,154 @@
+{
+    "no. of tables": 1,
+    "page": "List of census metropolitan areas and agglomerations in Canada",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.01,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.01,
+                        "http://dbpedia.org/property/decHumidity": 0.01,
+                        "http://dbpedia.org/property/yearPercentsun": 0.01,
+                        "http://dbpedia.org/property/populationBlank": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/yearRecordHighC": 0.01,
+                        "http://dbpedia.org/property/decPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/coordinatesDisplay": 0.01,
+                        "http://dbpedia.org/ontology/populationMetro": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/decMaximumHumidex": 0.01,
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/decSnowCm": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Geographic name",
+                    "object": "Rank\n(2011)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/populationBlank": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/coordinatesDisplay": 0.01,
+                        "http://dbpedia.org/property/mayPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/novPercentsun": 0.01,
+                        "http://dbpedia.org/property/mayRainMm": 0.01,
+                        "http://dbpedia.org/property/junRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/populationMetro": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/decMaximumHumidex": 0.01,
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Geographic name",
+                    "object": "Rank\n(2006)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/property/pushpinMap": 0.07
+                    },
+                    "subject": "Geographic name",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junRecordLowC": 0.01,
+                        "http://dbpedia.org/property/febRainDays": 0.01,
+                        "http://dbpedia.org/property/populationBlank": 0.04,
+                        "http://dbpedia.org/property/sepLowC": 0.01,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/sepMeanC": 0.01,
+                        "http://dbpedia.org/property/decRainMm": 0.01,
+                        "http://dbpedia.org/property/augSnowCm": 0.01,
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/property/janLowC": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/maySnowDays": 0.01,
+                        "http://dbpedia.org/property/julSnowCm": 0.01,
+                        "http://dbpedia.org/property/aprMeanC": 0.01,
+                        "http://dbpedia.org/property/elevationFt": 0.01,
+                        "http://dbpedia.org/property/febLowC": 0.01,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/augRecordLowC": 0.02,
+                        "http://dbpedia.org/property/febSnowCm": 0.01,
+                        "http://dbpedia.org/property/2011PopDelta": 0.07,
+                        "http://dbpedia.org/property/aprSnowDays": 0.01,
+                        "http://dbpedia.org/property/mayLowC": 0.01,
+                        "http://dbpedia.org/property/marMeanC": 0.01,
+                        "http://dbpedia.org/property/octSnowDays": 0.01,
+                        "http://dbpedia.org/property/decHighC": 0.01,
+                        "http://dbpedia.org/property/janMaximumHumidex": 0.01,
+                        "http://dbpedia.org/property/novMeanC": 0.01,
+                        "http://dbpedia.org/property/mayHighC": 0.01,
+                        "http://dbpedia.org/property/octLowC": 0.01,
+                        "http://dbpedia.org/property/decLowC": 0.01
+                    },
+                    "subject": "Geographic name",
+                    "object": "Change"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpRank": 0.01,
+                        "http://dbpedia.org/property/densityrank": 0.01,
+                        "http://dbpedia.org/property/arearank": 0.01,
+                        "http://dbpedia.org/property/admittanceorder": 0.01,
+                        "http://dbpedia.org/property/populationrank": 0.01
+                    },
+                    "subject": "Province",
+                    "object": "Rank\n(2011)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpRank": 0.01,
+                        "http://dbpedia.org/property/densityrank": 0.01,
+                        "http://dbpedia.org/property/arearank": 0.01,
+                        "http://dbpedia.org/property/admittanceorder": 0.01,
+                        "http://dbpedia.org/property/populationrank": 0.01
+                    },
+                    "subject": "Province",
+                    "object": "Rank\n(2006)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.04,
+                        "http://dbpedia.org/property/largestmetro": 0.01,
+                        "http://dbpedia.org/property/largestcity": 0.03
+                    },
+                    "subject": "Province",
+                    "object": "Geographic name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/percentwater": 0.01
+                    },
+                    "subject": "Province",
+                    "object": "Change"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Rank\n(2011)",
+                "Rank\n(2006)",
+                "Geographic name",
+                "Province",
+                "Type",
+                "Population\n(2011)",
+                "Population\n(2006)",
+                "Change"
+            ]
+        }
+    ]
+}

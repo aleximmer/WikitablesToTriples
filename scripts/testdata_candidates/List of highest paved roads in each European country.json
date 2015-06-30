@@ -1,0 +1,191 @@
+{
+    "no. of tables": 2,
+    "page": "List of highest paved roads in Europe by country",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevation": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Elevation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.25,
+                        "http://dbpedia.org/property/range": 0.33,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/region": 0.02,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Mountains"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/basinCountries": 0.02,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.35,
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/country": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.02,
+                        "http://dbpedia.org/ontology/city": 0.02,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/terminusA": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.04,
+                        "http://dbpedia.org/ontology/mountainRange": 0.02,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "between"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.06,
+                        "http://dbpedia.org/property/range": 0.02,
+                        "http://dbpedia.org/property/location": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highest": 0.06
+                    },
+                    "subject": "Mountains",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.02,
+                        "http://dbpedia.org/property/country": 0.22,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.53
+                    },
+                    "subject": "Mountains",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/district": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.04
+                    },
+                    "subject": "Mountains",
+                    "object": "remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/ontology/region": 0.04
+                    },
+                    "subject": "between",
+                    "object": "Mountains"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.02,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.08,
+                        "http://dbpedia.org/property/countries": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.45
+                    },
+                    "subject": "between",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "between",
+                    "object": "remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.02,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "remarks",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'List of highest paved roads in Europe by country'",
+            "colums": [
+                "Elevation",
+                "Name",
+                "Mountains",
+                "Country",
+                "type",
+                "between",
+                "remarks",
+                "location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/countries": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.12,
+                        "http://dbpedia.org/ontology/city": 0.12,
+                        "http://dbpedia.org/property/cities": 0.12,
+                        "http://dbpedia.org/property/terminusA": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "between"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.12
+                    },
+                    "subject": "Mountains",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.12,
+                        "http://dbpedia.org/property/capital": 0.12
+                    },
+                    "subject": "Country",
+                    "object": "between"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/property/stateParty": 0.12,
+                        "http://dbpedia.org/ontology/country": 0.75
+                    },
+                    "subject": "between",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest motorways by country'",
+            "colums": [
+                "Elevation",
+                "Name",
+                "Mountains",
+                "Country",
+                "type",
+                "between",
+                "remarks",
+                "location"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "no. of tables": 73,
+    "page": "List of awards and nominations received by Madonna",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'AIDS Project Los Angeles'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'American Foundation for AIDS Research'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'American Moviegoers Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'AOL TV Viewer Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'ASCAP Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'ASCAP Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Elle Style Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Emma-gaala'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Fryderyk'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'GLAAD Excellence in Media Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Golden Apple Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Golden Globe Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hollywood Walk of Fame'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hong Kong Top Sales Music Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Las Vegas Film Critics Society'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'MTV Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'MTV Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'MTV Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'MuchMusic Video Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Musician Magazine'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'NetSounds Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'NME Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Online Music Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Orville H. Gibson Guitar Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'People's Choice Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Recording Industry Association of America'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Rock and Roll Hall of Fame'",
+            "colums": [
+                "Year",
+                "Inducted artist",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Saturn Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Songwriters Hall of Fame'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Theatregoers' Choice Award'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'UK Music Hall of Fame'",
+            "colums": [
+                "Year",
+                "Inducted artist",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'VH1 Do Something! Awards'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Wembley Arena Square of Fame'",
+            "colums": [
+                "Year",
+                "Recipient",
+                "Award",
+                "Result"
+            ]
+        }
+    ]
+}

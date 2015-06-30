@@ -1,0 +1,174 @@
+{
+    "no. of tables": 1,
+    "page": "List of largest cities in Brazil",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.01,
+                        "http://dbpedia.org/property/augRainDays": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/sepLowC": 0.01,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/julLowC": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/mayRainCm": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/augRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/areaCode": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/junLowC": 0.01,
+                        "http://dbpedia.org/property/julRainCm": 0.01,
+                        "http://dbpedia.org/property/decRecordLowC": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.01,
+                        "http://dbpedia.org/property/augRainDays": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/sepLowC": 0.01,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/julLowC": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/mayRainCm": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/augRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/areaCode": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/junLowC": 0.01,
+                        "http://dbpedia.org/property/julRainCm": 0.01,
+                        "http://dbpedia.org/property/decRecordLowC": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/aprRecordHighC": 0.01,
+                        "http://dbpedia.org/property/augRainDays": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/sepLowC": 0.01,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/julLowC": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/mayRainCm": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/augRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/areaCode": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/junLowC": 0.01,
+                        "http://dbpedia.org/property/julRainCm": 0.01,
+                        "http://dbpedia.org/property/decRecordLowC": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.29,
+                        "http://dbpedia.org/property/subdivisionName": 0.29
+                    },
+                    "subject": "City",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/populationDensityRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.04
+                    },
+                    "subject": "State",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/populationDensityRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.04
+                    },
+                    "subject": "State",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/populationDensityRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.04
+                    },
+                    "subject": "State",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/seat": 0.25
+                    },
+                    "subject": "State",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Most populated cities in Brazil'",
+            "colums": [
+                "Rank",
+                "Rank",
+                "Rank",
+                "City",
+                "State",
+                "Population"
+            ]
+        }
+    ]
+}

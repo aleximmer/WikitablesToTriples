@@ -1,0 +1,334 @@
+{
+    "no. of tables": 16,
+    "page": "List of cities in China",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.0,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.95,
+                        "http://dbpedia.org/property/c": 0.03,
+                        "http://dbpedia.org/property/officialName": 0.0,
+                        "http://dbpedia.org/property/s": 0.03,
+                        "http://dbpedia.org/property/translitLang1Info": 0.0
+                    },
+                    "subject": "City",
+                    "object": "Chinese"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.94,
+                        "http://dbpedia.org/property/subdivisionName": 0.95
+                    },
+                    "subject": "City",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southwest": 0.0,
+                        "http://dbpedia.org/ontology/isPartOf": 0.47,
+                        "http://dbpedia.org/property/subdivisionName": 0.47
+                    },
+                    "subject": "City",
+                    "object": "Prefecture"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.0,
+                        "http://dbpedia.org/property/capital": 0.03,
+                        "http://dbpedia.org/property/largestcity": 0.03,
+                        "http://dbpedia.org/property/seat": 0.01,
+                        "http://dbpedia.org/property/countryLargestCity": 0.0
+                    },
+                    "subject": "Province",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.04,
+                        "http://dbpedia.org/property/largestcity": 0.04,
+                        "http://dbpedia.org/property/seat": 0.0
+                    },
+                    "subject": "Province",
+                    "object": "Prefecture"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/text": 0.05,
+                        "http://dbpedia.org/property/seat": 0.02,
+                        "http://dbpedia.org/ontology/part": 0.04,
+                        "http://dbpedia.org/property/p": 0.02
+                    },
+                    "subject": "Prefecture",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.51,
+                        "http://dbpedia.org/property/subdivisionName": 0.51
+                    },
+                    "subject": "Prefecture",
+                    "object": "Province"
+                }
+            ],
+            "table": "Unnamed table in section 'People's Republic of China (1949-present)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Prefecture",
+                "Founded\n(PRC)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/c": 0.04
+                    },
+                    "subject": "Before",
+                    "object": "Chinese"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25,
+                        "http://dbpedia.org/ontology/isPartOf": 0.14,
+                        "http://dbpedia.org/property/subdivisionName": 0.14
+                    },
+                    "subject": "Before",
+                    "object": "After"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/c": 0.04
+                    },
+                    "subject": "Before",
+                    "object": "Chinese"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/c": 0.04
+                    },
+                    "subject": "After",
+                    "object": "Chinese"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/c": 0.04
+                    },
+                    "subject": "After",
+                    "object": "Chinese"
+                }
+            ],
+            "table": "Unnamed table in section 'People's Republic of China (1949-present)'",
+            "colums": [
+                "Before",
+                "Chinese",
+                "After",
+                "Chinese",
+                "Renamed date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09
+                    },
+                    "subject": "City",
+                    "object": "Chinese"
+                }
+            ],
+            "table": "Unnamed table in section 'People's Republic of China (1949-present)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Founded",
+                "Dissolved",
+                "Merged division"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/centre": 0.5,
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Province"
+                }
+            ],
+            "table": "Unnamed table in section 'Republic of China (1911-1949)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Administration period"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/property/c": 0.03,
+                        "http://dbpedia.org/property/kanji": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Chinese"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mncRom": 0.01,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07,
+                        "http://dbpedia.org/property/centre": 0.01,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/pushpinMap": 0.07
+                    },
+                    "subject": "City",
+                    "object": "Province"
+                }
+            ],
+            "table": "Unnamed table in section 'Republic of China (1911-1949)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Type",
+                "Administration period",
+                "Founded\n(ROC)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.22,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    },
+                    "subject": "Present location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.27,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.47,
+                        "http://dbpedia.org/property/pushpinLabel": 0.13
+                    },
+                    "subject": "Present location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/centre": 0.03,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.34,
+                        "http://dbpedia.org/property/pushpinLabel": 0.03
+                    },
+                    "subject": "Present location",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Imperial China (618-1911)'",
+            "colums": [
+                "City",
+                "Chinese",
+                "Province",
+                "Present location"
+            ]
+        }
+    ]
+}

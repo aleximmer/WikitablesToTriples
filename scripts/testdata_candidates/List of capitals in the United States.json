@@ -1,0 +1,222 @@
+{
+    "no. of tables": 3,
+    "page": "List of capitals in the United States",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postalabbreviation": 0.98
+                    },
+                    "subject": "State",
+                    "object": "Abbr."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 1.0,
+                        "http://dbpedia.org/property/capital": 1.0,
+                        "http://dbpedia.org/property/label": 0.08
+                    },
+                    "subject": "State",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tz2where": 0.02,
+                        "http://dbpedia.org/property/representative": 0.2,
+                        "http://dbpedia.org/property/admittanceorder": 0.02,
+                        "http://dbpedia.org/property/densityrank": 0.02
+                    },
+                    "subject": "State",
+                    "object": "Rank in cities of its state by population"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.06,
+                        "http://dbpedia.org/property/largestmetroarea": 0.02,
+                        "http://dbpedia.org/property/lowestpoint": 0.02,
+                        "http://dbpedia.org/property/largestcity(2000census)_": 0.02,
+                        "http://dbpedia.org/property/largestmetro": 0.06,
+                        "http://dbpedia.org/ontology/largestCity": 0.6,
+                        "http://dbpedia.org/property/largestcity": 0.6
+                    },
+                    "subject": "State",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.04,
+                        "http://dbpedia.org/ontology/state": 0.06,
+                        "http://dbpedia.org/ontology/isPartOf": 0.92,
+                        "http://dbpedia.org/property/subdivisionName": 0.68
+                    },
+                    "subject": "Capital",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.02
+                    },
+                    "subject": "Capital",
+                    "object": "Date of statehood"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.08
+                    },
+                    "subject": "Capital",
+                    "object": "Capital since"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaLandImperial": 0.04,
+                        "http://dbpedia.org/property/areaLandSqMi": 0.2
+                    },
+                    "subject": "Capital",
+                    "object": "Land area (mi\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.06,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.02,
+                        "http://dbpedia.org/property/governmentLatS": 0.02,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.02,
+                        "http://dbpedia.org/ontology/area": 0.16,
+                        "http://dbpedia.org/property/febRecordLowF": 0.04,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.04,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.08,
+                        "http://dbpedia.org/property/areaMagnitude": 0.02,
+                        "http://dbpedia.org/property/octRecordLowF": 0.02,
+                        "http://dbpedia.org/property/yearRecordLowF": 0.02,
+                        "http://dbpedia.org/property/janSnowInch": 0.02,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.02
+                    },
+                    "subject": "Capital",
+                    "object": "Rank in cities of its state by population"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.02,
+                        "http://dbpedia.org/property/southeast": 0.04
+                    },
+                    "subject": "Capital",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.02,
+                        "http://dbpedia.org/ontology/state": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.54,
+                        "http://dbpedia.org/property/subdivisionName": 0.44
+                    },
+                    "subject": "Notes",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/twin1City": 0.02,
+                        "http://dbpedia.org/property/northwest": 0.02,
+                        "http://dbpedia.org/property/imageCaption": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowF": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Land area (mi\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.02,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/homicide": 0.02,
+                        "http://dbpedia.org/property/marRecordLowF": 0.02,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.02,
+                        "http://dbpedia.org/property/febSnowDays": 0.02,
+                        "http://dbpedia.org/property/areaPercentageRound": 0.02,
+                        "http://dbpedia.org/property/decSnowDays": 0.02,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Rank in cities of its state by population"
+                }
+            ],
+            "table": "State capitals of the United States",
+            "colums": [
+                "State",
+                "Abbr.",
+                "Date of statehood",
+                "Capital",
+                "Capital since",
+                "Land area (mi\u00b2)",
+                "Rank in cities of its state by population",
+                "Municipal population (2010 census)",
+                "Metropolitan population (2010 census)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/countryCode": 0.2,
+                        "http://dbpedia.org/property/iso3166code": 0.2
+                    },
+                    "subject": "Insular area",
+                    "object": "Abr."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.2
+                    },
+                    "subject": "Insular area",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.8,
+                        "http://dbpedia.org/property/capital": 0.8,
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Insular area",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestSettlement": 0.2,
+                        "http://dbpedia.org/property/largestSettlement": 0.2
+                    },
+                    "subject": "Insular area",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.8,
+                        "http://dbpedia.org/property/subdivisionName": 0.4
+                    },
+                    "subject": "Capital",
+                    "object": "Insular area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "Insular area"
+                }
+            ],
+            "table": "Capitals of United States Insular Areas",
+            "colums": [
+                "Insular area",
+                "Abr.",
+                "Date",
+                "Capital",
+                "Notes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,240 @@
+{
+    "no. of tables": 21,
+    "page": "List of Russian-language poets",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.06
+                    },
+                    "subject": "Person",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.06,
+                        "http://dbpedia.org/property/author": 0.06
+                    },
+                    "subject": "Notable works",
+                    "object": "Person"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableworks": 0.04
+                    },
+                    "subject": "Person",
+                    "object": "Notable works"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Person",
+                "Notable works",
+                "Sample"
+            ]
+        }
+    ]
+}

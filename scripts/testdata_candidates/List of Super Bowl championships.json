@@ -1,0 +1,188 @@
+{
+    "no. of tables": 4,
+    "page": "List of Super Bowl champions",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Super Bowl Championship (1966\u2013present)'",
+            "colums": [
+                "National Football League (NFL, 1967\u20131970)",
+                "American Football League (AFL, 1967\u20131970)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/visitor": 0.54,
+                        "http://dbpedia.org/property/home": 0.38
+                    },
+                    "subject": "Game",
+                    "object": "Winning team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/visitor": 0.38,
+                        "http://dbpedia.org/property/home": 0.54
+                    },
+                    "subject": "Game",
+                    "object": "Losing team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.48
+                    },
+                    "subject": "Game",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.15,
+                        "http://dbpedia.org/property/stadium": 0.25
+                    },
+                    "subject": "Game",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/property/stadium": 0.27
+                    },
+                    "subject": "Winning team",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/property/stadium": 0.17
+                    },
+                    "subject": "Winning team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/property/stadium": 0.1
+                    },
+                    "subject": "Losing team",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/stadium": 0.06
+                    },
+                    "subject": "Losing team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08,
+                        "http://dbpedia.org/property/title": 0.1,
+                        "http://dbpedia.org/property/tenants": 0.06
+                    },
+                    "subject": "Venue",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/owner": 0.08,
+                        "http://dbpedia.org/property/operator": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.33,
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/ontology/operator": 0.04
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Super Bowl Championship (1966\u2013present)'",
+            "colums": [
+                "Game",
+                "Date",
+                "Winning team",
+                "Score",
+                "Losing team",
+                "Venue",
+                "City",
+                "Attendance",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/noSbChamps": 0.41,
+                        "http://dbpedia.org/property/noLeagueChamps": 0.44,
+                        "http://dbpedia.org/property/noPre1970sbChamps": 0.06,
+                        "http://dbpedia.org/property/noConfChamps": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/l": 0.03,
+                        "http://dbpedia.org/property/noSbChamps": 0.06,
+                        "http://dbpedia.org/property/noLeagueChamps": 0.06,
+                        "http://dbpedia.org/property/noConfChamps": 0.28,
+                        "http://dbpedia.org/property/noPre1970sbChamps": 0.03,
+                        "http://dbpedia.org/property/w": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "Losses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mvp": 0.03
+                    },
+                    "subject": "Season(s)",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/homeQtr": 0.25,
+                        "http://dbpedia.org/property/visitorQtr": 0.22,
+                        "http://dbpedia.org/property/quarter": 0.09,
+                        "http://dbpedia.org/property/home": 0.03,
+                        "http://dbpedia.org/property/homeTotal": 0.03,
+                        "http://dbpedia.org/property/h": 0.25,
+                        "http://dbpedia.org/property/yards": 0.03,
+                        "http://dbpedia.org/property/r": 0.22
+                    },
+                    "subject": "Season(s)",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/visitorQtr": 0.16,
+                        "http://dbpedia.org/property/quarter": 0.12,
+                        "http://dbpedia.org/property/yards": 0.06,
+                        "http://dbpedia.org/property/driveplays": 0.06,
+                        "http://dbpedia.org/property/visitor": 0.06,
+                        "http://dbpedia.org/property/visitorTotal": 0.03,
+                        "http://dbpedia.org/property/drivelength": 0.03,
+                        "http://dbpedia.org/property/home": 0.09,
+                        "http://dbpedia.org/property/homeTotal": 0.03,
+                        "http://dbpedia.org/property/h": 0.16,
+                        "http://dbpedia.org/property/r": 0.16,
+                        "http://dbpedia.org/property/homeQtr": 0.16
+                    },
+                    "subject": "Season(s)",
+                    "object": "Losses"
+                }
+            ],
+            "table": "Unnamed table in section 'Super Bowl appearances by team'",
+            "colums": [
+                "Appearances",
+                "Team",
+                "Wins",
+                "Losses",
+                "Winning\npercentage",
+                "Season(s)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,402 @@
+{
+    "no. of tables": 19,
+    "page": "List of University of South Carolina people",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/property/associatedActs": 0.04,
+                        "http://dbpedia.org/ontology/knownFor": 0.04,
+                        "http://dbpedia.org/ontology/bandMember": 0.04,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.04,
+                        "http://dbpedia.org/property/currentMembers": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/bandMember": 0.04,
+                        "http://dbpedia.org/property/currentMembers": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachYears": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Class year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachTeams": 0.33,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/ontology/formerTeam": 0.44,
+                        "http://dbpedia.org/property/finalteam": 0.06,
+                        "http://dbpedia.org/property/debutteam": 0.06,
+                        "http://dbpedia.org/ontology/team": 0.62,
+                        "http://dbpedia.org/ontology/position": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Letter years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftYear": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Letter years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cteam": 0.04,
+                        "http://dbpedia.org/property/coachTeams": 0.04,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Letter years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/holder": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Letter years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/managerClub": 0.25,
+                        "http://dbpedia.org/property/currentclub": 0.25,
+                        "http://dbpedia.org/property/clubs": 0.75,
+                        "http://dbpedia.org/ontology/team": 1.0,
+                        "http://dbpedia.org/property/managerclubs": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Letter years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.17,
+                        "http://dbpedia.org/property/league": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Letter years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/serviceyears": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Class year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.07,
+                        "http://dbpedia.org/ontology/knownFor": 0.2,
+                        "http://dbpedia.org/property/employer": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/chairman": 0.07,
+                        "http://dbpedia.org/property/owner": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.05,
+                        "http://dbpedia.org/property/employer": 0.05,
+                        "http://dbpedia.org/ontology/profession": 0.05,
+                        "http://dbpedia.org/property/profession": 0.05,
+                        "http://dbpedia.org/property/office": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leader": 0.1,
+                        "http://dbpedia.org/ontology/leader": 0.05,
+                        "http://dbpedia.org/property/name": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Term in office",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Term in office"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shortDescription": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Term in office",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/profession": 0.2,
+                        "http://dbpedia.org/property/title": 0.8,
+                        "http://dbpedia.org/property/office": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formation": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "Class year"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Term in office",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/religion": 0.5,
+                        "http://dbpedia.org/property/diocese": 0.5,
+                        "http://dbpedia.org/property/religion": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Alumni'",
+            "colums": [
+                "Name",
+                "Class year",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Faculty and administrators'",
+            "colums": [
+                "Name",
+                "Years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 0.08,
+                        "http://dbpedia.org/property/president": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08,
+                        "http://dbpedia.org/property/spouse": 0.08,
+                        "http://dbpedia.org/ontology/almaMater": 0.08,
+                        "http://dbpedia.org/ontology/spouse": 0.08,
+                        "http://dbpedia.org/property/almaMater": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spouse": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Faculty and administrators'",
+            "colums": [
+                "Name",
+                "Years",
+                "Notes",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shortDescription": 0.15,
+                        "http://dbpedia.org/property/title": 0.31
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Faculty and administrators'",
+            "colums": [
+                "Name",
+                "Year issued",
+                "Notes",
+                "Reference"
+            ]
+        }
+    ]
+}

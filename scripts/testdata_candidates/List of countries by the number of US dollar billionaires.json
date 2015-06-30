@@ -1,0 +1,200 @@
+{
+    "page": "List of countries by the number of US dollar billionaires",
+    "no. of tables": 7,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'List of countries with 10 or more billionaires in 2015'",
+            "predicates": [
+                {
+                    "object": "Rank",
+                    "subject": "Country / Region",
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/gdpPppRank": 0.16,
+                        "http://dbpedia.org/property/longd": 0.03
+                    }
+                },
+                {
+                    "object": "Number of billionaires",
+                    "subject": "Country / Region",
+                    "predicates": {
+                        "http://dbpedia.org/property/callingCode": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.03,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/longd": 0.06
+                    }
+                },
+                {
+                    "object": "Rank",
+                    "subject": "Richest of the Country / Region",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    }
+                },
+                {
+                    "object": "Country / Region",
+                    "subject": "Richest of the Country / Region",
+                    "predicates": {
+                        "http://dbpedia.org/property/nationality": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.16,
+                        "http://dbpedia.org/ontology/location": 0.03,
+                        "http://dbpedia.org/ontology/locationCountry": 0.03,
+                        "http://dbpedia.org/ontology/citizenship": 0.16,
+                        "http://dbpedia.org/property/residence": 0.1,
+                        "http://dbpedia.org/property/locationCountry": 0.03,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/residence": 0.13,
+                        "http://dbpedia.org/property/citizenship": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.16,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.16,
+                        "http://dbpedia.org/ontology/nationality": 0.19
+                    }
+                },
+                {
+                    "object": "Number of billionaires",
+                    "subject": "Richest of the Country / Region",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1
+                    }
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Country / Region",
+                "Number of billionaires",
+                "Richest of the Country / Region"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billionaires by continent'",
+            "predicates": [],
+            "colums": [
+                "Rank",
+                "Nation/Region",
+                "Number of billionaires 2015[1]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billionaires by continent'",
+            "predicates": [
+                {
+                    "object": "Rank",
+                    "subject": "Nation/Region",
+                    "predicates": {
+                        "http://dbpedia.org/property/populationCensusRank": 0.05,
+                        "http://dbpedia.org/property/image": 0.05,
+                        "http://dbpedia.org/property/areaRank": 0.05,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.05
+                    }
+                },
+                {
+                    "object": "Number of billionaires 2013[1]",
+                    "subject": "Nation/Region",
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.05,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.05
+                    }
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Nation/Region",
+                "Number of billionaires 2013[1]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billionaires by continent'",
+            "predicates": [
+                {
+                    "object": "Rank",
+                    "subject": "Nation",
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.04,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.04,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.04,
+                        "http://dbpedia.org/property/hdiRank": 0.04,
+                        "http://dbpedia.org/property/longd": 0.09
+                    }
+                },
+                {
+                    "object": "Number of billionaires 2015[1]",
+                    "subject": "Nation",
+                    "predicates": {
+                        "http://dbpedia.org/property/janSnowDays": 0.04,
+                        "http://dbpedia.org/property/populationDensityRank": 0.04,
+                        "http://dbpedia.org/property/areaMagnitude": 0.04,
+                        "http://dbpedia.org/property/febSnowDays": 0.04,
+                        "http://dbpedia.org/property/yearLowC": 0.04,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.09
+                    }
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Nation",
+                "Number of billionaires 2015[1]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billionaires by continent'",
+            "predicates": [
+                {
+                    "object": "Rank",
+                    "subject": "Nation",
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.33,
+                        "http://dbpedia.org/property/longm": 0.33
+                    }
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Nation",
+                "Number of billionaires[1][2]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billionaires by continent'",
+            "predicates": [
+                {
+                    "object": "Number of billionaires 2015[1]",
+                    "subject": "Nation",
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.5
+                    }
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Nation",
+                "Number of billionaires 2015[1]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billionaires by continent'",
+            "predicates": [
+                {
+                    "object": "Rank",
+                    "subject": "Nation",
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    }
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Per capita\nrank",
+                "Nation",
+                "Number of billionaires 2015[1]"
+            ]
+        }
+    ]
+}

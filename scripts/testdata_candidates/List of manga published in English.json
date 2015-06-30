@@ -1,0 +1,677 @@
+{
+    "no. of tables": 27,
+    "page": "List of manga licensed in English",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/illustrator": 0.08,
+                        "http://dbpedia.org/property/author": 0.38,
+                        "http://dbpedia.org/ontology/author": 0.23
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.31,
+                        "http://dbpedia.org/ontology/publisher": 0.31
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.08,
+                        "http://dbpedia.org/property/publisherEn": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.08
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.02,
+                        "http://dbpedia.org/property/writer": 0.02,
+                        "http://dbpedia.org/ontology/author": 0.71,
+                        "http://dbpedia.org/property/author": 0.69,
+                        "http://dbpedia.org/property/illustrator": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.12,
+                        "http://dbpedia.org/ontology/publisher": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.02,
+                        "http://dbpedia.org/property/publisherEn": 0.24
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.02,
+                        "http://dbpedia.org/property/knownFor": 0.02,
+                        "http://dbpedia.org/ontology/knownFor": 0.08
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.02,
+                        "http://dbpedia.org/ontology/author": 0.56,
+                        "http://dbpedia.org/property/author": 0.66
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developer": 0.02,
+                        "http://dbpedia.org/property/publisher": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.05,
+                        "http://dbpedia.org/property/publisherEn": 0.32
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.02,
+                        "http://dbpedia.org/ontology/knownFor": 0.02
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.06,
+                        "http://dbpedia.org/ontology/author": 0.61,
+                        "http://dbpedia.org/property/author": 0.67,
+                        "http://dbpedia.org/property/illustrator": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.06,
+                        "http://dbpedia.org/property/publisherEn": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.06,
+                        "http://dbpedia.org/property/knownFor": 0.06,
+                        "http://dbpedia.org/ontology/knownFor": 0.11
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.05,
+                        "http://dbpedia.org/ontology/author": 0.59,
+                        "http://dbpedia.org/property/author": 0.72,
+                        "http://dbpedia.org/property/illustrator": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.31
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.1
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.03,
+                        "http://dbpedia.org/ontology/author": 0.58,
+                        "http://dbpedia.org/property/author": 0.64
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.42
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.06,
+                        "http://dbpedia.org/ontology/notableWork": 0.03,
+                        "http://dbpedia.org/ontology/knownFor": 0.08
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.6,
+                        "http://dbpedia.org/property/author": 0.75
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.05,
+                        "http://dbpedia.org/ontology/publisher": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherOther": 0.05,
+                        "http://dbpedia.org/property/publisherEn": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/knownFor": 0.05,
+                        "http://dbpedia.org/property/author": 0.05,
+                        "http://dbpedia.org/ontology/author": 0.05
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.06,
+                        "http://dbpedia.org/ontology/author": 0.62,
+                        "http://dbpedia.org/property/author": 0.68,
+                        "http://dbpedia.org/property/illustrator": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherOther": 0.03,
+                        "http://dbpedia.org/property/publisherEn": 0.29,
+                        "http://dbpedia.org/property/licensorOther": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.03,
+                        "http://dbpedia.org/property/knownFor": 0.09,
+                        "http://dbpedia.org/ontology/knownFor": 0.12
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.08,
+                        "http://dbpedia.org/ontology/author": 0.48,
+                        "http://dbpedia.org/property/author": 0.56,
+                        "http://dbpedia.org/property/illustrator": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.32
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.04,
+                        "http://dbpedia.org/property/notableworks": 0.04,
+                        "http://dbpedia.org/property/knownFor": 0.08,
+                        "http://dbpedia.org/ontology/knownFor": 0.2
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.05,
+                        "http://dbpedia.org/ontology/author": 0.52,
+                        "http://dbpedia.org/property/author": 0.62,
+                        "http://dbpedia.org/property/illustrator": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/licensee": 0.05,
+                        "http://dbpedia.org/property/publisherEn": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.1
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 1.0,
+                        "http://dbpedia.org/property/author": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.09,
+                        "http://dbpedia.org/ontology/author": 0.91,
+                        "http://dbpedia.org/property/author": 0.95,
+                        "http://dbpedia.org/property/illustrator": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.32
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.05,
+                        "http://dbpedia.org/ontology/knownFor": 0.23
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.25,
+                        "http://dbpedia.org/ontology/author": 1.0,
+                        "http://dbpedia.org/property/author": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/licensee": 0.25,
+                        "http://dbpedia.org/property/publisherEn": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.55,
+                        "http://dbpedia.org/property/author": 0.55
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.27
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.05,
+                        "http://dbpedia.org/ontology/knownFor": 0.05
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.05
+                    },
+                    "subject": "Author",
+                    "object": "English publisher"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.25,
+                        "http://dbpedia.org/ontology/author": 0.75,
+                        "http://dbpedia.org/property/author": 0.75
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.07,
+                        "http://dbpedia.org/property/writer": 0.07,
+                        "http://dbpedia.org/ontology/author": 0.47,
+                        "http://dbpedia.org/property/author": 0.6,
+                        "http://dbpedia.org/property/illustrator": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.27
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.07,
+                        "http://dbpedia.org/ontology/knownFor": 0.07
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.86,
+                        "http://dbpedia.org/property/author": 0.71
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Japanese publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisherEn": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "English publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.29
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Manga by English title'",
+            "colums": [
+                "Title",
+                "Author",
+                "Japanese publisher",
+                "English publisher"
+            ]
+        }
+    ]
+}

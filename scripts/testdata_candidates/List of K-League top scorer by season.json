@@ -1,0 +1,215 @@
+{
+    "no. of tables": 4,
+    "page": "K League Top Scorer Award",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longestWins": 0.03,
+                        "http://dbpedia.org/property/rd1Team": 0.12,
+                        "http://dbpedia.org/property/winners": 0.06,
+                        "http://dbpedia.org/property/rd3Team": 0.03,
+                        "http://dbpedia.org/property/team": 0.25,
+                        "http://dbpedia.org/property/continentalcup1Qualifiers": 0.06
+                    },
+                    "subject": "Year",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.03,
+                        "http://dbpedia.org/property/longestWinless": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/fr": 0.03
+                    },
+                    "subject": "Year",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.03,
+                        "http://dbpedia.org/property/ga": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.09
+                    },
+                    "subject": "Year",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/gdpPppRank": 0.09,
+                        "http://dbpedia.org/property/largestCity": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/hdiRank": 0.09,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.03,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/latd": 0.06
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/season": 0.03
+                    },
+                    "subject": "Club",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.03,
+                        "http://dbpedia.org/property/no": 0.88
+                    },
+                    "subject": "Club",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/body": 0.06,
+                        "http://dbpedia.org/property/shorts": 0.06,
+                        "http://dbpedia.org/property/no": 0.91
+                    },
+                    "subject": "Club",
+                    "object": "Matches"
+                }
+            ],
+            "table": "Unnamed table in section 'K League Classic Winners (1983-present)'",
+            "colums": [
+                "Year",
+                "Player",
+                "Club",
+                "Goals",
+                "Matches",
+                "Goals per Match"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.5
+                    },
+                    "subject": "Year",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/season": 0.5
+                    },
+                    "subject": "Club",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 1.0
+                    },
+                    "subject": "Club",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 1.0
+                    },
+                    "subject": "Club",
+                    "object": "Matches"
+                }
+            ],
+            "table": "Unnamed table in section 'K League Challenge Winners (2013-present)'",
+            "colums": [
+                "Year",
+                "Player",
+                "Club",
+                "Goals",
+                "Matches",
+                "Goals per Match"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.14
+                    },
+                    "subject": "Year",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Year",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Year",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.07,
+                        "http://dbpedia.org/property/populationDensityRank": 0.07
+                    },
+                    "subject": "Player",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 0.29
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.07,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Club",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.07,
+                        "http://dbpedia.org/property/no": 0.86
+                    },
+                    "subject": "Club",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.79
+                    },
+                    "subject": "Club",
+                    "object": "Matches"
+                }
+            ],
+            "table": "Unnamed table in section 'R League Winners (1990, 2000-2011)'",
+            "colums": [
+                "Year",
+                "Player",
+                "Club",
+                "Goals",
+                "Matches",
+                "Goals per Match"
+            ]
+        }
+    ]
+}

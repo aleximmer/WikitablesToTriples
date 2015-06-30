@@ -1,0 +1,223 @@
+{
+    "no. of tables": 6,
+    "page": "List of shopping malls in Michigan",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novLowF": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "Stores"
+                }
+            ],
+            "table": "Unnamed table in section 'Shopping malls by region'",
+            "colums": [
+                "Name",
+                "Location",
+                "Gross Leasable Area\nsq\u00a0ft\u00a0/\u00a0m\u00b2",
+                "Format",
+                "Stores",
+                "Type",
+                "Owner"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/address": 0.07,
+                        "http://dbpedia.org/property/location": 0.64,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Name",
+                    "object": "Metro location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numberOfStores": 0.46
+                    },
+                    "subject": "Name",
+                    "object": "Stores"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.36,
+                        "http://dbpedia.org/property/developer": 0.04,
+                        "http://dbpedia.org/property/owner": 0.29,
+                        "http://dbpedia.org/ontology/owner": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novHighF": 0.04,
+                        "http://dbpedia.org/property/blankInfo": 0.04
+                    },
+                    "subject": "Metro location",
+                    "object": "Stores"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Type",
+                    "object": "Format"
+                }
+            ],
+            "table": "Unnamed table in section 'Shopping malls by region'",
+            "colums": [
+                "Name",
+                "Metro location",
+                "Gross Leasable Area\nsq\u00a0ft\u00a0/\u00a0m\u00b2",
+                "Format",
+                "Stores",
+                "Type",
+                "Owner"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numberOfStores": 0.83
+                    },
+                    "subject": "Name",
+                    "object": "Stores"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.33,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/owner": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Shopping malls by region'",
+            "colums": [
+                "Name",
+                "Location",
+                "Gross Leasable Area\nsq\u00a0ft\u00a0/\u00a0m\u00b2",
+                "Format",
+                "Stores",
+                "Type",
+                "Owner"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numberOfStores": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Stores"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.12,
+                        "http://dbpedia.org/property/owner": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Shopping malls by region'",
+            "colums": [
+                "Name",
+                "Location",
+                "Gross Leasable Area\nsq\u00a0ft\u00a0/\u00a0m\u00b2",
+                "Format",
+                "Stores",
+                "Type",
+                "Owner"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.78,
+                        "http://dbpedia.org/ontology/location": 0.78
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/numberOfStores": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Stores"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.33,
+                        "http://dbpedia.org/property/owner": 0.22,
+                        "http://dbpedia.org/ontology/owner": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Shopping malls by region'",
+            "colums": [
+                "Name",
+                "Location",
+                "Gross Leasable Area\nsq\u00a0ft\u00a0/\u00a0m\u00b2",
+                "Format",
+                "Stores",
+                "Type",
+                "Owner"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Shopping malls by region'",
+            "colums": [
+                "Name",
+                "Location",
+                "Gross Leasable Area\nsq\u00a0ft\u00a0/\u00a0m\u00b2",
+                "Format",
+                "Stores",
+                "Type",
+                "Owner"
+            ]
+        }
+    ]
+}

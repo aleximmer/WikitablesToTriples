@@ -1,0 +1,235 @@
+{
+    "no. of tables": 3,
+    "page": "List of LGBT characters in modern written fiction",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/releaseDate": 0.67
+                    },
+                    "subject": "Work",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.67,
+                        "http://dbpedia.org/property/author": 0.5
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.17,
+                        "http://dbpedia.org/property/name": 0.17,
+                        "http://xmlns.com/foaf/0.1/name": 0.17
+                    },
+                    "subject": "Work",
+                    "object": "Character name(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.33
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                }
+            ],
+            "table": "Unnamed table in section '1800s'",
+            "colums": [
+                "Work",
+                "Year",
+                "Author",
+                "Character name(s)",
+                "Notes",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/published": 0.06,
+                        "http://dbpedia.org/property/pubDate": 0.06,
+                        "http://dbpedia.org/property/releaseDate": 0.17
+                    },
+                    "subject": "Work",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/creator": 0.01,
+                        "http://dbpedia.org/ontology/author": 0.56,
+                        "http://dbpedia.org/property/author": 0.62,
+                        "http://dbpedia.org/ontology/creator": 0.01
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/series": 0.01
+                    },
+                    "subject": "Work",
+                    "object": "Character name(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.01,
+                        "http://dbpedia.org/ontology/series": 0.02
+                    },
+                    "subject": "Work",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.11
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/period": 0.05
+                    },
+                    "subject": "Author",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/givenName": 0.01
+                    },
+                    "subject": "Author",
+                    "object": "Character name(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.01,
+                        "http://dbpedia.org/ontology/series": 0.04,
+                        "http://dbpedia.org/ontology/spouse": 0.01,
+                        "http://dbpedia.org/property/spouse": 0.01,
+                        "http://dbpedia.org/property/series": 0.04,
+                        "http://dbpedia.org/ontology/relative": 0.01,
+                        "http://dbpedia.org/property/family": 0.01
+                    },
+                    "subject": "Character name(s)",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.05,
+                        "http://dbpedia.org/ontology/creator": 0.05
+                    },
+                    "subject": "Character name(s)",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/last": 0.01
+                    },
+                    "subject": "Character name(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.02,
+                        "http://dbpedia.org/ontology/author": 0.01,
+                        "http://dbpedia.org/property/author": 0.01,
+                        "http://dbpedia.org/ontology/creator": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.01,
+                        "http://dbpedia.org/ontology/spouse": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Character name(s)"
+                }
+            ],
+            "table": "Unnamed table in section '1900s'",
+            "colums": [
+                "Work",
+                "Year",
+                "Author",
+                "Character name(s)",
+                "Notes",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/published": 0.03,
+                        "http://dbpedia.org/property/pubDate": 0.03,
+                        "http://dbpedia.org/property/years": 0.03,
+                        "http://dbpedia.org/property/releaseDate": 0.07
+                    },
+                    "subject": "Work",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/author": 0.4,
+                        "http://dbpedia.org/property/author": 0.42
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.03
+                    },
+                    "subject": "Work",
+                    "object": "Character name(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.2,
+                        "http://dbpedia.org/property/notableworks": 0.03
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/period": 0.03
+                    },
+                    "subject": "Author",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.03,
+                        "http://dbpedia.org/ontology/series": 0.03
+                    },
+                    "subject": "Character name(s)",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.03,
+                        "http://dbpedia.org/ontology/creator": 0.03
+                    },
+                    "subject": "Character name(s)",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section '2000s'",
+            "colums": [
+                "Work",
+                "Year",
+                "Author",
+                "Character name(s)",
+                "Notes",
+                "References"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,276 @@
+{
+    "no. of tables": 9,
+    "page": "List of baseball teams in Canada",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Minor League Baseball'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pastLeague": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Independent Baseball'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.33
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junChill": 0.33,
+                        "http://dbpedia.org/property/julChill": 0.33,
+                        "http://dbpedia.org/property/sepSnowCm": 0.67,
+                        "http://dbpedia.org/property/augChill": 0.33,
+                        "http://dbpedia.org/property/augSnowCm": 0.67,
+                        "http://dbpedia.org/property/junSnowCm": 0.67,
+                        "http://dbpedia.org/property/julSnowDays": 0.67,
+                        "http://dbpedia.org/property/sepSnowDays": 0.67,
+                        "http://dbpedia.org/property/junSnowDays": 0.67,
+                        "http://dbpedia.org/property/julSnowCm": 0.67,
+                        "http://dbpedia.org/property/augSnowDays": 0.67
+                    },
+                    "subject": "City",
+                    "object": "League Titles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/folded": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Independent Baseball'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.56
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaguechamps": 0.44,
+                        "http://dbpedia.org/property/divisionchamps": 0.11
+                    },
+                    "subject": "Team",
+                    "object": "League Titles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augChill": 0.11,
+                        "http://dbpedia.org/property/junRecordLowC": 0.11,
+                        "http://dbpedia.org/property/sepSnowCm": 0.22,
+                        "http://dbpedia.org/property/junRainDays": 0.11,
+                        "http://dbpedia.org/property/junChill": 0.11,
+                        "http://dbpedia.org/property/maySnowCm": 0.11,
+                        "http://dbpedia.org/property/octSnowDays": 0.11,
+                        "http://dbpedia.org/property/sepSnowDays": 0.22,
+                        "http://dbpedia.org/property/junSnowDays": 0.22,
+                        "http://dbpedia.org/property/julChill": 0.11,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.11,
+                        "http://dbpedia.org/property/julSnowCm": 0.22,
+                        "http://dbpedia.org/property/yearHighC": 0.11,
+                        "http://dbpedia.org/property/augSnowCm": 0.22,
+                        "http://dbpedia.org/property/octSnowCm": 0.11,
+                        "http://dbpedia.org/property/longs": 0.11,
+                        "http://dbpedia.org/property/maySnowDays": 0.11,
+                        "http://dbpedia.org/property/junSnowCm": 0.22,
+                        "http://dbpedia.org/property/julSnowDays": 0.22,
+                        "http://dbpedia.org/property/augSnowDays": 0.22
+                    },
+                    "subject": "City",
+                    "object": "League Titles"
+                }
+            ],
+            "table": "Unnamed table in section 'Semi-professional'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/maySnowCm": 1.0
+                    },
+                    "subject": "City",
+                    "object": "League Titles"
+                }
+            ],
+            "table": "Unnamed table in section 'College summer league'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'College summer league'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.18,
+                        "http://dbpedia.org/property/junChill": 0.09,
+                        "http://dbpedia.org/property/decRainDays": 0.09,
+                        "http://dbpedia.org/property/augSnowDays": 0.18,
+                        "http://dbpedia.org/property/augSnowCm": 0.18,
+                        "http://dbpedia.org/property/junSnowCm": 0.27,
+                        "http://dbpedia.org/property/julSnowDays": 0.27,
+                        "http://dbpedia.org/property/subdivisionName": 0.09,
+                        "http://dbpedia.org/property/junSnowDays": 0.27,
+                        "http://dbpedia.org/property/julSnowCm": 0.27,
+                        "http://dbpedia.org/property/novHighC": 0.09
+                    },
+                    "subject": "City",
+                    "object": "League Titles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Notes",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'College summer league'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.5
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 1.0,
+                        "http://dbpedia.org/property/sepSnowCm": 1.0,
+                        "http://dbpedia.org/property/octSnowDays": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 1.0,
+                        "http://dbpedia.org/property/julSnowDays": 1.0,
+                        "http://dbpedia.org/property/sepSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowDays": 1.0,
+                        "http://dbpedia.org/property/julSnowCm": 1.0,
+                        "http://dbpedia.org/property/aprSnowDays": 0.5,
+                        "http://dbpedia.org/property/augChill": 1.0,
+                        "http://dbpedia.org/property/sepChill": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 1.0,
+                        "http://dbpedia.org/property/junChill": 0.5,
+                        "http://dbpedia.org/property/aprSnowCm": 0.5,
+                        "http://dbpedia.org/property/maySnowDays": 1.0,
+                        "http://dbpedia.org/property/maySnowCm": 1.0,
+                        "http://dbpedia.org/property/augSnowDays": 1.0
+                    },
+                    "subject": "City",
+                    "object": "League Titles"
+                }
+            ],
+            "table": "Unnamed table in section 'College summer league'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League Titles",
+                "Notes"
+            ]
+        }
+    ]
+}

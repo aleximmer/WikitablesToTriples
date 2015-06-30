@@ -1,0 +1,30 @@
+{
+    "no. of tables": 4,
+    "page": "List of 2008 Seattle Mariners draft picks",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'June amateur draft'",
+            "colums": [
+                "Round (Pick)",
+                "Name",
+                "Position",
+                "School",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Rule 5 draft'",
+            "colums": [
+                "Phase",
+                "Pick",
+                "Name",
+                "Position",
+                "Previous team",
+                "Notes",
+                "Ref"
+            ]
+        }
+    ]
+}

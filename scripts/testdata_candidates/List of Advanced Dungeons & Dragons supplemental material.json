@@ -1,0 +1,242 @@
+{
+    "no. of tables": 12,
+    "page": "List of Dungeons & Dragons rulebooks",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.09,
+                        "http://dbpedia.org/property/author": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                }
+            ],
+            "table": "Unnamed table in section 'Basic Dungeons & Dragons'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Item #",
+                "Contents"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.06,
+                        "http://dbpedia.org/ontology/author": 0.35,
+                        "http://dbpedia.org/property/author": 0.19
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfPages": 0.04,
+                        "http://dbpedia.org/property/pages": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Pages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Item #"
+                }
+            ],
+            "table": "Unnamed table in section 'Basic Dungeons & Dragons'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Item #",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.21,
+                        "http://dbpedia.org/property/author": 0.21
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfPages": 0.14,
+                        "http://dbpedia.org/property/pages": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Pages"
+                }
+            ],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.5,
+                        "http://dbpedia.org/property/author": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfPages": 0.25,
+                        "http://dbpedia.org/property/pages": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Pages"
+                }
+            ],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.23,
+                        "http://dbpedia.org/property/author": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfPages": 0.08,
+                        "http://dbpedia.org/property/pages": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Pages"
+                }
+            ],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons 2nd edition'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Item #",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.13,
+                        "http://dbpedia.org/property/author": 0.13
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfPages": 0.07,
+                        "http://dbpedia.org/property/pages": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Pages"
+                }
+            ],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons 2nd edition'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Item #",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons 2nd edition'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Item #",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.33,
+                        "http://dbpedia.org/property/author": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                }
+            ],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons 2nd edition'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Item #",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.14,
+                        "http://dbpedia.org/property/author": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Authors"
+                }
+            ],
+            "table": "Unnamed table in section 'Advanced Dungeons & Dragons 2nd edition'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Item #",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Dungeons & Dragons 5th edition'",
+            "colums": [
+                "Title",
+                "Authors",
+                "Date",
+                "Pages",
+                "Type"
+            ]
+        }
+    ]
+}

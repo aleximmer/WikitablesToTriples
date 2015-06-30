@@ -1,0 +1,181 @@
+{
+    "no. of tables": 3,
+    "page": "Media in Winnipeg",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.14,
+                        "http://dbpedia.org/property/affiliations": 0.86,
+                        "http://dbpedia.org/property/formerAffiliations": 0.14,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.86
+                    },
+                    "subject": "Call Sign",
+                    "object": "Network"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.14,
+                        "http://dbpedia.org/property/formerAffiliations": 0.14
+                    },
+                    "subject": "Call Sign",
+                    "object": "Other Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Television stations'",
+            "colums": [
+                "PSIP (Frequency)",
+                "Cable Channel",
+                "Call Sign",
+                "Network",
+                "Other Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branding": 0.3,
+                        "http://dbpedia.org/property/affiliations": 0.04,
+                        "http://dbpedia.org/ontology/alias": 0.19,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.04
+                    },
+                    "subject": "Call sign",
+                    "object": "Brand name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/format": 0.63,
+                        "http://dbpedia.org/property/class": 0.04,
+                        "http://dbpedia.org/ontology/programmeFormat": 0.67
+                    },
+                    "subject": "Call sign",
+                    "object": "Format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.59,
+                        "http://dbpedia.org/property/licensee": 0.07,
+                        "http://dbpedia.org/property/sisterStations": 0.04,
+                        "http://dbpedia.org/property/owner": 0.59
+                    },
+                    "subject": "Call sign",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.3,
+                        "http://dbpedia.org/property/area": 0.63,
+                        "http://dbpedia.org/property/city": 0.3,
+                        "http://dbpedia.org/ontology/broadcastArea": 0.63
+                    },
+                    "subject": "Call sign",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/format": 0.04
+                    },
+                    "subject": "Brand name",
+                    "object": "Format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/property/owner": 0.15,
+                        "http://dbpedia.org/ontology/owningCompany": 0.15
+                    },
+                    "subject": "Brand name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.04,
+                        "http://dbpedia.org/ontology/broadcastArea": 0.07,
+                        "http://dbpedia.org/property/available": 0.04,
+                        "http://dbpedia.org/property/city": 0.04,
+                        "http://dbpedia.org/property/area": 0.04
+                    },
+                    "subject": "Brand name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Owner",
+                    "object": "Call sign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/format": 0.04,
+                        "http://dbpedia.org/property/networkType": 0.15,
+                        "http://dbpedia.org/ontology/programmeFormat": 0.04
+                    },
+                    "subject": "Owner",
+                    "object": "Format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.11,
+                        "http://dbpedia.org/property/area": 0.04,
+                        "http://dbpedia.org/property/city": 0.11,
+                        "http://dbpedia.org/ontology/broadcastArea": 0.04
+                    },
+                    "subject": "Owner",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Radio'",
+            "colums": [
+                "Frequency",
+                "Call sign",
+                "Brand name",
+                "Format",
+                "Owner",
+                "City",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/format": 0.5,
+                        "http://dbpedia.org/ontology/programmeFormat": 0.5
+                    },
+                    "subject": "Call sign",
+                    "object": "Format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 1.0,
+                        "http://dbpedia.org/ontology/broadcastArea": 1.0
+                    },
+                    "subject": "Call sign",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/city": 0.5
+                    },
+                    "subject": "Owner/Notes",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Radio'",
+            "colums": [
+                "Frequency",
+                "Call sign",
+                "Brand name",
+                "Format",
+                "Owner/Notes",
+                "City"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1438 @@
+{
+    "no. of tables": 2,
+    "page": "List of GM platforms",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.05,
+                        "http://dbpedia.org/property/class": 0.32,
+                        "http://dbpedia.org/ontology/class": 0.18
+                    },
+                    "subject": "Platform",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/ontology/vehicle": 0.27,
+                        "http://dbpedia.org/ontology/predecessor": 0.05,
+                        "http://dbpedia.org/property/vehicles": 0.27
+                    },
+                    "subject": "Platform",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/ontology/vehicle": 0.32,
+                        "http://dbpedia.org/ontology/predecessor": 0.05,
+                        "http://dbpedia.org/property/vehicles": 0.32
+                    },
+                    "subject": "Platform",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.23,
+                        "http://dbpedia.org/property/vehicles": 0.23
+                    },
+                    "subject": "Platform",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.32,
+                        "http://dbpedia.org/property/vehicles": 0.32
+                    },
+                    "subject": "Platform",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.05,
+                        "http://dbpedia.org/property/vehicles": 0.05
+                    },
+                    "subject": "Platform",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.14,
+                        "http://dbpedia.org/property/vehicles": 0.14
+                    },
+                    "subject": "Platform",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.09,
+                        "http://dbpedia.org/property/vehicles": 0.09
+                    },
+                    "subject": "Platform",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.09,
+                        "http://dbpedia.org/property/vehicles": 0.09
+                    },
+                    "subject": "Platform",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.09,
+                        "http://dbpedia.org/property/vehicles": 0.09
+                    },
+                    "subject": "Platform",
+                    "object": "Daewoo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.18,
+                        "http://dbpedia.org/ontology/class": 0.14
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.41,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.41
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.05,
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.18,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.41
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.14,
+                        "http://dbpedia.org/property/related": 0.23
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.18,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.32,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.18
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Geo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Chevrolet",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.18
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Daewoo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.18,
+                        "http://dbpedia.org/ontology/class": 0.14
+                    },
+                    "subject": "Pontiac",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.45,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.27
+                    },
+                    "subject": "Pontiac",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.41,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.05,
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.14,
+                        "http://dbpedia.org/ontology/predecessor": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/predecessor": 0.05
+                    },
+                    "subject": "Pontiac",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.27
+                    },
+                    "subject": "Pontiac",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.09,
+                        "http://dbpedia.org/property/related": 0.23,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Pontiac",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.14
+                    },
+                    "subject": "Pontiac",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.14,
+                        "http://dbpedia.org/property/related": 0.14
+                    },
+                    "subject": "Pontiac",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Pontiac",
+                    "object": "Geo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Pontiac",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.18,
+                        "http://dbpedia.org/property/related": 0.14
+                    },
+                    "subject": "Pontiac",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/successor": 0.09
+                    },
+                    "subject": "Pontiac",
+                    "object": "Daewoo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.14,
+                        "http://dbpedia.org/ontology/class": 0.09
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.36,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.23
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.23
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.14,
+                        "http://dbpedia.org/property/related": 0.32
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.18,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.36,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.14
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.05,
+                        "http://dbpedia.org/property/class": 0.23,
+                        "http://dbpedia.org/ontology/class": 0.18
+                    },
+                    "subject": "Buick",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.45,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.18
+                    },
+                    "subject": "Buick",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/related": 0.27,
+                        "http://dbpedia.org/property/width": 0.05,
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/related": 0.23,
+                        "http://dbpedia.org/property/width": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/related": 0.27,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Buick",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/width": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/width": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Geo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/width": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/width": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/width": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/property/height": 0.05
+                    },
+                    "subject": "Buick",
+                    "object": "Daewoo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.18,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Cadillac",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Cadillac",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.05,
+                        "http://dbpedia.org/property/class": 0.09,
+                        "http://dbpedia.org/ontology/class": 0.05
+                    },
+                    "subject": "Saturn",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.23,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.23
+                    },
+                    "subject": "Saturn",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.14,
+                        "http://dbpedia.org/property/related": 0.14
+                    },
+                    "subject": "Saturn",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Saturn",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Saturn",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Saturn",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.14,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.18,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05
+                    },
+                    "subject": "Saturn",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Saturn",
+                    "object": "Daewoo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.05,
+                        "http://dbpedia.org/ontology/class": 0.05
+                    },
+                    "subject": "Geo",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.05
+                    },
+                    "subject": "Geo",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Geo",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Geo",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.05,
+                        "http://dbpedia.org/property/class": 0.05
+                    },
+                    "subject": "GMC",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.05,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.09
+                    },
+                    "subject": "GMC",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "GMC",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "GMC",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "GMC",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "GMC",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "GMC",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.05,
+                        "http://dbpedia.org/property/class": 0.05,
+                        "http://dbpedia.org/ontology/class": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.36,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.09
+                    },
+                    "subject": "Opel",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/related": 0.14,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/related": 0.09,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Geo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.05,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/height": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/length": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/property/aka": 0.05,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Opel",
+                    "object": "Daewoo"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.18,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.14
+                    },
+                    "subject": "Daewoo",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.09,
+                        "http://dbpedia.org/property/related": 0.05,
+                        "http://dbpedia.org/property/successor": 0.09
+                    },
+                    "subject": "Daewoo",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05
+                    },
+                    "subject": "Daewoo",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.05,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/successor": 0.09,
+                        "http://dbpedia.org/ontology/predecessor": 0.05
+                    },
+                    "subject": "Daewoo",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.05
+                    },
+                    "subject": "Daewoo",
+                    "object": "Opel"
+                }
+            ],
+            "table": "Unnamed table in section 'List of GM platforms'",
+            "colums": [
+                "Vehicle Type",
+                "Platform",
+                "Chevrolet",
+                "Pontiac",
+                "Oldsmobile",
+                "Buick",
+                "Cadillac",
+                "Saturn",
+                "Geo",
+                "GMC",
+                "Opel",
+                "Daewoo"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.09,
+                        "http://dbpedia.org/property/vehicles": 0.09
+                    },
+                    "subject": "Platform",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.04,
+                        "http://dbpedia.org/property/vehicles": 0.04
+                    },
+                    "subject": "Platform",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.09,
+                        "http://dbpedia.org/property/vehicles": 0.09
+                    },
+                    "subject": "Platform",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/vehicle": 0.09,
+                        "http://dbpedia.org/property/vehicles": 0.09
+                    },
+                    "subject": "Platform",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.04,
+                        "http://dbpedia.org/ontology/bodyStyle": 0.09,
+                        "http://dbpedia.org/property/class": 0.13,
+                        "http://dbpedia.org/ontology/class": 0.13
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.48,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.22
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.13,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.13
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Chevrolet",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Chevrolet",
+                    "object": "Holden"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.04,
+                        "http://dbpedia.org/property/class": 0.04,
+                        "http://dbpedia.org/ontology/class": 0.04
+                    },
+                    "subject": "Pontiac",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.43,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.22
+                    },
+                    "subject": "Pontiac",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.22,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Pontiac",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.22
+                    },
+                    "subject": "Pontiac",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.22
+                    },
+                    "subject": "Pontiac",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Pontiac",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Pontiac",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Pontiac",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Pontiac",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.13
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.13
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.13
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.04,
+                        "http://dbpedia.org/property/related": 0.17,
+                        "http://dbpedia.org/property/successor": 0.04
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Oldsmobile",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.3,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.13,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.17,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.04,
+                        "http://dbpedia.org/property/related": 0.17,
+                        "http://dbpedia.org/property/width": 0.04,
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/ontology/predecessor": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Hummer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/width": 0.04
+                    },
+                    "subject": "Buick",
+                    "object": "Holden"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.35,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.13
+                    },
+                    "subject": "Cadillac",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.13,
+                        "http://dbpedia.org/property/aka": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Cadillac",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/related": 0.13,
+                        "http://dbpedia.org/property/aka": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "Cadillac",
+                    "object": "Hummer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Cadillac",
+                    "object": "Holden"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.04,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.04
+                    },
+                    "subject": "Saturn",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.04,
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Saturn",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aka": 0.04
+                    },
+                    "subject": "Saturn",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.04,
+                        "http://dbpedia.org/ontology/bodyStyle": 0.09,
+                        "http://dbpedia.org/property/class": 0.04,
+                        "http://dbpedia.org/ontology/class": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.26,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.22
+                    },
+                    "subject": "GMC",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/property/height": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relatedMeanOfTransportation": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/related": 0.09
+                    },
+                    "subject": "GMC",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/height": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Opel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/related": 0.04,
+                        "http://dbpedia.org/property/height": 0.04
+                    },
+                    "subject": "GMC",
+                    "object": "Holden"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bodyStyle": 0.04,
+                        "http://dbpedia.org/property/class": 0.04
+                    },
+                    "subject": "Hummer",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.04,
+                        "http://dbpedia.org/ontology/automobilePlatform": 0.04
+                    },
+                    "subject": "Hummer",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bodyStyle": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.04,
+                        "http://dbpedia.org/property/aka": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Chevrolet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aka": 0.04,
+                        "http://dbpedia.org/property/related": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Pontiac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Oldsmobile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Buick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.04,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Cadillac"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/aka": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Saturn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "GMC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/weight": 0.09,
+                        "http://dbpedia.org/property/height": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Hummer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aka": 0.04
+                    },
+                    "subject": "Opel",
+                    "object": "Holden"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/class": 0.04,
+                        "http://dbpedia.org/ontology/class": 0.04
+                    },
+                    "subject": "Holden",
+                    "object": "Vehicle Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.04
+                    },
+                    "subject": "Holden",
+                    "object": "Platform"
+                }
+            ],
+            "table": "Unnamed table in section 'List of GM platforms'",
+            "colums": [
+                "Vehicle Type",
+                "Platform",
+                "Chevrolet",
+                "Pontiac",
+                "Oldsmobile",
+                "Buick",
+                "Cadillac",
+                "Saturn",
+                "GMC",
+                "Hummer",
+                "Opel",
+                "Holden"
+            ]
+        }
+    ]
+}

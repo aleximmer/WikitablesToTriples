@@ -1,0 +1,341 @@
+{
+    "no. of tables": 7,
+    "page": "List of hillside letters",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.04,
+                        "http://dbpedia.org/property/location": 0.04
+                    },
+                    "subject": "Monogram",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.31
+                    },
+                    "subject": "Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.08,
+                        "http://dbpedia.org/property/city": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.04
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.08,
+                        "http://dbpedia.org/ontology/state": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.04
+                    },
+                    "subject": "Description",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "State",
+                "Description",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.03,
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Monogram",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longew": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Monogram"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.86,
+                        "http://dbpedia.org/property/subdivisionName": 0.81
+                    },
+                    "subject": "Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.03,
+                        "http://dbpedia.org/property/capital": 0.03,
+                        "http://dbpedia.org/ontology/largestCity": 0.05,
+                        "http://dbpedia.org/property/largestcity": 0.05
+                    },
+                    "subject": "State",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.22,
+                        "http://dbpedia.org/property/city": 0.22
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.19,
+                        "http://dbpedia.org/ontology/state": 0.19,
+                        "http://dbpedia.org/property/city": 0.03,
+                        "http://dbpedia.org/ontology/city": 0.03
+                    },
+                    "subject": "Description",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "State",
+                "Description",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.95,
+                        "http://dbpedia.org/property/subdivisionName": 0.58
+                    },
+                    "subject": "Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.11,
+                        "http://dbpedia.org/property/city": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.26
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.11,
+                        "http://dbpedia.org/ontology/state": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Description",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "State",
+                "Description",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.11,
+                        "http://dbpedia.org/property/city": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.11,
+                        "http://dbpedia.org/ontology/state": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "State",
+                "Description",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longew": 0.09
+                    },
+                    "subject": "Town",
+                    "object": "Monogram"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.05,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/city": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.05,
+                        "http://dbpedia.org/ontology/state": 0.09
+                    },
+                    "subject": "Description",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "State",
+                "Description",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.88,
+                        "http://dbpedia.org/property/subdivisionName": 0.76
+                    },
+                    "subject": "Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postalabbreviation": 0.04
+                    },
+                    "subject": "State",
+                    "object": "Monogram"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.04,
+                        "http://dbpedia.org/property/largestcity": 0.04
+                    },
+                    "subject": "State",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.28,
+                        "http://dbpedia.org/property/city": 0.28
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.32,
+                        "http://dbpedia.org/ontology/state": 0.32,
+                        "http://dbpedia.org/property/location": 0.04
+                    },
+                    "subject": "Description",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "State",
+                "Description",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Monogram",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.22,
+                        "http://dbpedia.org/property/stateParty": 0.33,
+                        "http://dbpedia.org/ontology/country": 0.78
+                    },
+                    "subject": "Town",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.33,
+                        "http://dbpedia.org/property/capital": 0.33,
+                        "http://dbpedia.org/ontology/largestCity": 0.33,
+                        "http://dbpedia.org/property/largestCity": 0.22
+                    },
+                    "subject": "Country",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.22
+                    },
+                    "subject": "Description",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/ontology/country": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Other countries'",
+            "colums": [
+                "Monogram",
+                "Town",
+                "Country",
+                "Description",
+                "Coordinates"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,651 @@
+{
+    "no. of tables": 5,
+    "page": "List of International Presidents Cup golfers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08
+                    },
+                    "subject": "Editions",
+                    "object": "Player"
+                }
+            ],
+            "table": "Unnamed table in section 'Players'",
+            "colums": [
+                "Player",
+                "Editions"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.15,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.06,
+                        "http://dbpedia.org/property/populationCensusYear": 0.06,
+                        "http://dbpedia.org/property/gdpPppPerCapitaYear": 0.02,
+                        "http://dbpedia.org/property/giniYear": 0.02,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.06,
+                        "http://dbpedia.org/property/gdpPppYear": 0.06
+                    },
+                    "subject": "Cty",
+                    "object": "First\nyear"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.25,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.12,
+                        "http://dbpedia.org/property/populationCensusYear": 0.08,
+                        "http://dbpedia.org/property/gdpPppPerCapitaYear": 0.02,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.08,
+                        "http://dbpedia.org/property/giniYear": 0.1,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.08,
+                        "http://dbpedia.org/property/gdpPppYear": 0.08
+                    },
+                    "subject": "Cty",
+                    "object": "Last\nyear"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.08,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.04,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Presidents\nCups"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/giniRank": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.04,
+                        "http://dbpedia.org/property/fsiRank": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "O\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/fsiRank": 0.02,
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.1,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "O\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/fsiRank": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "O\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.04,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "S\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fsiRank": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "S\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "S\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/fsiRank": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Fs\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/hpiRank": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Fs\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.06
+                    },
+                    "subject": "Cty",
+                    "object": "Fs\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.04,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/areaMagnitude": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Fb\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.08,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.04,
+                        "http://dbpedia.org/property/percentWater": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Fb\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.02
+                    },
+                    "subject": "Cty",
+                    "object": "Fb\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.92,
+                        "http://dbpedia.org/property/residence": 0.12,
+                        "http://dbpedia.org/ontology/birthPlace": 0.48,
+                        "http://dbpedia.org/property/birthPlace": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Cty"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.04,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/yearpro": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "First\nyear"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.06,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/wghofyear": 0.02,
+                        "http://dbpedia.org/property/yearpro": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Last\nyear"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.08,
+                        "http://dbpedia.org/property/children": 0.02,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/masters": 0.04,
+                        "http://dbpedia.org/property/majorwins": 0.02,
+                        "http://dbpedia.org/property/asiawins": 0.08,
+                        "http://dbpedia.org/property/nwidewins": 0.06,
+                        "http://dbpedia.org/property/eurowins": 0.08,
+                        "http://dbpedia.org/property/prowins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.12,
+                        "http://dbpedia.org/property/pga": 0.02,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/usopen": 0.02,
+                        "http://dbpedia.org/property/seneurowins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Presidents\nCups"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prowins": 0.02,
+                        "http://dbpedia.org/property/otherwins": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/eurowins": 0.06
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prowins": 0.02,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/asiawins": 0.02,
+                        "http://dbpedia.org/property/nwidewins": 0.02,
+                        "http://dbpedia.org/property/eurowins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.06,
+                        "http://dbpedia.org/property/chalwins": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/majorwins": 0.04,
+                        "http://dbpedia.org/property/asiawins": 0.04,
+                        "http://dbpedia.org/property/nwidewins": 0.04,
+                        "http://dbpedia.org/property/eurowins": 0.08,
+                        "http://dbpedia.org/property/pgawins": 0.08
+                    },
+                    "subject": "Player",
+                    "object": "O\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.06,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/usopen": 0.02,
+                        "http://dbpedia.org/property/japwins": 0.08,
+                        "http://dbpedia.org/property/eurowins": 0.04,
+                        "http://dbpedia.org/property/chalwins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "O\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.1,
+                        "http://dbpedia.org/property/masters": 0.04,
+                        "http://dbpedia.org/property/majorwins": 0.08,
+                        "http://dbpedia.org/property/asiawins": 0.06,
+                        "http://dbpedia.org/property/auswins": 0.02,
+                        "http://dbpedia.org/property/nwidewins": 0.06,
+                        "http://dbpedia.org/property/eurowins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.1,
+                        "http://dbpedia.org/property/chalwins": 0.04,
+                        "http://dbpedia.org/property/sunwins": 0.04,
+                        "http://dbpedia.org/property/usopen": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/champwins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "O\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/majorwins": 0.04,
+                        "http://dbpedia.org/property/pgawins": 0.08,
+                        "http://dbpedia.org/property/nwidewins": 0.04,
+                        "http://dbpedia.org/property/otherwins": 0.04,
+                        "http://dbpedia.org/property/sunwins": 0.04,
+                        "http://dbpedia.org/property/seneurowins": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.06,
+                        "http://dbpedia.org/property/asiawins": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "S\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/majorwins": 0.1,
+                        "http://dbpedia.org/property/seneurowins": 0.02,
+                        "http://dbpedia.org/property/masters": 0.06,
+                        "http://dbpedia.org/property/otherwins": 0.02,
+                        "http://dbpedia.org/property/asiawins": 0.04,
+                        "http://dbpedia.org/property/auswins": 0.04,
+                        "http://dbpedia.org/property/nwidewins": 0.08,
+                        "http://dbpedia.org/property/eurowins": 0.06,
+                        "http://dbpedia.org/property/prowins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.1,
+                        "http://dbpedia.org/property/pga": 0.02,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/usopen": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.04,
+                        "http://dbpedia.org/property/champwins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "S\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.06,
+                        "http://dbpedia.org/property/majorwins": 0.1,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/asiawins": 0.08
+                    },
+                    "subject": "Player",
+                    "object": "S\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/majorwins": 0.12,
+                        "http://dbpedia.org/property/seneurowins": 0.02,
+                        "http://dbpedia.org/property/masters": 0.06,
+                        "http://dbpedia.org/property/otherwins": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.02,
+                        "http://dbpedia.org/property/nwidewins": 0.04,
+                        "http://dbpedia.org/property/eurowins": 0.04,
+                        "http://dbpedia.org/property/chalwins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.1,
+                        "http://dbpedia.org/property/pga": 0.02,
+                        "http://dbpedia.org/property/usopen": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.04,
+                        "http://dbpedia.org/property/champwins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Fs\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.04,
+                        "http://dbpedia.org/property/children": 0.02,
+                        "http://dbpedia.org/property/masters": 0.04,
+                        "http://dbpedia.org/property/majorwins": 0.04,
+                        "http://dbpedia.org/property/asiawins": 0.02,
+                        "http://dbpedia.org/property/seneurowins": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.02,
+                        "http://dbpedia.org/property/nwidewins": 0.04,
+                        "http://dbpedia.org/property/eurowins": 0.04,
+                        "http://dbpedia.org/property/pgawins": 0.04,
+                        "http://dbpedia.org/property/pga": 0.04,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/usopen": 0.04,
+                        "http://dbpedia.org/property/japwins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Fs\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.04,
+                        "http://dbpedia.org/property/pgawins": 0.06,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/masters": 0.02,
+                        "http://dbpedia.org/property/majorwins": 0.12,
+                        "http://dbpedia.org/property/sunwins": 0.04,
+                        "http://dbpedia.org/property/usopen": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.02,
+                        "http://dbpedia.org/property/nwidewins": 0.02,
+                        "http://dbpedia.org/property/eurowins": 0.02,
+                        "http://dbpedia.org/property/asiawins": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "Fs\nH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.12,
+                        "http://dbpedia.org/property/pgawins": 0.12,
+                        "http://dbpedia.org/property/masters": 0.02,
+                        "http://dbpedia.org/property/majorwins": 0.06,
+                        "http://dbpedia.org/property/asiawins": 0.12,
+                        "http://dbpedia.org/property/nwidewins": 0.02,
+                        "http://dbpedia.org/property/eurowins": 0.06
+                    },
+                    "subject": "Player",
+                    "object": "Fb\nW"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherwins": 0.12,
+                        "http://dbpedia.org/property/masters": 0.08,
+                        "http://dbpedia.org/property/majorwins": 0.1,
+                        "http://dbpedia.org/property/asiawins": 0.08,
+                        "http://dbpedia.org/property/auswins": 0.04,
+                        "http://dbpedia.org/property/nwidewins": 0.08,
+                        "http://dbpedia.org/property/eurowins": 0.08,
+                        "http://dbpedia.org/property/chalwins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.15,
+                        "http://dbpedia.org/property/pga": 0.02,
+                        "http://dbpedia.org/property/usopen": 0.02,
+                        "http://dbpedia.org/property/japwins": 0.06
+                    },
+                    "subject": "Player",
+                    "object": "Fb\nL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/open": 0.02,
+                        "http://dbpedia.org/property/majorwins": 0.06,
+                        "http://dbpedia.org/property/children": 0.02,
+                        "http://dbpedia.org/property/masters": 0.02,
+                        "http://dbpedia.org/property/otherwins": 0.02,
+                        "http://dbpedia.org/property/asiawins": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.02,
+                        "http://dbpedia.org/property/nwidewins": 0.04,
+                        "http://dbpedia.org/property/chalwins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.02,
+                        "http://dbpedia.org/property/sunwins": 0.02,
+                        "http://dbpedia.org/property/japwins": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Fb\nH"
+                }
+            ],
+            "table": "Unnamed table in section 'Playing record'",
+            "colums": [
+                "Cty",
+                "Player",
+                "First\nyear",
+                "Last\nyear",
+                "Presidents\nCups",
+                "Matches",
+                "Points",
+                "Winning\npercentage",
+                "O\nW",
+                "O\nL",
+                "O\nH",
+                "S\nW",
+                "S\nL",
+                "S\nH",
+                "Fs\nW",
+                "Fs\nL",
+                "Fs\nH",
+                "Fb\nW",
+                "Fb\nL",
+                "Fb\nH"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 0.2,
+                        "http://dbpedia.org/ontology/birthPlace": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/eurowins": 0.1,
+                        "http://dbpedia.org/property/masters": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wghofyear": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Last played"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.1,
+                        "http://dbpedia.org/property/areaRank": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.3,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.2,
+                        "http://dbpedia.org/property/giniYear": 0.1,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.2,
+                        "http://dbpedia.org/property/populationCensusYear": 0.2,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.1,
+                        "http://dbpedia.org/property/gdpPppYear": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Last played"
+                }
+            ],
+            "table": "Unnamed table in section 'Record International appearances'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Country",
+                "Appearances",
+                "Last played",
+                "Rookie year"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.09,
+                        "http://dbpedia.org/property/areaRank": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Record International point winners'",
+            "colums": [
+                "Rank",
+                "Name",
+                "Record\n(W\u2013L\u2013H)",
+                "Points",
+                "Winning\npercentage"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.09
+                    },
+                    "subject": "Country",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.09,
+                        "http://dbpedia.org/property/areaRank": 0.09,
+                        "http://dbpedia.org/property/areaMagnitude": 0.09
+                    },
+                    "subject": "Country",
+                    "object": "Players"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.91,
+                        "http://dbpedia.org/property/birthPlace": 0.09,
+                        "http://dbpedia.org/ontology/birthPlace": 0.55
+                    },
+                    "subject": "Most capped player (#)",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/asiawins": 0.09,
+                        "http://dbpedia.org/property/pga": 0.09,
+                        "http://dbpedia.org/property/japwins": 0.09,
+                        "http://dbpedia.org/property/eurowins": 0.09
+                    },
+                    "subject": "Most capped player (#)",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/eurowins": 0.09,
+                        "http://dbpedia.org/property/japwins": 0.09,
+                        "http://dbpedia.org/property/pga": 0.09
+                    },
+                    "subject": "Most capped player (#)",
+                    "object": "Events"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/asiawins": 0.27,
+                        "http://dbpedia.org/property/majorwins": 0.09,
+                        "http://dbpedia.org/property/japwins": 0.09,
+                        "http://dbpedia.org/property/masters": 0.09,
+                        "http://dbpedia.org/property/otherwins": 0.09
+                    },
+                    "subject": "Most capped player (#)",
+                    "object": "Players"
+                }
+            ],
+            "table": "Unnamed table in section 'International country records'",
+            "colums": [
+                "Country",
+                "Appearances",
+                "Events",
+                "Players",
+                "Most capped player (#)"
+            ]
+        }
+    ]
+}

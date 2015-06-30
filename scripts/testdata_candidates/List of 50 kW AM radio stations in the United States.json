@@ -1,0 +1,25 @@
+{
+    "no. of tables": 1,
+    "page": "List of 50 kW AM radio stations in the United States",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/area": 0.0,
+                        "http://dbpedia.org/property/city": 0.01
+                    },
+                    "subject": "Call sign",
+                    "object": "Community of License"
+                }
+            ],
+            "table": "Power Legend: U=unlimited time, D=daytime power, N=nighttime power, CH=critical hours power. Class A unless otherwise specified. Omnidirectional antenna unless otherwise specified.",
+            "colums": [
+                "Call sign",
+                "Frequency",
+                "Community of License",
+                "Power"
+            ]
+        }
+    ]
+}

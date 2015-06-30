@@ -1,0 +1,227 @@
+{
+    "no. of tables": 5,
+    "page": "List of Doctor Who music releases",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.09,
+                        "http://dbpedia.org/property/artist": 0.11,
+                        "http://dbpedia.org/property/composer": 0.04,
+                        "http://dbpedia.org/ontology/producer": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Composer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.04,
+                        "http://dbpedia.org/property/label": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "Label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/composer": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Composer",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/artist": 0.02,
+                        "http://dbpedia.org/property/composer": 0.15
+                    },
+                    "subject": "Notes",
+                    "object": "Composer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Label"
+                }
+            ],
+            "table": "Unnamed table in section 'Soundtrack music'",
+            "colums": [
+                "Title",
+                "Composer",
+                "Label",
+                "Format",
+                "Release Date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Soundtrack music'",
+            "colums": [
+                "Title",
+                "Composer",
+                "Label",
+                "Format",
+                "Release Date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.5,
+                        "http://dbpedia.org/ontology/producer": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Composer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/composer": 0.5,
+                        "http://dbpedia.org/ontology/composer": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Composer"
+                }
+            ],
+            "table": "Unnamed table in section 'Soundtrack music'",
+            "colums": [
+                "Title",
+                "Composer",
+                "Label",
+                "Format",
+                "Release Date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.14,
+                        "http://dbpedia.org/property/artist": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Composer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.14,
+                        "http://dbpedia.org/ontology/musicComposer": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Composer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Label"
+                }
+            ],
+            "table": "Unnamed table in section 'Soundtrack music'",
+            "colums": [
+                "Title",
+                "Composer",
+                "Label",
+                "Format",
+                "Release Date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastAlbum": 0.09,
+                        "http://dbpedia.org/property/artist": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Composer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/format": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.09,
+                        "http://dbpedia.org/property/producer": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09,
+                        "http://dbpedia.org/property/name": 0.09,
+                        "http://xmlns.com/foaf/0.1/name": 0.09
+                    },
+                    "subject": "Composer",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.09
+                    },
+                    "subject": "Composer",
+                    "object": "Label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Label",
+                    "object": "Composer"
+                }
+            ],
+            "table": "Unnamed table in section 'Related music releases'",
+            "colums": [
+                "Title",
+                "Composer",
+                "Label",
+                "Format",
+                "Release Date",
+                "Notes"
+            ]
+        }
+    ]
+}

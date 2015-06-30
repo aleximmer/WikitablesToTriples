@@ -1,0 +1,246 @@
+{
+    "no. of tables": 14,
+    "page": "List of NYPD Blue episodes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.05,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.05,
+                        "http://dbpedia.org/property/season": 0.05,
+                        "http://dbpedia.org/property/episode": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.05,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.05,
+                        "http://dbpedia.org/property/season": 0.05,
+                        "http://dbpedia.org/property/episode": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/director": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/episode": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,339 @@
+{
+    "no. of tables": 16,
+    "page": "List of WBC female world champions",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Atomweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Mini flyweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Light flyweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Flyweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Super flyweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Bantamweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Super bantamweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.14,
+                        "http://dbpedia.org/property/longm": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Featherweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.17,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.17,
+                        "http://dbpedia.org/property/longm": 0.17,
+                        "http://dbpedia.org/property/longd": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Super featherweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/efRank": 0.11,
+                        "http://dbpedia.org/property/areaRank": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.11,
+                        "http://dbpedia.org/property/areaRank": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Lightweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.14,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.14,
+                        "http://dbpedia.org/property/longm": 0.29,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Super lightweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Welterweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Super welterweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.33,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.33,
+                        "http://dbpedia.org/property/longm": 0.33,
+                        "http://dbpedia.org/property/areaRank": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.33,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Defences"
+                }
+            ],
+            "table": "Unnamed table in section 'Middleweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Super middleweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Heavyweight'",
+            "colums": [
+                "No.",
+                "Name",
+                "Duration of reign",
+                "Defences"
+            ]
+        }
+    ]
+}

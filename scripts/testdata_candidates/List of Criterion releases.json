@@ -1,0 +1,159 @@
+{
+    "no. of tables": 14,
+    "page": "List of Criterion Collection DVD and Blu-ray releases",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.06,
+                        "http://dbpedia.org/property/director": 0.88,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/property/music": 0.0,
+                        "http://dbpedia.org/ontology/creator": 0.0,
+                        "http://dbpedia.org/ontology/writer": 0.57,
+                        "http://dbpedia.org/ontology/cinematography": 0.02,
+                        "http://dbpedia.org/property/creator": 0.0,
+                        "http://dbpedia.org/property/starring": 0.02,
+                        "http://dbpedia.org/property/editing": 0.0,
+                        "http://dbpedia.org/ontology/narrator": 0.0,
+                        "http://dbpedia.org/property/cinematography": 0.0,
+                        "http://dbpedia.org/property/screenplay": 0.01,
+                        "http://dbpedia.org/ontology/producer": 0.2,
+                        "http://dbpedia.org/property/studio": 0.01,
+                        "http://dbpedia.org/ontology/musicComposer": 0.01,
+                        "http://dbpedia.org/property/story": 0.0,
+                        "http://dbpedia.org/ontology/director": 0.88,
+                        "http://dbpedia.org/ontology/editing": 0.06,
+                        "http://dbpedia.org/property/writer": 0.13
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/property/released": 0.06,
+                        "http://dbpedia.org/property/years": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Original\nrelease"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.0,
+                        "http://dbpedia.org/ontology/notableWork": 0.0,
+                        "http://dbpedia.org/ontology/knownFor": 0.0,
+                        "http://dbpedia.org/property/title": 0.0,
+                        "http://dbpedia.org/property/notableFilms": 0.0,
+                        "http://dbpedia.org/property/knownFor": 0.0,
+                        "http://dbpedia.org/ontology/award": 0.02
+                    },
+                    "subject": "Director",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/hkfcsawards": 0.0,
+                        "http://dbpedia.org/property/yearsActive": 0.01,
+                        "http://dbpedia.org/property/academyawards": 0.0,
+                        "http://dbpedia.org/property/hongkongfilmwards": 0.0,
+                        "http://dbpedia.org/property/yearsactive": 0.0,
+                        "http://dbpedia.org/property/awards": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Director",
+                    "object": "Original\nrelease"
+                }
+            ],
+            "table": "Unnamed table in section 'The Criterion Collection'",
+            "colums": [
+                "Spine\nNo.",
+                "LD\nNo.",
+                "Title",
+                "Director",
+                "Original\nrelease",
+                "Blu-ray",
+                "Art\nHouse",
+                "Box set availability\n(DVD and Blu-ray)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.83,
+                        "http://dbpedia.org/property/director": 0.83,
+                        "http://dbpedia.org/ontology/writer": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Essential Art House-only releases'",
+            "colums": [
+                "Spine\nNo.",
+                "LD\nNo.",
+                "Title",
+                "Director",
+                "Original release",
+                "Box set availability\n(DVD)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.88,
+                        "http://dbpedia.org/property/director": 0.88,
+                        "http://dbpedia.org/property/writer": 0.06,
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/ontology/writer": 0.24
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.18
+                    },
+                    "subject": "Title",
+                    "object": "Original release"
+                }
+            ],
+            "table": "Unnamed table in section 'Merchant Ivory Collection'",
+            "colums": [
+                "Spine\nNo.",
+                "Title",
+                "Director",
+                "Original release"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 1.0,
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/cinematography": 0.33,
+                        "http://dbpedia.org/ontology/producer": 0.67,
+                        "http://dbpedia.org/ontology/writer": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Other releases'",
+            "colums": [
+                "Spine\nNo.",
+                "LD\nNo.",
+                "Title",
+                "Director",
+                "Original release",
+                "Boxed set availability\n(DVD)"
+            ]
+        }
+    ]
+}

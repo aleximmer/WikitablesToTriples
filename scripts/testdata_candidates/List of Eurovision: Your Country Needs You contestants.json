@@ -1,0 +1,610 @@
+{
+    "no. of tables": 56,
+    "page": "List of contestants from the UK national selection for the Eurovision Song Contest",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Performers",
+                    "object": "Score"
+                }
+            ],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performers",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.08,
+                        "http://dbpedia.org/property/artist": 0.08,
+                        "http://dbpedia.org/ontology/musicalBand": 0.08
+                    },
+                    "subject": "Song Title",
+                    "object": "Performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.12,
+                        "http://dbpedia.org/property/artist": 0.12,
+                        "http://dbpedia.org/ontology/musicalBand": 0.12
+                    },
+                    "subject": "Song Title",
+                    "object": "Performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.12,
+                        "http://dbpedia.org/property/artist": 0.12,
+                        "http://dbpedia.org/ontology/musicalBand": 0.12
+                    },
+                    "subject": "Song Title",
+                    "object": "Performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Semi Final Score",
+                "Semi Final Place",
+                "Final Score",
+                "Final Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place",
+                "Score"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.17,
+                        "http://dbpedia.org/property/artist": 0.17,
+                        "http://dbpedia.org/ontology/musicalBand": 0.17
+                    },
+                    "subject": "Song Title",
+                    "object": "Performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song Title",
+                "Performer",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song title",
+                "Performer",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.33,
+                        "http://dbpedia.org/property/artist": 0.33,
+                        "http://dbpedia.org/ontology/musicalBand": 0.33
+                    },
+                    "subject": "Song title",
+                    "object": "Performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Competition'",
+            "colums": [
+                "Song title",
+                "Performer",
+                "Place"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.06,
+                        "http://dbpedia.org/property/yearsActive": 0.1,
+                        "http://dbpedia.org/property/released": 0.03,
+                        "http://dbpedia.org/property/years": 0.64,
+                        "http://dbpedia.org/property/year": 0.03
+                    },
+                    "subject": "Song/Performer",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'UK singles chart successes'",
+            "colums": [
+                "Year",
+                "Chart",
+                "Song/Performer"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.33
+                    },
+                    "subject": "Song/Performer",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'UK extended play chart successes'",
+            "colums": [
+                "Year",
+                "Chart",
+                "Song/Performer"
+            ]
+        }
+    ]
+}

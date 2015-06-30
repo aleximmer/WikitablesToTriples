@@ -1,0 +1,156 @@
+{
+    "no. of tables": 3,
+    "page": "List of Nintendo 3DS games",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.05,
+                        "http://dbpedia.org/ontology/publisher": 0.06,
+                        "http://dbpedia.org/ontology/designer": 0.0,
+                        "http://dbpedia.org/ontology/developer": 0.1,
+                        "http://dbpedia.org/property/developer": 0.11,
+                        "http://dbpedia.org/ontology/distributor": 0.0
+                    },
+                    "subject": "Title[2]",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.09,
+                        "http://dbpedia.org/ontology/publisher": 0.11,
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/developer": 0.06,
+                        "http://dbpedia.org/property/distributor": 0.0,
+                        "http://dbpedia.org/ontology/distributor": 0.01
+                    },
+                    "subject": "Title[2]",
+                    "object": "Publisher(s)[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.0,
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Title[2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.0,
+                        "http://dbpedia.org/property/subsid": 0.01,
+                        "http://dbpedia.org/ontology/subsidiary": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.0,
+                        "http://dbpedia.org/ontology/parentCompany": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Publisher(s)[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.0,
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Publisher(s)[4]",
+                    "object": "Title[2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.0,
+                        "http://dbpedia.org/ontology/subsidiary": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Publisher(s)[4]",
+                    "object": "Developer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Games'",
+            "colums": [
+                "Title[2]",
+                "Developer(s)",
+                "Publisher(s)[4]",
+                "JP",
+                "PAL",
+                "NA"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.08,
+                        "http://dbpedia.org/property/developer": 0.08
+                    },
+                    "subject": "Title(s)[2][4]",
+                    "object": "Reason[4][234]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.25,
+                        "http://dbpedia.org/property/developer": 0.33,
+                        "http://dbpedia.org/property/publisher": 0.08,
+                        "http://dbpedia.org/ontology/publisher": 0.08
+                    },
+                    "subject": "Title(s)[2][4]",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.17,
+                        "http://dbpedia.org/property/publisher": 0.25,
+                        "http://dbpedia.org/property/developer": 0.17,
+                        "http://dbpedia.org/ontology/publisher": 0.25
+                    },
+                    "subject": "Title(s)[2][4]",
+                    "object": "Publisher[4]\n[4][235]\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.08
+                    },
+                    "subject": "Reason[4][234]",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.08,
+                        "http://dbpedia.org/ontology/publisher": 0.08,
+                        "http://dbpedia.org/ontology/type": 0.08,
+                        "http://dbpedia.org/ontology/parentCompany": 0.08
+                    },
+                    "subject": "Reason[4][234]",
+                    "object": "Publisher[4]\n[4][235]\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.25,
+                        "http://dbpedia.org/ontology/parentCompany": 0.25,
+                        "http://dbpedia.org/ontology/type": 0.08,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.08,
+                        "http://dbpedia.org/property/owner": 0.08
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher[4]\n[4][235]\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.08,
+                        "http://dbpedia.org/ontology/product": 0.08
+                    },
+                    "subject": "Publisher[4]\n[4][235]\n",
+                    "object": "Title(s)[2][4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Games'",
+            "colums": [
+                "Title(s)[2][4]",
+                "Reason[4][234]",
+                "Developer",
+                "Publisher[4]\n[4][235]\n"
+            ]
+        }
+    ]
+}

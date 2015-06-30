@@ -1,0 +1,243 @@
+{
+    "no. of tables": 8,
+    "page": "List of commonly available chemicals",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/property/iupacname": 0.08,
+                        "http://dbpedia.org/property/systematicname": 0.04,
+                        "http://dbpedia.org/ontology/iupacName": 0.08
+                    },
+                    "subject": "Chemical name",
+                    "object": "Common name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17,
+                        "http://dbpedia.org/property/caption": 0.04
+                    },
+                    "subject": "Common name",
+                    "object": "Chemical name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/othernames": 0.06,
+                        "http://dbpedia.org/property/tradename": 0.03
+                    },
+                    "subject": "Chemical name",
+                    "object": "Common or alternative name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/othernames": 0.03
+                    },
+                    "subject": "Chemical name",
+                    "object": "Source and description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.15
+                    },
+                    "subject": "Chemical name",
+                    "object": "Common or alternative name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.31
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Chemical name",
+                    "object": "Common or alternative name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/othernames": 0.04
+                    },
+                    "subject": "Chemical name",
+                    "object": "Common or alternative name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Chemical name",
+                    "object": "Source and description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.15
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formula": 0.04
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical formula"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Source and description",
+                    "object": "Chemical name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Source and description",
+                    "object": "Common or alternative name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Chemical name",
+                    "object": "Source and description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/othernames": 0.03,
+                        "http://dbpedia.org/property/article": 0.03
+                    },
+                    "subject": "Chemical name",
+                    "object": "Common or alternative name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.3
+                    },
+                    "subject": "Common or alternative name",
+                    "object": "Chemical name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Source and description",
+                    "object": "Chemical name"
+                }
+            ],
+            "table": "Unnamed table in section 'Reagent index'",
+            "colums": [
+                "Chemical name",
+                "Chemical formula",
+                "Common or alternative name",
+                "Source and description"
+            ]
+        }
+    ]
+}

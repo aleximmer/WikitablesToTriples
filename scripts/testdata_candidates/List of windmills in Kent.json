@@ -1,0 +1,435 @@
+{
+    "no. of tables": 20,
+    "page": "List of windmills in Kent",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.07
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.15
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.07
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Location",
+                    "object": "Name of mill and\ngrid reference"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.09
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.04
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.05
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.1
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.03
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.12
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dialCode": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "First mention\nor built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.05
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.17
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.1
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Name of mill and\ngrid reference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.08
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.06
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Name of mill and\ngrid reference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.17
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.14
+                    },
+                    "subject": "Name of mill and\ngrid reference",
+                    "object": "First mention\nor built"
+                }
+            ],
+            "table": "Unnamed table in section 'Locations'",
+            "colums": [
+                "Location",
+                "Name of mill and\ngrid reference",
+                "Type",
+                "Maps",
+                "First mention\nor built",
+                "Last mention\nor demise",
+                "Image"
+            ]
+        }
+    ]
+}

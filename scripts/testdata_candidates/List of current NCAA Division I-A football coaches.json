@@ -1,0 +1,197 @@
+{
+    "page": "List of current NCAA Division I FBS football coaches",
+    "no. of tables": 1,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Coaches'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conf": 0.05,
+                        "http://dbpedia.org/property/pastaffiliations": 0.02,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://dbpedia.org/property/confdivision": 0.02
+                    },
+                    "subject": "School",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headcoachdisplay": 0.21,
+                        "http://dbpedia.org/property/name": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Head coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.02
+                    },
+                    "subject": "School",
+                    "object": "First season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherstaff": 0.04,
+                        "http://dbpedia.org/property/headcoachdisplay": 0.01
+                    },
+                    "subject": "School",
+                    "object": "Offensive coordinator(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/offensivecordlink": 0.01,
+                        "http://dbpedia.org/property/offensivecorddisplay": 0.01,
+                        "http://dbpedia.org/property/otherstaff": 0.02,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/headcoachdisplay": 0.02
+                    },
+                    "subject": "School",
+                    "object": "Defensive coordinator(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerTeams": 0.08,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.79,
+                        "http://dbpedia.org/property/college": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/property/coachTeams": 0.74,
+                        "http://dbpedia.org/property/name": 0.84,
+                        "http://dbpedia.org/property/currentTeam": 0.7
+                    },
+                    "subject": "Head coach",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentConference": 0.73,
+                        "http://dbpedia.org/property/championships": 0.01,
+                        "http://dbpedia.org/property/conf": 0.81
+                    },
+                    "subject": "Head coach",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.8
+                    },
+                    "subject": "Head coach",
+                    "object": "First season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.02,
+                        "http://dbpedia.org/ontology/team": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "First season",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conf": 0.01
+                    },
+                    "subject": "First season",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coach": 0.82,
+                        "http://dbpedia.org/property/headcoach": 0.8,
+                        "http://dbpedia.org/property/headCoach": 0.02
+                    },
+                    "subject": "First season",
+                    "object": "Head coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/offCoach": 0.01,
+                        "http://dbpedia.org/ontology/coach": 0.04,
+                        "http://dbpedia.org/property/headcoach": 0.04,
+                        "http://dbpedia.org/property/offcoach": 0.23,
+                        "http://dbpedia.org/property/cooffcoach": 0.03
+                    },
+                    "subject": "First season",
+                    "object": "Offensive coordinator(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/defcoach": 0.23,
+                        "http://dbpedia.org/ontology/coach": 0.02,
+                        "http://dbpedia.org/property/headcoach": 0.02,
+                        "http://dbpedia.org/property/codefcoach": 0.01
+                    },
+                    "subject": "First season",
+                    "object": "Defensive coordinator(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/college": 0.02,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.26,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/playerTeams": 0.02,
+                        "http://dbpedia.org/property/coachTeams": 0.19,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://dbpedia.org/property/currentTeam": 0.23
+                    },
+                    "subject": "Offensive coordinator(s)",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentConference": 0.23,
+                        "http://dbpedia.org/property/conf": 0.06
+                    },
+                    "subject": "Offensive coordinator(s)",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.04
+                    },
+                    "subject": "Offensive coordinator(s)",
+                    "object": "First season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerTeams": 0.02,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.26,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/college": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/coachTeams": 0.22,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/currentTeam": 0.22
+                    },
+                    "subject": "Defensive coordinator(s)",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentConference": 0.22,
+                        "http://dbpedia.org/property/championships": 0.01,
+                        "http://dbpedia.org/property/conf": 0.05
+                    },
+                    "subject": "Defensive coordinator(s)",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.02
+                    },
+                    "subject": "Defensive coordinator(s)",
+                    "object": "First season"
+                }
+            ],
+            "colums": [
+                "School",
+                "Conference",
+                "Head coach",
+                "First season",
+                "Offensive coordinator(s)",
+                "Defensive coordinator(s)"
+            ]
+        }
+    ]
+}

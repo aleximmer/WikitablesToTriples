@@ -1,0 +1,403 @@
+{
+    "no. of tables": 7,
+    "page": "List of deaths in rock and roll",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.12,
+                        "http://dbpedia.org/property/placeOfBirth": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.12,
+                        "http://dbpedia.org/ontology/birthPlace": 0.12,
+                        "http://dbpedia.org/ontology/deathPlace": 0.38
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathCause": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Cause of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'List of deaths in rock and roll'",
+            "colums": [
+                "Name",
+                "Age",
+                "Date",
+                "Location",
+                "Cause of death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.28,
+                        "http://dbpedia.org/ontology/deathPlace": 0.64,
+                        "http://dbpedia.org/ontology/hometown": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.11,
+                        "http://dbpedia.org/property/placeOfBirth": 0.11,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/property/birthPlace": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepRecordLowF": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.03,
+                        "http://dbpedia.org/property/photos": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/julRecordLowF": 0.03,
+                        "http://dbpedia.org/property/novRecordLowF": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Cause of death",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03
+                    },
+                    "subject": "Cause of death",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'List of deaths in rock and roll'",
+            "colums": [
+                "Name",
+                "Age",
+                "Date",
+                "Location",
+                "Cause of death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.18,
+                        "http://dbpedia.org/ontology/deathPlace": 0.7,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/property/deathPlace": 0.27,
+                        "http://dbpedia.org/property/birthPlace": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/decRecordLowF": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/aprLowF": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/febRecordHighC": 0.01,
+                        "http://dbpedia.org/property/augRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/yearRecordLowF": 0.01,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/janRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Age"
+                }
+            ],
+            "table": "Unnamed table in section 'List of deaths in rock and roll'",
+            "colums": [
+                "Name",
+                "Age",
+                "Date",
+                "Location",
+                "Cause of death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathDate": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.24,
+                        "http://dbpedia.org/property/origin": 0.03,
+                        "http://dbpedia.org/ontology/hometown": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/deathPlace": 0.59,
+                        "http://dbpedia.org/property/deathPlace": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/novRecordHighC": 0.01,
+                        "http://dbpedia.org/property/decLowF": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/yearRecordHighC": 0.01,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/julRecordLowF": 0.01,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/elevationFt": 0.01,
+                        "http://dbpedia.org/property/augRecordLowF": 0.01,
+                        "http://dbpedia.org/property/width": 0.01,
+                        "http://dbpedia.org/property/janLowF": 0.01,
+                        "http://dbpedia.org/property/febMeanF": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.01,
+                        "http://dbpedia.org/property/augRecordHighC": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/child": 0.01,
+                        "http://dbpedia.org/property/children": 0.01
+                    },
+                    "subject": "Cause of death",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'List of deaths in rock and roll'",
+            "colums": [
+                "Name",
+                "Age",
+                "Date",
+                "Location",
+                "Cause of death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/origin": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.63,
+                        "http://dbpedia.org/ontology/hometown": 0.06,
+                        "http://dbpedia.org/property/deathplace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.24,
+                        "http://dbpedia.org/property/birthPlace": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/causeOfDeath": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Cause of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/mayRecordHighC": 0.01,
+                        "http://dbpedia.org/property/aprLowF": 0.01,
+                        "http://dbpedia.org/property/decSun": 0.01,
+                        "http://dbpedia.org/property/julMeanF": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/febRecordHighF": 0.01,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/elevationFt": 0.01,
+                        "http://dbpedia.org/property/junLowF": 0.01,
+                        "http://dbpedia.org/property/augRecordLowF": 0.01,
+                        "http://dbpedia.org/property/novHighF": 0.01,
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.01,
+                        "http://dbpedia.org/property/augLowF": 0.01,
+                        "http://dbpedia.org/property/mayHighF": 0.01,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.01,
+                        "http://dbpedia.org/property/decHighF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/origin": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/ontology/hometown": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.01,
+                        "http://dbpedia.org/property/place": 0.01
+                    },
+                    "subject": "Cause of death",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'List of deaths in rock and roll'",
+            "colums": [
+                "Name",
+                "Age",
+                "Date",
+                "Location",
+                "Cause of death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.2,
+                        "http://dbpedia.org/property/origin": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.53,
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/property/deathDate": 0.02,
+                        "http://dbpedia.org/ontology/hometown": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/property/deathCause": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Cause of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junRecordLowF": 0.0,
+                        "http://dbpedia.org/property/longd": 0.0,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/decRecordLowF": 0.0,
+                        "http://dbpedia.org/property/aprRecordHighF": 0.0,
+                        "http://dbpedia.org/property/sepHumidity": 0.0,
+                        "http://dbpedia.org/property/decSun": 0.0,
+                        "http://dbpedia.org/property/febRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/marHumidity": 0.0,
+                        "http://dbpedia.org/property/areaWaterKm": 0.0,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/augRainMm": 0.0,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.0,
+                        "http://dbpedia.org/property/julRecordLowF": 0.01,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/janRecordLowF": 0.0,
+                        "http://dbpedia.org/property/yearRecordLowF": 0.01,
+                        "http://dbpedia.org/property/julHighF": 0.0,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.0,
+                        "http://dbpedia.org/property/junLowF": 0.0,
+                        "http://dbpedia.org/property/augRecordLowF": 0.0,
+                        "http://dbpedia.org/property/octHighF": 0.0,
+                        "http://dbpedia.org/property/augHighF": 0.0,
+                        "http://dbpedia.org/property/febMeanF": 0.01,
+                        "http://dbpedia.org/property/decRecordHighF": 0.0,
+                        "http://dbpedia.org/property/novHighF": 0.0,
+                        "http://dbpedia.org/property/blankInfo": 0.0,
+                        "http://dbpedia.org/property/sepLowF": 0.0,
+                        "http://dbpedia.org/property/augLowF": 0.01,
+                        "http://dbpedia.org/property/lats": 0.0,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.01,
+                        "http://dbpedia.org/property/febRecordHighF": 0.0,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.0,
+                        "http://dbpedia.org/property/janHighF": 0.0,
+                        "http://dbpedia.org/property/janSnowCm": 0.0
+                    },
+                    "subject": "Location",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.0
+                    },
+                    "subject": "Cause of death",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'List of deaths in rock and roll'",
+            "colums": [
+                "Name",
+                "Age",
+                "Date",
+                "Location",
+                "Cause of death"
+            ]
+        }
+    ]
+}

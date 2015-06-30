@@ -1,0 +1,718 @@
+{
+    "page": "List of Scouts",
+    "no. of tables": 54,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Africa'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Africa'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Africa'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Africa'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Africa'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Africa'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.17,
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inaugural": 0.17,
+                        "http://dbpedia.org/property/incumbent": 0.17
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Asia'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Australia'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shortDescription": 0.05,
+                        "http://purl.org/dc/elements/1.1/description": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creators": 0.33,
+                        "http://dbpedia.org/property/writers": 0.33
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.14,
+                        "http://dbpedia.org/property/office": 0.07,
+                        "http://dbpedia.org/property/title": 0.14,
+                        "http://dbpedia.org/property/occupation": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.14,
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.05,
+                        "http://dbpedia.org/property/knownFor": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/chiefscout": 0.05
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/office": 0.07,
+                        "http://dbpedia.org/property/order": 0.07,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.03
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/keyPerson": 0.2
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.5
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shortDescription": 0.07,
+                        "http://dbpedia.org/property/office": 0.07,
+                        "http://dbpedia.org/ontology/otherParty": 0.07,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://purl.org/dc/elements/1.1/description": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Europe'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.02,
+                        "http://dbpedia.org/property/mainDiscipline": 0.02,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.02,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/otherDiscipline": 0.02,
+                        "http://dbpedia.org/property/associatedActs": 0.02,
+                        "http://dbpedia.org/ontology/knownFor": 0.02,
+                        "http://dbpedia.org/property/shortDescription": 0.02,
+                        "http://dbpedia.org/ontology/associatedBand": 0.02,
+                        "http://dbpedia.org/property/battles": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.02
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Latin America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'The Middle East'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'The Middle East'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'The Middle East'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'North America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'North America'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.2,
+                        "http://dbpedia.org/property/office": 0.4,
+                        "http://dbpedia.org/property/order": 0.27,
+                        "http://dbpedia.org/property/title": 0.33,
+                        "http://dbpedia.org/property/occupation": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 0.07,
+                        "http://dbpedia.org/property/incumbent": 0.07
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'North America'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.03,
+                        "http://dbpedia.org/ontology/award": 0.03,
+                        "http://dbpedia.org/ontology/knownFor": 0.07,
+                        "http://dbpedia.org/ontology/board": 0.03,
+                        "http://dbpedia.org/property/boards": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.03,
+                        "http://dbpedia.org/property/founder": 0.07
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of Scouts\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/employer": 0.06,
+                        "http://dbpedia.org/property/occupation": 0.06,
+                        "http://dbpedia.org/ontology/employer": 0.06,
+                        "http://dbpedia.org/property/awards": 0.06,
+                        "http://dbpedia.org/ontology/award": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.06,
+                        "http://dbpedia.org/ontology/director": 0.06,
+                        "http://dbpedia.org/ontology/producer": 0.06
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Notability",
+                "References"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'North America'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Notability",
+                "Reference"
+            ]
+        }
+    ]
+}

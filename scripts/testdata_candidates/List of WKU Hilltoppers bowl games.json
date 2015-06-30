@@ -1,0 +1,196 @@
+{
+    "page": "WKU Hilltoppers football",
+    "no. of tables": 7,
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tWKU Hilltoppers football\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.08,
+                        "http://dbpedia.org/property/bowlwins": 0.08,
+                        "http://dbpedia.org/property/color4hex": 0.08,
+                        "http://dbpedia.org/property/heismans": 0.08,
+                        "http://dbpedia.org/property/allamericans": 0.08,
+                        "http://dbpedia.org/property/bowllosses": 0.08,
+                        "http://dbpedia.org/property/hcwins": 0.08,
+                        "http://dbpedia.org/property/atpercentage": 0.08,
+                        "http://dbpedia.org/property/hclosses": 0.08,
+                        "http://dbpedia.org/property/bowlties": 0.08,
+                        "http://dbpedia.org/property/conftitles": 0.08
+                    },
+                    "subject": "Opponent",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.15,
+                        "http://dbpedia.org/property/bowlwins": 0.23,
+                        "http://dbpedia.org/property/color4hex": 0.08,
+                        "http://dbpedia.org/property/heismans": 0.08,
+                        "http://dbpedia.org/property/allamericans": 0.23,
+                        "http://dbpedia.org/property/headcoachyear": 0.08,
+                        "http://dbpedia.org/property/conftitles": 0.08,
+                        "http://dbpedia.org/property/color2hex": 0.08,
+                        "http://dbpedia.org/property/atpercentage": 0.08,
+                        "http://dbpedia.org/property/bowllosses": 0.31,
+                        "http://dbpedia.org/property/color1hex": 0.08,
+                        "http://dbpedia.org/property/hcwins": 0.08
+                    },
+                    "subject": "Opponent",
+                    "object": "Lost"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.08,
+                        "http://dbpedia.org/property/bowlwins": 0.23,
+                        "http://dbpedia.org/property/awayscore": 0.08,
+                        "http://dbpedia.org/property/bowllosses": 0.31,
+                        "http://dbpedia.org/property/heismans": 0.08,
+                        "http://dbpedia.org/property/allamericans": 0.23,
+                        "http://dbpedia.org/property/conftitles": 0.08,
+                        "http://dbpedia.org/property/hcties": 0.08,
+                        "http://dbpedia.org/property/bowlties": 0.08,
+                        "http://dbpedia.org/property/color3hex": 0.08,
+                        "http://dbpedia.org/property/color2hex": 0.08,
+                        "http://dbpedia.org/property/atpercentage": 0.08,
+                        "http://dbpedia.org/property/color4hex": 0.08,
+                        "http://dbpedia.org/property/color1hex": 0.08,
+                        "http://dbpedia.org/property/hcwins": 0.08
+                    },
+                    "subject": "Opponent",
+                    "object": "Tied"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstyear": 0.08
+                    },
+                    "subject": "Opponent",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentseason": 0.08
+                    },
+                    "subject": "Opponent",
+                    "object": "Last"
+                }
+            ],
+            "colums": [
+                "Opponent",
+                "Won",
+                "Lost",
+                "Tied",
+                "Percentage",
+                "Streak",
+                "First",
+                "Last"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'National championships'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Selector",
+                "Coach",
+                "Record"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Conference championships'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Conference",
+                "Record"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Bowl Games'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.25
+                    },
+                    "subject": "Season",
+                    "object": "Bowl"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowltourneyresult": 0.25
+                    },
+                    "subject": "Season",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opponent": 0.25
+                    },
+                    "subject": "Season",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opponent": 0.25
+                    },
+                    "subject": "Opponent",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.25
+                    },
+                    "subject": "Opponent",
+                    "object": "Bowl"
+                }
+            ],
+            "colums": [
+                "Season",
+                "Date",
+                "Coach",
+                "Bowl",
+                "Result",
+                "Opponent"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'NCAA Playoff appearances'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Record",
+                "Coach",
+                "Results"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Hilltoppers in the polls'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Score": 0.08,
+                        "http://dbpedia.org/property/rd1Score": 0.17,
+                        "http://dbpedia.org/property/rd3Score": 0.08
+                    },
+                    "subject": "Year",
+                    "object": "Coaches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Score": 0.08,
+                        "http://dbpedia.org/property/rd1Score": 0.17
+                    },
+                    "subject": "Year",
+                    "object": "Sports Network"
+                }
+            ],
+            "colums": [
+                "Year",
+                "Record",
+                "Coaches",
+                "Sports Network"
+            ]
+        }
+    ]
+}

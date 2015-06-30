@@ -1,0 +1,472 @@
+{
+    "no. of tables": 14,
+    "page": "Properties on the Alabama Register of Landmarks and Heritage by county (Pickens\u2013Winston)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08
+                    },
+                    "subject": "Site name",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.08,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/property/nearestCity": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.08
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.08
+                    },
+                    "subject": "Site name",
+                    "object": "Built\u00a0or Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalSqMi": 0.08,
+                        "http://dbpedia.org/property/latm": 0.08,
+                        "http://dbpedia.org/property/blankInfo": 0.08
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Pickens County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.06,
+                        "http://dbpedia.org/property/city": 0.06
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.06,
+                        "http://dbpedia.org/property/augPrecipitationInch": 0.06,
+                        "http://dbpedia.org/property/lats": 0.12,
+                        "http://dbpedia.org/property/blankInfo": 0.06
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Pike County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfo": 0.33
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Randolph County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationInch": 0.06,
+                        "http://dbpedia.org/property/lats": 0.06
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Russell County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.06,
+                        "http://dbpedia.org/property/julPrecipitationInch": 0.06,
+                        "http://dbpedia.org/property/longm": 0.11,
+                        "http://dbpedia.org/property/blankInfo": 0.06
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'St. Clair County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.02
+                    },
+                    "subject": "Site name",
+                    "object": "Built\u00a0or Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowF": 0.02,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/lats": 0.05,
+                        "http://dbpedia.org/property/decLowF": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Shelby County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longSeconds": 0.08
+                    },
+                    "subject": "Site name",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.17
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.08
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Sumter County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/nearestCity": 0.03,
+                        "http://dbpedia.org/property/nearestCity": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.03
+                    },
+                    "subject": "Site name",
+                    "object": "Built\u00a0or Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.08,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Talladega County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inflow": 0.08,
+                        "http://dbpedia.org/ontology/outflow": 0.08,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/property/outflow": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.08,
+                        "http://dbpedia.org/ontology/inflow": 0.08
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfo": 0.08
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Tallapoosa County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Site name",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.02
+                    },
+                    "subject": "Site name",
+                    "object": "Built\u00a0or Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/areaLandKm": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.02
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Tuscaloosa County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/blankInfo": 0.07
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Walker County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.12
+                    },
+                    "subject": "Site name",
+                    "object": "Built\u00a0or Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.12
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Washington County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/latMinutes": 0.04
+                    },
+                    "subject": "Site name",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/nearestCity": 0.08,
+                        "http://dbpedia.org/property/nearestCity": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.08
+                    },
+                    "subject": "Site name",
+                    "object": "City or Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.12
+                    },
+                    "subject": "Site name",
+                    "object": "Built\u00a0or Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Wilcox County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfo": 0.25
+                    },
+                    "subject": "City or Town",
+                    "object": ""
+                }
+            ],
+            "table": "Unnamed table in section 'Winston County'",
+            "colums": [
+                "",
+                "Site name",
+                "Date listed",
+                "City or Town",
+                "Built\u00a0or Established",
+                "NRHP/NHL"
+            ]
+        }
+    ]
+}

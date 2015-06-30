@@ -1,0 +1,213 @@
+{
+    "no. of tables": 3,
+    "page": "List of Pinoy Big Brother contestants",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.01,
+                        "http://dbpedia.org/property/residence": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Home or representative\ntown or province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Total days in\nPBB House"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayLowC": 0.01,
+                        "http://dbpedia.org/property/junRecordLowC": 0.01,
+                        "http://dbpedia.org/property/novRainDays": 0.01,
+                        "http://dbpedia.org/property/augRainDays": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/janHighC": 0.01,
+                        "http://dbpedia.org/property/octRecordLowC": 0.01,
+                        "http://dbpedia.org/property/octHighC": 0.01,
+                        "http://dbpedia.org/property/marLowC": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.02,
+                        "http://dbpedia.org/property/augHighC": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.01,
+                        "http://dbpedia.org/property/novLowC": 0.01,
+                        "http://dbpedia.org/property/febHighC": 0.01,
+                        "http://dbpedia.org/property/julMeanC": 0.01,
+                        "http://dbpedia.org/property/julHighC": 0.01,
+                        "http://dbpedia.org/property/decRecordLowC": 0.01,
+                        "http://dbpedia.org/property/yearLowC": 0.01,
+                        "http://dbpedia.org/property/junRainDays": 0.01,
+                        "http://dbpedia.org/property/febLowC": 0.02,
+                        "http://dbpedia.org/property/janMeanC": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/aprLowC": 0.01,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/populationDensityRank": 0.01,
+                        "http://dbpedia.org/property/sepHighC": 0.01,
+                        "http://dbpedia.org/property/decRainDays": 0.01,
+                        "http://dbpedia.org/property/latitude": 0.01,
+                        "http://dbpedia.org/property/decHighC": 0.01,
+                        "http://dbpedia.org/property/novRecordLowC": 0.01,
+                        "http://dbpedia.org/property/janRainDays": 0.01,
+                        "http://dbpedia.org/property/junMeanC": 0.01,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Home or representative\ntown or province",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordLowC": 0.01,
+                        "http://dbpedia.org/property/novdSun": 0.01,
+                        "http://dbpedia.org/property/junRecordLowC": 0.01,
+                        "http://dbpedia.org/property/julHumidity": 0.01,
+                        "http://dbpedia.org/property/marRecordLowC": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.01,
+                        "http://dbpedia.org/property/sepHumidity": 0.01,
+                        "http://dbpedia.org/property/janLowF": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.02,
+                        "http://dbpedia.org/property/flagSize": 0.02,
+                        "http://dbpedia.org/property/jandSun": 0.01,
+                        "http://dbpedia.org/property/febdSun": 0.01,
+                        "http://dbpedia.org/property/decHighC": 0.01,
+                        "http://dbpedia.org/property/augHighC": 0.01,
+                        "http://dbpedia.org/property/maydSun": 0.01,
+                        "http://dbpedia.org/property/augHumidity": 0.01,
+                        "http://dbpedia.org/property/julRecordLowC": 0.01,
+                        "http://dbpedia.org/property/mayMeanC": 0.01,
+                        "http://dbpedia.org/property/aprMeanC": 0.01
+                    },
+                    "subject": "Home or representative\ntown or province",
+                    "object": "Total days in\nPBB House"
+                }
+            ],
+            "table": "Unnamed table in section 'Regular season housemates'",
+            "colums": [
+                "Name",
+                "Home or representative\ntown or province",
+                "Age",
+                "Season",
+                "Total days in\nPBB House",
+                "Duration",
+                "Status"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.03,
+                        "http://dbpedia.org/ontology/occupation": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Claim to fame"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.03,
+                        "http://dbpedia.org/property/pastMembers": 0.03,
+                        "http://dbpedia.org/ontology/bandMember": 0.03,
+                        "http://dbpedia.org/property/currentMembers": 0.03
+                    },
+                    "subject": "Claim to fame",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Celebrity Edition housemates'",
+            "colums": [
+                "Name",
+                "Claim to fame",
+                "Age",
+                "Edition",
+                "Total days in\nPBB House",
+                "Duration",
+                "Status"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.09,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07,
+                        "http://dbpedia.org/ontology/residence": 0.01,
+                        "http://dbpedia.org/property/hometown": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Home or representative\ntown or province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/sepRainDays": 0.01,
+                        "http://dbpedia.org/property/demographics1Info": 0.03,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.01,
+                        "http://dbpedia.org/property/janRecordLowC": 0.01,
+                        "http://dbpedia.org/property/augMeanC": 0.01,
+                        "http://dbpedia.org/property/yearRecordLowC": 0.03,
+                        "http://dbpedia.org/property/febRecordLowC": 0.01,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/janLowC": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/aprHighC": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/p": 0.01,
+                        "http://dbpedia.org/property/text": 0.01,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.03
+                    },
+                    "subject": "Home or representative\ntown or province",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/junRecordLowC": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.01,
+                        "http://dbpedia.org/property/junHighC": 0.01,
+                        "http://dbpedia.org/property/yearRecordHighC": 0.01,
+                        "http://dbpedia.org/property/junRecordHighC": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.01,
+                        "http://dbpedia.org/property/mayHighC": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Home or representative\ntown or province",
+                    "object": "Total days in\nPBB House"
+                }
+            ],
+            "table": "Unnamed table in section 'Teen Edition housemates'",
+            "colums": [
+                "Name",
+                "Home or representative\ntown or province",
+                "Age",
+                "Edition",
+                "Total days in\nPBB House",
+                "Duration",
+                "Status"
+            ]
+        }
+    ]
+}

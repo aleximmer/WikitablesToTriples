@@ -1,0 +1,334 @@
+{
+    "no. of tables": 11,
+    "page": "List of cities in the Republic of Macedonia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.62
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.12
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.67,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.2
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.5
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.8,
+                        "http://dbpedia.org/property/subdivisionName": 0.6
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.2
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "coat of arms",
+                "flag",
+                "picture"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febMeanC": 0.2,
+                        "http://dbpedia.org/ontology/area": 0.2,
+                        "http://dbpedia.org/property/novSnowDays": 0.2,
+                        "http://dbpedia.org/property/marLowC": 0.2,
+                        "http://dbpedia.org/property/novLowC": 0.2
+                    },
+                    "subject": "city",
+                    "object": "no."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.6,
+                        "http://dbpedia.org/property/subdivisionName": 0.4
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.2,
+                        "http://dbpedia.org/property/latm": 0.2
+                    },
+                    "subject": "municipality",
+                    "object": "no."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/property/seat": 0.4
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                }
+            ],
+            "table": "Unnamed table in section 'List of cities in the Republic of Macedonia'",
+            "colums": [
+                "no.",
+                "city",
+                "municipality",
+                "population"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.6,
+                        "http://dbpedia.org/property/subdivisionName": 0.4
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'List of cities in the Republic of Macedonia'",
+            "colums": [
+                "no.",
+                "city",
+                "municipality",
+                "population"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.85,
+                        "http://dbpedia.org/property/subdivisionName": 0.74
+                    },
+                    "subject": "city",
+                    "object": "municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank1Info": 0.03
+                    },
+                    "subject": "city",
+                    "object": "dominant language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/seat": 0.12
+                    },
+                    "subject": "municipality",
+                    "object": "city"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demographics1Info": 0.03
+                    },
+                    "subject": "municipality",
+                    "object": "dominant language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.09,
+                        "http://dbpedia.org/ontology/language": 1.0
+                    },
+                    "subject": "dominant ethnic group(s)",
+                    "object": "dominant language(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/religion": 0.91
+                    },
+                    "subject": "dominant ethnic group(s)",
+                    "object": "dominant religion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ethnicity": 0.91
+                    },
+                    "subject": "dominant language(s)",
+                    "object": "dominant ethnic group(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics'",
+            "colums": [
+                "city",
+                "municipality",
+                "population",
+                "dominant ethnic group(s)",
+                "% of the dominant ethnic group(s)",
+                "dominant language(s)",
+                "% of the dominant language(s)",
+                "dominant religion",
+                "% of the dominant religion(s)"
+            ]
+        }
+    ]
+}

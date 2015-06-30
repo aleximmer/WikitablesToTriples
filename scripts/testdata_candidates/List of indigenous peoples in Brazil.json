@@ -1,0 +1,197 @@
+{
+    "no. of tables": 1,
+    "page": "List of indigenous peoples of Brazil",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.27,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/langs": 0.01,
+                        "http://dbpedia.org/ontology/language": 0.02,
+                        "http://dbpedia.org/property/name": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.02,
+                        "http://dbpedia.org/ontology/language": 0.09,
+                        "http://dbpedia.org/property/langs": 0.04,
+                        "http://dbpedia.org/ontology/languageFamily": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/fam": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Language Family"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.1,
+                        "http://dbpedia.org/ontology/spokenIn": 0.01,
+                        "http://dbpedia.org/property/popplace": 0.01,
+                        "http://dbpedia.org/property/region": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.0,
+                        "http://dbpedia.org/ontology/totalPopulation": 0.11,
+                        "http://dbpedia.org/ontology/spokenIn": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/states": 0.0,
+                        "http://dbpedia.org/property/population": 0.04,
+                        "http://dbpedia.org/property/poptime": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Population\ncensus/estimated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ethnicity": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.4,
+                        "http://dbpedia.org/property/ld": 0.0
+                    },
+                    "subject": "Other names",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.02,
+                        "http://dbpedia.org/ontology/language": 0.07,
+                        "http://dbpedia.org/property/langs": 0.04,
+                        "http://dbpedia.org/ontology/languageFamily": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/fam": 0.03
+                    },
+                    "subject": "Other names",
+                    "object": "Language Family"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.08,
+                        "http://dbpedia.org/ontology/spokenIn": 0.01,
+                        "http://dbpedia.org/property/popplace": 0.01,
+                        "http://dbpedia.org/property/states": 0.01
+                    },
+                    "subject": "Other names",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.0,
+                        "http://dbpedia.org/ontology/totalPopulation": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/poptime": 0.05,
+                        "http://dbpedia.org/property/population": 0.04
+                    },
+                    "subject": "Other names",
+                    "object": "Population\ncensus/estimated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.0
+                    },
+                    "subject": "Other names",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ethnicity": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/dia": 0.0,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Language Family",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nativename": 0.01,
+                        "http://dbpedia.org/ontology/languageFamily": 0.0,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/ethnicity": 0.05,
+                        "http://dbpedia.org/property/ld": 0.0,
+                        "http://dbpedia.org/property/name": 0.0,
+                        "http://dbpedia.org/property/fam": 0.0
+                    },
+                    "subject": "Language Family",
+                    "object": "Other names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.0,
+                        "http://dbpedia.org/ontology/spokenIn": 0.07,
+                        "http://dbpedia.org/property/popplace": 0.0,
+                        "http://dbpedia.org/property/region": 0.07
+                    },
+                    "subject": "Language Family",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.0,
+                        "http://dbpedia.org/property/region": 0.0
+                    },
+                    "subject": "Language Family",
+                    "object": "Population\ncensus/estimated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.02
+                    },
+                    "subject": "Language Family",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageSize": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/latm": 0.0,
+                        "http://dbpedia.org/ontology/country": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Population\ncensus/estimated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demographics2Info": 0.01,
+                        "http://dbpedia.org/property/demographics1Info": 0.05,
+                        "http://dbpedia.org/property/populationAsOf": 0.09
+                    },
+                    "subject": "Location",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.0
+                    },
+                    "subject": "Population\ncensus/estimated",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Table of indigenous peoples of Brazil'",
+            "colums": [
+                "Name",
+                "Other names",
+                "Language Family",
+                "Location",
+                "Population\ncensus/estimated",
+                "Year"
+            ]
+        }
+    ]
+}

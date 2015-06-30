@@ -1,0 +1,164 @@
+{
+    "no. of tables": 9,
+    "page": "List of 2007\u201308 NBA season transactions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Team(s) played (years)"
+                }
+            ],
+            "table": "Unnamed table in section 'Retirement'",
+            "colums": [
+                "Date",
+                "Name",
+                "Team(s) played (years)",
+                "Age",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 1.0,
+                        "http://dbpedia.org/property/draftRound": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.7,
+                        "http://dbpedia.org/ontology/draftTeam": 0.97,
+                        "http://dbpedia.org/property/draftTeam": 0.9,
+                        "http://dbpedia.org/ontology/team": 0.23
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.1,
+                        "http://dbpedia.org/ontology/team": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "School/club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leagueChamps": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "Pick"
+                }
+            ],
+            "table": "Unnamed table in section 'Draft'",
+            "colums": [
+                "Pick",
+                "Player",
+                "Date signed",
+                "Team",
+                "School/club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 1.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.33,
+                        "http://dbpedia.org/ontology/draftTeam": 0.97,
+                        "http://dbpedia.org/property/draftTeam": 0.97,
+                        "http://dbpedia.org/ontology/team": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/college": 0.07,
+                        "http://dbpedia.org/property/college": 0.07,
+                        "http://dbpedia.org/property/team": 0.07
+                    },
+                    "subject": "Player",
+                    "object": "School/club team"
+                }
+            ],
+            "table": "Unnamed table in section 'Draft'",
+            "colums": [
+                "Pick",
+                "Player",
+                "Date signed",
+                "Team",
+                "School/club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/first": 0.5
+                    },
+                    "subject": "Draft",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftPick": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Pick"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0,
+                        "http://dbpedia.org/ontology/draftTeam": 0.5,
+                        "http://dbpedia.org/property/draftTeam": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Previous team"
+                }
+            ],
+            "table": "Unnamed table in section 'Draft'",
+            "colums": [
+                "Draft",
+                "Pick",
+                "Player",
+                "Date signed",
+                "Team",
+                "Previous team"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Released'",
+            "colums": [
+                "Atlanta Hawks",
+                "Boston Celtics",
+                "Charlotte Bobcats",
+                "Chicago Bulls",
+                "Cleveland Cavaliers"
+            ]
+        }
+    ]
+}

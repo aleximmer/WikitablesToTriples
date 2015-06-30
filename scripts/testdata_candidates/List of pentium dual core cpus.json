@@ -1,0 +1,389 @@
+{
+    "no. of tables": 33,
+    "page": "List of Intel Pentium microprocessors",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Burst",
+                "L2\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "Memory",
+                "TDP",
+                "SDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "Frequency",
+                "L1\nCache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "sSpec\nnumber"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/protocol": 0.5
+                    },
+                    "subject": "Socket",
+                    "object": "I/O bus"
+                }
+            ],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Turbo",
+                "L2\ncache",
+                "L3\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "TDP",
+                "Socket",
+                "I/O bus",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Turbo",
+                "L2\ncache",
+                "L3\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "TDP",
+                "Socket",
+                "I/O bus",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Turbo",
+                "L2\ncache",
+                "L3\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "TDP",
+                "Socket",
+                "I/O bus",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Turbo",
+                "L2\ncache",
+                "L3\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "TDP",
+                "Socket",
+                "I/O bus",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Burst",
+                "L2\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "Memory",
+                "TDP",
+                "SDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Mobile processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Burst",
+                "L2\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "Memory",
+                "TDP",
+                "SDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Server processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Cores",
+                "Frequency",
+                "Turbo",
+                "L2\ncache",
+                "L3\ncache",
+                "GPU\nmodel",
+                "GPU\nfrequency",
+                "TDP",
+                "Socket",
+                "I/O bus",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "no. of tables": 1,
+    "page": "List of Battle Vixens characters",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen",
+                    "object": "Ikki Tousen: Dragon Destiny"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen",
+                    "object": "Ikki Tousen: Great Guardians"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen",
+                    "object": "Ikki Tousen: Xtreme Xecutor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen",
+                    "object": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen: Dragon Destiny",
+                    "object": "Ikki Tousen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Ikki Tousen: Dragon Destiny",
+                    "object": "Ikki Tousen: Great Guardians"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Ikki Tousen: Dragon Destiny",
+                    "object": "Ikki Tousen: Xtreme Xecutor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Ikki Tousen: Dragon Destiny",
+                    "object": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen: Great Guardians",
+                    "object": "Ikki Tousen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Ikki Tousen: Great Guardians",
+                    "object": "Ikki Tousen: Dragon Destiny"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Ikki Tousen: Great Guardians",
+                    "object": "Ikki Tousen: Xtreme Xecutor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Ikki Tousen: Great Guardians",
+                    "object": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen: Xtreme Xecutor",
+                    "object": "Ikki Tousen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Ikki Tousen: Xtreme Xecutor",
+                    "object": "Ikki Tousen: Dragon Destiny"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Ikki Tousen: Xtreme Xecutor",
+                    "object": "Ikki Tousen: Great Guardians"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Ikki Tousen: Xtreme Xecutor",
+                    "object": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)",
+                    "object": "Ikki Tousen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)",
+                    "object": "Ikki Tousen: Dragon Destiny"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)",
+                    "object": "Ikki Tousen: Great Guardians"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)",
+                    "object": "Ikki Tousen: Xtreme Xecutor"
+                }
+            ],
+            "table": "Unnamed table in section 'Anime Voice Cast Japanese & English'",
+            "colums": [
+                "Character/Voice Actor",
+                "Ikki Tousen",
+                "Ikki Tousen: Dragon Destiny",
+                "Ikki Tousen: Great Guardians",
+                "Ikki Tousen: Xtreme Xecutor",
+                "Ikki Tousen: Sh\u016bgaku T\u014dshi Keppu-roku (OVA)"
+            ]
+        }
+    ]
+}

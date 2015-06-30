@@ -1,0 +1,901 @@
+{
+    "no. of tables": 26,
+    "page": "List of schools in the Auckland Region",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.96
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Roll"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Area",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04
+                    },
+                    "subject": "Area",
+                    "object": "Roll"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/lats": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Area",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/lats": 0.05
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.62
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.69,
+                        "http://dbpedia.org/property/address": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/address": 0.06,
+                        "http://dbpedia.org/property/decile": 0.19
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.95
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.26,
+                        "http://dbpedia.org/property/address": 0.03,
+                        "http://dbpedia.org/property/west": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/decile": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southeast": 0.03,
+                        "http://dbpedia.org/property/east": 0.03
+                    },
+                    "subject": "Area",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.35
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.24
+                    },
+                    "subject": "Area",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/address": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "MOE",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Roll",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "MOE",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Roll",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "MOE",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Roll",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/decile": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.29,
+                        "http://dbpedia.org/property/northwest": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Area",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "MOE",
+                "Years",
+                "Area",
+                "Authority",
+                "Roll",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.35
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/decile": 0.19
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.04
+                    },
+                    "subject": "Area",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/decile": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.06
+                    },
+                    "subject": "Area",
+                    "object": "Roll"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/areaCode": 0.06
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Primary and intermediate schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gender": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Gender"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/localName": 0.01,
+                        "http://dbpedia.org/property/address": 0.01,
+                        "http://dbpedia.org/ontology/address": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/name": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Local board"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/property/address": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fundingType": 0.02,
+                        "http://dbpedia.org/property/fundingtype": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Authority"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07,
+                        "http://dbpedia.org/property/board": 0.02,
+                        "http://dbpedia.org/property/localName": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/name": 0.09,
+                        "http://dbpedia.org/property/ward": 0.09
+                    },
+                    "subject": "Suburb",
+                    "object": "Local board"
+                }
+            ],
+            "table": "Unnamed table in section 'Secondary schools'",
+            "colums": [
+                "Name",
+                "MOE",
+                "Years",
+                "Gender",
+                "Local board",
+                "Suburb",
+                "Authority",
+                "Roll",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/address": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Local board"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/address": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fundingtype": 0.06,
+                        "http://dbpedia.org/property/type": 0.03,
+                        "http://dbpedia.org/property/fundingType": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Authority"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/classes": 0.03,
+                        "http://dbpedia.org/ontology/classes": 0.03,
+                        "http://dbpedia.org/property/ratio": 0.03,
+                        "http://dbpedia.org/property/decile": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/board": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://dbpedia.org/property/ward": 0.06
+                    },
+                    "subject": "Suburb",
+                    "object": "Local board"
+                }
+            ],
+            "table": "Unnamed table in section 'Composite schools'",
+            "colums": [
+                "Name",
+                "MOE",
+                "Gender",
+                "Local board",
+                "Suburb",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cityWard": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Local board"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.21
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/address": 0.05,
+                        "http://dbpedia.org/property/decile": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Suburb",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.11,
+                        "http://dbpedia.org/property/cityWard": 0.05,
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/property/name": 0.11
+                    },
+                    "subject": "Suburb",
+                    "object": "Local board"
+                }
+            ],
+            "table": "Unnamed table in section 'Special schools and teen parent units'",
+            "colums": [
+                "Name",
+                "Type",
+                "Gender",
+                "Local board",
+                "Suburb",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/board": 1.0,
+                        "http://dbpedia.org/property/ward": 0.5
+                    },
+                    "subject": "Suburb",
+                    "object": "Local board"
+                }
+            ],
+            "table": "Unnamed table in section 'Future schools'",
+            "colums": [
+                "Tentative name",
+                "Years",
+                "Gender",
+                "Local board",
+                "Suburb",
+                "Authority",
+                "Planned opening",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Suburb",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ward": 0.1
+                    },
+                    "subject": "Suburb",
+                    "object": "Local board"
+                }
+            ],
+            "table": "Unnamed table in section 'Closed schools'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Local board",
+                "Suburb",
+                "Authority",
+                "Date of closure",
+                "Reason of closure",
+                "Ref"
+            ]
+        }
+    ]
+}

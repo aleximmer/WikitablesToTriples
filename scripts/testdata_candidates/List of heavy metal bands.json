@@ -1,0 +1,720 @@
+{
+    "no. of tables": 26,
+    "page": "List of heavy metal bands",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.5,
+                        "http://dbpedia.org/ontology/hometown": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.47,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/property/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/hometown": 0.47
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.07,
+                        "http://dbpedia.org/property/genre": 0.07,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.07,
+                        "http://dbpedia.org/property/associatedActs": 0.07,
+                        "http://dbpedia.org/ontology/bandMember": 0.07,
+                        "http://dbpedia.org/ontology/genre": 0.07,
+                        "http://dbpedia.org/property/currentMembers": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.07,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.07
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/property/birthPlace": 0.07
+                    },
+                    "subject": "Brief summary",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.38,
+                        "http://dbpedia.org/ontology/hometown": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.04,
+                        "http://dbpedia.org/property/label": 0.04,
+                        "http://dbpedia.org/ontology/bandMember": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.04,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.04,
+                        "http://dbpedia.org/property/associatedActs": 0.04
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04
+                    },
+                    "subject": "Brief summary",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.56,
+                        "http://dbpedia.org/ontology/hometown": 0.56
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.5,
+                        "http://dbpedia.org/ontology/hometown": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.17,
+                        "http://dbpedia.org/property/pastMembers": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.08,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.08,
+                        "http://dbpedia.org/property/associatedActs": 0.08
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08
+                    },
+                    "subject": "Brief summary",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.44,
+                        "http://dbpedia.org/ontology/hometown": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.11,
+                        "http://dbpedia.org/property/pastMembers": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.11,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.11
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.17,
+                        "http://dbpedia.org/ontology/hometown": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.17,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.17,
+                        "http://dbpedia.org/property/associatedActs": 0.17
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.33,
+                        "http://dbpedia.org/ontology/hometown": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.08,
+                        "http://dbpedia.org/property/pastMembers": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.08,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.08,
+                        "http://dbpedia.org/property/associatedActs": 0.08
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.33,
+                        "http://dbpedia.org/ontology/hometown": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.07,
+                        "http://dbpedia.org/property/pastMembers": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.07,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.07,
+                        "http://dbpedia.org/property/associatedActs": 0.07
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.25,
+                        "http://dbpedia.org/ontology/hometown": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.25,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.25,
+                        "http://dbpedia.org/property/associatedActs": 0.25
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Brief summary",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.57,
+                        "http://dbpedia.org/ontology/hometown": 0.57
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.75,
+                        "http://dbpedia.org/ontology/hometown": 0.88
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.33,
+                        "http://dbpedia.org/ontology/hometown": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.08,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.08,
+                        "http://dbpedia.org/property/associatedActs": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.08,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.08
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.38,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/hometown": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.1,
+                        "http://dbpedia.org/property/pastMembers": 0.1,
+                        "http://dbpedia.org/ontology/bandMember": 0.05,
+                        "http://dbpedia.org/property/currentMembers": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.14,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.14,
+                        "http://dbpedia.org/property/associatedActs": 0.1,
+                        "http://dbpedia.org/property/title": 0.05
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05
+                    },
+                    "subject": "Brief summary",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.29,
+                        "http://dbpedia.org/ontology/hometown": 0.57
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.2,
+                        "http://dbpedia.org/ontology/hometown": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.56,
+                        "http://dbpedia.org/ontology/hometown": 0.56
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.33,
+                        "http://dbpedia.org/ontology/hometown": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.46,
+                        "http://dbpedia.org/ontology/hometown": 0.46
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.08,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.08,
+                        "http://dbpedia.org/property/associatedActs": 0.08
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.39,
+                        "http://dbpedia.org/ontology/hometown": 0.39
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.03,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.03,
+                        "http://dbpedia.org/property/associatedActs": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Brief summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.03,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.03,
+                        "http://dbpedia.org/property/associatedActs": 0.03,
+                        "http://dbpedia.org/ontology/musicalBand": 0.03,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.03,
+                        "http://dbpedia.org/property/artist": 0.03
+                    },
+                    "subject": "Brief summary",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.41,
+                        "http://dbpedia.org/ontology/hometown": 0.41
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.33,
+                        "http://dbpedia.org/ontology/hometown": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.4,
+                        "http://dbpedia.org/ontology/hometown": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.17,
+                        "http://dbpedia.org/ontology/hometown": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Original movement: 1967\u20131981'",
+            "colums": [
+                "Name",
+                "Origin",
+                "Years active",
+                "Brief summary"
+            ]
+        }
+    ]
+}

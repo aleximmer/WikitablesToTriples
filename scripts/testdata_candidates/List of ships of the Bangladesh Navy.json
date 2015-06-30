@@ -1,0 +1,414 @@
+{
+    "no. of tables": 14,
+    "page": "List of ships of the Bangladesh Navy",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Submarine Fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Class",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipClass": 0.2,
+                        "http://dbpedia.org/ontology/type": 0.6
+                    },
+                    "subject": "Ships",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipClass": 0.2
+                    },
+                    "subject": "Ships",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.2
+                    },
+                    "subject": "Ships",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Note",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipType": 0.5,
+                        "http://dbpedia.org/ontology/type": 0.5
+                    },
+                    "subject": "Class",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipDisplacement": 0.5
+                    },
+                    "subject": "Class",
+                    "object": "Displacement (Tons)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/class": 0.5,
+                        "http://dbpedia.org/property/shipClass": 0.5,
+                        "http://dbpedia.org/ontology/type": 0.5
+                    },
+                    "subject": "Ships",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipDisplacement": 0.67
+                    },
+                    "subject": "Class",
+                    "object": "Displacement (Tons)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/type": 0.67,
+                        "http://dbpedia.org/property/shipClass": 0.67
+                    },
+                    "subject": "Ships",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipDisplacement": 0.67
+                    },
+                    "subject": "Ships",
+                    "object": "Displacement (Tons)"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipType": 0.5,
+                        "http://dbpedia.org/ontology/type": 0.5
+                    },
+                    "subject": "Class",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Class",
+                    "object": "Ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Ships",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipType": 0.5,
+                        "http://dbpedia.org/ontology/type": 0.5
+                    },
+                    "subject": "Ships",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Class",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Class",
+                    "object": "Ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipDisplacement": 1.0
+                    },
+                    "subject": "Class",
+                    "object": "Displacement (Tons)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Type",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Type",
+                    "object": "Ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipDisplacement": 1.0
+                    },
+                    "subject": "Type",
+                    "object": "Displacement (Tons)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Ships",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Ships",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipDisplacement": 1.0
+                    },
+                    "subject": "Ships",
+                    "object": "Displacement (Tons)"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Class",
+                    "object": "Ships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Ships",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "Class",
+                    "object": "Type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "Type",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipCountry": 0.08,
+                        "http://dbpedia.org/ontology/country": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Surface fleet'",
+            "colums": [
+                "Name",
+                "Pennant Number",
+                "Class",
+                "Type",
+                "Origin",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipReclassified": 0.5
+                    },
+                    "subject": "Ships",
+                    "object": "Type"
+                }
+            ],
+            "table": "Unnamed table in section 'Decommissioned Ships'",
+            "colums": [
+                "Class",
+                "Picture",
+                "Type",
+                "Ships",
+                "Displacement (Tons)",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/eng1Number": 0.33,
+                        "http://dbpedia.org/property/numberOfProps": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Quantity"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.33,
+                        "http://dbpedia.org/property/areaRank": 0.33
+                    },
+                    "subject": "Origin",
+                    "object": "Quantity"
+                }
+            ],
+            "table": "Unnamed table in section 'Bangladesh Naval Aviation'",
+            "colums": [
+                "Aircraft",
+                "Picture",
+                "Origin",
+                "Role",
+                "Series",
+                "Quantity",
+                "Note"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+    "no. of tables": 2,
+    "page": "List of men's major championships winning golfers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prowins": 0.01,
+                        "http://dbpedia.org/property/otherwins": 0.0,
+                        "http://dbpedia.org/property/japwins": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.73,
+                        "http://dbpedia.org/property/residence": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.19,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.0,
+                        "http://dbpedia.org/property/birthPlace": 0.14
+                    },
+                    "subject": "Rank",
+                    "object": "Golfer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.11,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "Winning span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/open": 0.0,
+                        "http://dbpedia.org/property/majorwins": 0.09,
+                        "http://dbpedia.org/property/children": 0.0,
+                        "http://dbpedia.org/property/otherwins": 0.04,
+                        "http://dbpedia.org/property/asiawins": 0.01,
+                        "http://dbpedia.org/property/champwins": 0.01,
+                        "http://dbpedia.org/property/nwidewins": 0.0,
+                        "http://dbpedia.org/property/eurowins": 0.0,
+                        "http://dbpedia.org/property/pgawins": 0.01,
+                        "http://dbpedia.org/property/prowins": 0.0,
+                        "http://dbpedia.org/property/chalwins": 0.0,
+                        "http://dbpedia.org/property/pga": 0.01,
+                        "http://dbpedia.org/property/sunwins": 0.0,
+                        "http://dbpedia.org/property/japwins": 0.02
+                    },
+                    "subject": "Rank",
+                    "object": "Masters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/open": 0.0,
+                        "http://dbpedia.org/property/otherwins": 0.01,
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/property/masters": 0.01,
+                        "http://dbpedia.org/property/majorwins": 0.19,
+                        "http://dbpedia.org/property/asiawins": 0.01,
+                        "http://dbpedia.org/property/auswins": 0.01,
+                        "http://dbpedia.org/property/nwidewins": 0.01,
+                        "http://dbpedia.org/property/eurowins": 0.02,
+                        "http://dbpedia.org/property/prowins": 0.03,
+                        "http://dbpedia.org/property/pgawins": 0.02,
+                        "http://dbpedia.org/property/pga": 0.01,
+                        "http://dbpedia.org/property/sunwins": 0.01,
+                        "http://dbpedia.org/property/japwins": 0.02,
+                        "http://dbpedia.org/property/champwins": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "U.S. Open"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/majorwins": 0.21,
+                        "http://dbpedia.org/property/seneurowins": 0.0,
+                        "http://dbpedia.org/property/masters": 0.01,
+                        "http://dbpedia.org/property/otherwins": 0.01,
+                        "http://dbpedia.org/property/asiawins": 0.02,
+                        "http://dbpedia.org/property/auswins": 0.01,
+                        "http://dbpedia.org/property/nwidewins": 0.0,
+                        "http://dbpedia.org/property/eurowins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.0,
+                        "http://dbpedia.org/property/prowins": 0.01,
+                        "http://dbpedia.org/property/chalwins": 0.01,
+                        "http://dbpedia.org/property/pga": 0.0,
+                        "http://dbpedia.org/property/lpgawins": 0.0,
+                        "http://dbpedia.org/property/sunwins": 0.0,
+                        "http://dbpedia.org/property/usopen": 0.01,
+                        "http://dbpedia.org/property/japwins": 0.03
+                    },
+                    "subject": "Rank",
+                    "object": "The Open"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/majorwins": 0.17,
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/property/otherwins": 0.0,
+                        "http://dbpedia.org/property/asiawins": 0.01,
+                        "http://dbpedia.org/property/auswins": 0.0,
+                        "http://dbpedia.org/property/nwidewins": 0.01,
+                        "http://dbpedia.org/property/eurowins": 0.02,
+                        "http://dbpedia.org/property/pgawins": 0.0,
+                        "http://dbpedia.org/property/chalwins": 0.0,
+                        "http://dbpedia.org/property/sunwins": 0.0,
+                        "http://dbpedia.org/property/usopen": 0.0,
+                        "http://dbpedia.org/property/japwins": 0.03,
+                        "http://dbpedia.org/property/champwins": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "PGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/open": 0.01,
+                        "http://dbpedia.org/property/majorwins": 0.73,
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/property/masters": 0.01,
+                        "http://dbpedia.org/property/otherwins": 0.06,
+                        "http://dbpedia.org/property/in": 0.0,
+                        "http://dbpedia.org/property/seneurowins": 0.0,
+                        "http://dbpedia.org/property/champwins": 0.04,
+                        "http://dbpedia.org/property/nwidewins": 0.02,
+                        "http://dbpedia.org/property/eurowins": 0.02,
+                        "http://dbpedia.org/property/chalwins": 0.01,
+                        "http://dbpedia.org/property/prowins": 0.05,
+                        "http://dbpedia.org/property/asiawins": 0.03,
+                        "http://dbpedia.org/property/pgawins": 0.05,
+                        "http://dbpedia.org/property/pga": 0.03,
+                        "http://dbpedia.org/property/sunwins": 0.01,
+                        "http://dbpedia.org/property/usopen": 0.01,
+                        "http://dbpedia.org/property/japwins": 0.05,
+                        "http://dbpedia.org/property/auswins": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.0,
+                        "http://dbpedia.org/property/gdpPppRank": 0.0,
+                        "http://dbpedia.org/property/efRank": 0.0,
+                        "http://dbpedia.org/property/octHighC": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/julLowC": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.0,
+                        "http://dbpedia.org/property/aprHighC": 0.0,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/property/yearHighC": 0.0
+                    },
+                    "subject": "Golfer",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.01,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.0,
+                        "http://dbpedia.org/property/populationCensusYear": 0.01,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.0,
+                        "http://dbpedia.org/property/giniYear": 0.01,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.0,
+                        "http://dbpedia.org/property/efYear": 0.0,
+                        "http://dbpedia.org/property/gdpPppYear": 0.0
+                    },
+                    "subject": "Golfer",
+                    "object": "Winning span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/percentWater": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/value": 0.0,
+                        "http://dbpedia.org/property/efRank": 0.0,
+                        "http://dbpedia.org/property/utcOffset": 0.14,
+                        "http://dbpedia.org/property/marLowC": 0.0,
+                        "http://dbpedia.org/property/longm": 0.11,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Golfer",
+                    "object": "Masters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowC": 0.03,
+                        "http://dbpedia.org/property/value": 0.0,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/utcOffset": 0.1,
+                        "http://dbpedia.org/property/febLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.18,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Golfer",
+                    "object": "U.S. Open"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/decLowC": 0.0,
+                        "http://dbpedia.org/property/marLowC": 0.01,
+                        "http://dbpedia.org/property/longm": 0.09,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.0,
+                        "http://dbpedia.org/property/janLowC": 0.04,
+                        "http://dbpedia.org/property/percentWater": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/utcOffset": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.0,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Golfer",
+                    "object": "The Open"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/percentWater": 0.01,
+                        "http://dbpedia.org/property/value": 0.0,
+                        "http://dbpedia.org/property/utcOffset": 0.15,
+                        "http://dbpedia.org/property/decLowC": 0.0,
+                        "http://dbpedia.org/property/longm": 0.19,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Golfer",
+                    "object": "PGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/ef": 0.0,
+                        "http://dbpedia.org/property/efRank": 0.0,
+                        "http://dbpedia.org/property/value": 0.01,
+                        "http://dbpedia.org/property/marLowC": 0.0,
+                        "http://dbpedia.org/property/longm": 0.38,
+                        "http://dbpedia.org/property/aprLowC": 0.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/janLowC": 0.06,
+                        "http://dbpedia.org/property/febLowC": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.0,
+                        "http://dbpedia.org/property/novLowC": 0.0,
+                        "http://dbpedia.org/property/yearLowC": 0.0,
+                        "http://dbpedia.org/property/decLowC": 0.01,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/areaRank": 0.05,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Golfer",
+                    "object": "Total"
+                }
+            ],
+            "table": "Men's major championship winning golfers",
+            "colums": [
+                "Rank",
+                "Country",
+                "Golfer",
+                "Winning span",
+                "Masters",
+                "U.S. Open",
+                "The Open",
+                "PGA",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.06,
+                        "http://dbpedia.org/property/marLowC": 0.06,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.06,
+                        "http://dbpedia.org/property/percentWater": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Masters"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.06,
+                        "http://dbpedia.org/property/mayLowC": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/property/janHighC": 0.06,
+                        "http://dbpedia.org/property/decHighC": 0.06,
+                        "http://dbpedia.org/property/value": 0.06,
+                        "http://dbpedia.org/property/febHighC": 0.06,
+                        "http://dbpedia.org/property/hdiRank": 0.11,
+                        "http://dbpedia.org/property/longm": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "U.S. Open"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.11,
+                        "http://dbpedia.org/property/percentWater": 0.11,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "The Open"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.06,
+                        "http://dbpedia.org/property/utcOffset": 0.06,
+                        "http://dbpedia.org/property/decLowC": 0.06,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.06,
+                        "http://dbpedia.org/property/percentWater": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "PGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/ethnicGroups": 0.06,
+                        "http://dbpedia.org/property/value": 0.06,
+                        "http://dbpedia.org/property/longm": 0.06,
+                        "http://dbpedia.org/property/latd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Total"
+                }
+            ],
+            "table": "Men's major championship winning golfers by country",
+            "colums": [
+                "Country",
+                "Masters",
+                "U.S. Open",
+                "The Open",
+                "PGA",
+                "Total"
+            ]
+        }
+    ]
+}

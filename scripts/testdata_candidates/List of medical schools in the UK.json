@@ -1,0 +1,195 @@
+{
+    "no. of tables": 5,
+    "page": "List of medical schools in the United Kingdom",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.62,
+                        "http://dbpedia.org/ontology/campus": 0.04,
+                        "http://dbpedia.org/ontology/affiliation": 0.62
+                    },
+                    "subject": "Name",
+                    "object": "University"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.54
+                    },
+                    "subject": "Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.04,
+                        "http://dbpedia.org/ontology/affiliation": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "University",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.08
+                    },
+                    "subject": "University",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.08,
+                        "http://dbpedia.org/ontology/affiliation": 0.12
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.08,
+                        "http://dbpedia.org/property/affiliation": 0.04,
+                        "http://dbpedia.org/ontology/affiliation": 0.12
+                    },
+                    "subject": "Comments",
+                    "object": "University"
+                }
+            ],
+            "table": "Unnamed table in section 'England'",
+            "colums": [
+                "Name",
+                "University",
+                "Established",
+                "Comments",
+                "Degree awarded",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.8,
+                        "http://dbpedia.org/ontology/campus": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/ontology/affiliation": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "University"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.4
+                    },
+                    "subject": "University",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Scotland'",
+            "colums": [
+                "Name",
+                "University",
+                "Established",
+                "Comments",
+                "Degree awarded",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.5,
+                        "http://dbpedia.org/ontology/affiliation": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "University"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.5,
+                        "http://dbpedia.org/ontology/affiliation": 0.5
+                    },
+                    "subject": "Comments",
+                    "object": "University"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.5
+                    },
+                    "subject": "Comments",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Wales'",
+            "colums": [
+                "Name",
+                "University",
+                "Established",
+                "Comments",
+                "Degree awarded",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Northern Ireland'",
+            "colums": [
+                "Name",
+                "University",
+                "Established",
+                "Comment",
+                "Degree awarded",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.5,
+                        "http://dbpedia.org/ontology/city": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Territory"
+                }
+            ],
+            "table": "Unnamed table in section 'Overseas Territories'",
+            "colums": [
+                "Name",
+                "Territory",
+                "Established",
+                "Comment",
+                "Degree awarded",
+                "Ref."
+            ]
+        }
+    ]
+}

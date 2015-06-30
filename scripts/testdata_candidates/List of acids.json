@@ -1,0 +1,17 @@
+{
+    "no. of tables": 1,
+    "page": "Acid",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Nomenclature'",
+            "colums": [
+                "Anion prefix",
+                "Anion suffix",
+                "Acid prefix",
+                "Acid suffix",
+                "Example"
+            ]
+        }
+    ]
+}

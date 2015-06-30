@@ -1,0 +1,671 @@
+{
+    "no. of tables": 25,
+    "page": "List of American Civil War generals (Union)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Brevet\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.04,
+                        "http://dbpedia.org/property/placeOfDeath": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/battle": 0.04,
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/property/title": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.03,
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/ontology/occupation": 0.03,
+                        "http://dbpedia.org/property/commands": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/battle": 0.08,
+                        "http://dbpedia.org/property/state": 0.06,
+                        "http://dbpedia.org/ontology/region": 0.06,
+                        "http://dbpedia.org/property/title": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/ontology/battle": 0.07,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.01,
+                        "http://dbpedia.org/property/battles": 0.03,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/ontology/occupation": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/state": 0.07,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ilist": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Image"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relation": 0.01,
+                        "http://dbpedia.org/property/relations": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/property/commands": 0.03,
+                        "http://dbpedia.org/ontology/region": 0.05,
+                        "http://dbpedia.org/property/state": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08,
+                        "http://dbpedia.org/property/title": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ilist": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Image"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relations": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/region": 0.06,
+                        "http://dbpedia.org/property/state": 0.11,
+                        "http://dbpedia.org/ontology/relation": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06,
+                        "http://dbpedia.org/property/title": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/property/commands": 0.09,
+                        "http://dbpedia.org/ontology/battle": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/ontology/restingPlace": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/ontology/region": 0.06,
+                        "http://dbpedia.org/property/state": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/property/office": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/ontology/battle": 0.13,
+                        "http://dbpedia.org/property/relations": 0.01,
+                        "http://dbpedia.org/property/commands": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/property/battles": 0.04,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/property/state": 0.03,
+                        "http://dbpedia.org/ontology/relation": 0.03,
+                        "http://dbpedia.org/property/office": 0.03,
+                        "http://dbpedia.org/property/title": 0.1,
+                        "http://dbpedia.org/property/restingplace": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 0.15,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/battle": 0.08,
+                        "http://dbpedia.org/property/state": 0.15,
+                        "http://dbpedia.org/ontology/region": 0.15,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/battles": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/ontology/relation": 0.05,
+                        "http://dbpedia.org/ontology/region": 0.09,
+                        "http://dbpedia.org/property/deathPlace": 0.05,
+                        "http://dbpedia.org/ontology/battle": 0.09,
+                        "http://dbpedia.org/property/title": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.05,
+                        "http://dbpedia.org/property/commander": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.11,
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/ontology/battle": 0.07,
+                        "http://dbpedia.org/property/relations": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/property/order": 0.01,
+                        "http://dbpedia.org/property/commands": 0.03,
+                        "http://dbpedia.org/ontology/region": 0.01,
+                        "http://dbpedia.org/property/battles": 0.07,
+                        "http://dbpedia.org/ontology/occupation": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/property/state": 0.04,
+                        "http://dbpedia.org/ontology/relation": 0.01,
+                        "http://dbpedia.org/property/laterwork": 0.01,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/property/office": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableCommander": 0.01,
+                        "http://dbpedia.org/ontology/commander": 0.01,
+                        "http://dbpedia.org/property/commander": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/restingPlace": 0.1,
+                        "http://dbpedia.org/property/title": 0.2,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1,
+                        "http://dbpedia.org/property/state": 0.1,
+                        "http://dbpedia.org/property/birthPlace": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.04,
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/property/commands": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02,
+                        "http://dbpedia.org/ontology/battle": 0.04,
+                        "http://dbpedia.org/property/state": 0.02,
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/property/title": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.06,
+                        "http://dbpedia.org/property/battles": 0.09,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/property/title": 0.03,
+                        "http://dbpedia.org/ontology/battle": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/militaryRank": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/ontology/award": 0.01,
+                        "http://dbpedia.org/property/battles": 0.05,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/property/shortDescription": 0.01,
+                        "http://dbpedia.org/ontology/battle": 0.1,
+                        "http://dbpedia.org/property/state": 0.02,
+                        "http://dbpedia.org/ontology/region": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/property/title": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.01,
+                        "http://dbpedia.org/property/commander": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.03,
+                        "http://dbpedia.org/ontology/award": 0.03,
+                        "http://dbpedia.org/property/commands": 0.03,
+                        "http://dbpedia.org/ontology/battle": 0.06,
+                        "http://dbpedia.org/property/state": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/property/awards": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.03,
+                        "http://dbpedia.org/property/title": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ilist": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Image"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.03,
+                        "http://dbpedia.org/property/commander": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.07,
+                        "http://dbpedia.org/property/deathPlace": 0.07,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/property/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/battle": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02,
+                        "http://dbpedia.org/ontology/region": 0.03,
+                        "http://dbpedia.org/property/battles": 0.05,
+                        "http://dbpedia.org/ontology/restingPlace": 0.02,
+                        "http://dbpedia.org/property/title": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/state": 0.07,
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/property/birthPlace": 0.02,
+                        "http://dbpedia.org/property/office": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Union generals'",
+            "colums": [
+                "Image",
+                "Name",
+                "Substantive\nRank",
+                "Brevet\nRank",
+                "Notes"
+            ]
+        }
+    ]
+}

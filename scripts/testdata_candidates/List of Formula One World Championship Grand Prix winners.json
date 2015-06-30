@@ -1,0 +1,289 @@
+{
+    "no. of tables": 3,
+    "page": "List of Formula One Grand Prix winners",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/races": 0.01,
+                        "http://dbpedia.org/property/championships": 0.02,
+                        "http://dbpedia.org/property/poles": 0.01,
+                        "http://dbpedia.org/property/wins": 0.01,
+                        "http://dbpedia.org/ontology/wins": 0.01,
+                        "http://dbpedia.org/ontology/championships": 0.02,
+                        "http://dbpedia.org/ontology/poles": 0.01,
+                        "http://dbpedia.org/ontology/races": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.71,
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/property/nationality": 0.02,
+                        "http://dbpedia.org/property/birthDate": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.31,
+                        "http://dbpedia.org/property/placeOfBirth": 0.13,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.23
+                    },
+                    "subject": "Rank",
+                    "object": "Driver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gpPodiums": 0.01,
+                        "http://dbpedia.org/ontology/fastestLap": 0.14,
+                        "http://dbpedia.org/property/totalIrlRaces": 0.01,
+                        "http://dbpedia.org/property/2014CarNumber": 0.01,
+                        "http://dbpedia.org/property/wins": 0.88,
+                        "http://dbpedia.org/property/podiums": 0.11,
+                        "http://dbpedia.org/property/polePositions": 0.01,
+                        "http://dbpedia.org/property/starts": 0.01,
+                        "http://dbpedia.org/ontology/poles": 0.1,
+                        "http://dbpedia.org/property/poles": 0.1,
+                        "http://dbpedia.org/ontology/podiums": 0.1,
+                        "http://dbpedia.org/ontology/wins": 0.84,
+                        "http://dbpedia.org/property/carNumber": 0.01,
+                        "http://dbpedia.org/property/classWins": 0.01,
+                        "http://dbpedia.org/property/yearsInIrl": 0.01,
+                        "http://dbpedia.org/property/fastestLaps": 0.14,
+                        "http://dbpedia.org/property/years": 0.01,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Rank",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/lastWin": 0.26,
+                        "http://dbpedia.org/ontology/lastRace": 0.03,
+                        "http://dbpedia.org/ontology/firstWin": 0.9,
+                        "http://dbpedia.org/ontology/firstRace": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01
+                    },
+                    "subject": "Rank",
+                    "object": "First win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/lastWin": 0.88,
+                        "http://dbpedia.org/ontology/lastRace": 0.04,
+                        "http://dbpedia.org/ontology/firstWin": 0.26,
+                        "http://dbpedia.org/ontology/firstRace": 0.02
+                    },
+                    "subject": "Rank",
+                    "object": "Last win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/callingCode": 0.01,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/gini": 0.01,
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/ethnicGroups": 0.01,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Driver",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.03,
+                        "http://dbpedia.org/property/giniChange": 0.01,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.01,
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/populationCensusRank": 0.01,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.02,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Driver",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.01
+                    },
+                    "subject": "Seasons active",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstDriver": 0.89,
+                        "http://dbpedia.org/property/poleDriver": 0.19,
+                        "http://dbpedia.org/property/winner": 0.1,
+                        "http://dbpedia.org/property/firstDriver": 0.8,
+                        "http://dbpedia.org/property/leader": 0.08,
+                        "http://dbpedia.org/ontology/poleDriver": 0.21,
+                        "http://dbpedia.org/ontology/fastestDriver": 0.28,
+                        "http://dbpedia.org/property/pole": 0.02,
+                        "http://dbpedia.org/property/nameOfRace": 0.1,
+                        "http://dbpedia.org/property/nextYear'sRace": 0.01,
+                        "http://dbpedia.org/property/fastDriver": 0.24
+                    },
+                    "subject": "First win",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/distanceLaps": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/raceNo": 0.01,
+                        "http://dbpedia.org/property/distanceLaps": 0.01,
+                        "http://dbpedia.org/property/seasonNo": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/poleTime": 0.01,
+                        "http://dbpedia.org/property/fastTime": 0.01
+                    },
+                    "subject": "First win",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/secondDriverCountry": 0.01,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/firstDriverCountry": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.02,
+                        "http://dbpedia.org/ontology/fastestDriverCountry": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.03
+                    },
+                    "subject": "First win",
+                    "object": "Driver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/poleTime": 0.18,
+                        "http://dbpedia.org/property/raceNo": 0.11,
+                        "http://dbpedia.org/property/fastTime": 0.17
+                    },
+                    "subject": "First win",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sanction": 0.01
+                    },
+                    "subject": "First win",
+                    "object": "Seasons active"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstDriver": 0.87,
+                        "http://dbpedia.org/property/poleDriver": 0.17,
+                        "http://dbpedia.org/property/pole": 0.01,
+                        "http://dbpedia.org/property/winner": 0.1,
+                        "http://dbpedia.org/property/firstDriver": 0.76,
+                        "http://dbpedia.org/property/leader": 0.08,
+                        "http://dbpedia.org/ontology/poleDriver": 0.2,
+                        "http://dbpedia.org/ontology/fastestDriver": 0.21,
+                        "http://dbpedia.org/property/previousYear'sRace": 0.01,
+                        "http://dbpedia.org/property/nameOfRace": 0.1,
+                        "http://dbpedia.org/property/fastDriver": 0.2
+                    },
+                    "subject": "Last win",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/poleTime": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/raceNo": 0.01,
+                        "http://dbpedia.org/property/fastTime": 0.01
+                    },
+                    "subject": "Last win",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/secondDriverCountry": 0.01,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/firstDriverCountry": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.05,
+                        "http://dbpedia.org/ontology/fastestDriverCountry": 0.02,
+                        "http://dbpedia.org/ontology/poleDriverCountry": 0.01
+                    },
+                    "subject": "Last win",
+                    "object": "Driver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seasonNo": 0.01,
+                        "http://dbpedia.org/property/poleTime": 0.18,
+                        "http://dbpedia.org/property/raceNo": 0.09,
+                        "http://dbpedia.org/property/fastTime": 0.17
+                    },
+                    "subject": "Last win",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sanction": 0.01
+                    },
+                    "subject": "Last win",
+                    "object": "Seasons active"
+                }
+            ],
+            "table": "Formula One Grand Prix Winners",
+            "colums": [
+                "Rank",
+                "Country",
+                "Driver",
+                "Wins",
+                "Seasons active",
+                "First win",
+                "Last win"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/areaRank": 0.05,
+                        "http://dbpedia.org/property/latd": 0.05
+                    },
+                    "subject": "Rank",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/giniChange": 0.05,
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Rank",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.05
+                    },
+                    "subject": "Rank",
+                    "object": "Driver(s)"
+                }
+            ],
+            "table": "List of races won by nationality of driver",
+            "colums": [
+                "Rank",
+                "Country",
+                "Wins",
+                "Driver(s)"
+            ]
+        }
+    ]
+}

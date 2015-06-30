@@ -1,0 +1,184 @@
+{
+    "no. of tables": 3,
+    "page": "List of closed railway stations in Melbourne",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearclosed": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.09,
+                        "http://dbpedia.org/ontology/railwayPlatforms": 0.09,
+                        "http://dbpedia.org/property/stations": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Stations"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/line": 0.09
+                    },
+                    "subject": "Closed",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerconnections": 0.09
+                    },
+                    "subject": "Current status",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/servingRailwayLine": 0.09,
+                        "http://dbpedia.org/property/line": 0.09
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Lines'",
+            "colums": [
+                "Name",
+                "Opened",
+                "Closed",
+                "Stations",
+                "Current status",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stations": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Stations"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fate": 0.2,
+                        "http://dbpedia.org/property/connections": 0.2,
+                        "http://dbpedia.org/property/formerconnections": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Converted to"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/connections": 0.2
+                    },
+                    "subject": "Converted to",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Lines'",
+            "colums": [
+                "Name",
+                "Original type",
+                "Opened",
+                "Reopened",
+                "Stations",
+                "Converted to"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/connections": 0.01,
+                        "http://dbpedia.org/property/line": 0.44,
+                        "http://dbpedia.org/property/next": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.07,
+                        "http://dbpedia.org/property/here": 0.03,
+                        "http://dbpedia.org/ontology/servingRailwayLine": 0.44,
+                        "http://dbpedia.org/property/name": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Line"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.11,
+                        "http://dbpedia.org/property/yearclosed": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/status": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Current status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearclosed": 0.06
+                    },
+                    "subject": "Line",
+                    "object": "Closed"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/ontology/servingRailwayLine": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.04,
+                        "http://dbpedia.org/property/line": 0.07,
+                        "http://dbpedia.org/property/name": 0.04
+                    },
+                    "subject": "Location",
+                    "object": "Line"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/here": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Current status",
+                    "object": "Line"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/address": 0.01
+                    },
+                    "subject": "Current status",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Stations'",
+            "colums": [
+                "Name",
+                "Line",
+                "Location",
+                "Type",
+                "Opened",
+                "Closed",
+                "Current status"
+            ]
+        }
+    ]
+}

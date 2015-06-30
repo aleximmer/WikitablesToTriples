@@ -1,0 +1,29 @@
+{
+    "no. of tables": 2,
+    "page": "List of 2013 box office number-one films in the Philippines",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of 2013 box office number-one films in the Philippines'",
+            "colums": [
+                "#",
+                "Date",
+                "Film",
+                "Gross (Dollars)",
+                "Gross (Peso)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Total Gross'",
+            "colums": [
+                "#",
+                "Release Date",
+                "Film",
+                "Total Gross",
+                "Notes"
+            ]
+        }
+    ]
+}

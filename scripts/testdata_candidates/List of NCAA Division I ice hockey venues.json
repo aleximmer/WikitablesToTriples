@@ -1,0 +1,159 @@
+{
+    "no. of tables": 1,
+    "page": "List of NCAA Division I ice hockey venues",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.24,
+                        "http://dbpedia.org/property/owner": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.51
+                    },
+                    "subject": "Arena",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Arena",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/ontology/tenant": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.04,
+                        "http://dbpedia.org/property/operator": 0.03,
+                        "http://dbpedia.org/property/tenants": 0.06,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/operator": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.04
+                    },
+                    "subject": "Arena",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.01
+                    },
+                    "subject": "Arena",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seatingCapacity": 0.01
+                    },
+                    "subject": "Arena",
+                    "object": "Capacity"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/brokeGround": 0.03,
+                        "http://dbpedia.org/property/opened": 0.24,
+                        "http://dbpedia.org/property/renovated": 0.01,
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Arena",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.93,
+                        "http://dbpedia.org/property/establishedTitle": 0.01,
+                        "http://dbpedia.org/ontology/type": 0.01,
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/ontology/state": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.79,
+                        "http://dbpedia.org/property/settlementType": 0.01
+                    },
+                    "subject": "City",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.03,
+                        "http://dbpedia.org/property/popEstAsOf": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.18,
+                        "http://dbpedia.org/property/capital": 0.18,
+                        "http://dbpedia.org/property/label": 0.04,
+                        "http://dbpedia.org/ontology/largestCity": 0.1,
+                        "http://dbpedia.org/property/largestcity": 0.1
+                    },
+                    "subject": "State",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.15,
+                        "http://dbpedia.org/property/icehockeyarena": 0.06,
+                        "http://dbpedia.org/ontology/stadium": 0.03,
+                        "http://dbpedia.org/property/hockeyArena": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Arena"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.07,
+                        "http://dbpedia.org/property/city": 0.07
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.1,
+                        "http://dbpedia.org/ontology/state": 0.1
+                    },
+                    "subject": "Team",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/athletics": 0.03,
+                        "http://dbpedia.org/property/conference": 0.1,
+                        "http://dbpedia.org/ontology/athletics": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.01
+                    },
+                    "subject": "Conference",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.01
+                    },
+                    "subject": "Conference",
+                    "object": "Built"
+                }
+            ],
+            "table": "Unnamed table in section 'List of NCAA Division I ice hockey venues'",
+            "colums": [
+                "Arena",
+                "City",
+                "State",
+                "Team",
+                "Conference",
+                "RinkA",
+                "Capacity",
+                "RecordB",
+                "Built",
+                "Ref"
+            ]
+        }
+    ]
+}

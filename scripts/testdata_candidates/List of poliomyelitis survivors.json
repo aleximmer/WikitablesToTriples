@@ -1,0 +1,315 @@
+{
+    "no. of tables": 14,
+    "page": "List of poliomyelitis survivors",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/partner": 0.07,
+                        "http://dbpedia.org/property/partner": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.07,
+                        "http://dbpedia.org/ontology/portrayer": 0.07,
+                        "http://dbpedia.org/property/portrayer": 0.2,
+                        "http://dbpedia.org/property/starring": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.09,
+                        "http://dbpedia.org/ontology/occupation": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.09,
+                        "http://dbpedia.org/ontology/foundedBy": 0.09
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.06
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.04,
+                        "http://dbpedia.org/property/notableworks": 0.04,
+                        "http://dbpedia.org/property/occupation": 0.07,
+                        "http://dbpedia.org/ontology/occupation": 0.07,
+                        "http://dbpedia.org/property/shortDescription": 0.04,
+                        "http://dbpedia.org/ontology/employer": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.11,
+                        "http://dbpedia.org/property/author": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.12,
+                        "http://dbpedia.org/property/occupation": 0.04,
+                        "http://dbpedia.org/ontology/occupation": 0.04,
+                        "http://dbpedia.org/ontology/genre": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/property/party": 0.21,
+                        "http://dbpedia.org/ontology/party": 0.21,
+                        "http://dbpedia.org/ontology/residence": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/property/office": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/field": 0.14,
+                        "http://dbpedia.org/ontology/occupation": 0.14,
+                        "http://dbpedia.org/ontology/field": 0.14,
+                        "http://dbpedia.org/ontology/knownFor": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/strokes": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.07,
+                        "http://dbpedia.org/property/field": 0.07,
+                        "http://dbpedia.org/ontology/occupation": 0.07,
+                        "http://dbpedia.org/ontology/field": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.07,
+                        "http://dbpedia.org/ontology/occupation": 0.07,
+                        "http://dbpedia.org/property/rank": 0.07,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                }
+            ],
+            "table": "Unnamed table in section 'Uncontested diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 0.14,
+                        "http://dbpedia.org/ontology/parent": 0.14,
+                        "http://dbpedia.org/ontology/occupation": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.14
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Retrospective diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deputy": 0.25
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Doubtful diagnosis'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.25,
+                        "http://dbpedia.org/ontology/portrayer": 0.25
+                    },
+                    "subject": "Comments",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Mistakenly believed to have survived polio'",
+            "colums": [
+                "Name",
+                "Life",
+                "Comments"
+            ]
+        }
+    ]
+}

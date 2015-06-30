@@ -1,0 +1,243 @@
+{
+    "no. of tables": 8,
+    "page": "List of Sigma Phi Epsilon brothers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/almaMater": 1.0,
+                        "http://dbpedia.org/property/almaMater": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Original chapter"
+                }
+            ],
+            "table": "Unnamed table in section 'Academia'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/almaMater": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Original chapter"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.04,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.04,
+                        "http://dbpedia.org/property/occupation": 0.12,
+                        "http://purl.org/dc/elements/1.1/description": 0.08,
+                        "http://dbpedia.org/property/shortDescription": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.04,
+                        "http://dbpedia.org/property/writer": 0.04,
+                        "http://dbpedia.org/ontology/bandMember": 0.04,
+                        "http://dbpedia.org/ontology/writer": 0.04,
+                        "http://dbpedia.org/property/starring": 0.04,
+                        "http://dbpedia.org/property/currentMembers": 0.04
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Arts, entertainment, and media'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/education": 0.06,
+                        "http://dbpedia.org/ontology/education": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Original chapter"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.06,
+                        "http://dbpedia.org/ontology/foundedBy": 0.06,
+                        "http://dbpedia.org/property/keyPeople": 0.06,
+                        "http://dbpedia.org/ontology/keyPerson": 0.12
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Business'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/almaMater": 0.27,
+                        "http://dbpedia.org/property/almaMater": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Original chapter"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.2,
+                        "http://dbpedia.org/ontology/birthPlace": 0.13,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07,
+                        "http://dbpedia.org/property/state": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07,
+                        "http://dbpedia.org/property/birthPlace": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.13,
+                        "http://dbpedia.org/ontology/state": 0.13
+                    },
+                    "subject": "Original chapter",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Government and politics'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.17,
+                        "http://dbpedia.org/ontology/type": 0.17,
+                        "http://dbpedia.org/property/commands": 0.17,
+                        "http://dbpedia.org/property/rank": 0.17,
+                        "http://dbpedia.org/property/title": 0.17,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Military'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Religion and theology'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Science and medicine'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/college": 0.03,
+                        "http://dbpedia.org/ontology/almaMater": 0.03,
+                        "http://dbpedia.org/property/almaMater": 0.03,
+                        "http://dbpedia.org/property/college": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Original chapter"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachTeams": 0.03,
+                        "http://dbpedia.org/ontology/debutTeam": 0.03,
+                        "http://dbpedia.org/ontology/draftTeam": 0.03,
+                        "http://dbpedia.org/property/title": 0.03,
+                        "http://dbpedia.org/property/college": 0.03,
+                        "http://dbpedia.org/property/team": 0.03,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.03,
+                        "http://dbpedia.org/ontology/formerTeam": 0.1,
+                        "http://dbpedia.org/property/draftTeam": 0.03,
+                        "http://dbpedia.org/ontology/team": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Original chapter",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Notability",
+                    "object": "Original chapter"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Original chapter",
+                "Notability",
+                "Reference"
+            ]
+        }
+    ]
+}

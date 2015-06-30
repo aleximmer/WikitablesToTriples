@@ -51,9 +51,9 @@ class Table:
     def row(self, i):
         return self.rows[i]
 
-    def column(self, key):
+    def column(self, key, content=False):
         i = key if type(key) is int else self.columnNames.index(key)
-        return [row[i] for row in self.rows]
+        return [sparql.cellContent(row[i]) if content else row[i] for row in self.rows]
 
     def skip(self):
         # Something's wrong with rows (TODO: find 'something')

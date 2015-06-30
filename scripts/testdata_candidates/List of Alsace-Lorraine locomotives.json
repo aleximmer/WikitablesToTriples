@@ -1,0 +1,195 @@
+{
+    "no. of tables": 4,
+    "page": "List of Alsace-Lorraine locomotives",
+    "tables": [
+        {
+            "colums": [
+                "Original\nclass",
+                "Original\nnumber(s)",
+                "1906\nclass",
+                "1906\nnumber(s)",
+                "1912\nclass",
+                "1912\nnumber(s)",
+                "DRG/SNCF number(s)",
+                "Quantity",
+                "Manufacturer\nSerial numbers",
+                "Year(s) made",
+                "Year(s) withdrawn",
+                "Axle arrangement (UIC)",
+                "Remarks"
+            ],
+            "predicates": [
+                {
+                    "subject": "Original\nclass",
+                    "object": "Quantity",
+                    "predicates": {
+                        "http://dbpedia.org/property/anzahl": 0.03
+                    }
+                },
+                {
+                    "subject": "Original\nclass",
+                    "object": "Year(s) made",
+                    "predicates": {
+                        "http://dbpedia.org/property/baujahre": 0.03
+                    }
+                },
+                {
+                    "subject": "1912\nclass",
+                    "object": "Manufacturer\nSerial numbers",
+                    "predicates": {
+                        "http://dbpedia.org/property/hersteller": 0.03
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "Manufacturer\nSerial numbers",
+                    "predicates": {
+                        "http://dbpedia.org/property/hersteller": 0.06
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Steam locomotives'"
+        },
+        {
+            "colums": [
+                "Original\nclass",
+                "Original\nnumber(s)",
+                "1906\nclass",
+                "1906\nnumber(s)",
+                "1912\nclass",
+                "1912\nnumber(s)",
+                "DRG/SNCF number(s)",
+                "Quantity",
+                "Manufacturer\nSerial numbers",
+                "Year(s)\nmade",
+                "Year(s)\nwithdrawn",
+                "Axle arrangement (UIC)",
+                "Remarks"
+            ],
+            "predicates": [
+                {
+                    "subject": "1912\nclass",
+                    "object": "Axle arrangement (UIC)",
+                    "predicates": {
+                        "http://dbpedia.org/property/bauart": 0.02
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "1912\nclass",
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "Year(s)\nmade",
+                    "predicates": {
+                        "http://dbpedia.org/property/baujahre": 0.02
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "Axle arrangement (UIC)",
+                    "predicates": {
+                        "http://dbpedia.org/property/bauart": 0.17
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Steam locomotives'"
+        },
+        {
+            "colums": [
+                "Original\nclass",
+                "Original\nnumber(s)",
+                "1906\nclass",
+                "1906\nnumber(s)",
+                "1912\nclass",
+                "1912\nnumber(s)",
+                "DRG/SNCF number(s)",
+                "Quantity",
+                "Manufacturer\nSerial numbers",
+                "Year(s)\nmade",
+                "Year(s)\nwithdrawn",
+                "Axle\narrangement (UIC)",
+                "Remarks"
+            ],
+            "predicates": [
+                {
+                    "subject": "Original\nclass",
+                    "object": "Quantity",
+                    "predicates": {
+                        "http://dbpedia.org/property/zylinderanzahl": 0.02,
+                        "http://dbpedia.org/property/wheelArrangement": 0.02
+                    }
+                },
+                {
+                    "subject": "1912\nclass",
+                    "object": "Quantity",
+                    "predicates": {
+                        "http://dbpedia.org/property/zylinderanzahl": 0.02,
+                        "http://dbpedia.org/property/wheelArrangement": 0.02
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "1912\nclass",
+                    "predicates": {
+                        "http://dbpedia.org/property/baureihe": 0.04
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "Quantity",
+                    "predicates": {
+                        "http://dbpedia.org/property/zylinderanzahl": 0.02,
+                        "http://dbpedia.org/property/wheelArrangement": 0.02
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "Manufacturer\nSerial numbers",
+                    "predicates": {
+                        "http://dbpedia.org/property/hersteller": 0.04
+                    }
+                },
+                {
+                    "subject": "Remarks",
+                    "object": "Axle\narrangement (UIC)",
+                    "predicates": {
+                        "http://dbpedia.org/property/bauart": 0.02
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Steam locomotives'"
+        },
+        {
+            "colums": [
+                "Original\nclass",
+                "Original\nnumber(s)",
+                "1906\nclass",
+                "1906\nnumber(s)",
+                "1912\nclass",
+                "1912\nnumber(s)",
+                "DRG/SNCF number(s)",
+                "Quantity",
+                "Manufacturer\nSerial numbers",
+                "Year(s)\nmade",
+                "Year(s)\nwithdrawn",
+                "Axle arrangement (UIC)",
+                "Remarks"
+            ],
+            "predicates": [
+                {
+                    "subject": "Manufacturer\nSerial numbers",
+                    "object": "Quantity",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.17,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Steam locomotives'"
+        }
+    ]
+}

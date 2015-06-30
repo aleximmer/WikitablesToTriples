@@ -1,0 +1,303 @@
+{
+    "no. of tables": 5,
+    "page": "Comparison of webmail providers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/ontology/author": 0.11,
+                        "http://dbpedia.org/ontology/parentCompany": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.26,
+                        "http://dbpedia.org/ontology/developer": 0.11,
+                        "http://dbpedia.org/property/developer": 0.11,
+                        "http://dbpedia.org/property/owner": 0.32
+                    },
+                    "subject": "Product",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchDate": 0.05
+                    },
+                    "subject": "Product",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/language": 0.05
+                    },
+                    "subject": "Product",
+                    "object": "Supported languages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.16
+                    },
+                    "subject": "Product",
+                    "object": "POP3[a] support"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.21
+                    },
+                    "subject": "Product",
+                    "object": "IMAP support"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.21
+                    },
+                    "subject": "Product",
+                    "object": "SMTP support"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.05
+                    },
+                    "subject": "Product",
+                    "object": "Use Own Domain"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/service": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Owner",
+                    "object": "Product"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.11,
+                        "http://dbpedia.org/property/developer": 0.16,
+                        "http://dbpedia.org/property/owner": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05
+                    },
+                    "subject": "Maximum attachment limit",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.05,
+                        "http://dbpedia.org/property/developer": 0.05
+                    },
+                    "subject": "Cryptographic protocol support",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'General'",
+            "colums": [
+                "Product",
+                "Owner",
+                "Released",
+                "Cost",
+                "Mailbox storage",
+                "Maximum attachment limit",
+                "Supported languages",
+                "POP3[a] support",
+                "IMAP support",
+                "SMTP support",
+                "Cryptographic protocol support",
+                "Account expiration\n(inactivity)",
+                "Use Own Domain"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/contentLicense": 0.17,
+                        "http://dbpedia.org/ontology/license": 0.09,
+                        "http://dbpedia.org/property/license": 0.09
+                    },
+                    "subject": "Product",
+                    "object": "Webmail software"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.13,
+                        "http://dbpedia.org/property/registration": 0.04,
+                        "http://dbpedia.org/property/advertising": 0.04
+                    },
+                    "subject": "Product",
+                    "object": "Non-free JavaScript"
+                }
+            ],
+            "table": "Unnamed table in section 'Software distribution'",
+            "colums": [
+                "Product",
+                "Webmail software",
+                "Non-free JavaScript"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unique features in webmail products",
+            "colums": [
+                "Name",
+                "Features"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.18
+                    },
+                    "subject": "Service name",
+                    "object": "Automatic forwarding"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.06,
+                        "http://dbpedia.org/ontology/genre": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Email client access14"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.06,
+                        "http://dbpedia.org/property/commercial": 0.06,
+                        "http://dbpedia.org/ontology/genre": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Client email for other server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Integration with IM service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.12,
+                        "http://dbpedia.org/property/registration": 0.06,
+                        "http://dbpedia.org/property/advertising": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Virus scanning"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.06,
+                        "http://dbpedia.org/property/advertising": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Custom \"From:\" Address"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Server hosted public keyring (for encryption)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.06
+                    },
+                    "subject": "Service name",
+                    "object": "Shared key encryption"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.59
+                    },
+                    "subject": "Email client access14",
+                    "object": "Client email for other server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.59
+                    },
+                    "subject": "Client email for other server",
+                    "object": "Email client access14"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Integration with IM service",
+                    "object": "Service name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.53
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Automatic forwarding"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.06
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Integration with IM service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.24
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Domain\nName\ncustomization"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.41
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Virus scanning"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.06
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Filters out emails with executable attachments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.41
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Custom \"From:\" Address"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.06
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Server hosted public keyring (for encryption)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.06
+                    },
+                    "subject": "Interface\nscript\ntechnique",
+                    "object": "Shared key encryption"
+                }
+            ],
+            "table": "Unnamed table in section 'Features'",
+            "colums": [
+                "Service name",
+                "Automatic forwarding",
+                "Email client access14",
+                "Client email for other server",
+                "Integration with IM service",
+                "Domain\nName\ncustomization",
+                "Interface\nscript\ntechnique",
+                "Virus scanning",
+                "Filters out emails with executable attachments",
+                "Custom \"From:\" Address",
+                "Address modifiers (subaddressing)",
+                "Server hosted public keyring (for encryption)",
+                "Shared key encryption"
+            ]
+        }
+    ]
+}

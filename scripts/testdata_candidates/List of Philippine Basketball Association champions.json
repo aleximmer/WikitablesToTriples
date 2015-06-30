@@ -1,0 +1,150 @@
+{
+    "no. of tables": 8,
+    "page": "List of Philippine Basketball Association champions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.04,
+                        "http://dbpedia.org/property/aShorts": 0.04,
+                        "http://dbpedia.org/property/bodyD": 0.04,
+                        "http://dbpedia.org/property/titles": 0.28,
+                        "http://dbpedia.org/property/num": 0.04,
+                        "http://dbpedia.org/property/body": 0.04,
+                        "http://dbpedia.org/property/aBody": 0.04,
+                        "http://dbpedia.org/property/shorts": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/shortsD": 0.04
+                    },
+                    "subject": "Franchise",
+                    "object": "Championships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aShorts": 0.04,
+                        "http://dbpedia.org/property/titles": 0.08,
+                        "http://dbpedia.org/property/retNums": 0.04,
+                        "http://dbpedia.org/property/num": 0.04,
+                        "http://dbpedia.org/property/aBody": 0.04
+                    },
+                    "subject": "Franchise",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.04,
+                        "http://dbpedia.org/property/date": 0.04,
+                        "http://dbpedia.org/property/ft": 0.04,
+                        "http://dbpedia.org/property/num": 0.04,
+                        "http://dbpedia.org/property/compdate": 0.04
+                    },
+                    "subject": "Franchise",
+                    "object": "Third places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.04,
+                        "http://dbpedia.org/property/date": 0.04,
+                        "http://dbpedia.org/property/compdate": 0.04,
+                        "http://dbpedia.org/property/num": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04
+                    },
+                    "subject": "Franchise",
+                    "object": "Total trophies"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/teamname": 0.04,
+                        "http://dbpedia.org/property/team": 0.36,
+                        "http://dbpedia.org/property/champion": 0.4
+                    },
+                    "subject": "Last championship",
+                    "object": "Franchise"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd3Score": 0.04,
+                        "http://dbpedia.org/property/rd2Seed": 0.04,
+                        "http://dbpedia.org/property/rd1Seed": 0.04,
+                        "http://dbpedia.org/property/rd3Seed": 0.04
+                    },
+                    "subject": "Last championship",
+                    "object": "Championships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/report": 0.04,
+                        "http://dbpedia.org/property/rd1Seed": 0.04,
+                        "http://dbpedia.org/property/no": 0.04
+                    },
+                    "subject": "Last championship",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Seed": 0.04
+                    },
+                    "subject": "Last championship",
+                    "object": "Third places"
+                }
+            ],
+            "table": "Unnamed table in section 'Champions by franchise'",
+            "colums": [
+                "Franchise",
+                "Championships",
+                "Runners-up",
+                "Third places",
+                "Total trophies",
+                "Last championship"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cteam": 0.2,
+                        "http://dbpedia.org/property/team": 0.07,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/property/highlights": 0.07
+                    },
+                    "subject": "Coach",
+                    "object": "Champion teams handled"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coach": 0.4
+                    },
+                    "subject": "Champion teams handled",
+                    "object": "Coach"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd3Score": 0.07,
+                        "http://dbpedia.org/property/rd2Seed": 0.07,
+                        "http://dbpedia.org/property/rd1Seed": 0.07,
+                        "http://dbpedia.org/property/rd3Seed": 0.07
+                    },
+                    "subject": "Last championship",
+                    "object": "Championships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.4,
+                        "http://dbpedia.org/property/champion": 0.2,
+                        "http://dbpedia.org/property/runnerUp": 0.07
+                    },
+                    "subject": "Last championship",
+                    "object": "Champion teams handled"
+                }
+            ],
+            "table": "Unnamed table in section 'Champions by coach'",
+            "colums": [
+                "Coach",
+                "Championships",
+                "Champion teams handled",
+                "Last championship"
+            ]
+        }
+    ]
+}
