@@ -10,7 +10,7 @@ from helper import *
 from rdflib import Namespace, Graph
 
 files = []
-with open('./data/good_titles.txt', 'r') as f:
+with open('./data/good_titles.txt', 'r', encoding='utf-8') as f:
     reader = csv.reader(f)
     for title, file in reader:
         files.append(file)
