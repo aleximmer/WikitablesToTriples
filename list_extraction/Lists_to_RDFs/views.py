@@ -26,13 +26,13 @@ def get_table_key(request):
     #----------- 1. retrieve random Table
     tables = WikiTable.objects.filter(id=1026)#checked=False)
     upper_border = tables.count() - 1
-    
+
     index = random.randint(0, upper_border)
 
     table = tables[index]
     htmlTable = table.html
 
-    # table represented by table-module in extensions 
+    # table represented by table-module in extensions
     mod_table = Table(htmlTable)
 
     #----------- 2. generate key for given table
@@ -46,7 +46,7 @@ def get_table_key(request):
     uniqueCols = result['uniqueCols']
     colCount = result['colCount']
     keyCol = result['keyCol']
-    
+
     """
     for col in uniqueCols:
         if col['xPos'] == keyCol:
@@ -59,7 +59,7 @@ def get_table_key(request):
 
     # get possible ontologies to display for each table
     pos_ontologies = []
-    
+
     if keyCol != -1:
         for column in mod_table.columnNames:
             if column != mod_table.columnNames[keyCol]:
@@ -67,12 +67,12 @@ def get_table_key(request):
                 print(str(table.id) + ': ' + column + ' > ' + str(result))
                 pos_ontologies.append(result)
             else:
-                pos_ontologies.append({'keyCol': 'Is key column'})
+                pos_ontologies.append({})
 
     #----------- 3. Return JsonResponse
     data = {'tableID': table.id, 'tableName': tableName, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
             'colCount': colCount, 'articleName': articleName, 'ontologies': pos_ontologies}
-    
+
     return JsonResponse(data, safe=False)
 
 """
@@ -93,9 +93,5 @@ def get_prec_rec(request):
     # Retrieve all rated tables
     tables = WikiTable.objects.filter(checked=True)
     result = machineLearningWithPrecisionRecall(tables, True) # Print results in console (debug)
-	
+
     return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'tableCount': result['tableCount'], 'thresholdsState': result['thresholdsState']})
-
-
-
-

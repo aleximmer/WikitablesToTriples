@@ -40,7 +40,7 @@ var currentTableID = "-1";
 function receiveJSON(data) {
 	// data is a JSON object containing the table in html and
 	// results of the key extraction algorithm
-	
+
 	// Scheme: data = {'tableID': table.id, 'tableName': table.title, 'articleName': articleName,
 	//					'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols, 'ontologies': pos_ontologies}
 
@@ -54,7 +54,7 @@ function receiveJSON(data) {
 	}
 	var radioButtonRow = ""
 	var len = parseInt(data['colCount'])
-	
+
 	// Collect indexes of all unique columns
 	var uniqueColIndexes = []
 	for(var i = 0; i < len; i ++) {
@@ -65,7 +65,7 @@ function receiveJSON(data) {
 			}
 		}
 	}
-	
+
 	for(var i = 0, uniqueID = 0; i < len; i++) {
 		var ratingStr = ''
 		if (uniqueColIndexes.indexOf(i) != -1) {
@@ -73,14 +73,28 @@ function receiveJSON(data) {
 		} else {
 			ratingStr = '<sub>(n.u.)</sub>'
 		}
-		
-		var ontologiesStr = '['
-		for(var j = 0; i < data['ontologies'].length; i++)
-			ontologiesStr += data['ontologies'][j]+','
+
+		var ontologiesStr = ''
+		var onts = data['ontologies'][i]
+		var ontKeys = Object.keys(onts)
+		var maxVal = 0.0
+		var maxID = -1
+		if (ontKeys.length > 0) {
+			for(var j = 0; j < ontKeys.length; j++) {
+				if (onts[ontKeys[j]] > maxVal) {
+					maxID = ontKeys[j]
+					maxVal = onts[maxID]
+				}
+			}
+			var cutPos = maxID.lastIndexOf("/")
+			ontologiesStr = '<br/><i>' + maxID.substring(cutPos) + '::' + maxVal + '</i>'
+		}
+		/*
+		for(var j = 0; j < data['ontologies'].length; i++)
+			ontologiesStr += JSON.stringify(data['ontologies'][j])+','
 		ontologiesStr += ontologiesStr.substring(0, ontologiesStr.length-1)
-		
-		ontologiesStr += ']'
-			
+		*/
+
 		radioButtonRow += '<td><input type="radio" name="column" value="'+i+'" onclick="updateDecisionStatus(\'green\')" ' +
 							((data['keyCol'] && data['keyCol']['xPos'] == i) ? 'checked="checked"' : '') + '/>' +
 							ratingStr + ontologiesStr+'</td>'
@@ -133,7 +147,7 @@ function updateDecisionStatus(status) {
 }
 
 function enableDeselector() {
-	$('#deselect-radio').attr('disabled', false)	
+	$('#deselect-radio').attr('disabled', false)
 }
 
 function deselectRadioButton() {
@@ -141,7 +155,3 @@ function deselectRadioButton() {
 	$('input[name="column"]').attr('checked', false)
 	updateDecisionStatus('red')
 }
-
-
-
-
