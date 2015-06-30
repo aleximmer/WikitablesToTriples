@@ -15,6 +15,7 @@ with open('./data/good_titles.txt', 'r') as f:
     for title, file in reader:
         files.append(file)
 
+generated = 0
 for count, file in enumerate(files):
     if os.path.exists('./data/triples/%s' % file.replace('json', 'csv')):
         continue
@@ -35,6 +36,8 @@ for count, file in enumerate(files):
 
                         for predicate, certainty in permutation['predicates'].items():
                             if not predicateExists(sub[i], predicate, obj[i]):
+                                generated += 1
+                                print("Count: %d \tGenerated: %d" % (count, generated))
                                 writer.writerow({
                                     'subject': sub[i],
                                     'predicate': predicate,
@@ -42,4 +45,3 @@ for count, file in enumerate(files):
                                     'certainty': certainty,
                                     'page': data['page']
                                 })
-    print(count)
