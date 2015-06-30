@@ -24,7 +24,7 @@ def init_testing(request):
 """
 def get_table_key(request):
     #----------- 1. retrieve random Table
-    tables = WikiTable.objects.filter(checked=False)
+    tables = WikiTable.objects.filter(id=1026)#checked=False)
     upper_border = tables.count() - 1
     
     index = random.randint(0, upper_border)
@@ -46,20 +46,28 @@ def get_table_key(request):
     uniqueCols = result['uniqueCols']
     colCount = result['colCount']
     keyCol = result['keyCol']
+    
+    """
+    for col in uniqueCols:
+        if col['xPos'] == keyCol:
+            keyCol = col['title']
+            break
+    """
 
     table.algo_col = str(keyCol)
     table.save()
 
     # get possible ontologies to display for each table
     pos_ontologies = []
-
-    for column in mod_table.columnNames:
-        if column != keyCol:
-            result = mod_table.predicatesForColumns(keyCol, column) # FIXME: Ist immer leer
-            print(str(table.id) + ': ' + column + ' > ' + str(result))
-            pos_ontologies.append(result)
-        else:
-            pos_ontologies.append({'keyCol': 'Is key column'})
+    
+    if keyCol != -1:
+        for column in mod_table.columnNames:
+            if column != mod_table.columnNames[keyCol]:
+                result = mod_table.predicatesForColumns(keyCol, column) # FIXME: Ist immer leer
+                print(str(table.id) + ': ' + column + ' > ' + str(result))
+                pos_ontologies.append(result)
+            else:
+                pos_ontologies.append({'keyCol': 'Is key column'})
 
     #----------- 3. Return JsonResponse
     data = {'tableID': table.id, 'tableName': tableName, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,

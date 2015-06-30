@@ -22,6 +22,7 @@ from  more_itertools import unique_everseen
 p = inflect.engine()
 
 # Thresholds:
+ONLY_UNIQUE_COLS = False # KeyCol muss einzigartig sein
 MIN_ENTITIES_COUNT = 0.4 # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
 MAX_ENTITIES_POINTS = 50 # Bei 100% Entitäten gibt es {x} Punkte
 COLNAME_NAME_POINTS = 20 # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
@@ -29,6 +30,7 @@ COLNAME_MAX_WORD_POINTS = 20 # Wenn ein Wort-Treffer kann max {x} Punkte einbrin
 COLNAME_PLURAL_HIT_POINTS = 10 # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
 COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
 COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
+FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 
 # DEPRECATED
 # Konstantendefinition für Rückgabewert-Typen
@@ -99,12 +101,12 @@ def countAllCols( htmlTable ):
 	return len(firstRow.findAll("th") + firstRow.findAll("td"))
 
 # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
-# diese auf Einzigartigkeit. Sollte keine Spalte dem entsprechen, wird
+# diese auf Einzigartigkeit(optional). Sollte keine Spalte dem entsprechen, wird
 # ein ValueError geworfen.
 # Am Ende wird ein Array von Elementen der Form {"xPos": a, "entries": c}
 # zurückgegeben
 # UPDATE: Added originalHTML and attrOrig logic to save the real tag (hd or td)
-def extractUniqueColumns( htmlTable, originalHTML ):
+def extractColumnsInfos( htmlTable, originalHTML ):
 	soup = BeautifulSoup(htmlTable)
 	soupOrig = BeautifulSoup(originalHTML)
 	quickView = originalHTML[0:50]+" [...]"
@@ -162,9 +164,12 @@ def extractUniqueColumns( htmlTable, originalHTML ):
 					break
 				else:
 					checkedValues[i] = value
-		if unique:
+		if unique or not ONLY_UNIQUE_COLS:
 			# Alle Einträge der möglichen Key-Spalte als Array speichern (plain, nicht raw)
-			uniqueCols.append({"xPos": j, "entries": [tableDataRaw[x][j] for x in range(rowCount)], "entriesOrig": [tableDataRawOrig[x][j] for x in range(rowCount)]})
+			uniqueCols.append({"xPos": j,
+				"unique": unique,
+				"entries": [tableDataRaw[x][j] for x in range(rowCount)],
+				"entriesOrig": [tableDataRawOrig[x][j] for x in range(rowCount)]})
 	if len(uniqueCols) == 0:
 		raise ValueError("Can\'t find any column with unique entries (might be foreing keys)")
 
@@ -172,6 +177,7 @@ def extractUniqueColumns( htmlTable, originalHTML ):
 	tableColNames = extractTableHead(htmlTable, RETURN_AS_STRING_ARRAY())
 	uniqueCols = [{
 			"xPos": col["xPos"],
+			"unique": col["unique"],
 			"title": tableColNames[col["xPos"]],
 			"entries": col["entries"],
 			"entriesOrig": col["entriesOrig"],
@@ -301,7 +307,7 @@ def validateRatings( cols ):
 	if len(ratCols) > 1:
 		rating2 = ratCols[1]['rating']
 		# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
-		if (rating2 / rating1) > 0.85:
+		if (rating2 / rating1) > FIRST_SECOND_RATIO:
 			print("Algorithm failed: Not clear enough")
 			return None
 	
@@ -343,7 +349,7 @@ def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 		htmlTable = fixTableHeaderTagsForOutput(htmlTable)
 
 		# Extracting and rating columns
-		uniqueCols = extractUniqueColumns(htmlTable, originalHTML)
+		uniqueCols = extractColumnsInfos(htmlTable, originalHTML)
 
 		# Rating:
 
@@ -409,7 +415,7 @@ def calculatePrecisionRecall( tables, debug=False ):
 		humCol = (table.hum_col)
 		print(str(table.id) +': ' + algoCol + ' but is ' + humCol)
 		
-		# There is no key columng
+		# There is no key column
 		if humCol == '-1':
 			if algoCol == '-1': # Algorithm is right ("no detectable key column")
 				countTN += 1
@@ -438,13 +444,15 @@ def calculatePrecisionRecall( tables, debug=False ):
 		precision = 0
 		recall = 0
 	thresholdsState = {
+		'ONLY_UNIQUE_COLS': ONLY_UNIQUE_COLS, # KeyCol muss einzigartig sein
 		'MIN_ENTITIES_COUNT': MIN_ENTITIES_COUNT, # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
 		'MAX_ENTITIES_POINTS': MAX_ENTITIES_POINTS, # Bei 100% Entitäten gibt es {x} Punkte
 		'COLNAME_NAME_POINTS': COLNAME_NAME_POINTS, # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
 		'COLNAME_MAX_WORD_POINTS': COLNAME_MAX_WORD_POINTS, # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
 		'COLNAME_PLURAL_HIT_POINTS': COLNAME_PLURAL_HIT_POINTS, # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
 		'COLPOS_MAX_POINTS': COLPOS_MAX_POINTS, # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
-		'COL_TH_POINTS': COL_TH_POINTS} # Eine Spalte mit <th>-Tags erhält {x} Punkt}
+		'COL_TH_POINTS': COL_TH_POINTS, # Eine Spalte mit <th>-Tags erhält {x} Punkt}
+		'FIRST_SECOND_RATIO': FIRST_SECOND_RATIO} # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 	
 	if debug:
 		asString = 'Precision: '+str(precision*100)+'%\nRecall: '+str(recall*100)+'%\n'
@@ -454,6 +462,5 @@ def calculatePrecisionRecall( tables, debug=False ):
 def machineLearningWithPrecisionRecall( tables, debug=False ):
 	return calculatePrecisionRecall(tables, debug)
 	# TODO: Machine learning: Passe Thresholds an und für es wieder aus
-	
 	
 

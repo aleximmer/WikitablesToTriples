@@ -75,8 +75,11 @@ class Table:
     def predicatesForColumns(self, subColumn, objColumn, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
         Set 'relative' to True if you want relative occurances."""
+        print(str(subColumn) + ' -> ' + objColumn)
         subData = self.column(subColumn)
         objData = self.column(objColumn)
+        #print(subData)
+        #print(objData)
         predicates = {}
         for i in range(0, len(subData)):
             subContent = sparql.cellContent(subData[i])
