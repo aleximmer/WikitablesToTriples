@@ -10,17 +10,6 @@ import traceback
 from bs4 import BeautifulSoup
 from  more_itertools import unique_everseen
 
-# Nach TR-Tag suchen (muss THs enthalten)
-# 1.) Von dort die THs extrahieren als Header-Array und als JSON ausgeben
-# 2.) Spalten in 2D-Array abspeichern und auf Einzigartigkeit überprüfen
-
-# Soup-Element ausgeben:
-# Mit Tags (inkl. Links der Entitäten) -> str(obj)
-# Nur Plain Text: obj.getText()
-
-# Engine, um Singular und Plural von Wörtern zu bilden
-p = inflect.engine()
-
 # Thresholds:
 ONLY_UNIQUE_COLS = False # KeyCol muss einzigartig sein
 MIN_ENTITIES_COUNT = 0.4 # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
@@ -32,27 +21,15 @@ COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rech
 COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
 FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 
-# DEPRECATED
-# Konstantendefinition für Rückgabewert-Typen
-def RETURN_AS_SOUP_ARRAY(): return 0
-def RETURN_AS_STRING_ARRAY(): return 1
-def RETURN_AS_JSON_STRING(): return 2
-def returnWithType( obj, returnType):
-	if returnType == RETURN_AS_SOUP_ARRAY():
-		return obj
-	elif returnType == RETURN_AS_STRING_ARRAY():
-		return [entry.getText() for entry in obj]
-	elif returnType == RETURN_AS_JSON_STRING():
-		return json.dumps(obj, default=lambda entry: entry.getText(), sort_keys=True, indent=4)
-	else:
-		raise ValueError("Illegal value for returnType: \'" + returnType + "lat (Allowed: 0, 1 or 2) ")
+
+########################################## Key extraction ##########################################
+
 
 # Ermittelt mittels dem BeautifulSoup-Package die Kopfzeile der Tabelle und
 # gibt alle Header als Array von Soup-Elemente zurück.
-# Das Rückgabe-Format kann mit oben gegebenen Konstanten geändert werden.
 # Sollte die Kopfzeile nicht gefunden werden oder kein Header vorhanden,
 # wirft die Funktion einen ValueError.
-def extractTableHead( htmlTable, returnType = RETURN_AS_SOUP_ARRAY() ):
+def extractTableHead( htmlTable ):
 	soup = BeautifulSoup(htmlTable)
 	quickView = htmlTable[0:50]+" [...]"
 
@@ -65,10 +42,8 @@ def extractTableHead( htmlTable, returnType = RETURN_AS_SOUP_ARRAY() ):
 	if (len(colNames) == 0):
 		raise ValueError("Can\'t find header row of the given table: \n" + quickView)
 
-	return returnWithType( colNames, returnType)
+	return [entry.getText() for entry in colNames]
 
-
-########################################## Key extraction ##########################################
 
 # <th> tags are used in different ways so it's nearly impossible to parse them
 # Solution: replace them with <td> and act like the <td>-Tags in the first <tr>-Row are <th>-Tags
@@ -80,17 +55,16 @@ def fixTableHeaderTagsForOutput( htmlTable ):
 		thTag.name='td'
 	htmlTable = str(soup)
 
-	# TODO: Erkennen ob die erste Zeile wirklich der Header ist oder es keinen gibt
 	# Make the first row to a header row (<td> to <th>)
 	pos1 = htmlTable.find("<tr")
 	pos2 = htmlTable.find("</tr>") + 5
 	firstRow = htmlTable[pos1:pos2]
 
-	soup = BeautifulSoup(firstRow)
-	colNames = soup.findAll('td')
+	headerSoup = BeautifulSoup(firstRow)
+	colNames = headerSoup.findAll('td')
 	for col in colNames:
 		col.name='th'
-	firstRow = str(soup.body.next)
+	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
 	return htmlTable[:pos1] + firstRow + htmlTable[pos2:]
 
 
@@ -101,15 +75,15 @@ def countAllCols( htmlTable ):
 	return len(firstRow.findAll("th") + firstRow.findAll("td"))
 
 # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
-# diese auf Einzigartigkeit(optional). Sollte keine Spalte dem entsprechen, wird
+# diese auf Einzigartigkeit (optional). Sollte keine Spalte dem entsprechen, wird
 # ein ValueError geworfen.
 # Am Ende wird ein Array von Elementen der Form {"xPos": a, "entries": c}
 # zurückgegeben
-# UPDATE: Added originalHTML and attrOrig logic to save the real tag (hd or td)
+# UPDATE: Added originalHTML and attrOrig to get the real tag (hd or td)
 def extractColumnsInfos( htmlTable, originalHTML ):
-	soup = BeautifulSoup(htmlTable)
-	soupOrig = BeautifulSoup(originalHTML)
-	quickView = originalHTML[0:50]+" [...]"
+	soup = BeautifulSoup(htmlTable) # th and td tags by fixTableHeaderTagsForOutput() formatted
+	soupOrig = BeautifulSoup(originalHTML) # orginal html code
+	quickView = originalHTML[0:50]+" [...]" # error output
 
 	# 1.) Überprüfen ob die Tabelle ein gültiges Format hat
 	it = re.finditer('(rowspan|colspan)="([0-9]*)"', htmlTable)
@@ -121,37 +95,27 @@ def extractColumnsInfos( htmlTable, originalHTML ):
 	# 2.) Alle Spalten als 2D-Array extrahieren
 	rows = soup.findAll("tr")
 	rowsOrig = soupOrig.findAll("tr")
-	rowCount = len(rows)
-	colCount = len(rows[0].findAll("td"))
-	firstLineIsHeader = False
-	# Wenn die erste Zeile die Kopfzeile war, hat sie keine td-Tags -> Nächste Zeile nehmen
-	if colCount == 0:
-		if rowCount > 1:
-			firstLineIsHeader = True
-			colCount = len(rows[1].findAll("td"))
-			rowCount -= 1
-		else:
-			raise ValueError("Table doesn\'t contain rows (except the head line): " + quickView)
+	rowCount = len(rows) - 1
+	if rowCount <= 0:
+		raise ValueError("Table doesn\'t contain rows (except the head line): " + quickView)
+	colCount = len(rows[1].findAll("td"))
+	if colCount <= 0:
+		raise ValueError("Table doesn\'t contain columns in row 1: " + quickView)
 
 	# 3.) 2D-Array der HTML-Tabelle reihenweise erzeugen
-	# Es wird nur der richtige Plaintext verglichen, aber der ganze HTML-Code gespeichert
-	if firstLineIsHeader:
-		tableData = [[dataField.getText() for dataField in rows[i+1].findAll("td")] for i in range(rowCount)]
-		tableDataRaw = [[str(dataField) for dataField in rows[i+1].findAll("td")] for i in range(rowCount)]
-		tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[i+1].findAll(["th", "td"])] for i in range(rowCount)]
-	else:
-		tableData = [[dataField.getText() for dataField in rows[i].findAll("td")] for i in range(rowCount)]
-		tableDataRaw = [[str(dataField) for dataField in rows[i].findAll("td")] for i in range(rowCount)]
-		tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[i].findAll(["td", "th"])] for i in range(rowCount)]
+	tableData = [[dataField.getText() for dataField in rows[i].findAll("td")] for i in range(1, rowCount+1)]
+	tableDataRaw = [[str(dataField) for dataField in rows[i].findAll("td")] for i in range(1, rowCount+1)]
+	tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[i].findAll(["th", "td"])] for i in range(1, rowCount+1)]
 
-	# 4.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind (Vergleicht dafür inkl. Tags)
+	# 4.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind
+	# Es wird der Plain-Text verglichen, aber der ganze HTML-Code gespeichert
 	uniqueCols = []
 	for j in range(colCount):
 		# Bereits angesehen Werte zwischenspeichern (für Einzigartigkeits-Check)
 		checkedValues = [0 for i in range(rowCount)]
 		unique = True
 		for i in range(rowCount):
-			#FIXME: "list index out of range" -> tableData[0] leer -> findAll("td") hat nichts gefunden
+			#FIXME: Error "tableData[i][j] list index out of range" -> tableData[0] leer -> findAll("td") hat nichts gefunden
 			# -> Header-Zeile wurde mitgelesen (soll nicht passieren)
 
 			# Take plain text and remove alle white spaces from the side
@@ -174,7 +138,7 @@ def extractColumnsInfos( htmlTable, originalHTML ):
 		raise ValueError("Can\'t find any column with unique entries (might be foreing keys)")
 
 	# Führe Title mit Entries und Position zusammen (Schema):
-	tableColNames = extractTableHead(htmlTable, RETURN_AS_STRING_ARRAY())
+	tableColNames = extractTableHead(htmlTable)
 	uniqueCols = [{
 			"xPos": col["xPos"],
 			"unique": col["unique"],
@@ -266,7 +230,7 @@ def valuateByPosition( cols ):
 		addRating = int(math.floor(COLPOS_MAX_POINTS / posVal)) # Hyperbolisch
 		cols[i]["rating"] += addRating
 
-# Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten sind mit
+# Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten haben mit
 # hoher Warscheinlichkeit die gesuchten Entitäten (KeyCol)
 def lookForTHCol( uniqueCols, originalHTML ):
 	for i in range(0, len(uniqueCols)):
@@ -299,7 +263,6 @@ def findMatchWithListCategories( uniqueCols, articleName):
 # mind. 40% der Einträge Entitäten sein. Wenn keine Key-Spalte gefunden
 # wurde, wird None zurückgegeben (ansonsten das Spaltenelement)
 def validateRatings( cols ):
-	# TODO: Ausgangsposition speichern oder nur max und 2-max herausfinden
 	# Create copy to keep the original order in cols
 	ratCols = [{'entries': col['entries'], 'rating': col['rating'], 'entityCount': col['entityCount'], 'multipleEntities': col['multipleEntities'], 'xPos': col['xPos']} for col in cols]
 	ratCols.sort(key=lambda obj: obj['rating'], reverse=True)
@@ -335,15 +298,6 @@ def saveCSVData( roundsResults, cols, round ):
 # TODO: Dokumentieren
 def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 	try:
-		"""
-		try:
-		    print(htmlTable[0:500])
-		    print(articleName)
-		except Exception as e:
-		    print(articleName)
-		    raise ValueError('Table contains not supported characters - Error message: \n' + str(e))
-		"""
-
 		# Fix <th> tags because <th> is used in different ways:
 		originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
 		htmlTable = fixTableHeaderTagsForOutput(htmlTable)
@@ -388,7 +342,6 @@ def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
-		# raise e
 		print('Error: ' + str(e))
 		print(traceback.format_exc())
 		keyCol = -1
@@ -396,70 +349,3 @@ def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 		colCount = countAllCols(htmlTable)
 
 	return {'originalHTML': originalHTML, 'uniqueCols': uniqueCols, 'colCount': colCount, 'keyCol': keyCol}
-
-
-# TODO: Dokumentieren
-def calculatePrecisionRecall( tables, debug=False ):
-	# True positives -> Right key selected
-	countTP = 0
-	# True negative -> Detected that there is no valid key column
-	countTN = 0
-	# False positive -> Detects mistakenly a key column or the wrong key column
-	countFP = 0
-	countWC = 0
-	# False negative -> Can't find an existing key column
-	countFN = 0
-
-	for table in tables:
-		algoCol = str(table.algo_col)
-		humCol = (table.hum_col)
-		print(str(table.id) +': ' + algoCol + ' but is ' + humCol)
-
-		# There is no key column
-		if humCol == '-1':
-			if algoCol == '-1': # Algorithm is right ("no detectable key column")
-				countTN += 1
-			else: # Algorithm is wrong (suggests a key column although there is no column)
-				countFP += 1
-		# There is a key column at position {x}
-		else:
-			if algoCol == humCol: # Algorithm is right ("found key column")
-				countTP += 1
-			elif algoCol == '-1': # Algorithm is wrong (didn't find the existing key column)
-				countFN += 1
-			else: # Algorithm is wrong (suggests the wrong column as key column)
-				countWC += 1
-	if debug:
-		asString =  'True positive: '+str(countTP)+'\n'
-		asString += 'True negative: '+str(countTN)+'\n'
-		asString += 'False positive: '+str(countFP+countWC)+' ('+str(countWC)+' wrong columns + '+str(countFP)+' non existing columns) \n'
-		asString += 'False negative: '+str(countFN)+'\n'
-		print(asString)
-
-	countFP += countWC
-	if (countTP+countFP) > 0 and (countTP+countFN) > 0:
-		precision = round(countTP / (countTP + countFP), 2)
-		recall = round(countTP / (countTP + countFN), 2)
-	else:
-		precision = 0
-		recall = 0
-	thresholdsState = {
-		'ONLY_UNIQUE_COLS': ONLY_UNIQUE_COLS, # KeyCol muss einzigartig sein
-		'MIN_ENTITIES_COUNT': MIN_ENTITIES_COUNT, # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
-		'MAX_ENTITIES_POINTS': MAX_ENTITIES_POINTS, # Bei 100% Entitäten gibt es {x} Punkte
-		'COLNAME_NAME_POINTS': COLNAME_NAME_POINTS, # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
-		'COLNAME_MAX_WORD_POINTS': COLNAME_MAX_WORD_POINTS, # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
-		'COLNAME_PLURAL_HIT_POINTS': COLNAME_PLURAL_HIT_POINTS, # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
-		'COLPOS_MAX_POINTS': COLPOS_MAX_POINTS, # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
-		'COL_TH_POINTS': COL_TH_POINTS, # Eine Spalte mit <th>-Tags erhält {x} Punkt}
-		'FIRST_SECOND_RATIO': FIRST_SECOND_RATIO} # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
-
-	if debug:
-		asString = 'Precision: '+str(precision*100)+'%\nRecall: '+str(recall*100)+'%\n'
-		print(asString)
-	return {'precision': precision, 'recall': recall, 'tableCount': len(tables), 'thresholdsState':thresholdsState}
-
-def machineLearningWithPrecisionRecall( tables, debug=False ):
-	return calculatePrecisionRecall(tables, debug)
-	# TODO: Machine learning: Passe Thresholds an und für es wieder aus
-	
