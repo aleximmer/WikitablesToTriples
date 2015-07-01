@@ -1,0 +1,275 @@
+{
+    "no. of tables": 3,
+    "page": "List of indoor speed skating rinks",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.23
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.13,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Venue",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.1
+                    },
+                    "subject": "Venue",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.6,
+                        "http://dbpedia.org/property/stateParty": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.9
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/junSnowDays": 0.07,
+                        "http://dbpedia.org/property/elevation": 0.03,
+                        "http://dbpedia.org/property/postalCode": 0.03,
+                        "http://dbpedia.org/property/octSnowDays": 0.07,
+                        "http://dbpedia.org/property/mayHumidity": 0.03,
+                        "http://dbpedia.org/property/julSnowDays": 0.07,
+                        "http://dbpedia.org/property/sepSnowDays": 0.07,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/janSun": 0.07,
+                        "http://dbpedia.org/property/augSnowDays": 0.07,
+                        "http://dbpedia.org/property/areaCode": 0.03,
+                        "http://dbpedia.org/property/augHumidity": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03,
+                        "http://dbpedia.org/property/maySnowDays": 0.07,
+                        "http://dbpedia.org/property/lats": 0.03
+                    },
+                    "subject": "City",
+                    "object": "Altitude\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junSnowDays": 0.07,
+                        "http://dbpedia.org/property/augSnowDays": 0.07,
+                        "http://dbpedia.org/property/octSnowDays": 0.07,
+                        "http://dbpedia.org/property/maySnowDays": 0.07,
+                        "http://dbpedia.org/property/julSnowDays": 0.07,
+                        "http://dbpedia.org/property/sepSnowDays": 0.07
+                    },
+                    "subject": "City",
+                    "object": "Altitude\n(ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.17,
+                        "http://dbpedia.org/property/capital": 0.17
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/octSnowDays": 0.1,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.03,
+                        "http://dbpedia.org/property/decSnowDays": 0.03,
+                        "http://dbpedia.org/property/width": 0.03,
+                        "http://dbpedia.org/property/maySnowDays": 0.1,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Altitude\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novHumidity": 0.03,
+                        "http://dbpedia.org/property/decHumidity": 0.03,
+                        "http://dbpedia.org/property/maySnowDays": 0.1,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/octSnowDays": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Altitude\n(ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationCensusYear": 0.03,
+                        "http://dbpedia.org/property/giniYear": 0.03,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.17
+                    },
+                    "subject": "Olympics",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prev": 0.03
+                    },
+                    "subject": "Olympics",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Current rinks'",
+            "colums": [
+                "Venue",
+                "City",
+                "Country",
+                "Altitude\n(m)",
+                "Altitude\n(ft)",
+                "Opened",
+                "Olympics"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Venue",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.33
+                    },
+                    "subject": "Venue",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.67
+                    },
+                    "subject": "Venue",
+                    "object": "Closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julLowC": 0.33,
+                        "http://dbpedia.org/property/sepHighC": 0.33
+                    },
+                    "subject": "City",
+                    "object": "Altitude\n(m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.33,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.33
+                    },
+                    "subject": "Country",
+                    "object": "Altitude\n(ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateYear": 0.33
+                    },
+                    "subject": "Country",
+                    "object": "Closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.67
+                    },
+                    "subject": "Olympics",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.33
+                    },
+                    "subject": "Olympics",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.33
+                    },
+                    "subject": "Olympics",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games": 0.67
+                    },
+                    "subject": "Olympics",
+                    "object": "Closed"
+                }
+            ],
+            "table": "Unnamed table in section 'Closed/Reconfigured rinks'",
+            "colums": [
+                "Venue",
+                "City",
+                "Country",
+                "Altitude\n(m)",
+                "Altitude\n(ft)",
+                "Opened",
+                "Closed",
+                "Olympics"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 1.0,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 1.0
+                    },
+                    "subject": "Country",
+                    "object": "Altitude\n(m)"
+                }
+            ],
+            "table": "Unnamed table in section 'Under construction, planned and proposed rinks'",
+            "colums": [
+                "Venue",
+                "City",
+                "Country",
+                "Altitude\n(m)",
+                "Altitude\n(ft)",
+                "Opening",
+                "Status",
+                "Olympics"
+            ]
+        }
+    ]
+}

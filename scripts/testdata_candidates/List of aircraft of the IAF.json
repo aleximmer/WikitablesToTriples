@@ -1,0 +1,237 @@
+{
+    "no. of tables": 5,
+    "page": "List of active Indian military aircraft",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/primaryUser": 0.03,
+                        "http://dbpedia.org/property/nationalOrigin": 0.28,
+                        "http://dbpedia.org/ontology/origin": 0.34
+                    },
+                    "subject": "Aircraft",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.25,
+                        "http://dbpedia.org/ontology/type": 0.38
+                    },
+                    "subject": "Aircraft",
+                    "object": "Role"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03
+                    },
+                    "subject": "Aircraft",
+                    "object": "Version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberBuilt": 0.03,
+                        "http://dbpedia.org/property/numberBuilt": 0.03,
+                        "http://dbpedia.org/property/eng1Number": 0.03,
+                        "http://dbpedia.org/property/crew": 0.03
+                    },
+                    "subject": "Aircraft",
+                    "object": "Number[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.03,
+                        "http://dbpedia.org/property/variantsWithTheirOwnArticles": 0.03
+                    },
+                    "subject": "Aircraft",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03,
+                        "http://dbpedia.org/property/areaRank": 0.09
+                    },
+                    "subject": "Origin",
+                    "object": "Number[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developedFrom": 0.03,
+                        "http://dbpedia.org/ontology/predecessor": 0.03
+                    },
+                    "subject": "Comment",
+                    "object": "Aircraft"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.06,
+                        "http://dbpedia.org/ontology/type": 0.03
+                    },
+                    "subject": "Comment",
+                    "object": "Role"
+                }
+            ],
+            "table": "Unnamed table in section 'Indian Air Force'",
+            "colums": [
+                "Aircraft",
+                "Photo",
+                "Origin",
+                "Role",
+                "Version",
+                "Number[1]",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.33,
+                        "http://dbpedia.org/ontology/origin": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.07,
+                        "http://dbpedia.org/ontology/type": 0.27
+                    },
+                    "subject": "Aircraft",
+                    "object": "Role"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Aircraft",
+                    "object": "Number[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.07,
+                        "http://dbpedia.org/property/efRank": 0.07,
+                        "http://dbpedia.org/property/ef": 0.07
+                    },
+                    "subject": "Origin",
+                    "object": "Number[1]"
+                }
+            ],
+            "table": "Unnamed table in section 'Indian Naval Air Arm'",
+            "colums": [
+                "Aircraft",
+                "Photo",
+                "Origin",
+                "Role",
+                "Version",
+                "Number[1]",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.6,
+                        "http://dbpedia.org/ontology/origin": 0.6
+                    },
+                    "subject": "Aircraft",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.6,
+                        "http://dbpedia.org/ontology/type": 0.6
+                    },
+                    "subject": "Aircraft",
+                    "object": "Role"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberBuilt": 0.2,
+                        "http://dbpedia.org/property/numberBuilt": 0.2
+                    },
+                    "subject": "Aircraft",
+                    "object": "Number[1]"
+                }
+            ],
+            "table": "Unnamed table in section 'Army Aviation Corps'",
+            "colums": [
+                "Aircraft",
+                "Photo",
+                "Origin",
+                "Role",
+                "Version",
+                "Number[1]",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.33,
+                        "http://dbpedia.org/ontology/origin": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.33,
+                        "http://dbpedia.org/ontology/type": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Role"
+                }
+            ],
+            "table": "Unnamed table in section 'Indian Coast Guard'",
+            "colums": [
+                "Aircraft",
+                "Photo",
+                "Origin",
+                "Role",
+                "Version",
+                "Number",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalOrigin": 0.17,
+                        "http://dbpedia.org/ontology/origin": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Origin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.17,
+                        "http://dbpedia.org/ontology/type": 0.33
+                    },
+                    "subject": "Aircraft",
+                    "object": "Role"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spanIn": 0.17
+                    },
+                    "subject": "Aircraft",
+                    "object": "Number"
+                }
+            ],
+            "table": "Unnamed table in section 'Unmanned Aerial Vehicles'",
+            "colums": [
+                "Aircraft",
+                "Photo",
+                "Origin",
+                "Role",
+                "Version",
+                "Number",
+                "Comment"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,437 @@
+{
+    "page": "List of Chinese wars and battles",
+    "no. of tables": 15,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Ancient China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commander": 0.09,
+                        "http://dbpedia.org/property/combatant": 0.32,
+                        "http://dbpedia.org/ontology/commander": 0.09
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leader": 0.05,
+                        "http://dbpedia.org/property/eventEnd": 0.05
+                    },
+                    "subject": "Brief description",
+                    "object": "Event"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commander": 0.25,
+                        "http://dbpedia.org/ontology/commander": 0.25
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/result": 0.02,
+                        "http://dbpedia.org/property/date": 0.14
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.33,
+                        "http://dbpedia.org/property/commander": 0.24,
+                        "http://dbpedia.org/property/place": 0.02,
+                        "http://dbpedia.org/property/combatant": 0.24,
+                        "http://dbpedia.org/ontology/place": 0.05
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathDate": 0.02,
+                        "http://dbpedia.org/property/dateOfDeath": 0.02
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/eventEnd": 0.02
+                    },
+                    "subject": "Brief description",
+                    "object": "Event"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commander": 0.07,
+                        "http://dbpedia.org/property/combatant": 0.13,
+                        "http://dbpedia.org/ontology/commander": 0.07
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.07
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.08
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.23
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearEnd": 0.08,
+                        "http://dbpedia.org/property/dateEvent": 0.08
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.08,
+                        "http://dbpedia.org/property/eventEnd": 0.08
+                    },
+                    "subject": "Brief description",
+                    "object": "Event"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.25
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commander": 0.25,
+                        "http://dbpedia.org/property/combatant": 0.5,
+                        "http://dbpedia.org/ontology/commander": 0.5
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.25,
+                        "http://dbpedia.org/property/yearEnd": 0.25
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.25,
+                        "http://dbpedia.org/property/eventEnd": 0.25
+                    },
+                    "subject": "Brief description",
+                    "object": "Event"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.27
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.36
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLeader": 0.05,
+                        "http://dbpedia.org/property/yearStart": 0.05,
+                        "http://dbpedia.org/property/yearEnd": 0.05,
+                        "http://dbpedia.org/property/statYear": 0.05,
+                        "http://dbpedia.org/property/years": 0.05
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.05
+                    },
+                    "subject": "Brief description",
+                    "object": "Event"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/place": 0.2,
+                        "http://dbpedia.org/ontology/place": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.17
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commander": 0.17,
+                        "http://dbpedia.org/ontology/commander": 0.17
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.21
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.11,
+                        "http://dbpedia.org/property/commander": 0.11,
+                        "http://dbpedia.org/property/place": 0.04,
+                        "http://dbpedia.org/property/combatant": 0.18,
+                        "http://dbpedia.org/ontology/commander": 0.21
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.07,
+                        "http://dbpedia.org/property/deathDate": 0.04,
+                        "http://dbpedia.org/property/dateOfDeath": 0.07,
+                        "http://dbpedia.org/property/eraDates": 0.04,
+                        "http://dbpedia.org/property/years": 0.04
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/event": 0.04
+                    },
+                    "subject": "Brief description",
+                    "object": "Event"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Imperial China'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.05
+                    },
+                    "subject": "Event",
+                    "object": "Year(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/territory": 0.01,
+                        "http://dbpedia.org/property/place": 0.03,
+                        "http://dbpedia.org/ontology/place": 0.04,
+                        "http://dbpedia.org/ontology/commander": 0.02,
+                        "http://dbpedia.org/property/combatant": 0.06,
+                        "http://dbpedia.org/property/commander": 0.02
+                    },
+                    "subject": "Event",
+                    "object": "Brief description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearEnd": 0.01,
+                        "http://dbpedia.org/property/statYear": 0.01
+                    },
+                    "subject": "Brief description",
+                    "object": "Year(s)"
+                }
+            ],
+            "colums": [
+                "Year(s)",
+                "Event",
+                "Brief description"
+            ]
+        }
+    ]
+}

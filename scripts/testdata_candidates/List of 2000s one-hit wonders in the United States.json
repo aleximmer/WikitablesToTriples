@@ -1,0 +1,250 @@
+{
+    "no. of tables": 10,
+    "page": "List of 2000s one-hit wonders in the United States",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.03,
+                        "http://dbpedia.org/property/artist": 0.67,
+                        "http://dbpedia.org/ontology/musicalBand": 0.73,
+                        "http://dbpedia.org/ontology/writer": 0.18,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.73,
+                        "http://dbpedia.org/property/allWriting": 0.03,
+                        "http://dbpedia.org/property/writer": 0.12
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.14,
+                        "http://dbpedia.org/property/artist": 0.48,
+                        "http://dbpedia.org/ontology/musicalBand": 0.55,
+                        "http://dbpedia.org/ontology/writer": 0.28,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.55,
+                        "http://dbpedia.org/property/allWriting": 0.03,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Single",
+                    "object": "Peak"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.09,
+                        "http://dbpedia.org/property/artist": 0.35,
+                        "http://dbpedia.org/ontology/musicalBand": 0.61,
+                        "http://dbpedia.org/ontology/writer": 0.17,
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.61,
+                        "http://dbpedia.org/property/artPerson": 0.04,
+                        "http://dbpedia.org/property/writer": 0.13
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.1,
+                        "http://dbpedia.org/property/artist": 0.31,
+                        "http://dbpedia.org/ontology/musicalBand": 0.45,
+                        "http://dbpedia.org/ontology/writer": 0.17,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.45,
+                        "http://dbpedia.org/property/writer": 0.03
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.05,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.57,
+                        "http://dbpedia.org/property/artist": 0.43,
+                        "http://dbpedia.org/ontology/musicalBand": 0.57,
+                        "http://dbpedia.org/ontology/writer": 0.1
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.27,
+                        "http://dbpedia.org/property/producer": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.14,
+                        "http://dbpedia.org/ontology/musicalBand": 0.45,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.45,
+                        "http://dbpedia.org/property/writer": 0.05
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/certification": 0.05
+                    },
+                    "subject": "Single",
+                    "object": "Peak"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.58,
+                        "http://dbpedia.org/ontology/musicalBand": 0.65,
+                        "http://dbpedia.org/ontology/writer": 0.16,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.65,
+                        "http://dbpedia.org/property/chronology": 0.03,
+                        "http://dbpedia.org/property/writer": 0.06
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.03,
+                        "http://dbpedia.org/property/certification": 0.03
+                    },
+                    "subject": "Single",
+                    "object": "Peak"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.12,
+                        "http://dbpedia.org/property/artist": 0.54,
+                        "http://dbpedia.org/ontology/musicalBand": 0.65,
+                        "http://dbpedia.org/ontology/writer": 0.23,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.65,
+                        "http://dbpedia.org/property/writer": 0.15
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.11,
+                        "http://dbpedia.org/ontology/musicalBand": 0.72,
+                        "http://dbpedia.org/ontology/writer": 0.33,
+                        "http://dbpedia.org/ontology/previousWork": 0.06,
+                        "http://dbpedia.org/property/producer": 0.06,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.72,
+                        "http://dbpedia.org/property/artist": 0.44,
+                        "http://dbpedia.org/property/writer": 0.11
+                    },
+                    "subject": "Single",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'One-hit wonders'",
+            "colums": [
+                "Artist",
+                "Single",
+                "Peak",
+                "Peak date",
+                "Ref."
+            ]
+        }
+    ]
+}

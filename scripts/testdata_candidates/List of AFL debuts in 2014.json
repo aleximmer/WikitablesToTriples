@@ -1,0 +1,223 @@
+{
+    "no. of tables": 3,
+    "page": "List of AFL debuts in 2014",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.06
+                    },
+                    "subject": "Club",
+                    "object": "AFL debuts"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.22
+                    },
+                    "subject": "Club",
+                    "object": "Change of club"
+                }
+            ],
+            "table": "Summary of debuts in 2014",
+            "colums": [
+                "Club",
+                "AFL debuts",
+                "Change of club"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentclub": 0.06,
+                        "http://dbpedia.org/property/clubs": 0.06,
+                        "http://dbpedia.org/property/draftpick": 0.04,
+                        "http://dbpedia.org/property/debutteam": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Debut\nround"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games(goals)_": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Games\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games(goals)_": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Goals\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.01,
+                        "http://dbpedia.org/property/afterfinals": 0.01
+                    },
+                    "subject": "Club",
+                    "object": "Debut\nround"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.01,
+                        "http://dbpedia.org/property/home&away": 0.06
+                    },
+                    "subject": "Club",
+                    "object": "Games\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.02,
+                        "http://dbpedia.org/property/afterfinals": 0.01,
+                        "http://dbpedia.org/property/premierships": 0.04,
+                        "http://dbpedia.org/property/home&away": 0.01
+                    },
+                    "subject": "Club",
+                    "object": "Goals\n(in 2014)"
+                }
+            ],
+            "table": "Unnamed table in section 'AFL debuts'",
+            "colums": [
+                "Name",
+                "Club",
+                "Age at debut",
+                "Debut\nround",
+                "Games\n(in 2014)",
+                "Goals\n(in 2014)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentclub": 0.1,
+                        "http://dbpedia.org/property/clubs": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftpick": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Debut\nround"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games(goals)_": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/guernsey": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Games\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games(goals)_": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Goals\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubs": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afterfinals": 0.02
+                    },
+                    "subject": "Club",
+                    "object": "Debut\nround"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.02,
+                        "http://dbpedia.org/property/home&away": 0.08
+                    },
+                    "subject": "Club",
+                    "object": "Games\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.04,
+                        "http://dbpedia.org/property/home&away": 0.02,
+                        "http://dbpedia.org/property/premierships": 0.04
+                    },
+                    "subject": "Club",
+                    "object": "Goals\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.14,
+                        "http://dbpedia.org/property/after": 0.12
+                    },
+                    "subject": "Club",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topgoalkicker": 0.02,
+                        "http://dbpedia.org/property/halfbackflank": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.1,
+                        "http://dbpedia.org/property/after": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/home&away": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Games\n(in 2014)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.04,
+                        "http://dbpedia.org/property/premierships": 0.02,
+                        "http://dbpedia.org/property/home&away": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Goals\n(in 2014)"
+                }
+            ],
+            "table": "Unnamed table in section 'Change of AFL club'",
+            "colums": [
+                "Name",
+                "Club",
+                "Age at debut",
+                "Debut\nround",
+                "Games\n(in 2014)",
+                "Goals\n(in 2014)",
+                "Notes"
+            ]
+        }
+    ]
+}

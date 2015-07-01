@@ -1,0 +1,282 @@
+{
+    "no. of tables": 4,
+    "page": "List of World Series champions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champion": 0.7
+                    },
+                    "subject": "Year",
+                    "object": "Winning team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/championManager": 0.97,
+                        "http://dbpedia.org/property/roadhr": 0.01,
+                        "http://dbpedia.org/property/homehr": 0.02
+                    },
+                    "subject": "Year",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conf": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "League"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runnerup": 0.67
+                    },
+                    "subject": "Year",
+                    "object": "Losing team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/championManager": 0.97,
+                        "http://dbpedia.org/property/roadhr": 0.01,
+                        "http://dbpedia.org/property/homehr": 0.02
+                    },
+                    "subject": "Year",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conf": 0.01
+                    },
+                    "subject": "Year",
+                    "object": "League"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/misc": 0.06
+                    },
+                    "subject": "Winning team",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owners": 0.02,
+                        "http://dbpedia.org/property/managers": 0.96
+                    },
+                    "subject": "Winning team",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owners": 0.02,
+                        "http://dbpedia.org/property/managers": 0.96
+                    },
+                    "subject": "Winning team",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Manager",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/misc": 0.01
+                    },
+                    "subject": "Losing team",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Manager",
+                    "object": "Manager"
+                }
+            ],
+            "table": "Unnamed table in section 'Winners'",
+            "colums": [
+                "Year",
+                "Winning team",
+                "Manager",
+                "League",
+                "Games",
+                "Losing team",
+                "Manager",
+                "League",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnote": 0.03
+                    },
+                    "subject": "Teams",
+                    "object": "Series\nappearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/league": 0.7
+                    },
+                    "subject": "Teams",
+                    "object": "Leagues"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnote": 0.07
+                    },
+                    "subject": "Teams",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnote": 0.03,
+                        "http://dbpedia.org/property/colora%23_": 0.03,
+                        "http://dbpedia.org/property/year": 0.03,
+                        "http://dbpedia.org/property/gap": 0.03
+                    },
+                    "subject": "Teams",
+                    "object": "Losses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wildCard": 0.03,
+                        "http://dbpedia.org/property/y": 0.03,
+                        "http://dbpedia.org/property/otherDivChamps": 0.03,
+                        "http://dbpedia.org/property/pennants": 0.13,
+                        "http://dbpedia.org/property/years": 0.17,
+                        "http://dbpedia.org/property/worldChampions": 0.1
+                    },
+                    "subject": "Teams",
+                    "object": "Most recent\nwin"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wildCard": 0.03,
+                        "http://dbpedia.org/property/otherPennants": 0.03,
+                        "http://dbpedia.org/property/y": 0.07,
+                        "http://dbpedia.org/property/otherDivChamps": 0.03,
+                        "http://dbpedia.org/property/pennants": 0.3,
+                        "http://dbpedia.org/property/years": 0.1,
+                        "http://dbpedia.org/property/divisionChamps": 0.03,
+                        "http://dbpedia.org/property/worldChampions": 0.07
+                    },
+                    "subject": "Teams",
+                    "object": "Most recent\nappearance"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.5,
+                        "http://dbpedia.org/property/y": 0.53
+                    },
+                    "subject": "Teams",
+                    "object": "Founded"
+                }
+            ],
+            "table": "Unnamed table in section 'Series appearances by club'",
+            "colums": [
+                "Series\nappearances",
+                "Teams",
+                "Leagues",
+                "Wins",
+                "Losses",
+                "Win\u00a0%",
+                "Most recent\nwin",
+                "Most recent\nappearance",
+                "Founded"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnote": 0.03
+                    },
+                    "subject": "Teams",
+                    "object": "Series\nappearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnote": 0.07
+                    },
+                    "subject": "Teams",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/footnote": 0.03,
+                        "http://dbpedia.org/property/colora%23_": 0.03,
+                        "http://dbpedia.org/property/year": 0.03,
+                        "http://dbpedia.org/property/gap": 0.03
+                    },
+                    "subject": "Teams",
+                    "object": "Losses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.4,
+                        "http://dbpedia.org/property/rr": 0.37,
+                        "http://dbpedia.org/property/hh": 0.17,
+                        "http://dbpedia.org/property/re": 0.3,
+                        "http://dbpedia.org/property/r": 0.5,
+                        "http://dbpedia.org/property/he": 0.33,
+                        "http://dbpedia.org/property/rh": 0.27,
+                        "http://dbpedia.org/property/hr": 0.23
+                    },
+                    "subject": "Season(s)",
+                    "object": "Series\nappearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runnerup": 0.27,
+                        "http://dbpedia.org/property/champion": 0.1,
+                        "http://dbpedia.org/property/home": 0.03
+                    },
+                    "subject": "Season(s)",
+                    "object": "Teams"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.67,
+                        "http://dbpedia.org/property/rh": 0.13,
+                        "http://dbpedia.org/property/hh": 0.1,
+                        "http://dbpedia.org/property/re": 0.53,
+                        "http://dbpedia.org/property/r": 0.73,
+                        "http://dbpedia.org/property/cohenpp": 0.03,
+                        "http://dbpedia.org/property/he": 0.43,
+                        "http://dbpedia.org/property/rr": 0.47,
+                        "http://dbpedia.org/property/hr": 0.43
+                    },
+                    "subject": "Season(s)",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.6,
+                        "http://dbpedia.org/property/rr": 0.47,
+                        "http://dbpedia.org/property/hh": 0.3,
+                        "http://dbpedia.org/property/re": 0.53,
+                        "http://dbpedia.org/property/r": 0.63,
+                        "http://dbpedia.org/property/he": 0.5,
+                        "http://dbpedia.org/property/rh": 0.23,
+                        "http://dbpedia.org/property/hr": 0.3
+                    },
+                    "subject": "Season(s)",
+                    "object": "Losses"
+                }
+            ],
+            "table": "Unnamed table in section 'Series appearances by club'",
+            "colums": [
+                "Series\nappearances",
+                "Teams",
+                "Wins",
+                "Losses",
+                "Win\u00a0%",
+                "Season(s)"
+            ]
+        }
+    ]
+}

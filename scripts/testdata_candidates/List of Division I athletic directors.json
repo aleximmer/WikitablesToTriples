@@ -1,0 +1,903 @@
+{
+    "page": "List of NCAA Division I athletic directors",
+    "no. of tables": 49,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.67,
+                        "http://dbpedia.org/ontology/director": 0.22
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.6,
+                        "http://dbpedia.org/ontology/director": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.25,
+                        "http://dbpedia.org/ontology/director": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adminTeams": 0.25
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.46,
+                        "http://dbpedia.org/ontology/director": 0.12
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.29,
+                        "http://dbpedia.org/ontology/director": 0.29
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.46,
+                        "http://dbpedia.org/ontology/director": 0.15
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.08,
+                        "http://dbpedia.org/property/adminTeams": 0.15
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.71
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.67
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.46,
+                        "http://dbpedia.org/ontology/director": 0.08
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5,
+                        "http://dbpedia.org/ontology/director": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerTeams": 0.1,
+                        "http://dbpedia.org/property/currentTeam": 0.1
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.75,
+                        "http://dbpedia.org/ontology/director": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/director": 0.67
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/currentTeam": 0.33,
+                        "http://dbpedia.org/property/adminTeams": 0.33
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.86,
+                        "http://dbpedia.org/ontology/director": 0.29
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.42,
+                        "http://dbpedia.org/ontology/director": 0.33
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.08,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/ontology/director": 0.08,
+                        "http://dbpedia.org/property/adminTeams": 0.17
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.57,
+                        "http://dbpedia.org/ontology/director": 0.29
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adminTeams": 0.14
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.33,
+                        "http://dbpedia.org/ontology/director": 0.11
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adminTeams": 0.11
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.29
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/director": 1.0
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.6
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5,
+                        "http://dbpedia.org/ontology/director": 0.33
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0,
+                        "http://dbpedia.org/ontology/director": 0.33
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.38,
+                        "http://dbpedia.org/ontology/director": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.55,
+                        "http://dbpedia.org/ontology/director": 0.18
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.65,
+                        "http://dbpedia.org/ontology/director": 0.24
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coachedTeam": 0.06,
+                        "http://dbpedia.org/property/currentTeam": 0.12,
+                        "http://dbpedia.org/property/coachTeams": 0.06,
+                        "http://dbpedia.org/property/adminTeams": 0.12
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.62,
+                        "http://dbpedia.org/ontology/director": 0.08
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.08,
+                        "http://dbpedia.org/property/adminTeams": 0.08
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5,
+                        "http://dbpedia.org/ontology/director": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5,
+                        "http://dbpedia.org/ontology/director": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coachedTeam": 0.25,
+                        "http://dbpedia.org/property/coachTeams": 0.25
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.57
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.75,
+                        "http://dbpedia.org/ontology/director": 0.17
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.33,
+                        "http://dbpedia.org/property/adminTeams": 0.17
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.42
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.39,
+                        "http://dbpedia.org/ontology/director": 0.13
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.04,
+                        "http://dbpedia.org/property/adminTeams": 0.04
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.83,
+                        "http://dbpedia.org/ontology/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.17,
+                        "http://dbpedia.org/property/adminTeams": 0.17
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.57,
+                        "http://dbpedia.org/ontology/director": 0.14
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerTeams": 0.07,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.07,
+                        "http://dbpedia.org/property/currentTeam": 0.14,
+                        "http://dbpedia.org/property/adminTeams": 0.14
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.75
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5,
+                        "http://dbpedia.org/ontology/director": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentTeam": 0.25,
+                        "http://dbpedia.org/property/adminTeams": 0.25
+                    },
+                    "subject": "Athletic Director",
+                    "object": "School"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5,
+                        "http://dbpedia.org/ontology/director": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By state'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0
+                    },
+                    "subject": "School",
+                    "object": "Athletic Director"
+                }
+            ],
+            "colums": [
+                "School",
+                "Athletic Director"
+            ]
+        }
+    ]
+}

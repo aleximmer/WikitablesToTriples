@@ -1,0 +1,760 @@
+{
+    "no. of tables": 6,
+    "page": "List of Tasmanian representative cricketers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/matches": 0.16,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/matches": 0.16,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/matches": 0.16,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'Cricketers'",
+            "colums": [
+                "No",
+                "Name",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/title4wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/title4wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/title4wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'Cricketers'",
+            "colums": [
+                "No",
+                "Name",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'Cricketers'",
+            "colums": [
+                "No",
+                "Name",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.07,
+                        "http://dbpedia.org/property/heightft": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.04,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/matches": 0.21,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/odicap": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.07,
+                        "http://dbpedia.org/property/heightft": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.04,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/matches": 0.21,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/odicap": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.07,
+                        "http://dbpedia.org/property/heightft": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.04,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/matches": 0.21,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/odicap": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.11,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.02,
+                        "http://dbpedia.org/property/title1wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.02,
+                        "http://dbpedia.org/property/title1wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.02,
+                        "http://dbpedia.org/property/title1wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'Cricketers'",
+            "colums": [
+                "No",
+                "Name",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/catches/stumpings": 0.11,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/batAvg": 0.03,
+                        "http://dbpedia.org/property/matches": 0.4,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/catches/stumpings": 0.11,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/batAvg": 0.03,
+                        "http://dbpedia.org/property/matches": 0.4,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/catches/stumpings": 0.11,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/batAvg": 0.03,
+                        "http://dbpedia.org/property/matches": 0.4,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/debutfor": 0.01,
+                        "http://dbpedia.org/property/club": 0.28,
+                        "http://dbpedia.org/property/column": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rodcwins": 0.01,
+                        "http://dbpedia.org/property/currentOfficialRank": 0.01,
+                        "http://dbpedia.org/property/frcwins": 0.01,
+                        "http://dbpedia.org/property/title1wins": 0.01,
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rodcwins": 0.01,
+                        "http://dbpedia.org/property/currentOfficialRank": 0.01,
+                        "http://dbpedia.org/property/frcwins": 0.01,
+                        "http://dbpedia.org/property/title1wins": 0.01,
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rodcwins": 0.01,
+                        "http://dbpedia.org/property/currentOfficialRank": 0.01,
+                        "http://dbpedia.org/property/frcwins": 0.01,
+                        "http://dbpedia.org/property/title1wins": 0.01,
+                        "http://dbpedia.org/property/title2wins": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'Cricketers'",
+            "colums": [
+                "No",
+                "Name",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.06,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.04,
+                        "http://dbpedia.org/property/topScore": 0.04,
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/matches": 0.2,
+                        "http://dbpedia.org/property/columns": 0.1,
+                        "http://dbpedia.org/property/bestBowling": 0.12,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/odishirt": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.08,
+                        "http://dbpedia.org/property/bowlAvg": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.06,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.04,
+                        "http://dbpedia.org/property/topScore": 0.04,
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/matches": 0.2,
+                        "http://dbpedia.org/property/columns": 0.1,
+                        "http://dbpedia.org/property/bestBowling": 0.12,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/odishirt": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.08,
+                        "http://dbpedia.org/property/bowlAvg": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/bowlAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.06,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.04,
+                        "http://dbpedia.org/property/topScore": 0.04,
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/matches": 0.2,
+                        "http://dbpedia.org/property/columns": 0.1,
+                        "http://dbpedia.org/property/bestBowling": 0.12,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/odishirt": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.08,
+                        "http://dbpedia.org/property/bowlAvg": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.32,
+                        "http://dbpedia.org/property/column": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Apps"
+                }
+            ],
+            "table": "Unnamed table in section 'Cricketers'",
+            "colums": [
+                "No",
+                "Name",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "First",
+                "Last",
+                "Apps",
+                "Notes"
+            ]
+        }
+    ]
+}

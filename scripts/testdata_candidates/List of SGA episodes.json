@@ -1,0 +1,201 @@
+{
+    "no. of tables": 6,
+    "page": "List of Stargate Atlantis episodes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'Television series'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseries"
+                }
+            ],
+            "table": "Unnamed table in section 'Television series'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.05,
+                        "http://dbpedia.org/property/episode": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Directed by",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'Television series'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.1,
+                        "http://dbpedia.org/property/episode": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/director": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.1,
+                        "http://dbpedia.org/ontology/writer": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "Directed by",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nseason"
+                }
+            ],
+            "table": "Unnamed table in section 'Television series'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.2,
+                        "http://dbpedia.org/property/episode": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/director": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.15,
+                        "http://dbpedia.org/ontology/writer": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "Directed by",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Television series'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "no. of tables": 2,
+    "page": "National Register of Historic Places listings in Knox County, Tennessee",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/latMinutes": 0.01,
+                        "http://dbpedia.org/property/longSeconds": 0.01
+                    },
+                    "subject": "Name on the Register[4]",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governingBody": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Name on the Register[4]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/property/city": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.6,
+                        "http://dbpedia.org/ontology/nearestCity": 0.1,
+                        "http://dbpedia.org/ontology/headquarter": 0.01,
+                        "http://dbpedia.org/property/nearestCity": 0.1
+                    },
+                    "subject": "Name on the Register[4]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/architect": 0.06,
+                        "http://dbpedia.org/property/architect": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Name on the Register[4]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.02,
+                        "http://dbpedia.org/ontology/routeJunction": 0.02,
+                        "http://dbpedia.org/property/city": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.01,
+                        "http://dbpedia.org/property/sealSize": 0.01,
+                        "http://dbpedia.org/ontology/area": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "City or town",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.01,
+                        "http://dbpedia.org/ontology/residence": 0.01,
+                        "http://dbpedia.org/ontology/significantBuilding": 0.01,
+                        "http://dbpedia.org/property/residence": 0.01,
+                        "http://dbpedia.org/property/significantBuildings": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "Name on the Register[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.06,
+                        "http://dbpedia.org/ontology/residence": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Current listings'",
+            "colums": [
+                "[3]",
+                "Name on the Register[4]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Name on the Register",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.2,
+                        "http://dbpedia.org/property/areaMagnitude": 0.2
+                    },
+                    "subject": "City or town",
+                    "object": "[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/district": 0.2
+                    },
+                    "subject": "Summary",
+                    "object": "[3]"
+                }
+            ],
+            "table": "Unnamed table in section 'Former listings'",
+            "colums": [
+                "[3]",
+                "Name on the Register",
+                "Image",
+                "Date listed",
+                "Date removed",
+                "Location",
+                "City or town",
+                "Summary"
+            ]
+        }
+    ]
+}

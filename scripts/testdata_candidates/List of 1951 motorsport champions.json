@@ -1,0 +1,33 @@
+{
+    "no. of tables": 3,
+    "page": "List of 1951 motorsport champions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.5,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.5
+                    },
+                    "subject": "Series",
+                    "object": "Driver"
+                }
+            ],
+            "table": "Unnamed table in section 'Formula cars'",
+            "colums": [
+                "Series",
+                "Driver",
+                "Season article"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sports car'",
+            "colums": [
+                "Series",
+                "Driver",
+                "Season article"
+            ]
+        }
+    ]
+}

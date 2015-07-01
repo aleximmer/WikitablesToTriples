@@ -1,0 +1,602 @@
+{
+    "page": "List of Super Famicom games (A\u2013H)",
+    "no. of tables": 9,
+    "tables": [
+        {
+            "table": "Unnamed table in section '0\u20139'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.25,
+                        "http://dbpedia.org/property/developer": 0.25
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.25,
+                        "http://dbpedia.org/ontology/publisher": 0.25
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'A'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.37,
+                        "http://dbpedia.org/property/series": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.45,
+                        "http://dbpedia.org/property/name": 0.14,
+                        "http://dbpedia.org/property/title": 0.37
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/distributor": 0.02,
+                        "http://dbpedia.org/property/developer": 0.33,
+                        "http://dbpedia.org/ontology/publisher": 0.33,
+                        "http://dbpedia.org/ontology/series": 0.04,
+                        "http://dbpedia.org/ontology/developer": 0.33,
+                        "http://dbpedia.org/ontology/distributor": 0.02,
+                        "http://dbpedia.org/property/publisher": 0.14
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/distributor": 0.02,
+                        "http://dbpedia.org/property/developer": 0.22,
+                        "http://dbpedia.org/ontology/publisher": 0.49,
+                        "http://dbpedia.org/ontology/series": 0.04,
+                        "http://dbpedia.org/ontology/developer": 0.24,
+                        "http://dbpedia.org/ontology/distributor": 0.02,
+                        "http://dbpedia.org/property/publisher": 0.35
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.02
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Wikipedia Main Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.04,
+                        "http://dbpedia.org/ontology/parentCompany": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/keyPerson": 0.06,
+                        "http://dbpedia.org/property/parent": 0.02,
+                        "http://dbpedia.org/property/subsid": 0.02,
+                        "http://dbpedia.org/ontology/subsidiary": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.04,
+                        "http://dbpedia.org/ontology/parentCompany": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/keyPerson": 0.02,
+                        "http://dbpedia.org/ontology/owningCompany": 0.04,
+                        "http://dbpedia.org/property/parent": 0.04,
+                        "http://dbpedia.org/property/subsid": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/property/owner": 0.04,
+                        "http://dbpedia.org/ontology/subsidiary": 0.04
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'B'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.32,
+                        "http://dbpedia.org/property/series": 0.03,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.32,
+                        "http://dbpedia.org/property/name": 0.1,
+                        "http://dbpedia.org/property/title": 0.32
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.12,
+                        "http://dbpedia.org/property/developer": 0.12,
+                        "http://dbpedia.org/property/publisher": 0.06,
+                        "http://dbpedia.org/ontology/publisher": 0.06
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/developer": 0.07,
+                        "http://dbpedia.org/ontology/publisher": 0.3,
+                        "http://dbpedia.org/property/publisher": 0.29
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Wikipedia Main Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parentCompany": 0.01,
+                        "http://dbpedia.org/property/parent": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.01,
+                        "http://dbpedia.org/ontology/subsidiary": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'C'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.31,
+                        "http://dbpedia.org/property/series": 0.06,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.43,
+                        "http://dbpedia.org/property/name": 0.08,
+                        "http://dbpedia.org/property/title": 0.31
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/developer": 0.06,
+                        "http://dbpedia.org/ontology/publisher": 0.06,
+                        "http://dbpedia.org/property/publisher": 0.02
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.18,
+                        "http://dbpedia.org/property/developer": 0.18,
+                        "http://dbpedia.org/ontology/publisher": 0.29,
+                        "http://dbpedia.org/property/publisher": 0.14
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.02
+                    },
+                    "subject": "Publisher",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.04
+                    },
+                    "subject": "Publisher",
+                    "object": "Wikipedia Main Title"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'D'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.22,
+                        "http://dbpedia.org/property/series": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.28,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://dbpedia.org/property/title": 0.22
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/developer": 0.05,
+                        "http://dbpedia.org/property/publisher": 0.02,
+                        "http://dbpedia.org/ontology/publisher": 0.05
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.14,
+                        "http://dbpedia.org/property/developer": 0.13,
+                        "http://dbpedia.org/ontology/publisher": 0.18,
+                        "http://dbpedia.org/property/publisher": 0.1
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Wikipedia Main Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Wikipedia Main Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'E'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.21,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.21,
+                        "http://dbpedia.org/property/title": 0.21,
+                        "http://dbpedia.org/property/series": 0.05
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.16,
+                        "http://dbpedia.org/property/developer": 0.16,
+                        "http://dbpedia.org/ontology/publisher": 0.11
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.16,
+                        "http://dbpedia.org/property/developer": 0.16,
+                        "http://dbpedia.org/property/publisher": 0.05,
+                        "http://dbpedia.org/ontology/publisher": 0.21
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'F'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.36,
+                        "http://dbpedia.org/property/series": 0.06,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.36,
+                        "http://dbpedia.org/property/name": 0.1,
+                        "http://dbpedia.org/property/title": 0.36
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.2,
+                        "http://dbpedia.org/property/developer": 0.12,
+                        "http://dbpedia.org/ontology/publisher": 0.08,
+                        "http://dbpedia.org/property/publisher": 0.02
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.22,
+                        "http://dbpedia.org/property/developer": 0.14,
+                        "http://dbpedia.org/property/publisher": 0.18,
+                        "http://dbpedia.org/ontology/publisher": 0.32
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/ontology/keyPerson": 0.1
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/ontology/keyPerson": 0.1
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'G'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.12,
+                        "http://dbpedia.org/property/series": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.22,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/title": 0.13
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.17,
+                        "http://dbpedia.org/property/developer": 0.2,
+                        "http://dbpedia.org/ontology/publisher": 0.15,
+                        "http://dbpedia.org/property/publisher": 0.1
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.13,
+                        "http://dbpedia.org/property/developer": 0.12,
+                        "http://dbpedia.org/ontology/publisher": 0.17,
+                        "http://dbpedia.org/property/publisher": 0.13
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'H'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.12,
+                        "http://dbpedia.org/property/thisAlbum": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.16,
+                        "http://dbpedia.org/property/title": 0.12,
+                        "http://dbpedia.org/property/series": 0.03,
+                        "http://dbpedia.org/property/name": 0.03
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.09,
+                        "http://dbpedia.org/property/developer": 0.09,
+                        "http://dbpedia.org/ontology/publisher": 0.05,
+                        "http://dbpedia.org/property/publisher": 0.01
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.1,
+                        "http://dbpedia.org/property/developer": 0.07,
+                        "http://dbpedia.org/property/publisher": 0.11,
+                        "http://dbpedia.org/ontology/publisher": 0.15
+                    },
+                    "subject": "Wikipedia Main Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Developer",
+                    "object": "Wikipedia Main Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Famicom Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Wikipedia Main Title"
+                }
+            ],
+            "colums": [
+                "Famicom Title",
+                "Wikipedia Main Title",
+                "English Trans",
+                "Developer",
+                "Publisher",
+                "Release date"
+            ]
+        }
+    ]
+}

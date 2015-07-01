@@ -1,0 +1,316 @@
+{
+    "no. of tables": 9,
+    "page": "List of number-one albums from the 2000s (Denmark)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/isbn": 0.04
+                    },
+                    "subject": "Artist",
+                    "object": "Weeks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.38,
+                        "http://dbpedia.org/property/producer": 0.12,
+                        "http://dbpedia.org/ontology/producer": 0.27,
+                        "http://dbpedia.org/ontology/artist": 0.38,
+                        "http://dbpedia.org/property/allWriting": 0.04,
+                        "http://dbpedia.org/property/writer": 0.04
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.04
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2001'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.48,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/ontology/producer": 0.14,
+                        "http://dbpedia.org/ontology/artist": 0.48,
+                        "http://dbpedia.org/property/chronology": 0.03,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.07
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2002'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.04,
+                        "http://dbpedia.org/ontology/artist": 0.44,
+                        "http://dbpedia.org/property/artist": 0.48,
+                        "http://dbpedia.org/property/producer": 0.12,
+                        "http://dbpedia.org/ontology/producer": 0.28
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.12
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2003'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/name": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.04
+                    },
+                    "subject": "Artist",
+                    "object": "Album"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.25,
+                        "http://dbpedia.org/ontology/producer": 0.12,
+                        "http://dbpedia.org/property/artist": 0.21,
+                        "http://dbpedia.org/property/writer": 0.08
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.08
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2004'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/ontology/artist": 0.32,
+                        "http://dbpedia.org/property/artist": 0.32,
+                        "http://dbpedia.org/property/producer": 0.06,
+                        "http://dbpedia.org/property/writer": 0.06
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/format": 0.03
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2005'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.04,
+                        "http://dbpedia.org/property/artist": 0.04
+                    },
+                    "subject": "Artist",
+                    "object": "Album"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.35,
+                        "http://dbpedia.org/property/producer": 0.08,
+                        "http://dbpedia.org/property/extra": 0.04,
+                        "http://dbpedia.org/ontology/producer": 0.15,
+                        "http://dbpedia.org/ontology/artist": 0.38,
+                        "http://dbpedia.org/property/lyrics": 0.04,
+                        "http://dbpedia.org/property/allWriting": 0.04
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.08
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2006'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.14,
+                        "http://dbpedia.org/ontology/artist": 0.5,
+                        "http://dbpedia.org/property/artist": 0.5,
+                        "http://dbpedia.org/property/producer": 0.07,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.07
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2007'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/children": 0.05
+                    },
+                    "subject": "Artist",
+                    "object": "Weeks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.05,
+                        "http://dbpedia.org/ontology/artist": 0.27,
+                        "http://dbpedia.org/property/artist": 0.27,
+                        "http://dbpedia.org/property/type": 0.05,
+                        "http://dbpedia.org/ontology/producer": 0.05
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.14,
+                        "http://dbpedia.org/property/rows": 0.05
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2008'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03
+                    },
+                    "subject": "Artist",
+                    "object": "Album"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.53,
+                        "http://dbpedia.org/property/producer": 0.1,
+                        "http://dbpedia.org/property/extra": 0.07,
+                        "http://dbpedia.org/ontology/producer": 0.23,
+                        "http://dbpedia.org/property/allMusic": 0.03,
+                        "http://dbpedia.org/ontology/artist": 0.53,
+                        "http://dbpedia.org/property/allWriting": 0.07,
+                        "http://dbpedia.org/property/chronology": 0.07,
+                        "http://dbpedia.org/property/writer": 0.1
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.1,
+                        "http://dbpedia.org/property/id": 0.03
+                    },
+                    "subject": "Album",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '2009'",
+            "colums": [
+                "Artist",
+                "Album",
+                "Reached number 1",
+                "Weeks"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,244 @@
+{
+    "no. of tables": 45,
+    "page": "List of Stanley Cup challenge games",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Champions'",
+            "colums": [
+                "Season",
+                "Champion at end of season",
+                "Other champion during season"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.05
+                    },
+                    "subject": "Year",
+                    "object": "Times\nCup Awarded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.14,
+                        "http://dbpedia.org/property/leagueChamps": 0.32,
+                        "http://dbpedia.org/property/finalsChamp": 0.14,
+                        "http://dbpedia.org/property/title": 0.27,
+                        "http://dbpedia.org/property/after": 0.09
+                    },
+                    "subject": "Year",
+                    "object": "Champions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/championships": 0.09
+                    },
+                    "subject": "Champions",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/canEng": 0.05,
+                        "http://dbpedia.org/property/stanleyCups": 0.09
+                    },
+                    "subject": "Champions",
+                    "object": "Times\nCup Awarded"
+                }
+            ],
+            "table": "Unnamed table in section 'Champions'",
+            "colums": [
+                "Year",
+                "Times\nCup Awarded",
+                "Champions"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1893\u201394'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1893\u201394'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1894\u201395'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1895\u201396'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1896\u201397'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1897\u201398'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1898\u201399'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Winning Team"
+                }
+            ],
+            "table": "Unnamed table in section '1905\u201306'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "Winning Team"
+                }
+            ],
+            "table": "Unnamed table in section '1907\u201308'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "Winning Team"
+                }
+            ],
+            "table": "Unnamed table in section '1909\u201310'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1910\u201311'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1910\u201311'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Winning Team"
+                }
+            ],
+            "table": "Unnamed table in section '1913\u201314'",
+            "colums": [
+                "Date",
+                "Winning Team",
+                "Score",
+                "Losing Team",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Table of participating teams'",
+            "colums": [
+                "Team",
+                "SC",
+                "UC",
+                "Total",
+                "Win\u00a0%"
+            ]
+        }
+    ]
+}

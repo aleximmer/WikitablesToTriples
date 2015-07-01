@@ -1,0 +1,242 @@
+{
+    "no. of tables": 2,
+    "page": "List of highest mountains of Germany",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Peak",
+                    "object": "Ranking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.73,
+                        "http://dbpedia.org/property/range": 0.7
+                    },
+                    "subject": "Peak",
+                    "object": "Mountain range"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/property/name": 0.33,
+                        "http://dbpedia.org/property/photoCaption": 0.1,
+                        "http://xmlns.com/foaf/0.1/name": 0.33
+                    },
+                    "subject": "Peak",
+                    "object": "Massif"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parentPeak": 0.1,
+                        "http://dbpedia.org/ontology/parentMountainPeak": 0.1
+                    },
+                    "subject": "Peak",
+                    "object": "Isolation\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstAscentPerson": 0.3
+                    },
+                    "subject": "Peak",
+                    "object": "First climb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latM": 0.03,
+                        "http://dbpedia.org/property/longD": 0.03,
+                        "http://dbpedia.org/property/rangeLongD": 0.03
+                    },
+                    "subject": "Mountain range",
+                    "object": "Ranking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highest": 0.37
+                    },
+                    "subject": "Mountain range",
+                    "object": "Massif"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highest": 0.03
+                    },
+                    "subject": "Mountain range",
+                    "object": "Isolation\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.17,
+                        "http://dbpedia.org/property/range": 0.03
+                    },
+                    "subject": "Massif",
+                    "object": "Mountain range"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Isolation\n(km)",
+                    "object": "Ranking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.57,
+                        "http://dbpedia.org/property/range": 0.43
+                    },
+                    "subject": "Isolation\n(km)",
+                    "object": "Mountain range"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.23,
+                        "http://dbpedia.org/property/name": 0.23,
+                        "http://dbpedia.org/property/photoCaption": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.23
+                    },
+                    "subject": "Isolation\n(km)",
+                    "object": "Massif"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstAscentPerson": 0.1
+                    },
+                    "subject": "Isolation\n(km)",
+                    "object": "First climb"
+                }
+            ],
+            "table": "Unnamed table in section 'The highest summits'",
+            "colums": [
+                "Ranking",
+                "Photograph",
+                "Peak",
+                "Height\n(m)",
+                "Mountain range",
+                "Massif",
+                "Isolation\n(km)",
+                "Prominence\n(m)",
+                "First climb"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Peak",
+                    "object": "Ranking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.9,
+                        "http://dbpedia.org/property/range": 0.71
+                    },
+                    "subject": "Peak",
+                    "object": "Mountain range"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.71,
+                        "http://dbpedia.org/property/location": 0.57
+                    },
+                    "subject": "Peak",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parentPeak": 0.1,
+                        "http://dbpedia.org/ontology/parentMountainPeak": 0.1
+                    },
+                    "subject": "Peak",
+                    "object": "Isolation (km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstAscentPerson": 0.33
+                    },
+                    "subject": "Peak",
+                    "object": "First climb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longM": 0.05,
+                        "http://dbpedia.org/property/longD": 0.05
+                    },
+                    "subject": "Mountain range",
+                    "object": "Ranking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.38,
+                        "http://dbpedia.org/ontology/country": 0.81
+                    },
+                    "subject": "Mountain range",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highest": 0.05
+                    },
+                    "subject": "Mountain range",
+                    "object": "Isolation (km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/ethnicGroups": 0.05,
+                        "http://dbpedia.org/property/value": 0.14,
+                        "http://dbpedia.org/property/populationCensusRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.05,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Ranking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.33,
+                        "http://dbpedia.org/property/range": 0.14
+                    },
+                    "subject": "Isolation (km)",
+                    "object": "Mountain range"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.52,
+                        "http://dbpedia.org/property/location": 0.48
+                    },
+                    "subject": "Isolation (km)",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstAscentPerson": 0.1
+                    },
+                    "subject": "Isolation (km)",
+                    "object": "First climb"
+                }
+            ],
+            "table": "Unnamed table in section 'The highest mountains'",
+            "colums": [
+                "Ranking",
+                "Photograph",
+                "Peak",
+                "Height (m)",
+                "Mountain range",
+                "Location",
+                "Isolation (km)",
+                "Prominence (m)",
+                "First climb",
+                "on"
+            ]
+        }
+    ]
+}

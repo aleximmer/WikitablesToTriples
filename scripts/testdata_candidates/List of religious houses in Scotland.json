@@ -1,0 +1,192 @@
+{
+    "no. of tables": 30,
+    "page": "List of monastic houses in Scotland",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mother": 0.04
+                    },
+                    "subject": "Foundation",
+                    "object": "Communities & Provenance"
+                }
+            ],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mother": 0.17
+                    },
+                    "subject": "Foundation",
+                    "object": "Communities & Provenance"
+                }
+            ],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mother": 0.33
+                    },
+                    "subject": "Foundation",
+                    "object": "Communities & Provenance"
+                }
+            ],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mother": 0.12
+                    },
+                    "subject": "Foundation",
+                    "object": "Communities & Provenance"
+                }
+            ],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of establishments by county/region'",
+            "colums": [
+                "Foundation",
+                "Image",
+                "Communities & Provenance",
+                "Formal Name or Dedication\n& Alternative Names",
+                "OnLine References & Location"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "no. of tables": 2,
+    "page": "List of NAIA institutions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mascot": 0.17,
+                        "http://dbpedia.org/ontology/mascot": 0.17,
+                        "http://dbpedia.org/property/free": 0.0,
+                        "http://dbpedia.org/ontology/athletics": 0.0,
+                        "http://dbpedia.org/ontology/sport": 0.01,
+                        "http://xmlns.com/foaf/0.1/nick": 0.4,
+                        "http://dbpedia.org/property/athletics": 0.01,
+                        "http://dbpedia.org/property/teamName": 0.01,
+                        "http://dbpedia.org/property/sports": 0.01,
+                        "http://dbpedia.org/property/nickname": 0.36
+                    },
+                    "subject": "School",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.87,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/city": 0.83,
+                        "http://dbpedia.org/ontology/campus": 0.0,
+                        "http://dbpedia.org/ontology/affiliation": 0.0
+                    },
+                    "subject": "School",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/property/state": 0.84,
+                        "http://dbpedia.org/ontology/state": 0.85,
+                        "http://dbpedia.org/ontology/province": 0.0,
+                        "http://dbpedia.org/property/province": 0.0
+                    },
+                    "subject": "School",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/athletics": 0.11,
+                        "http://dbpedia.org/property/affiliations": 0.17,
+                        "http://dbpedia.org/ontology/athletics": 0.06,
+                        "http://dbpedia.org/ontology/sport": 0.0,
+                        "http://dbpedia.org/property/conference": 0.0,
+                        "http://dbpedia.org/property/sports": 0.0,
+                        "http://dbpedia.org/ontology/affiliation": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/university": 0.07,
+                        "http://dbpedia.org/property/university": 0.06,
+                        "http://dbpedia.org/ontology/stadium": 0.0,
+                        "http://dbpedia.org/property/arena": 0.0
+                    },
+                    "subject": "Nickname",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/city": 0.0
+                    },
+                    "subject": "Nickname",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 0.0
+                    },
+                    "subject": "Nickname",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conference": 0.08
+                    },
+                    "subject": "Nickname",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/ontology/state": 0.03,
+                        "http://dbpedia.org/ontology/isPartOf": 0.94,
+                        "http://dbpedia.org/property/subdivisionName": 0.73
+                    },
+                    "subject": "City",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.09,
+                        "http://dbpedia.org/property/capital": 0.1,
+                        "http://dbpedia.org/property/lowestpoint": 0.02,
+                        "http://dbpedia.org/property/largestcity(2000census)_": 0.02,
+                        "http://dbpedia.org/property/label": 0.02,
+                        "http://dbpedia.org/ontology/largestCity": 0.07,
+                        "http://dbpedia.org/property/largestcity": 0.07
+                    },
+                    "subject": "State/\nProvince",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.04
+                    },
+                    "subject": "Conference",
+                    "object": "State/\nProvince"
+                }
+            ],
+            "table": "List of NAIA institutions",
+            "colums": [
+                "School",
+                "Nickname",
+                "City",
+                "State/\nProvince",
+                "Conference",
+                "Division [A 1]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.25,
+                        "http://xmlns.com/foaf/0.1/nick": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/city": 0.5
+                    },
+                    "subject": "School",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.5,
+                        "http://dbpedia.org/ontology/state": 0.5
+                    },
+                    "subject": "School",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "City",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.5,
+                        "http://dbpedia.org/property/largestcity": 0.5
+                    },
+                    "subject": "State/\nProvince",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Future institutions'",
+            "colums": [
+                "School",
+                "Nickname",
+                "City",
+                "State/\nProvince",
+                "Conference",
+                "Division"
+            ]
+        }
+    ]
+}

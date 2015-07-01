@@ -1,0 +1,271 @@
+{
+    "no. of tables": 10,
+    "page": "List of nature centres in Canada",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.11,
+                        "http://dbpedia.org/property/nearestCity": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.89
+                    },
+                    "subject": "Location",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Alberta'",
+            "colums": [
+                "Name",
+                "Location",
+                "Region",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.06,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/property/nearestCity": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.81,
+                        "http://dbpedia.org/property/subdivisionName": 0.81
+                    },
+                    "subject": "Location",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06
+                    },
+                    "subject": "Region",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.06,
+                        "http://dbpedia.org/property/locationCity": 0.06
+                    },
+                    "subject": "Summary",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.06,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.06,
+                        "http://dbpedia.org/ontology/locationCity": 0.06,
+                        "http://dbpedia.org/property/locationCity": 0.06
+                    },
+                    "subject": "Summary",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'British Columbia'",
+            "colums": [
+                "Name",
+                "Location",
+                "Region",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/nearestCity": 0.25,
+                        "http://dbpedia.org/property/nearestCity": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Manitoba'",
+            "colums": [
+                "Name",
+                "Location",
+                "Region",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.83,
+                        "http://dbpedia.org/property/subdivisionName": 0.83
+                    },
+                    "subject": "Location",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'New Brunswick'",
+            "colums": [
+                "Name",
+                "Location",
+                "County",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Newfoundland'",
+            "colums": [
+                "Name",
+                "Location",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Nova Scotia'",
+            "colums": [
+                "Name",
+                "Location",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.21,
+                        "http://dbpedia.org/ontology/regionServed": 0.04,
+                        "http://dbpedia.org/property/foundedDate": 0.04,
+                        "http://dbpedia.org/ontology/nearestCity": 0.08,
+                        "http://dbpedia.org/property/headquarters": 0.04,
+                        "http://dbpedia.org/property/nearestCity": 0.08,
+                        "http://dbpedia.org/ontology/headquarter": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Summary"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.04
+                    },
+                    "subject": "Summary",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaServed": 0.04
+                    },
+                    "subject": "Summary",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Ontario'",
+            "colums": [
+                "Name",
+                "Location",
+                "Region",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Prince Edward Island'",
+            "colums": [
+                "Name",
+                "Location",
+                "County",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Quebec'",
+            "colums": [
+                "Name",
+                "Location",
+                "Region",
+                "Summary"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.38,
+                        "http://dbpedia.org/property/subdivisionName": 0.25
+                    },
+                    "subject": "Location",
+                    "object": "Census Division"
+                }
+            ],
+            "table": "Unnamed table in section 'Saskatchewan'",
+            "colums": [
+                "Name",
+                "Location",
+                "Census Division",
+                "Region",
+                "Summary"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,287 @@
+{
+    "page": "List of the top ranking countries of the OGAE Video Contest",
+    "no. of tables": 6,
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of the top ranking countries of the OGAE Video Contest\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.06,
+                        "http://dbpedia.org/property/marSnowDays": 0.06,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/property/longd": 0.11
+                    },
+                    "subject": "Country",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.06,
+                        "http://dbpedia.org/property/decLowC": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "2nd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprSnowDays": 0.06,
+                        "http://dbpedia.org/property/novSnowDays": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "3rd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "4th"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.06,
+                        "http://dbpedia.org/property/value": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "5th"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowDays": 0.06,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Total"
+                }
+            ],
+            "colums": [
+                "Position",
+                "Country",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "Total"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of the top ranking countries of the OGAE Video Contest\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/percentWater": 0.06,
+                        "http://dbpedia.org/property/latm": 0.06,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.06,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.06,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.06,
+                        "http://dbpedia.org/property/decLowC": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "2nd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprSnowDays": 0.06,
+                        "http://dbpedia.org/property/novSnowDays": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "3rd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "4th"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.06,
+                        "http://dbpedia.org/property/value": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "5th"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowDays": 0.06,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Total"
+                }
+            ],
+            "colums": [
+                "Position",
+                "Country",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "Total"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of the top ranking countries of the OGAE Video Contest\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decSnowDays": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "2nd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "3rd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "5th"
+                }
+            ],
+            "colums": [
+                "Position",
+                "Country",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "Total"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of the top ranking countries of the OGAE Video Contest\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.2,
+                        "http://dbpedia.org/property/longd": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Position"
+                }
+            ],
+            "colums": [
+                "Position",
+                "Country",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "Total"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of the top ranking countries of the OGAE Video Contest\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.2,
+                        "http://dbpedia.org/property/longd": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "3rd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Total"
+                }
+            ],
+            "colums": [
+                "Position",
+                "Country",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "Total"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of the top ranking countries of the OGAE Video Contest\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.2,
+                        "http://dbpedia.org/property/longd": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "3rd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Total"
+                }
+            ],
+            "colums": [
+                "Position",
+                "Country",
+                "1st",
+                "2nd",
+                "3rd",
+                "4th",
+                "5th",
+                "Total"
+            ]
+        }
+    ]
+}

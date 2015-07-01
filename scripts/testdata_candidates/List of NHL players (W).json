@@ -1,0 +1,246 @@
+{
+    "no. of tables": 4,
+    "page": "List of NHL players (W)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.71,
+                        "http://dbpedia.org/property/birthPlace": 0.71,
+                        "http://dbpedia.org/property/placeOfBirth": 0.69
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.71,
+                        "http://dbpedia.org/property/birthPlace": 0.69,
+                        "http://dbpedia.org/property/placeOfBirth": 0.66
+                    },
+                    "subject": "Player",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.16,
+                        "http://dbpedia.org/property/playedFor": 0.46,
+                        "http://dbpedia.org/ontology/draftTeam": 0.35,
+                        "http://dbpedia.org/ontology/team": 0.04,
+                        "http://dbpedia.org/property/team": 0.04,
+                        "http://dbpedia.org/ontology/formerTeam": 0.65,
+                        "http://dbpedia.org/property/draftTeam": 0.35,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Player",
+                    "object": "Teams \u2193"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.03,
+                        "http://dbpedia.org/property/capital": 0.03,
+                        "http://dbpedia.org/ontology/largestCity": 0.01,
+                        "http://dbpedia.org/property/largestCity": 0.01
+                    },
+                    "subject": "Nationality",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.44,
+                        "http://dbpedia.org/ontology/country": 0.87
+                    },
+                    "subject": "Birthplace",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pos": 0.04
+                    },
+                    "subject": "Teams \u2193",
+                    "object": "Pos."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.01,
+                        "http://dbpedia.org/property/city": 0.01
+                    },
+                    "subject": "Teams \u2193",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.01,
+                        "http://dbpedia.org/property/city": 0.01
+                    },
+                    "subject": "Teams \u2193",
+                    "object": "Birthplace"
+                }
+            ],
+            "table": "Unnamed table in section 'Wa'",
+            "colums": [
+                "Player",
+                "Pos.",
+                "Nationality",
+                "Birthdate",
+                "Birthplace",
+                "Seasons",
+                "Teams \u2193",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.77,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.69,
+                        "http://dbpedia.org/property/birthPlace": 0.77
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.77,
+                        "http://dbpedia.org/property/placeOfBirth": 0.75,
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/property/birthPlace": 0.77
+                    },
+                    "subject": "Player",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.12,
+                        "http://dbpedia.org/property/playedFor": 0.55,
+                        "http://dbpedia.org/ontology/draftTeam": 0.38,
+                        "http://dbpedia.org/property/team": 0.05,
+                        "http://dbpedia.org/ontology/formerTeam": 0.72,
+                        "http://dbpedia.org/property/draftTeam": 0.36,
+                        "http://dbpedia.org/ontology/team": 0.05
+                    },
+                    "subject": "Player",
+                    "object": "Teams \u2193"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.11,
+                        "http://dbpedia.org/property/capital": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.11,
+                        "http://dbpedia.org/ontology/capital": 0.05
+                    },
+                    "subject": "Nationality",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.48,
+                        "http://dbpedia.org/ontology/country": 0.88
+                    },
+                    "subject": "Birthplace",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.02,
+                        "http://dbpedia.org/property/city": 0.02
+                    },
+                    "subject": "Teams \u2193",
+                    "object": "Birthplace"
+                }
+            ],
+            "table": "Unnamed table in section 'Wic-Wil'",
+            "colums": [
+                "Player",
+                "Position",
+                "Nationality",
+                "Birthplace",
+                "Seasons",
+                "Teams \u2193",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.02
+                    },
+                    "subject": "Player",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.06,
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.81,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.67,
+                        "http://dbpedia.org/property/birthPlace": 0.81
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.04,
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.81,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.69,
+                        "http://dbpedia.org/property/birthPlace": 0.81
+                    },
+                    "subject": "Player",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.29,
+                        "http://dbpedia.org/property/playedFor": 0.5,
+                        "http://dbpedia.org/ontology/draftTeam": 0.38,
+                        "http://dbpedia.org/ontology/formerTeam": 0.83,
+                        "http://dbpedia.org/property/draftTeam": 0.38,
+                        "http://dbpedia.org/property/title": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "Teams \u2193"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.1,
+                        "http://dbpedia.org/ontology/largestCity": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/twinCountry": 0.02,
+                        "http://dbpedia.org/property/twin1Country": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.44,
+                        "http://dbpedia.org/ontology/country": 0.67
+                    },
+                    "subject": "Birthplace",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Win-Wz'",
+            "colums": [
+                "Player",
+                "Position",
+                "Nationality",
+                "Birthplace",
+                "Seasons",
+                "Teams \u2193",
+                "References"
+            ]
+        }
+    ]
+}

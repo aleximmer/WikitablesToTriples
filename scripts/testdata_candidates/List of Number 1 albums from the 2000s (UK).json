@@ -1,0 +1,207 @@
+{
+    "no. of tables": 5,
+    "page": "List of UK Albums Chart number ones of the 2000s",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.69,
+                        "http://dbpedia.org/property/label": 0.58,
+                        "http://dbpedia.org/property/label(s)_": 0.0,
+                        "http://dbpedia.org/property/recordLabels": 0.0
+                    },
+                    "subject": "Artist[a]",
+                    "object": "Record label[b]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/award1w": 0.0,
+                        "http://dbpedia.org/property/children": 0.0,
+                        "http://dbpedia.org/property/award1n": 0.0,
+                        "http://dbpedia.org/property/tmfw": 0.0,
+                        "http://dbpedia.org/property/award3w": 0.0,
+                        "http://dbpedia.org/property/border": 0.0,
+                        "http://dbpedia.org/property/award3n": 0.0,
+                        "http://dbpedia.org/property/britw": 0.0,
+                        "http://dbpedia.org/property/mtvvideon": 0.0,
+                        "http://dbpedia.org/property/meteorw": 0.0,
+                        "http://dbpedia.org/property/edition": 0.0,
+                        "http://dbpedia.org/property/grammyn": 0.0,
+                        "http://dbpedia.org/property/meteorn": 0.0,
+                        "http://dbpedia.org/property/volume": 0.0,
+                        "http://dbpedia.org/property/isbn": 0.0,
+                        "http://dbpedia.org/property/mtveuropen": 0.0,
+                        "http://dbpedia.org/property/tmfn": 0.0
+                    },
+                    "subject": "Artist[a]",
+                    "object": "Weeks at\nnumber one[a]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.9,
+                        "http://dbpedia.org/property/producer": 0.08,
+                        "http://dbpedia.org/property/lyrics": 0.0,
+                        "http://dbpedia.org/ontology/previousWork": 0.01,
+                        "http://dbpedia.org/ontology/artist": 0.91,
+                        "http://dbpedia.org/property/starring": 0.01,
+                        "http://dbpedia.org/property/allWriting": 0.03,
+                        "http://dbpedia.org/property/chronology": 0.01,
+                        "http://dbpedia.org/ontology/producer": 0.32,
+                        "http://dbpedia.org/ontology/recordedIn": 0.0,
+                        "http://dbpedia.org/property/extra": 0.03,
+                        "http://dbpedia.org/property/allMusic": 0.02,
+                        "http://dbpedia.org/property/writer": 0.13
+                    },
+                    "subject": "Album[a]",
+                    "object": "Artist[a]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.72,
+                        "http://dbpedia.org/property/label": 0.64,
+                        "http://dbpedia.org/property/title": 0.0
+                    },
+                    "subject": "Album[a]",
+                    "object": "Record label[b]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.01,
+                        "http://dbpedia.org/property/certmonth": 0.02,
+                        "http://dbpedia.org/property/note": 0.01,
+                        "http://dbpedia.org/property/rev6score": 0.01,
+                        "http://dbpedia.org/property/border": 0.0,
+                        "http://dbpedia.org/property/id": 0.01,
+                        "http://dbpedia.org/property/rows": 0.01,
+                        "http://dbpedia.org/property/nextAlbum": 0.0,
+                        "http://dbpedia.org/property/rev10score": 0.0,
+                        "http://dbpedia.org/property/genre": 0.0,
+                        "http://dbpedia.org/property/relmonth": 0.01,
+                        "http://dbpedia.org/property/format": 0.01,
+                        "http://dbpedia.org/property/number": 0.12,
+                        "http://dbpedia.org/property/rev2score": 0.0,
+                        "http://dbpedia.org/property/after": 0.0
+                    },
+                    "subject": "Album[a]",
+                    "object": "Weeks at\nnumber one[a]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.03,
+                        "http://dbpedia.org/ontology/foundedBy": 0.03
+                    },
+                    "subject": "Record label[b]",
+                    "object": "Artist[a]"
+                }
+            ],
+            "table": "Unnamed table in section 'Number ones'",
+            "colums": [
+                "No.",
+                "Artist[a]",
+                "Album[a]",
+                "Record label[b]",
+                "Reached number one[a]",
+                "Weeks at\nnumber one[a]",
+                "Certification\n(as of 10\nSeptember 2013)[c]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.38,
+                        "http://dbpedia.org/ontology/artist": 0.88,
+                        "http://dbpedia.org/property/artist": 0.88,
+                        "http://dbpedia.org/ontology/producer": 0.5
+                    },
+                    "subject": "Albums",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.62,
+                        "http://dbpedia.org/property/relmonth": 0.12,
+                        "http://dbpedia.org/property/rev10score": 0.12
+                    },
+                    "subject": "Albums",
+                    "object": "Number ones"
+                }
+            ],
+            "table": "Unnamed table in section 'Number ones'",
+            "colums": [
+                "Artist",
+                "Number ones",
+                "Weeks at number one",
+                "Albums"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Number ones'",
+            "colums": [
+                "Record label",
+                "Number-one albums",
+                "Weeks at number one"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.6,
+                        "http://dbpedia.org/property/label": 0.4
+                    },
+                    "subject": "Artist",
+                    "object": "Record label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.9,
+                        "http://dbpedia.org/property/producer": 0.1,
+                        "http://dbpedia.org/property/extra": 0.1,
+                        "http://dbpedia.org/ontology/producer": 0.2,
+                        "http://dbpedia.org/ontology/artist": 0.6,
+                        "http://dbpedia.org/property/writer": 0.3
+                    },
+                    "subject": "Album",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.5,
+                        "http://dbpedia.org/property/label": 0.5
+                    },
+                    "subject": "Album",
+                    "object": "Record label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.1,
+                        "http://dbpedia.org/property/rev2score": 0.1,
+                        "http://dbpedia.org/property/number": 0.1
+                    },
+                    "subject": "Album",
+                    "object": "Weeks at\nnumber one"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.1,
+                        "http://dbpedia.org/ontology/foundedBy": 0.1
+                    },
+                    "subject": "Record label",
+                    "object": "Artist"
+                }
+            ],
+            "table": "Unnamed table in section 'Christmas number ones'",
+            "colums": [
+                "Year",
+                "Artist",
+                "Album",
+                "Record label",
+                "Weeks at\nnumber one",
+                "Reference"
+            ]
+        }
+    ]
+}

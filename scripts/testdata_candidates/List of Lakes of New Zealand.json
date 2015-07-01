@@ -1,0 +1,242 @@
+{
+    "no. of tables": 19,
+    "page": "List of lakes of New Zealand",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lakeType": 0.04
+                    },
+                    "subject": "Lake",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Auckland Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Lake",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inflow": 0.01
+                    },
+                    "subject": "Lake",
+                    "object": "Watershed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.01,
+                        "http://dbpedia.org/ontology/type": 0.01
+                    },
+                    "subject": "Lake",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Waikato Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Bay of Plenty Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed district",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Gisborne Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Hawke's Bay Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Taranaki Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Manawatu/Wanganui Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Wellington Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Tasman Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Marlborough Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "West Coast Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Canterbury Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Lake",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Lake",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Otago Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Southland Region",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Chatham Islands",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Kermadec Islands",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Ross Dependency",
+            "colums": [
+                "Lake",
+                "District",
+                "Area",
+                "Watershed",
+                "Notes"
+            ]
+        }
+    ]
+}

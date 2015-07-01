@@ -1,0 +1,197 @@
+{
+    "no. of tables": 9,
+    "page": "List of It's Showtime (Kickboxing) events",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Location:",
+                    "object": "No:"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Venue:",
+                    "object": "Location:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.14,
+                        "http://dbpedia.org/property/callingCode": 0.14
+                    },
+                    "subject": "Location:",
+                    "object": "No:"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.43
+                    },
+                    "subject": "Venue:",
+                    "object": "Location:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.29
+                    },
+                    "subject": "Venue:",
+                    "object": "Location:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25,
+                        "http://dbpedia.org/property/populationCensusRank": 0.25
+                    },
+                    "subject": "Location:",
+                    "object": "No:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.33,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.33
+                    },
+                    "subject": "Location:",
+                    "object": "No:"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.33
+                    },
+                    "subject": "Venue:",
+                    "object": "No:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/aprHighC": 0.25,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.25
+                    },
+                    "subject": "Location:",
+                    "object": "No:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowDays": 0.14,
+                        "http://dbpedia.org/property/decSnowDays": 0.14,
+                        "http://dbpedia.org/property/hdiRank": 0.14,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Location:",
+                    "object": "No:"
+                }
+            ],
+            "table": "Unnamed table in section 'List of It's Showtime (Kickboxing) events'",
+            "colums": [
+                "Date:",
+                "No:",
+                "Event:",
+                "Location:",
+                "Venue:"
+            ]
+        }
+    ]
+}

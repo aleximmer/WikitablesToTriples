@@ -1,0 +1,279 @@
+{
+    "no. of tables": 2,
+    "page": "List of Indian Premier League captains",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Key'",
+            "colums": [
+                "Symbol",
+                "Meaning"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.16,
+                        "http://dbpedia.org/property/role": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.21
+                    },
+                    "subject": "Player[6]",
+                    "object": "Nationality[\u03b5]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastt20iyear": 0.11,
+                        "http://dbpedia.org/property/year": 0.66,
+                        "http://dbpedia.org/property/odidebutyear": 0.03,
+                        "http://dbpedia.org/property/lasttestyear": 0.21,
+                        "http://dbpedia.org/property/testdebutyear": 0.08,
+                        "http://dbpedia.org/property/t20idebutyear": 0.03,
+                        "http://dbpedia.org/property/years": 0.13,
+                        "http://dbpedia.org/property/lastodiyear": 0.18
+                    },
+                    "subject": "Player[6]",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastt20iyear": 0.08,
+                        "http://dbpedia.org/property/year": 0.47,
+                        "http://dbpedia.org/property/odidebutyear": 0.03,
+                        "http://dbpedia.org/property/lastodiyear": 0.18,
+                        "http://dbpedia.org/property/testdebutyear": 0.03,
+                        "http://dbpedia.org/property/t20idebutyear": 0.03,
+                        "http://dbpedia.org/property/years": 0.03,
+                        "http://dbpedia.org/property/lasttestyear": 0.16
+                    },
+                    "subject": "Player[6]",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.05,
+                        "http://dbpedia.org/property/matches": 0.03,
+                        "http://dbpedia.org/property/fivefor": 0.05,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.16,
+                        "http://dbpedia.org/property/topScore": 0.08,
+                        "http://dbpedia.org/property/catches/stumpings": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.13
+                    },
+                    "subject": "Player[6]",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.95,
+                        "http://dbpedia.org/property/title": 0.03
+                    },
+                    "subject": "Player[6]",
+                    "object": "Team(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubnumber": 0.03,
+                        "http://dbpedia.org/property/wickets": 0.08,
+                        "http://dbpedia.org/property/bestBowling": 0.16,
+                        "http://dbpedia.org/property/fivefor": 0.05,
+                        "http://dbpedia.org/property/columns": 0.05,
+                        "http://dbpedia.org/property/tenfor": 0.05,
+                        "http://dbpedia.org/property/100s/50s": 0.21,
+                        "http://dbpedia.org/property/odishirt": 0.03
+                    },
+                    "subject": "Player[6]",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.08,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.08,
+                        "http://dbpedia.org/property/columns": 0.05,
+                        "http://dbpedia.org/property/100s/50s": 0.18,
+                        "http://dbpedia.org/property/deliveries": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.05,
+                        "http://dbpedia.org/property/matches": 0.05,
+                        "http://dbpedia.org/property/t20icap": 0.03
+                    },
+                    "subject": "Player[6]",
+                    "object": "Lost"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.26,
+                        "http://dbpedia.org/property/bestBowling": 0.08,
+                        "http://dbpedia.org/property/fivefor": 0.63,
+                        "http://dbpedia.org/property/heightinch": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.63,
+                        "http://dbpedia.org/property/100s/50s": 0.5
+                    },
+                    "subject": "Player[6]",
+                    "object": "Tied"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.32,
+                        "http://dbpedia.org/property/bestBowling": 0.11,
+                        "http://dbpedia.org/property/fivefor": 0.68,
+                        "http://dbpedia.org/property/heightinch": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.61,
+                        "http://dbpedia.org/property/deliveries": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.37
+                    },
+                    "subject": "Player[6]",
+                    "object": "NR"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentCaptain": 0.08
+                    },
+                    "subject": "Nationality[\u03b5]",
+                    "object": "Player[6]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.05,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.08
+                    },
+                    "subject": "Nationality[\u03b5]",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.08,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.05,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.11
+                    },
+                    "subject": "Nationality[\u03b5]",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.03,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.08
+                    },
+                    "subject": "Nationality[\u03b5]",
+                    "object": "Lost"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.03,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.03,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.42,
+                        "http://dbpedia.org/property/data": 0.03
+                    },
+                    "subject": "Nationality[\u03b5]",
+                    "object": "Tied"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.03,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.03,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.34,
+                        "http://dbpedia.org/property/data": 0.03
+                    },
+                    "subject": "Nationality[\u03b5]",
+                    "object": "NR"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headCoach": 0.03,
+                        "http://dbpedia.org/property/captain": 0.16,
+                        "http://dbpedia.org/property/viceCaptain": 0.03,
+                        "http://dbpedia.org/property/mentor": 0.03
+                    },
+                    "subject": "Team(s)",
+                    "object": "Player[6]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.26,
+                        "http://dbpedia.org/property/ceased": 0.03,
+                        "http://dbpedia.org/property/dissolved": 0.11
+                    },
+                    "subject": "Team(s)",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.11,
+                        "http://dbpedia.org/property/ceased": 0.03,
+                        "http://dbpedia.org/property/dissolved": 0.11
+                    },
+                    "subject": "Team(s)",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.05,
+                        "http://dbpedia.org/property/iplWins": 0.03,
+                        "http://dbpedia.org/property/colors": 0.03
+                    },
+                    "subject": "Team(s)",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.11,
+                        "http://dbpedia.org/property/iplWins": 0.03,
+                        "http://dbpedia.org/property/title1wins": 0.05,
+                        "http://dbpedia.org/property/clt20Wins": 0.05,
+                        "http://dbpedia.org/property/title2wins": 0.03
+                    },
+                    "subject": "Team(s)",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.08,
+                        "http://dbpedia.org/property/title2wins": 0.03,
+                        "http://dbpedia.org/property/iplWins": 0.05,
+                        "http://dbpedia.org/property/clt20Wins": 0.03,
+                        "http://dbpedia.org/property/title1wins": 0.03
+                    },
+                    "subject": "Team(s)",
+                    "object": "Lost"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.16,
+                        "http://dbpedia.org/property/title2wins": 0.24,
+                        "http://dbpedia.org/property/iplWins": 0.39,
+                        "http://dbpedia.org/property/clt20Wins": 0.39,
+                        "http://dbpedia.org/property/title1wins": 0.21
+                    },
+                    "subject": "Team(s)",
+                    "object": "Tied"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.16,
+                        "http://dbpedia.org/property/title2wins": 0.18,
+                        "http://dbpedia.org/property/iplWins": 0.37,
+                        "http://dbpedia.org/property/clt20Wins": 0.45,
+                        "http://dbpedia.org/property/title1wins": 0.16
+                    },
+                    "subject": "Team(s)",
+                    "object": "NR"
+                }
+            ],
+            "table": "Indian Premier League captains[5]",
+            "colums": [
+                "Player[6]",
+                "Nationality[\u03b5]",
+                "First",
+                "Last",
+                "Mat",
+                "Team(s)",
+                "Won",
+                "Lost",
+                "Tied",
+                "NR",
+                "Win%"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1672 @@
+{
+    "no. of tables": 115,
+    "page": "List of Oregon ballot measures",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "1902 General Election[6]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1904 General Election[6]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/emergency": 0.09
+                    },
+                    "subject": "description",
+                    "object": "Const.\nAmd.?"
+                }
+            ],
+            "table": "1906 General Election[6]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1908 General Election[8][9]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/emergency": 0.03
+                    },
+                    "subject": "description",
+                    "object": "Const.\nAmd.?"
+                }
+            ],
+            "table": "1910 General Election[8]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1912 General Election[10]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "November 1913 Special Referendum Election[10]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1914 General Election[10]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1916 General Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "June 1917 Special Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1918 General Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "June 1919 Special Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1920 Special Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1920 General Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "June 1921 Special Election[11]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1922 General Election[12]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "November 1923 Special Election[12]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1924 General Election[12]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1926 General Election[12]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "June 1927 Special Election[12]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1928 General Election[12]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1930 General Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1932 General Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "July 1933 Special Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1934 Special Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1934 General Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "January 1936 Special Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1936 General Election[14]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1938 General Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1940 General Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1942 General Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1944 General Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "June 1945 Special Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1946 General Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "October 1947 Special Election[15]",
+            "colums": [
+                "meas.\nnum",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1948 General Election[16]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1950 General Election[16]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1952 General Election[16]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1954 General Election[16]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1956 General Election[16]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1958 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1960 Special Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1960 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1962 Special Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1962 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "October 1963 Special Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1964 Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1964 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1966 Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1966 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1968 [17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1968 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "June 1969 Special Election [17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1970 Primary Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1970 General Election[17]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "January 1972 Special Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1972 Primary Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1972 General Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1973 Special Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1974 Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1976 Primary Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1976 General Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1977 Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1977 Special Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1978 [18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1978 General Election[18]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1980 Special Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1980 General Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1982 Special Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1982 General Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1984 Special Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1984 General Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1985 September special election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1986 May Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1986 General Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1987 May Election\nMeasure results[20]",
+            "colums": [
+                "meas.\nnum.",
+                "passed",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Meas. num.",
+                "Measure",
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Meas. num.",
+                "Measure",
+                "Yes",
+                "No"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Meas\nnum",
+                "passed?",
+                "Yes",
+                "No",
+                "\u00a0%",
+                "Const\nAmd",
+                "type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Meas\nnum",
+                "passed?",
+                "Yes",
+                "No",
+                "\u00a0%",
+                "Const\nAmd",
+                "type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1990 PRIMARY ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title - and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfEmployees": 0.09
+                    },
+                    "subject": "Ballot Title - and notes",
+                    "object": "Meas.\nNum."
+                }
+            ],
+            "table": "1990 GENERAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1992 PRIMARY ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title - and notes"
+                }
+            ],
+            "table": "1992 GENERAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nvotes",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1993 SPECIAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1993 SPECIAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1994 PRIMARY ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yes": 0.06
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "YES\nvotes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.06
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "NO\nvotes"
+                }
+            ],
+            "table": "1994 NOVEMBER GENERAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nvotes",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "May 1995 Special Election\nMeasure results[20]",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1996 PRIMARY ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1996 GENERAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type[7]",
+                "Ballot Title \u2013 and notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title \u2013 and notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Ballot Title \u2013 and notes",
+                    "object": "Meas.\nNum."
+                }
+            ],
+            "table": "1997 SPECIAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const.\nAmd.",
+                "Type\n[7]",
+                "Ballot Title \u2013 and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1997 GENERAL ELECTION",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "\u00a0%\nYES",
+                "Const\nAmd.",
+                "Type\n[7]",
+                "Ballot Title \u2013 and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1998 PRIMARY ELECTION\nDetailed information on measures[27] and official results[28] available from the Oregon Secretary of State's office.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1998 GENERAL ELECTION\nDetailed information on measures[30] and official results[31] available from the Oregon Secretary of State's office.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1999 SPECIAL ELECTION\nDetailed information on measures[46] and official results[47] available from the Oregon Secretary of State's office.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2000 PRIMARY ELECTION\nDetailed information about Measures 77-82[57] and election results[58] available at the Secretary of State's web site.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2002 SPECIAL ELECTION\nDetailed information for measures [66] and official results[64] available from the Oregon Secretary of State's office.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2002 GENERAL ELECTION\nDetailed information on measures[69] and official election results[70] available at the Secretary of State's web site.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2003 JANUARY SPECIAL ELECTION\nDetailed information on Measure 28[72] and election results[73] at the Oregon Secretary of State's site.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title - and notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2003 SEPTEMBER SPECIAL ELECTION\nDetailed information on Measure 29[74] and election results[75] at the Oregon Secretary of State's site.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2004 SPECIAL ELECTION\nDetailed information on Measure 30[76] and official results[77] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title"
+                }
+            ],
+            "table": "2004 GENERAL ELECTION\nDetailed information about the measures[79][80] and official results[81] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2006 GENERAL ELECTION\nDetailed information on measures[85] and official results[86] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Ballot Title",
+                    "object": "Meas.\nNum."
+                }
+            ],
+            "table": "2007 SPECIAL ELECTION\nDetailed information on measures[88] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title"
+                }
+            ],
+            "table": "2008 PRIMARY ELECTION\nDetailed information on measures[90] and official results[89] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2008 GENERAL ELECTION\nDetailed information on measures[85] and official results[86] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Meas.\nNum.",
+                    "object": "Ballot Title"
+                }
+            ],
+            "table": "2010 SPECIAL ELECTION\nDetailed information on measures[95] and official results[96] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2010 PRIMARY ELECTION\nDetailed information on measures[99] and official results[100] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2010 GENERAL ELECTION\nDetailed information on measures[103] and official results[104] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2012 GENERAL ELECTION\nDetailed information on measures[112] and official results [113] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Passed?",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES",
+                "Const.\nAmd.?",
+                "Type[7]",
+                "Ballot Title"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2014 GENERAL ELECTION\nDetailed information on measures[123] and official results [124] available from the Oregon Secretary of State.",
+            "colums": [
+                "Meas.\nNum.",
+                "Type[7]",
+                "Ballot Title",
+                "YES\nvotes",
+                "NO\nvotes",
+                "%\nYES"
+            ]
+        }
+    ]
+}

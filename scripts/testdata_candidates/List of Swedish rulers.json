@@ -1,0 +1,592 @@
+{
+    "no. of tables": 11,
+    "page": "List of Swedish monarchs",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.5,
+                        "http://dbpedia.org/property/father": 1.0,
+                        "http://dbpedia.org/ontology/parent": 1.0,
+                        "http://dbpedia.org/ontology/predecessor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.75,
+                        "http://dbpedia.org/ontology/spouse": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.25,
+                        "http://dbpedia.org/property/deathDate": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.5,
+                        "http://dbpedia.org/property/successor": 0.5,
+                        "http://dbpedia.org/property/issue": 0.75
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.5,
+                        "http://dbpedia.org/ontology/spouse": 0.5
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.25
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 0.09,
+                        "http://dbpedia.org/ontology/parent": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.18,
+                        "http://dbpedia.org/ontology/spouse": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.09,
+                        "http://dbpedia.org/property/successor": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.09
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.82,
+                        "http://dbpedia.org/property/spouses": 0.09,
+                        "http://dbpedia.org/ontology/spouse": 0.82
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.29,
+                        "http://dbpedia.org/property/before": 0.29,
+                        "http://dbpedia.org/ontology/parent": 0.57,
+                        "http://dbpedia.org/ontology/predecessor": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14,
+                        "http://dbpedia.org/property/father": 0.57,
+                        "http://dbpedia.org/property/regent": 0.29,
+                        "http://dbpedia.org/ontology/birthPlace": 0.14,
+                        "http://dbpedia.org/ontology/deathPlace": 0.14,
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.14,
+                        "http://dbpedia.org/property/after": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.71,
+                        "http://dbpedia.org/ontology/spouse": 0.71
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.14,
+                        "http://dbpedia.org/ontology/successor": 0.14,
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/property/successor": 0.14,
+                        "http://dbpedia.org/ontology/deathPlace": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/successor": 0.14,
+                        "http://dbpedia.org/property/regent": 0.29,
+                        "http://dbpedia.org/property/issue": 0.29,
+                        "http://dbpedia.org/ontology/monarch": 0.14
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.86,
+                        "http://dbpedia.org/ontology/spouse": 0.86
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 0.14,
+                        "http://dbpedia.org/ontology/parent": 0.14
+                    },
+                    "subject": "Death",
+                    "object": "Birth"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/father": 0.14,
+                        "http://dbpedia.org/ontology/parent": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.43,
+                        "http://dbpedia.org/ontology/birthPlace": 0.71,
+                        "http://dbpedia.org/property/placeOfBirth": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.86,
+                        "http://dbpedia.org/ontology/spouse": 0.86
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.43,
+                        "http://dbpedia.org/property/deathPlace": 0.57,
+                        "http://dbpedia.org/ontology/deathPlace": 0.71
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/issue": 0.14
+                    },
+                    "subject": "Birth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/ontology/deathPlace": 0.14
+                    },
+                    "subject": "Birth",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.86,
+                        "http://dbpedia.org/ontology/spouse": 0.86
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.14,
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/ontology/deathPlace": 0.14
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.14
+                    },
+                    "subject": "Death",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.25,
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.75,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.75,
+                        "http://dbpedia.org/property/before": 0.25,
+                        "http://dbpedia.org/ontology/successor": 0.25,
+                        "http://dbpedia.org/property/successor": 0.25,
+                        "http://dbpedia.org/ontology/spouse": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.5,
+                        "http://dbpedia.org/ontology/restingPlace": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfBurial": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Birth",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.25,
+                        "http://dbpedia.org/property/spouses": 0.25,
+                        "http://dbpedia.org/ontology/spouse": 0.5,
+                        "http://dbpedia.org/property/spouse": 0.5,
+                        "http://dbpedia.org/ontology/predecessor": 0.25,
+                        "http://dbpedia.org/property/after": 0.25
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/placeOfBurial": 0.25,
+                        "http://dbpedia.org/ontology/restingPlace": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouses": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 1.0,
+                        "http://dbpedia.org/property/placeOfBurial": 1.0,
+                        "http://dbpedia.org/ontology/restingPlace": 1.0,
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 1.0,
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/restingPlace": 0.25,
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.75,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.5,
+                        "http://dbpedia.org/property/deathPlace": 0.5,
+                        "http://dbpedia.org/ontology/deathPlace": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Marriages",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Death",
+                    "object": "Birth"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.14,
+                        "http://dbpedia.org/ontology/restingPlace": 0.14,
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/ontology/birthPlace": 0.71,
+                        "http://dbpedia.org/ontology/deathPlace": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.43,
+                        "http://dbpedia.org/property/birthPlace": 0.57
+                    },
+                    "subject": "Name",
+                    "object": "Birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.86,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Marriages"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.29,
+                        "http://dbpedia.org/ontology/restingPlace": 0.14,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/ontology/deathPlace": 0.57,
+                        "http://dbpedia.org/property/deathPlace": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 1.0,
+                        "http://dbpedia.org/ontology/spouse": 1.0
+                    },
+                    "subject": "Marriages",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.14,
+                        "http://dbpedia.org/property/deathPlace": 0.14,
+                        "http://dbpedia.org/ontology/deathPlace": 0.14
+                    },
+                    "subject": "Marriages",
+                    "object": "Birth"
+                }
+            ],
+            "table": "Unnamed table in section 'Monarchs and Regents of Sweden'",
+            "colums": [
+                "Name",
+                "Portrait",
+                "Birth",
+                "Marriages",
+                "Death"
+            ]
+        }
+    ]
+}

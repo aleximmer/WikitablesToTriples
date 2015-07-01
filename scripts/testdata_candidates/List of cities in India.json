@@ -1,0 +1,641 @@
+{
+    "page": "List of cities and towns in India by population",
+    "no. of tables": 26,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'A'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.95,
+                        "http://dbpedia.org/property/subdivisionName": 0.95
+                    },
+                    "subject": "Name of City",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.02,
+                        "http://dbpedia.org/property/seat": 0.05
+                    },
+                    "subject": "State",
+                    "object": "Name of City"
+                }
+            ],
+            "colums": [
+                "Name of City",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'B'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.89
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.11
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'C'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.9,
+                        "http://dbpedia.org/property/subdivisionName": 0.85
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/leaderName": 0.05,
+                        "http://dbpedia.org/property/leaderName": 0.05,
+                        "http://dbpedia.org/property/seat": 0.05
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'D'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.92,
+                        "http://dbpedia.org/property/subdivisionName": 0.92
+                    },
+                    "subject": "Name of city",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coorPinpoint": 0.04,
+                        "http://dbpedia.org/property/seat": 0.08
+                    },
+                    "subject": "State",
+                    "object": "Name of city"
+                }
+            ],
+            "colums": [
+                "Name of city",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'E'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'F'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.8,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.1
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2001)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'G'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.09
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'H'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.93,
+                        "http://dbpedia.org/property/subdivisionName": 0.86
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank1InfoSec": 0.07
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'I'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.5
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'J'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.96,
+                        "http://dbpedia.org/property/subdivisionName": 0.96
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coorPinpoint": 0.04,
+                        "http://dbpedia.org/property/seat": 0.12
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'K'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.9,
+                        "http://dbpedia.org/property/subdivisionName": 0.88
+                    },
+                    "subject": "Name of city",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.03
+                    },
+                    "subject": "State",
+                    "object": "Name of city"
+                }
+            ],
+            "colums": [
+                "Name of city",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'L'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.97,
+                        "http://dbpedia.org/property/subdivisionName": 0.97
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.06
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'M'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.98,
+                        "http://dbpedia.org/property/subdivisionName": 0.96
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationTotal": 0.01,
+                        "http://dbpedia.org/ontology/populationTotal": 0.01
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "Population (2011)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.01
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'N'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governmentType": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.93,
+                        "http://dbpedia.org/property/subdivisionName": 0.9,
+                        "http://dbpedia.org/property/stateName": 0.01
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'O'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.88,
+                        "http://dbpedia.org/property/subdivisionName": 0.88
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'P'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.98,
+                        "http://dbpedia.org/property/subdivisionName": 0.97,
+                        "http://dbpedia.org/property/pushpinMapCaption": 0.01
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.03
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Q'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'R'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.98,
+                        "http://dbpedia.org/property/subdivisionName": 0.97
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.03
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'S'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.96,
+                        "http://dbpedia.org/property/subdivisionName": 0.95
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.02
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'T'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.98,
+                        "http://dbpedia.org/property/subdivisionName": 0.93
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.01
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'U'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.97
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'V'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.95,
+                        "http://dbpedia.org/property/subdivisionName": 0.95
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.02
+                    },
+                    "subject": "State",
+                    "object": "Name of City/Town"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'W'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.94,
+                        "http://dbpedia.org/property/subdivisionName": 0.94
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Y'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.89
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Z'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Name of City/Town",
+                    "object": "State"
+                }
+            ],
+            "colums": [
+                "Name of City/Town",
+                "State",
+                "Type",
+                "Population (2011)",
+                "Population class"
+            ]
+        }
+    ]
+}

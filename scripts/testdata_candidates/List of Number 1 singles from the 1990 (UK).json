@@ -1,0 +1,158 @@
+{
+    "page": "List of UK Singles Chart number ones of the 1990s",
+    "no. of tables": 4,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Number-one singles'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/openingTheme": 0.0
+                    },
+                    "subject": "Artist[nb 1]",
+                    "object": "Single[nb 1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.0,
+                        "http://dbpedia.org/property/prev": 0.0,
+                        "http://dbpedia.org/property/1option": 0.0,
+                        "http://dbpedia.org/property/no": 0.01,
+                        "http://dbpedia.org/property/caps": 0.0,
+                        "http://dbpedia.org/property/quoted": 0.0,
+                        "http://dbpedia.org/property/americann": 0.0,
+                        "http://dbpedia.org/property/id": 0.01,
+                        "http://dbpedia.org/property/goals": 0.0,
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/property/firstLoss": 0.0
+                    },
+                    "subject": "Artist[nb 1]",
+                    "object": "Weeks at\nnumber 1[nb 1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.0,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/property/artist": 0.69,
+                        "http://dbpedia.org/ontology/writer": 0.19,
+                        "http://dbpedia.org/ontology/picture": 0.01,
+                        "http://dbpedia.org/ontology/musicalBand": 0.73,
+                        "http://dbpedia.org/property/writer": 0.08,
+                        "http://dbpedia.org/ontology/recordLabel": 0.0,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.73,
+                        "http://dbpedia.org/ontology/producer": 0.17,
+                        "http://dbpedia.org/property/chronology": 0.01
+                    },
+                    "subject": "Single[nb 1]",
+                    "object": "Artist[nb 1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/certification": 0.0,
+                        "http://dbpedia.org/property/rows": 0.03,
+                        "http://dbpedia.org/property/number": 0.02,
+                        "http://dbpedia.org/property/years": 0.01,
+                        "http://dbpedia.org/property/name": 0.0,
+                        "http://dbpedia.org/property/cover": 0.0
+                    },
+                    "subject": "Single[nb 1]",
+                    "object": "Weeks at\nnumber 1[nb 1]"
+                }
+            ],
+            "colums": [
+                "Artist[nb 1]",
+                "Single[nb 1]",
+                "Week ending date[nb 1]",
+                "Weeks at\nnumber 1[nb 1]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Number-one singles'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.05,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.1,
+                        "http://dbpedia.org/property/efRank": 0.1,
+                        "http://dbpedia.org/property/populationCensusRank": 0.05,
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Artist",
+                    "object": "Weeks at number-one"
+                }
+            ],
+            "colums": [
+                "Artist",
+                "Weeks at number-one"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'By artist'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.14,
+                        "http://dbpedia.org/property/longd": 0.07,
+                        "http://dbpedia.org/property/areaRank": 0.07
+                    },
+                    "subject": "Artist",
+                    "object": "Number one hits"
+                }
+            ],
+            "colums": [
+                "Artist",
+                "Number one hits"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Million-selling and platinum records'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/openingTheme": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Song"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Year of millionth sale\n(Multi-platinum)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.01,
+                        "http://dbpedia.org/property/artist": 0.67,
+                        "http://dbpedia.org/ontology/writer": 0.18,
+                        "http://dbpedia.org/ontology/musicalBand": 0.71,
+                        "http://dbpedia.org/property/writer": 0.07,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.71,
+                        "http://dbpedia.org/ontology/producer": 0.11,
+                        "http://dbpedia.org/property/chronology": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.03,
+                        "http://dbpedia.org/property/certyear": 0.01,
+                        "http://dbpedia.org/property/caption": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Year of millionth sale\n(Multi-platinum)"
+                }
+            ],
+            "colums": [
+                "Artist",
+                "Song",
+                "Date released",
+                "Date certified\nplatinum",
+                "Year of millionth sale\n(Multi-platinum)"
+            ]
+        }
+    ]
+}

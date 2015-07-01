@@ -1,0 +1,17 @@
+{
+    "no. of tables": 1,
+    "page": "List of 2010 box office number-one films in Poland",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '\n\t\t\t\tList of 2010 box office number-one films in Poland\t\t\t'",
+            "colums": [
+                "#",
+                "Date",
+                "Film",
+                "Gross",
+                "Notes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,275 @@
+{
+    "no. of tables": 4,
+    "page": "List of albums which have spent the most weeks on the UK Albums Chart",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.69,
+                        "http://dbpedia.org/property/producer": 0.02,
+                        "http://dbpedia.org/ontology/producer": 0.17,
+                        "http://dbpedia.org/ontology/artist": 0.48,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/writer": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.57,
+                        "http://dbpedia.org/property/recorded": 0.02,
+                        "http://dbpedia.org/property/released": 0.02,
+                        "http://dbpedia.org/property/headline": 0.02,
+                        "http://dbpedia.org/property/cover": 0.02,
+                        "http://dbpedia.org/property/note": 0.02,
+                        "http://dbpedia.org/property/before": 0.02,
+                        "http://dbpedia.org/property/certyear": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.1,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.02
+                    },
+                    "subject": "Artist",
+                    "object": "Released"
+                }
+            ],
+            "table": "Unnamed table in section '200 or more weeks'",
+            "colums": [
+                "Title",
+                "Artist",
+                "Released",
+                "Peak",
+                "Weeks",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastAlbum": 0.02,
+                        "http://dbpedia.org/property/artist": 0.77,
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/property/extra": 0.04,
+                        "http://dbpedia.org/ontology/producer": 0.21,
+                        "http://dbpedia.org/property/allMusic": 0.02,
+                        "http://dbpedia.org/ontology/artist": 0.62,
+                        "http://dbpedia.org/property/allWriting": 0.04,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/writer": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.42,
+                        "http://dbpedia.org/property/before": 0.02,
+                        "http://dbpedia.org/property/released": 0.06,
+                        "http://dbpedia.org/property/recorded": 0.04,
+                        "http://dbpedia.org/property/productions": 0.02,
+                        "http://dbpedia.org/property/certyear": 0.23,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/certweek": 0.02,
+                        "http://dbpedia.org/property/number": 0.08,
+                        "http://dbpedia.org/property/relmonth": 0.02,
+                        "http://dbpedia.org/property/multidisc": 0.02,
+                        "http://dbpedia.org/property/award": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.02
+                    },
+                    "subject": "Artist",
+                    "object": "Released"
+                }
+            ],
+            "table": "Unnamed table in section '150 to 199 weeks'",
+            "colums": [
+                "Title",
+                "Artist",
+                "Released",
+                "Peak",
+                "Weeks",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.78,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/ontology/artist": 0.57,
+                        "http://dbpedia.org/property/allWriting": 0.03,
+                        "http://dbpedia.org/property/lastAlbum": 0.02,
+                        "http://dbpedia.org/property/thisAlbum": 0.02,
+                        "http://dbpedia.org/ontology/producer": 0.18,
+                        "http://dbpedia.org/property/extra": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02,
+                        "http://dbpedia.org/property/allMusic": 0.02,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/writer": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.5,
+                        "http://dbpedia.org/property/recorded": 0.08,
+                        "http://dbpedia.org/property/released": 0.02,
+                        "http://dbpedia.org/property/certyear": 0.23,
+                        "http://dbpedia.org/property/headline": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relmonth": 0.02,
+                        "http://dbpedia.org/property/rev5score": 0.02,
+                        "http://dbpedia.org/property/rev6score": 0.02,
+                        "http://dbpedia.org/property/number": 0.12,
+                        "http://dbpedia.org/property/rows": 0.02,
+                        "http://dbpedia.org/property/rev8score": 0.02,
+                        "http://dbpedia.org/property/multidisc": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Artist",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Artist",
+                    "object": "Released"
+                }
+            ],
+            "table": "Unnamed table in section '125 to 149 weeks'",
+            "colums": [
+                "Title",
+                "Artist",
+                "Released",
+                "Peak",
+                "Weeks",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.69,
+                        "http://dbpedia.org/property/producer": 0.1,
+                        "http://dbpedia.org/property/starring": 0.01,
+                        "http://dbpedia.org/ontology/artist": 0.53,
+                        "http://dbpedia.org/property/allWriting": 0.02,
+                        "http://dbpedia.org/property/writingCredits": 0.01,
+                        "http://dbpedia.org/property/lastAlbum": 0.02,
+                        "http://dbpedia.org/property/thisAlbum": 0.02,
+                        "http://dbpedia.org/ontology/producer": 0.15,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.01,
+                        "http://dbpedia.org/property/extra": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.02,
+                        "http://dbpedia.org/property/allMusic": 0.02,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/writer": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Artist"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.38,
+                        "http://dbpedia.org/property/recorded": 0.06,
+                        "http://dbpedia.org/property/released": 0.01,
+                        "http://dbpedia.org/property/headline": 0.01,
+                        "http://dbpedia.org/property/realyear": 0.01,
+                        "http://dbpedia.org/property/note": 0.01,
+                        "http://dbpedia.org/property/certyear": 0.19,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/certmonth": 0.01,
+                        "http://dbpedia.org/property/number": 0.09,
+                        "http://dbpedia.org/property/relmonth": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.01,
+                        "http://dbpedia.org/property/year": 0.01,
+                        "http://dbpedia.org/property/yearsActive": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/property/isbn": 0.01,
+                        "http://dbpedia.org/property/qn": 0.01,
+                        "http://dbpedia.org/property/award2w": 0.01,
+                        "http://dbpedia.org/property/nmew": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Artist",
+                    "object": "Weeks"
+                }
+            ],
+            "table": "Unnamed table in section '100 to 124 weeks'",
+            "colums": [
+                "Title",
+                "Artist",
+                "Released",
+                "Peak",
+                "Weeks",
+                "Ref"
+            ]
+        }
+    ]
+}

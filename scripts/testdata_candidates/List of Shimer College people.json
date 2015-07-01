@@ -1,0 +1,258 @@
+{
+    "no. of tables": 20,
+    "page": "List of Shimer College people",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 0.5,
+                        "http://dbpedia.org/property/president": 0.5
+                    },
+                    "subject": "Known for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.33,
+                        "http://dbpedia.org/property/shortDescription": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Known for"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Known for"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.25,
+                        "http://dbpedia.org/property/shortDescription": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Known for"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/orderInOffice": 0.17,
+                        "http://dbpedia.org/property/office": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Known for"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Known for"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Name",
+                "Known for",
+                "Relationship to Shimer College",
+                "Citation"
+            ]
+        }
+    ]
+}

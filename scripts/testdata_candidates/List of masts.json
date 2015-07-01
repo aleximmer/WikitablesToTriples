@@ -1,0 +1,305 @@
+{
+    "no. of tables": 7,
+    "page": "List of tallest structures in the world",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.01,
+                        "http://dbpedia.org/property/opening": 0.01,
+                        "http://dbpedia.org/property/completed": 0.01,
+                        "http://dbpedia.org/property/completionDate": 0.01,
+                        "http://dbpedia.org/property/years": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/locationCountry": 0.03,
+                        "http://dbpedia.org/property/country": 0.07,
+                        "http://dbpedia.org/ontology/locationCountry": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.03,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateYear": 0.01,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.01,
+                        "http://dbpedia.org/property/gdpPppYear": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.03,
+                        "http://dbpedia.org/property/capital": 0.01,
+                        "http://dbpedia.org/ontology/largestCity": 0.03,
+                        "http://dbpedia.org/ontology/capital": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Town",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.01,
+                        "http://dbpedia.org/property/popEstAsOf": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "Town",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.48,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/subdivisionType": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.72
+                    },
+                    "subject": "Town",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.04
+                    },
+                    "subject": "Remarks",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'List by height'",
+            "colums": [
+                "Name",
+                "Pinnacle height",
+                "Year",
+                "Structure type",
+                "Main use",
+                "Country",
+                "Town",
+                "Remarks",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/estCompletion": 0.3,
+                        "http://dbpedia.org/property/completionDate": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Year completion\nexpected"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/property/locationCountry": 0.1,
+                        "http://dbpedia.org/ontology/country": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.1,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/ontology/location": 0.7
+                    },
+                    "subject": "Name",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.3,
+                        "http://dbpedia.org/property/capital": 0.2,
+                        "http://dbpedia.org/ontology/largestCity": 0.1,
+                        "http://dbpedia.org/property/largestCity": 0.1
+                    },
+                    "subject": "Country",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.4,
+                        "http://dbpedia.org/ontology/country": 0.8
+                    },
+                    "subject": "Town",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'List by height'",
+            "colums": [
+                "Name",
+                "Pinnacle height planned",
+                "Year completion\nexpected",
+                "Structure type",
+                "Country",
+                "Town"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.14,
+                        "http://dbpedia.org/property/completionDate": 0.29,
+                        "http://dbpedia.org/property/years": 0.29
+                    },
+                    "subject": "Structure",
+                    "object": "Year[13]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.71,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Structure",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14,
+                        "http://dbpedia.org/property/commonName": 0.14,
+                        "http://xmlns.com/foaf/0.1/name": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Continent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Structure"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationCensusYear": 0.14,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Year[13]"
+                }
+            ],
+            "table": "Unnamed table in section 'List by continent'",
+            "colums": [
+                "Continent",
+                "Structure",
+                "Height",
+                "Year[13]",
+                "Country"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/completionDate": 0.17,
+                        "http://dbpedia.org/property/years": 0.33
+                    },
+                    "subject": "Structure",
+                    "object": "Year[13]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Structure",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.17
+                    },
+                    "subject": "Country",
+                    "object": "Structure"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.17
+                    },
+                    "subject": "Country",
+                    "object": "Year[13]"
+                }
+            ],
+            "table": "Unnamed table in section 'List by continent'",
+            "colums": [
+                "Continent",
+                "Structure",
+                "Height",
+                "Year[13]",
+                "Country"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.5,
+                        "http://dbpedia.org/ontology/floorCount": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Floor count"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/estCompletion": 0.33,
+                        "http://dbpedia.org/property/completionDate": 0.17,
+                        "http://dbpedia.org/property/years": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Expected completion"
+                }
+            ],
+            "table": "Unnamed table in section 'List by continent'",
+            "colums": [
+                "Contient",
+                "Name",
+                "Height",
+                "Floor count",
+                "Expected completion"
+            ]
+        }
+    ]
+}

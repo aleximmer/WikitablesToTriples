@@ -1,0 +1,41 @@
+{
+    "page": "List of Aare bridges in Bern",
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Current bridges'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/begin": 0.06
+                    },
+                    "subject": "Name and description",
+                    "object": "Opened"
+                }
+            ],
+            "colums": [
+                "Image",
+                "Name and description",
+                "Opened",
+                "Length",
+                "Height",
+                "Span",
+                "Location",
+                "[3]"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Former bridges'",
+            "predicates": [],
+            "colums": [
+                "\u00a0\u00a0\u00a0",
+                "Name and description",
+                "In operation",
+                "Length",
+                "Height",
+                "Span",
+                "Location"
+            ]
+        }
+    ]
+}

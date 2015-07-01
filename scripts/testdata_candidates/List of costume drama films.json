@@ -1,0 +1,355 @@
+{
+    "no. of tables": 8,
+    "page": "List of historical period drama films",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/writer": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateYear": 0.01,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.01,
+                        "http://dbpedia.org/property/gdpPppYear": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Release date"
+                }
+            ],
+            "table": "Films set in Antiquity (until the fall of the Roman Empire in the West)",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.07,
+                        "http://dbpedia.org/property/years": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Title"
+                }
+            ],
+            "table": "Late Antiquity/Early Middle Ages (5th to 10th centuries)",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstAired": 0.01,
+                        "http://dbpedia.org/property/recorded": 0.01,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/property/released": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.07,
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/ontology/writer": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.03,
+                        "http://dbpedia.org/property/writer": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/source": 0.01
+                    },
+                    "subject": "Setting",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.02,
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Time period"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/ontology/place": 0.01,
+                        "http://dbpedia.org/property/place": 0.02,
+                        "http://dbpedia.org/property/commonName": 0.03,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/longName": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/estate": 0.02,
+                        "http://dbpedia.org/property/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.03,
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02,
+                        "http://dbpedia.org/property/conventionalLongName": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Setting"
+                }
+            ],
+            "table": "High and Late Middle Ages (1000-1453)",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Setting",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstAired": 0.01,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/property/released": 0.03,
+                        "http://dbpedia.org/property/years": 0.01,
+                        "http://dbpedia.org/property/lastAired": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Time period"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.01,
+                        "http://dbpedia.org/property/writer": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/period": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Time period"
+                }
+            ],
+            "table": "Early Modern (1454-1700)",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.01,
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/property/released": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.01,
+                        "http://dbpedia.org/ontology/musicComposer": 0.01,
+                        "http://dbpedia.org/property/music": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.01,
+                        "http://dbpedia.org/property/termStart": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Time period"
+                }
+            ],
+            "table": "Films set in the 18th and 19th centuries",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.01,
+                        "http://dbpedia.org/property/released": 0.06,
+                        "http://dbpedia.org/property/years": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipCompleted": 0.01,
+                        "http://dbpedia.org/property/year": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Time period"
+                }
+            ],
+            "table": "Films set in the early/mid 20th century",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.03,
+                        "http://dbpedia.org/property/released": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/basedOn": 0.01,
+                        "http://dbpedia.org/ontology/musicComposer": 0.01,
+                        "http://dbpedia.org/property/music": 0.01,
+                        "http://dbpedia.org/ontology/basedOn": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/format": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conflict": 0.01,
+                        "http://dbpedia.org/property/hurricaneSeason": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/year": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Time period"
+                }
+            ],
+            "table": "Films set in the later 20th century",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/property/map": 0.06
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Time period"
+                }
+            ],
+            "table": "Films set in the 21st century",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        }
+    ]
+}

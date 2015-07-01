@@ -1,0 +1,1203 @@
+{
+    "no. of tables": 77,
+    "page": "List of trolleybus systems",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.57
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.05,
+                        "http://dbpedia.org/property/subdivisionName": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.26
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/regionServed": 1.0,
+                        "http://dbpedia.org/ontology/locationCity": 1.0,
+                        "http://dbpedia.org/property/areaServed": 1.0,
+                        "http://dbpedia.org/property/locationCity": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5
+                    },
+                    "subject": "Name of System",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Name of System",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.17
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0,
+                        "http://dbpedia.org/ontology/location": 0.75
+                    },
+                    "subject": "Name of System",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Name of System",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0,
+                        "http://dbpedia.org/ontology/location": 0.75
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/era1Operator": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Name of System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/serviceArea": 0.5,
+                        "http://dbpedia.org/property/headquarters": 0.5
+                    },
+                    "subject": "Name of System",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Name of System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/headquarter": 1.0,
+                        "http://dbpedia.org/property/locale": 1.0,
+                        "http://dbpedia.org/property/headquarters": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name of System",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/era1Operator": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Name of System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.17
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'North America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name of System",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Name of System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'North America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.38
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publictransit": 0.5,
+                        "http://dbpedia.org/ontology/campus": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of Companies",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name of System",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Name of System",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Name of System",
+                "Location",
+                "Date (From)",
+                "Date (To)",
+                "Notes"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,346 @@
+{
+    "no. of tables": 6,
+    "page": "List of ice hockey players who died during their playing career",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.58,
+                        "http://dbpedia.org/ontology/birthPlace": 0.58,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfDeath": 0.17,
+                        "http://dbpedia.org/property/placeOfBirth": 0.42,
+                        "http://dbpedia.org/ontology/deathPlace": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/property/playedFor": 0.58,
+                        "http://dbpedia.org/property/deathPlace": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08,
+                        "http://dbpedia.org/ontology/award": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/formerTeam": 0.67
+                    },
+                    "subject": "Player",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.17,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRainMm": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.08,
+                        "http://dbpedia.org/property/city": 0.08,
+                        "http://dbpedia.org/ontology/country": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Player deaths'",
+            "colums": [
+                "Age",
+                "Player",
+                "Nationality",
+                "Date of death",
+                "Cause of death",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.46,
+                        "http://dbpedia.org/ontology/birthPlace": 0.46,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.46,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.04,
+                        "http://dbpedia.org/ontology/position": 0.04,
+                        "http://dbpedia.org/ontology/league": 0.07,
+                        "http://dbpedia.org/property/playedFor": 0.21,
+                        "http://dbpedia.org/property/league": 0.07,
+                        "http://dbpedia.org/ontology/formerTeam": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.11,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/property/hdiRank": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04
+                    },
+                    "subject": "Cause of death",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/site": 0.39
+                    },
+                    "subject": "Cause of death",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.07,
+                        "http://dbpedia.org/property/countries": 0.11
+                    },
+                    "subject": "Notes",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Player deaths'",
+            "colums": [
+                "Age",
+                "Player",
+                "Nationality",
+                "Date of death",
+                "Cause of death",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.42,
+                        "http://dbpedia.org/ontology/birthPlace": 0.42,
+                        "http://dbpedia.org/property/deathPlace": 0.31,
+                        "http://dbpedia.org/property/placeOfDeath": 0.31,
+                        "http://dbpedia.org/property/placeOfBirth": 0.38,
+                        "http://dbpedia.org/ontology/deathPlace": 0.31
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.12,
+                        "http://dbpedia.org/ontology/league": 0.04,
+                        "http://dbpedia.org/property/draftTeam": 0.15,
+                        "http://dbpedia.org/ontology/draftTeam": 0.15,
+                        "http://dbpedia.org/property/league": 0.04,
+                        "http://dbpedia.org/ontology/formerTeam": 0.12
+                    },
+                    "subject": "Player",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/title": 0.08,
+                        "http://dbpedia.org/property/latm": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/countab": 0.04
+                    },
+                    "subject": "Cause of death",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/num": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.08,
+                        "http://dbpedia.org/property/countries": 0.23
+                    },
+                    "subject": "Notes",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Player deaths'",
+            "colums": [
+                "Age",
+                "Player",
+                "Nationality",
+                "Date of death",
+                "Cause of death",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.43,
+                        "http://dbpedia.org/ontology/birthPlace": 0.48,
+                        "http://dbpedia.org/property/deathPlace": 0.22,
+                        "http://dbpedia.org/property/placeOfDeath": 0.22,
+                        "http://dbpedia.org/property/placeOfBirth": 0.48,
+                        "http://dbpedia.org/ontology/deathPlace": 0.26
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.22,
+                        "http://dbpedia.org/ontology/league": 0.04,
+                        "http://dbpedia.org/property/draftTeam": 0.13,
+                        "http://dbpedia.org/ontology/draftTeam": 0.13,
+                        "http://dbpedia.org/property/league": 0.04,
+                        "http://dbpedia.org/ontology/formerTeam": 0.26
+                    },
+                    "subject": "Player",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/title": 0.09,
+                        "http://dbpedia.org/property/sepHighC": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/property/country": 0.13,
+                        "http://dbpedia.org/property/city": 0.04,
+                        "http://dbpedia.org/property/countries": 0.13,
+                        "http://dbpedia.org/ontology/country": 0.22
+                    },
+                    "subject": "Notes",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Player deaths'",
+            "colums": [
+                "Age",
+                "Player",
+                "Nationality",
+                "Date of death",
+                "Cause of death",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.29,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/property/deathPlace": 0.26,
+                        "http://dbpedia.org/property/placeOfDeath": 0.23,
+                        "http://dbpedia.org/property/placeOfBirth": 0.26,
+                        "http://dbpedia.org/ontology/deathPlace": 0.29
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.16,
+                        "http://dbpedia.org/property/prospectTeam": 0.03,
+                        "http://dbpedia.org/ontology/prospectTeam": 0.03,
+                        "http://dbpedia.org/property/draftTeam": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/draftTeam": 0.06,
+                        "http://dbpedia.org/ontology/formerTeam": 0.16
+                    },
+                    "subject": "Player",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.03
+                    },
+                    "subject": "Nationality",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/birthday": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.1,
+                        "http://dbpedia.org/property/birthPlace": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.03,
+                        "http://dbpedia.org/ontology/city": 0.03,
+                        "http://dbpedia.org/property/basedIn": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Player deaths'",
+            "colums": [
+                "Age",
+                "Player",
+                "Nationality",
+                "Date of death",
+                "Cause of death",
+                "Notes"
+            ]
+        }
+    ]
+}

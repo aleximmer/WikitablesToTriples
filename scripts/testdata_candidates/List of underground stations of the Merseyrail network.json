@@ -1,0 +1,186 @@
+{
+    "no. of tables": 3,
+    "page": "List of underground stations of the Merseyrail network",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/railwayPlatforms": 0.83,
+                        "http://dbpedia.org/property/platforms": 0.83
+                    },
+                    "subject": "Station",
+                    "object": "Platforms"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/usage": 0.83
+                    },
+                    "subject": "Station",
+                    "object": "Usage 2010/11 (million)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 1.0,
+                        "http://dbpedia.org/property/route": 1.0,
+                        "http://dbpedia.org/ontology/operatedBy": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Managed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/route": 0.33
+                    },
+                    "subject": "Station",
+                    "object": "Lines"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/zone": 0.33
+                    },
+                    "subject": "Station",
+                    "object": "Zone"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rows": 0.17
+                    },
+                    "subject": "Managed by",
+                    "object": "Platforms"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.17,
+                        "http://dbpedia.org/ontology/operatedBy": 0.17
+                    },
+                    "subject": "Lines",
+                    "object": "Managed by"
+                }
+            ],
+            "table": "Unnamed table in section 'Underground stations'",
+            "colums": [
+                "Coordinates",
+                "Station",
+                "Area",
+                "Image",
+                "Platforms",
+                "Opened",
+                "Usage 2010/11 (million)[1]",
+                "Managed by",
+                "Lines",
+                "Zone"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Station",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/railwayPlatforms": 1.0,
+                        "http://dbpedia.org/property/platforms": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Platforms"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/usage": 0.5
+                    },
+                    "subject": "Station",
+                    "object": "Usage 2010/11 (million)[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 1.0,
+                        "http://dbpedia.org/property/route": 1.0,
+                        "http://dbpedia.org/ontology/operatedBy": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Managed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/zone": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Zones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.5,
+                        "http://dbpedia.org/ontology/operatedBy": 0.5
+                    },
+                    "subject": "Lines",
+                    "object": "Managed by"
+                }
+            ],
+            "table": "Unnamed table in section 'Sub-surface stations - built in cuttings'",
+            "colums": [
+                "Coordinates",
+                "Station",
+                "Area",
+                "Image",
+                "Platforms",
+                "Opened",
+                "Usage 2010/11 (million)[1]",
+                "Managed by",
+                "Lines",
+                "Zones"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locale": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/railwayPlatforms": 1.0,
+                        "http://dbpedia.org/property/platforms": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Platforms"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/original": 1.0,
+                        "http://dbpedia.org/property/route": 1.0
+                    },
+                    "subject": "Station",
+                    "object": "Managed by"
+                }
+            ],
+            "table": "Unnamed table in section 'Former stations'",
+            "colums": [
+                "Coordinates",
+                "Station",
+                "Area",
+                "Image",
+                "Platforms",
+                "Opened",
+                "Closed",
+                "Managed by"
+            ]
+        }
+    ]
+}

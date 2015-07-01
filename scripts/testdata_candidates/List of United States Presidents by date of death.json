@@ -1,0 +1,198 @@
+{
+    "no. of tables": 1,
+    "page": "List of Presidents of the United States by date of death",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/colwidth": 0.03,
+                        "http://dbpedia.org/property/district": 0.08,
+                        "http://dbpedia.org/property/unit": 0.03,
+                        "http://dbpedia.org/property/office": 0.34,
+                        "http://dbpedia.org/property/shortDescription": 0.03,
+                        "http://dbpedia.org/property/order": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "OD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/band": 0.03,
+                        "http://dbpedia.org/property/colwidth": 0.05,
+                        "http://dbpedia.org/property/order": 0.03,
+                        "http://dbpedia.org/property/shortDescription": 0.03,
+                        "http://dbpedia.org/property/office": 0.32
+                    },
+                    "subject": "Name",
+                    "object": "OB"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commands": 0.03,
+                        "http://dbpedia.org/property/order": 0.05,
+                        "http://dbpedia.org/property/shortDescription": 0.29,
+                        "http://dbpedia.org/property/office": 0.95
+                    },
+                    "subject": "Name",
+                    "object": "OO"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathCause": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Cause\u00a0of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.37,
+                        "http://dbpedia.org/ontology/restingPlace": 0.34,
+                        "http://dbpedia.org/property/residence": 0.03,
+                        "http://dbpedia.org/property/deathPlace": 0.11,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/property/restingplace": 0.32,
+                        "http://dbpedia.org/ontology/residence": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "Place of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/property/restingPlace": 0.08,
+                        "http://dbpedia.org/ontology/restingPlace": 0.66,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/property/restingplace": 0.66
+                    },
+                    "subject": "Name",
+                    "object": "Place of Burial"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/target": 0.03
+                    },
+                    "subject": "Cause\u00a0of death",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.05
+                    },
+                    "subject": "Cause\u00a0of death",
+                    "object": "Place of death"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfo": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03
+                    },
+                    "subject": "Place of death",
+                    "object": "OD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowF": 0.03,
+                        "http://dbpedia.org/property/novRecordLowF": 0.03,
+                        "http://dbpedia.org/property/marRecordLowF": 0.03,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "Place of death",
+                    "object": "OB"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowF": 0.03,
+                        "http://dbpedia.org/property/novRecordLowF": 0.03,
+                        "http://dbpedia.org/property/novLowF": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03
+                    },
+                    "subject": "Place of death",
+                    "object": "OO"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/febHighF": 0.03,
+                        "http://dbpedia.org/property/sepLowF": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/janRecordHighF": 0.03
+                    },
+                    "subject": "Place of death",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03
+                    },
+                    "subject": "Place of death",
+                    "object": "Place of Burial"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/designation4Number": 0.03,
+                        "http://dbpedia.org/property/longMinutes": 0.03,
+                        "http://dbpedia.org/property/latMinutes": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/latSeconds": 0.03
+                    },
+                    "subject": "Place of Burial",
+                    "object": "OD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/latSeconds": 0.03,
+                        "http://dbpedia.org/property/longSeconds": 0.05
+                    },
+                    "subject": "Place of Burial",
+                    "object": "OB"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/namedFor": 0.16,
+                        "http://dbpedia.org/property/architect": 0.03
+                    },
+                    "subject": "Place of Burial",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latMinutes": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Place of Burial",
+                    "object": "OO"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/ontology/nearestCity": 0.03,
+                        "http://dbpedia.org/property/nearestCity": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.21
+                    },
+                    "subject": "Place of Burial",
+                    "object": "Place of death"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "OD",
+                "OB",
+                "Name",
+                "Date\u00a0of\ndeath",
+                "OO",
+                "Cause\u00a0of death",
+                "Age",
+                "Place of death",
+                "Date of Burial",
+                "Place of Burial"
+            ]
+        }
+    ]
+}

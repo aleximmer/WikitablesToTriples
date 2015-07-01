@@ -1,0 +1,469 @@
+{
+    "no. of tables": 17,
+    "page": "Megalopolis (city type)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.25
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.25,
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.25,
+                        "http://dbpedia.org/property/countryLargestCity": 0.25
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.75,
+                        "http://dbpedia.org/property/capital": 0.75,
+                        "http://dbpedia.org/property/largestMetropolitanArea": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRainDays": 0.25,
+                        "http://dbpedia.org/property/febRainDays": 0.25
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Major cities",
+                    "object": "Megalopolis Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/timeZone": 0.25,
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.75
+                    },
+                    "subject": "Major cities",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Country",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novSnowDays": 0.33
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/junRecordLowC": 0.2,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/populationRanking": 0.4,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.2
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coatOfArmsLegend": 0.2
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/junRecordLowC": 0.2,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/populationRanking": 0.6,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.2
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coatOfArmsLegend": 0.2
+                    },
+                    "subject": "Major cities",
+                    "object": "Megalopolis Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governmentType": 0.1,
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decMeanC": 0.1,
+                        "http://dbpedia.org/property/octLowC": 0.1,
+                        "http://dbpedia.org/property/width": 0.1
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augRainDays": 0.17,
+                        "http://dbpedia.org/property/junRainDays": 0.17
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.17,
+                        "http://dbpedia.org/property/subdivisionName": 0.17
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.17,
+                        "http://dbpedia.org/property/augRainDays": 0.17,
+                        "http://dbpedia.org/property/junRainDays": 0.17
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marLowC": 0.17,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.17
+                    },
+                    "subject": "Major cities",
+                    "object": "Population\nin millions"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janMeanC": 0.33
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaBlank1Title": 0.33,
+                        "http://dbpedia.org/property/populationBlank1Title": 0.33
+                    },
+                    "subject": "Major cities",
+                    "object": "Megalopolis Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.5,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.25
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.25
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.5,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/text": 0.25,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.25
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.25
+                    },
+                    "subject": "Major cities",
+                    "object": "Megalopolis Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLowC": 0.14,
+                        "http://dbpedia.org/property/julRecordLowC": 0.14
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowC": 0.14
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Population\nin millions"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.14,
+                        "http://dbpedia.org/property/p": 0.14
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLowC": 0.14,
+                        "http://dbpedia.org/property/julRecordLowC": 0.14,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Major cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.14
+                    },
+                    "subject": "Major cities",
+                    "object": "Population\nin millions"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Rank",
+                "Megalopolis Name",
+                "Population\nin millions",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Related articles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaWaterKm": 0.5,
+                        "http://dbpedia.org/property/longm": 0.5
+                    },
+                    "subject": "Major cities",
+                    "object": "Population\nin millions\n2025 (projected)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Related articles",
+                    "object": "Megalopolis Name"
+                }
+            ],
+            "table": "Unnamed table in section 'North America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population\nin millions\n2000",
+                "Population\nin millions\n2025 (projected)",
+                "Population\npercent growth 2000 - 2025 (projected)",
+                "Major cities",
+                "Related articles"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09
+                    },
+                    "subject": "Megalopolis Name",
+                    "object": "Major cities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09
+                    },
+                    "subject": "Major cities",
+                    "object": "Megalopolis Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowF": 0.09
+                    },
+                    "subject": "Major cities",
+                    "object": "Population\nin millions\n2025 (projected)"
+                }
+            ],
+            "table": "Unnamed table in section 'North America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population\nin millions\n2010",
+                "Percent of U.S. Population (2010)",
+                "Population\nin millions\n2025 (projected)",
+                "Population\npercent growth 2010 - 2025 (projected)",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population\nin\n2013",
+                "Major cities",
+                "Other cities"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population in 2015",
+                "Population in 2030 (projected)",
+                "Major cities"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population\nin\n2013",
+                "Major cities",
+                "Other cities"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population\nin\n2013",
+                "Major cities",
+                "Other cities"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "Megalopolis Name",
+                "Population\nin\n2013",
+                "Major cities",
+                "Other cities"
+            ]
+        }
+    ]
+}

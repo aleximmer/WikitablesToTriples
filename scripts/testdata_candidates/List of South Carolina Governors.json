@@ -1,0 +1,202 @@
+{
+    "no. of tables": 8,
+    "page": "List of Governors of South Carolina",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/order": 1.0
+                    },
+                    "subject": "Governor",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Statehood period (1776 to Present)'",
+            "colums": [
+                "#",
+                "Governor",
+                "Took Office",
+                "Left Office",
+                "Party",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/order": 0.5,
+                        "http://dbpedia.org/property/office": 0.17
+                    },
+                    "subject": "Governor",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.33,
+                        "http://dbpedia.org/ontology/party": 0.33
+                    },
+                    "subject": "Governor",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/vp": 0.17
+                    },
+                    "subject": "Party",
+                    "object": "Governor"
+                }
+            ],
+            "table": "Unnamed table in section 'Statehood period (1776 to Present)'",
+            "colums": [
+                "#",
+                "Governor",
+                "Took Office",
+                "Left Office",
+                "Party",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/order": 0.72
+                    },
+                    "subject": "Governor",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherparty": 0.05,
+                        "http://dbpedia.org/ontology/otherParty": 0.05,
+                        "http://dbpedia.org/property/party": 0.67,
+                        "http://dbpedia.org/ontology/party": 0.69
+                    },
+                    "subject": "Governor",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/appointed": 0.03,
+                        "http://dbpedia.org/ontology/appointer": 0.03
+                    },
+                    "subject": "Governor",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.03,
+                        "http://dbpedia.org/ontology/party": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'Statehood period (1776 to Present)'",
+            "colums": [
+                "#",
+                "Governor",
+                "Took Office",
+                "Left Office",
+                "Party",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/order": 1.0
+                    },
+                    "subject": "Governor",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'Statehood period (1776 to Present)'",
+            "colums": [
+                "#",
+                "Governor",
+                "Took Office",
+                "Left Office",
+                "Party",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/order": 1.0,
+                        "http://dbpedia.org/property/shortDescription": 0.08
+                    },
+                    "subject": "Governor",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0,
+                        "http://dbpedia.org/ontology/party": 1.0
+                    },
+                    "subject": "Governor",
+                    "object": "Party"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/candidate": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Governor"
+                }
+            ],
+            "table": "Unnamed table in section 'Statehood period (1776 to Present)'",
+            "colums": [
+                "#",
+                "Governor",
+                "Took Office",
+                "Left Office",
+                "Party",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/order": 0.94
+                    },
+                    "subject": "Governor",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.91,
+                        "http://dbpedia.org/ontology/party": 0.97
+                    },
+                    "subject": "Governor",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'Statehood period (1776 to Present)'",
+            "colums": [
+                "#",
+                "Governor",
+                "Took Office",
+                "Left Office",
+                "Party",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Living former U.S. governors of South Carolina'",
+            "colums": [
+                "Governor",
+                "Gubernatorial term",
+                "Date of birth (and age)"
+            ]
+        }
+    ]
+}

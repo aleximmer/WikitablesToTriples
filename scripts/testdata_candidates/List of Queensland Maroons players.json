@@ -1,0 +1,362 @@
+{
+    "no. of tables": 2,
+    "page": "List of Queensland State of Origin players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.01,
+                        "http://dbpedia.org/property/yearbstart": 0.29,
+                        "http://dbpedia.org/property/year1start": 0.02,
+                        "http://dbpedia.org/property/year3end": 0.01,
+                        "http://dbpedia.org/property/year2start": 0.1,
+                        "http://dbpedia.org/property/year4start": 0.01,
+                        "http://dbpedia.org/property/repyears": 0.01,
+                        "http://dbpedia.org/property/yearcstart": 0.07,
+                        "http://dbpedia.org/property/yearastart": 0.68,
+                        "http://dbpedia.org/property/yeardstart": 0.01,
+                        "http://dbpedia.org/property/year2end": 0.01,
+                        "http://dbpedia.org/property/year1end": 0.01,
+                        "http://dbpedia.org/property/year5start": 0.02,
+                        "http://dbpedia.org/property/years": 0.01,
+                        "http://dbpedia.org/property/year3start": 0.04,
+                        "http://dbpedia.org/property/yearbend": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Debut Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year6end": 0.01,
+                        "http://dbpedia.org/property/points": 0.04,
+                        "http://dbpedia.org/property/fieldgoals": 0.02,
+                        "http://dbpedia.org/property/repcaps(points)_": 0.01,
+                        "http://dbpedia.org/property/ruYear1end": 0.01,
+                        "http://dbpedia.org/property/pointsc": 0.01,
+                        "http://dbpedia.org/property/ruTriesa": 0.01,
+                        "http://dbpedia.org/property/coachgamesb": 0.01,
+                        "http://dbpedia.org/property/ruTries": 0.01,
+                        "http://dbpedia.org/property/appearances": 0.04,
+                        "http://dbpedia.org/property/goalsa": 0.01,
+                        "http://dbpedia.org/property/pointsa": 0.01,
+                        "http://dbpedia.org/property/coachyearaend": 0.01,
+                        "http://dbpedia.org/property/triesb": 0.03,
+                        "http://dbpedia.org/property/year3end": 0.01,
+                        "http://dbpedia.org/property/year1start": 0.01,
+                        "http://dbpedia.org/property/triesc": 0.01,
+                        "http://dbpedia.org/property/appearancesc": 0.03,
+                        "http://dbpedia.org/property/ruYearaend": 0.01,
+                        "http://dbpedia.org/property/appearancesa": 0.68,
+                        "http://dbpedia.org/property/coachdraws": 0.01,
+                        "http://dbpedia.org/property/appearancesb": 0.13,
+                        "http://dbpedia.org/property/tries": 0.13,
+                        "http://dbpedia.org/property/goals": 0.04,
+                        "http://dbpedia.org/property/year7end": 0.01,
+                        "http://dbpedia.org/property/triesa": 0.01,
+                        "http://dbpedia.org/property/coachyear3end": 0.01,
+                        "http://dbpedia.org/property/year1end": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/coachpremierships": 0.01,
+                        "http://dbpedia.org/property/coachlossesb": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Total Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoalsd": 0.03,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.41,
+                        "http://dbpedia.org/property/fieldgoals": 0.4,
+                        "http://dbpedia.org/property/points": 0.17,
+                        "http://dbpedia.org/property/ruTries": 0.01,
+                        "http://dbpedia.org/property/goalsc": 0.1,
+                        "http://dbpedia.org/property/goalsb": 0.21,
+                        "http://dbpedia.org/property/pointsa": 0.77,
+                        "http://dbpedia.org/property/year3end": 0.01,
+                        "http://dbpedia.org/property/coachdrawsa": 0.02,
+                        "http://dbpedia.org/property/triesc": 0.07,
+                        "http://dbpedia.org/property/goalsa": 0.41,
+                        "http://dbpedia.org/property/appearancesa": 0.02,
+                        "http://dbpedia.org/property/pointsc": 0.08,
+                        "http://dbpedia.org/property/tries": 0.16,
+                        "http://dbpedia.org/property/ruGoalsa": 0.01,
+                        "http://dbpedia.org/property/ruFieldgoals": 0.01,
+                        "http://dbpedia.org/property/ruAppearancesa": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/yearbend": 0.01,
+                        "http://dbpedia.org/property/triesb": 0.17,
+                        "http://dbpedia.org/property/triesd": 0.03,
+                        "http://dbpedia.org/property/coachdrawsb": 0.01,
+                        "http://dbpedia.org/property/fieldgoalsc": 0.11,
+                        "http://dbpedia.org/property/ruTriesa": 0.01,
+                        "http://dbpedia.org/property/year4end": 0.01,
+                        "http://dbpedia.org/property/triesa": 0.35,
+                        "http://dbpedia.org/property/goalsd": 0.03,
+                        "http://dbpedia.org/property/year2end": 0.01,
+                        "http://dbpedia.org/property/appearancesc": 0.01,
+                        "http://dbpedia.org/property/ruFieldgoalsa": 0.01,
+                        "http://dbpedia.org/property/coachwinsb": 0.01,
+                        "http://dbpedia.org/property/appearances": 0.02,
+                        "http://dbpedia.org/property/pointsb": 0.26,
+                        "http://dbpedia.org/property/yearaend": 0.02,
+                        "http://dbpedia.org/property/coachdraws": 0.02,
+                        "http://dbpedia.org/property/appearancesb": 0.02,
+                        "http://dbpedia.org/property/goals": 0.41,
+                        "http://dbpedia.org/property/ruGoals": 0.01,
+                        "http://dbpedia.org/property/pointsd": 0.04,
+                        "http://dbpedia.org/property/coachdrawsc": 0.01,
+                        "http://dbpedia.org/property/fieldgoalsb": 0.21,
+                        "http://dbpedia.org/property/ruPointsa": 0.01,
+                        "http://dbpedia.org/property/coachpremierships": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Total Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.87,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/ontology/formerTeam": 0.93,
+                        "http://dbpedia.org/property/clubs": 0.01,
+                        "http://dbpedia.org/property/coachteam": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ceo": 0.01,
+                        "http://dbpedia.org/property/assistant": 0.01,
+                        "http://dbpedia.org/property/mostpoints": 0.02,
+                        "http://dbpedia.org/property/captain": 0.01,
+                        "http://dbpedia.org/property/mostcap": 0.02,
+                        "http://dbpedia.org/property/coach": 0.01,
+                        "http://dbpedia.org/property/name": 0.05
+                    },
+                    "subject": "Club",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.01,
+                        "http://dbpedia.org/property/current": 0.01,
+                        "http://dbpedia.org/property/exited": 0.01,
+                        "http://dbpedia.org/property/spoonyears": 0.01,
+                        "http://dbpedia.org/property/runnerupyears": 0.02,
+                        "http://dbpedia.org/property/minorpremiershipyears": 0.02,
+                        "http://dbpedia.org/property/season": 0.02
+                    },
+                    "subject": "Club",
+                    "object": "Debut Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/legend": 0.03,
+                        "http://dbpedia.org/property/list2b": 0.01,
+                        "http://dbpedia.org/property/premierships": 0.04,
+                        "http://dbpedia.org/property/list2h": 0.01,
+                        "http://dbpedia.org/property/spoons": 0.06,
+                        "http://dbpedia.org/property/bestResult": 0.01,
+                        "http://dbpedia.org/property/position": 0.01,
+                        "http://dbpedia.org/property/no": 0.2,
+                        "http://dbpedia.org/property/list2c": 0.01,
+                        "http://dbpedia.org/property/cup1titles": 0.02,
+                        "http://dbpedia.org/property/minorpremierships": 0.02,
+                        "http://dbpedia.org/property/runnerups": 0.04,
+                        "http://dbpedia.org/property/cup2titles": 0.01
+                    },
+                    "subject": "Club",
+                    "object": "Total Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/legend": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/premierships": 0.09,
+                        "http://dbpedia.org/property/minorpremierships": 0.07,
+                        "http://dbpedia.org/property/loss": 0.01,
+                        "http://dbpedia.org/property/runnerups": 0.03,
+                        "http://dbpedia.org/property/spoons": 0.01,
+                        "http://dbpedia.org/property/position": 0.01,
+                        "http://dbpedia.org/property/no": 0.07
+                    },
+                    "subject": "Club",
+                    "object": "Total Points"
+                }
+            ],
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Cap No.",
+                "Name",
+                "Debut Year",
+                "Debut Game",
+                "Total Games",
+                "Total Points",
+                "Club"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year1start": 0.14,
+                        "http://dbpedia.org/property/yearastart": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Debut Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.27,
+                        "http://dbpedia.org/property/club": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/tries": 0.03,
+                        "http://dbpedia.org/property/appearancesa": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.19,
+                        "http://dbpedia.org/property/triesa": 0.08,
+                        "http://dbpedia.org/property/points": 0.08,
+                        "http://dbpedia.org/property/fieldgoals": 0.19,
+                        "http://dbpedia.org/property/appearances": 0.03,
+                        "http://dbpedia.org/property/goalsa": 0.05,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.05,
+                        "http://dbpedia.org/property/pointsa": 0.05,
+                        "http://dbpedia.org/property/tries": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.24,
+                        "http://dbpedia.org/property/triesa": 0.05,
+                        "http://dbpedia.org/property/points": 0.08,
+                        "http://dbpedia.org/property/fieldgoals": 0.24,
+                        "http://dbpedia.org/property/appearances": 0.03,
+                        "http://dbpedia.org/property/goalsa": 0.05,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.05,
+                        "http://dbpedia.org/property/pointsa": 0.05,
+                        "http://dbpedia.org/property/tries": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.27,
+                        "http://dbpedia.org/property/triesa": 0.05,
+                        "http://dbpedia.org/property/points": 0.11,
+                        "http://dbpedia.org/property/fieldgoals": 0.27,
+                        "http://dbpedia.org/property/appearances": 0.05,
+                        "http://dbpedia.org/property/goalsa": 0.05,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.08,
+                        "http://dbpedia.org/property/pointsa": 0.05,
+                        "http://dbpedia.org/property/tries": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Field Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.19,
+                        "http://dbpedia.org/property/triesa": 0.05,
+                        "http://dbpedia.org/property/points": 0.11,
+                        "http://dbpedia.org/property/fieldgoals": 0.19,
+                        "http://dbpedia.org/property/appearances": 0.03,
+                        "http://dbpedia.org/property/goalsa": 0.05,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.05,
+                        "http://dbpedia.org/property/pointsa": 0.05,
+                        "http://dbpedia.org/property/tries": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Points"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/current": 0.24,
+                        "http://dbpedia.org/property/column1Title": 0.03,
+                        "http://dbpedia.org/property/season": 0.32
+                    },
+                    "subject": "Club",
+                    "object": "Debut Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.05,
+                        "http://dbpedia.org/property/premierships": 0.05,
+                        "http://dbpedia.org/property/minorpremierships": 0.16,
+                        "http://dbpedia.org/property/runnerups": 0.16,
+                        "http://dbpedia.org/property/spoons": 0.16,
+                        "http://dbpedia.org/property/cup2titles": 0.08,
+                        "http://dbpedia.org/property/position": 0.08
+                    },
+                    "subject": "Club",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/minorpremierships": 0.08,
+                        "http://dbpedia.org/property/runnerups": 0.03,
+                        "http://dbpedia.org/property/spoons": 0.08,
+                        "http://dbpedia.org/property/premierships": 0.03
+                    },
+                    "subject": "Club",
+                    "object": "Tries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runnerups": 0.03,
+                        "http://dbpedia.org/property/premierships": 0.03
+                    },
+                    "subject": "Club",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.03
+                    },
+                    "subject": "Club",
+                    "object": "Field Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/legend": 0.05,
+                        "http://dbpedia.org/property/list2c": 0.05,
+                        "http://dbpedia.org/property/list2b": 0.05,
+                        "http://dbpedia.org/property/premierships": 0.05,
+                        "http://dbpedia.org/property/minorpremierships": 0.08,
+                        "http://dbpedia.org/property/list2h": 0.05,
+                        "http://dbpedia.org/property/spoons": 0.03
+                    },
+                    "subject": "Club",
+                    "object": "Points"
+                }
+            ],
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Cap No.",
+                "Name",
+                "Debut Year",
+                "Club",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "Field Goals",
+                "Points"
+            ]
+        }
+    ]
+}

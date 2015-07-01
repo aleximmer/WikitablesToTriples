@@ -1,0 +1,249 @@
+{
+    "no. of tables": 17,
+    "page": "List of awards and nominations received by Sudeep",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Filmfare Awards South'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Karnataka State Film Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South Indian International Movie Awards (SIIMA)'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Suvarna Film Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.5,
+                        "http://dbpedia.org/property/starring": 0.5
+                    },
+                    "subject": "Nominated work",
+                    "object": "Category"
+                }
+            ],
+            "table": "Unnamed table in section 'Toronto After Dark Film Festival'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Madrid International Film Festival'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film Fan's Association Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'CineMAA Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Vijay Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 1.0
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Edison Awards (India)'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.5
+                    },
+                    "subject": "Nominated work",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Times Film Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'TV9 Sandalwood Star Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Zee Kannada Innovative Film Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hello Gandhinagara Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asianet Kaveri Film Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Videocon-Suprabhata Awards'",
+            "colums": [
+                "Year",
+                "Nominated work",
+                "Category",
+                "Result",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.11
+                    },
+                    "subject": "Recognition",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Others'",
+            "colums": [
+                "Year",
+                "Websites or Organizations or Magazines",
+                "Result or Rank",
+                "Recognition",
+                "Ref."
+            ]
+        }
+    ]
+}

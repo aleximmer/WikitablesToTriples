@@ -1,0 +1,207 @@
+{
+    "no. of tables": 25,
+    "page": "List of former United States Senators",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.04
+                    },
+                    "subject": "Senator",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.88,
+                        "http://dbpedia.org/property/before": 0.02,
+                        "http://dbpedia.org/property/stateDelegate": 0.02
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/otherparty": 0.02,
+                        "http://dbpedia.org/ontology/otherParty": 0.04,
+                        "http://dbpedia.org/property/party": 0.86,
+                        "http://dbpedia.org/ontology/party": 0.88
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.86
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.86,
+                        "http://dbpedia.org/ontology/party": 0.86
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.67
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.73,
+                        "http://dbpedia.org/ontology/party": 0.73
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 1.0
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.33,
+                        "http://dbpedia.org/property/party": 0.67,
+                        "http://dbpedia.org/ontology/party": 0.67
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.83
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0,
+                        "http://dbpedia.org/ontology/party": 1.0
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.86
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0,
+                        "http://dbpedia.org/ontology/party": 1.0
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 1.0
+                    },
+                    "subject": "Senator",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 1.0,
+                        "http://dbpedia.org/ontology/party": 1.0
+                    },
+                    "subject": "Senator",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Senator",
+                "Years",
+                "State",
+                "Party",
+                "Lifespan"
+            ]
+        }
+    ]
+}

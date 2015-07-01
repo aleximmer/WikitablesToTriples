@@ -1,0 +1,196 @@
+{
+    "no. of tables": 3,
+    "page": "List of towns and cities in Norway",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.08,
+                        "http://dbpedia.org/property/nativeName": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.85,
+                        "http://dbpedia.org/property/subdivisionName": 0.19,
+                        "http://dbpedia.org/property/seat": 0.02,
+                        "http://dbpedia.org/property/capital": 0.62,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/property/imageCaption": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.85,
+                        "http://dbpedia.org/property/officialName": 0.15,
+                        "http://dbpedia.org/property/name": 0.75,
+                        "http://dbpedia.org/property/county": 0.02
+                    },
+                    "subject": "City/town",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.15,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.56,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/property/pushpinMap": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.17,
+                        "http://dbpedia.org/property/officialName": 0.02,
+                        "http://dbpedia.org/property/county": 0.6,
+                        "http://dbpedia.org/property/name": 0.02
+                    },
+                    "subject": "City/town",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.15
+                    },
+                    "subject": "City/town",
+                    "object": "City/town status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.1
+                    },
+                    "subject": "Municipality",
+                    "object": "City/town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/county": 0.04,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Municipality",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.12
+                    },
+                    "subject": "County",
+                    "object": "City/town"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities and towns in Norway'",
+            "colums": [
+                "City/town",
+                "Municipality",
+                "County",
+                "City/town status",
+                "Population"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.44,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.18,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.18,
+                        "http://dbpedia.org/property/officialName": 0.02,
+                        "http://dbpedia.org/property/nativeName": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.44,
+                        "http://dbpedia.org/property/capital": 0.14,
+                        "http://dbpedia.org/property/name": 0.18
+                    },
+                    "subject": "City",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.18,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/county": 0.18,
+                        "http://dbpedia.org/property/pushpinMap": 0.32
+                    },
+                    "subject": "City",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.02
+                    },
+                    "subject": "City",
+                    "object": "Town status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.64
+                    },
+                    "subject": "Municipality",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/county": 0.68,
+                        "http://xmlns.com/foaf/0.1/name": 0.66
+                    },
+                    "subject": "Municipality",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.02
+                    },
+                    "subject": "Municipality",
+                    "object": "Town status"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities and towns in Norway'",
+            "colums": [
+                "City",
+                "Municipality",
+                "County",
+                "Town status",
+                "Population"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.12,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.12,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/property/name": 0.12
+                    },
+                    "subject": "City",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.12,
+                        "http://dbpedia.org/property/county": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.12
+                    },
+                    "subject": "City",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.12,
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Municipality",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/county": 0.5,
+                        "http://xmlns.com/foaf/0.1/name": 0.5
+                    },
+                    "subject": "Municipality",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'Former towns'",
+            "colums": [
+                "City",
+                "Municipality",
+                "County",
+                "Town status"
+            ]
+        }
+    ]
+}

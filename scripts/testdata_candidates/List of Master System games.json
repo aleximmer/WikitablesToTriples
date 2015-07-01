@@ -1,0 +1,1846 @@
+{
+    "no. of tables": 27,
+    "page": "List of Master System games",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.5,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.5
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section '0-9'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.59,
+                        "http://dbpedia.org/property/developer": 0.55,
+                        "http://dbpedia.org/property/publisher": 0.14,
+                        "http://dbpedia.org/ontology/distributor": 0.1,
+                        "http://dbpedia.org/ontology/publisher": 0.55
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.03,
+                        "http://dbpedia.org/property/publisher": 0.48,
+                        "http://dbpedia.org/ontology/publisher": 0.1,
+                        "http://dbpedia.org/property/distributor": 0.1,
+                        "http://dbpedia.org/property/developer": 0.07
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/modes": 0.03
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.66,
+                        "http://dbpedia.org/property/parent": 0.07,
+                        "http://dbpedia.org/ontology/parentCompany": 0.07
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.03,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.41,
+                        "http://dbpedia.org/property/locationCountry": 0.03
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.03,
+                        "http://dbpedia.org/ontology/subsidiary": 0.03
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.03,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.03,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/property/locationCountry": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.14,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.31,
+                        "http://dbpedia.org/property/value": 0.45,
+                        "http://dbpedia.org/property/image": 0.14,
+                        "http://dbpedia.org/property/longm": 0.38
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.59,
+                        "http://dbpedia.org/property/developer": 0.59,
+                        "http://dbpedia.org/property/publisher": 0.06,
+                        "http://dbpedia.org/ontology/publisher": 0.35
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/publisher": 0.41,
+                        "http://dbpedia.org/property/developer": 0.06,
+                        "http://dbpedia.org/ontology/publisher": 0.24
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.18
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.06,
+                        "http://dbpedia.org/ontology/product": 0.06
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.35
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.12,
+                        "http://dbpedia.org/property/value": 0.12
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.64,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.23,
+                        "http://dbpedia.org/ontology/publisher": 0.64
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developer": 0.09,
+                        "http://dbpedia.org/ontology/publisher": 0.18,
+                        "http://dbpedia.org/property/publisher": 0.45
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.18,
+                        "http://dbpedia.org/property/release": 0.05
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.05,
+                        "http://dbpedia.org/ontology/product": 0.09
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.45
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.09,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.09,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/locationCountry": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/defunct": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.05,
+                        "http://dbpedia.org/property/locationCountry": 0.05
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.05
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.45,
+                        "http://dbpedia.org/ontology/publisher": 0.25,
+                        "http://dbpedia.org/property/developer": 0.4
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.1,
+                        "http://dbpedia.org/property/publisher": 0.35,
+                        "http://dbpedia.org/ontology/publisher": 0.3
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.1
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.05
+                    },
+                    "subject": "Regions Released",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.1,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.1,
+                        "http://dbpedia.org/property/value": 0.2,
+                        "http://dbpedia.org/property/image": 0.1
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.6,
+                        "http://dbpedia.org/property/developer": 0.6,
+                        "http://dbpedia.org/ontology/publisher": 0.4,
+                        "http://dbpedia.org/property/publisher": 0.2
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.2,
+                        "http://dbpedia.org/property/publisher": 0.2,
+                        "http://dbpedia.org/property/developer": 0.2,
+                        "http://dbpedia.org/ontology/publisher": 0.4
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.4
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.2,
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.4
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.2,
+                        "http://dbpedia.org/property/value": 0.2,
+                        "http://dbpedia.org/property/longm": 0.4
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.54,
+                        "http://dbpedia.org/property/developer": 0.62,
+                        "http://dbpedia.org/ontology/publisher": 0.23,
+                        "http://dbpedia.org/property/publisher": 0.08
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.15,
+                        "http://dbpedia.org/ontology/publisher": 0.15
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.08,
+                        "http://dbpedia.org/ontology/parentCompany": 0.08,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.54,
+                        "http://dbpedia.org/ontology/owner": 0.08,
+                        "http://dbpedia.org/property/owner": 0.08
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.08
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.08,
+                        "http://dbpedia.org/ontology/product": 0.08
+                    },
+                    "subject": "Publisher",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.08
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.08,
+                        "http://dbpedia.org/property/value": 0.08,
+                        "http://dbpedia.org/property/image": 0.08
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.44,
+                        "http://dbpedia.org/property/publisher": 0.12,
+                        "http://dbpedia.org/property/developer": 0.4,
+                        "http://dbpedia.org/ontology/distributor": 0.04,
+                        "http://dbpedia.org/ontology/publisher": 0.52
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.04,
+                        "http://dbpedia.org/property/publisher": 0.16,
+                        "http://dbpedia.org/ontology/publisher": 0.04,
+                        "http://dbpedia.org/property/developer": 0.08
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.08
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.04
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.72,
+                        "http://dbpedia.org/property/subsid": 0.04,
+                        "http://dbpedia.org/ontology/subsidiary": 0.04
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.12,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.04,
+                        "http://dbpedia.org/property/locationCountry": 0.12
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.04,
+                        "http://dbpedia.org/ontology/parentCompany": 0.04
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.08,
+                        "http://dbpedia.org/property/value": 0.08
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.11,
+                        "http://dbpedia.org/property/publisher": 0.44,
+                        "http://dbpedia.org/property/developer": 0.11,
+                        "http://dbpedia.org/ontology/publisher": 0.67
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.11,
+                        "http://dbpedia.org/property/publisher": 0.11
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/last": 0.11
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.11,
+                        "http://dbpedia.org/ontology/numberOfVolumes": 0.11,
+                        "http://dbpedia.org/property/volumes": 0.11
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.67
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.22,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.22,
+                        "http://dbpedia.org/property/locationCountry": 0.22
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.44,
+                        "http://dbpedia.org/property/value": 0.44,
+                        "http://dbpedia.org/property/longm": 0.22
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.75,
+                        "http://dbpedia.org/property/developer": 0.75,
+                        "http://dbpedia.org/ontology/publisher": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.75,
+                        "http://dbpedia.org/ontology/publisher": 0.75
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/input": 0.25,
+                        "http://dbpedia.org/property/modes": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 1.0,
+                        "http://dbpedia.org/property/value": 1.0
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.33,
+                        "http://dbpedia.org/property/developer": 0.33,
+                        "http://dbpedia.org/ontology/publisher": 0.17,
+                        "http://dbpedia.org/property/publisher": 0.17
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.17,
+                        "http://dbpedia.org/property/developer": 0.17,
+                        "http://dbpedia.org/ontology/publisher": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.33
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.17,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/ontology/parentCompany": 0.17
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.33
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.67,
+                        "http://dbpedia.org/property/value": 0.67
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.6,
+                        "http://dbpedia.org/property/developer": 0.6,
+                        "http://dbpedia.org/ontology/publisher": 0.6
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.4
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.4,
+                        "http://dbpedia.org/property/subsid": 0.2,
+                        "http://dbpedia.org/ontology/subsidiary": 0.2
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.4
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.2,
+                        "http://dbpedia.org/ontology/parentCompany": 0.2
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.4,
+                        "http://dbpedia.org/property/value": 0.4,
+                        "http://dbpedia.org/property/longm": 0.4
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.3,
+                        "http://dbpedia.org/property/developer": 0.4,
+                        "http://dbpedia.org/ontology/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.1,
+                        "http://dbpedia.org/property/publisher": 0.2,
+                        "http://dbpedia.org/ontology/publisher": 0.1,
+                        "http://dbpedia.org/property/developer": 0.2
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.1
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.1
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.7
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.1,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.1,
+                        "http://dbpedia.org/property/locationCountry": 0.1
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalYear": 0.1,
+                        "http://dbpedia.org/property/gdpPppYear": 0.1
+                    },
+                    "subject": "Regions Released",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.7,
+                        "http://dbpedia.org/property/value": 0.7,
+                        "http://dbpedia.org/property/longm": 0.1
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.09,
+                        "http://dbpedia.org/property/designer": 0.09,
+                        "http://dbpedia.org/ontology/publisher": 0.09,
+                        "http://dbpedia.org/ontology/developer": 0.23,
+                        "http://dbpedia.org/property/developer": 0.23,
+                        "http://dbpedia.org/ontology/distributor": 0.05,
+                        "http://dbpedia.org/ontology/designer": 0.09
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.18,
+                        "http://dbpedia.org/ontology/publisher": 0.18,
+                        "http://dbpedia.org/ontology/developer": 0.05,
+                        "http://dbpedia.org/property/developer": 0.05,
+                        "http://dbpedia.org/ontology/license": 0.09,
+                        "http://dbpedia.org/ontology/distributor": 0.09
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.05
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.45,
+                        "http://dbpedia.org/property/parent": 0.05,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://dbpedia.org/ontology/parentCompany": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/regionServed": 0.05,
+                        "http://dbpedia.org/ontology/locationCountry": 0.14,
+                        "http://dbpedia.org/property/areaServed": 0.05,
+                        "http://dbpedia.org/property/locationCountry": 0.09
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.05,
+                        "http://dbpedia.org/ontology/subsidiary": 0.05
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.09,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/property/locationCountry": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.09
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/image": 0.05
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.25,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.25,
+                        "http://dbpedia.org/property/locationCountry": 0.25
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/internationally": 0.25
+                    },
+                    "subject": "Developer",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.25,
+                        "http://dbpedia.org/property/locationCountry": 0.25
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.5,
+                        "http://dbpedia.org/property/value": 0.5
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.33,
+                        "http://dbpedia.org/property/developer": 0.33,
+                        "http://dbpedia.org/property/publisher": 0.17,
+                        "http://dbpedia.org/ontology/publisher": 0.33
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.17,
+                        "http://dbpedia.org/ontology/publisher": 0.17
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.17
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.17
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/internationally": 0.17
+                    },
+                    "subject": "Developer",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.83,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.67,
+                        "http://dbpedia.org/property/longm": 0.17
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 0.35,
+                        "http://dbpedia.org/property/publisher": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.05,
+                        "http://dbpedia.org/property/developer": 0.05,
+                        "http://dbpedia.org/ontology/publisher": 0.1,
+                        "http://dbpedia.org/property/publisher": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.35,
+                        "http://dbpedia.org/property/subsid": 0.05,
+                        "http://dbpedia.org/ontology/subsidiary": 0.05,
+                        "http://dbpedia.org/ontology/parentCompany": 0.05,
+                        "http://dbpedia.org/property/parent": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.05,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.3,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/locationCountry": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.05,
+                        "http://dbpedia.org/ontology/parentCompany": 0.05
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.1,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.3,
+                        "http://dbpedia.org/property/value": 0.45,
+                        "http://dbpedia.org/property/image": 0.1,
+                        "http://dbpedia.org/property/longm": 0.35
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 1.0,
+                        "http://dbpedia.org/property/developer": 1.0,
+                        "http://dbpedia.org/ontology/publisher": 1.0,
+                        "http://dbpedia.org/property/publisher": 1.0
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 1.0
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 1.0
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 1.0
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                }
+            ],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.65,
+                        "http://dbpedia.org/property/developer": 0.59,
+                        "http://dbpedia.org/property/publisher": 0.35,
+                        "http://dbpedia.org/ontology/publisher": 0.53
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/publisher": 0.12,
+                        "http://dbpedia.org/ontology/publisher": 0.24
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.06,
+                        "http://dbpedia.org/ontology/product": 0.12
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.35,
+                        "http://dbpedia.org/property/subsid": 0.06,
+                        "http://dbpedia.org/ontology/subsidiary": 0.06
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.06
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.06
+                    },
+                    "subject": "Developer",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.06,
+                        "http://dbpedia.org/ontology/parentCompany": 0.06
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.1,
+                        "http://dbpedia.org/ontology/publisher": 0.25,
+                        "http://dbpedia.org/ontology/developer": 0.47,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/property/distributor": 0.02,
+                        "http://dbpedia.org/ontology/distributor": 0.02
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.23,
+                        "http://dbpedia.org/ontology/publisher": 0.1
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.02,
+                        "http://dbpedia.org/property/release": 0.02
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Main Title / Alternate Title(s)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.48,
+                        "http://dbpedia.org/property/parent": 0.03,
+                        "http://dbpedia.org/property/companyName": 0.02,
+                        "http://dbpedia.org/ontology/parentCompany": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.07,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.03,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/property/locationCountry": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/defunct": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.02,
+                        "http://dbpedia.org/ontology/subsidiary": 0.02
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/image": 0.05
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.53,
+                        "http://dbpedia.org/property/developer": 0.53,
+                        "http://dbpedia.org/ontology/publisher": 0.41,
+                        "http://dbpedia.org/property/publisher": 0.24
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.06,
+                        "http://dbpedia.org/property/developer": 0.06,
+                        "http://dbpedia.org/property/publisher": 0.18,
+                        "http://dbpedia.org/ontology/publisher": 0.06
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.59
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.06,
+                        "http://dbpedia.org/property/locationCountry": 0.06
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.12,
+                        "http://dbpedia.org/property/value": 0.12,
+                        "http://dbpedia.org/property/image": 0.12
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 1.0,
+                        "http://dbpedia.org/property/developer": 1.0,
+                        "http://dbpedia.org/ontology/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 1.0,
+                        "http://dbpedia.org/property/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.5,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.5,
+                        "http://dbpedia.org/property/value": 1.0,
+                        "http://dbpedia.org/property/image": 0.5
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.5,
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.5
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.21,
+                        "http://dbpedia.org/property/developer": 0.21,
+                        "http://dbpedia.org/ontology/publisher": 0.11,
+                        "http://dbpedia.org/ontology/distributor": 0.05,
+                        "http://dbpedia.org/property/publisher": 0.11
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.16,
+                        "http://dbpedia.org/property/developer": 0.05,
+                        "http://dbpedia.org/ontology/publisher": 0.16,
+                        "http://dbpedia.org/property/publisher": 0.11
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.05
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.32
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.05,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.05,
+                        "http://dbpedia.org/property/locationCountry": 0.05
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                }
+            ],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.5,
+                        "http://dbpedia.org/ontology/designer": 0.5,
+                        "http://dbpedia.org/property/designer": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 0.5
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.5,
+                        "http://dbpedia.org/property/value": 0.5
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'X'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 1.0,
+                        "http://dbpedia.org/property/developer": 1.0
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 1.0
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 1.0
+                    },
+                    "subject": "Publisher",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 1.0
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 1.0
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/media": 0.25
+                    },
+                    "subject": "Main Title / Alternate Title(s)",
+                    "object": "Max. # of Players"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.75
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.75
+                    },
+                    "subject": "Developer",
+                    "object": "Regions Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.25,
+                        "http://dbpedia.org/property/value": 0.25,
+                        "http://dbpedia.org/property/longm": 0.75
+                    },
+                    "subject": "Regions Released",
+                    "object": "Max. # of Players"
+                }
+            ],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Main Title / Alternate Title(s)",
+                "Developer",
+                "Publisher",
+                "Regions Released",
+                "Release Date",
+                "Max. # of Players"
+            ]
+        }
+    ]
+}

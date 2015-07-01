@@ -1,0 +1,207 @@
+{
+    "no. of tables": 16,
+    "page": "List of NFL franchise post-season droughts",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.21,
+                        "http://dbpedia.org/property/rd3Score": 0.03,
+                        "http://dbpedia.org/property/time": 0.21,
+                        "http://dbpedia.org/property/r": 0.27,
+                        "http://dbpedia.org/property/rt": 0.06
+                    },
+                    "subject": "Last playoff game win",
+                    "object": "Seasons\nSince Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ht": 0.03,
+                        "http://dbpedia.org/property/rd3Seed": 0.03,
+                        "http://dbpedia.org/property/h": 0.12,
+                        "http://dbpedia.org/property/rd2Seed": 0.03,
+                        "http://dbpedia.org/property/time": 0.21,
+                        "http://dbpedia.org/property/r": 0.09,
+                        "http://dbpedia.org/property/rt": 0.03
+                    },
+                    "subject": "Last playoff game win",
+                    "object": "Streak"
+                }
+            ],
+            "table": "Current Playoff Loss Streak[1]",
+            "colums": [
+                "Team",
+                "Last playoff game win",
+                "Seasons\nSince Win",
+                "Streak",
+                "Playoff Losses - Teams"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06
+                    },
+                    "subject": "Team",
+                    "object": "Seasons"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/h": 0.18,
+                        "http://dbpedia.org/property/rd3Score": 0.06,
+                        "http://dbpedia.org/property/time": 0.15,
+                        "http://dbpedia.org/property/r": 0.33,
+                        "http://dbpedia.org/property/rt": 0.09
+                    },
+                    "subject": "Last appearance\nin Conference Finals",
+                    "object": "Seasons"
+                }
+            ],
+            "table": "Drought Reference [1]",
+            "colums": [
+                "Seasons",
+                "Team",
+                "Last appearance\nin Conference Finals",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "Seasons"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/visitorQtr": 0.09,
+                        "http://dbpedia.org/property/quarter": 0.18,
+                        "http://dbpedia.org/property/yards": 0.06,
+                        "http://dbpedia.org/property/driveplays": 0.21,
+                        "http://dbpedia.org/property/r": 0.09,
+                        "http://dbpedia.org/property/home": 0.03
+                    },
+                    "subject": "Last appearance\nin Super Bowl",
+                    "object": "Seasons"
+                }
+            ],
+            "table": "Last appearance in Super Bowl or\nNFL Championship[1][3]",
+            "colums": [
+                "Seasons",
+                "Team",
+                "Last appearance\nin Super Bowl",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/quarter": 0.5,
+                        "http://dbpedia.org/property/yards": 0.12,
+                        "http://dbpedia.org/property/driveplays": 0.5,
+                        "http://dbpedia.org/property/home": 0.12
+                    },
+                    "subject": "Last Super Bowl crown",
+                    "object": "Seasons"
+                }
+            ],
+            "table": "Six different Divisions the last six years",
+            "colums": [
+                "Division",
+                "Last Super Bowl crown",
+                "Seasons"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.15
+                    },
+                    "subject": "City/region",
+                    "object": "Seasons waited"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.46
+                    },
+                    "subject": "Conference Title(s)",
+                    "object": "City/region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ht": 0.15,
+                        "http://dbpedia.org/property/home": 0.23,
+                        "http://dbpedia.org/property/road": 0.08,
+                        "http://dbpedia.org/property/h": 0.08,
+                        "http://dbpedia.org/property/rd4Score": 0.08,
+                        "http://dbpedia.org/property/rt": 0.08
+                    },
+                    "subject": "Conference Title(s)",
+                    "object": "Seasons waited"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afc": 0.31,
+                        "http://dbpedia.org/property/nfc": 0.15
+                    },
+                    "subject": "Conference Title(s)",
+                    "object": "Team(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.69,
+                        "http://dbpedia.org/property/city": 0.69
+                    },
+                    "subject": "Team(s)",
+                    "object": "City/region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ht": 0.08,
+                        "http://dbpedia.org/property/home": 0.08,
+                        "http://dbpedia.org/property/homeTotal": 0.08,
+                        "http://dbpedia.org/property/rd3Score": 0.08,
+                        "http://dbpedia.org/property/visitor": 0.08,
+                        "http://dbpedia.org/property/visitorTotal": 0.08,
+                        "http://dbpedia.org/property/hofers": 0.08,
+                        "http://dbpedia.org/property/odds": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Seasons waited"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afc": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Team(s)"
+                }
+            ],
+            "table": "Last city to leave list - Seattle, 2013 season",
+            "colums": [
+                "City/region",
+                "Seasons waited",
+                "Conference Title(s)",
+                "Team(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Historical Team Droughts'",
+            "colums": [
+                "Team",
+                "Longest streak with\nno post-season appearances",
+                "Seasons",
+                "Longest streak with\nno post-season victories",
+                "Seasons"
+            ]
+        }
+    ]
+}

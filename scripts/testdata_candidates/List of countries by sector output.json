@@ -1,0 +1,185 @@
+{
+    "no. of tables": 3,
+    "page": "List of countries by GDP sector composition",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.31,
+                        "http://dbpedia.org/property/latm": 0.06,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.03,
+                        "http://dbpedia.org/property/value": 0.06,
+                        "http://dbpedia.org/property/ethnicGroups": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/gdpPppRank": 0.11,
+                        "http://dbpedia.org/property/populationDensityRank": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'By economic sector'",
+            "colums": [
+                "#",
+                "Country",
+                "nominal GDP",
+                "Agri.",
+                "Indus.",
+                "Serv.",
+                "Agri.",
+                "Indus.",
+                "Serv."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.06,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.08,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.03,
+                        "http://dbpedia.org/property/gdpPppRank": 0.28,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.03,
+                        "http://dbpedia.org/property/hdiRank": 0.06,
+                        "http://dbpedia.org/property/longm": 0.06,
+                        "http://dbpedia.org/property/areaRank": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'By economic sector'",
+            "colums": [
+                "#",
+                "Country",
+                "Purchasing Power Parity",
+                "Agri.",
+                "Indus.",
+                "Serv.",
+                "Agri.",
+                "Indus.",
+                "Serv."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/percentWater": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Total natural resources\n(% of GDP)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepSnowCm": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/augSnowCm": 0.01,
+                        "http://dbpedia.org/property/junSnowCm": 0.01,
+                        "http://dbpedia.org/property/unitPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/maySnowCm": 0.01,
+                        "http://dbpedia.org/property/julSnowCm": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Oil\n(% of GDP)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepSnowCm": 0.01,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/augSnowCm": 0.01,
+                        "http://dbpedia.org/property/junSnowCm": 0.01,
+                        "http://dbpedia.org/property/decLowC": 0.01,
+                        "http://dbpedia.org/property/maySnowCm": 0.01,
+                        "http://dbpedia.org/property/julSnowCm": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Natural gas\n(% of GDP)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octSnowDays": 0.01,
+                        "http://dbpedia.org/property/maySnowDays": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/populationCensusRank": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Coal\n(% of GDP)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepSnowCm": 0.01,
+                        "http://dbpedia.org/property/value": 0.01,
+                        "http://dbpedia.org/property/octSnowDays": 0.01,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/populationCensusRank": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/maySnowDays": 0.01,
+                        "http://dbpedia.org/property/julSnowCm": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/junSnowCm": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/percentWater": 0.01,
+                        "http://dbpedia.org/property/augSnowCm": 0.01,
+                        "http://dbpedia.org/property/maySnowCm": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Mineral\n(% of GDP)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/octSnowDays": 0.01,
+                        "http://dbpedia.org/property/maySnowDays": 0.01,
+                        "http://dbpedia.org/property/value": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/oleft": 0.01,
+                        "http://dbpedia.org/property/novLowC": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/y": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Forest\n(% of GDP)"
+                }
+            ],
+            "table": "Unnamed table in section 'GDP from natural resources'",
+            "colums": [
+                "Country",
+                "Total natural resources\n(% of GDP)",
+                "Oil\n(% of GDP)",
+                "Natural gas\n(% of GDP)",
+                "Coal\n(% of GDP)",
+                "Mineral\n(% of GDP)",
+                "Forest\n(% of GDP)"
+            ]
+        }
+    ]
+}

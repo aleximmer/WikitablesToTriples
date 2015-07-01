@@ -1,0 +1,212 @@
+{
+    "no. of tables": 11,
+    "page": "List of minor planets: 195001\u2013196000",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/telescope15Type": 0.03
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Discoverer(s)",
+                    "object": "Discovery site"
+                }
+            ],
+            "table": "Unnamed table in section '195001\u2013195100'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope15Type": 0.04
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                }
+            ],
+            "table": "Unnamed table in section '195101\u2013195200'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope15Type": 0.06
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                }
+            ],
+            "table": "Unnamed table in section '195201\u2013195300'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/telescope15Type": 0.05
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Discoverer(s)",
+                    "object": "Discovery site"
+                }
+            ],
+            "table": "Unnamed table in section '195301\u2013195400'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope15Type": 0.05
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                }
+            ],
+            "table": "Unnamed table in section '195401\u2013195500'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope15Type": 0.01
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                }
+            ],
+            "table": "Unnamed table in section '195501\u2013195600'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/telescope15Type": 0.01
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Discoverer(s)",
+                    "object": "Discovery site"
+                }
+            ],
+            "table": "Unnamed table in section '195601\u2013195700'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '195701\u2013195800'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope15Type": 0.01
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                }
+            ],
+            "table": "Unnamed table in section '195801\u2013195900'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope15Type": 0.01
+                    },
+                    "subject": "Discovery site",
+                    "object": "Discoverer(s)"
+                }
+            ],
+            "table": "Unnamed table in section '195901\u2013196000'",
+            "colums": [
+                "Name",
+                "Provisional\ndesignation",
+                "Discovery date",
+                "Discovery site",
+                "Discoverer(s)"
+            ]
+        }
+    ]
+}

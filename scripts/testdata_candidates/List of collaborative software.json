@@ -1,0 +1,473 @@
+{
+    "no. of tables": 5,
+    "page": "List of collaborative software",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/ontology/author": 0.02,
+                        "http://dbpedia.org/ontology/developer": 0.45,
+                        "http://dbpedia.org/property/developer": 0.41,
+                        "http://dbpedia.org/ontology/license": 0.02,
+                        "http://dbpedia.org/property/author": 0.02,
+                        "http://dbpedia.org/property/license": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Creator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.05,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "First public release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.02,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Database backend"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.43,
+                        "http://dbpedia.org/property/license": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Software product available"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "SaaS available"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/ontology/product": 0.07
+                    },
+                    "subject": "Creator",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.02
+                    },
+                    "subject": "Creator",
+                    "object": "First public release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.09
+                    },
+                    "subject": "Creator",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.02
+                    },
+                    "subject": "Creator",
+                    "object": "Software product available"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.02
+                    },
+                    "subject": "Creator",
+                    "object": "SaaS available"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.05,
+                        "http://dbpedia.org/property/developer": 0.05
+                    },
+                    "subject": "Database backend",
+                    "object": "Creator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.09,
+                        "http://dbpedia.org/property/license": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageDisambiguates": 0.02
+                    },
+                    "subject": "Database backend",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/debianApproved": 0.14,
+                        "http://dbpedia.org/property/osiApproved": 0.14,
+                        "http://dbpedia.org/property/gplCompatible": 0.11,
+                        "http://dbpedia.org/property/linking": 0.09,
+                        "http://dbpedia.org/property/copyleft": 0.14,
+                        "http://dbpedia.org/property/freeSoftware": 0.14
+                    },
+                    "subject": "License",
+                    "object": "Software product available"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.02,
+                        "http://dbpedia.org/property/debianApproved": 0.09,
+                        "http://dbpedia.org/property/osiApproved": 0.09,
+                        "http://dbpedia.org/property/gplCompatible": 0.09,
+                        "http://dbpedia.org/property/linking": 0.07,
+                        "http://dbpedia.org/property/copyleft": 0.09,
+                        "http://dbpedia.org/property/freeSoftware": 0.09
+                    },
+                    "subject": "License",
+                    "object": "SaaS available"
+                }
+            ],
+            "table": "Unnamed table in section 'Comparison of notable software'",
+            "colums": [
+                "Name",
+                "Creator",
+                "Latest stable release",
+                "Stable release date",
+                "First public release date",
+                "Database backend",
+                "License",
+                "Software product available",
+                "SaaS available"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Comparison of notable software'",
+            "colums": [
+                "Name",
+                "E-mail server",
+                "Faxing",
+                "Instant messaging",
+                "Telephony",
+                "Videoconferencing",
+                "Web conferencing",
+                "Data conferencing",
+                "Application sharing",
+                "Electronic meeting system",
+                "Synchronous conferencing"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Comparison of notable software'",
+            "colums": [
+                "Name",
+                "Wikis",
+                "Web publishing",
+                "Calendaring software",
+                "Project Management",
+                "Workflow system",
+                "Document Management",
+                "List Management",
+                "XML Forms Management and workflow",
+                "Discussion",
+                "Blogs",
+                "Surveys",
+                "Time Tracking",
+                "Business Intelligence",
+                "Charting",
+                "Bookmarking, Tagging, Rating and Comments",
+                "Social software",
+                "Enterprise search",
+                "Office suite"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Comparison of notable software'",
+            "colums": [
+                "Name",
+                "Public",
+                "Intranet",
+                "Extranet",
+                "Personal Sites",
+                "Team Sites",
+                "Developer"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.04,
+                        "http://dbpedia.org/ontology/genre": 0.04,
+                        "http://dbpedia.org/property/operatingSystem": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Mail storage type",
+                    "object": "IMAP server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "IMAP shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Calendar shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "IM server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "WebDAV"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Web UI"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Contacts shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Files shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.04,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Web admin UI"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Antivirus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Mail storage type",
+                    "object": "Spam filter"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "IMAP server",
+                    "object": "Mail storage type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Calendar format",
+                    "object": "Mail transfer agent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Calendar format",
+                    "object": "Mail storage type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.08
+                    },
+                    "subject": "Calendar format",
+                    "object": "IMAP shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Calendar format",
+                    "object": "Calendar shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.12
+                    },
+                    "subject": "Calendar format",
+                    "object": "IM server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.08
+                    },
+                    "subject": "Calendar format",
+                    "object": "WebDAV"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.04
+                    },
+                    "subject": "Calendar format",
+                    "object": "Files shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.08
+                    },
+                    "subject": "Calendar format",
+                    "object": "Antivirus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.08
+                    },
+                    "subject": "Calendar format",
+                    "object": "Spam filter"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Calendar shared",
+                    "object": "Mail storage type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Calendar shared",
+                    "object": "Calendar format"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.04
+                    },
+                    "subject": "Calendar shared",
+                    "object": "IM server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.08
+                    },
+                    "subject": "Calendar shared",
+                    "object": "WebDAV"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.12
+                    },
+                    "subject": "Calendar shared",
+                    "object": "Web UI"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.08,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Calendar shared",
+                    "object": "Contacts shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.12
+                    },
+                    "subject": "Calendar shared",
+                    "object": "Files shared"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.12
+                    },
+                    "subject": "Calendar shared",
+                    "object": "Web admin UI"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Contacts shared",
+                    "object": "Mail storage type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Contacts shared",
+                    "object": "Calendar shared"
+                }
+            ],
+            "table": "Unnamed table in section 'Project collaboration software'",
+            "colums": [
+                "Name",
+                "Mail transfer agent",
+                "Mail storage type",
+                "IMAP server",
+                "IMAP shared",
+                "Calendar format",
+                "Calendar shared",
+                "IM server",
+                "WebDAV",
+                "Web UI",
+                "Contacts shared",
+                "Files shared",
+                "Web admin UI",
+                "Antivirus",
+                "Spam filter",
+                "Notes"
+            ]
+        }
+    ]
+}

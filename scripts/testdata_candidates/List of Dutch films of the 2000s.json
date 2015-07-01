@@ -1,0 +1,209 @@
+{
+    "no. of tables": 10,
+    "page": "List of Dutch films of the 2000s",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.27,
+                        "http://dbpedia.org/property/director": 0.33,
+                        "http://dbpedia.org/property/starring": 0.07,
+                        "http://dbpedia.org/property/writer": 0.07,
+                        "http://dbpedia.org/ontology/writer": 0.13
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.13,
+                        "http://dbpedia.org/property/starring": 0.13
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                }
+            ],
+            "table": "Unnamed table in section '2000'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Category",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.06,
+                        "http://dbpedia.org/property/director": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section '2002'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Category",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/director": 0.05,
+                        "http://dbpedia.org/property/writer": 0.1,
+                        "http://dbpedia.org/property/music": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.05,
+                        "http://dbpedia.org/property/starring": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                }
+            ],
+            "table": "Unnamed table in section '2003'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.04,
+                        "http://dbpedia.org/property/director": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.04,
+                        "http://dbpedia.org/property/starring": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                }
+            ],
+            "table": "Unnamed table in section '2004'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Category",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section '2005'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Category",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.09,
+                        "http://dbpedia.org/property/director": 0.13,
+                        "http://dbpedia.org/ontology/writer": 0.04,
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/property/writer": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.09,
+                        "http://dbpedia.org/property/starring": 0.09
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                }
+            ],
+            "table": "Unnamed table in section '2006'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '2007'",
+            "colums": [
+                "Title",
+                "Regisseur",
+                "Cast",
+                "Genre",
+                "Notities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.07,
+                        "http://dbpedia.org/property/director": 0.1,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/property/script": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/starring": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                }
+            ],
+            "table": "Unnamed table in section '2008'",
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Genre",
+                "Notes"
+            ]
+        }
+    ]
+}

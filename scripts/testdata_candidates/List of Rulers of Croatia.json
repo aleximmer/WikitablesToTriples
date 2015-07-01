@@ -1,0 +1,369 @@
+{
+    "no. of tables": 18,
+    "page": "List of rulers of Croatia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.25
+                    },
+                    "subject": "Ruler",
+                    "object": "Began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.5
+                    },
+                    "subject": "Ruler",
+                    "object": "Ended"
+                }
+            ],
+            "table": "Unnamed table in section 'Dukes of Croatia'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.57,
+                        "http://dbpedia.org/property/dateOfBirth": 0.07,
+                        "http://dbpedia.org/property/years": 0.79,
+                        "http://dbpedia.org/property/coronation": 0.29
+                    },
+                    "subject": "Ruler",
+                    "object": "Began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.57,
+                        "http://dbpedia.org/property/deathDate": 0.36
+                    },
+                    "subject": "Ruler",
+                    "object": "Ended"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.07,
+                        "http://dbpedia.org/ontology/parent": 0.21,
+                        "http://dbpedia.org/ontology/spouse": 0.07,
+                        "http://dbpedia.org/property/spouse": 0.07,
+                        "http://dbpedia.org/property/father": 0.14,
+                        "http://dbpedia.org/property/mother": 0.07
+                    },
+                    "subject": "Ruler",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.14,
+                        "http://dbpedia.org/property/successor": 0.14,
+                        "http://dbpedia.org/property/issue": 0.07,
+                        "http://dbpedia.org/property/after": 0.07
+                    },
+                    "subject": "Remarks",
+                    "object": "Ruler"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.14,
+                        "http://dbpedia.org/property/coronation": 0.07,
+                        "http://dbpedia.org/property/years": 0.14
+                    },
+                    "subject": "Remarks",
+                    "object": "Began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.07,
+                        "http://dbpedia.org/property/deathDate": 0.07
+                    },
+                    "subject": "Remarks",
+                    "object": "Ended"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Croatia'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 0.5,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Ruler",
+                    "object": "Began"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Croatia'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/reign": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Ruler",
+                    "object": "Began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 1.0,
+                        "http://dbpedia.org/property/deathDate": 1.0
+                    },
+                    "subject": "Ruler",
+                    "object": "Ended"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Croatia'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coronation": 0.07
+                    },
+                    "subject": "Ruler",
+                    "object": "Began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/house": 0.07
+                    },
+                    "subject": "Ruler",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/finalRuler": 0.07,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Remarks",
+                    "object": "Ruler"
+                }
+            ],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Ruler",
+                    "object": "Began"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/house": 0.2
+                    },
+                    "subject": "Ruler",
+                    "object": "Remarks"
+                }
+            ],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.5,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Ruler",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.5
+                    },
+                    "subject": "Remarks",
+                    "object": "Ruler"
+                }
+            ],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'After 1102'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.33,
+                        "http://dbpedia.org/property/successor": 0.33,
+                        "http://dbpedia.org/property/issue": 0.33
+                    },
+                    "subject": "Ruler",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.33,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33,
+                        "http://dbpedia.org/ontology/parent": 0.33,
+                        "http://dbpedia.org/property/regent": 0.33,
+                        "http://dbpedia.org/property/father": 0.33,
+                        "http://dbpedia.org/ontology/predecessor": 0.33,
+                        "http://dbpedia.org/property/after": 0.33
+                    },
+                    "subject": "Remarks",
+                    "object": "Ruler"
+                }
+            ],
+            "table": "Unnamed table in section 'Kings of Yugoslavia'",
+            "colums": [
+                "Portrait",
+                "Ruler",
+                "Began",
+                "Ended",
+                "Remarks"
+            ]
+        }
+    ]
+}

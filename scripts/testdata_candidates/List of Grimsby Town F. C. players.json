@@ -1,0 +1,1217 @@
+{
+    "no. of tables": 20,
+    "page": "List of Grimsby Town F.C. players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.56,
+                        "http://dbpedia.org/ontology/birthPlace": 0.56,
+                        "http://dbpedia.org/property/placeOfBirth": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.89,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.11,
+                        "http://dbpedia.org/property/caps": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/utcOffset": 0.22,
+                        "http://dbpedia.org/property/longd": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.1,
+                        "http://dbpedia.org/property/deathPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.37,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.27,
+                        "http://dbpedia.org/property/birthPlace": 0.37
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.23
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubnumber": 0.03,
+                        "http://dbpedia.org/property/goals": 0.03,
+                        "http://dbpedia.org/ontology/number": 0.03,
+                        "http://dbpedia.org/property/caps": 0.67,
+                        "http://dbpedia.org/property/totalcaps": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.63,
+                        "http://dbpedia.org/property/nationalgoals": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/totalgoals": 0.1,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/filename": 0.03,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/mayHighC": 0.03,
+                        "http://dbpedia.org/property/yearLowC": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/aprLowC": 0.03
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.03,
+                        "http://dbpedia.org/property/marHighC": 0.03,
+                        "http://dbpedia.org/property/longd": 0.27,
+                        "http://dbpedia.org/property/janHighC": 0.03,
+                        "http://dbpedia.org/property/establishedDate": 0.03,
+                        "http://dbpedia.org/property/marLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/aprLowC": 0.03,
+                        "http://dbpedia.org/property/yearLowC": 0.03,
+                        "http://dbpedia.org/property/sepLowC": 0.03,
+                        "http://dbpedia.org/property/mayLowC": 0.03,
+                        "http://dbpedia.org/property/filename": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/decHighC": 0.03,
+                        "http://dbpedia.org/property/febHighC": 0.03,
+                        "http://dbpedia.org/property/novHighC": 0.03
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.47,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.44,
+                        "http://dbpedia.org/property/birthPlace": 0.38
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.03,
+                        "http://dbpedia.org/property/caps": 0.72
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.78,
+                        "http://dbpedia.org/property/nationalgoals": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/totalgoals": 0.03,
+                        "http://dbpedia.org/property/caps": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/marHighC": 0.03,
+                        "http://dbpedia.org/property/sepLowC": 0.03,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/julLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/aprHighC": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/decPrecipitationMm": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/novHighC": 0.03
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/junHighC": 0.03,
+                        "http://dbpedia.org/property/julLowC": 0.03,
+                        "http://dbpedia.org/property/aprLowC": 0.16,
+                        "http://dbpedia.org/property/aprHighC": 0.03,
+                        "http://dbpedia.org/property/janLowC": 0.06,
+                        "http://dbpedia.org/property/filename": 0.03,
+                        "http://dbpedia.org/property/novLowC": 0.16,
+                        "http://dbpedia.org/property/mayHighC": 0.03,
+                        "http://dbpedia.org/property/febLowC": 0.06,
+                        "http://dbpedia.org/property/longd": 0.09
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/property/birthPlace": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.29,
+                        "http://dbpedia.org/property/nationalgoals": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.33
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.07,
+                        "http://dbpedia.org/property/deathPlace": 0.07,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.21,
+                        "http://dbpedia.org/property/birthPlace": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.21
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.64
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.64,
+                        "http://dbpedia.org/property/nationalgoals": 0.14,
+                        "http://dbpedia.org/property/nationalcaps": 0.07,
+                        "http://dbpedia.org/property/caps": 0.21
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junHighC": 0.07
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/utcOffset": 0.07,
+                        "http://dbpedia.org/property/yearLowC": 0.14,
+                        "http://dbpedia.org/property/decLowC": 0.14,
+                        "http://dbpedia.org/property/longd": 0.29
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.2,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/property/deathPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.2,
+                        "http://dbpedia.org/property/birthPlace": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.1,
+                        "http://dbpedia.org/property/caps": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.4,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janHighC": 0.1,
+                        "http://dbpedia.org/property/octLowC": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1,
+                        "http://dbpedia.org/property/novLowC": 0.1,
+                        "http://dbpedia.org/property/mayLowC": 0.1,
+                        "http://dbpedia.org/property/febHighC": 0.1,
+                        "http://dbpedia.org/property/decLowC": 0.2,
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/aprLowC": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.4,
+                        "http://dbpedia.org/property/birthPlace": 0.2,
+                        "http://dbpedia.org/property/placeOfBirth": 0.3
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.6,
+                        "http://dbpedia.org/property/nationalgoals": 0.1,
+                        "http://dbpedia.org/property/totalgoals": 0.1,
+                        "http://dbpedia.org/property/caps": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowDays": 0.1,
+                        "http://dbpedia.org/property/hdiRank": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octSnowDays": 0.1,
+                        "http://dbpedia.org/property/novLowC": 0.1,
+                        "http://dbpedia.org/property/decLowC": 0.1,
+                        "http://dbpedia.org/property/maySnowDays": 0.1,
+                        "http://dbpedia.org/property/aprLowC": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.1,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/property/birthPlace": 0.2,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.7
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.8,
+                        "http://dbpedia.org/property/clubnumber": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1,
+                        "http://dbpedia.org/ontology/number": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.1,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novHighC": 0.1,
+                        "http://dbpedia.org/property/janLowC": 0.2,
+                        "http://dbpedia.org/property/marHighC": 0.1,
+                        "http://dbpedia.org/property/junLowC": 0.1,
+                        "http://dbpedia.org/property/sepLowC": 0.1,
+                        "http://dbpedia.org/property/sepHighC": 0.1,
+                        "http://dbpedia.org/property/febLowC": 0.2,
+                        "http://dbpedia.org/property/decLowC": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowC": 0.25,
+                        "http://dbpedia.org/property/yearLowC": 0.25,
+                        "http://dbpedia.org/property/febLowC": 0.25,
+                        "http://dbpedia.org/property/marLowC": 0.25
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.1,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.3,
+                        "http://dbpedia.org/property/birthPlace": 0.2,
+                        "http://dbpedia.org/property/placeOfBirth": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.1,
+                        "http://dbpedia.org/property/caps": 0.7
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.8,
+                        "http://dbpedia.org/property/nationalgoals": 0.1,
+                        "http://dbpedia.org/property/caps": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.1,
+                        "http://dbpedia.org/property/mayLowC": 0.1,
+                        "http://dbpedia.org/property/janHighC": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1,
+                        "http://dbpedia.org/property/febHighC": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowC": 0.1,
+                        "http://dbpedia.org/property/decLowC": 0.2,
+                        "http://dbpedia.org/property/janLowC": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.06,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.22,
+                        "http://dbpedia.org/property/placeOfBirth": 0.17,
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.06,
+                        "http://dbpedia.org/property/caps": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.28,
+                        "http://dbpedia.org/property/nationalgoals": 0.06,
+                        "http://dbpedia.org/property/caps": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLowC": 0.06,
+                        "http://dbpedia.org/property/janLowC": 0.06,
+                        "http://dbpedia.org/property/marHighC": 0.06,
+                        "http://dbpedia.org/property/sepLowC": 0.06,
+                        "http://dbpedia.org/property/junLowC": 0.06,
+                        "http://dbpedia.org/property/longd": 0.11,
+                        "http://dbpedia.org/property/febLowC": 0.06,
+                        "http://dbpedia.org/property/aprPrecipitationMm": 0.06,
+                        "http://dbpedia.org/property/marLowC": 0.06,
+                        "http://dbpedia.org/property/novHighC": 0.06
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.67,
+                        "http://dbpedia.org/property/caps": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.17
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.17,
+                        "http://dbpedia.org/property/novHighC": 0.17,
+                        "http://dbpedia.org/property/yearHighC": 0.17,
+                        "http://dbpedia.org/property/marHighC": 0.17,
+                        "http://dbpedia.org/property/novLowC": 0.17,
+                        "http://dbpedia.org/property/junLowC": 0.17,
+                        "http://dbpedia.org/property/octHighC": 0.17,
+                        "http://dbpedia.org/property/aprLowC": 0.17,
+                        "http://dbpedia.org/property/longd": 0.17
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.5
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.3,
+                        "http://dbpedia.org/ontology/birthPlace": 0.3,
+                        "http://dbpedia.org/property/placeOfBirth": 0.3
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalcaps": 0.1,
+                        "http://dbpedia.org/property/caps": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.1,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprHighC": 0.2,
+                        "http://dbpedia.org/property/augLowC": 0.2,
+                        "http://dbpedia.org/property/julLowC": 0.2
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.23,
+                        "http://dbpedia.org/ontology/birthPlace": 0.31,
+                        "http://dbpedia.org/property/placeOfBirth": 0.23
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.08,
+                        "http://dbpedia.org/property/nationalgoals": 0.08,
+                        "http://dbpedia.org/property/nationalcaps": 0.08,
+                        "http://dbpedia.org/property/caps": 0.46
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.54,
+                        "http://dbpedia.org/property/nationalgoals": 0.08,
+                        "http://dbpedia.org/property/caps": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowC": 0.08,
+                        "http://dbpedia.org/property/lats": 0.08,
+                        "http://dbpedia.org/property/yearLowC": 0.08,
+                        "http://dbpedia.org/property/febLowC": 0.08,
+                        "http://dbpedia.org/property/longm": 0.08,
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.17,
+                        "http://dbpedia.org/ontology/birthPlace": 0.17,
+                        "http://dbpedia.org/property/placeOfBirth": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/caps": 0.58
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.58,
+                        "http://dbpedia.org/ontology/height": 0.08,
+                        "http://dbpedia.org/property/caps": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayHighC": 0.08,
+                        "http://dbpedia.org/property/junHighC": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marLowC": 0.08,
+                        "http://dbpedia.org/property/sepLowC": 0.08,
+                        "http://dbpedia.org/property/yearLowC": 0.08,
+                        "http://dbpedia.org/property/marHighC": 0.08,
+                        "http://dbpedia.org/property/filename": 0.08,
+                        "http://dbpedia.org/property/novLowC": 0.08,
+                        "http://dbpedia.org/property/junLowC": 0.08,
+                        "http://dbpedia.org/property/longd": 0.08,
+                        "http://dbpedia.org/property/decLowC": 0.08,
+                        "http://dbpedia.org/property/aprLowC": 0.08,
+                        "http://dbpedia.org/property/novHighC": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.36,
+                        "http://dbpedia.org/property/birthPlace": 0.36,
+                        "http://dbpedia.org/property/placeOfBirth": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.09,
+                        "http://dbpedia.org/property/caps": 0.55
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.64,
+                        "http://dbpedia.org/property/nationalgoals": 0.18,
+                        "http://dbpedia.org/property/caps": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprHighC": 0.09,
+                        "http://dbpedia.org/property/augLowC": 0.09,
+                        "http://dbpedia.org/property/yearLowC": 0.18,
+                        "http://dbpedia.org/property/julLowC": 0.09,
+                        "http://dbpedia.org/property/areaRank": 0.09
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marLowC": 0.09,
+                        "http://dbpedia.org/property/decLowC": 0.18,
+                        "http://dbpedia.org/property/longd": 0.27
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 1.0
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.38,
+                        "http://dbpedia.org/ontology/birthPlace": 0.43,
+                        "http://dbpedia.org/property/placeOfBirth": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Grimsby career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.52
+                    },
+                    "subject": "Name",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.62,
+                        "http://dbpedia.org/property/nationalgoals": 0.1,
+                        "http://dbpedia.org/property/caps": 0.14,
+                        "http://dbpedia.org/property/totalgoals": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.05,
+                        "http://dbpedia.org/property/mayLowC": 0.05,
+                        "http://dbpedia.org/property/janHighC": 0.05,
+                        "http://dbpedia.org/property/decHighC": 0.05,
+                        "http://dbpedia.org/property/mayHighC": 0.05,
+                        "http://dbpedia.org/property/febHighC": 0.05,
+                        "http://dbpedia.org/property/longm": 0.05
+                    },
+                    "subject": "Nationality",
+                    "object": "Appearances"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowC": 0.1,
+                        "http://dbpedia.org/property/octHighC": 0.05,
+                        "http://dbpedia.org/property/marLowC": 0.14,
+                        "http://dbpedia.org/property/novSnowDays": 0.05,
+                        "http://dbpedia.org/property/aprSnowDays": 0.05,
+                        "http://dbpedia.org/property/symbolWidth": 0.05,
+                        "http://dbpedia.org/property/janLowC": 0.1,
+                        "http://dbpedia.org/property/mayHighC": 0.05,
+                        "http://dbpedia.org/property/yearLowC": 0.05,
+                        "http://dbpedia.org/property/decLowC": 0.1,
+                        "http://dbpedia.org/property/utcOffset": 0.05,
+                        "http://dbpedia.org/property/yearHighC": 0.05,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Grimsby career",
+                "Appearances",
+                "Goals"
+            ]
+        }
+    ]
+}

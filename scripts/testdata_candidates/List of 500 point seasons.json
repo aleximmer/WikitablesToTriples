@@ -1,0 +1,41 @@
+{
+    "no. of tables": 1,
+    "page": "List of 500 point seasons in college football",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/gamename": 0.0
+                    },
+                    "subject": "School",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd3Team": 0.03,
+                        "http://dbpedia.org/property/home": 0.0,
+                        "http://dbpedia.org/property/heisman": 0.01,
+                        "http://dbpedia.org/property/road": 0.0,
+                        "http://dbpedia.org/property/preseasonAp": 0.04,
+                        "http://dbpedia.org/property/champions": 0.07,
+                        "http://dbpedia.org/property/rd4Team": 0.02,
+                        "http://dbpedia.org/property/rd2Team": 0.03,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/rd1Team": 0.02
+                    },
+                    "subject": "Year",
+                    "object": "School"
+                }
+            ],
+            "table": "Unnamed table in section 'List of 500 point seasons in college football'",
+            "colums": [
+                "Pts",
+                "School",
+                "Year",
+                "Classification"
+            ]
+        }
+    ]
+}

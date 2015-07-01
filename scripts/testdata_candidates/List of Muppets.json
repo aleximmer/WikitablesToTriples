@@ -1,0 +1,288 @@
+{
+    "no. of tables": 16,
+    "page": "List of Muppets",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in Sam and Friends'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.08
+                    },
+                    "subject": "Character",
+                    "object": "Actor/Muppet performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in commercials'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in The Land of Gorch'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer[citation needed]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.01,
+                        "http://dbpedia.org/property/creator": 0.01,
+                        "http://dbpedia.org/ontology/portrayer": 0.02,
+                        "http://dbpedia.org/ontology/creator": 0.01,
+                        "http://dbpedia.org/property/data": 0.02
+                    },
+                    "subject": "Character",
+                    "object": "Actor/Muppet performer[citation needed]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.01,
+                        "http://dbpedia.org/property/occupation": 0.01,
+                        "http://dbpedia.org/ontology/occupation": 0.01,
+                        "http://dbpedia.org/property/data": 0.01,
+                        "http://dbpedia.org/ontology/series": 0.01
+                    },
+                    "subject": "Character",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Actor/Muppet performer[citation needed]",
+                    "object": "Character"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Actor/Muppet performer[citation needed]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "Character"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.04,
+                        "http://dbpedia.org/property/starring": 0.04
+                    },
+                    "subject": "Description",
+                    "object": "Actor/Muppet performer[citation needed]"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in The Muppet Show'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer[citation needed]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.14,
+                        "http://dbpedia.org/property/starring": 0.14
+                    },
+                    "subject": "Description",
+                    "object": "Actor/Muppet performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in The Muppets Take Manhattan'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in Jim Henson's Little Muppet Monsters'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer[citation needed]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in the Play-Along Video series'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer[citation needed]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.06,
+                        "http://dbpedia.org/ontology/portrayer": 0.06
+                    },
+                    "subject": "Character",
+                    "object": "Actor/Muppet performer[citation needed]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.06,
+                        "http://dbpedia.org/property/starring": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "Actor/Muppet performer[citation needed]"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in The Jim Henson Hour'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer[citation needed]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.13,
+                        "http://dbpedia.org/property/starring": 0.13
+                    },
+                    "subject": "Description",
+                    "object": "Actor/Muppet performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in Muppet Treasure Island'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.03
+                    },
+                    "subject": "Character",
+                    "object": "Actor/Muppet performer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownRelatives": 0.03
+                    },
+                    "subject": "Description",
+                    "object": "Character"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in Muppets Tonight'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.17,
+                        "http://dbpedia.org/ontology/portrayer": 0.17
+                    },
+                    "subject": "Character",
+                    "object": "Actor/Muppet performer[citation needed]"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in Muppets from Space'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer[citation needed]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in Kermit's Swamp Years'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in Statler and Waldorf: From the Balcony'",
+            "colums": [
+                "Character",
+                "Actor/Muppet Performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.2
+                    },
+                    "subject": "Character",
+                    "object": "Actor/Muppet performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Muppets that debuted in The Muppets'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Muppets that debuted in Muppets Most Wanted'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.17,
+                        "http://dbpedia.org/property/starring": 0.17
+                    },
+                    "subject": "Description",
+                    "object": "Actor/Muppet performer"
+                }
+            ],
+            "table": "Unnamed table in section 'Other Muppets'",
+            "colums": [
+                "Character",
+                "Actor/Muppet performer",
+                "Description"
+            ]
+        }
+    ]
+}

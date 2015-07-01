@@ -1,0 +1,228 @@
+{
+    "no. of tables": 12,
+    "page": "List of Aqua Teen Hunger Force episodes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.06,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.06,
+                        "http://dbpedia.org/property/season": 0.06,
+                        "http://dbpedia.org/property/episode": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.06,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.06,
+                        "http://dbpedia.org/property/season": 0.06,
+                        "http://dbpedia.org/property/episode": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Production\ncode[10]"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[10]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[11]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[12]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[13]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[14]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.1,
+                        "http://dbpedia.org/property/episode": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Production\ncode[15]"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[15]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.08,
+                        "http://dbpedia.org/property/episode": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Production\ncode[16]"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[16]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.1,
+                        "http://dbpedia.org/property/episode": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/production": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Production\ncode[17]"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[17]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[19]",
+                "U.S. Viewers\n(millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode[30]",
+                "U.S. viewers\n(millions)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "U.S. viewers\n(millions)"
+            ]
+        }
+    ]
+}

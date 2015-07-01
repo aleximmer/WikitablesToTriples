@@ -1,0 +1,290 @@
+{
+    "no. of tables": 26,
+    "page": "List of abbreviations for diseases and disorders",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/name": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Acronyms",
+                    "object": "Diseases and disorders"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06
+                    },
+                    "subject": "Diseases and disorders",
+                    "object": "Acronyms"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Acronyms",
+                    "object": "Diseases and disorders"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/meshname": 0.03
+                    },
+                    "subject": "Diseases and disorders",
+                    "object": "Acronyms"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Acronyms",
+                    "object": "Diseases and disorders"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/name": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.07
+                    },
+                    "subject": "Diseases and disorders",
+                    "object": "Acronyms"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/name": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "Diseases and disorders",
+                    "object": "Acronyms"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06
+                    },
+                    "subject": "Diseases and disorders",
+                    "object": "Acronyms"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06
+                    },
+                    "subject": "Diseases and disorders",
+                    "object": "Acronyms"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'X'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Acronyms",
+                "Diseases and disorders"
+            ]
+        }
+    ]
+}

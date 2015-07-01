@@ -1,0 +1,764 @@
+{
+    "no. of tables": 37,
+    "page": "List of University of North Carolina at Chapel Hill alumni",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/almaMater": 0.04,
+                        "http://dbpedia.org/property/university": 0.11,
+                        "http://dbpedia.org/property/almaMater": 0.07,
+                        "http://dbpedia.org/property/alumna": 0.04,
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 0.14,
+                        "http://dbpedia.org/property/president": 0.11
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Academia'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Arts and literature'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Arts and literature'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Arts and literature'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.03,
+                        "http://dbpedia.org/property/shortDescription": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Arts and literature'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/almaMater": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Major"
+                },
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.2,
+                        "http://dbpedia.org/property/knownFor": 0.2,
+                        "http://dbpedia.org/ontology/knownFor": 0.2,
+                        "http://dbpedia.org/property/shortDescription": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Arts and literature'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.03,
+                        "http://dbpedia.org/ontology/knownFor": 0.06,
+                        "http://dbpedia.org/property/employer": 0.06,
+                        "http://dbpedia.org/ontology/employer": 0.09,
+                        "http://dbpedia.org/ontology/residence": 0.03,
+                        "http://dbpedia.org/property/title": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/keyPeople": 0.09,
+                        "http://dbpedia.org/ontology/foundedBy": 0.03,
+                        "http://dbpedia.org/ontology/keyPerson": 0.21
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Business'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Entertainment and broadcasting'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.06,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.06,
+                        "http://dbpedia.org/property/associatedActs": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bandMember": 0.12,
+                        "http://dbpedia.org/property/currentMembers": 0.12
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Entertainment and broadcasting'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/executiveProducer": 0.14,
+                        "http://dbpedia.org/ontology/director": 0.14,
+                        "http://dbpedia.org/ontology/creator": 0.14,
+                        "http://dbpedia.org/property/director": 0.14
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Entertainment and broadcasting'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Entertainment and broadcasting'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsactive": 0.03,
+                        "http://dbpedia.org/property/yearsActive": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.03,
+                        "http://dbpedia.org/ontology/occupation": 0.03,
+                        "http://dbpedia.org/property/employer": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/editor": 0.03
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/language": 0.03
+                    },
+                    "subject": "Notability",
+                    "object": "Major"
+                }
+            ],
+            "table": "Unnamed table in section 'Journalism'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Journalism'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/property/office": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.14,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.02,
+                        "http://dbpedia.org/ontology/region": 0.01,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/office": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Notability",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/last": 0.07
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Notability",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/office": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.27
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/born": 0.03,
+                        "http://dbpedia.org/property/term": 0.03,
+                        "http://dbpedia.org/property/chiefTerm": 0.03,
+                        "http://dbpedia.org/property/seniorTerm": 0.03,
+                        "http://dbpedia.org/property/borndied": 0.03
+                    },
+                    "subject": "Notability",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Notability",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/relation": 0.08,
+                        "http://dbpedia.org/property/relations": 0.08,
+                        "http://dbpedia.org/property/see": 0.08,
+                        "http://dbpedia.org/property/diocese": 0.08,
+                        "http://dbpedia.org/property/title": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bishop": 0.08
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/shortDescription": 0.05,
+                        "http://dbpedia.org/ontology/spouse": 0.05,
+                        "http://dbpedia.org/property/spouse": 0.05,
+                        "http://dbpedia.org/ontology/office": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.05,
+                        "http://dbpedia.org/property/title": 0.23,
+                        "http://dbpedia.org/property/office": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/spouse": 0.05,
+                        "http://dbpedia.org/property/incumbent": 0.09,
+                        "http://dbpedia.org/ontology/spouse": 0.05
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Politics and public life'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.05,
+                        "http://dbpedia.org/property/shortDescription": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/careerStart": 0.36,
+                        "http://dbpedia.org/property/years": 0.12,
+                        "http://dbpedia.org/property/draftYear": 0.39,
+                        "http://dbpedia.org/property/draftyear": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.01,
+                        "http://dbpedia.org/ontology/team": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/generalManager": 0.01
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/careerStart": 0.06,
+                        "http://dbpedia.org/property/coachYears": 0.11,
+                        "http://dbpedia.org/property/draftYear": 0.06,
+                        "http://dbpedia.org/property/draftyear": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachYears": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachTeams": 0.2,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.2,
+                        "http://dbpedia.org/property/name": 0.2,
+                        "http://dbpedia.org/property/currentTeam": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearpro": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.38,
+                        "http://dbpedia.org/property/shortDescription": 0.38
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalyears": 0.14,
+                        "http://dbpedia.org/property/years": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/managerclubs": 0.03,
+                        "http://dbpedia.org/ontology/managerClub": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/careerStart": 0.11,
+                        "http://dbpedia.org/property/draftYear": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.11,
+                        "http://dbpedia.org/ontology/team": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Notability"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/president": 0.11,
+                        "http://dbpedia.org/property/generalManager": 0.22,
+                        "http://dbpedia.org/property/commissioner": 0.22,
+                        "http://dbpedia.org/property/president": 0.11,
+                        "http://dbpedia.org/ontology/director": 0.11,
+                        "http://dbpedia.org/property/director": 0.11
+                    },
+                    "subject": "Notability",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turnedpro": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports'",
+            "colums": [
+                "Name",
+                "Class",
+                "Major",
+                "Notability"
+            ]
+        }
+    ]
+}

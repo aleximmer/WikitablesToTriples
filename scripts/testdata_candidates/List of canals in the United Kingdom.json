@@ -1,0 +1,287 @@
+{
+    "no. of tables": 5,
+    "page": "List of canals of the United Kingdom",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lenIn": 0.02,
+                        "http://dbpedia.org/property/locks": 0.36,
+                        "http://dbpedia.org/property/beamIn": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/oLocks": 0.02,
+                        "http://dbpedia.org/property/beam": 0.01
+                    },
+                    "subject": "Canal",
+                    "object": "Locks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/len": 0.34
+                    },
+                    "subject": "Canal",
+                    "object": "Max boat length (ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/oBeamIn": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/beam": 0.22
+                    },
+                    "subject": "Canal",
+                    "object": "Width (ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateComp": 0.27,
+                        "http://dbpedia.org/property/dateUse": 0.19,
+                        "http://dbpedia.org/property/dateAct": 0.02
+                    },
+                    "subject": "Canal",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateClosed": 0.19
+                    },
+                    "subject": "Canal",
+                    "object": "Year abandoned"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateRest": 0.04
+                    },
+                    "subject": "Canal",
+                    "object": "Year restored"
+                }
+            ],
+            "table": "Unnamed table in section 'Canals in England'",
+            "colums": [
+                "Canal",
+                "Length",
+                "Locks",
+                "Max boat length (ft)",
+                "Width (ft)",
+                "Where[1]",
+                "Year opened",
+                "Year abandoned",
+                "Year restored"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locks": 0.12,
+                        "http://dbpedia.org/property/length": 0.12
+                    },
+                    "subject": "Canal",
+                    "object": "Length (miles)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locks": 0.62
+                    },
+                    "subject": "Canal",
+                    "object": "Locks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateComp": 0.25
+                    },
+                    "subject": "Canal",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateClosed": 0.38
+                    },
+                    "subject": "Canal",
+                    "object": "Year abandoned"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateRest": 0.12
+                    },
+                    "subject": "Canal",
+                    "object": "Year restored"
+                }
+            ],
+            "table": "Unnamed table in section 'Canals in Northern Ireland'",
+            "colums": [
+                "Canal",
+                "Length (miles)",
+                "Locks",
+                "Year opened",
+                "Year abandoned",
+                "Year restored"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locks": 0.1
+                    },
+                    "subject": "Canal",
+                    "object": "Length (miles)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locks": 0.4
+                    },
+                    "subject": "Canal",
+                    "object": "Locks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/len": 0.2
+                    },
+                    "subject": "Canal",
+                    "object": "Max boat length (ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/beam": 0.2
+                    },
+                    "subject": "Canal",
+                    "object": "Width (ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateComp": 0.3,
+                        "http://dbpedia.org/property/dateUse": 0.2
+                    },
+                    "subject": "Canal",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateClosed": 0.3
+                    },
+                    "subject": "Canal",
+                    "object": "Year abandoned"
+                }
+            ],
+            "table": "Unnamed table in section 'Canals in Scotland'",
+            "colums": [
+                "Canal",
+                "Length (miles)",
+                "Locks",
+                "Max boat length (ft)",
+                "Width (ft)",
+                "Year opened",
+                "Year abandoned",
+                "Year restored"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/oLocks": 0.2,
+                        "http://dbpedia.org/property/locks": 0.4
+                    },
+                    "subject": "Canal",
+                    "object": "Locks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/len": 0.4
+                    },
+                    "subject": "Canal",
+                    "object": "Max boat length (ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/beam": 0.1
+                    },
+                    "subject": "Canal",
+                    "object": "Width (ft)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateComp": 0.2,
+                        "http://dbpedia.org/property/dateUse": 0.1
+                    },
+                    "subject": "Canal",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateClosed": 0.4
+                    },
+                    "subject": "Canal",
+                    "object": "Year abandoned"
+                }
+            ],
+            "table": "Unnamed table in section 'Canals in Wales'",
+            "colums": [
+                "Canal",
+                "Length (miles)",
+                "Locks",
+                "Max boat length (ft)",
+                "Width (ft)",
+                "Year opened",
+                "Year abandoned",
+                "Year restored"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapType": 0.02,
+                        "http://dbpedia.org/property/aos": 0.02
+                    },
+                    "subject": "Canal",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/length": 0.04
+                    },
+                    "subject": "Canal",
+                    "object": "Length (miles)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locks": 0.39,
+                        "http://dbpedia.org/property/beam": 0.02,
+                        "http://dbpedia.org/property/lockNote": 0.02
+                    },
+                    "subject": "Canal",
+                    "object": "Locks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateComp": 0.27,
+                        "http://dbpedia.org/property/dateUse": 0.25,
+                        "http://dbpedia.org/property/dateAct": 0.02
+                    },
+                    "subject": "Canal",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateClosed": 0.38
+                    },
+                    "subject": "Canal",
+                    "object": "Closed"
+                }
+            ],
+            "table": "Unnamed table in section 'Abandoned or unnavigable canals in England'",
+            "colums": [
+                "Canal",
+                "County",
+                "Length (miles)",
+                "Locks",
+                "Opened",
+                "Closed"
+            ]
+        }
+    ]
+}

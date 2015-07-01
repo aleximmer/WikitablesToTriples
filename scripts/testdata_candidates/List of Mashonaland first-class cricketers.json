@@ -1,0 +1,284 @@
+{
+    "no. of tables": 2,
+    "page": "List of Mashonaland first-class cricketers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.35
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 0.04,
+                        "http://dbpedia.org/property/100s/50s": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 0.04,
+                        "http://dbpedia.org/property/100s/50s": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "HS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/catches/stumpings": 0.04,
+                        "http://dbpedia.org/property/fivefor": 0.23,
+                        "http://dbpedia.org/property/100s/50s": 0.19,
+                        "http://dbpedia.org/property/tenfor": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "100"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/catches/stumpings": 0.04,
+                        "http://dbpedia.org/property/fivefor": 0.19,
+                        "http://dbpedia.org/property/100s/50s": 0.23,
+                        "http://dbpedia.org/property/tenfor": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "50"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 0.04,
+                        "http://dbpedia.org/property/100s/50s": 0.04,
+                        "http://dbpedia.org/property/tenfor": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Wkt"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/catches/stumpings": 0.08,
+                        "http://dbpedia.org/property/fivefor": 0.31,
+                        "http://dbpedia.org/property/100s/50s": 0.23,
+                        "http://dbpedia.org/property/tenfor": 0.19
+                    },
+                    "subject": "Name",
+                    "object": "5wi"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/catches/stumpings": 0.12,
+                        "http://dbpedia.org/property/fivefor": 0.42,
+                        "http://dbpedia.org/property/100s/50s": 0.35,
+                        "http://dbpedia.org/property/tenfor": 0.31
+                    },
+                    "subject": "Name",
+                    "object": "10wm"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.04,
+                        "http://dbpedia.org/property/testcap": 0.04,
+                        "http://dbpedia.org/property/fivefor": 0.04,
+                        "http://dbpedia.org/property/columns": 0.08,
+                        "http://dbpedia.org/property/tenfor": 0.04,
+                        "http://dbpedia.org/property/topScore": 0.04,
+                        "http://dbpedia.org/property/catches/stumpings": 0.04,
+                        "http://dbpedia.org/property/100s/50s": 0.04,
+                        "http://dbpedia.org/property/bestBowling": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "C"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/catches/stumpings": 0.08,
+                        "http://dbpedia.org/property/fivefor": 0.42,
+                        "http://dbpedia.org/property/100s/50s": 0.35,
+                        "http://dbpedia.org/property/tenfor": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "St"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "100"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "50"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Wkt"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "5wi"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.08,
+                        "http://dbpedia.org/property/percentWater": 0.08,
+                        "http://dbpedia.org/property/longd": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "10wm"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.04,
+                        "http://dbpedia.org/property/janLowC": 0.04,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.15,
+                        "http://dbpedia.org/property/percentWater": 0.15,
+                        "http://dbpedia.org/property/fsiRank": 0.04,
+                        "http://dbpedia.org/property/novLowC": 0.04,
+                        "http://dbpedia.org/property/decLowC": 0.04,
+                        "http://dbpedia.org/property/populationDensityKm": 0.04,
+                        "http://dbpedia.org/property/febLowC": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/aprLowC": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "C"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fsiRank": 0.04,
+                        "http://dbpedia.org/property/longd": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "St"
+                }
+            ],
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "\u2116",
+                "Name",
+                "Nationality",
+                "First",
+                "Last",
+                "Mat",
+                "Runs",
+                "HS",
+                "Avg",
+                "100",
+                "50",
+                "Wkt",
+                "BB",
+                "Ave",
+                "5wi",
+                "10wm",
+                "C",
+                "St",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/columns": 0.5,
+                        "http://dbpedia.org/property/100s/50s": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "P"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.5,
+                        "http://dbpedia.org/property/bestBowling": 0.5,
+                        "http://dbpedia.org/property/fivefor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.5,
+                        "http://dbpedia.org/property/bestBowling": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "D"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 1.0,
+                        "http://dbpedia.org/property/tenfor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "T"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 1.0,
+                        "http://dbpedia.org/property/tenfor": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "N/R"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.5,
+                        "http://dbpedia.org/property/percentWater": 0.5,
+                        "http://dbpedia.org/property/fsiRank": 0.5
+                    },
+                    "subject": "Nationality",
+                    "object": "P"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.5,
+                        "http://dbpedia.org/property/percentWater": 0.5
+                    },
+                    "subject": "Nationality",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 1.0,
+                        "http://dbpedia.org/property/percentWater": 1.0
+                    },
+                    "subject": "Nationality",
+                    "object": "L"
+                }
+            ],
+            "table": "Unnamed table in section 'Captains'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "First",
+                "Last",
+                "P",
+                "W",
+                "L",
+                "D",
+                "T",
+                "N/R",
+                "W%"
+            ]
+        }
+    ]
+}

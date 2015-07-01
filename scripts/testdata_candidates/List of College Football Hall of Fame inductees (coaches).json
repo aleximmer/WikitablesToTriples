@@ -1,0 +1,229 @@
+{
+    "page": "List of College Football Hall of Fame inductees (coaches)",
+    "no. of tables": 1,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'List of College Football Hall of Fame coaches'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerTeams": 0.13,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.77,
+                        "http://dbpedia.org/property/playingTeams": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/coachingTeams": 0.0,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/property/currentTeam": 0.0,
+                        "http://dbpedia.org/property/name": 0.74,
+                        "http://dbpedia.org/property/coachTeams": 0.76
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adminYears": 0.04,
+                        "http://dbpedia.org/property/coachingyears": 0.0,
+                        "http://dbpedia.org/property/season": 0.0,
+                        "http://dbpedia.org/property/coachingYears": 0.01,
+                        "http://dbpedia.org/property/startyear": 0.8,
+                        "http://dbpedia.org/property/years": 0.0,
+                        "http://dbpedia.org/property/coachYears": 0.94,
+                        "http://dbpedia.org/property/playerYears": 0.01,
+                        "http://dbpedia.org/property/year": 0.8,
+                        "http://dbpedia.org/property/playingYears": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/adminYears": 0.03,
+                        "http://dbpedia.org/property/startyear": 0.04,
+                        "http://dbpedia.org/property/coachYears": 0.03,
+                        "http://dbpedia.org/property/year": 0.81,
+                        "http://dbpedia.org/property/endyear": 0.75,
+                        "http://dbpedia.org/property/cfbhofYear": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Last Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/overall": 0.05,
+                        "http://dbpedia.org/property/overallRecord": 0.0,
+                        "http://dbpedia.org/property/branch": 0.0,
+                        "http://dbpedia.org/property/ranking": 0.08,
+                        "http://dbpedia.org/property/confrecord": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/currentRecord": 0.01,
+                        "http://dbpedia.org/property/overall": 0.77,
+                        "http://dbpedia.org/property/careerHighlights": 0.0,
+                        "http://dbpedia.org/property/overallRecord": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/careerHighlights": 0.0,
+                        "http://dbpedia.org/property/overallRecord": 0.0,
+                        "http://dbpedia.org/property/overall": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/ranking": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Losses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conference": 0.22,
+                        "http://dbpedia.org/property/overall": 0.37,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/confstanding": 0.17,
+                        "http://dbpedia.org/property/awards": 0.02,
+                        "http://dbpedia.org/property/district": 0.0,
+                        "http://dbpedia.org/property/championships": 0.06,
+                        "http://dbpedia.org/property/ranking": 0.16,
+                        "http://dbpedia.org/property/overallRecord": 0.0,
+                        "http://dbpedia.org/property/bowlRecord": 0.02,
+                        "http://dbpedia.org/property/tournamentRecord": 0.01,
+                        "http://dbpedia.org/property/confrecord": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Ties"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://dbpedia.org/property/homeCoach": 0.0
+                    },
+                    "subject": "Teams",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstyear": 0.0,
+                        "http://dbpedia.org/property/stadiumbuilt": 0.0,
+                        "http://dbpedia.org/property/startyear": 0.04,
+                        "http://dbpedia.org/property/year": 0.08,
+                        "http://dbpedia.org/property/endyear": 0.01,
+                        "http://dbpedia.org/property/date": 0.0
+                    },
+                    "subject": "Teams",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.0,
+                        "http://dbpedia.org/property/year": 0.08,
+                        "http://dbpedia.org/property/endyear": 0.01,
+                        "http://dbpedia.org/property/startyear": 0.01
+                    },
+                    "subject": "Teams",
+                    "object": "Last Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.0,
+                        "http://dbpedia.org/property/bowlwins": 0.01,
+                        "http://dbpedia.org/property/bowllosses": 0.0,
+                        "http://dbpedia.org/property/homescore": 0.0,
+                        "http://dbpedia.org/property/hclosses": 0.01,
+                        "http://dbpedia.org/property/conftitles": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/unnatltitles": 0.0,
+                        "http://dbpedia.org/property/confrecord": 0.0,
+                        "http://dbpedia.org/property/allamericans": 0.0,
+                        "http://dbpedia.org/property/headcoachyear": 0.0,
+                        "http://dbpedia.org/property/hcwins": 0.0,
+                        "http://dbpedia.org/property/atties": 0.01,
+                        "http://dbpedia.org/property/ranking": 0.02
+                    },
+                    "subject": "Teams",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imagesize": 0.0,
+                        "http://dbpedia.org/property/hcwins": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0
+                    },
+                    "subject": "Teams",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.0,
+                        "http://dbpedia.org/property/bcsBowlAppearances": 0.0,
+                        "http://dbpedia.org/property/bowlwins": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/atties": 0.0,
+                        "http://dbpedia.org/property/overall": 0.0,
+                        "http://dbpedia.org/property/allamericans": 0.0,
+                        "http://dbpedia.org/property/bowllosses": 0.0,
+                        "http://dbpedia.org/property/color1hex": 0.0,
+                        "http://dbpedia.org/property/ranking": 0.0,
+                        "http://dbpedia.org/property/conftitles": 0.0
+                    },
+                    "subject": "Teams",
+                    "object": "Losses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.01,
+                        "http://dbpedia.org/property/bowlwins": 0.03,
+                        "http://dbpedia.org/property/overall": 0.04,
+                        "http://dbpedia.org/property/confstanding": 0.01,
+                        "http://dbpedia.org/property/heismans": 0.01,
+                        "http://dbpedia.org/property/allamericans": 0.01,
+                        "http://dbpedia.org/property/conftitles": 0.01,
+                        "http://dbpedia.org/property/hcties": 0.0,
+                        "http://dbpedia.org/property/unnatltitles": 0.0,
+                        "http://dbpedia.org/property/bowlties": 0.01,
+                        "http://dbpedia.org/property/ranking": 0.05,
+                        "http://dbpedia.org/property/confrecord": 0.0,
+                        "http://dbpedia.org/property/hclosses": 0.02,
+                        "http://dbpedia.org/property/divtitles": 0.01,
+                        "http://dbpedia.org/property/color2hex": 0.0,
+                        "http://dbpedia.org/property/headcoachyear": 0.01,
+                        "http://dbpedia.org/property/bowllosses": 0.04,
+                        "http://dbpedia.org/property/conference": 0.03
+                    },
+                    "subject": "Teams",
+                    "object": "Ties"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Teams",
+                "First Year",
+                "Last Year",
+                "Years",
+                "Games",
+                "Wins",
+                "Losses",
+                "Ties",
+                "Pct.",
+                "Year Inducted"
+            ]
+        }
+    ]
+}

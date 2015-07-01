@@ -1,0 +1,156 @@
+{
+    "no. of tables": 2,
+    "page": "List of National Historic Landmarks in Connecticut",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longMinutes": 0.02,
+                        "http://dbpedia.org/property/latMinutes": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/latDegrees": 0.02,
+                        "http://dbpedia.org/property/longSeconds": 0.02
+                    },
+                    "subject": "Landmark name",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.28,
+                        "http://dbpedia.org/ontology/picture": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.85
+                    },
+                    "subject": "Landmark name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governingBody": 0.02,
+                        "http://dbpedia.org/property/architecture": 0.02,
+                        "http://dbpedia.org/property/governingBody": 0.02,
+                        "http://dbpedia.org/property/caption": 0.02,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.02,
+                        "http://dbpedia.org/ontology/architect": 0.08,
+                        "http://dbpedia.org/property/architect": 0.05
+                    },
+                    "subject": "Landmark name",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.02,
+                        "http://dbpedia.org/property/populationDensityKm": 0.02,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/elevationM": 0.02,
+                        "http://dbpedia.org/ontology/area": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.02,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.02,
+                        "http://dbpedia.org/ontology/elevation": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.13,
+                        "http://dbpedia.org/property/subdivisionName": 0.13
+                    },
+                    "subject": "Location",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/district": 0.03
+                    },
+                    "subject": "County",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.15,
+                        "http://dbpedia.org/ontology/countySeat": 0.2,
+                        "http://dbpedia.org/ontology/largestCity": 0.15,
+                        "http://dbpedia.org/property/seat": 0.03
+                    },
+                    "subject": "County",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Description",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/significantBuilding": 0.02,
+                        "http://dbpedia.org/property/significantBuildings": 0.02,
+                        "http://dbpedia.org/property/partof": 0.02
+                    },
+                    "subject": "Description",
+                    "object": "Landmark name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.13,
+                        "http://dbpedia.org/ontology/populationPlace": 0.02,
+                        "http://dbpedia.org/property/city": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.05,
+                        "http://dbpedia.org/ontology/city": 0.03,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/picture": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.2,
+                        "http://dbpedia.org/property/deathPlace": 0.13,
+                        "http://dbpedia.org/property/birthPlace": 0.08
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Current National Historic Landmarks'",
+            "colums": [
+                "[1]",
+                "Landmark name",
+                "Image",
+                "Date designated[2]",
+                "Location",
+                "County",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 1.0
+                    },
+                    "subject": "Locality",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 1.0
+                    },
+                    "subject": "County",
+                    "object": "Locality"
+                }
+            ],
+            "table": "Unnamed table in section 'Former National Historic Landmarks'",
+            "colums": [
+                "",
+                "Landmark name",
+                "Image",
+                "Date listed",
+                "Locality",
+                "County",
+                "Description"
+            ]
+        }
+    ]
+}

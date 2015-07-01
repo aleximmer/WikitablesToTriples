@@ -1,0 +1,260 @@
+{
+    "no. of tables": 5,
+    "page": "List of ships and submarines built in Barrow-in-Furness",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipType": 0.04,
+                        "http://dbpedia.org/ontology/type": 0.13,
+                        "http://dbpedia.org/ontology/class": 0.34,
+                        "http://dbpedia.org/property/shipClass": 0.39
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipOperator": 0.07,
+                        "http://dbpedia.org/property/shipCountry": 0.01,
+                        "http://dbpedia.org/ontology/operator": 0.07,
+                        "http://dbpedia.org/ontology/country": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Built For"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipLaidDown": 0.01,
+                        "http://dbpedia.org/property/shipOrdered": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipLaunched": 0.02,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Launched"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subclasses": 0.01
+                    },
+                    "subject": "Class",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operators": 0.04
+                    },
+                    "subject": "Class",
+                    "object": "Built For"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.08
+                    },
+                    "subject": "Class",
+                    "object": "Laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inCommissionRange": 0.1
+                    },
+                    "subject": "Class",
+                    "object": "Launched"
+                }
+            ],
+            "table": "Unnamed table in section 'All vessels'",
+            "colums": [
+                "Name",
+                "Class",
+                "Built For",
+                "Laid down",
+                "Launched",
+                "Fate",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/type": 0.01,
+                        "http://dbpedia.org/ontology/class": 0.16,
+                        "http://dbpedia.org/property/shipClass": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipOwner": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.01,
+                        "http://dbpedia.org/ontology/operator": 0.04,
+                        "http://dbpedia.org/property/shipOperator": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Built For"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipLaidDown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipLaunched": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Launched"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipStatus": 0.02,
+                        "http://dbpedia.org/property/shipFate": 0.02,
+                        "http://dbpedia.org/ontology/status": 0.05,
+                        "http://dbpedia.org/ontology/operator": 0.01,
+                        "http://dbpedia.org/property/shipOperator": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Fate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipCaption": 0.01,
+                        "http://dbpedia.org/property/totalShipsCompleted": 0.01,
+                        "http://dbpedia.org/property/totalShipsActive": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/totalShipsRetired": 0.02
+                    },
+                    "subject": "Class",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operators": 0.03
+                    },
+                    "subject": "Class",
+                    "object": "Built For"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/builtRange": 0.01
+                    },
+                    "subject": "Class",
+                    "object": "Laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inCommissionRange": 0.01
+                    },
+                    "subject": "Class",
+                    "object": "Launched"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/controlledby": 0.01
+                    },
+                    "subject": "Fate",
+                    "object": "Built For"
+                }
+            ],
+            "table": "Unnamed table in section 'All vessels'",
+            "colums": [
+                "Name",
+                "Class",
+                "Built For",
+                "Laid down",
+                "Launched",
+                "Fate",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipType": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/builder": 0.02,
+                        "http://dbpedia.org/ontology/homeport": 0.02,
+                        "http://dbpedia.org/property/shipCountry": 0.14,
+                        "http://dbpedia.org/property/shipHomeport": 0.02,
+                        "http://dbpedia.org/property/shipRoute": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Built For"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipOrdered": 0.02,
+                        "http://dbpedia.org/property/shipLaidDown": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Laid down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipMaidenVoyage": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Launched"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shipType": 0.05,
+                        "http://dbpedia.org/ontology/type": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Fate"
+                }
+            ],
+            "table": "Unnamed table in section 'All vessels'",
+            "colums": [
+                "Name",
+                "Class",
+                "Built For",
+                "Laid down",
+                "Launched",
+                "Fate",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/class": 0.03,
+                        "http://dbpedia.org/property/shipClass": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Class"
+                }
+            ],
+            "table": "Unnamed table in section 'All vessels'",
+            "colums": [
+                "Name",
+                "Class",
+                "Built For",
+                "Laid down",
+                "Launched",
+                "Fate",
+                "Image"
+            ]
+        }
+    ]
+}

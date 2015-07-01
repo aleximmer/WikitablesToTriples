@@ -1,0 +1,667 @@
+{
+    "no. of tables": 31,
+    "page": "List of Major League Baseball players from Europe",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Austria'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 0.25,
+                        "http://dbpedia.org/property/debutteam": 0.25,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Austria'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Austria'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Belgium'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Denmark'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Finland'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'France'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'France'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 0.67,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'France'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'France'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'France'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 0.33,
+                        "http://dbpedia.org/property/debutteam": 0.78,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Germany'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/finalteam": 0.41,
+                        "http://dbpedia.org/property/debutteam": 0.71,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Germany'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/property/debutteam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Germany'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.29,
+                        "http://dbpedia.org/property/debutteam": 0.07,
+                        "http://dbpedia.org/ontology/team": 0.21
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Germany'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Greece'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Italy'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 1.0,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Italy'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.8,
+                        "http://dbpedia.org/property/finalteam": 0.1,
+                        "http://dbpedia.org/property/debutteam": 0.3,
+                        "http://dbpedia.org/ontology/team": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Netherlands'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 1.0,
+                        "http://dbpedia.org/ontology/position": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.67,
+                        "http://dbpedia.org/property/finalteam": 0.33,
+                        "http://dbpedia.org/property/debutteam": 0.33,
+                        "http://dbpedia.org/ontology/team": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Norway'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Poland'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.5,
+                        "http://dbpedia.org/ontology/position": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.25,
+                        "http://dbpedia.org/ontology/team": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Russia'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Russia'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 1.0,
+                        "http://dbpedia.org/ontology/position": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.5,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Slovakia'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.75,
+                        "http://dbpedia.org/ontology/position": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/debutTeam": 0.25,
+                        "http://dbpedia.org/ontology/formerTeam": 0.75,
+                        "http://dbpedia.org/property/finalteam": 0.25,
+                        "http://dbpedia.org/property/debutteam": 0.75,
+                        "http://dbpedia.org/ontology/team": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Spain'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.75,
+                        "http://dbpedia.org/property/finalteam": 0.5,
+                        "http://dbpedia.org/property/debutteam": 0.5,
+                        "http://dbpedia.org/ontology/team": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'Sweden'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Switzerland'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/finalyear": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Final Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.42,
+                        "http://dbpedia.org/property/finalteam": 0.06,
+                        "http://dbpedia.org/property/debutteam": 0.24,
+                        "http://dbpedia.org/ontology/team": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Teams"
+                }
+            ],
+            "table": "Unnamed table in section 'United Kingdom'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United Kingdom'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United Kingdom'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United Kingdom'",
+            "colums": [
+                "Name",
+                "Debut",
+                "Final Game",
+                "Position",
+                "Teams",
+                "Ref"
+            ]
+        }
+    ]
+}

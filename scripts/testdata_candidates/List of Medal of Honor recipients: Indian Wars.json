@@ -1,0 +1,1080 @@
+{
+    "no. of tables": 23,
+    "page": "List of Medal of Honor recipients for the Indian Wars",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 1.0,
+                        "http://dbpedia.org/property/unit": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.36,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.06,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.36,
+                        "http://dbpedia.org/property/unit": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.06,
+                        "http://dbpedia.org/ontology/battle": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.06,
+                        "http://dbpedia.org/ontology/battle": 0.06
+                    },
+                    "subject": "Service",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOfMilitaryConflict": 0.03
+                    },
+                    "subject": "Place of action",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.03,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.03
+                    },
+                    "subject": "Unit",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.03
+                    },
+                    "subject": "Unit",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/employer": 0.03,
+                        "http://dbpedia.org/property/branch": 0.32,
+                        "http://dbpedia.org/property/employer": 0.03,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.39
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.03,
+                        "http://dbpedia.org/property/unit": 0.03,
+                        "http://dbpedia.org/property/rank": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.03,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.03,
+                        "http://dbpedia.org/property/unit": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Rank",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Unit",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.03,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.11,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.06,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.17,
+                        "http://dbpedia.org/property/unit": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.38
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.35,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.39
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/unit": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.04,
+                        "http://dbpedia.org/property/commander": 0.04
+                    },
+                    "subject": "Place of action",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.12,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.05,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.02
+                    },
+                    "subject": "Unit",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.02,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Rank",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/deathPlace": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.89,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.11,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.78,
+                        "http://dbpedia.org/property/unit": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.11,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.11
+                    },
+                    "subject": "Unit",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.18,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.05,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Rank",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Unit",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.2,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.13,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.13
+                    },
+                    "subject": "Unit",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.22,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.24
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.02,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.04
+                    },
+                    "subject": "Unit",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.25,
+                        "http://dbpedia.org/property/unit": 0.25,
+                        "http://dbpedia.org/property/rank": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.25,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 1.0,
+                        "http://dbpedia.org/property/unit": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Rank",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Unit",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.43,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.4,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.07,
+                        "http://dbpedia.org/property/deathPlace": 0.07,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.15,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.05,
+                        "http://dbpedia.org/property/unit": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.05,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.34,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.34
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.02,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Service"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.93,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.93
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.2,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.47,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.03,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.03
+                    },
+                    "subject": "Rank",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 0.03,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.03
+                    },
+                    "subject": "Rank",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/branch": 1.0,
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Service"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Image",
+                "Name",
+                "Service",
+                "Rank",
+                "Place of action",
+                "Date of action",
+                "Unit",
+                "Notes"
+            ]
+        }
+    ]
+}

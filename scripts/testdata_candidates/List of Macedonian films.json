@@ -1,0 +1,246 @@
+{
+    "no. of tables": 12,
+    "page": "List of films from the Republic of Macedonia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.12
+                    },
+                    "subject": "Director",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Ottoman Empire'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ottoman Empire'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ottoman Empire'",
+            "colums": [
+                "Title",
+                "Created by",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Within Yugoslav filmography'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Within Yugoslav filmography'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.08,
+                        "http://dbpedia.org/property/director": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Within Yugoslav filmography'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.08,
+                        "http://dbpedia.org/property/director": 0.08,
+                        "http://dbpedia.org/ontology/writer": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Within Yugoslav filmography'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Within Yugoslav filmography'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Within Yugoslav filmography'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.12,
+                        "http://dbpedia.org/property/director": 0.25,
+                        "http://dbpedia.org/ontology/director": 0.25,
+                        "http://dbpedia.org/property/producer": 0.12,
+                        "http://dbpedia.org/property/writer": 0.12,
+                        "http://dbpedia.org/ontology/writer": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.12
+                    },
+                    "subject": "Director",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/award": 0.12
+                    },
+                    "subject": "Director",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Film in independent Macedonia'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.14,
+                        "http://dbpedia.org/property/writer": 0.14,
+                        "http://dbpedia.org/property/director": 0.29,
+                        "http://dbpedia.org/ontology/director": 0.21,
+                        "http://dbpedia.org/ontology/writer": 0.21,
+                        "http://dbpedia.org/property/producer": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.07,
+                        "http://dbpedia.org/property/screened": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Film in independent Macedonia'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.21,
+                        "http://dbpedia.org/ontology/producer": 0.05,
+                        "http://dbpedia.org/property/director": 0.21,
+                        "http://dbpedia.org/ontology/writer": 0.11
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Film in independent Macedonia'",
+            "colums": [
+                "Title",
+                "Director",
+                "Year",
+                "Genre",
+                "Notes"
+            ]
+        }
+    ]
+}

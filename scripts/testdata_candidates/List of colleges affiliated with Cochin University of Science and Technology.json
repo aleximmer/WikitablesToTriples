@@ -1,0 +1,159 @@
+{
+    "no. of tables": 2,
+    "page": "List of colleges affiliated with Cochin University of Science and Technology",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.13,
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/property/city": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.03,
+                        "http://dbpedia.org/ontology/affiliation": 0.03,
+                        "http://dbpedia.org/ontology/type": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Management"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.03,
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/sepLowC": 0.03,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.07,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/julRecordLowC": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.03,
+                        "http://dbpedia.org/property/augHighC": 0.03,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.03,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/octLowC": 0.03,
+                        "http://dbpedia.org/property/febLowC": 0.03,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "District",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.03
+                    },
+                    "subject": "District",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seatOfGovernment": 0.03
+                    },
+                    "subject": "Management",
+                    "object": "District"
+                }
+            ],
+            "table": "Unnamed table in section 'Recognised Institutions'",
+            "colums": [
+                "No.",
+                "Name",
+                "District",
+                "Code",
+                "Established",
+                "Management",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/headquarter": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parentOrganisation": 0.07,
+                        "http://dbpedia.org/property/parentAgency": 0.07,
+                        "http://dbpedia.org/property/operatingAgency": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Management"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.13,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.07,
+                        "http://dbpedia.org/ontology/elevation": 0.13
+                    },
+                    "subject": "District",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Management",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formed": 0.07
+                    },
+                    "subject": "Management",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Research Centres'",
+            "colums": [
+                "No.",
+                "Name",
+                "District",
+                "Established",
+                "Management",
+                "Source"
+            ]
+        }
+    ]
+}

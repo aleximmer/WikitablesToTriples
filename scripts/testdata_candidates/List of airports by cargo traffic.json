@@ -1,0 +1,741 @@
+{
+    "no. of tables": 13,
+    "page": "List of the world's busiest airports by cargo traffic",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.1,
+                        "http://dbpedia.org/property/capital": 0.1,
+                        "http://dbpedia.org/ontology/largestCity": 0.1,
+                        "http://dbpedia.org/ontology/capital": 0.1
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.03,
+                        "http://dbpedia.org/property/longm": 0.13,
+                        "http://dbpedia.org/property/image": 0.1,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.07,
+                        "http://dbpedia.org/ontology/isPartOf": 0.1,
+                        "http://dbpedia.org/property/subdivisionName": 0.23,
+                        "http://dbpedia.org/ontology/country": 0.53
+                    },
+                    "subject": "Location",
+                    "object": "Airport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.07,
+                        "http://dbpedia.org/property/marSnowCm": 0.03,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.07,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.03,
+                        "http://dbpedia.org/property/marLowC": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2014 statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.07,
+                        "http://dbpedia.org/property/capital": 0.1,
+                        "http://dbpedia.org/ontology/largestCity": 0.07,
+                        "http://dbpedia.org/ontology/capital": 0.1
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprSnowDays": 0.03,
+                        "http://dbpedia.org/property/value": 0.1,
+                        "http://dbpedia.org/property/novSnowDays": 0.03,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/areaRank": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.23,
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/property/subdivisionType": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.57
+                    },
+                    "subject": "Location",
+                    "object": "Airport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.03,
+                        "http://dbpedia.org/property/cap": 0.03,
+                        "http://dbpedia.org/property/cityhalladdress": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2013 preliminary statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.27,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/property/cityServed": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.53
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinLabel": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA/ICAO)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r3Number": 0.03,
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/image": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.07,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.07,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03,
+                        "http://dbpedia.org/property/cityhalladdress": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/areaRank": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2012 preliminary statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.27,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/property/cityServed": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.53
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinLabel": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA/ICAO)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/metricFirst": 0.03,
+                        "http://dbpedia.org/property/singleLine": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2011 preliminary statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/property/cityServed": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.53
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinLabel": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA/ICAO)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.07,
+                        "http://dbpedia.org/property/metricFirst": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.07,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03,
+                        "http://dbpedia.org/property/singleLine": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.03,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.03,
+                        "http://dbpedia.org/property/areaRank": 0.03,
+                        "http://dbpedia.org/property/marSnowCm": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2010 final statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.23,
+                        "http://dbpedia.org/property/location": 0.27,
+                        "http://dbpedia.org/ontology/location": 0.47,
+                        "http://dbpedia.org/property/cityServed": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinLabel": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA/ICAO)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.1,
+                        "http://dbpedia.org/property/metricFirst": 0.03,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.1,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.03,
+                        "http://dbpedia.org/property/singleLine": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/marSnowCm": 0.03,
+                        "http://dbpedia.org/property/marLowC": 0.03,
+                        "http://dbpedia.org/property/areaRank": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2009 final statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.23,
+                        "http://dbpedia.org/property/location": 0.27,
+                        "http://dbpedia.org/ontology/location": 0.53,
+                        "http://dbpedia.org/property/cityServed": 0.23,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinLabel": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA/ICAO)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/cityhalladdress": 0.03,
+                        "http://dbpedia.org/property/marSnowCm": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2008 final statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.27,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/ontology/location": 0.5,
+                        "http://dbpedia.org/property/cityServed": 0.23,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinLabel": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA/ICAO)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Rank\nChange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.03,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.03,
+                        "http://dbpedia.org/property/areaMagnitude": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.07,
+                        "http://dbpedia.org/property/marLowC": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Rank\nChange"
+                }
+            ],
+            "table": "Unnamed table in section '2007 final statistics'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA/ICAO)",
+                "Total\nCargo\n(tonnes)",
+                "Rank\nChange",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.4,
+                        "http://dbpedia.org/property/location": 0.3,
+                        "http://dbpedia.org/ontology/location": 0.57,
+                        "http://dbpedia.org/property/cityServed": 0.37,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/faa": 0.3,
+                        "http://dbpedia.org/ontology/faaLocationIdentifier": 0.33,
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 0.93,
+                        "http://dbpedia.org/property/iata": 0.93,
+                        "http://dbpedia.org/property/pushpinLabel": 0.67
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r4Number": 0.07,
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/r3Number": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/longm": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "2005\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latMin": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/julRecordLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "2005\nRank"
+                }
+            ],
+            "table": "Unnamed table in section '2006 final statistics[9]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA)",
+                "Total\nCargo\n(tonnes)",
+                "2005\nRank",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.47,
+                        "http://dbpedia.org/property/location": 0.23,
+                        "http://dbpedia.org/ontology/location": 0.47,
+                        "http://dbpedia.org/property/cityServed": 0.47,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/faa": 0.33,
+                        "http://dbpedia.org/ontology/faaLocationIdentifier": 0.37,
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 0.93,
+                        "http://dbpedia.org/property/iata": 0.93,
+                        "http://dbpedia.org/property/pushpinLabel": 0.73
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "2004\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Airport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lonDeg": 0.03,
+                        "http://dbpedia.org/property/febRecordLowF": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "2004\nRank"
+                }
+            ],
+            "table": "Unnamed table in section '2005 final statistics[10]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA)",
+                "Total\nCargo\n(tonnes)",
+                "2004\nRank",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.43,
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.43,
+                        "http://dbpedia.org/property/cityServed": 0.4,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/faa": 0.37,
+                        "http://dbpedia.org/ontology/faaLocationIdentifier": 0.4,
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 0.93,
+                        "http://dbpedia.org/property/iata": 0.93,
+                        "http://dbpedia.org/property/pushpinLabel": 0.7
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/r2Number": 0.03,
+                        "http://dbpedia.org/property/r1Number": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "2003\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Airport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lonDeg": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "2003\nRank"
+                }
+            ],
+            "table": "Unnamed table in section '2004 final statistics[11]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA)",
+                "Total\nCargo\n(tonnes)",
+                "2003\nRank",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.43,
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.43,
+                        "http://dbpedia.org/property/cityServed": 0.4,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/faa": 0.37,
+                        "http://dbpedia.org/ontology/faaLocationIdentifier": 0.4,
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 0.93,
+                        "http://dbpedia.org/property/iata": 0.93,
+                        "http://dbpedia.org/property/pushpinLabel": 0.7
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Airport",
+                    "object": "2002\nRank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Airport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lonDeg": 0.03,
+                        "http://dbpedia.org/ontology/area": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "2002\nRank"
+                }
+            ],
+            "table": "Unnamed table in section '2003 final statistics[12]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA)",
+                "Total\nCargo\n(tonnes)",
+                "2002\nRank",
+                "%\nChange"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.37,
+                        "http://dbpedia.org/property/cityServed": 0.47,
+                        "http://dbpedia.org/ontology/owner": 0.1,
+                        "http://dbpedia.org/property/owner": 0.07
+                    },
+                    "subject": "Airport",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/faa": 0.4,
+                        "http://dbpedia.org/ontology/faaLocationIdentifier": 0.43,
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 0.93,
+                        "http://dbpedia.org/property/iata": 0.93,
+                        "http://dbpedia.org/property/pushpinLabel": 0.77
+                    },
+                    "subject": "Airport",
+                    "object": "Code (IATA)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Location",
+                    "object": "Airport"
+                }
+            ],
+            "table": "Unnamed table in section '2002 final statistics[13]'",
+            "colums": [
+                "Rank",
+                "Airport",
+                "Location",
+                "Code (IATA)",
+                "Total\nCargo\n(tonnes)"
+            ]
+        }
+    ]
+}

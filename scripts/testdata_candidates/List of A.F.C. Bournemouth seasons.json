@@ -1,0 +1,44 @@
+{
+    "no. of tables": 1,
+    "page": "List of A.F.C. Bournemouth seasons",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/competition": 0.01
+                    },
+                    "subject": "Season",
+                    "object": "Division"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/l": 0.03,
+                        "http://dbpedia.org/property/w": 0.04,
+                        "http://dbpedia.org/property/rows": 0.03,
+                        "http://dbpedia.org/property/d": 0.04,
+                        "http://dbpedia.org/property/score": 0.02,
+                        "http://dbpedia.org/property/p": 0.09
+                    },
+                    "subject": "Season",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/level": 0.01,
+                        "http://dbpedia.org/property/levels": 0.06
+                    },
+                    "subject": "Division",
+                    "object": "Position"
+                }
+            ],
+            "table": "Unnamed table in section 'List of A.F.C. Bournemouth seasons'",
+            "colums": [
+                "Season",
+                "Division",
+                "Position",
+                "Significant Events"
+            ]
+        }
+    ]
+}

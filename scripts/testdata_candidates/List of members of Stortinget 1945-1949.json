@@ -1,0 +1,329 @@
+{
+    "no. of tables": 29,
+    "page": "List of members of the Parliament of Norway, 1945\u201349",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Aust-Agder'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Vest-Agder'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of Vest-Agder and Rogaland'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.29,
+                        "http://dbpedia.org/ontology/party": 0.29
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'Akershus'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'Bergen'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Buskerud'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of Buskerud'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Finnmark'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hedmark'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of Hedmark and Oppland'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Hordaland'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'M\u00f8re og Romsdal'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of M\u00f8re og Romsdal'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Nordland'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of Nordland, Troms and Finnmark'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.17,
+                        "http://dbpedia.org/ontology/party": 0.17
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'Oppland'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.43,
+                        "http://dbpedia.org/ontology/party": 0.43
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'Oslo'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Rogaland'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.2,
+                        "http://dbpedia.org/ontology/party": 0.2
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'Sogn og Fjordane'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Telemark'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of Telemark and Aust-Agder'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Troms'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Nord-Tr\u00f8ndelag'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.17,
+                        "http://dbpedia.org/ontology/party": 0.17
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'S\u00f8r-Tr\u00f8ndelag'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.4,
+                        "http://dbpedia.org/ontology/party": 0.4
+                    },
+                    "subject": "Navn",
+                    "object": "parti"
+                }
+            ],
+            "table": "Unnamed table in section 'Market towns of S\u00f8r-Tr\u00f8ndelag and Nord-Tr\u00f8ndelag'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Vestfold'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of Vestfold'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '\u00d8stfold'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Market towns of \u00d8stfold and Akershus'",
+            "colums": [
+                "Navn",
+                "parti",
+                "Comments/supleant representatives"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "no. of tables": 11,
+    "page": "List of 1980 Winter Olympics medal winners",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alpine skiing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Biathlon'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bobsleigh'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cross-country skiing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Figure skating'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ice Hockey'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Luge'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Nordic combined'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ski jumping'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Speed skating'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/olympicteams": 0.12,
+                        "http://dbpedia.org/property/olympicgolds": 0.12,
+                        "http://dbpedia.org/property/wcoveralls": 0.12
+                    },
+                    "subject": "Athlete",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 0.12,
+                        "http://dbpedia.org/property/silver": 0.12,
+                        "http://dbpedia.org/property/rank": 0.12,
+                        "http://dbpedia.org/property/penalties": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.38,
+                        "http://dbpedia.org/property/sports": 0.12,
+                        "http://dbpedia.org/property/score": 0.38,
+                        "http://dbpedia.org/property/progression": 0.62
+                    },
+                    "subject": "Nation",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfSilverMedalsWon": 0.12,
+                        "http://dbpedia.org/property/silver": 0.12,
+                        "http://dbpedia.org/property/rank": 0.25,
+                        "http://dbpedia.org/property/penalties": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.25,
+                        "http://dbpedia.org/property/score": 0.38,
+                        "http://dbpedia.org/property/progression": 0.62
+                    },
+                    "subject": "Nation",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfGoldMedalsWon": 0.12,
+                        "http://dbpedia.org/ontology/numberOfSilverMedalsWon": 0.12,
+                        "http://dbpedia.org/property/gold": 0.12,
+                        "http://dbpedia.org/property/silver": 0.12,
+                        "http://dbpedia.org/property/penalties": 0.25,
+                        "http://dbpedia.org/property/bronze": 0.12,
+                        "http://dbpedia.org/property/score": 0.38,
+                        "http://dbpedia.org/property/progression": 0.62
+                    },
+                    "subject": "Nation",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.38,
+                        "http://dbpedia.org/property/progression": 0.62,
+                        "http://dbpedia.org/property/bronze": 0.12,
+                        "http://dbpedia.org/property/score": 0.38,
+                        "http://dbpedia.org/ontology/numberOfBronzeMedalsWon": 0.12
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Medal leaders'",
+            "colums": [
+                "Athlete",
+                "Nation",
+                "Sport",
+                "Gold",
+                "Silver",
+                "Bronze",
+                "Total"
+            ]
+        }
+    ]
+}

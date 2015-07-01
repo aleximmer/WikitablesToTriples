@@ -1,0 +1,233 @@
+{
+    "no. of tables": 3,
+    "page": "List of municipalities in South Africa",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/muniCode": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.88,
+                        "http://dbpedia.org/property/p": 0.88
+                    },
+                    "subject": "Province",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.62
+                    },
+                    "subject": "Province",
+                    "object": "Seat"
+                }
+            ],
+            "table": "Unnamed table in section 'Metropolitan municipalities'",
+            "colums": [
+                "Name",
+                "Code",
+                "Province",
+                "Seat",
+                "Area\n(km\u00b2)",
+                "Population\n(2011)[2]",
+                "Pop. density\n(per km\u00b2)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.98
+                    },
+                    "subject": "Name",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.9,
+                        "http://dbpedia.org/property/px": 0.08,
+                        "http://dbpedia.org/property/p": 0.9
+                    },
+                    "subject": "Province",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.23
+                    },
+                    "subject": "Province",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/district": 0.02
+                    },
+                    "subject": "Seat",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'District municipalities'",
+            "colums": [
+                "Name",
+                "Code",
+                "Province",
+                "Seat",
+                "Area\n(km\u00b2)",
+                "Population\n(2011)[2]",
+                "Pop. density\n(per km\u00b2)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/muniCode": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/district": 0.96
+                    },
+                    "subject": "Name",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.98
+                    },
+                    "subject": "Name",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.03,
+                        "http://dbpedia.org/property/p": 0.03
+                    },
+                    "subject": "Province",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.88,
+                        "http://dbpedia.org/property/px": 0.08,
+                        "http://dbpedia.org/property/p": 0.88
+                    },
+                    "subject": "Province",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.05
+                    },
+                    "subject": "Province",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demographics2Info": 0.0,
+                        "http://dbpedia.org/property/demographics1Info": 0.02
+                    },
+                    "subject": "Province",
+                    "object": "Pop. density\n(per km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/p": 0.97
+                    },
+                    "subject": "District",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 0.97
+                    },
+                    "subject": "District",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/p": 0.0,
+                        "http://dbpedia.org/property/seat": 0.16
+                    },
+                    "subject": "District",
+                    "object": "Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0
+                    },
+                    "subject": "Seat",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/muniCode": 0.0
+                    },
+                    "subject": "Seat",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 0.0
+                    },
+                    "subject": "Seat",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/district": 0.02,
+                        "http://dbpedia.org/property/district": 0.0
+                    },
+                    "subject": "Seat",
+                    "object": "District"
+                }
+            ],
+            "table": "Unnamed table in section 'Local municipalities'",
+            "colums": [
+                "Name",
+                "Code",
+                "Province",
+                "District",
+                "Seat",
+                "Area\n(km\u00b2)",
+                "Population\n(2011)[2]",
+                "Pop. density\n(per km\u00b2)"
+            ]
+        }
+    ]
+}

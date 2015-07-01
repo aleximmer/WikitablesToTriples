@@ -1,0 +1,186 @@
+{
+    "page": "List of stadiums in Spain",
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Current stadiums'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.15,
+                        "http://dbpedia.org/ontology/owner": 0.32,
+                        "http://dbpedia.org/property/owner": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.8,
+                        "http://dbpedia.org/property/location": 0.7,
+                        "http://dbpedia.org/ontology/operator": 0.15
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.02,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.16,
+                        "http://dbpedia.org/property/location": 0.15,
+                        "http://dbpedia.org/ontology/operator": 0.01
+                    },
+                    "subject": "Stadium",
+                    "object": "Autonomous community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.22,
+                        "http://dbpedia.org/ontology/owner": 0.1,
+                        "http://dbpedia.org/property/owner": 0.1,
+                        "http://dbpedia.org/property/tenants": 0.73,
+                        "http://dbpedia.org/ontology/tenant": 0.8,
+                        "http://dbpedia.org/ontology/operator": 0.22
+                    },
+                    "subject": "Stadium",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05,
+                        "http://dbpedia.org/property/expanded": 0.01,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/brokeGround": 0.01,
+                        "http://dbpedia.org/property/tenants": 0.01,
+                        "http://dbpedia.org/property/opened": 0.36
+                    },
+                    "subject": "Stadium",
+                    "object": "Inaugurated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.85,
+                        "http://dbpedia.org/property/subdivisionName": 0.29,
+                        "http://dbpedia.org/property/archipelago": 0.01,
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.01,
+                        "http://dbpedia.org/ontology/archipelago": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Autonomous community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Inaugurated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/seat": 0.3
+                    },
+                    "subject": "Autonomous community",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.8,
+                        "http://dbpedia.org/property/ground": 0.81,
+                        "http://dbpedia.org/property/stadium": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.02,
+                        "http://dbpedia.org/ontology/ground": 0.85,
+                        "http://dbpedia.org/property/ground": 0.73
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ground": 0.07,
+                        "http://dbpedia.org/ontology/ground": 0.82
+                    },
+                    "subject": "Team",
+                    "object": "Autonomous community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.01,
+                        "http://dbpedia.org/property/current": 0.02,
+                        "http://dbpedia.org/property/founded": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "Inaugurated"
+                }
+            ],
+            "colums": [
+                "Image",
+                "Stadium",
+                "Capacity",
+                "City",
+                "Autonomous community",
+                "Team",
+                "Inaugurated"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Future stadiums'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 1.0,
+                        "http://dbpedia.org/ontology/owner": 1.0,
+                        "http://dbpedia.org/property/owner": 1.0,
+                        "http://dbpedia.org/property/tenants": 1.0,
+                        "http://dbpedia.org/ontology/tenant": 1.0,
+                        "http://dbpedia.org/ontology/operator": 1.0
+                    },
+                    "subject": "Stadium",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Autonomous community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 1.0
+                    },
+                    "subject": "Autonomous community",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.5,
+                        "http://dbpedia.org/property/ground": 0.5
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Stadium",
+                "Capacity",
+                "City",
+                "Autonomous community",
+                "Team",
+                "Start/end"
+            ]
+        }
+    ]
+}

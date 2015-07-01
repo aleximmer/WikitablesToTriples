@@ -1,0 +1,24 @@
+{
+    "no. of tables": 1,
+    "page": "List of 2012 box office number-one films in Japan",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'List of 2012 box office number-one films in Japan'",
+            "colums": [
+                "#",
+                "Date",
+                "Film",
+                "Gross"
+            ]
+        }
+    ]
+}

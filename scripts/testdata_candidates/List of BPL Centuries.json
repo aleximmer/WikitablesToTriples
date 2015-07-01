@@ -1,0 +1,2488 @@
+{
+    "no. of tables": 32,
+    "page": "List of statistics and records of Bangladesh Premier League",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "Titles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "Lost"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.17
+                    },
+                    "subject": "Team",
+                    "object": "No Result"
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Team",
+                "Span",
+                "Titles",
+                "Matches",
+                "Won",
+                "Lost",
+                "No Result",
+                "Win\u00a0%",
+                "For (r/o)",
+                "Against (r/o)",
+                "Best",
+                "Worst"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.6
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.4
+                    },
+                    "subject": "Opponent",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.8,
+                        "http://dbpedia.org/property/p3seed": 0.2,
+                        "http://dbpedia.org/property/rd1Seed": 0.8,
+                        "http://dbpedia.org/property/match": 0.8
+                    },
+                    "subject": "Season",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.8
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febPrecipitationDays": 1.0,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.6,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.4,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.6
+                    },
+                    "subject": "Ground",
+                    "object": "Innings"
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Score",
+                "Team",
+                "Opponent",
+                "Overs",
+                "Run Rate",
+                "Innings",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Winner",
+                    "object": "Loser"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Winner",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.4
+                    },
+                    "subject": "Loser",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Loser",
+                    "object": "Wickets"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Loser",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Seed": 0.2,
+                        "http://dbpedia.org/property/margin": 0.8,
+                        "http://dbpedia.org/property/rd1Seed": 0.2,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Wickets"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.2
+                    },
+                    "subject": "Ground",
+                    "object": "Wickets"
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Score",
+                "Winner",
+                "Loser",
+                "Overs",
+                "Run Rate",
+                "Wickets",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junRecordLowC": 1.0
+                    },
+                    "subject": "Ground",
+                    "object": "Overs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novPrecipitationDays": 1.0,
+                        "http://dbpedia.org/property/marPrecipitationDays": 1.0
+                    },
+                    "subject": "Ground",
+                    "object": "Innings"
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Score",
+                "Team",
+                "Opponent",
+                "Overs",
+                "Run Rate",
+                "Innings",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.67
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.33,
+                        "http://dbpedia.org/property/city": 0.33,
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.33
+                    },
+                    "subject": "Season",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Margin",
+                "Team",
+                "Target",
+                "Opponent",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.67
+                    },
+                    "subject": "Winner",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.67
+                    },
+                    "subject": "Winner",
+                    "object": "Loser"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Winner",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Loser",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.67
+                    },
+                    "subject": "Loser",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Loser",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.33,
+                        "http://dbpedia.org/property/score": 0.67
+                    },
+                    "subject": "Season",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 0.33
+                    },
+                    "subject": "Season",
+                    "object": "Balls rem."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.33
+                    },
+                    "subject": "Ground",
+                    "object": "Balls rem."
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Margin",
+                "Winner",
+                "Target",
+                "Balls rem.",
+                "Overs",
+                "Loser",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.33
+                    },
+                    "subject": "Winner",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Winner",
+                    "object": "Loser"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Winner",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Loser",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.33
+                    },
+                    "subject": "Loser",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Loser",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/margin": 0.33
+                    },
+                    "subject": "Season",
+                    "object": "Balls rem."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.33
+                    },
+                    "subject": "Season",
+                    "object": "Target"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                }
+            ],
+            "table": "Unnamed table in section 'Team records'",
+            "colums": [
+                "Balls rem.",
+                "Winner",
+                "Target",
+                "Margin",
+                "Overs",
+                "Loser",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Losses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Winner",
+                    "object": "Runners Up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 1.0
+                    },
+                    "subject": "Captain",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprHighC": 1.0,
+                        "http://dbpedia.org/property/augLowC": 1.0,
+                        "http://dbpedia.org/property/julLowC": 1.0
+                    },
+                    "subject": "Coach",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 1.0,
+                        "http://dbpedia.org/property/mayLowC": 1.0,
+                        "http://dbpedia.org/property/janHighC": 1.0,
+                        "http://dbpedia.org/property/decHighC": 1.0,
+                        "http://dbpedia.org/property/febHighC": 1.0,
+                        "http://dbpedia.org/property/longm": 1.0
+                    },
+                    "subject": "Coach",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Runners Up",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Series records'",
+            "colums": [
+                "Season",
+                "Winner",
+                "Captain",
+                "Coach",
+                "League Finish",
+                "Matches",
+                "Wins",
+                "Losses",
+                "Win%",
+                "Runners Up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Wickets"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ct & St"
+                }
+            ],
+            "table": "Unnamed table in section 'Series records'",
+            "colums": [
+                "Season",
+                "Player",
+                "Team",
+                "Matches",
+                "Runs scored",
+                "Strike Rate",
+                "Average",
+                "Wickets",
+                "Runs conceded",
+                "Strike Rate",
+                "Average",
+                "Ct & St"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 1.0,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "100s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Seed": 1.0,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "50s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "6s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "6s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "4s"
+                }
+            ],
+            "table": "Unnamed table in section 'Series records'",
+            "colums": [
+                "Season",
+                "Player",
+                "Team",
+                "Runs",
+                "Matches",
+                "Innings",
+                "Balls",
+                "Strike Rate",
+                "Average",
+                "HS",
+                "100s",
+                "50s",
+                "4s",
+                "6s"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Wickets"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 1.0,
+                        "http://dbpedia.org/property/populationEstimateRank": 1.0,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 1.0,
+                        "http://dbpedia.org/property/areaRank": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Wickets"
+                }
+            ],
+            "table": "Unnamed table in section 'Series records'",
+            "colums": [
+                "Season",
+                "Player",
+                "Team",
+                "Wickets",
+                "Matches",
+                "Overs",
+                "Economy Rate",
+                "Average",
+                "Strike Rate",
+                "Best Bowling"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Catches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Innings"
+                }
+            ],
+            "table": "Unnamed table in section 'Series records'",
+            "colums": [
+                "Season",
+                "Player",
+                "Team",
+                "Catches",
+                "Innings",
+                "Ct/Inn"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.6,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.6,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.2,
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "6s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "4s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/colors": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "6s"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Runs",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Innings",
+                "Balls",
+                "Strike Rate",
+                "Average",
+                "HS",
+                "100s",
+                "50s",
+                "4s",
+                "6s"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.4,
+                        "http://dbpedia.org/property/hdiYear": 0.8,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.4,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.4,
+                        "http://dbpedia.org/property/gdpPppYear": 0.4
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bplWins": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bplWins": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "HS"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Strike Rate",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Innings",
+                "Runs",
+                "Balls",
+                "Average",
+                "HS",
+                "100s",
+                "50s",
+                "4s",
+                "6s"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.2,
+                        "http://dbpedia.org/property/hdiYear": 0.6,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.4,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.2,
+                        "http://dbpedia.org/property/gdpPppYear": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.2,
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "6s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "HS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "4s"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Average",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Innings",
+                "Runs",
+                "Balls",
+                "Strike Rate",
+                "HS",
+                "100s",
+                "50s",
+                "4s",
+                "6s"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Opponent",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/margin": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Ground",
+                    "object": "Player"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Score",
+                "Player",
+                "Team",
+                "Opponent",
+                "Balls",
+                "Strike Rate",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bestBowling": 0.75,
+                        "http://dbpedia.org/property/fivefor": 0.5,
+                        "http://dbpedia.org/property/100s/50s": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Opposing team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bestBowling": 0.25,
+                        "http://dbpedia.org/property/fivefor": 0.75,
+                        "http://dbpedia.org/property/100s/50s": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Inns."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Opposing team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.25,
+                        "http://dbpedia.org/property/bplWins": 0.25
+                    },
+                    "subject": "Opposing team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.25
+                    },
+                    "subject": "Opposing team",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/motm": 0.25
+                    },
+                    "subject": "Opposing team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.75
+                    },
+                    "subject": "Opposing team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.25
+                    },
+                    "subject": "Opposing team",
+                    "object": "Inns."
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "No.",
+                "Score",
+                "Balls",
+                "Player",
+                "Team",
+                "Opposing team",
+                "Inns.",
+                "Date",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Player",
+                "Centuries",
+                "Team",
+                "Highest Score"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.2,
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Sixes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.4,
+                        "http://dbpedia.org/property/hdiYear": 0.6,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.2,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.4,
+                        "http://dbpedia.org/property/gdpPppYear": 0.4
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.2,
+                        "http://dbpedia.org/property/populationDensityKm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/colors": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Sixes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "4s"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Sixes",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Innings",
+                "Balls",
+                "4s"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.4,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.4
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Mdns"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Wickets",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Overs",
+                "Mdns",
+                "Runs",
+                "BBI",
+                "Average",
+                "Economy rate",
+                "Strike rate"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.2,
+                        "http://dbpedia.org/property/hdiYear": 0.6,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.4,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.2,
+                        "http://dbpedia.org/property/gdpPppYear": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Mdns"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Strike Rate",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Overs",
+                "Mdns",
+                "Runs",
+                "Wickets",
+                "BBI",
+                "Average",
+                "Economy rate"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.4,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.4
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.4
+                    },
+                    "subject": "Current Team",
+                    "object": "Mdns"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Average",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Overs",
+                "Mdns",
+                "Runs",
+                "Wickets",
+                "BBI",
+                "Strike Rate",
+                "Economy rate"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.2,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.4,
+                        "http://dbpedia.org/property/city": 0.4
+                    },
+                    "subject": "Current Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.4
+                    },
+                    "subject": "Current Team",
+                    "object": "Mdns"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Economy rate",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Overs",
+                "Mdns",
+                "Runs",
+                "Wickets",
+                "BBI",
+                "Strike Rate",
+                "Average"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "Mdns"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2,
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Opponent",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.6
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.2
+                    },
+                    "subject": "Opponent",
+                    "object": "Mdns"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2,
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.4
+                    },
+                    "subject": "Ground",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.4,
+                        "http://dbpedia.org/property/lats": 1.0,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.6,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.4
+                    },
+                    "subject": "Ground",
+                    "object": "Mdns"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "BBI",
+                "Player",
+                "Team",
+                "Overs",
+                "Mdns",
+                "Opponent",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "M"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "M"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title1wins": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.2,
+                        "http://dbpedia.org/property/rd1Seed": 0.4,
+                        "http://dbpedia.org/property/margin": 0.2,
+                        "http://dbpedia.org/property/match": 0.4
+                    },
+                    "subject": "Season",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decHumidity": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Ground",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.2,
+                        "http://dbpedia.org/property/lats": 1.0,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.8,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.2
+                    },
+                    "subject": "Ground",
+                    "object": "M"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank1Info": 0.2,
+                        "http://dbpedia.org/property/lats": 0.6,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.4,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/longs": 0.2,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.2,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.4
+                    },
+                    "subject": "Ground",
+                    "object": "W"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Runs",
+                "Player",
+                "Team",
+                "O",
+                "M",
+                "W",
+                "Econ. Rate",
+                "Opponent",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 1.0,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janLowC": 1.0,
+                        "http://dbpedia.org/property/febLowC": 1.0
+                    },
+                    "subject": "Batsmen",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 1.0
+                    },
+                    "subject": "For",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "For",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Against",
+                    "object": "For"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Against",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febPrecipitationDays": 1.0,
+                        "http://dbpedia.org/property/novPrecipitationDays": 1.0,
+                        "http://dbpedia.org/property/janPrecipitationDays": 1.0
+                    },
+                    "subject": "Ground",
+                    "object": "No."
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "No.",
+                "Season",
+                "Bowler",
+                "Batsmen",
+                "For",
+                "Against",
+                "Ground",
+                "Date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.2,
+                        "http://dbpedia.org/property/novLowC": 0.2,
+                        "http://dbpedia.org/property/aprLowC": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Dismissals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.2,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLowC": 0.2,
+                        "http://dbpedia.org/property/longm": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Catches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Stumpings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Max./Inn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Stumpings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.2
+                    },
+                    "subject": "Current Team",
+                    "object": "Max./Inn"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Dismissals",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Innings",
+                "Catches",
+                "Stumpings",
+                "Max./Inn",
+                "Av./Inn."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octLowC": 0.17,
+                        "http://dbpedia.org/property/mayLowC": 0.17,
+                        "http://dbpedia.org/property/janHighC": 0.17,
+                        "http://dbpedia.org/property/decHighC": 0.17,
+                        "http://dbpedia.org/property/febHighC": 0.17,
+                        "http://dbpedia.org/property/longm": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "Catches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.17,
+                        "http://dbpedia.org/property/junLowC": 0.17,
+                        "http://dbpedia.org/property/populationDensityRank": 0.17,
+                        "http://dbpedia.org/property/marHighC": 0.17,
+                        "http://dbpedia.org/property/novHighC": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "Matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marLowC": 0.17
+                    },
+                    "subject": "Player",
+                    "object": "Max."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.33,
+                        "http://dbpedia.org/property/city": 0.33
+                    },
+                    "subject": "Current Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 1.0
+                    },
+                    "subject": "Current Team",
+                    "object": "Span"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bplWins": 0.17
+                    },
+                    "subject": "Current Team",
+                    "object": "Max."
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Catches",
+                "Player",
+                "Current Team",
+                "Span",
+                "Matches",
+                "Max.",
+                "Av./Inn."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.33,
+                        "http://dbpedia.org/property/capital": 0.33,
+                        "http://dbpedia.org/ontology/largestCity": 0.33,
+                        "http://dbpedia.org/property/largestCity": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bplWins": 0.33
+                    },
+                    "subject": "Team",
+                    "object": "Cts."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Seed": 1.0,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Dismissals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.67,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 0.33,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.33,
+                        "http://dbpedia.org/property/rd2Seed": 0.33,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 0.67,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Cts."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.33,
+                        "http://dbpedia.org/property/rd1Seed": 0.67,
+                        "http://dbpedia.org/property/margin": 0.33,
+                        "http://dbpedia.org/property/match": 0.67
+                    },
+                    "subject": "Season",
+                    "object": "Sts."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.33
+                    },
+                    "subject": "Ground",
+                    "object": "Dismissals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Ground",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.67,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.67,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.33
+                    },
+                    "subject": "Ground",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.67,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.33
+                    },
+                    "subject": "Ground",
+                    "object": "Cts."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.67,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.33,
+                        "http://dbpedia.org/property/lats": 0.33
+                    },
+                    "subject": "Ground",
+                    "object": "Sts."
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Dismissals",
+                "Player",
+                "Team",
+                "Innings",
+                "Opponent",
+                "Cts.",
+                "Sts.",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marLowC": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Catches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.5,
+                        "http://dbpedia.org/property/capital": 0.5,
+                        "http://dbpedia.org/ontology/largestCity": 0.5,
+                        "http://dbpedia.org/property/largestCity": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bplWins": 0.25
+                    },
+                    "subject": "Team",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.25,
+                        "http://dbpedia.org/property/city": 0.25
+                    },
+                    "subject": "Opponent",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.75
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.25
+                    },
+                    "subject": "Opponent",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.25,
+                        "http://dbpedia.org/property/city": 0.25,
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd2Seed": 1.0,
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Catches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Seed": 1.0,
+                        "http://dbpedia.org/property/margin": 1.0,
+                        "http://dbpedia.org/property/match": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Innings"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.75
+                    },
+                    "subject": "Ground",
+                    "object": "Catches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.75
+                    },
+                    "subject": "Ground",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank1Info": 0.75,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.25,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.25
+                    },
+                    "subject": "Ground",
+                    "object": "Innings"
+                }
+            ],
+            "table": "Unnamed table in section 'Individual records'",
+            "colums": [
+                "Catches",
+                "Player",
+                "Team",
+                "Innings",
+                "Opponent",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.1
+                    },
+                    "subject": "Batsmen",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.2,
+                        "http://dbpedia.org/property/capital": 0.2,
+                        "http://dbpedia.org/ontology/largestCity": 0.2,
+                        "http://dbpedia.org/property/largestCity": 0.2
+                    },
+                    "subject": "Batsmen",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.1
+                    },
+                    "subject": "Team",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.1,
+                        "http://dbpedia.org/property/city": 0.1
+                    },
+                    "subject": "Team",
+                    "object": "Batsmen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.9
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.1,
+                        "http://dbpedia.org/property/city": 0.1,
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1
+                    },
+                    "subject": "Opponent",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/margin": 0.2,
+                        "http://dbpedia.org/property/score": 0.2,
+                        "http://dbpedia.org/property/match": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febHumidity": 0.1
+                    },
+                    "subject": "Ground",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.3
+                    },
+                    "subject": "Ground",
+                    "object": "Batsmen"
+                }
+            ],
+            "table": "Unnamed table in section 'Partnership records'",
+            "colums": [
+                "Wicket",
+                "Runs",
+                "Batsmen",
+                "Final\nscores",
+                "Team",
+                "Opponent",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.2,
+                        "http://dbpedia.org/property/capital": 0.2,
+                        "http://dbpedia.org/ontology/largestCity": 0.2,
+                        "http://dbpedia.org/property/largestCity": 0.2
+                    },
+                    "subject": "Batsmen",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "Batsmen"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 1.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.8
+                    },
+                    "subject": "Opponent",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.8
+                    },
+                    "subject": "Season",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.6
+                    },
+                    "subject": "Season",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Ground",
+                    "object": "Batsmen"
+                }
+            ],
+            "table": "Unnamed table in section 'Partnership records'",
+            "colums": [
+                "Runs",
+                "Wicket",
+                "Batsmen",
+                "Final\nscores",
+                "Team",
+                "Opponent",
+                "Season",
+                "Ground",
+                "Scorecard"
+            ]
+        }
+    ]
+}

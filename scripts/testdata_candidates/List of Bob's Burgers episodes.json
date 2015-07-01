@@ -1,0 +1,231 @@
+{
+    "no. of tables": 8,
+    "page": "List of Bob's Burgers episodes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.54,
+                        "http://dbpedia.org/property/production": 0.08,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.08,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.15,
+                        "http://dbpedia.org/property/season": 0.08,
+                        "http://dbpedia.org/property/episode": 0.54
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.54,
+                        "http://dbpedia.org/property/production": 0.08,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.08,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.15,
+                        "http://dbpedia.org/property/season": 0.08,
+                        "http://dbpedia.org/property/episode": 0.54
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.08,
+                        "http://dbpedia.org/property/director": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.54,
+                        "http://dbpedia.org/ontology/writer": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "U.S. viewers\n(million)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/seasonNumber": 0.11,
+                        "http://dbpedia.org/ontology/episodeNumber": 0.78,
+                        "http://dbpedia.org/property/production": 0.11,
+                        "http://dbpedia.org/property/season": 0.11,
+                        "http://dbpedia.org/property/episode": 0.78
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.11,
+                        "http://dbpedia.org/property/director": 0.67
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.44,
+                        "http://dbpedia.org/ontology/writer": 0.11
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "U.S. viewers\n(million)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seriesNo": 0.74
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.83,
+                        "http://dbpedia.org/property/production": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/season": 0.04,
+                        "http://dbpedia.org/property/episode": 0.83
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.04,
+                        "http://dbpedia.org/property/director": 0.7
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/writer": 0.04,
+                        "http://dbpedia.org/property/writer": 0.52
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "U.S. viewers\n(million)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seriesNo": 0.68
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseries"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/episodeNumber": 0.64,
+                        "http://dbpedia.org/property/production": 0.05,
+                        "http://dbpedia.org/ontology/seasonNumber": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/season": 0.05,
+                        "http://dbpedia.org/property/episode": 0.64
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nseason"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/writer": 0.09,
+                        "http://dbpedia.org/property/writer": 0.36
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "U.S. viewers\n(million)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nseries",
+                "No. in\nseason",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "U.S. viewers\n(million)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Nielsen ratings'",
+            "colums": [
+                "Season",
+                "Season premiere",
+                "Season finale",
+                "TV season",
+                "Ranking",
+                "Viewers\n(in millions)",
+                "18\u201349\nranking",
+                "18\u201349\nrating\n(average)"
+            ]
+        }
+    ]
+}

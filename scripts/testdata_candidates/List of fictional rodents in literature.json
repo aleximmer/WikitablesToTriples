@@ -1,0 +1,261 @@
+{
+    "no. of tables": 4,
+    "page": "List of fictional rodents in literature",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.12,
+                        "http://dbpedia.org/ontology/author": 0.12,
+                        "http://dbpedia.org/property/author": 0.12
+                    },
+                    "subject": "Character/s",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Character/s",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.06
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Work",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.12,
+                        "http://dbpedia.org/ontology/author": 0.62,
+                        "http://dbpedia.org/property/author": 0.69
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.06,
+                        "http://dbpedia.org/ontology/creator": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Squirrels'",
+            "colums": [
+                "Character/s",
+                "Author",
+                "Work",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/author": 0.03,
+                        "http://dbpedia.org/property/author": 0.06
+                    },
+                    "subject": "Character/s",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Character/s",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.03
+                    },
+                    "subject": "Author",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.15,
+                        "http://dbpedia.org/ontology/knownFor": 0.03
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/name": 0.03
+                    },
+                    "subject": "Work",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/author": 0.41,
+                        "http://dbpedia.org/ontology/coverArtist": 0.03,
+                        "http://dbpedia.org/ontology/illustrator": 0.18,
+                        "http://dbpedia.org/property/author": 0.5,
+                        "http://dbpedia.org/property/illustrator": 0.03
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Mice'",
+            "colums": [
+                "Character/s",
+                "Author",
+                "Work",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.1,
+                        "http://dbpedia.org/property/illustrator": 0.1,
+                        "http://dbpedia.org/property/author": 0.1,
+                        "http://dbpedia.org/ontology/author": 0.1
+                    },
+                    "subject": "Character/s",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Character/s",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.1,
+                        "http://dbpedia.org/ontology/author": 0.3,
+                        "http://dbpedia.org/property/author": 0.3,
+                        "http://dbpedia.org/property/illustrator": 0.1
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.1,
+                        "http://dbpedia.org/property/author": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Work"
+                }
+            ],
+            "table": "Unnamed table in section 'Rats'",
+            "colums": [
+                "Character/s",
+                "Author",
+                "Work",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "Species",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1
+                    },
+                    "subject": "Species",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.1
+                    },
+                    "subject": "Author",
+                    "object": "Work"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.2
+                    },
+                    "subject": "Author",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.1,
+                        "http://xmlns.com/foaf/0.1/name": 0.1
+                    },
+                    "subject": "Work",
+                    "object": "Character/s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/illustrator": 0.1,
+                        "http://dbpedia.org/ontology/author": 0.6,
+                        "http://dbpedia.org/property/author": 0.6
+                    },
+                    "subject": "Work",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.1,
+                        "http://dbpedia.org/ontology/series": 0.1
+                    },
+                    "subject": "Work",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.1,
+                        "http://dbpedia.org/property/author": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/books": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Work"
+                }
+            ],
+            "table": "Unnamed table in section 'Other'",
+            "colums": [
+                "Character/s",
+                "Species",
+                "Author",
+                "Work",
+                "Notes"
+            ]
+        }
+    ]
+}

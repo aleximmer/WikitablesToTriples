@@ -1,0 +1,223 @@
+{
+    "no. of tables": 6,
+    "page": "List of schools in the Bay of Plenty Region",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Authority"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/widthKm": 0.04,
+                        "http://dbpedia.org/property/latMin": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Bay of Plenty District'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fundingType": 0.02,
+                        "http://dbpedia.org/property/fundingtype": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Authority"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.19
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/mayLowC": 0.02,
+                        "http://dbpedia.org/property/areaCode": 0.02
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Tauranga City'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/address": 0.02,
+                        "http://dbpedia.org/property/decile": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.04,
+                        "http://dbpedia.org/property/areaCode": 0.02
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Rotorua District'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.03,
+                        "http://dbpedia.org/property/city": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/hoursInDay": 0.03,
+                        "http://dbpedia.org/property/decile": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julLowC": 0.06,
+                        "http://dbpedia.org/property/augLowC": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/lonMin": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.09
+                    },
+                    "subject": "Area",
+                    "object": "Decile"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lonDeg": 0.03
+                    },
+                    "subject": "Area",
+                    "object": "Roll"
+                }
+            ],
+            "table": "Unnamed table in section 'Whakatane District'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Kawerau District'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decile": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Decile"
+                }
+            ],
+            "table": "Unnamed table in section 'Opotiki District'",
+            "colums": [
+                "Name",
+                "Years",
+                "Gender",
+                "Area",
+                "Authority",
+                "Decile",
+                "Roll",
+                "Website",
+                "MOE"
+            ]
+        }
+    ]
+}

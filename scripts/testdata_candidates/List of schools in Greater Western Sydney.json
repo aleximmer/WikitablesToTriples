@@ -1,0 +1,380 @@
+{
+    "no. of tables": 9,
+    "page": "List of schools in Greater Western Sydney",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.32,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/property/city": 0.32,
+                        "http://dbpedia.org/ontology/location": 0.06,
+                        "http://dbpedia.org/ontology/district": 0.01,
+                        "http://dbpedia.org/property/campus": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.01,
+                        "http://dbpedia.org/property/established": 0.26
+                    },
+                    "subject": "Name",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.01
+                    },
+                    "subject": "Suburb",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.73
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.01
+                    },
+                    "subject": "Suburb",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.17
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                }
+            ],
+            "table": "Unnamed table in section 'Public schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Opened",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.81
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.24
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                }
+            ],
+            "table": "Unnamed table in section 'Public schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Opened",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Suburb/Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.72
+                    },
+                    "subject": "Suburb/Town",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.03
+                    },
+                    "subject": "Suburb/Town",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.21
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb/Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.05,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/property/city": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Suburb/Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Public schools'",
+            "colums": [
+                "Name",
+                "Suburb/Town",
+                "LGA",
+                "Opened",
+                "Closed",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.69
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.17
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.02,
+                        "http://dbpedia.org/property/popYear": 0.01
+                    },
+                    "subject": "LGA",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Private schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Opened",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.47,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/property/city": 0.42,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.03,
+                        "http://dbpedia.org/property/established": 0.56
+                    },
+                    "subject": "Name",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.72
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.25
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                }
+            ],
+            "table": "Unnamed table in section 'Private schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Opened",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.23,
+                        "http://dbpedia.org/property/campus": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/city": 0.24,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/denomination": 0.04,
+                        "http://dbpedia.org/property/religiousAffiliation": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Category"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.01,
+                        "http://dbpedia.org/property/established": 0.23
+                    },
+                    "subject": "Name",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.77
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/popYear": 0.01
+                    },
+                    "subject": "Suburb",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.18
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/est": 0.03
+                    },
+                    "subject": "LGA",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Private schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Category",
+                "Opened",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.69
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.23
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                }
+            ],
+            "table": "Unnamed table in section 'Private schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Category",
+                "Opened",
+                "Website",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lga": 0.62
+                    },
+                    "subject": "Suburb",
+                    "object": "LGA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.25
+                    },
+                    "subject": "LGA",
+                    "object": "Suburb"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.62,
+                        "http://dbpedia.org/property/city": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Suburb"
+                }
+            ],
+            "table": "Unnamed table in section 'Private schools'",
+            "colums": [
+                "Name",
+                "Suburb",
+                "LGA",
+                "Category",
+                "Opened",
+                "Closed",
+                "Notes"
+            ]
+        }
+    ]
+}

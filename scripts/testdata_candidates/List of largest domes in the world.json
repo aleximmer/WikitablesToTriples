@@ -1,0 +1,580 @@
+{
+    "no. of tables": 16,
+    "page": "List of largest domes",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.06,
+                        "http://dbpedia.org/property/location": 0.22,
+                        "http://dbpedia.org/ontology/owner": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.5,
+                        "http://dbpedia.org/property/owner": 0.06,
+                        "http://dbpedia.org/ontology/operator": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 0.06,
+                        "http://dbpedia.org/ontology/architect": 0.11,
+                        "http://dbpedia.org/property/owner": 0.06,
+                        "http://dbpedia.org/property/architect": 0.11,
+                        "http://dbpedia.org/property/province": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/structuralSystem": 0.06,
+                        "http://dbpedia.org/ontology/architect": 0.11,
+                        "http://dbpedia.org/property/architect": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cathedral": 0.06
+                    },
+                    "subject": "Builder",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.17,
+                        "http://dbpedia.org/ontology/province": 0.06
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06
+                    },
+                    "subject": "Comment",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Worldwide'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.36,
+                        "http://dbpedia.org/ontology/operator": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/province": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/structuralSystem": 0.09,
+                        "http://dbpedia.org/ontology/architect": 0.09,
+                        "http://dbpedia.org/property/architect": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cathedral": 0.09
+                    },
+                    "subject": "Builder",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.27,
+                        "http://dbpedia.org/ontology/province": 0.09
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'By continent'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 0.11,
+                        "http://dbpedia.org/property/owner": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.56
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.11,
+                        "http://dbpedia.org/ontology/architect": 0.11,
+                        "http://dbpedia.org/property/architect": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/ontology/country": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.11,
+                        "http://dbpedia.org/property/capital": 0.11,
+                        "http://dbpedia.org/ontology/city": 0.11
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'By continent'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/client": 1.0,
+                        "http://dbpedia.org/property/owner": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                }
+            ],
+            "table": "Unnamed table in section 'By continent'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 0.11,
+                        "http://dbpedia.org/property/architect": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                }
+            ],
+            "table": "Unnamed table in section 'By continent'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'By continent'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.33
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.5
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.5,
+                        "http://dbpedia.org/property/capital": 0.5
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/significantProject": 0.5,
+                        "http://dbpedia.org/property/significantProjects": 0.5
+                    },
+                    "subject": "Comment",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/owner": 0.33,
+                        "http://dbpedia.org/property/operator": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.33,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/operator": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.17,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/operator": 0.17,
+                        "http://dbpedia.org/ontology/owner": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/engineer": 0.17,
+                        "http://dbpedia.org/ontology/architect": 0.33,
+                        "http://dbpedia.org/property/structuralEngineer": 0.17,
+                        "http://dbpedia.org/property/architect": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.17
+                    },
+                    "subject": "Location",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.17,
+                        "http://dbpedia.org/property/hostCity": 0.17,
+                        "http://dbpedia.org/ontology/countySeat": 0.17,
+                        "http://dbpedia.org/ontology/largestCity": 0.17
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/significantProject": 0.17
+                    },
+                    "subject": "Comment",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'By structure'",
+            "colums": [
+                "Held record",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/consecrationYear": 0.15,
+                        "http://dbpedia.org/property/years": 0.05,
+                        "http://dbpedia.org/property/service": 0.05,
+                        "http://dbpedia.org/property/yearCompleted": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Completed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/origin": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Builder"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architect": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Comment"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/ontology/capital": 0.15,
+                        "http://dbpedia.org/property/capital": 0.1,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/adminCenter": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.05
+                    },
+                    "subject": "Builder",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/significantBuilding": 0.1,
+                        "http://dbpedia.org/property/significantBuildings": 0.1
+                    },
+                    "subject": "Comment",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.1,
+                        "http://dbpedia.org/property/deathPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.05
+                    },
+                    "subject": "Comment",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.1,
+                        "http://dbpedia.org/property/deathPlace": 0.1,
+                        "http://dbpedia.org/property/nationality": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.15,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1,
+                        "http://dbpedia.org/property/birthPlace": 0.15
+                    },
+                    "subject": "Comment",
+                    "object": "Builder"
+                }
+            ],
+            "table": "Unnamed table in section 'Famous large domes'",
+            "colums": [
+                "Completed",
+                "Diameter",
+                "Name",
+                "Location",
+                "Builder",
+                "Comment"
+            ]
+        }
+    ]
+}

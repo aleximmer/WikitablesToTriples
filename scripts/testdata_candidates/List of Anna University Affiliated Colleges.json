@@ -1,0 +1,182 @@
+{
+    "no. of tables": 5,
+    "page": "List of colleges and institutions affiliated with Anna University",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.33,
+                        "http://dbpedia.org/property/city": 0.33
+                    },
+                    "subject": "Regional Office/Campus or College Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.33
+                    },
+                    "subject": "Regional Office/Campus or College Name",
+                    "object": "Estd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/seat": 0.33
+                    },
+                    "subject": "District",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Chennai Region'",
+            "colums": [
+                "No.",
+                "Regional Office/Campus or College Name",
+                "Location",
+                "District",
+                "Estd",
+                "Weblink",
+                "Status"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parts": 0.5,
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.5,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.5,
+                        "http://dbpedia.org/property/seat": 1.0
+                    },
+                    "subject": "District",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Trichy Region'",
+            "colums": [
+                "No.",
+                "Campus or College Name",
+                "Location",
+                "District",
+                "Affiliation",
+                "Estd",
+                "Weblink",
+                "Status"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.33
+                    },
+                    "subject": "Campus or College Name",
+                    "object": "Estd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.67,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "Location",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.33
+                    },
+                    "subject": "District",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parts": 0.33,
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/seat": 0.67
+                    },
+                    "subject": "District",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Tirunelveli Region'",
+            "colums": [
+                "No.",
+                "Campus or College Name",
+                "Location",
+                "District",
+                "Estd",
+                "Weblink",
+                "Status"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.67,
+                        "http://dbpedia.org/property/city": 0.67
+                    },
+                    "subject": "College Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 1.0
+                    },
+                    "subject": "College Name",
+                    "object": "Estd"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank2InfoSec": 1.0,
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/seat": 1.0
+                    },
+                    "subject": "District",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Tamil Nadu Government-Aided Engineering Colleges affiliated to Anna University'",
+            "colums": [
+                "No.",
+                "College Name",
+                "Location",
+                "District",
+                "Estd",
+                "Weblink"
+            ]
+        }
+    ]
+}

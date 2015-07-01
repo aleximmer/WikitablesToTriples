@@ -1,0 +1,55 @@
+{
+    "no. of tables": 1,
+    "page": "List of First World War Victoria Cross recipients",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.65,
+                        "http://dbpedia.org/property/branch": 0.0,
+                        "http://dbpedia.org/property/unit": 0.45,
+                        "http://dbpedia.org/property/commands": 0.01,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.09,
+                        "http://dbpedia.org/property/battles": 0.01,
+                        "http://dbpedia.org/ontology/restingPlace": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.16,
+                        "http://dbpedia.org/property/placeofburial": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.11,
+                        "http://dbpedia.org/ontology/battle": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableCommander": 0.0
+                    },
+                    "subject": "Unit",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.0
+                    },
+                    "subject": "Unit",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section 'Recipients'",
+            "colums": [
+                "Name",
+                "Unit",
+                "Date of action",
+                "Place of action"
+            ]
+        }
+    ]
+}

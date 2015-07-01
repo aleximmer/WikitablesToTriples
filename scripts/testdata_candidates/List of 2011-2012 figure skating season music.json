@@ -1,0 +1,51 @@
+{
+    "no. of tables": 4,
+    "page": "List of 2011\u201312 figure skating season music",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Men'",
+            "colums": [
+                "Skaters",
+                "Short program",
+                "Free skating"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.03,
+                        "http://dbpedia.org/ontology/hometown": 0.03
+                    },
+                    "subject": "Short program",
+                    "object": "Skaters"
+                }
+            ],
+            "table": "Unnamed table in section 'Ladies'",
+            "colums": [
+                "Skaters",
+                "Short program",
+                "Free skating"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Pairs'",
+            "colums": [
+                "Skaters",
+                "Short program",
+                "Free skating"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ice dancing'",
+            "colums": [
+                "Skaters",
+                "Short dance",
+                "Free dance"
+            ]
+        }
+    ]
+}

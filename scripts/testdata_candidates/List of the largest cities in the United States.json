@@ -1,0 +1,236 @@
+{
+    "no. of tables": 6,
+    "page": "List of United States cities by population",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.03,
+                        "http://dbpedia.org/property/octRecordHighF": 0.0,
+                        "http://dbpedia.org/property/aprRecordHighF": 0.0,
+                        "http://dbpedia.org/property/novRecordHighF": 0.0,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.0,
+                        "http://dbpedia.org/property/febSun": 0.0,
+                        "http://dbpedia.org/property/mapsize": 0.0,
+                        "http://dbpedia.org/property/elevationM": 0.0,
+                        "http://dbpedia.org/property/mayRecordHighF": 0.0,
+                        "http://dbpedia.org/property/augSun": 0.0,
+                        "http://dbpedia.org/property/blankInfo": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/mayMeanF": 0.0,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.04,
+                        "http://dbpedia.org/property/sepHighF": 0.0,
+                        "http://dbpedia.org/property/mayHighF": 0.0,
+                        "http://dbpedia.org/property/lats": 0.0,
+                        "http://dbpedia.org/property/sepLowF": 0.0,
+                        "http://dbpedia.org/ontology/elevation": 0.0,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.0,
+                        "http://dbpedia.org/property/latd": 0.0,
+                        "http://dbpedia.org/property/octRainDays": 0.0,
+                        "http://dbpedia.org/property/decRecordHighF": 0.01
+                    },
+                    "subject": "City",
+                    "object": "2014 rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/ontology/state": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.95,
+                        "http://dbpedia.org/property/subdivisionName": 0.61
+                    },
+                    "subject": "City",
+                    "object": "State[5]"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.0,
+                        "http://dbpedia.org/property/perCapitaGdpRank": 0.0,
+                        "http://dbpedia.org/property/width": 0.0,
+                        "http://dbpedia.org/property/flagsize": 0.0,
+                        "http://dbpedia.org/property/widthus": 0.01,
+                        "http://dbpedia.org/property/longitude": 0.0,
+                        "http://dbpedia.org/property/arearank": 0.0
+                    },
+                    "subject": "State[5]",
+                    "object": "2014 rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestmetro": 0.0,
+                        "http://dbpedia.org/ontology/capital": 0.11,
+                        "http://dbpedia.org/property/capital": 0.11,
+                        "http://dbpedia.org/property/lowestpoint": 0.0,
+                        "http://dbpedia.org/property/largestcity(2000census)_": 0.0,
+                        "http://dbpedia.org/property/label": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/largestcity": 0.1
+                    },
+                    "subject": "State[5]",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "2014 rank",
+                "City",
+                "State[5]",
+                "2014 estimate",
+                "2010 Census",
+                "Change",
+                "2014 land area",
+                "2010 population density",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Population",
+                "Number of municipal governments[31]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/minimumElevation": 0.07,
+                        "http://dbpedia.org/property/incomerank": 0.07,
+                        "http://dbpedia.org/property/representative": 0.2,
+                        "http://dbpedia.org/property/electoralvotes": 0.07,
+                        "http://dbpedia.org/property/lowestelev": 0.07,
+                        "http://dbpedia.org/property/admittanceorder": 0.07,
+                        "http://dbpedia.org/property/lowestelevus": 0.07
+                    },
+                    "subject": "State",
+                    "object": "Number of cities"
+                }
+            ],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "State",
+                "Number of cities"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.4,
+                        "http://dbpedia.org/ontology/area": 0.2,
+                        "http://dbpedia.org/property/pos": 0.2
+                    },
+                    "subject": "Municipio",
+                    "object": "2014 rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Puerto Rico'",
+            "colums": [
+                "2014 rank",
+                "Municipio",
+                "2014 estimate",
+                "2010 Census",
+                "Change",
+                "2010 land area",
+                "2010 population density",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.12,
+                        "http://dbpedia.org/ontology/isPartOf": 0.75,
+                        "http://dbpedia.org/property/subdivisionName": 0.62
+                    },
+                    "subject": "City",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'Census-designated places'",
+            "colums": [
+                "City",
+                "State",
+                "2010 Census",
+                "2000 Census",
+                "Change",
+                "2010 land area",
+                "2010 population density",
+                "ANSI",
+                "Location"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.14,
+                        "http://dbpedia.org/ontology/state": 0.18,
+                        "http://dbpedia.org/ontology/isPartOf": 0.82,
+                        "http://dbpedia.org/property/subdivisionName": 0.79
+                    },
+                    "subject": "City",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04
+                    },
+                    "subject": "City",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.07,
+                        "http://dbpedia.org/property/capital": 0.07,
+                        "http://dbpedia.org/property/largestmetroarea": 0.04,
+                        "http://dbpedia.org/property/label": 0.11,
+                        "http://dbpedia.org/ontology/largestCity": 0.04,
+                        "http://dbpedia.org/property/largestcity": 0.04
+                    },
+                    "subject": "State",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.04,
+                        "http://dbpedia.org/ontology/largestCity": 0.04,
+                        "http://dbpedia.org/property/largestcity": 0.04
+                    },
+                    "subject": "State",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "State"
+                }
+            ],
+            "table": "Unnamed table in section 'Cities formerly over 100,000 people'",
+            "colums": [
+                "City",
+                "State",
+                "2014 estimated population",
+                "Peak population (year)",
+                "Numeric decline from\npeak population",
+                "Percent decline from\npeak population",
+                "Notes"
+            ]
+        }
+    ]
+}

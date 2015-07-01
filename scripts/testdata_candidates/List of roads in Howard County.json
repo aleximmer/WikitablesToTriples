@@ -1,0 +1,443 @@
+{
+    "no. of tables": 13,
+    "page": "List of roads in Howard County, Maryland",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Road",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.25
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Route",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Route",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Landmarks",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Landmarks",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Landmarks",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.5,
+                        "http://dbpedia.org/ontology/routeEnd": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/county": 0.33,
+                        "http://dbpedia.org/property/counties": 0.33
+                    },
+                    "subject": "Road",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.33
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Landmarks",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/county": 0.33,
+                        "http://dbpedia.org/property/counties": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Route"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/county": 1.0,
+                        "http://dbpedia.org/property/counties": 1.0
+                    },
+                    "subject": "Road",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 1.0
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.5
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.33,
+                        "http://dbpedia.org/property/nearestCity": 0.33
+                    },
+                    "subject": "Landmarks",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/road": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.33,
+                        "http://dbpedia.org/ontology/routeJunction": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.25,
+                        "http://dbpedia.org/ontology/routeJunction": 0.5
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Landmarks",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/road": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.75,
+                        "http://dbpedia.org/ontology/routeEnd": 0.25
+                    },
+                    "subject": "Notes",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.2,
+                        "http://dbpedia.org/ontology/routeEnd": 0.2
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.4
+                    },
+                    "subject": "Route",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/county": 0.33,
+                        "http://dbpedia.org/property/counties": 0.33
+                    },
+                    "subject": "Road",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.33,
+                        "http://dbpedia.org/ontology/routeEnd": 0.33
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/county": 0.33,
+                        "http://dbpedia.org/property/counties": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Route"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.33,
+                        "http://dbpedia.org/ontology/routeJunction": 0.33
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/road": 0.33
+                    },
+                    "subject": "Route",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.33
+                    },
+                    "subject": "Route",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Places"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.2,
+                        "http://dbpedia.org/property/maint": 0.2
+                    },
+                    "subject": "Road",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.2
+                    },
+                    "subject": "Road",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.2,
+                        "http://dbpedia.org/ontology/routeEnd": 0.2
+                    },
+                    "subject": "Road",
+                    "object": "Landmarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Landmarks",
+                    "object": "Places"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.2,
+                        "http://dbpedia.org/ontology/routeJunction": 0.2
+                    },
+                    "subject": "Notes",
+                    "object": "Landmarks"
+                }
+            ],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Road",
+                "Route",
+                "Places",
+                "Landmarks",
+                "Notes"
+            ]
+        }
+    ]
+}

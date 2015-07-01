@@ -1,0 +1,1219 @@
+{
+    "no. of tables": 32,
+    "page": "National Register of Historic Places listings in Michigan",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'National Register of Historic Places listings in Michigan'",
+            "colums": [
+                "Legend"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/pos": 0.19
+                    },
+                    "subject": "County",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/address": 0.01,
+                        "http://dbpedia.org/property/pos": 0.42,
+                        "http://dbpedia.org/property/refnum": 0.01
+                    },
+                    "subject": "County",
+                    "object": "# of Sites"
+                }
+            ],
+            "table": "Unnamed table in section 'Current listings by county'",
+            "colums": [
+                "",
+                "County",
+                "# of Sites"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Alcona County'",
+            "colums": [
+                "[4]",
+                "Name on the Register",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.17
+                    },
+                    "subject": "Name on the Register",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name on the Register",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.17
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17
+                    },
+                    "subject": "City or town",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Alpena County'",
+            "colums": [
+                "[4]",
+                "Name on the Register",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17,
+                        "http://dbpedia.org/property/longSeconds": 0.17
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/nearestCity": 0.17,
+                        "http://dbpedia.org/property/nearestCity": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Antrim County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latMinutes": 0.5
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.5,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.5
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.5
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Arenac County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/ontology/nearestCity": 0.25,
+                        "http://dbpedia.org/property/nearestCity": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.38
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 0.12
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthRound": 0.12,
+                        "http://dbpedia.org/property/lspan": 0.12,
+                        "http://dbpedia.org/property/cspan": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.12,
+                        "http://dbpedia.org/property/populationDensityKm": 0.12
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "City or town",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 0.12
+                    },
+                    "subject": "City or town",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Baraga County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.29,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.29
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.29,
+                        "http://dbpedia.org/ontology/location": 0.29
+                    },
+                    "subject": "Description",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Barry County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Benzie County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.25
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.12,
+                        "http://dbpedia.org/property/nearestCity": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.62
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.12,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.25
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.12,
+                        "http://dbpedia.org/property/cspan": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12
+                    },
+                    "subject": "City or town",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Cass County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.5
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Clare County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.17,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.17
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/area": 0.17
+                    },
+                    "subject": "Description",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Clinton County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.33
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.33,
+                        "http://dbpedia.org/property/cspan": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Crawford County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longMinutes": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.33,
+                        "http://dbpedia.org/property/nearestCity": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.56
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.11,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.11
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Dickinson County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.11,
+                        "http://dbpedia.org/property/nearestCity": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.78
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architect": 0.11,
+                        "http://dbpedia.org/property/architect": 0.11,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.22,
+                        "http://dbpedia.org/property/architecture": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.11,
+                        "http://dbpedia.org/property/cspan": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Hillsdale County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Iosco County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.2,
+                        "http://dbpedia.org/property/longMinutes": 0.2
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Description",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Isabella County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Lake County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Luce County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/property/shipHomeport": 0.11,
+                        "http://dbpedia.org/ontology/homeport": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.56
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.11,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.11
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.11
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Mason County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.33
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationInch": 0.33
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Mecosta County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/nearestCity": 0.5,
+                        "http://dbpedia.org/property/nearestCity": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Missaukee County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Montcalm County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/plantTurbines": 0.2
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/ontology/nearestCity": 0.2,
+                        "http://dbpedia.org/property/nearestCity": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.2,
+                        "http://dbpedia.org/property/architecture": 0.2,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.2
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Newaygo County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.14
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.29,
+                        "http://dbpedia.org/property/nearestCity": 0.29,
+                        "http://dbpedia.org/ontology/location": 0.57
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.14,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.14
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/exit": 0.14
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceana County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.2
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.2,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.2
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cspan": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowF": 0.2
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Ontonagon County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oscoda County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latMinutes": 0.5
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.5,
+                        "http://dbpedia.org/property/cspan": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.5
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Otsego County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Roscommon County'",
+            "colums": [
+                "[4]",
+                "Name on the Register",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                }
+            ],
+            "table": "Unnamed table in section 'Schoolcraft County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/architecture": 0.43,
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.43
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.14
+                    },
+                    "subject": "Location",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.14
+                    },
+                    "subject": "Location",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.14
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Van Buren County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.25,
+                        "http://dbpedia.org/property/latSeconds": 0.25
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "[4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "City or town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/architecturalStyle": 0.25,
+                        "http://dbpedia.org/ontology/architect": 0.12,
+                        "http://dbpedia.org/property/architecture": 0.12,
+                        "http://dbpedia.org/property/architect": 0.12
+                    },
+                    "subject": "Name on the Register[6]",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationInch": 0.12
+                    },
+                    "subject": "City or town",
+                    "object": "[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Wexford County'",
+            "colums": [
+                "[4]",
+                "Name on the Register[6]",
+                "Image",
+                "Date listed[5]",
+                "Location",
+                "City or town",
+                "Description"
+            ]
+        }
+    ]
+}

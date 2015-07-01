@@ -1,0 +1,94 @@
+{
+    "no. of tables": 6,
+    "page": "List of 2010 Winter Paralympics medal winners",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Wheelchair curling'",
+            "colums": [
+                "Games",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/flagbearer": 0.1
+                    },
+                    "subject": "Nation",
+                    "object": "Athlete"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 0.1,
+                        "http://dbpedia.org/property/silver": 0.07,
+                        "http://dbpedia.org/property/rank": 0.1,
+                        "http://dbpedia.org/property/shots": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17,
+                        "http://dbpedia.org/property/sports": 0.28,
+                        "http://dbpedia.org/property/bronze": 0.07,
+                        "http://dbpedia.org/property/score": 0.03,
+                        "http://dbpedia.org/property/progression": 0.1
+                    },
+                    "subject": "Nation",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 0.03,
+                        "http://dbpedia.org/property/silver": 0.03,
+                        "http://dbpedia.org/property/rank": 0.17,
+                        "http://dbpedia.org/property/shots": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.28,
+                        "http://dbpedia.org/property/sports": 0.1,
+                        "http://dbpedia.org/property/bronze": 0.03,
+                        "http://dbpedia.org/property/score": 0.07,
+                        "http://dbpedia.org/property/progression": 0.1
+                    },
+                    "subject": "Nation",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 0.1,
+                        "http://dbpedia.org/property/rank": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17,
+                        "http://dbpedia.org/property/sports": 0.03,
+                        "http://dbpedia.org/property/bronze": 0.03,
+                        "http://dbpedia.org/property/score": 0.1,
+                        "http://dbpedia.org/property/progression": 0.1
+                    },
+                    "subject": "Nation",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 0.07,
+                        "http://dbpedia.org/property/silver": 0.21,
+                        "http://dbpedia.org/property/rank": 0.17,
+                        "http://dbpedia.org/property/shots": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/sports": 0.31,
+                        "http://dbpedia.org/property/bronze": 0.1,
+                        "http://dbpedia.org/property/progression": 0.1
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Medal leaders'",
+            "colums": [
+                "Athlete",
+                "Nation",
+                "Sport",
+                "Gold",
+                "Silver",
+                "Bronze",
+                "Total"
+            ]
+        }
+    ]
+}

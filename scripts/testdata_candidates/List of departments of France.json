@@ -1,0 +1,271 @@
+{
+    "no. of tables": 6,
+    "page": "Departments of France",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayMeanC": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/blankInfoSec": 0.77,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.01,
+                        "http://dbpedia.org/property/longm": 0.03
+                    },
+                    "subject": "Department",
+                    "object": "INSEE code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.88
+                    },
+                    "subject": "Department",
+                    "object": "Prefecture"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.79,
+                        "http://dbpedia.org/property/subdivisionName": 0.79
+                    },
+                    "subject": "Department",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/seat": 0.01
+                    },
+                    "subject": "Department",
+                    "object": "Named after"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augRainMm": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/marRainMm": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/elevationMaxM": 0.01,
+                        "http://dbpedia.org/ontology/maximumElevation": 0.01
+                    },
+                    "subject": "Prefecture",
+                    "object": "INSEE code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/overseasCollectivity": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.04,
+                        "http://dbpedia.org/ontology/department": 0.88,
+                        "http://dbpedia.org/property/region": 0.04,
+                        "http://dbpedia.org/property/department": 0.33
+                    },
+                    "subject": "Prefecture",
+                    "object": "Department"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/department": 0.04,
+                        "http://dbpedia.org/property/region": 0.34,
+                        "http://dbpedia.org/property/overseasCollectivity": 0.01,
+                        "http://dbpedia.org/property/department": 0.04,
+                        "http://dbpedia.org/ontology/region": 0.62
+                    },
+                    "subject": "Prefecture",
+                    "object": "Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/department": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.02
+                    },
+                    "subject": "Prefecture",
+                    "object": "Named after"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Region",
+                    "object": "INSEE code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dept": 0.8
+                    },
+                    "subject": "Region",
+                    "object": "Department"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.04,
+                        "http://dbpedia.org/property/dept": 0.01,
+                        "http://dbpedia.org/property/countryLargestCity": 0.01,
+                        "http://dbpedia.org/property/p": 0.04
+                    },
+                    "subject": "Region",
+                    "object": "Prefecture"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dept": 0.01
+                    },
+                    "subject": "Region",
+                    "object": "Named after"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/sourceLatD": 0.01
+                    },
+                    "subject": "Named after",
+                    "object": "INSEE code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mouthRegion": 0.01,
+                        "http://dbpedia.org/property/dept": 0.02,
+                        "http://dbpedia.org/property/mouthRegion": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.02,
+                        "http://dbpedia.org/ontology/department": 0.02,
+                        "http://dbpedia.org/property/origin": 0.01,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/origin": 0.01
+                    },
+                    "subject": "Named after",
+                    "object": "Department"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.01,
+                        "http://dbpedia.org/property/capital": 0.01,
+                        "http://dbpedia.org/ontology/largestCity": 0.01,
+                        "http://dbpedia.org/property/countryLargestCity": 0.01,
+                        "http://dbpedia.org/property/largestCity": 0.01
+                    },
+                    "subject": "Named after",
+                    "object": "Prefecture"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/origin": 0.06,
+                        "http://dbpedia.org/property/origin": 0.06,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.01,
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/ontology/region": 0.02
+                    },
+                    "subject": "Named after",
+                    "object": "Region"
+                }
+            ],
+            "table": "Unnamed table in section 'Departments of France'",
+            "colums": [
+                "INSEE code",
+                "Arms 1",
+                "Department",
+                "Prefecture",
+                "Region",
+                "Named after"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.09,
+                        "http://dbpedia.org/property/capital": 0.09,
+                        "http://dbpedia.org/property/largestCity": 0.09,
+                        "http://dbpedia.org/ontology/largestCity": 0.09,
+                        "http://dbpedia.org/property/countryLargestCity": 0.09,
+                        "http://dbpedia.org/ontology/map": 0.09
+                    },
+                    "subject": "Department",
+                    "object": "Prefecture"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dept": 0.09
+                    },
+                    "subject": "Department",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overseasCollectivity": 0.09,
+                        "http://dbpedia.org/ontology/region": 0.18
+                    },
+                    "subject": "Prefecture",
+                    "object": "Department"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/department": 0.27,
+                        "http://dbpedia.org/property/department": 0.18
+                    },
+                    "subject": "Prefecture",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09
+                    },
+                    "subject": "",
+                    "object": "Department"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.09,
+                        "http://dbpedia.org/property/capital": 0.09,
+                        "http://dbpedia.org/property/seat": 0.27
+                    },
+                    "subject": "",
+                    "object": "Prefecture"
+                }
+            ],
+            "table": "Unnamed table in section 'Maps and tables'",
+            "colums": [
+                "Department",
+                "Prefecture",
+                "Dates in existence",
+                ""
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Before 1957",
+            "colums": [
+                "\u2116",
+                "Department",
+                "Prefecture",
+                "Dates of existence"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.24,
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/property/name": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.18
+                    },
+                    "subject": "Prefecture",
+                    "object": "Department"
+                }
+            ],
+            "table": "1957\u20131962",
+            "colums": [
+                "\u2116",
+                "Department",
+                "Prefecture",
+                "Dates of existence"
+            ]
+        }
+    ]
+}

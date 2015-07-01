@@ -1,0 +1,511 @@
+{
+    "no. of tables": 11,
+    "page": "List of content management systems",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.6,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.65,
+                        "http://dbpedia.org/ontology/operatingSystem": 0.05,
+                        "http://dbpedia.org/property/operatingSystem": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.1,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.85,
+                        "http://dbpedia.org/property/license": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.25,
+                        "http://dbpedia.org/property/license": 0.25
+                    },
+                    "subject": "Platform",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.3,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.3
+                    },
+                    "subject": "Supported databases",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.1
+                    },
+                    "subject": "Supported databases",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.5,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 1.0,
+                        "http://dbpedia.org/property/license": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.2,
+                        "http://dbpedia.org/property/operatingSystem": 0.2,
+                        "http://dbpedia.org/property/programmingLanguage": 0.4,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.4,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.4,
+                        "http://dbpedia.org/ontology/operatingSystem": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/operatingSystem": 0.2,
+                        "http://dbpedia.org/property/operatingSystem": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Supported databases"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.8,
+                        "http://dbpedia.org/property/license": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.33,
+                        "http://dbpedia.org/property/programmingLanguage": 0.33,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.33,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.89,
+                        "http://dbpedia.org/property/license": 0.78
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.78
+                    },
+                    "subject": "Platform",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.11,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.11
+                    },
+                    "subject": "Supported databases",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.56
+                    },
+                    "subject": "Supported databases",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.12,
+                        "http://dbpedia.org/property/operatingSystem": 0.02,
+                        "http://dbpedia.org/property/programmingLanguage": 0.62,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.53,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.16,
+                        "http://dbpedia.org/ontology/operatingSystem": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.02,
+                        "http://dbpedia.org/property/database": 0.02,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.02,
+                        "http://dbpedia.org/property/operatingSystem": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Supported databases"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.09,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.83,
+                        "http://dbpedia.org/property/license": 0.72,
+                        "http://dbpedia.org/property/licence": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.55
+                    },
+                    "subject": "Supported databases",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.5,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.5,
+                        "http://dbpedia.org/property/license": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.25
+                    },
+                    "subject": "Supported databases",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.75,
+                        "http://dbpedia.org/property/programmingLanguage": 0.25,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.25,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.25,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 1.0,
+                        "http://dbpedia.org/property/license": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.75,
+                        "http://dbpedia.org/property/license": 0.75
+                    },
+                    "subject": "Platform",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 1.0
+                    },
+                    "subject": "Supported databases",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.25,
+                        "http://dbpedia.org/property/programmingLanguage": 0.25,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.25,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.75,
+                        "http://dbpedia.org/property/license": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Open source software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.05,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Last stable version"
+                }
+            ],
+            "table": "Unnamed table in section 'Software as a service (SaaS)'",
+            "colums": [
+                "Name",
+                "Licensed version available",
+                "Last stable version",
+                "Web Content Management",
+                "Group Content Management",
+                "Enterprise Content Management"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.1,
+                        "http://dbpedia.org/property/programmingLanguage": 0.1,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.07,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.17
+                    },
+                    "subject": "Name",
+                    "object": "Platform"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.02,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Supported databases"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.05,
+                        "http://dbpedia.org/property/license": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.02,
+                        "http://dbpedia.org/property/license": 0.02
+                    },
+                    "subject": "Platform",
+                    "object": "Licenses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.1
+                    },
+                    "subject": "Platform",
+                    "object": "Web Content Management"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.1
+                    },
+                    "subject": "Platform",
+                    "object": "Group Web Content Management"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.05
+                    },
+                    "subject": "Platform",
+                    "object": "Enterprise Content Management"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.02
+                    },
+                    "subject": "Supported databases",
+                    "object": "Latest stable release"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.02
+                    },
+                    "subject": "Supported databases",
+                    "object": "Licenses"
+                }
+            ],
+            "table": "Unnamed table in section 'Proprietary software'",
+            "colums": [
+                "Name",
+                "Platform",
+                "Supported databases",
+                "Latest stable release",
+                "Licenses",
+                "Latest release date",
+                "Web Content Management",
+                "Group Web Content Management",
+                "Enterprise Content Management"
+            ]
+        }
+    ]
+}

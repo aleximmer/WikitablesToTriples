@@ -1,0 +1,480 @@
+{
+    "no. of tables": 27,
+    "page": "List of Intel Core 2 microprocessors",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Desktop processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/price": 0.12
+                    },
+                    "subject": "Socket",
+                    "object": "Release\nprice (USD)"
+                }
+            ],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.25
+                    },
+                    "subject": "Socket",
+                    "object": "Release date"
+                }
+            ],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.25
+                    },
+                    "subject": "Socket",
+                    "object": "Release date"
+                }
+            ],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Notebook (mobile) processors'",
+            "colums": [
+                "Model\nnumber",
+                "sSpec\nnumber",
+                "Frequency",
+                "L2\ncache",
+                "FSB",
+                "Mult.",
+                "Voltage",
+                "TDP",
+                "Socket",
+                "Release date",
+                "Part\nnumber(s)",
+                "Release\nprice (USD)"
+            ]
+        }
+    ]
+}

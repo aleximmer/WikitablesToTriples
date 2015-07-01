@@ -1,0 +1,319 @@
+{
+    "no. of tables": 22,
+    "page": "List of Catalan-language television channels",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owningCompany": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.05,
+                        "http://dbpedia.org/property/country": 0.05,
+                        "http://dbpedia.org/ontology/broadcastArea": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.05,
+                        "http://dbpedia.org/property/broadcastArea": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Coverage"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launch": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Launched"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/broadcastArea": 0.15,
+                        "http://dbpedia.org/property/available": 0.15
+                    },
+                    "subject": "Owner",
+                    "object": "Coverage"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founded": 0.05
+                    },
+                    "subject": "Owner",
+                    "object": "Launched"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.15
+                    },
+                    "subject": "Coverage",
+                    "object": "Launched"
+                }
+            ],
+            "table": "Unnamed table in section 'Regional channels'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Programming",
+                "Coverage",
+                "Launched",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.33,
+                        "http://dbpedia.org/ontology/country": 0.33,
+                        "http://dbpedia.org/ontology/locationCountry": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Coverage"
+                }
+            ],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Local channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Signal",
+                "Coverage",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Other channels'",
+            "colums": [
+                "Name",
+                "Programming",
+                "Coverage",
+                "Signal",
+                "Web"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCountry": 0.08,
+                        "http://dbpedia.org/ontology/broadcastArea": 0.08,
+                        "http://dbpedia.org/ontology/country": 0.08
+                    },
+                    "subject": "Nom",
+                    "object": "Signal"
+                }
+            ],
+            "table": "Unnamed table in section 'Closed channels'",
+            "colums": [
+                "Nom",
+                "Programming",
+                "Coverage",
+                "Signal",
+                "Live",
+                "Web"
+            ]
+        }
+    ]
+}

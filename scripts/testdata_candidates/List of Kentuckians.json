@@ -1,0 +1,380 @@
+{
+    "no. of tables": 10,
+    "page": "List of people from Kentucky",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.11,
+                        "http://dbpedia.org/property/commands": 0.11,
+                        "http://dbpedia.org/ontology/battle": 0.11,
+                        "http://dbpedia.org/property/branch": 0.11,
+                        "http://dbpedia.org/property/office": 0.11,
+                        "http://dbpedia.org/property/title": 0.11,
+                        "http://dbpedia.org/ontology/militaryBranch": 0.22
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.44,
+                        "http://dbpedia.org/ontology/birthPlace": 0.78,
+                        "http://dbpedia.org/property/placeOfBirth": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableCommander": 0.11,
+                        "http://dbpedia.org/ontology/commander": 0.11,
+                        "http://dbpedia.org/property/notableCommanders": 0.11
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Explorers, pioneers, and military personnel'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/occupation": 0.3,
+                        "http://dbpedia.org/ontology/occupation": 0.07,
+                        "http://dbpedia.org/ontology/knownFor": 0.01,
+                        "http://dbpedia.org/property/shortDescription": 0.13,
+                        "http://dbpedia.org/property/prevshow": 0.01,
+                        "http://dbpedia.org/property/knownFor": 0.01,
+                        "http://purl.org/dc/elements/1.1/description": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.3,
+                        "http://dbpedia.org/ontology/birthPlace": 0.67,
+                        "http://dbpedia.org/ontology/hometown": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.25,
+                        "http://dbpedia.org/property/billed": 0.01,
+                        "http://dbpedia.org/property/homeTown": 0.01,
+                        "http://dbpedia.org/ontology/billed": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.03,
+                        "http://dbpedia.org/property/starring": 0.03
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Film, radio, and television personalities'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.02,
+                        "http://dbpedia.org/ontology/occupation": 0.02,
+                        "http://dbpedia.org/property/shortDescription": 0.05,
+                        "http://dbpedia.org/ontology/residence": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/property/title": 0.32,
+                        "http://dbpedia.org/property/office": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/property/deathPlace": 0.05,
+                        "http://dbpedia.org/property/residence": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.66,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07,
+                        "http://dbpedia.org/ontology/residence": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.49,
+                        "http://dbpedia.org/property/birthPlace": 0.39
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.02,
+                        "http://dbpedia.org/property/leader": 0.05
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Government and political leaders'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.4,
+                        "http://dbpedia.org/property/birthPlace": 0.4,
+                        "http://dbpedia.org/property/placeOfBirth": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Connection to Kentucky",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Infamous persons'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.09,
+                        "http://dbpedia.org/property/genre": 0.16,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.09,
+                        "http://dbpedia.org/property/associatedActs": 0.09,
+                        "http://dbpedia.org/ontology/occupation": 0.05,
+                        "http://dbpedia.org/property/occupation": 0.02,
+                        "http://dbpedia.org/ontology/genre": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/hometown": 0.28,
+                        "http://dbpedia.org/property/birthDate": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.53,
+                        "http://dbpedia.org/property/origin": 0.21,
+                        "http://dbpedia.org/property/placeOfBirth": 0.16,
+                        "http://dbpedia.org/property/birthPlace": 0.28
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBandMember": 0.02,
+                        "http://dbpedia.org/ontology/bandMember": 0.07,
+                        "http://dbpedia.org/property/currentMembers": 0.07
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Musicians'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.08,
+                        "http://dbpedia.org/ontology/occupation": 0.17,
+                        "http://dbpedia.org/property/prizes": 0.08,
+                        "http://dbpedia.org/ontology/almaMater": 0.08,
+                        "http://dbpedia.org/property/almaMater": 0.08,
+                        "http://dbpedia.org/property/workInstitution": 0.08,
+                        "http://dbpedia.org/ontology/award": 0.17,
+                        "http://dbpedia.org/ontology/knownFor": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.08,
+                        "http://dbpedia.org/property/residence": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.58,
+                        "http://dbpedia.org/property/birthPlace": 0.58,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/designer": 0.08
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Scientists and inventors'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coachTeams": 0.03,
+                        "http://dbpedia.org/ontology/honours": 0.01,
+                        "http://dbpedia.org/property/shortDescription": 0.01,
+                        "http://dbpedia.org/ontology/coachedTeam": 0.03,
+                        "http://dbpedia.org/property/position": 0.07,
+                        "http://dbpedia.org/property/cteam": 0.01,
+                        "http://purl.org/dc/elements/1.1/description": 0.01,
+                        "http://dbpedia.org/ontology/team": 0.01,
+                        "http://dbpedia.org/property/tour": 0.01,
+                        "http://dbpedia.org/property/coachingTeams": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/ontology/position": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.68,
+                        "http://dbpedia.org/property/placeOfBirth": 0.35,
+                        "http://dbpedia.org/ontology/residence": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.01,
+                        "http://dbpedia.org/property/birthplace": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.71
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/coach": 0.01,
+                        "http://dbpedia.org/property/coach": 0.01
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Sports figures'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.12,
+                        "http://dbpedia.org/ontology/occupation": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.31,
+                        "http://dbpedia.org/ontology/birthPlace": 0.38,
+                        "http://dbpedia.org/property/placeOfBirth": 0.31
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.06
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Visual artists'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/religion": 0.05,
+                        "http://dbpedia.org/property/almaMater": 0.05,
+                        "http://dbpedia.org/property/occupation": 0.05,
+                        "http://dbpedia.org/ontology/occupation": 0.15,
+                        "http://dbpedia.org/property/religion": 0.05,
+                        "http://dbpedia.org/property/organization": 0.05,
+                        "http://dbpedia.org/ontology/almaMater": 0.05,
+                        "http://dbpedia.org/ontology/board": 0.05,
+                        "http://dbpedia.org/property/title": 0.2,
+                        "http://dbpedia.org/property/boards": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Notable for"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.45,
+                        "http://dbpedia.org/ontology/birthPlace": 0.4,
+                        "http://dbpedia.org/property/placeOfBirth": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Connection to Kentucky"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parent": 0.05,
+                        "http://dbpedia.org/property/parents": 0.05,
+                        "http://dbpedia.org/property/gm": 0.05,
+                        "http://dbpedia.org/property/head": 0.05
+                    },
+                    "subject": "Notable for",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Other notable persons'",
+            "colums": [
+                "Name",
+                "Notable for",
+                "Connection to Kentucky"
+            ]
+        }
+    ]
+}

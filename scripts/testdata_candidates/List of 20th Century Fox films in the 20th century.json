@@ -1,0 +1,68 @@
+{
+    "no. of tables": 7,
+    "page": "List of 20th Century Fox films (1935\u20131999)",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1930s'",
+            "colums": [
+                "Release Date",
+                "Film Title",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.01
+                    },
+                    "subject": "Film Title",
+                    "object": "Release Date"
+                }
+            ],
+            "table": "Unnamed table in section '1940s'",
+            "colums": [
+                "Release Date",
+                "Film Title",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Release Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/writer": 0.01,
+                        "http://dbpedia.org/ontology/distributor": 0.02,
+                        "http://dbpedia.org/property/studio": 0.02,
+                        "http://dbpedia.org/property/distributor": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gross": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Gross"
+                }
+            ],
+            "table": "Unnamed table in section '1970s'",
+            "colums": [
+                "Release Date",
+                "Title",
+                "Notes",
+                "Budget",
+                "Gross"
+            ]
+        }
+    ]
+}

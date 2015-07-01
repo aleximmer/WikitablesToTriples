@@ -1,0 +1,193 @@
+{
+    "no. of tables": 3,
+    "page": "List of UEFA Women's Cup and Women's Champions League winning managers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.21,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14
+                    },
+                    "subject": "Winning manager",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.21,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14
+                    },
+                    "subject": "Winning manager",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/managerclubs": 0.5,
+                        "http://dbpedia.org/property/clubs": 0.07,
+                        "http://dbpedia.org/property/currentclub": 0.14,
+                        "http://dbpedia.org/ontology/team": 0.21,
+                        "http://dbpedia.org/ontology/managerClub": 0.36
+                    },
+                    "subject": "Winning manager",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.29,
+                        "http://dbpedia.org/ontology/manager": 0.43,
+                        "http://dbpedia.org/ontology/chairman": 0.07,
+                        "http://dbpedia.org/property/chairman": 0.07
+                    },
+                    "subject": "Club",
+                    "object": "Winning manager"
+                }
+            ],
+            "table": "Unnamed table in section 'By year'",
+            "colums": [
+                "Final",
+                "Nationality",
+                "Winning manager",
+                "Country",
+                "Club",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.75,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.25,
+                        "http://dbpedia.org/property/longd": 0.25
+                    },
+                    "subject": "Nation",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.75,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.25,
+                        "http://dbpedia.org/property/longd": 0.25
+                    },
+                    "subject": "Nation",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.25
+                    },
+                    "subject": "Nation",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.25
+                    },
+                    "subject": "Manager",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/birthPlace": 0.25
+                    },
+                    "subject": "Manager",
+                    "object": "Nation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.25
+                    },
+                    "subject": "Manager",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.25,
+                        "http://dbpedia.org/ontology/height": 0.25
+                    },
+                    "subject": "Manager",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/managerClub": 0.25,
+                        "http://dbpedia.org/property/managerclubs": 0.5,
+                        "http://dbpedia.org/ontology/team": 0.25,
+                        "http://dbpedia.org/property/currentclub": 0.25
+                    },
+                    "subject": "Manager",
+                    "object": "Clubs won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fullname": 0.25,
+                        "http://dbpedia.org/property/no": 0.75,
+                        "http://dbpedia.org/property/clubname": 0.25
+                    },
+                    "subject": "Clubs won",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.5,
+                        "http://dbpedia.org/ontology/manager": 0.75
+                    },
+                    "subject": "Clubs won",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.25,
+                        "http://dbpedia.org/property/no": 0.5
+                    },
+                    "subject": "Clubs won",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rightarm": 0.25,
+                        "http://dbpedia.org/property/socks": 0.5,
+                        "http://dbpedia.org/property/body": 0.25,
+                        "http://dbpedia.org/property/shorts": 0.25,
+                        "http://dbpedia.org/property/position": 0.25,
+                        "http://dbpedia.org/property/leftarm": 0.25
+                    },
+                    "subject": "Clubs won",
+                    "object": "Runner-up"
+                }
+            ],
+            "table": "Unnamed table in section 'Managers with multiple titles'",
+            "colums": [
+                "Rank",
+                "Nation",
+                "Manager",
+                "Won",
+                "Runner-up",
+                "Years won",
+                "Years runner-up",
+                "Clubs won"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.25,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.25,
+                        "http://dbpedia.org/property/longd": 0.25
+                    },
+                    "subject": "Nationality",
+                    "object": "Number of\nwins"
+                }
+            ],
+            "table": "Unnamed table in section 'By nationality'",
+            "colums": [
+                "Nationality",
+                "Number of\nwins"
+            ]
+        }
+    ]
+}

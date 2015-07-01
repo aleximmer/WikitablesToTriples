@@ -1,0 +1,201 @@
+{
+    "no. of tables": 6,
+    "page": "List of German records in swimming",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.15,
+                        "http://dbpedia.org/property/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course (50 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Club",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.05,
+                        "http://dbpedia.org/property/club": 0.29,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/ontology/club": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course (50 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Club",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course (50 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Club",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.17,
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.22
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Short Course (25 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Club",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.04,
+                        "http://dbpedia.org/property/club": 0.13,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/ontology/club": 0.09,
+                        "http://dbpedia.org/property/birthPlace": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.09,
+                        "http://dbpedia.org/ontology/birthPlace": 0.09,
+                        "http://dbpedia.org/property/placeOfBirth": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.04
+                    },
+                    "subject": "Club",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.35
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Short Course (25 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Club",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.5
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Mixed relay'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Club",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        }
+    ]
+}

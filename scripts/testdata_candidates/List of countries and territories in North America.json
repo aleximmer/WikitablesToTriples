@@ -1,0 +1,339 @@
+{
+    "no. of tables": 3,
+    "page": "List of sovereign states and dependent territories in North America",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.3,
+                        "http://dbpedia.org/property/name": 0.26
+                    },
+                    "subject": "Flag",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conventionalLongName": 0.74,
+                        "http://dbpedia.org/property/nativeName": 0.09,
+                        "http://xmlns.com/foaf/0.1/name": 0.35,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.39,
+                        "http://dbpedia.org/ontology/longName": 0.74,
+                        "http://dbpedia.org/property/commonName": 0.35
+                    },
+                    "subject": "English Short Name",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/officialLanguage": 0.35,
+                        "http://dbpedia.org/property/officialLanguages": 0.39,
+                        "http://dbpedia.org/ontology/language": 0.39
+                    },
+                    "subject": "English Short Name",
+                    "object": "Domestic Short Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.17,
+                        "http://dbpedia.org/property/capital": 0.83,
+                        "http://dbpedia.org/ontology/capital": 0.87,
+                        "http://dbpedia.org/property/largestCity": 0.09
+                    },
+                    "subject": "English Short Name",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/currency": 0.91,
+                        "http://dbpedia.org/property/currency": 0.74
+                    },
+                    "subject": "English Short Name",
+                    "object": "Currency"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.87,
+                        "http://dbpedia.org/property/stateParty": 0.13,
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.26
+                    },
+                    "subject": "Capital",
+                    "object": "English Short Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stateParty": 0.04,
+                        "http://dbpedia.org/property/pushpinMap": 0.22
+                    },
+                    "subject": "Capital",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/usingCountry": 0.65
+                    },
+                    "subject": "Currency",
+                    "object": "English Short Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Sovereign states'",
+            "colums": [
+                "Flag",
+                "English Short Name",
+                "English Long Name",
+                "Domestic Short Names",
+                "Capital",
+                "Currency"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.18
+                    },
+                    "subject": "Flag",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conventionalLongName": 0.55,
+                        "http://xmlns.com/foaf/0.1/name": 0.36,
+                        "http://dbpedia.org/property/linkingName": 0.09,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.73,
+                        "http://dbpedia.org/ontology/longName": 0.55,
+                        "http://dbpedia.org/property/commonName": 0.27,
+                        "http://dbpedia.org/property/voy": 0.09,
+                        "http://dbpedia.org/property/name": 0.27
+                    },
+                    "subject": "English Short Name",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/officialLanguage": 0.09,
+                        "http://dbpedia.org/property/officialLanguages": 0.09,
+                        "http://dbpedia.org/property/languages": 0.09,
+                        "http://dbpedia.org/ontology/language": 0.09
+                    },
+                    "subject": "English Short Name",
+                    "object": "Domestic Short Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.09,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/property/capital": 0.64,
+                        "http://dbpedia.org/ontology/capital": 0.64,
+                        "http://dbpedia.org/property/largestCity": 0.09
+                    },
+                    "subject": "English Short Name",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/currency": 0.73,
+                        "http://dbpedia.org/property/currency": 0.64
+                    },
+                    "subject": "English Short Name",
+                    "object": "Currency"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country2ClaimDivisionsTitle": 0.09,
+                        "http://dbpedia.org/property/establishedEvent": 0.09,
+                        "http://dbpedia.org/ontology/governmentType": 0.18,
+                        "http://dbpedia.org/property/governmentType": 0.09,
+                        "http://dbpedia.org/property/country3ClaimDivisionsTitle": 0.09,
+                        "http://dbpedia.org/property/sovereigntyType": 0.09
+                    },
+                    "subject": "English Short Name",
+                    "object": "Legal Status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.73,
+                        "http://dbpedia.org/property/subdivisionName": 0.18
+                    },
+                    "subject": "Capital",
+                    "object": "English Short Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.09,
+                        "http://xmlns.com/foaf/0.1/name": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.18
+                    },
+                    "subject": "Capital",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.45
+                    },
+                    "subject": "Capital",
+                    "object": "Legal Status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestSettlement": 0.18,
+                        "http://dbpedia.org/ontology/largestSettlement": 0.09
+                    },
+                    "subject": "Legal Status",
+                    "object": "Capital"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-sovereign territories'",
+            "colums": [
+                "Flag",
+                "English Short Name",
+                "English Long Name",
+                "Domestic Short Names",
+                "Capital",
+                "Currency",
+                "Legal Status"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/property/name": 0.07
+                    },
+                    "subject": "Flag",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conventionalLongName": 0.36,
+                        "http://xmlns.com/foaf/0.1/name": 0.5,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.86,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/longName": 0.36,
+                        "http://dbpedia.org/property/commonName": 0.29,
+                        "http://dbpedia.org/property/name": 0.36
+                    },
+                    "subject": "English Short Name",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/officialLanguage": 0.29,
+                        "http://dbpedia.org/property/demographics1Info": 0.21,
+                        "http://dbpedia.org/property/officialLanguages": 0.14,
+                        "http://dbpedia.org/ontology/language": 0.29
+                    },
+                    "subject": "English Short Name",
+                    "object": "Domestic Short Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.29,
+                        "http://dbpedia.org/property/capital": 0.43,
+                        "http://dbpedia.org/ontology/map": 0.07,
+                        "http://dbpedia.org/ontology/largestCity": 0.29,
+                        "http://dbpedia.org/ontology/capital": 0.43,
+                        "http://dbpedia.org/property/largestCity": 0.29
+                    },
+                    "subject": "English Short Name",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfoSec": 0.21,
+                        "http://dbpedia.org/ontology/currency": 0.5,
+                        "http://dbpedia.org/property/currency": 0.36
+                    },
+                    "subject": "English Short Name",
+                    "object": "Currency"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.07,
+                        "http://dbpedia.org/property/establishedEvent": 0.07,
+                        "http://dbpedia.org/property/governmentType": 0.07,
+                        "http://dbpedia.org/property/sovereigntyType": 0.21,
+                        "http://dbpedia.org/ontology/governmentType": 0.07
+                    },
+                    "subject": "English Short Name",
+                    "object": "Legal Status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/states": 0.07,
+                        "http://dbpedia.org/ontology/spokenIn": 0.29
+                    },
+                    "subject": "Domestic Short Names",
+                    "object": "English Short Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/department": 0.14,
+                        "http://dbpedia.org/property/overseasCollectivity": 0.07,
+                        "http://dbpedia.org/ontology/isPartOf": 0.64,
+                        "http://dbpedia.org/property/region": 0.14,
+                        "http://dbpedia.org/ontology/region": 0.14,
+                        "http://dbpedia.org/property/department": 0.14,
+                        "http://dbpedia.org/property/subdivisionName": 0.36
+                    },
+                    "subject": "Capital",
+                    "object": "English Short Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.14
+                    },
+                    "subject": "Capital",
+                    "object": "English Long Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationBlank": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "Domestic Short Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.43
+                    },
+                    "subject": "Capital",
+                    "object": "Legal Status"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.21
+                    },
+                    "subject": "Legal Status",
+                    "object": "English Short Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demographics1Info": 0.21
+                    },
+                    "subject": "Legal Status",
+                    "object": "Domestic Short Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfoSec": 0.21
+                    },
+                    "subject": "Legal Status",
+                    "object": "Currency"
+                }
+            ],
+            "table": "Unnamed table in section 'Non-sovereign territories'",
+            "colums": [
+                "Flag",
+                "English Short Name",
+                "English Long Name",
+                "Domestic Short Names",
+                "Capital",
+                "Currency",
+                "Legal Status"
+            ]
+        }
+    ]
+}

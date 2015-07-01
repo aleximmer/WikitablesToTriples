@@ -1,0 +1,748 @@
+{
+    "no. of tables": 12,
+    "page": "List of Canadians by net worth",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/residence": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.12,
+                        "http://dbpedia.org/ontology/birthPlace": 0.2,
+                        "http://dbpedia.org/ontology/hometown": 0.04,
+                        "http://dbpedia.org/ontology/residence": 0.12,
+                        "http://dbpedia.org/property/placeOfBirth": 0.16,
+                        "http://dbpedia.org/property/homeTown": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/residence": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.12,
+                        "http://dbpedia.org/ontology/birthPlace": 0.12,
+                        "http://dbpedia.org/ontology/hometown": 0.04,
+                        "http://dbpedia.org/ontology/residence": 0.16,
+                        "http://dbpedia.org/property/placeOfBirth": 0.12,
+                        "http://dbpedia.org/property/homeTown": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.04,
+                        "http://dbpedia.org/ontology/occupation": 0.12,
+                        "http://dbpedia.org/ontology/knownFor": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Sources of wealth"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.04
+                    },
+                    "subject": "Home Province",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.32,
+                        "http://dbpedia.org/property/largestcity": 0.4
+                    },
+                    "subject": "Home Province",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novHumidity": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Residence",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.76,
+                        "http://dbpedia.org/property/subdivisionName": 0.72
+                    },
+                    "subject": "Residence",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/foundedBy": 0.04,
+                        "http://dbpedia.org/ontology/keyPerson": 0.36,
+                        "http://dbpedia.org/ontology/owningCompany": 0.12,
+                        "http://dbpedia.org/ontology/owner": 0.12,
+                        "http://dbpedia.org/property/owner": 0.12,
+                        "http://dbpedia.org/property/keyPeople": 0.04
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.12,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.24,
+                        "http://dbpedia.org/property/foundation": 0.12,
+                        "http://dbpedia.org/property/locationCity": 0.16,
+                        "http://dbpedia.org/ontology/locationCity": 0.16
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.16,
+                        "http://dbpedia.org/property/location": 0.16,
+                        "http://dbpedia.org/ontology/location": 0.28,
+                        "http://dbpedia.org/property/foundation": 0.12,
+                        "http://dbpedia.org/property/locationCity": 0.16,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.16
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Residence"
+                }
+            ],
+            "table": "Unnamed table in section 'Richest Canadians (2014 statistics)'",
+            "colums": [
+                "No.",
+                "Name",
+                "Net worth (CAD)",
+                "Age",
+                "Home Province",
+                "Residence",
+                "Sources of wealth"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/property/residence": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.19,
+                        "http://dbpedia.org/ontology/birthPlace": 0.28,
+                        "http://dbpedia.org/ontology/hometown": 0.03,
+                        "http://dbpedia.org/ontology/residence": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14,
+                        "http://dbpedia.org/property/homeTown": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/residence": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.14,
+                        "http://dbpedia.org/ontology/birthPlace": 0.14,
+                        "http://dbpedia.org/ontology/hometown": 0.03,
+                        "http://dbpedia.org/ontology/residence": 0.11,
+                        "http://dbpedia.org/property/placeOfBirth": 0.11,
+                        "http://dbpedia.org/property/homeTown": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.03,
+                        "http://dbpedia.org/ontology/occupation": 0.14,
+                        "http://dbpedia.org/ontology/knownFor": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Sources of wealth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.25,
+                        "http://dbpedia.org/property/largestcity": 0.44
+                    },
+                    "subject": "Home Province",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/property/octPercentsun": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03
+                    },
+                    "subject": "Residence",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.78,
+                        "http://dbpedia.org/property/subdivisionName": 0.72
+                    },
+                    "subject": "Residence",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.11,
+                        "http://dbpedia.org/ontology/keyPerson": 0.33,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08,
+                        "http://dbpedia.org/property/founder": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.08,
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/property/keyPeople": 0.06
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.14,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.25,
+                        "http://dbpedia.org/property/foundation": 0.11,
+                        "http://dbpedia.org/property/locationCity": 0.14,
+                        "http://dbpedia.org/ontology/locationCity": 0.19
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/regionServed": 0.03,
+                        "http://dbpedia.org/ontology/locationCity": 0.22,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.28,
+                        "http://dbpedia.org/property/foundation": 0.11,
+                        "http://dbpedia.org/property/locationCity": 0.14,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.14
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Residence"
+                }
+            ],
+            "table": "Unnamed table in section 'Richest Canadians (2013 statistics)'",
+            "colums": [
+                "No.",
+                "Name",
+                "Net worth (CAD)",
+                "Age",
+                "Home Province",
+                "Residence",
+                "Sources of wealth"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/residence": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.16,
+                        "http://dbpedia.org/ontology/birthPlace": 0.21,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.09,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/residence": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.09,
+                        "http://dbpedia.org/ontology/birthPlace": 0.09,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.16,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.05,
+                        "http://dbpedia.org/ontology/occupation": 0.14,
+                        "http://dbpedia.org/ontology/knownFor": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Sources of wealth"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.05,
+                        "http://dbpedia.org/property/houseseats": 0.02
+                    },
+                    "subject": "Home Province",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.3,
+                        "http://dbpedia.org/property/largestcity": 0.42
+                    },
+                    "subject": "Home Province",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/aprPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "Residence",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.77,
+                        "http://dbpedia.org/property/subdivisionName": 0.74
+                    },
+                    "subject": "Residence",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.09,
+                        "http://dbpedia.org/ontology/keyPerson": 0.35,
+                        "http://dbpedia.org/ontology/owningCompany": 0.07,
+                        "http://dbpedia.org/property/founder": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.07,
+                        "http://dbpedia.org/property/owner": 0.07,
+                        "http://dbpedia.org/property/keyPeople": 0.09
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.09,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.23,
+                        "http://dbpedia.org/property/foundation": 0.09,
+                        "http://dbpedia.org/property/locationCity": 0.07,
+                        "http://dbpedia.org/ontology/locationCity": 0.12
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.16,
+                        "http://dbpedia.org/property/location": 0.19,
+                        "http://dbpedia.org/ontology/location": 0.28,
+                        "http://dbpedia.org/property/foundation": 0.09,
+                        "http://dbpedia.org/property/locationCity": 0.09,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.12
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Residence"
+                }
+            ],
+            "table": "Unnamed table in section 'Richest Canadians (2012 statistics)'",
+            "colums": [
+                "No.",
+                "Name",
+                "Net worth (CAD)",
+                "Age",
+                "Home Province",
+                "Residence",
+                "Sources of wealth"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/residence": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.15,
+                        "http://dbpedia.org/ontology/birthPlace": 0.21,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.11,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/property/citizenship": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/residence": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.11,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.13,
+                        "http://dbpedia.org/ontology/citizenship": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.03,
+                        "http://dbpedia.org/ontology/occupation": 0.13,
+                        "http://dbpedia.org/ontology/knownFor": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Sources of wealth"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.06
+                    },
+                    "subject": "Home Province",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.27,
+                        "http://dbpedia.org/property/largestcity": 0.32
+                    },
+                    "subject": "Home Province",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/mayPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Residence",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.71,
+                        "http://dbpedia.org/property/subdivisionName": 0.66
+                    },
+                    "subject": "Residence",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.06,
+                        "http://dbpedia.org/ontology/keyPerson": 0.23,
+                        "http://dbpedia.org/ontology/owningCompany": 0.05,
+                        "http://dbpedia.org/property/founder": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05,
+                        "http://dbpedia.org/property/owner": 0.05,
+                        "http://dbpedia.org/property/keyPeople": 0.03
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.08,
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.16,
+                        "http://dbpedia.org/property/foundation": 0.06,
+                        "http://dbpedia.org/property/locationCity": 0.11,
+                        "http://dbpedia.org/ontology/locationCity": 0.15
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.16,
+                        "http://dbpedia.org/property/location": 0.15,
+                        "http://dbpedia.org/ontology/location": 0.21,
+                        "http://dbpedia.org/property/foundation": 0.06,
+                        "http://dbpedia.org/property/locationCity": 0.11,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.1
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Residence"
+                }
+            ],
+            "table": "Unnamed table in section 'Richest Canadians (2011 statistics)'",
+            "colums": [
+                "No.",
+                "Name",
+                "Net worth (CAD)",
+                "Age",
+                "Home Province",
+                "Residence",
+                "Sources of wealth"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/residence": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.15,
+                        "http://dbpedia.org/ontology/birthPlace": 0.22,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.12,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/citizenship": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02,
+                        "http://dbpedia.org/property/residence": 0.07,
+                        "http://dbpedia.org/property/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.12,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.12,
+                        "http://dbpedia.org/ontology/citizenship": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.03,
+                        "http://dbpedia.org/ontology/occupation": 0.14,
+                        "http://dbpedia.org/ontology/knownFor": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Sources of wealth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.25,
+                        "http://dbpedia.org/property/largestcity": 0.34
+                    },
+                    "subject": "Home Province",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/marPrecipitationMm": 0.02
+                    },
+                    "subject": "Residence",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.69,
+                        "http://dbpedia.org/property/subdivisionName": 0.64
+                    },
+                    "subject": "Residence",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.07,
+                        "http://dbpedia.org/ontology/keyPerson": 0.25,
+                        "http://dbpedia.org/ontology/owningCompany": 0.05,
+                        "http://dbpedia.org/property/founder": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05,
+                        "http://dbpedia.org/property/owner": 0.05,
+                        "http://dbpedia.org/property/keyPeople": 0.05
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.08,
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.17,
+                        "http://dbpedia.org/property/foundation": 0.07,
+                        "http://dbpedia.org/property/locationCity": 0.1,
+                        "http://dbpedia.org/ontology/locationCity": 0.14
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.15,
+                        "http://dbpedia.org/property/location": 0.15,
+                        "http://dbpedia.org/ontology/location": 0.22,
+                        "http://dbpedia.org/property/foundation": 0.07,
+                        "http://dbpedia.org/property/locationCity": 0.1,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.1
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Residence"
+                }
+            ],
+            "table": "Unnamed table in section 'Richest Canadians (2010 statistics)'",
+            "colums": [
+                "No.",
+                "Name",
+                "Net worth (CAD)",
+                "Age",
+                "Home Province",
+                "Residence",
+                "Sources of wealth"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/residence": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.13,
+                        "http://dbpedia.org/ontology/birthPlace": 0.18,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.11,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/property/residence": 0.09,
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/hometown": 0.02,
+                        "http://dbpedia.org/ontology/residence": 0.15,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07,
+                        "http://dbpedia.org/property/homeTown": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/occupation": 0.04,
+                        "http://dbpedia.org/ontology/occupation": 0.11,
+                        "http://dbpedia.org/ontology/knownFor": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Sources of wealth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.25,
+                        "http://dbpedia.org/property/largestcity": 0.31
+                    },
+                    "subject": "Home Province",
+                    "object": "Residence"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Residence",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.67,
+                        "http://dbpedia.org/property/subdivisionName": 0.62
+                    },
+                    "subject": "Residence",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundedBy": 0.05,
+                        "http://dbpedia.org/ontology/keyPerson": 0.24,
+                        "http://dbpedia.org/ontology/owningCompany": 0.05,
+                        "http://dbpedia.org/property/founder": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.05,
+                        "http://dbpedia.org/property/owner": 0.05,
+                        "http://dbpedia.org/property/keyPeople": 0.05
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundationPlace": 0.05,
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.15,
+                        "http://dbpedia.org/property/foundation": 0.05,
+                        "http://dbpedia.org/property/locationCity": 0.13,
+                        "http://dbpedia.org/ontology/locationCity": 0.15
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Home Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.15,
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/property/locationCity": 0.13,
+                        "http://dbpedia.org/property/foundation": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.18,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.07
+                    },
+                    "subject": "Sources of wealth",
+                    "object": "Residence"
+                }
+            ],
+            "table": "Unnamed table in section 'Richest Canadians (2009 statistics)'",
+            "colums": [
+                "No.",
+                "Name",
+                "Net worth (CAD)",
+                "Age",
+                "Home Province",
+                "Residence",
+                "Sources of wealth"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,283 @@
+{
+    "no. of tables": 11,
+    "page": "List of protected areas of Belize",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Reserve",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/iucnCategory": 0.24,
+                        "http://dbpedia.org/ontology/iucnCategory": 0.24
+                    },
+                    "subject": "Reserve",
+                    "object": "IUCN"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.12
+                    },
+                    "subject": "Reserve",
+                    "object": "Est."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Co-management",
+                    "object": "District"
+                }
+            ],
+            "table": "List of national parks",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Co-management",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "List of natural monuments",
+            "colums": [
+                "Image",
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Co-management",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.67,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Reserve",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/iucnCategory": 0.67,
+                        "http://dbpedia.org/ontology/iucnCategory": 0.67
+                    },
+                    "subject": "Reserve",
+                    "object": "IUCN"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.33
+                    },
+                    "subject": "Reserve",
+                    "object": "Est."
+                }
+            ],
+            "table": "List of nature reserves",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Co-management",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "List of wildlife sanctuaries",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Co-management",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Reserve",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.06
+                    },
+                    "subject": "Reserve",
+                    "object": "Est."
+                }
+            ],
+            "table": "List of forest reserves",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/ontology/nearestCity": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/property/nearestCity": 0.12
+                    },
+                    "subject": "Reserve",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/iucnCategory": 0.62,
+                        "http://dbpedia.org/ontology/iucnCategory": 0.62
+                    },
+                    "subject": "Reserve",
+                    "object": "IUCN"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.5
+                    },
+                    "subject": "Reserve",
+                    "object": "Est."
+                }
+            ],
+            "table": "List of marine reserves",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Co-management",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "List of spawning aggregation zones",
+            "colums": [
+                "Aggregation zone",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "List of bird sanctuaries",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.4,
+                        "http://dbpedia.org/property/municipality": 0.07,
+                        "http://dbpedia.org/ontology/region": 0.07
+                    },
+                    "subject": "Reserve",
+                    "object": "District"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Reserve",
+                    "object": "Size\n(ha)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.13
+                    },
+                    "subject": "District",
+                    "object": "Est."
+                }
+            ],
+            "table": "List of archaeological reserves",
+            "colums": [
+                "Image",
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "List of officially recognised private reserves",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Management",
+                "Est.",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "List of unofficial private reserves",
+            "colums": [
+                "Reserve",
+                "District",
+                "Size\n(ha)",
+                "Size\n(acres)",
+                "IUCN",
+                "Management",
+                "Est.",
+                "Description"
+            ]
+        }
+    ]
+}

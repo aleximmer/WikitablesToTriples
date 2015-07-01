@@ -1,0 +1,168 @@
+{
+    "no. of tables": 1,
+    "page": "Comparison of optical character recognition software",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/foundation": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Founded year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latestPreviewVersion": 0.04,
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.15,
+                        "http://dbpedia.org/property/latestReleaseVersion": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Latest stable version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.35,
+                        "http://dbpedia.org/property/license": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "License"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.04,
+                        "http://dbpedia.org/property/developer": 0.04,
+                        "http://dbpedia.org/ontology/author": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.04
+                    },
+                    "subject": "License",
+                    "object": "Founded year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.04
+                    },
+                    "subject": "License",
+                    "object": "Latest stable version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.04
+                    },
+                    "subject": "License",
+                    "object": "Release year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.23,
+                        "http://dbpedia.org/property/debianApproved": 0.12,
+                        "http://dbpedia.org/property/osiApproved": 0.19,
+                        "http://dbpedia.org/property/gplCompatible": 0.08,
+                        "http://dbpedia.org/property/linking": 0.08,
+                        "http://dbpedia.org/property/copyleft": 0.27,
+                        "http://dbpedia.org/property/freeSoftware": 0.12
+                    },
+                    "subject": "License",
+                    "object": "Online"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.15,
+                        "http://dbpedia.org/property/debianApproved": 0.27,
+                        "http://dbpedia.org/property/osiApproved": 0.27,
+                        "http://dbpedia.org/property/gplCompatible": 0.08,
+                        "http://dbpedia.org/property/linking": 0.15,
+                        "http://dbpedia.org/property/copyleft": 0.19,
+                        "http://dbpedia.org/property/freeSoftware": 0.27
+                    },
+                    "subject": "License",
+                    "object": "Windows"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.19,
+                        "http://dbpedia.org/property/debianApproved": 0.19,
+                        "http://dbpedia.org/property/osiApproved": 0.23,
+                        "http://dbpedia.org/property/gplCompatible": 0.08,
+                        "http://dbpedia.org/property/linking": 0.15,
+                        "http://dbpedia.org/property/copyleft": 0.19,
+                        "http://dbpedia.org/property/freeSoftware": 0.19
+                    },
+                    "subject": "License",
+                    "object": "Mac OS X"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.12,
+                        "http://dbpedia.org/property/debianApproved": 0.27,
+                        "http://dbpedia.org/property/osiApproved": 0.31,
+                        "http://dbpedia.org/property/gplCompatible": 0.08,
+                        "http://dbpedia.org/property/linking": 0.15,
+                        "http://dbpedia.org/property/copyleft": 0.19,
+                        "http://dbpedia.org/property/freeSoftware": 0.27
+                    },
+                    "subject": "License",
+                    "object": "Linux"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.19,
+                        "http://dbpedia.org/property/debianApproved": 0.19,
+                        "http://dbpedia.org/property/osiApproved": 0.23,
+                        "http://dbpedia.org/property/gplCompatible": 0.08,
+                        "http://dbpedia.org/property/linking": 0.15,
+                        "http://dbpedia.org/property/copyleft": 0.19,
+                        "http://dbpedia.org/property/freeSoftware": 0.19
+                    },
+                    "subject": "License",
+                    "object": "BSD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.08,
+                        "http://dbpedia.org/property/debianApproved": 0.15,
+                        "http://dbpedia.org/property/osiApproved": 0.15,
+                        "http://dbpedia.org/property/gplCompatible": 0.08,
+                        "http://dbpedia.org/property/linking": 0.12,
+                        "http://dbpedia.org/property/copyleft": 0.04,
+                        "http://dbpedia.org/property/freeSoftware": 0.15
+                    },
+                    "subject": "License",
+                    "object": "SDK?"
+                }
+            ],
+            "table": "Unnamed table in section 'Comparison of optical character recognition software'",
+            "colums": [
+                "Name",
+                "Founded year",
+                "Latest stable version",
+                "Release year",
+                "License",
+                "Online",
+                "Windows",
+                "Mac OS X",
+                "Linux",
+                "BSD",
+                "Programming language",
+                "SDK?",
+                "Languages",
+                "Fonts",
+                "Output Formats",
+                "Notes"
+            ]
+        }
+    ]
+}

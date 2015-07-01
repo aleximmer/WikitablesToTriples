@@ -1,0 +1,95 @@
+{
+    "no. of tables": 3,
+    "page": "List of 1Xtra Chart number-one singles of the 2010s",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Artist[a]",
+                    "object": "Single[a]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.71,
+                        "http://dbpedia.org/property/label": 0.44
+                    },
+                    "subject": "Artist[a]",
+                    "object": "Record label[b]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.1,
+                        "http://dbpedia.org/property/artist": 0.37,
+                        "http://dbpedia.org/ontology/musicalBand": 0.83,
+                        "http://dbpedia.org/ontology/writer": 0.53,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.83,
+                        "http://dbpedia.org/property/label": 0.02,
+                        "http://dbpedia.org/ontology/recordLabel": 0.02,
+                        "http://dbpedia.org/property/chronology": 0.03,
+                        "http://dbpedia.org/property/writer": 0.27
+                    },
+                    "subject": "Single[a]",
+                    "object": "Artist[a]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/artist": 0.02,
+                        "http://dbpedia.org/ontology/musicalBand": 0.02,
+                        "http://dbpedia.org/ontology/writer": 0.02,
+                        "http://dbpedia.org/ontology/recordLabel": 0.68,
+                        "http://dbpedia.org/property/label": 0.54,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.02,
+                        "http://dbpedia.org/property/chronology": 0.02
+                    },
+                    "subject": "Single[a]",
+                    "object": "Record label[b]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.12,
+                        "http://dbpedia.org/property/rows": 0.03
+                    },
+                    "subject": "Single[a]",
+                    "object": "Weeks at\nnumber one[a]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Record label[b]",
+                    "object": "Artist[a]"
+                }
+            ],
+            "table": "Unnamed table in section 'Number-one singles'",
+            "colums": [
+                "Artist[a]",
+                "Single[a]",
+                "Record label[b]",
+                "Reached number one[a]",
+                "Weeks at\nnumber one[a]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Number-one singles'",
+            "colums": [
+                "Artist",
+                "Number-one singles",
+                "Weeks at number one"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Number-one singles'",
+            "colums": [
+                "Record label",
+                "Number-one singles",
+                "Weeks at number one"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,328 @@
+{
+    "no. of tables": 9,
+    "page": "List of Ultras of Tibet, East Asia and neighbouring areas",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Peak",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.14,
+                        "http://dbpedia.org/property/location": 0.1
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/image": 0.05,
+                        "http://dbpedia.org/property/areaRank": 0.05
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'Kunlun Mountains'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.12,
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.12,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.12,
+                        "http://dbpedia.org/property/areaRank": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'Western Tibet and neighboring areas'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latS": 0.07
+                    },
+                    "subject": "Peak",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.27,
+                        "http://dbpedia.org/property/location": 0.27
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.07,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.07,
+                        "http://dbpedia.org/property/image": 0.07,
+                        "http://dbpedia.org/property/areaRank": 0.07
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'South-eastern Tibet and neighboring areas'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.11,
+                        "http://dbpedia.org/property/location": 0.11
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.06,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/image": 0.06,
+                        "http://dbpedia.org/property/areaRank": 0.06,
+                        "http://dbpedia.org/property/longm": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'Yungling Mountains of Yunnan'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06
+                    },
+                    "subject": "Peak",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.18,
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.06,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.06,
+                        "http://dbpedia.org/property/image": 0.06,
+                        "http://dbpedia.org/property/areaRank": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'Daxue Mountains of Sichuan'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.25,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.25,
+                        "http://dbpedia.org/property/image": 0.25,
+                        "http://dbpedia.org/property/areaRank": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'Qin Mountains and north-east China'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longM": 0.04,
+                        "http://dbpedia.org/property/novHighC": 0.04,
+                        "http://dbpedia.org/property/aprMeanC": 0.04
+                    },
+                    "subject": "Peak",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.13,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/property/stateParty": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.04
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.04,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.04,
+                        "http://dbpedia.org/property/image": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'Southeast China'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapRelief": 0.5
+                    },
+                    "subject": "Peak",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 1.0,
+                        "http://dbpedia.org/property/location": 1.0
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.5,
+                        "http://dbpedia.org/property/ethnicGroups": 0.5
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.5,
+                        "http://dbpedia.org/property/lats": 0.5
+                    },
+                    "subject": "Country",
+                    "object": "Col (m)"
+                }
+            ],
+            "table": "Unnamed table in section 'Taiwan'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 1.0,
+                        "http://dbpedia.org/property/location": 0.75
+                    },
+                    "subject": "Peak",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latM": 0.25
+                    },
+                    "subject": "Peak",
+                    "object": "Col (m)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25,
+                        "http://dbpedia.org/property/populationCensusRank": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'South India and Sri Lanka'",
+            "colums": [
+                "No",
+                "Peak",
+                "Country",
+                "Elevation (m)",
+                "Prominence (m)",
+                "Col (m)"
+            ]
+        }
+    ]
+}

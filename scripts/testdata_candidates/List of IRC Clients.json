@@ -1,0 +1,347 @@
+{
+    "no. of tables": 7,
+    "page": "Comparison of Internet Relay Chat clients",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developer": 0.1,
+                        "http://dbpedia.org/ontology/author": 0.02,
+                        "http://dbpedia.org/property/author": 0.1
+                    },
+                    "subject": "Client",
+                    "object": "Primary developers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.02,
+                        "http://dbpedia.org/property/license": 0.04
+                    },
+                    "subject": "Client",
+                    "object": "Distribution model"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.42,
+                        "http://dbpedia.org/property/license": 0.31
+                    },
+                    "subject": "Client",
+                    "object": "Software license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.02,
+                        "http://dbpedia.org/ontology/computingPlatform": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "User interface"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.15,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.12
+                    },
+                    "subject": "Client",
+                    "object": "Programming language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyright": 0.02,
+                        "http://dbpedia.org/property/author": 0.02
+                    },
+                    "subject": "Software license",
+                    "object": "Primary developers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.02,
+                        "http://dbpedia.org/property/developer": 0.02
+                    },
+                    "subject": "Programming language",
+                    "object": "Primary developers"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.04,
+                        "http://dbpedia.org/property/license": 0.02
+                    },
+                    "subject": "Programming language",
+                    "object": "Software license"
+                }
+            ],
+            "table": "Unnamed table in section 'General'",
+            "colums": [
+                "Client",
+                "Primary developers",
+                "Distribution model",
+                "Software license",
+                "User interface",
+                "Programming language"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Windows 7, Vista"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "XP, 2000"
+                }
+            ],
+            "table": "Unnamed table in section 'Operating system support'",
+            "colums": [
+                "Client",
+                "Windows 7, Vista",
+                "XP, 2000",
+                "NT 4.0",
+                "NT 3.x",
+                "Me, 98",
+                "95",
+                "3.1x",
+                "ReactOS",
+                "OS X (Intel/PPC)",
+                "OS 9",
+                "OS 8",
+                "System 7 (PPC/68k)",
+                "BeOS, Haiku",
+                "OS/2, eCS",
+                "AmigaOS (68k)",
+                "AmigaOS 4, MorphOS (PPC)",
+                "DOS"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "FreeBSD, NetBSD, OpenBSD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Solaris"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Linux"
+                }
+            ],
+            "table": "Unnamed table in section 'Operating system support'",
+            "colums": [
+                "Client",
+                "386BSD",
+                "BSD/OS (BSD/386, BSDI)",
+                "FreeBSD, NetBSD, OpenBSD",
+                "SunOS",
+                "ULTRIX",
+                "AIX",
+                "A/UX",
+                "HP-UX",
+                "IRIX",
+                "SCO OpenServer",
+                "Solaris",
+                "UnixWare",
+                "Linux",
+                "NeXTSTEP",
+                "OpenVMS",
+                "OSF/1",
+                "QNX",
+                "Tru64 UNIX"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "CTCP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "DCC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "IPv6"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "SSL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "TLS"
+                }
+            ],
+            "table": "Unnamed table in section 'Protocol support'",
+            "colums": [
+                "Client",
+                "CTCP",
+                "DCC",
+                "IPv6",
+                "SSL",
+                "TLS",
+                "DANE",
+                "OCSP",
+                "CRL",
+                "SASL",
+                "OTR"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Passive DCC"
+                }
+            ],
+            "table": "Unnamed table in section 'Protocol support'",
+            "colums": [
+                "Client",
+                "CHAT",
+                "Whiteboard",
+                "SEND",
+                "RESUME",
+                "TSEND",
+                "SEND T",
+                "XMIT",
+                "Passive DCC",
+                "Server",
+                "RDCC",
+                "REVERSE",
+                "RSEND",
+                "Reverse / Firewall DCC",
+                "File servers (FSERVs)",
+                "XDCC",
+                "VOICE"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Multi-server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "UTF-8"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "irc:// URI scheme"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Automatic updates"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/programmingLanguage": 0.12,
+                        "http://dbpedia.org/ontology/programmingLanguage": 0.12
+                    },
+                    "subject": "Client",
+                    "object": "Scripting language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/implementations": 0.02
+                    },
+                    "subject": "Scripting language",
+                    "object": "Client"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.14
+                    },
+                    "subject": "Scripting language",
+                    "object": "Multi-server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.12
+                    },
+                    "subject": "Scripting language",
+                    "object": "UTF-8"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.09
+                    },
+                    "subject": "Scripting language",
+                    "object": "Proxy server"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.09
+                    },
+                    "subject": "Scripting language",
+                    "object": "irc:// URI scheme"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/turingComplete": 0.07
+                    },
+                    "subject": "Scripting language",
+                    "object": "Automatic updates"
+                }
+            ],
+            "table": "Unnamed table in section 'Features'",
+            "colums": [
+                "Client",
+                "Multi-server",
+                "UTF-8",
+                "Proxy server",
+                "irc:// URI scheme",
+                "Automatic updates",
+                "Scripting language"
+            ]
+        }
+    ]
+}

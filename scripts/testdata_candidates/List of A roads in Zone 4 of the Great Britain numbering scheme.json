@@ -1,0 +1,247 @@
+{
+    "no. of tables": 5,
+    "page": "A roads in Zone 4 of the Great Britain numbering scheme",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.09
+                    },
+                    "subject": "To",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Single- and double-digit roads'",
+            "colums": [
+                "Road",
+                "From",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Road",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.01,
+                        "http://dbpedia.org/property/civilParish": 0.01
+                    },
+                    "subject": "From",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.02
+                    },
+                    "subject": "From",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "To",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/destinations": 0.01,
+                        "http://dbpedia.org/property/northwest": 0.01
+                    },
+                    "subject": "To",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.01,
+                        "http://dbpedia.org/property/southwest": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/northeast": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "To"
+                }
+            ],
+            "table": "Unnamed table in section 'Triple-digit roads'",
+            "colums": [
+                "Road",
+                "From",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.07,
+                        "http://dbpedia.org/property/centre": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.09,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07,
+                        "http://dbpedia.org/property/north": 0.01,
+                        "http://dbpedia.org/property/lieutenancyEngland": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/unitaryEngland": 0.01,
+                        "http://dbpedia.org/ontology/ceremonialCounty": 0.01
+                    },
+                    "subject": "From",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/district": 0.01,
+                        "http://dbpedia.org/property/shireDistrict": 0.01,
+                        "http://dbpedia.org/property/south": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postTown": 0.01,
+                        "http://dbpedia.org/property/unitaryEngland": 0.01
+                    },
+                    "subject": "To",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Four-digit roads (40xx)'",
+            "colums": [
+                "Road",
+                "From",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://dbpedia.org/property/centre": 0.03,
+                        "http://dbpedia.org/property/east": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.06,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/civilParish": 0.01,
+                        "http://dbpedia.org/property/west": 0.01
+                    },
+                    "subject": "From",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.01,
+                        "http://dbpedia.org/property/postTown": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/principalArea": 0.01,
+                        "http://dbpedia.org/ontology/routeEnd": 0.01,
+                        "http://dbpedia.org/property/terminusB": 0.01,
+                        "http://dbpedia.org/property/east": 0.01,
+                        "http://dbpedia.org/ontology/district": 0.01,
+                        "http://dbpedia.org/property/unitaryWales": 0.01,
+                        "http://dbpedia.org/property/shireDistrict": 0.01,
+                        "http://dbpedia.org/property/west": 0.01
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.01,
+                        "http://dbpedia.org/property/terminusB": 0.01
+                    },
+                    "subject": "To",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.01,
+                        "http://dbpedia.org/property/terminusA": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/destinations": 0.01,
+                        "http://dbpedia.org/ontology/routeEnd": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "To"
+                }
+            ],
+            "table": "Unnamed table in section 'Four-digit roads (41xx)'",
+            "colums": [
+                "Road",
+                "From",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.02,
+                        "http://dbpedia.org/property/east": 0.02,
+                        "http://dbpedia.org/property/officialName": 0.16,
+                        "http://dbpedia.org/property/centre": 0.05,
+                        "http://dbpedia.org/property/terminusB": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.17,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.19,
+                        "http://dbpedia.org/property/communityWales": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/name": 0.02,
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "From",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postTown": 0.02,
+                        "http://dbpedia.org/ontology/principalArea": 0.02,
+                        "http://dbpedia.org/property/southwest": 0.02,
+                        "http://dbpedia.org/property/destinations": 0.02,
+                        "http://dbpedia.org/property/north": 0.02,
+                        "http://dbpedia.org/property/unitaryWales": 0.02,
+                        "http://dbpedia.org/property/unitaryEngland": 0.02
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/destinations": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "To"
+                }
+            ],
+            "table": "Unnamed table in section 'Four-digit roads (42xx and higher)'",
+            "colums": [
+                "Road",
+                "From",
+                "To",
+                "Notes"
+            ]
+        }
+    ]
+}

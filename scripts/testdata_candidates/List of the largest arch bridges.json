@@ -1,0 +1,301 @@
+{
+    "no. of tables": 3,
+    "page": "List of longest arch bridge spans",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/upstreamSigns": 0.01,
+                        "http://dbpedia.org/property/width": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/length": 0.01,
+                        "http://dbpedia.org/property/mainspan": 0.01,
+                        "http://dbpedia.org/ontology/mainspan": 0.24
+                    },
+                    "subject": "Name",
+                    "object": "Span\nmetres"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/material": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Material"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/start": 0.04,
+                        "http://dbpedia.org/property/open": 0.11,
+                        "http://dbpedia.org/property/complete": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/crosses": 0.01,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.29,
+                        "http://dbpedia.org/property/place": 0.01,
+                        "http://dbpedia.org/property/locale": 0.14,
+                        "http://dbpedia.org/property/crosses": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.17,
+                        "http://dbpedia.org/property/locale": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janHumidity": 0.01,
+                        "http://dbpedia.org/property/junHumidity": 0.01,
+                        "http://dbpedia.org/property/novRecordHighC": 0.01,
+                        "http://dbpedia.org/property/julPercentsun": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/octHumidity": 0.01,
+                        "http://dbpedia.org/property/novPercentsun": 0.01,
+                        "http://dbpedia.org/property/areaTotalSqMi": 0.01,
+                        "http://dbpedia.org/property/decHighC": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/marLowF": 0.01,
+                        "http://dbpedia.org/property/julLowF": 0.01,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/decHumidity": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/y": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Span\nmetres"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.03,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "Location",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.34,
+                        "http://dbpedia.org/ontology/country": 0.59
+                    },
+                    "subject": "Location",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.01,
+                        "http://dbpedia.org/property/image": 0.01,
+                        "http://dbpedia.org/property/augHighC": 0.01,
+                        "http://dbpedia.org/property/width": 0.01,
+                        "http://dbpedia.org/property/gdpPppRank": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/map2Width": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Span\nmetres"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.04,
+                        "http://dbpedia.org/property/hdiYear": 0.02,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.03,
+                        "http://dbpedia.org/property/giniYear": 0.03,
+                        "http://dbpedia.org/property/populationCensusYear": 0.04,
+                        "http://dbpedia.org/property/populationDensityKm": 0.04,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.01,
+                        "http://dbpedia.org/property/gdpPppYear": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "Year opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.05
+                    },
+                    "subject": "Country",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Completed bridges'",
+            "colums": [
+                "\u00a0\u00a0\u00a0",
+                "Rank",
+                "Name",
+                "Span\nmetres",
+                "Span\nfeet",
+                "Material",
+                "Year opened",
+                "Location",
+                "Country",
+                ""
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mainspan": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Span\nmetres"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.07,
+                        "http://dbpedia.org/property/locale": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.07,
+                        "http://dbpedia.org/property/locale": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRainDays": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/id": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Span\nmetres"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.47,
+                        "http://dbpedia.org/property/stateParty": 0.13,
+                        "http://dbpedia.org/ontology/country": 0.8
+                    },
+                    "subject": "Location",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.07,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.07,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.07,
+                        "http://dbpedia.org/property/areaRank": 0.07,
+                        "http://dbpedia.org/property/percentWater": 0.07
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.07,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.2,
+                        "http://dbpedia.org/property/gdpPppYear": 0.2
+                    },
+                    "subject": "Country",
+                    "object": "Year opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Under construction'",
+            "colums": [
+                "\u00a0\u00a0\u00a0",
+                "Rank",
+                "Name",
+                "Span\nmetres",
+                "Span\nfeet",
+                "Material",
+                "Year opened",
+                "Location",
+                "Country",
+                ""
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.33,
+                        "http://dbpedia.org/property/locale": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/crosses": 0.43,
+                        "http://dbpedia.org/property/crossed": 0.03,
+                        "http://dbpedia.org/property/place": 0.13,
+                        "http://dbpedia.org/property/crosses": 0.3
+                    },
+                    "subject": "Name",
+                    "object": "Crosses"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sourceCountry": 0.3,
+                        "http://dbpedia.org/property/basinCountries": 0.27,
+                        "http://dbpedia.org/ontology/origin": 0.03,
+                        "http://dbpedia.org/property/mouthCountry": 0.1,
+                        "http://dbpedia.org/property/country": 0.07,
+                        "http://dbpedia.org/ontology/mouthCountry": 0.13,
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Crosses",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'History of largest spans'",
+            "colums": [
+                "Record",
+                "\u00a0\u00a0\u00a0",
+                "Name",
+                "Location",
+                "Main span\n(metres / feet)",
+                "Crosses",
+                "Notes"
+            ]
+        }
+    ]
+}

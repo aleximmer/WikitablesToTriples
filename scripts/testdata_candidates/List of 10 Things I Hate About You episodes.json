@@ -1,0 +1,41 @@
+{
+    "no. of tables": 3,
+    "page": "10 Things I Hate About You (TV series)",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'DVD releases'",
+            "colums": [
+                "DVD Title",
+                "Region 1",
+                "Discs",
+                "Episodes",
+                "Extras",
+                "Studio"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationCountry": 0.09,
+                        "http://dbpedia.org/property/headquarters": 0.09,
+                        "http://dbpedia.org/ontology/locationCountry": 0.55,
+                        "http://dbpedia.org/property/country": 0.36,
+                        "http://dbpedia.org/ontology/headquarter": 0.09,
+                        "http://dbpedia.org/ontology/country": 0.45
+                    },
+                    "subject": "Network(s)",
+                    "object": "Country / Region"
+                }
+            ],
+            "table": "Unnamed table in section 'International release'",
+            "colums": [
+                "Country / Region",
+                "Network(s)",
+                "Series premiere",
+                "Series Title in Country"
+            ]
+        }
+    ]
+}

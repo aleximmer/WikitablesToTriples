@@ -1,0 +1,148 @@
+{
+    "no. of tables": 2,
+    "page": "Xiamen Airlines destinations",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.68,
+                        "http://dbpedia.org/property/subdivisionName": 0.7,
+                        "http://dbpedia.org/ontology/wikiPageDisambiguates": 0.02
+                    },
+                    "subject": "City",
+                    "object": "Province & SAR"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/timeZone": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.53,
+                        "http://dbpedia.org/property/stateParty": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.73
+                    },
+                    "subject": "City",
+                    "object": "Country/Territory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/header": 0.02,
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "City",
+                    "object": "Airport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.32,
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/seat": 0.08,
+                        "http://dbpedia.org/ontology/largestCity": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/countryLargestCity": 0.02,
+                        "http://dbpedia.org/property/largestcity": 0.29
+                    },
+                    "subject": "Province & SAR",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.08,
+                        "http://dbpedia.org/ontology/country": 0.18
+                    },
+                    "subject": "Province & SAR",
+                    "object": "Country/Territory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.15,
+                        "http://dbpedia.org/property/capital": 0.12,
+                        "http://dbpedia.org/property/largestMetropolitanArea": 0.02,
+                        "http://dbpedia.org/ontology/largestCity": 0.02,
+                        "http://dbpedia.org/property/largestCity": 0.02
+                    },
+                    "subject": "Country/Territory",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.05,
+                        "http://dbpedia.org/property/capital": 0.03,
+                        "http://dbpedia.org/ontology/largestCity": 0.02,
+                        "http://dbpedia.org/property/largestCity": 0.02
+                    },
+                    "subject": "Country/Territory",
+                    "object": "Province & SAR"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/countryCode": 0.02
+                    },
+                    "subject": "Country/Territory",
+                    "object": "IATA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.73,
+                        "http://dbpedia.org/ontology/location": 0.26,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/property/cityServed": 0.55
+                    },
+                    "subject": "Airport",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.38,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.15,
+                        "http://dbpedia.org/property/operator": 0.02,
+                        "http://dbpedia.org/property/cityServed": 0.29,
+                        "http://dbpedia.org/ontology/operator": 0.02
+                    },
+                    "subject": "Airport",
+                    "object": "Province & SAR"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.3,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.21,
+                        "http://dbpedia.org/property/cityServed": 0.21
+                    },
+                    "subject": "Airport",
+                    "object": "Country/Territory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/iataLocationIdentifier": 0.95,
+                        "http://dbpedia.org/property/iata": 0.95,
+                        "http://dbpedia.org/property/pushpinLabel": 0.58
+                    },
+                    "subject": "Airport",
+                    "object": "IATA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/icaoLocationIdentifier": 0.95,
+                        "http://dbpedia.org/property/icao": 0.7,
+                        "http://dbpedia.org/property/pushpinLabel": 0.05
+                    },
+                    "subject": "Airport",
+                    "object": "ICAO"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "City",
+                "Province & SAR",
+                "Country/Territory",
+                "IATA",
+                "ICAO",
+                "Airport",
+                "Notes"
+            ]
+        }
+    ]
+}

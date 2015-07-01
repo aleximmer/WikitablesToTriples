@@ -1,0 +1,224 @@
+{
+    "no. of tables": 7,
+    "page": "List of shortest people",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.12,
+                        "http://dbpedia.org/ontology/nationality": 0.12,
+                        "http://dbpedia.org/ontology/deathPlace": 0.12,
+                        "http://dbpedia.org/property/deathPlace": 0.12,
+                        "http://dbpedia.org/ontology/birthPlace": 0.75,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.12,
+                        "http://dbpedia.org/ontology/residence": 0.12,
+                        "http://dbpedia.org/property/placeOfBirth": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.38,
+                        "http://dbpedia.org/ontology/country": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Men'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Notes",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.17,
+                        "http://dbpedia.org/ontology/country": 0.17,
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Women'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Note",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/placeOfBirth": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Other categories'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Category",
+                "Notes",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.43,
+                        "http://dbpedia.org/ontology/birthPlace": 0.57,
+                        "http://dbpedia.org/property/placeOfBirth": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.14
+                    },
+                    "subject": "Note",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.29,
+                        "http://dbpedia.org/property/starring": 0.29
+                    },
+                    "subject": "Note",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Shortest by occupation'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Note",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Shortest by occupation'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Note",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.06,
+                        "http://dbpedia.org/ontology/deathPlace": 0.12,
+                        "http://dbpedia.org/ontology/birthPlace": 0.24,
+                        "http://dbpedia.org/property/placeOfBirth": 0.18,
+                        "http://dbpedia.org/property/deathPlace": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.24,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/league": 0.12,
+                        "http://dbpedia.org/property/league": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/countries": 0.06
+                    },
+                    "subject": "Note",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/property/sport": 0.41
+                    },
+                    "subject": "Note",
+                    "object": "Sport"
+                }
+            ],
+            "table": "Unnamed table in section 'Shortest by occupation'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Sport",
+                "Note",
+                "Lifespan"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.2,
+                        "http://dbpedia.org/ontology/leader": 0.2
+                    },
+                    "subject": "Nationality",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/restingPlace": 0.2,
+                        "http://dbpedia.org/property/deathPlace": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.2,
+                        "http://dbpedia.org/ontology/deathPlace": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/restingPlace": 0.2,
+                        "http://dbpedia.org/property/deathPlace": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.2,
+                        "http://dbpedia.org/ontology/deathPlace": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderName": 0.2,
+                        "http://dbpedia.org/ontology/leader": 0.2
+                    },
+                    "subject": "Note",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Shortest by occupation'",
+            "colums": [
+                "Nationality",
+                "Height",
+                "Name",
+                "Note",
+                "Lifespan"
+            ]
+        }
+    ]
+}

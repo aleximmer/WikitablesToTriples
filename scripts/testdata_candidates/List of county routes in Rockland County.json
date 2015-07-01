@@ -1,0 +1,202 @@
+{
+    "no. of tables": 5,
+    "page": "List of county routes in Rockland County, New York",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.77,
+                        "http://dbpedia.org/property/mile": 0.77
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mile": 0.05
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.05
+                    },
+                    "subject": "Route",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.23
+                    },
+                    "subject": "Route",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/property/road": 0.09
+                    },
+                    "subject": "Route",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.05
+                    },
+                    "subject": "From",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/counties": 0.05,
+                        "http://dbpedia.org/ontology/county": 0.05
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.09
+                    },
+                    "subject": "To",
+                    "object": "Via"
+                }
+            ],
+            "table": "Unnamed table in section 'Routes 41\u201375'",
+            "colums": [
+                "Route",
+                "Length\n(mi)[3]",
+                "Length\n(km)",
+                "From",
+                "Via",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.04,
+                        "http://dbpedia.org/property/mile": 0.04
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.16,
+                        "http://dbpedia.org/ontology/routeStart": 0.08
+                    },
+                    "subject": "Route",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.52
+                    },
+                    "subject": "Route",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12
+                    },
+                    "subject": "Route",
+                    "object": "To"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.08
+                    },
+                    "subject": "From",
+                    "object": "Via"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.04,
+                        "http://dbpedia.org/ontology/routeJunction": 0.04
+                    },
+                    "subject": "To",
+                    "object": "From"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeJunction": 0.04
+                    },
+                    "subject": "To",
+                    "object": "Via"
+                }
+            ],
+            "table": "Unnamed table in section 'Routes 76\u2013118A'",
+            "colums": [
+                "Route",
+                "Length\n(mi)[3]",
+                "Length\n(km)",
+                "From",
+                "Via",
+                "To",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.3,
+                        "http://dbpedia.org/property/lengthMi": 0.1,
+                        "http://dbpedia.org/property/mile": 0.2
+                    },
+                    "subject": "Route",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.2,
+                        "http://dbpedia.org/property/mile": 0.1
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[3]"
+                }
+            ],
+            "table": "Unnamed table in section '\n\t\t\t\tList of county routes in Rockland County, New York\t\t\t'",
+            "colums": [
+                "Rank",
+                "Route",
+                "Length\n(mi)[3]",
+                "Length\n(km)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lspan": 0.2,
+                        "http://dbpedia.org/property/lengthMi": 0.1,
+                        "http://dbpedia.org/property/mile": 0.2,
+                        "http://dbpedia.org/property/route": 0.1
+                    },
+                    "subject": "Route",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lengthMi": 0.3,
+                        "http://dbpedia.org/property/mile": 0.3
+                    },
+                    "subject": "Route",
+                    "object": "Length\n(mi)[3]"
+                }
+            ],
+            "table": "Unnamed table in section '\n\t\t\t\tList of county routes in Rockland County, New York\t\t\t'",
+            "colums": [
+                "Rank",
+                "Route",
+                "Length\n(mi)[3]",
+                "Length\n(km)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1042 @@
+{
+    "no. of tables": 31,
+    "page": "List of Mexican municipalities",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.82,
+                        "http://dbpedia.org/property/subdivisionName": 0.82,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.73,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.36
+                    },
+                    "subject": "Municipality",
+                    "object": "Area (km\u00b2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.82,
+                        "http://dbpedia.org/property/subdivisionName": 0.82,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.18,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.09
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Area (km\u00b2)"
+                }
+            ],
+            "table": "Unnamed table in section 'Aguascalientes'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal seat",
+                "Population (2010)",
+                "Area (km\u00b2)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.2,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.4
+                    },
+                    "subject": "Municipality",
+                    "object": "Area (Km2)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Baja California'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal seat",
+                "Population (2010)",
+                "Area (Km2)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.8,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.8,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Baja California Sur'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal seat",
+                "Population (2010)",
+                "Area (Km2)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.91,
+                        "http://dbpedia.org/property/subdivisionName": 0.91
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.73,
+                        "http://dbpedia.org/property/subdivisionName": 0.73,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Campeche'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat",
+                "Population (2010)",
+                "Area (Km2)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augHumidity": 0.01,
+                        "http://dbpedia.org/property/febHumidity": 0.01,
+                        "http://dbpedia.org/property/junHumidity": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/yearHumidity": 0.01
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "INEGI code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/establishedTitle": 0.01,
+                        "http://dbpedia.org/property/otherName": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.82,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.78,
+                        "http://dbpedia.org/property/officialName": 0.01,
+                        "http://dbpedia.org/ontology/synonym": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/name": 0.82
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Chiapas'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.87,
+                        "http://dbpedia.org/property/subdivisionName": 0.87,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/seat": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat (cabecera municipal)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.88,
+                        "http://dbpedia.org/property/subdivisionName": 0.88,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Municipal Seat (cabecera municipal)",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Chihuahua'",
+            "colums": [
+                "Code",
+                "Municipality",
+                "Municipal Seat (cabecera municipal)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.95,
+                        "http://dbpedia.org/property/subdivisionName": 0.95
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.89,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Coahuila'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.9,
+                        "http://dbpedia.org/property/subdivisionName": 0.9
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.8,
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://xmlns.com/foaf/0.1/name": 0.1,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.1,
+                        "http://dbpedia.org/property/subdivisionName": 0.9,
+                        "http://dbpedia.org/property/officialName": 0.1
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Colima'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.9,
+                        "http://dbpedia.org/property/subdivisionName": 0.9,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.85,
+                        "http://dbpedia.org/property/subdivisionName": 0.85,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Durango'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.04
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Guanajuato'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat",
+                "Population.[1]",
+                "HDI[2]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.05,
+                        "http://dbpedia.org/property/subdivisionName": 0.05
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Guerrero'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "INEGI code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/property/imageMap": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "INEGI code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.06,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/property/name": 0.06
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Hidalgo'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Jalisco'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.19
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.15,
+                        "http://dbpedia.org/property/subdivisionName": 0.01
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'State of Mexico'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "\u00a0\u00a0Municipality\u00a0\u00a0",
+                    "object": "INEGI code"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.22,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/seat": 0.02
+                    },
+                    "subject": "\u00a0\u00a0Municipality\u00a0\u00a0",
+                    "object": "\u00a0\u00a0Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "\u00a0\u00a0Municipal Seat",
+                    "object": "INEGI code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.04,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.19,
+                        "http://dbpedia.org/property/name": 0.04
+                    },
+                    "subject": "\u00a0\u00a0Municipal Seat",
+                    "object": "\u00a0\u00a0Municipality\u00a0\u00a0"
+                }
+            ],
+            "table": "Unnamed table in section 'Michoac\u00e1n'",
+            "colums": [
+                "INEGI code",
+                "\u00a0\u00a0Municipality\u00a0\u00a0",
+                "\u00a0\u00a0Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Morelos'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Nayarit'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Municipality",
+                    "object": "Administrative seat"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12
+                    },
+                    "subject": "Administrative seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Nuevo Le\u00f3n'",
+            "colums": [
+                "INEGI-code",
+                "Municipality",
+                "Administrative seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.01
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapsize": 0.0
+                    },
+                    "subject": "District",
+                    "object": "Nr"
+                }
+            ],
+            "table": "Unnamed table in section 'Oaxaca'",
+            "colums": [
+                "Nr",
+                "Municipality",
+                "Municipal Seat",
+                "District"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Puebla'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.28
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.06,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.06
+                    },
+                    "subject": "Municipality",
+                    "object": "Area (km2)[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdi": 0.06
+                    },
+                    "subject": "Municipality",
+                    "object": "Human\nDevelopment\nIndex (2000)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/ontology/isPartOf": 0.06
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalKm": 0.22,
+                        "http://dbpedia.org/ontology/PopulatedPlace/areaTotal": 0.22
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Area (km2)[3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdi": 0.06,
+                        "http://dbpedia.org/property/blank1Info": 0.06,
+                        "http://dbpedia.org/property/blankInfo": 0.06
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Human\nDevelopment\nIndex (2000)"
+                }
+            ],
+            "table": "Unnamed table in section 'Quer\u00e9taro'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat",
+                "Area (km2)[3]",
+                "Population (2005)[4]",
+                "Population\ndensity (/km2)[5]",
+                "Human\nDevelopment\nIndex (2000)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.3,
+                        "http://dbpedia.org/property/subdivisionName": 0.2
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.1
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Quintana Roo'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal seat",
+                "Population\n(2010)[6][7]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.02
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'San Luis Potos\u00ed'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.78,
+                        "http://dbpedia.org/property/subdivisionName": 0.78,
+                        "http://dbpedia.org/property/seat": 0.06
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06
+                    },
+                    "subject": "Municipality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.72
+                    },
+                    "subject": "Municipality",
+                    "object": "Foundation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.61,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.06
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Sinaloa'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal seat",
+                "Population",
+                "Rank",
+                "Foundation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationTotal": 0.01,
+                        "http://dbpedia.org/ontology/populationTotal": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Population (2005)[8]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.1,
+                        "http://dbpedia.org/property/officialName": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.07,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/name": 0.01
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationTotal": 0.03,
+                        "http://dbpedia.org/ontology/populationTotal": 0.03
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Population (2005)[8]"
+                }
+            ],
+            "table": "Unnamed table in section 'Sonora'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat",
+                "Population (2005)[8]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/name": 0.06
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Tabasco'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.3
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governmentType": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.26,
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/property/governmentType": 0.02
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Tamaulipas'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Tlaxcala'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.1,
+                        "http://dbpedia.org/property/subdivisionName": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.19,
+                        "http://dbpedia.org/property/seat": 0.0
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.11,
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Veracruz'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfoSec": 0.02
+                    },
+                    "subject": "Municipality",
+                    "object": "INEGI\ncode"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blankInfoSec": 0.02
+                    },
+                    "subject": "Municipal seat",
+                    "object": "INEGI\ncode"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.17,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.02,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/officialName": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.03
+                    },
+                    "subject": "Municipal seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Yucat\u00e1n'",
+            "colums": [
+                "Region",
+                "INEGI\ncode",
+                "Municipality",
+                "Municipal seat",
+                "Population\n(2005)[9]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09
+                    },
+                    "subject": "Municipality",
+                    "object": "Municipal Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.16,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25,
+                        "http://dbpedia.org/property/officialName": 0.11,
+                        "http://dbpedia.org/property/commonName": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/name": 0.05
+                    },
+                    "subject": "Municipal Seat",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Zacatecas'",
+            "colums": [
+                "INEGI code",
+                "Municipality",
+                "Municipal Seat"
+            ]
+        }
+    ]
+}

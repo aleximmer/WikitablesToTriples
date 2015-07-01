@@ -1,0 +1,187 @@
+{
+    "no. of tables": 3,
+    "page": "List of NFL quarterbacks who have posted a perfect passer rating",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/number": 0.03,
+                        "http://dbpedia.org/property/number": 0.05,
+                        "http://dbpedia.org/property/statweek": 0.02
+                    },
+                    "subject": "Quarterback",
+                    "object": "CMP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/ontology/draftPick": 0.02,
+                        "http://dbpedia.org/property/width": 0.02,
+                        "http://dbpedia.org/ontology/number": 0.03,
+                        "http://dbpedia.org/property/number": 0.03,
+                        "http://dbpedia.org/property/draftpick": 0.02
+                    },
+                    "subject": "Quarterback",
+                    "object": "ATT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/afldraftround": 0.02,
+                        "http://dbpedia.org/property/heightIn": 0.02,
+                        "http://dbpedia.org/property/inches": 0.02,
+                        "http://dbpedia.org/property/number": 0.02,
+                        "http://dbpedia.org/property/heightin": 0.16,
+                        "http://dbpedia.org/property/scoutStars": 0.02,
+                        "http://dbpedia.org/property/draftround": 0.06,
+                        "http://dbpedia.org/property/rivalsStars": 0.02,
+                        "http://dbpedia.org/property/heightft": 0.03,
+                        "http://dbpedia.org/ontology/number": 0.02,
+                        "http://dbpedia.org/ontology/draftRound": 0.06,
+                        "http://dbpedia.org/property/rivalsOverall": 0.03
+                    },
+                    "subject": "Quarterback",
+                    "object": "TDS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/qb": 0.02,
+                        "http://dbpedia.org/property/qbStarter": 0.02,
+                        "http://dbpedia.org/property/apAllPros": 0.02,
+                        "http://dbpedia.org/property/proBowlers": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "Quarterback"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/v": 0.02,
+                        "http://dbpedia.org/property/ht": 0.02,
+                        "http://dbpedia.org/property/round": 0.02,
+                        "http://dbpedia.org/property/h": 0.06,
+                        "http://dbpedia.org/property/yards": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/rt": 0.03,
+                        "http://dbpedia.org/property/time": 0.02,
+                        "http://dbpedia.org/property/record": 0.03,
+                        "http://dbpedia.org/property/r": 0.06
+                    },
+                    "subject": "Team",
+                    "object": "CMP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/v": 0.02,
+                        "http://dbpedia.org/property/ht": 0.02,
+                        "http://dbpedia.org/property/r": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/home": 0.02,
+                        "http://dbpedia.org/property/h": 0.1,
+                        "http://dbpedia.org/property/yards": 0.02,
+                        "http://dbpedia.org/property/record": 0.03,
+                        "http://dbpedia.org/property/rt": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "ATT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/v": 0.1,
+                        "http://dbpedia.org/property/yards": 0.02,
+                        "http://dbpedia.org/property/visitor": 0.02,
+                        "http://dbpedia.org/property/divisionPlace": 0.18,
+                        "http://dbpedia.org/property/time": 0.03,
+                        "http://dbpedia.org/property/r": 0.18,
+                        "http://dbpedia.org/property/quarter": 0.23,
+                        "http://dbpedia.org/property/ht": 0.02,
+                        "http://dbpedia.org/property/inactive": 0.03,
+                        "http://dbpedia.org/property/round": 0.13,
+                        "http://dbpedia.org/property/pick": 0.02,
+                        "http://dbpedia.org/property/h": 0.21,
+                        "http://dbpedia.org/property/vot": 0.02,
+                        "http://dbpedia.org/property/record": 0.02,
+                        "http://dbpedia.org/property/rt": 0.05
+                    },
+                    "subject": "Team",
+                    "object": "TDS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/v": 0.02,
+                        "http://dbpedia.org/property/ht": 0.02,
+                        "http://dbpedia.org/property/round": 0.02,
+                        "http://dbpedia.org/property/h": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/r": 0.06,
+                        "http://dbpedia.org/property/rt": 0.02
+                    },
+                    "subject": "Opponent",
+                    "object": "CMP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/v": 0.02,
+                        "http://dbpedia.org/property/ht": 0.02,
+                        "http://dbpedia.org/property/pkStarter": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/visitor": 0.02,
+                        "http://dbpedia.org/property/h": 0.05,
+                        "http://dbpedia.org/property/round": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Opponent",
+                    "object": "ATT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/v": 0.08,
+                        "http://dbpedia.org/property/hot": 0.02,
+                        "http://dbpedia.org/property/ps": 0.03,
+                        "http://dbpedia.org/property/visitor": 0.02,
+                        "http://dbpedia.org/property/divisionPlace": 0.11,
+                        "http://dbpedia.org/property/time": 0.02,
+                        "http://dbpedia.org/property/r": 0.06,
+                        "http://dbpedia.org/property/quarter": 0.16,
+                        "http://dbpedia.org/property/inactive": 0.02,
+                        "http://dbpedia.org/property/round": 0.08,
+                        "http://dbpedia.org/property/pick": 0.03,
+                        "http://dbpedia.org/property/proBowlers": 0.02,
+                        "http://dbpedia.org/property/h": 0.11,
+                        "http://dbpedia.org/property/record": 0.1
+                    },
+                    "subject": "Opponent",
+                    "object": "TDS"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Quarterback",
+                "Date",
+                "Team",
+                "Opponent",
+                "Result",
+                "CMP",
+                "ATT",
+                "YDS",
+                "TDS",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Perfect games by franchises'",
+            "colums": [
+                "Franchises",
+                "Number of Games"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Frequency of a perfect game'",
+            "colums": [
+                "Decade",
+                "Perfect Games"
+            ]
+        }
+    ]
+}

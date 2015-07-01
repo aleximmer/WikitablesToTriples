@@ -1,0 +1,233 @@
+{
+    "no. of tables": 9,
+    "page": "List of medieval stone churches in Finland",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Number of churches by province'",
+            "colums": [
+                "Province",
+                "Churches",
+                "Sacristies",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leadership": 0.03,
+                        "http://dbpedia.org/property/district": 0.03
+                    },
+                    "subject": "Church",
+                    "object": "Original\nparish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.03
+                    },
+                    "subject": "Church",
+                    "object": "Current\nmunicipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.16,
+                        "http://dbpedia.org/property/cathedral": 0.03
+                    },
+                    "subject": "Original\nparish",
+                    "object": "Church"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Original\nparish",
+                    "object": "Current\nmunicipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.16
+                    },
+                    "subject": "Current\nmunicipality",
+                    "object": "Church"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Current\nmunicipality",
+                    "object": "Original\nparish"
+                }
+            ],
+            "table": "Unnamed table in section 'Finland Proper'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Karelia'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.12
+                    },
+                    "subject": "Original\nparish",
+                    "object": "Church"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.12
+                    },
+                    "subject": "Current\nmunicipality",
+                    "object": "Church"
+                }
+            ],
+            "table": "Unnamed table in section 'Ostrobothnia'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.08
+                    },
+                    "subject": "Church",
+                    "object": "Current\nmunicipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Satakunta'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Savonia'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Original\nparish",
+                    "object": "Current\nmunicipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Tavastia'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07
+                    },
+                    "subject": "Church",
+                    "object": "Original\nparish"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07
+                    },
+                    "subject": "Church",
+                    "object": "Current\nmunicipality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.21
+                    },
+                    "subject": "Original\nparish",
+                    "object": "Church"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.14
+                    },
+                    "subject": "Current\nmunicipality",
+                    "object": "Church"
+                }
+            ],
+            "table": "Unnamed table in section 'Uusimaa'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.23
+                    },
+                    "subject": "Original\nparish",
+                    "object": "Church"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.23
+                    },
+                    "subject": "Current\nmunicipality",
+                    "object": "Church"
+                }
+            ],
+            "table": "Unnamed table in section '\u00c5land Islands'",
+            "colums": [
+                "Church",
+                "Image",
+                "Original\nparish",
+                "Current\nmunicipality",
+                "Built",
+                "Notes"
+            ]
+        }
+    ]
+}

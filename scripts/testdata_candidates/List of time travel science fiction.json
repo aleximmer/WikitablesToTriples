@@ -1,0 +1,315 @@
+{
+    "no. of tables": 4,
+    "page": "List of time travel science fiction",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/published": 0.02,
+                        "http://dbpedia.org/property/pubDate": 0.04,
+                        "http://dbpedia.org/property/releaseDate": 0.18
+                    },
+                    "subject": "Title",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/author": 0.49,
+                        "http://dbpedia.org/ontology/director": 0.01,
+                        "http://dbpedia.org/ontology/illustrator": 0.01,
+                        "http://dbpedia.org/property/author": 0.49,
+                        "http://dbpedia.org/property/illustrator": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/series": 0.01,
+                        "http://dbpedia.org/property/mainCharTeam": 0.01,
+                        "http://dbpedia.org/property/series": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/period": 0.02,
+                        "http://dbpedia.org/property/yearsActive": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Author",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.01,
+                        "http://dbpedia.org/ontology/notableWork": 0.09,
+                        "http://dbpedia.org/property/notableworks": 0.01,
+                        "http://dbpedia.org/ontology/knownFor": 0.01
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.02,
+                        "http://dbpedia.org/property/subject": 0.01,
+                        "http://www.w3.org/2004/02/skos/core#subject": 0.01,
+                        "http://dbpedia.org/property/notableworks": 0.01
+                    },
+                    "subject": "Author",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.01,
+                        "http://dbpedia.org/property/author": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creators": 0.01,
+                        "http://dbpedia.org/ontology/author": 0.01,
+                        "http://dbpedia.org/ontology/creator": 0.01,
+                        "http://dbpedia.org/property/screenplay": 0.01,
+                        "http://dbpedia.org/property/creator": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.01,
+                        "http://dbpedia.org/ontology/portrayer": 0.01,
+                        "http://dbpedia.org/property/author": 0.02,
+                        "http://dbpedia.org/property/writer": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Time travel in novels and short stories'",
+            "colums": [
+                "Date",
+                "Title",
+                "Author",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.01,
+                        "http://dbpedia.org/property/thisAlbum": 0.01,
+                        "http://dbpedia.org/property/released": 0.02,
+                        "http://dbpedia.org/property/lastAlbum": 0.01,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/nextAlbum": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.03,
+                        "http://dbpedia.org/property/director": 0.68,
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/property/music": 0.01,
+                        "http://dbpedia.org/ontology/creator": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.2,
+                        "http://dbpedia.org/ontology/cinematography": 0.03,
+                        "http://dbpedia.org/property/creator": 0.01,
+                        "http://dbpedia.org/property/starring": 0.01,
+                        "http://dbpedia.org/property/cinematography": 0.01,
+                        "http://dbpedia.org/property/screenplay": 0.01,
+                        "http://dbpedia.org/ontology/producer": 0.12,
+                        "http://dbpedia.org/property/studio": 0.01,
+                        "http://dbpedia.org/ontology/musicComposer": 0.01,
+                        "http://dbpedia.org/ontology/director": 0.63,
+                        "http://dbpedia.org/ontology/editing": 0.01,
+                        "http://dbpedia.org/ontology/basedOn": 0.01,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.11,
+                        "http://dbpedia.org/property/director": 0.01,
+                        "http://dbpedia.org/property/producer": 0.01,
+                        "http://dbpedia.org/property/starring": 0.1,
+                        "http://dbpedia.org/ontology/basedOn": 0.03,
+                        "http://dbpedia.org/property/basedOn": 0.01,
+                        "http://dbpedia.org/ontology/director": 0.01,
+                        "http://dbpedia.org/property/screenplay": 0.01,
+                        "http://dbpedia.org/ontology/producer": 0.02,
+                        "http://dbpedia.org/property/studio": 0.02,
+                        "http://dbpedia.org/ontology/writer": 0.01,
+                        "http://dbpedia.org/ontology/narrator": 0.01,
+                        "http://dbpedia.org/property/narrator": 0.01,
+                        "http://dbpedia.org/property/writer": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsactive": 0.01,
+                        "http://dbpedia.org/property/yearsActive": 0.01,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Director",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.02
+                    },
+                    "subject": "Director",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/significantother": 0.01,
+                        "http://dbpedia.org/property/movies": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.01,
+                        "http://dbpedia.org/ontology/creator": 0.01,
+                        "http://dbpedia.org/property/story": 0.01,
+                        "http://dbpedia.org/ontology/director": 0.01,
+                        "http://dbpedia.org/property/creator": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.01,
+                        "http://dbpedia.org/property/writer": 0.01
+                    },
+                    "subject": "Description",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Time travel in science fiction films'",
+            "colums": [
+                "Year",
+                "Title",
+                "Director",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.02,
+                        "http://dbpedia.org/property/caption": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Start date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/voice": 0.02,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/ontology/author": 0.05,
+                        "http://dbpedia.org/ontology/creator": 0.45,
+                        "http://dbpedia.org/property/director": 0.02,
+                        "http://dbpedia.org/ontology/company": 0.06,
+                        "http://dbpedia.org/property/creator": 0.41,
+                        "http://dbpedia.org/ontology/writer": 0.02,
+                        "http://dbpedia.org/ontology/executiveProducer": 0.24,
+                        "http://dbpedia.org/ontology/director": 0.02,
+                        "http://dbpedia.org/property/source": 0.02,
+                        "http://dbpedia.org/property/company": 0.05,
+                        "http://dbpedia.org/property/writtenby": 0.03,
+                        "http://dbpedia.org/property/executiveProducer": 0.18,
+                        "http://dbpedia.org/property/voices": 0.02,
+                        "http://dbpedia.org/property/writer": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.12,
+                        "http://dbpedia.org/ontology/channel": 0.02,
+                        "http://dbpedia.org/property/starring": 0.12,
+                        "http://dbpedia.org/ontology/previousWork": 0.03,
+                        "http://dbpedia.org/ontology/related": 0.02,
+                        "http://dbpedia.org/property/channel": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.08,
+                        "http://dbpedia.org/ontology/knownFor": 0.03
+                    },
+                    "subject": "Author",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.02
+                    },
+                    "subject": "Author",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.02,
+                        "http://dbpedia.org/property/series": 0.03,
+                        "http://dbpedia.org/ontology/series": 0.03,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.03
+                    },
+                    "subject": "Description",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.02,
+                        "http://dbpedia.org/property/producer": 0.02,
+                        "http://dbpedia.org/ontology/creator": 0.02,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/ontology/company": 0.02,
+                        "http://dbpedia.org/property/creator": 0.02,
+                        "http://dbpedia.org/property/writer": 0.02
+                    },
+                    "subject": "Description",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Time travel in science fiction television series'",
+            "colums": [
+                "Start date",
+                "End Date",
+                "Title",
+                "Author",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/series": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Time travel in video games'",
+            "colums": [
+                "Title",
+                "Date",
+                "Description"
+            ]
+        }
+    ]
+}

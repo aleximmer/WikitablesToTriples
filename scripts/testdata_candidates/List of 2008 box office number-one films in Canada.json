@@ -1,0 +1,55 @@
+{
+    "no. of tables": 2,
+    "page": "List of 2008 box office number-one films in Canada",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Weekend gross list'",
+            "colums": [
+                "#",
+                "Weekend End Date",
+                "Film",
+                "Weekend Gross (millions)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/studio": 0.04,
+                        "http://dbpedia.org/property/distributor": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/distributor": 0.28,
+                        "http://dbpedia.org/property/studio": 0.04,
+                        "http://dbpedia.org/property/distributor": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Studio"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/divisions": 0.04,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/property/filename": 0.04
+                    },
+                    "subject": "Studio",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest grossing films in Canada'",
+            "colums": [
+                "Rank",
+                "Title",
+                "Studio",
+                "Total Gross (in millions)",
+                "Notes"
+            ]
+        }
+    ]
+}

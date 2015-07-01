@@ -1,0 +1,178 @@
+{
+    "no. of tables": 3,
+    "page": "List of Paralympic Games host cities",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaWaterPercent": 0.5,
+                        "http://dbpedia.org/property/marSnowCm": 0.5,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/maySnowDays": 0.5,
+                        "http://dbpedia.org/property/junSnowDays": 0.5,
+                        "http://dbpedia.org/property/sepSnowCm": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 0.5,
+                        "http://dbpedia.org/property/maySnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowDays": 0.5,
+                        "http://dbpedia.org/property/sepSnowDays": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowCm": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Summer Paralympics hosted"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novSnowCm": 0.5,
+                        "http://dbpedia.org/property/junSnowDays": 0.5,
+                        "http://dbpedia.org/property/sepSnowCm": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 0.5,
+                        "http://dbpedia.org/property/octSnowDays": 0.5,
+                        "http://dbpedia.org/property/aprSnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowDays": 0.5,
+                        "http://dbpedia.org/property/sepSnowDays": 0.5,
+                        "http://dbpedia.org/property/julSnowCm": 0.5,
+                        "http://dbpedia.org/property/novSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 0.5,
+                        "http://dbpedia.org/property/maySnowDays": 0.5,
+                        "http://dbpedia.org/property/maySnowCm": 0.5,
+                        "http://dbpedia.org/property/decSnowCm": 0.5,
+                        "http://dbpedia.org/property/octSnowCm": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Winter Paralympics hosted"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.5,
+                        "http://dbpedia.org/property/capital": 0.5
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/hostCity": 0.5
+                    },
+                    "subject": "Summer Paralympics hosted",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/hostCity": 0.5
+                    },
+                    "subject": "Summer Paralympics hosted",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/hostCity": 0.5
+                    },
+                    "subject": "Winter Paralympics hosted",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/hostCity": 0.5
+                    },
+                    "subject": "Winter Paralympics hosted",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics'",
+            "colums": [
+                "Rank",
+                "City",
+                "Country",
+                "Continent",
+                "Summer Paralympics hosted",
+                "Winter Paralympics hosted",
+                "Total Paralympics hosted"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.11,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/areaRank": 0.05
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/continent": 0.05
+                    },
+                    "subject": "Country",
+                    "object": "Continent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octSnowDays": 0.05,
+                        "http://dbpedia.org/property/maySnowDays": 0.05,
+                        "http://dbpedia.org/property/longd": 0.05
+                    },
+                    "subject": "Country",
+                    "object": "Winter Paralympics hosted"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.05,
+                        "http://dbpedia.org/property/image": 0.05,
+                        "http://dbpedia.org/property/areaRank": 0.11,
+                        "http://dbpedia.org/property/areaMagnitude": 0.11
+                    },
+                    "subject": "Country",
+                    "object": "Total Paralympics hosted"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.68,
+                        "http://dbpedia.org/property/hostCity": 0.58
+                    },
+                    "subject": "Summer Paralympics hosted",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.37,
+                        "http://dbpedia.org/property/hostCity": 0.37
+                    },
+                    "subject": "Winter Paralympics hosted",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics'",
+            "colums": [
+                "Rank",
+                "Country",
+                "Continent",
+                "Summer Paralympics hosted",
+                "Winter Paralympics hosted",
+                "Total Paralympics hosted"
+            ]
+        }
+    ]
+}

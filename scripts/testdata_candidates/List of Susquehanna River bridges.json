@@ -1,0 +1,276 @@
+{
+    "no. of tables": 15,
+    "page": "List of crossings of the Susquehanna River",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/maintainedBy": 0.12,
+                        "http://dbpedia.org/property/maint": 0.12,
+                        "http://dbpedia.org/property/owner": 0.12,
+                        "http://dbpedia.org/ontology/owner": 0.12
+                    },
+                    "subject": "Bridge",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/carries": 0.12
+                    },
+                    "subject": "Bridge",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.25,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.17
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/maintainedBy": 0.09,
+                        "http://dbpedia.org/property/maint": 0.09
+                    },
+                    "subject": "Bridge",
+                    "object": "Route"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.18,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09,
+                        "http://dbpedia.org/property/locale": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.18
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09
+                    },
+                    "subject": "Location",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.17
+                    },
+                    "subject": "Route",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeStart": 0.12,
+                        "http://dbpedia.org/property/mouthLocation": 0.06,
+                        "http://dbpedia.org/ontology/routeEnd": 0.12,
+                        "http://dbpedia.org/ontology/routeJunction": 0.12,
+                        "http://dbpedia.org/ontology/mouthMountain": 0.06,
+                        "http://dbpedia.org/ontology/mouthPlace": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Main Branch'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/municipality": 0.09,
+                        "http://dbpedia.org/ontology/municipality": 0.09
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'West Branch Susquehanna River'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.04,
+                        "http://dbpedia.org/property/locale": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.04
+                    },
+                    "subject": "Bridge",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'West Branch Susquehanna River'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'West Branch Susquehanna River'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'West Branch Susquehanna River'",
+            "colums": [
+                "Bridge",
+                "Route",
+                "Location",
+                "Notes",
+                "Coordinates"
+            ]
+        }
+    ]
+}

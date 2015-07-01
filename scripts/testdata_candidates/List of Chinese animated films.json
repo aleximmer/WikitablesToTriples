@@ -1,0 +1,212 @@
+{
+    "no. of tables": 10,
+    "page": "List of Chinese animated films",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 1.0
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t": 0.33
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '1920s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1930s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.33
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t": 0.33
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '1940s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.28
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section '1950s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t": 0.05
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '1960s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.06
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section '1970s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstAired": 0.03,
+                        "http://dbpedia.org/property/released": 0.09
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/s": 0.01,
+                        "http://dbpedia.org/property/t": 0.01,
+                        "http://dbpedia.org/property/zhHanzi": 0.03
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstAired": 0.01,
+                        "http://dbpedia.org/property/released": 0.02
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/zhHanzi": 0.01
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstAired": 0.07,
+                        "http://dbpedia.org/property/released": 0.04,
+                        "http://dbpedia.org/property/lastAired": 0.04
+                    },
+                    "subject": "English Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.11,
+                        "http://dbpedia.org/property/zhHanzi": 0.02
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '2000s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02
+                    },
+                    "subject": "English Name",
+                    "object": "Chinese Name"
+                }
+            ],
+            "table": "Unnamed table in section '2010s'",
+            "colums": [
+                "English Name",
+                "Year",
+                "Chinese Name"
+            ]
+        }
+    ]
+}

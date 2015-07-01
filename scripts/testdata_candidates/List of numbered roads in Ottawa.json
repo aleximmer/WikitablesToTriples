@@ -1,0 +1,157 @@
+{
+    "no. of tables": 1,
+    "page": "List of numbered roads in Ottawa",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Names",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Names",
+                    "object": "Western/Southern Terminus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Names",
+                    "object": "Eastern/Northern Terminus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/km": 0.01,
+                        "http://dbpedia.org/property/exit": 0.01
+                    },
+                    "subject": "Western/Southern Terminus",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Western/Southern Terminus",
+                    "object": "Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/cities": 0.01,
+                        "http://dbpedia.org/property/locationSpecial": 0.01
+                    },
+                    "subject": "Western/Southern Terminus",
+                    "object": "Eastern/Northern Terminus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/northeast": 0.01,
+                        "http://dbpedia.org/property/northwest": 0.01
+                    },
+                    "subject": "Western/Southern Terminus",
+                    "object": "Major Communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/p": 0.01,
+                        "http://dbpedia.org/ontology/part": 0.01,
+                        "http://dbpedia.org/property/seat": 0.01
+                    },
+                    "subject": "Western/Southern Terminus",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01
+                    },
+                    "subject": "Eastern/Northern Terminus",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/road": 0.01
+                    },
+                    "subject": "Eastern/Northern Terminus",
+                    "object": "Names"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/municipality": 0.01
+                    },
+                    "subject": "Eastern/Northern Terminus",
+                    "object": "Major Communities"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Eastern/Northern Terminus",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junMaximumHumidex": 0.01
+                    },
+                    "subject": "Major Communities",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Western/Southern Terminus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/routeEnd": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/cities": 0.01,
+                        "http://dbpedia.org/property/locationSpecial": 0.01,
+                        "http://dbpedia.org/ontology/county": 0.01,
+                        "http://dbpedia.org/property/counties": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Eastern/Northern Terminus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/northwest": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Major Communities"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Number",
+                "Names",
+                "Western/Southern Terminus",
+                "Eastern/Northern Terminus",
+                "Major Communities",
+                "Notes"
+            ]
+        }
+    ]
+}

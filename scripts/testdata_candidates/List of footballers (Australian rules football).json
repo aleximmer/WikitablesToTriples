@@ -1,0 +1,282 @@
+{
+    "no. of tables": 7,
+    "page": "List of Australian Football League premiers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.29
+                    },
+                    "subject": "Club",
+                    "object": "Premierships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.05
+                    },
+                    "subject": "Club",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.05,
+                        "http://dbpedia.org/property/premierships": 0.1,
+                        "http://dbpedia.org/property/home&away": 0.05
+                    },
+                    "subject": "Club",
+                    "object": "Grand Final matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team1Goals": 0.05,
+                        "http://dbpedia.org/property/backpocket": 0.05,
+                        "http://dbpedia.org/property/centre": 0.1,
+                        "http://dbpedia.org/property/interchange": 0.1,
+                        "http://dbpedia.org/property/ruckrover": 0.05,
+                        "http://dbpedia.org/property/ruck": 0.05,
+                        "http://dbpedia.org/property/awayGoals": 0.1,
+                        "http://dbpedia.org/property/wing": 0.05,
+                        "http://dbpedia.org/property/halfforwardflank": 0.14
+                    },
+                    "subject": "Premiership years",
+                    "object": "Premierships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team1Goals": 0.05,
+                        "http://dbpedia.org/property/fullback": 0.05,
+                        "http://dbpedia.org/property/centre": 0.05,
+                        "http://dbpedia.org/property/interchange": 0.05,
+                        "http://dbpedia.org/property/forwardpocket": 0.1,
+                        "http://dbpedia.org/property/awayGoals": 0.05,
+                        "http://dbpedia.org/property/halfbackflank": 0.1
+                    },
+                    "subject": "Premiership years",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/backpocket": 0.05,
+                        "http://dbpedia.org/property/forwardpocket": 0.1,
+                        "http://dbpedia.org/property/fullback": 0.1,
+                        "http://dbpedia.org/property/halfforwardflank": 0.05,
+                        "http://dbpedia.org/property/interchange": 0.1,
+                        "http://dbpedia.org/property/reserve": 0.05,
+                        "http://dbpedia.org/property/awayGoals": 0.05
+                    },
+                    "subject": "Premiership years",
+                    "object": "Grand Final matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fullback": 0.05,
+                        "http://dbpedia.org/property/centrehalfback": 0.05,
+                        "http://dbpedia.org/property/fullforward": 0.05,
+                        "http://dbpedia.org/property/interchange": 0.05,
+                        "http://dbpedia.org/property/wing": 0.05,
+                        "http://dbpedia.org/property/halfbackflank": 0.05
+                    },
+                    "subject": "Premiership years",
+                    "object": "Years since last Premiership"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team2Abbr": 0.05
+                    },
+                    "subject": "Runner-up years",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team1Goals": 0.05,
+                        "http://dbpedia.org/property/fullback": 0.05,
+                        "http://dbpedia.org/property/halfforwardflank": 0.05,
+                        "http://dbpedia.org/property/centrehalfforward": 0.05,
+                        "http://dbpedia.org/property/interchange": 0.05,
+                        "http://dbpedia.org/property/ruckrover": 0.1,
+                        "http://dbpedia.org/property/team2Goals": 0.05,
+                        "http://dbpedia.org/property/wing": 0.05,
+                        "http://dbpedia.org/property/halfbackflank": 0.05
+                    },
+                    "subject": "Runner-up years",
+                    "object": "Premierships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team1Goals": 0.05,
+                        "http://dbpedia.org/property/fullback": 0.05,
+                        "http://dbpedia.org/property/team2Goals": 0.05,
+                        "http://dbpedia.org/property/centrehalfforward": 0.05,
+                        "http://dbpedia.org/property/interchange": 0.19,
+                        "http://dbpedia.org/property/forwardpocket": 0.05,
+                        "http://dbpedia.org/property/centrehalfback": 0.05,
+                        "http://dbpedia.org/property/halfbackflank": 0.05
+                    },
+                    "subject": "Runner-up years",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/backpocket": 0.05,
+                        "http://dbpedia.org/property/ruckrover": 0.05,
+                        "http://dbpedia.org/property/halfforwardflank": 0.05,
+                        "http://dbpedia.org/property/rover": 0.05,
+                        "http://dbpedia.org/property/team1Goals": 0.05,
+                        "http://dbpedia.org/property/interchange": 0.14,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/forwardpocket": 0.05,
+                        "http://dbpedia.org/property/team2Goals": 0.05
+                    },
+                    "subject": "Runner-up years",
+                    "object": "Grand Final matches"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/interchange": 0.1,
+                        "http://dbpedia.org/property/fullforward": 0.05,
+                        "http://dbpedia.org/property/halfbackflank": 0.05
+                    },
+                    "subject": "Runner-up years",
+                    "object": "Years since last Premiership"
+                }
+            ],
+            "table": "Unnamed table in section 'Premierships by team'",
+            "colums": [
+                "Club",
+                "Premierships",
+                "Runners-up",
+                "Grand Final matches",
+                "Premiership years",
+                "Runner-up years",
+                "Years since last Premiership"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.1
+                    },
+                    "subject": "Seniors",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.29
+                    },
+                    "subject": "Seniors",
+                    "object": "Reserves"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.05,
+                        "http://dbpedia.org/property/premierships": 0.05,
+                        "http://dbpedia.org/property/home&away": 0.05
+                    },
+                    "subject": "Seniors",
+                    "object": "Under 19s"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.05,
+                        "http://dbpedia.org/property/premierships": 0.05
+                    },
+                    "subject": "Seniors",
+                    "object": "Night"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/preSeason": 0.05,
+                        "http://dbpedia.org/property/premierships": 0.1,
+                        "http://dbpedia.org/property/home&away": 0.1
+                    },
+                    "subject": "Seniors",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Premierships by team'",
+            "colums": [
+                "Club",
+                "Seniors",
+                "Reserves",
+                "Under 19s",
+                "Night",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.29
+                    },
+                    "subject": "Club",
+                    "object": "Premierships"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/premierships": 0.05
+                    },
+                    "subject": "Club",
+                    "object": "Runners-up"
+                }
+            ],
+            "table": "Unnamed table in section 'Premierships by team'",
+            "colums": [
+                "Club",
+                "Years in competition",
+                "Seasons",
+                "Premierships",
+                "Runners-up",
+                "Average years per premiership",
+                "Average years per Grand Final"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ruckrover": 0.09
+                    },
+                    "subject": "Start",
+                    "object": "Seasons*"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/coinToss": 0.09,
+                        "http://dbpedia.org/property/nsm": 0.09
+                    },
+                    "subject": "End",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/interchange": 0.09,
+                        "http://dbpedia.org/property/halfforwardflank": 0.09,
+                        "http://dbpedia.org/property/wing": 0.18
+                    },
+                    "subject": "End",
+                    "object": "Seasons*"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/backpocket": 0.09,
+                        "http://dbpedia.org/property/forwardpocket": 0.09,
+                        "http://dbpedia.org/property/ruckrover": 0.09
+                    },
+                    "subject": "Grand Final appearances during drought",
+                    "object": "Seasons*"
+                }
+            ],
+            "table": "Unnamed table in section 'Premierships by team'",
+            "colums": [
+                "Club",
+                "Seasons*",
+                "Start",
+                "End",
+                "Grand Final appearances during drought"
+            ]
+        }
+    ]
+}

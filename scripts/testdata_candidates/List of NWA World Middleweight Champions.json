@@ -1,0 +1,164 @@
+{
+    "no. of tables": 4,
+    "page": "NWA World Middleweight Championship",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Champion",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/koWins": 0.01
+                    },
+                    "subject": "Champion",
+                    "object": "Reign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/residence": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.03,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1,
+                        "http://dbpedia.org/ontology/billed": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.08
+                    },
+                    "subject": "Champion",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.01,
+                        "http://dbpedia.org/property/octRecordHighC": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/mayRecordHighC": 0.02,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/shieldSize": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/febHumidity": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/sepRecordHighC": 0.01,
+                        "http://dbpedia.org/property/junRecordHighC": 0.02,
+                        "http://dbpedia.org/property/junHumidity": 0.03,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/ontology/areaCode": 0.01,
+                        "http://dbpedia.org/property/janHumidity": 0.01,
+                        "http://dbpedia.org/property/decHumidity": 0.01,
+                        "http://dbpedia.org/property/octHumidity": 0.01,
+                        "http://dbpedia.org/property/augRecordLowC": 0.01,
+                        "http://dbpedia.org/property/febLowC": 0.01,
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/novHumidity": 0.02,
+                        "http://dbpedia.org/property/mayMeanC": 0.01,
+                        "http://dbpedia.org/property/marRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.01,
+                        "http://dbpedia.org/property/areaCode": 0.01,
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/property/mayHumidity": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.15,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/marRecordLowC": 0.03,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.03,
+                        "http://dbpedia.org/property/octRecordLowC": 0.01,
+                        "http://dbpedia.org/property/aprRecordLowC": 0.01,
+                        "http://dbpedia.org/property/areaWaterPercent": 0.01,
+                        "http://dbpedia.org/property/marSnowCm": 0.02,
+                        "http://dbpedia.org/property/novRecordLowC": 0.02,
+                        "http://dbpedia.org/property/octRainDays": 0.01,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.15
+                    },
+                    "subject": "Location",
+                    "object": "Reign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Event",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Event",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstchamp": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Champion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/month": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Reign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Title history'",
+            "colums": [
+                "No.",
+                "Champion",
+                "Reign",
+                "Date",
+                "Days held",
+                "Location",
+                "Event",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/koWins": 0.02
+                    },
+                    "subject": "Champion",
+                    "object": "No. of reigns"
+                }
+            ],
+            "table": "Unnamed table in section 'Reigns by combined length'",
+            "colums": [
+                "Rank",
+                "Champion",
+                "No. of reigns",
+                "Combined days"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "no. of tables": 1,
+    "page": "List of Wales international footballers (alphabetical)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.0,
+                        "http://dbpedia.org/property/dateOfBirth": 0.07,
+                        "http://dbpedia.org/property/birthDate": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Date of birth"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.07,
+                        "http://dbpedia.org/property/nationalgoals": 0.01,
+                        "http://dbpedia.org/property/nationalcaps": 0.58,
+                        "http://dbpedia.org/property/appearancesa": 0.0,
+                        "http://dbpedia.org/ontology/number": 0.0,
+                        "http://dbpedia.org/property/clubnumber": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/bestBowling": 0.0,
+                        "http://dbpedia.org/property/caps": 0.04,
+                        "http://dbpedia.org/property/pointsa": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 0.6,
+                        "http://dbpedia.org/property/goals": 0.33,
+                        "http://dbpedia.org/property/nationalcaps": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.0,
+                        "http://dbpedia.org/ontology/height": 0.01,
+                        "http://dbpedia.org/property/totalgoals": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.0,
+                        "http://dbpedia.org/property/caps": 0.11
+                    },
+                    "subject": "Name",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.01,
+                        "http://dbpedia.org/property/regionalCupApps": 0.0,
+                        "http://dbpedia.org/property/eloMax": 0.0,
+                        "http://dbpedia.org/property/no": 0.02,
+                        "http://dbpedia.org/property/firstGame": 0.0,
+                        "http://dbpedia.org/property/score": 0.0,
+                        "http://dbpedia.org/property/pos": 0.0,
+                        "http://dbpedia.org/property/caps": 0.02,
+                        "http://dbpedia.org/property/worldCupApps": 0.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.0,
+                        "http://dbpedia.org/property/l": 0.0,
+                        "http://dbpedia.org/property/largestLoss": 0.0,
+                        "http://dbpedia.org/property/attendance": 0.0,
+                        "http://dbpedia.org/property/socks": 0.02,
+                        "http://dbpedia.org/property/d": 0.0,
+                        "http://dbpedia.org/property/no": 0.01,
+                        "http://dbpedia.org/property/shorts": 0.02,
+                        "http://dbpedia.org/property/goals": 0.04,
+                        "http://dbpedia.org/property/firstGame": 0.01,
+                        "http://dbpedia.org/property/eloMax": 0.0,
+                        "http://dbpedia.org/property/rightarm": 0.02,
+                        "http://dbpedia.org/property/caps": 0.03,
+                        "http://dbpedia.org/property/body": 0.02,
+                        "http://dbpedia.org/property/w": 0.0,
+                        "http://dbpedia.org/property/worldCupApps": 0.0,
+                        "http://dbpedia.org/property/ga": 0.0,
+                        "http://dbpedia.org/property/leftarm": 0.02,
+                        "http://dbpedia.org/property/score": 0.02,
+                        "http://dbpedia.org/property/largestWin": 0.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/association": 0.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.01,
+                        "http://dbpedia.org/property/regionalCupApps": 0.0,
+                        "http://dbpedia.org/property/eloMax": 0.0,
+                        "http://dbpedia.org/property/no": 0.02,
+                        "http://dbpedia.org/property/firstGame": 0.0,
+                        "http://dbpedia.org/property/score": 0.0,
+                        "http://dbpedia.org/property/pos": 0.0,
+                        "http://dbpedia.org/property/caps": 0.02,
+                        "http://dbpedia.org/property/worldCupApps": 0.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Caps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.0,
+                        "http://dbpedia.org/property/l": 0.0,
+                        "http://dbpedia.org/property/largestLoss": 0.0,
+                        "http://dbpedia.org/property/attendance": 0.0,
+                        "http://dbpedia.org/property/socks": 0.02,
+                        "http://dbpedia.org/property/d": 0.0,
+                        "http://dbpedia.org/property/no": 0.01,
+                        "http://dbpedia.org/property/shorts": 0.02,
+                        "http://dbpedia.org/property/goals": 0.04,
+                        "http://dbpedia.org/property/firstGame": 0.01,
+                        "http://dbpedia.org/property/eloMax": 0.0,
+                        "http://dbpedia.org/property/rightarm": 0.02,
+                        "http://dbpedia.org/property/caps": 0.03,
+                        "http://dbpedia.org/property/body": 0.02,
+                        "http://dbpedia.org/property/w": 0.0,
+                        "http://dbpedia.org/property/worldCupApps": 0.0,
+                        "http://dbpedia.org/property/ga": 0.0,
+                        "http://dbpedia.org/property/leftarm": 0.02,
+                        "http://dbpedia.org/property/score": 0.02,
+                        "http://dbpedia.org/property/largestWin": 0.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/association": 0.0
+                    },
+                    "subject": "Opponent",
+                    "object": "Opponent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.0,
+                        "http://dbpedia.org/property/nationalgoals": 0.0,
+                        "http://dbpedia.org/property/totalgoals": 0.0,
+                        "http://dbpedia.org/property/caps": 0.0
+                    },
+                    "subject": "Notes",
+                    "object": "Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'Table'",
+            "colums": [
+                "Name",
+                "Date of birth",
+                "Caps",
+                "Goals",
+                "First cap",
+                "Opponent",
+                "Last cap",
+                "Opponent",
+                "Notes"
+            ]
+        }
+    ]
+}

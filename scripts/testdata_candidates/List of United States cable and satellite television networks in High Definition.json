@@ -1,0 +1,567 @@
+{
+    "no. of tables": 38,
+    "page": "List of United States cable and satellite television networks",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.6,
+                        "http://dbpedia.org/ontology/owningCompany": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Education'",
+            "colums": [
+                "Name",
+                "HD",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Name",
+                "HD",
+                "Owner",
+                "Other Feeds",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.4,
+                        "http://dbpedia.org/ontology/owningCompany": 0.55
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/division": 0.1,
+                        "http://dbpedia.org/property/divisions": 0.05
+                    },
+                    "subject": "Owner",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Movies'",
+            "colums": [
+                "Name",
+                "Owner",
+                "East/West Feed",
+                "HD",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/ontology/parentCompany": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/division": 0.2,
+                        "http://dbpedia.org/property/divisions": 0.2
+                    },
+                    "subject": "Owner",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owningCompany": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.09,
+                        "http://dbpedia.org/ontology/product": 0.09
+                    },
+                    "subject": "Owner",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Adult'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Multiplex Channels",
+                "HD",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/owningCompany": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.03,
+                        "http://dbpedia.org/property/sisterNames": 0.03,
+                        "http://dbpedia.org/property/owner": 0.1,
+                        "http://dbpedia.org/property/cableServ": 0.03,
+                        "http://dbpedia.org/ontology/owningCompany": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/replacedByNames": 0.06,
+                        "http://dbpedia.org/ontology/successor": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.03,
+                        "http://dbpedia.org/ontology/subsidiary": 0.03
+                    },
+                    "subject": "Owner",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerName": 0.03,
+                        "http://dbpedia.org/ontology/predecessor": 0.06,
+                        "http://dbpedia.org/property/formerNames": 0.03,
+                        "http://dbpedia.org/property/replacedNames": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/satServ": 0.03,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/ontology/owningCompany": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.1,
+                        "http://dbpedia.org/ontology/owningCompany": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/replacedByNames": 0.1,
+                        "http://dbpedia.org/ontology/successor": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/predecessor": 0.1,
+                        "http://dbpedia.org/property/replacedNames": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owningCompany": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.07,
+                        "http://dbpedia.org/property/network": 0.07,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.07,
+                        "http://dbpedia.org/ontology/owningCompany": 0.14,
+                        "http://dbpedia.org/property/sisterNames": 0.07,
+                        "http://dbpedia.org/property/owner": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/replacedByNames": 0.14,
+                        "http://dbpedia.org/ontology/successor": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.07,
+                        "http://dbpedia.org/ontology/subsidiary": 0.07,
+                        "http://dbpedia.org/ontology/division": 0.07,
+                        "http://dbpedia.org/property/divisions": 0.07
+                    },
+                    "subject": "Owner",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/predecessor": 0.07,
+                        "http://dbpedia.org/property/replacedNames": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.07,
+                        "http://dbpedia.org/property/sisterNames": 0.07,
+                        "http://dbpedia.org/property/owner": 0.21,
+                        "http://dbpedia.org/ontology/owningCompany": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.67,
+                        "http://dbpedia.org/ontology/owningCompany": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Location",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owningCompany": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerNames": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/replacedByNames": 0.06,
+                        "http://dbpedia.org/ontology/successor": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/predecessor": 0.06,
+                        "http://dbpedia.org/property/replacedNames": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.06,
+                        "http://dbpedia.org/ontology/owningCompany": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owningCompany": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.07,
+                        "http://dbpedia.org/ontology/owningCompany": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerNames": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/replacedByNames": 0.04,
+                        "http://dbpedia.org/ontology/successor": 0.04,
+                        "http://dbpedia.org/property/owner": 0.27,
+                        "http://dbpedia.org/ontology/owningCompany": 0.27
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/predecessor": 0.04,
+                        "http://dbpedia.org/property/replacedNames": 0.04
+                    },
+                    "subject": "Owner",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerNames": 0.12
+                    },
+                    "subject": "Notes",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/ontology/owningCompany": 0.15
+                    },
+                    "subject": "Notes",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 1.0,
+                        "http://dbpedia.org/property/owner": 1.0,
+                        "http://dbpedia.org/ontology/owningCompany": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Owner"
+                }
+            ],
+            "table": "Unnamed table in section 'Former TV networks'",
+            "colums": [
+                "Name",
+                "Owner",
+                "Notes"
+            ]
+        }
+    ]
+}

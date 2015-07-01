@@ -1,0 +1,157 @@
+{
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Twenty20 International Cricketers'",
+            "colums": [
+                "No.",
+                "Name",
+                "First",
+                "Last",
+                "Mat",
+                "Inn",
+                "NO",
+                "Runs",
+                "HS",
+                "100",
+                "50",
+                "Avg",
+                "Balls",
+                "Wkt",
+                "BBI",
+                "Ave",
+                "Ca",
+                "St",
+                "Ref"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/odidebutyear": 0.12,
+                        "http://dbpedia.org/property/t20idebutyear": 0.07,
+                        "http://dbpedia.org/property/lastodiyear": 0.07,
+                        "http://dbpedia.org/property/lasttestyear": 0.05,
+                        "http://dbpedia.org/property/testdebutyear": 0.03,
+                        "http://dbpedia.org/property/year": 0.1
+                    },
+                    "object": "First"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/odidebutyear": 0.03,
+                        "http://dbpedia.org/property/year": 0.03,
+                        "http://dbpedia.org/property/lastodiyear": 0.07,
+                        "http://dbpedia.org/property/lasttestyear": 0.03
+                    },
+                    "object": "Last"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/matches": 0.07
+                    },
+                    "object": "Mat"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.03,
+                        "http://dbpedia.org/property/bowlAvg": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/matches": 0.07
+                    },
+                    "object": "Inn"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.07,
+                        "http://dbpedia.org/property/fivefor": 0.05,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.05,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12,
+                        "http://dbpedia.org/property/wickets": 0.03
+                    },
+                    "object": "NO"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.25,
+                        "http://dbpedia.org/property/fivefor": 0.17,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/tenfor": 0.12,
+                        "http://dbpedia.org/property/catches/stumpings": 0.17,
+                        "http://dbpedia.org/property/wickets": 0.05
+                    },
+                    "object": "100"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.15,
+                        "http://dbpedia.org/property/fivefor": 0.12,
+                        "http://dbpedia.org/property/bestBowling": 0.07,
+                        "http://dbpedia.org/property/tenfor": 0.1,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.2,
+                        "http://dbpedia.org/property/wickets": 0.05
+                    },
+                    "object": "50"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/bowlAvg": 0.05,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/deliveries": 0.05,
+                        "http://dbpedia.org/property/wickets": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.05
+                    },
+                    "object": "Ave"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.07,
+                        "http://dbpedia.org/property/fivefor": 0.05,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/tenfor": 0.05,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/matches": 0.03
+                    },
+                    "object": "Ca"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/100s/50s": 0.23,
+                        "http://dbpedia.org/property/fivefor": 0.2,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.12,
+                        "http://dbpedia.org/property/catches/stumpings": 0.17,
+                        "http://dbpedia.org/property/wickets": 0.03
+                    },
+                    "object": "St"
+                }
+            ]
+        }
+    ],
+    "page": "List of South Africa women Twenty20 International cricketers"
+}

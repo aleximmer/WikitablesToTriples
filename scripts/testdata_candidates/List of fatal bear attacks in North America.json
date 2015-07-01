@@ -1,0 +1,554 @@
+{
+    "no. of tables": 33,
+    "page": "List of fatal bear attacks in North America",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '2010s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sourceMountain": 0.1,
+                        "http://dbpedia.org/property/sourceLocation": 0.1,
+                        "http://dbpedia.org/ontology/sourcePlace": 0.1
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '2010s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/northeast": 0.06,
+                        "http://dbpedia.org/property/capital": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '2000s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.1,
+                        "http://dbpedia.org/ontology/deathPlace": 0.1
+                    },
+                    "subject": "Name, age, gender",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/northwest": 0.1,
+                        "http://dbpedia.org/property/southwest": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.1,
+                        "http://dbpedia.org/property/starring": 0.1
+                    },
+                    "subject": "Description",
+                    "object": "Name, age, gender"
+                }
+            ],
+            "table": "Unnamed table in section '2000s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.12,
+                        "http://dbpedia.org/ontology/province": 0.12,
+                        "http://dbpedia.org/ontology/inflow": 0.12,
+                        "http://dbpedia.org/property/inflow": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mouth": 0.12,
+                        "http://dbpedia.org/ontology/riverMouth": 0.12
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.08,
+                        "http://dbpedia.org/property/nearestCity": 0.08
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mouthPlace": 0.08,
+                        "http://dbpedia.org/ontology/mouthMountain": 0.08
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank3Info": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section '1990s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/east": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/settlements": 0.33,
+                        "http://dbpedia.org/property/location": 0.33
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1980s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1970s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1970s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1970s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1960s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1960s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Wild",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1960s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1950s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1950s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1940s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1940s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1930s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section '1930s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Species",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/governingBody": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section '1920s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1910s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1900s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1890s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1880s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1880s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1880s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1870s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1860s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1850s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '1830s'",
+            "colums": [
+                "Name, age, gender",
+                "Date",
+                "Type",
+                "Location",
+                "Description"
+            ]
+        }
+    ]
+}

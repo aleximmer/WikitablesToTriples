@@ -1,0 +1,212 @@
+{
+    "no. of tables": 3,
+    "page": "List of photo-sharing websites",
+    "tables": [
+        {
+            "colums": [
+                "Name",
+                "Location / Owner / Hoster",
+                "Description/Focus/Registration requirements",
+                "",
+                "",
+                "",
+                "Other",
+                "Registered users",
+                "Storage Space Allowed Per User (standard)",
+                "Global Alexa[1] page ranking"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "object": "Location / Owner / Hoster",
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.17,
+                        "http://dbpedia.org/property/author": 0.04,
+                        "http://dbpedia.org/ontology/developer": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.21,
+                        "http://dbpedia.org/ontology/owningCompany": 0.04,
+                        "http://dbpedia.org/property/developer": 0.08,
+                        "http://dbpedia.org/ontology/author": 0.04
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Description/Focus/Registration requirements",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/property/owner": 0.04,
+                        "http://dbpedia.org/property/developer": 0.04
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "",
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.04,
+                        "http://dbpedia.org/property/commercial": 0.17
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "",
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.04,
+                        "http://dbpedia.org/property/commercial": 0.17
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "",
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.04,
+                        "http://dbpedia.org/property/commercial": 0.17
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Storage Space Allowed Per User (standard)",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.04,
+                        "http://dbpedia.org/property/developer": 0.04
+                    }
+                },
+                {
+                    "subject": "Location / Owner / Hoster",
+                    "object": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.04,
+                        "http://dbpedia.org/ontology/subsidiary": 0.04
+                    }
+                },
+                {
+                    "subject": "Storage Space Allowed Per User (standard)",
+                    "object": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.04,
+                        "http://dbpedia.org/ontology/subsidiary": 0.04
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Active photo-sharing websites'"
+        },
+        {
+            "colums": [
+                "Name",
+                "Location/Owner\n(if any)",
+                "Description/Focus/Registration requirements",
+                "Date closed",
+                "Status/Notes",
+                "Registered users",
+                "Storage Space Allowed Per User (standard)",
+                "Global Alexa[1] page ranking"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "object": "Location/Owner\n(if any)",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.08,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/property/developer": 0.08
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Defunct photo-sharing websites'"
+        },
+        {
+            "colums": [
+                "Name",
+                "File formats",
+                "Upload",
+                "Folder/ album structure",
+                "Limitations",
+                "IPTC support",
+                "Tags/ keywords",
+                "Comments",
+                "Rating",
+                "Download originals",
+                "Notes",
+                "Geo- tagging",
+                "Friendly URLs",
+                "API",
+                "Custom layout",
+                "Subscriptions"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "object": "IPTC support",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.1
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Tags/ keywords",
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.2,
+                        "http://dbpedia.org/property/commercial": 0.5
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Comments",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.3
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Rating",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.2
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Download originals",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.2
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Notes",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.1
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Geo- tagging",
+                    "predicates": {
+                        "http://dbpedia.org/property/registration": 0.1,
+                        "http://dbpedia.org/property/commercial": 0.4
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Friendly URLs",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.1
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "API",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.2
+                    }
+                },
+                {
+                    "subject": "Name",
+                    "object": "Custom layout",
+                    "predicates": {
+                        "http://dbpedia.org/property/commercial": 0.2
+                    }
+                }
+            ],
+            "table": "Unnamed table in section 'Comparison of photo-sharing websites'"
+        }
+    ]
+}

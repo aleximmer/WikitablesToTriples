@@ -1,0 +1,180 @@
+{
+    "page": "List of American films of 1961",
+    "tables": [
+        {
+            "predicates": [],
+            "colums": [
+                "Rank",
+                "Title",
+                "Studio",
+                "Gross"
+            ],
+            "table": "Unnamed table in section 'Top grossing films (U.S.)'"
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/cinematography": 0.03,
+                        "http://dbpedia.org/property/director": 0.7,
+                        "http://dbpedia.org/ontology/starring": 0.03,
+                        "http://dbpedia.org/ontology/producer": 0.13,
+                        "http://dbpedia.org/ontology/writer": 0.13,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/ontology/director": 0.73
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/starring": 0.53,
+                        "http://dbpedia.org/property/director": 0.07,
+                        "http://dbpedia.org/property/voiceActor": 0.03,
+                        "http://dbpedia.org/ontology/writer": 0.07,
+                        "http://dbpedia.org/property/writer": 0.03,
+                        "http://dbpedia.org/ontology/director": 0.07,
+                        "http://dbpedia.org/ontology/starring": 0.63
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/property/writer": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/portrayer": 0.03,
+                        "http://dbpedia.org/ontology/portrayer": 0.03
+                    },
+                    "subject": "Note",
+                    "object": "Cast"
+                }
+            ],
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Genre",
+                "Note"
+            ],
+            "table": "Unnamed table in section 'C-I'"
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/starring": 0.03,
+                        "http://dbpedia.org/property/director": 0.79,
+                        "http://dbpedia.org/ontology/producer": 0.21,
+                        "http://dbpedia.org/ontology/writer": 0.21,
+                        "http://dbpedia.org/property/writer": 0.03,
+                        "http://dbpedia.org/ontology/director": 0.79,
+                        "http://dbpedia.org/ontology/starring": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/starring": 0.74,
+                        "http://dbpedia.org/ontology/starring": 0.76,
+                        "http://dbpedia.org/property/narrator": 0.03,
+                        "http://dbpedia.org/ontology/producer": 0.03,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/ontology/narrator": 0.03,
+                        "http://dbpedia.org/ontology/director": 0.05,
+                        "http://dbpedia.org/property/director": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.03,
+                        "http://dbpedia.org/ontology/writer": 0.03,
+                        "http://dbpedia.org/property/producer": 0.03,
+                        "http://dbpedia.org/property/writer": 0.05
+                    },
+                    "subject": "Title",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.03
+                    },
+                    "subject": "Cast",
+                    "object": "Title"
+                }
+            ],
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Genre",
+                "Note"
+            ],
+            "table": "Unnamed table in section 'I-R'"
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.92,
+                        "http://dbpedia.org/ontology/starring": 0.04,
+                        "http://dbpedia.org/ontology/producer": 0.36,
+                        "http://dbpedia.org/ontology/writer": 0.28,
+                        "http://dbpedia.org/ontology/director": 0.92,
+                        "http://dbpedia.org/property/writer": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/starring": 0.76,
+                        "http://dbpedia.org/ontology/starring": 0.84,
+                        "http://dbpedia.org/property/narrator": 0.04,
+                        "http://dbpedia.org/ontology/producer": 0.04,
+                        "http://dbpedia.org/ontology/writer": 0.04,
+                        "http://dbpedia.org/ontology/narrator": 0.04,
+                        "http://dbpedia.org/ontology/director": 0.08,
+                        "http://dbpedia.org/property/director": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Cast"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/distributor": 0.08,
+                        "http://dbpedia.org/ontology/writer": 0.04,
+                        "http://dbpedia.org/property/writer": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Note"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.08
+                    },
+                    "subject": "Cast",
+                    "object": "Genre"
+                }
+            ],
+            "colums": [
+                "Title",
+                "Director",
+                "Cast",
+                "Genre",
+                "Note"
+            ],
+            "table": "Unnamed table in section 'S-Z'"
+        }
+    ],
+    "no. of tables": 5
+}

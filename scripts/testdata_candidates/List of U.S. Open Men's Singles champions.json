@@ -1,0 +1,258 @@
+{
+    "no. of tables": 7,
+    "page": "List of US Open men's singles champions",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/championInDoubleMale": 0.06,
+                        "http://dbpedia.org/ontology/championInSingleMale": 0.07
+                    },
+                    "subject": "Year[d]",
+                    "object": "Champion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/championInDoubleMale": 0.01
+                    },
+                    "subject": "Year[d]",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.16,
+                        "http://dbpedia.org/property/deathPlace": 0.26,
+                        "http://dbpedia.org/property/residence": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.63,
+                        "http://dbpedia.org/ontology/deathPlace": 0.55,
+                        "http://dbpedia.org/ontology/residence": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.28,
+                        "http://dbpedia.org/property/birthPlace": 0.52,
+                        "http://dbpedia.org/ontology/country": 0.76
+                    },
+                    "subject": "Champion",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.16,
+                        "http://dbpedia.org/property/deathPlace": 0.26,
+                        "http://dbpedia.org/property/residence": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.63,
+                        "http://dbpedia.org/ontology/deathPlace": 0.55,
+                        "http://dbpedia.org/ontology/residence": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.28,
+                        "http://dbpedia.org/property/birthPlace": 0.52,
+                        "http://dbpedia.org/ontology/country": 0.76
+                    },
+                    "subject": "Champion",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.08,
+                        "http://dbpedia.org/property/deathPlace": 0.28,
+                        "http://dbpedia.org/property/residence": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.4,
+                        "http://dbpedia.org/ontology/deathPlace": 0.36,
+                        "http://dbpedia.org/ontology/residence": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.13,
+                        "http://dbpedia.org/property/birthPlace": 0.38,
+                        "http://dbpedia.org/ontology/country": 0.59
+                    },
+                    "subject": "Runner-up",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.08,
+                        "http://dbpedia.org/property/deathPlace": 0.28,
+                        "http://dbpedia.org/property/residence": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.4,
+                        "http://dbpedia.org/ontology/deathPlace": 0.36,
+                        "http://dbpedia.org/ontology/residence": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.13,
+                        "http://dbpedia.org/property/birthPlace": 0.38,
+                        "http://dbpedia.org/ontology/country": 0.59
+                    },
+                    "subject": "Runner-up",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Champions'",
+            "colums": [
+                "Year[d]",
+                "Country",
+                "Champion",
+                "Country",
+                "Runner-up",
+                "Score in the final[3][4]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.17,
+                        "http://dbpedia.org/property/residence": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.3,
+                        "http://dbpedia.org/property/birthPlace": 0.13,
+                        "http://dbpedia.org/ontology/country": 0.6
+                    },
+                    "subject": "Champion",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.17,
+                        "http://dbpedia.org/property/residence": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.3,
+                        "http://dbpedia.org/property/birthPlace": 0.13,
+                        "http://dbpedia.org/ontology/country": 0.6
+                    },
+                    "subject": "Champion",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.09,
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/residence": 0.11,
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.19
+                    },
+                    "subject": "Runner-up",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.09,
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/residence": 0.11,
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.19
+                    },
+                    "subject": "Runner-up",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Champions'",
+            "colums": [
+                "Year[d]",
+                "Country",
+                "Champion",
+                "Country",
+                "Runner-up",
+                "Score in the final[3][4]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prowins": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Amateur Era"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prowins": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "All-time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/championInDoubleMale": 0.23,
+                        "http://dbpedia.org/ontology/championInMixedDouble": 0.11,
+                        "http://dbpedia.org/ontology/championInSingleMale": 1.0
+                    },
+                    "subject": "Years",
+                    "object": "Player"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics'",
+            "colums": [
+                "Player",
+                "Amateur Era",
+                "Open Era",
+                "All-time",
+                "Years"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07
+                    },
+                    "subject": "Country",
+                    "object": "Amateur Era"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.07,
+                        "http://dbpedia.org/property/areaMagnitude": 0.13,
+                        "http://dbpedia.org/property/areaRank": 0.07,
+                        "http://dbpedia.org/property/longd": 0.07
+                    },
+                    "subject": "Country",
+                    "object": "Open Era"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.07,
+                        "http://dbpedia.org/property/value": 0.07,
+                        "http://dbpedia.org/property/areaMagnitude": 0.13
+                    },
+                    "subject": "Country",
+                    "object": "All-time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "First title",
+                    "object": "Last title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Last title",
+                    "object": "First title"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics'",
+            "colums": [
+                "Country",
+                "Amateur Era",
+                "Open Era",
+                "All-time",
+                "First title",
+                "Last title"
+            ]
+        }
+    ]
+}

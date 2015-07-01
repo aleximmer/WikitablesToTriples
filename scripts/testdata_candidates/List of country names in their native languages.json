@@ -1,0 +1,1737 @@
+{
+    "no. of tables": 23,
+    "page": "List of countries and dependencies and their capitals in native languages",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.93,
+                        "http://dbpedia.org/property/capital": 0.93,
+                        "http://dbpedia.org/ontology/largestCity": 0.07
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conventionalLongName": 0.14,
+                        "http://dbpedia.org/property/commonName": 0.43,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5,
+                        "http://xmlns.com/foaf/0.1/name": 0.43,
+                        "http://dbpedia.org/property/voy": 0.07,
+                        "http://dbpedia.org/ontology/longName": 0.14,
+                        "http://dbpedia.org/property/name": 0.07
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.71,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.64,
+                        "http://dbpedia.org/property/officialLanguages": 0.43
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.21,
+                        "http://dbpedia.org/property/subdivisionName": 0.29,
+                        "http://dbpedia.org/property/stateParty": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.71
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.21
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.36,
+                        "http://dbpedia.org/property/center": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.5,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5,
+                        "http://dbpedia.org/property/officialName": 0.07,
+                        "http://dbpedia.org/property/nativeName": 0.14,
+                        "http://dbpedia.org/property/subdivisionName": 0.14,
+                        "http://dbpedia.org/property/name": 0.29
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.21,
+                        "http://dbpedia.org/property/states": 0.14
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.07,
+                        "http://dbpedia.org/property/text": 0.07
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (endonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.9,
+                        "http://dbpedia.org/property/capital": 0.7,
+                        "http://dbpedia.org/ontology/largestCity": 0.15,
+                        "http://dbpedia.org/property/largestCity": 0.15
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/commonName": 0.05,
+                        "http://dbpedia.org/property/conventionalLongName": 0.05,
+                        "http://dbpedia.org/ontology/longName": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.05
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.05
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.05,
+                        "http://dbpedia.org/ontology/language": 0.8,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.75,
+                        "http://dbpedia.org/property/officialLanguages": 0.7
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.1,
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.9
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stateParty": 0.05,
+                        "http://dbpedia.org/property/pushpinMap": 0.05
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/officialName": 0.05,
+                        "http://dbpedia.org/property/name": 0.1,
+                        "http://xmlns.com/foaf/0.1/name": 0.15
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.4,
+                        "http://dbpedia.org/property/region": 0.05,
+                        "http://dbpedia.org/property/states": 0.1
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.86,
+                        "http://dbpedia.org/property/capital": 0.71,
+                        "http://dbpedia.org/ontology/largestCity": 0.1,
+                        "http://dbpedia.org/property/largestCity": 0.1
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.24,
+                        "http://dbpedia.org/property/commonName": 0.19,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/portal": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.19
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/usualLanguages": 0.05,
+                        "http://dbpedia.org/property/languages": 0.05,
+                        "http://dbpedia.org/ontology/language": 0.62,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.57,
+                        "http://dbpedia.org/property/officialLanguages": 0.43
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.19,
+                        "http://dbpedia.org/ontology/isPartOf": 0.14,
+                        "http://dbpedia.org/ontology/timeZone": 0.05,
+                        "http://dbpedia.org/property/stateParty": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.62
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapCaption": 0.05,
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/property/mapLoc": 0.05,
+                        "http://dbpedia.org/property/pushpinMap": 0.19
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.1,
+                        "http://dbpedia.org/property/imageCaption": 0.05,
+                        "http://xmlns.com/foaf/0.1/name": 0.24,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.29,
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/property/nativeName": 0.05,
+                        "http://dbpedia.org/property/officialName": 0.1,
+                        "http://dbpedia.org/property/name": 0.1
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.24,
+                        "http://dbpedia.org/property/states": 0.1
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.8,
+                        "http://dbpedia.org/property/capital": 0.8,
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.4
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.6,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.6,
+                        "http://dbpedia.org/property/officialLanguages": 0.8
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.4,
+                        "http://dbpedia.org/ontology/country": 0.8
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.4,
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/property/name": 0.4,
+                        "http://xmlns.com/foaf/0.1/name": 0.4
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 1.0,
+                        "http://dbpedia.org/property/capital": 0.88,
+                        "http://dbpedia.org/ontology/largestCity": 0.38,
+                        "http://dbpedia.org/property/largestCity": 0.12
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.38,
+                        "http://dbpedia.org/property/commonName": 0.25,
+                        "http://dbpedia.org/property/portal": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.12,
+                        "http://dbpedia.org/ontology/language": 0.75,
+                        "http://dbpedia.org/property/label": 0.12,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.75,
+                        "http://dbpedia.org/property/officialLanguages": 0.5
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.38,
+                        "http://dbpedia.org/property/stateParty": 0.12,
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/property/pushpinMap": 0.25
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://xmlns.com/foaf/0.1/name": 0.38,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5,
+                        "http://dbpedia.org/property/officialName": 0.25,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/property/name": 0.12
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.5,
+                        "http://dbpedia.org/property/states": 0.38
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.57,
+                        "http://dbpedia.org/property/capital": 0.57,
+                        "http://dbpedia.org/ontology/largestCity": 0.29,
+                        "http://dbpedia.org/property/largestCity": 0.29
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.57,
+                        "http://dbpedia.org/property/commonName": 0.14,
+                        "http://dbpedia.org/ontology/longName": 0.14,
+                        "http://dbpedia.org/property/conventionalLongName": 0.14,
+                        "http://xmlns.com/foaf/0.1/name": 0.14
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.14
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.71,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.57,
+                        "http://dbpedia.org/property/officialLanguages": 0.29
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.29,
+                        "http://dbpedia.org/property/overseasCollectivity": 0.14,
+                        "http://dbpedia.org/ontology/region": 0.14,
+                        "http://dbpedia.org/ontology/department": 0.14,
+                        "http://dbpedia.org/property/region": 0.14,
+                        "http://dbpedia.org/property/department": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.29
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.14
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/officialName": 0.14,
+                        "http://dbpedia.org/property/communeCentre": 0.14,
+                        "http://xmlns.com/foaf/0.1/name": 0.57,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.57,
+                        "http://dbpedia.org/property/arrondissement": 0.14,
+                        "http://dbpedia.org/property/location": 0.43,
+                        "http://dbpedia.org/property/name": 0.43
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.29,
+                        "http://dbpedia.org/property/states": 0.29
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.69,
+                        "http://dbpedia.org/property/capital": 0.62,
+                        "http://dbpedia.org/ontology/largestCity": 0.06,
+                        "http://dbpedia.org/property/largestCity": 0.06
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.19,
+                        "http://dbpedia.org/property/commonName": 0.06,
+                        "http://dbpedia.org/property/centre": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.06,
+                        "http://dbpedia.org/property/capital": 0.06
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.06,
+                        "http://dbpedia.org/ontology/language": 0.75,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.69,
+                        "http://dbpedia.org/property/officialLanguages": 0.44
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/ontology/region": 0.06,
+                        "http://dbpedia.org/ontology/department": 0.06,
+                        "http://dbpedia.org/property/region": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.19,
+                        "http://dbpedia.org/property/department": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.62
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.06,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.12,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/property/nativeName": 0.06,
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://dbpedia.org/property/name": 0.06
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.06,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.06,
+                        "http://dbpedia.org/property/officialLanguages": 0.06
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06
+                    },
+                    "subject": "Capital (endonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Capital (endonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.12,
+                        "http://dbpedia.org/property/states": 0.06
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.75,
+                        "http://dbpedia.org/property/capital": 0.5,
+                        "http://dbpedia.org/ontology/largestCity": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25,
+                        "http://dbpedia.org/property/commonName": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.25,
+                        "http://dbpedia.org/ontology/language": 0.75,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.75,
+                        "http://dbpedia.org/property/officialLanguages": 0.75
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stateParty": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.75
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.25
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5,
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/property/name": 0.5,
+                        "http://xmlns.com/foaf/0.1/name": 0.5
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.25
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.89,
+                        "http://dbpedia.org/property/capital": 0.78
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.22,
+                        "http://dbpedia.org/property/commonName": 0.11,
+                        "http://xmlns.com/foaf/0.1/name": 0.11
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.11,
+                        "http://dbpedia.org/ontology/language": 0.78,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.67,
+                        "http://dbpedia.org/property/officialLanguages": 0.44
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.11,
+                        "http://dbpedia.org/property/subdivisionName": 0.33,
+                        "http://dbpedia.org/ontology/country": 0.78
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.11
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://xmlns.com/foaf/0.1/name": 0.22,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.33,
+                        "http://dbpedia.org/property/nativeName": 0.11,
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/property/name": 0.11
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nation": 0.11,
+                        "http://dbpedia.org/ontology/spokenIn": 0.78,
+                        "http://dbpedia.org/property/states": 0.33
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 1.0,
+                        "http://dbpedia.org/property/capital": 1.0
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.25,
+                        "http://dbpedia.org/ontology/language": 0.75,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.5,
+                        "http://dbpedia.org/property/officialLanguages": 0.5
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.25,
+                        "http://dbpedia.org/property/states": 0.25
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.67,
+                        "http://dbpedia.org/property/capital": 0.67,
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/largestCity": 0.17,
+                        "http://dbpedia.org/property/largestCity": 0.17
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.67,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.5,
+                        "http://dbpedia.org/property/officialLanguages": 0.17
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.17,
+                        "http://dbpedia.org/property/subdivisionName": 0.17,
+                        "http://dbpedia.org/ontology/country": 0.83
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/translitLang": 0.17
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.33,
+                        "http://dbpedia.org/property/states": 0.17
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.67,
+                        "http://dbpedia.org/property/capital": 0.67,
+                        "http://dbpedia.org/ontology/largestCity": 0.33,
+                        "http://dbpedia.org/property/largestCity": 0.11
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.11,
+                        "http://dbpedia.org/property/commonName": 0.11,
+                        "http://xmlns.com/foaf/0.1/name": 0.11
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.11,
+                        "http://dbpedia.org/ontology/language": 0.89,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.78,
+                        "http://dbpedia.org/property/officialLanguages": 0.67
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.11,
+                        "http://dbpedia.org/property/subdivisionName": 0.33,
+                        "http://dbpedia.org/property/stateParty": 0.22,
+                        "http://dbpedia.org/ontology/country": 0.89
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.22,
+                        "http://dbpedia.org/property/imageCaption": 0.11,
+                        "http://dbpedia.org/property/nativeName": 0.11,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.22,
+                        "http://xmlns.com/foaf/0.1/name": 0.33,
+                        "http://dbpedia.org/property/officialName": 0.11,
+                        "http://dbpedia.org/property/name": 0.11
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.56,
+                        "http://dbpedia.org/property/states": 0.44
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.86,
+                        "http://dbpedia.org/property/capital": 0.76,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.24,
+                        "http://dbpedia.org/property/largestCity": 0.14
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.05,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/longName": 0.05,
+                        "http://dbpedia.org/property/commonName": 0.24,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.29,
+                        "http://xmlns.com/foaf/0.1/name": 0.24,
+                        "http://dbpedia.org/property/conventionalLongName": 0.05
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.62,
+                        "http://dbpedia.org/property/officialLanguage": 0.05,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.52,
+                        "http://dbpedia.org/property/officialLanguages": 0.48
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.05,
+                        "http://dbpedia.org/property/department": 0.05,
+                        "http://dbpedia.org/property/overseasCollectivity": 0.05,
+                        "http://dbpedia.org/ontology/region": 0.05,
+                        "http://dbpedia.org/property/stateParty": 0.1,
+                        "http://dbpedia.org/ontology/department": 0.05,
+                        "http://dbpedia.org/property/region": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.71,
+                        "http://dbpedia.org/property/subdivisionName": 0.14,
+                        "http://dbpedia.org/ontology/archipelago": 0.05,
+                        "http://dbpedia.org/property/archipelago": 0.05
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.1
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.19,
+                        "http://dbpedia.org/property/centre": 0.05,
+                        "http://dbpedia.org/property/pushpinLabel": 0.1,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.24,
+                        "http://xmlns.com/foaf/0.1/name": 0.24,
+                        "http://dbpedia.org/property/officialName": 0.1,
+                        "http://dbpedia.org/property/name": 0.14
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.33,
+                        "http://dbpedia.org/property/states": 0.29
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nation": 0.05
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (endonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.75,
+                        "http://dbpedia.org/property/capital": 0.5,
+                        "http://dbpedia.org/ontology/largestCity": 0.19,
+                        "http://dbpedia.org/property/largestCity": 0.06
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.19,
+                        "http://dbpedia.org/property/nativeName": 0.06,
+                        "http://dbpedia.org/property/commonName": 0.12,
+                        "http://dbpedia.org/property/centre": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.19
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.06,
+                        "http://dbpedia.org/property/capital": 0.06
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.62,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.62,
+                        "http://dbpedia.org/property/officialLanguages": 0.56
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.31,
+                        "http://dbpedia.org/property/stateParty": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.56
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/property/pushpinMap": 0.12
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/property/officialName": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.12
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demographics1Info": 0.06
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.31,
+                        "http://dbpedia.org/property/states": 0.25
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 1.0,
+                        "http://dbpedia.org/property/capital": 1.0
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.75,
+                        "http://dbpedia.org/property/capital": 0.67,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/property/largestCity": 0.17,
+                        "http://dbpedia.org/property/largestMetropolitanArea": 0.08,
+                        "http://dbpedia.org/ontology/largestCity": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.42,
+                        "http://dbpedia.org/property/country": 0.17,
+                        "http://dbpedia.org/property/commonName": 0.17,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://xmlns.com/foaf/0.1/name": 0.17
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.08
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.33,
+                        "http://dbpedia.org/ontology/language": 0.75,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.58,
+                        "http://dbpedia.org/property/officialLanguages": 0.42
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.17,
+                        "http://dbpedia.org/property/subdivisionName": 0.33,
+                        "http://dbpedia.org/property/stateParty": 0.17,
+                        "http://dbpedia.org/ontology/country": 0.58
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.08
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/property/nativeName": 0.17,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.42,
+                        "http://xmlns.com/foaf/0.1/name": 0.33,
+                        "http://dbpedia.org/property/officialName": 0.08,
+                        "http://dbpedia.org/property/name": 0.08
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demographics1Info": 0.08
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.25,
+                        "http://dbpedia.org/property/states": 0.08
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 1.0,
+                        "http://dbpedia.org/property/capital": 1.0
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 1.0,
+                        "http://dbpedia.org/ontology/officialLanguage": 1.0,
+                        "http://dbpedia.org/property/officialLanguages": 1.0
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 1.0
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'Q'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.6,
+                        "http://dbpedia.org/property/capital": 0.6,
+                        "http://dbpedia.org/ontology/largestCity": 0.4
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.4
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.2
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.6,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.6,
+                        "http://dbpedia.org/property/officialLanguages": 0.6
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/region": 0.2,
+                        "http://dbpedia.org/ontology/department": 0.2,
+                        "http://dbpedia.org/property/region": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.6,
+                        "http://dbpedia.org/property/department": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.8
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://xmlns.com/foaf/0.1/name": 0.6,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/nativeName": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/property/officialName": 0.2,
+                        "http://dbpedia.org/property/name": 0.2
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.4
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.8,
+                        "http://dbpedia.org/property/capital": 0.74,
+                        "http://dbpedia.org/ontology/map": 0.03,
+                        "http://dbpedia.org/ontology/largestCity": 0.23,
+                        "http://dbpedia.org/property/largestCity": 0.17
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14,
+                        "http://dbpedia.org/property/commonName": 0.03,
+                        "http://dbpedia.org/property/conventionalLongName": 0.03,
+                        "http://dbpedia.org/ontology/longName": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/languages": 0.03,
+                        "http://dbpedia.org/ontology/language": 0.69,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.66,
+                        "http://dbpedia.org/property/officialLanguages": 0.51
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.14,
+                        "http://dbpedia.org/property/subdivisionName": 0.23,
+                        "http://dbpedia.org/property/stateParty": 0.06,
+                        "http://dbpedia.org/property/overseasCollectivity": 0.03,
+                        "http://dbpedia.org/ontology/country": 0.63
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.03
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commons": 0.03,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/property/imageCaption": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.26,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/officialName": 0.09,
+                        "http://dbpedia.org/property/name": 0.17
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.4,
+                        "http://dbpedia.org/property/region": 0.03,
+                        "http://dbpedia.org/property/states": 0.11
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.79,
+                        "http://dbpedia.org/property/capital": 0.79,
+                        "http://dbpedia.org/ontology/largestCity": 0.21,
+                        "http://dbpedia.org/property/largestCity": 0.21
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07,
+                        "http://dbpedia.org/property/nativeName": 0.07,
+                        "http://dbpedia.org/property/commonName": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.14
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.07,
+                        "http://dbpedia.org/property/capital": 0.07
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.36,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.36,
+                        "http://dbpedia.org/property/officialLanguages": 0.36
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/ontology/timeZone": 0.07,
+                        "http://dbpedia.org/property/stateParty": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.14,
+                        "http://dbpedia.org/property/subdivisionType": 0.07,
+                        "http://dbpedia.org/ontology/country": 0.71
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.07
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.14,
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/property/name": 0.07,
+                        "http://xmlns.com/foaf/0.1/name": 0.07
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.07
+                    },
+                    "subject": "Capital (endonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.07
+                    },
+                    "subject": "Capital (endonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.43,
+                        "http://dbpedia.org/property/states": 0.14
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.75,
+                        "http://dbpedia.org/property/capital": 0.75,
+                        "http://dbpedia.org/ontology/largestCity": 0.12
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.88,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.75,
+                        "http://dbpedia.org/property/officialLanguages": 0.75
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.25,
+                        "http://dbpedia.org/property/subdivisionName": 0.38,
+                        "http://dbpedia.org/ontology/country": 0.62
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.12,
+                        "http://dbpedia.org/property/officialName": 0.12,
+                        "http://xmlns.com/foaf/0.1/name": 0.12
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.25,
+                        "http://dbpedia.org/property/states": 0.25
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.75,
+                        "http://dbpedia.org/property/capital": 0.75,
+                        "http://dbpedia.org/ontology/largestCity": 0.25,
+                        "http://dbpedia.org/property/largestCity": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.5,
+                        "http://dbpedia.org/property/commonName": 0.25,
+                        "http://xmlns.com/foaf/0.1/name": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.5,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.25,
+                        "http://dbpedia.org/property/officialLanguages": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.75
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.25
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.25,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25,
+                        "http://dbpedia.org/property/vie": 0.25,
+                        "http://dbpedia.org/property/nativeName": 0.25,
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/property/name": 0.25
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Capital (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.5
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.5,
+                        "http://dbpedia.org/property/capital": 0.5,
+                        "http://dbpedia.org/ontology/largestCity": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Capital (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.25
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Country (endonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/language": 0.5,
+                        "http://dbpedia.org/ontology/officialLanguage": 0.5,
+                        "http://dbpedia.org/property/officialLanguages": 0.5
+                    },
+                    "subject": "Country (exonym)",
+                    "object": "Official or native language(s) (alphabet/script)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "Capital (exonym)",
+                    "object": "Country (exonym)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/spokenIn": 0.25
+                    },
+                    "subject": "Official or native language(s) (alphabet/script)",
+                    "object": "Country (exonym)"
+                }
+            ],
+            "table": "Unnamed table in section 'W, Y, Z'",
+            "colums": [
+                "Country (exonym)",
+                "Capital (exonym)",
+                "Country (endonym)",
+                "Capital (endonym)",
+                "Official or native language(s) (alphabet/script)"
+            ]
+        }
+    ]
+}

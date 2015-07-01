@@ -1,0 +1,28 @@
+{
+    "page": "List of action anime",
+    "no. of tables": 1,
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of action anime\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/published": 0.02,
+                        "http://dbpedia.org/property/recorded": 0.02,
+                        "http://dbpedia.org/property/last": 0.02,
+                        "http://dbpedia.org/property/first": 0.07
+                    },
+                    "subject": "English name",
+                    "object": "Year"
+                }
+            ],
+            "colums": [
+                "English name",
+                "Japanese name",
+                "Type",
+                "Year",
+                "Regions"
+            ]
+        }
+    ]
+}

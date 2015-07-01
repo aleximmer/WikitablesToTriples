@@ -1,0 +1,468 @@
+{
+    "no. of tables": 3,
+    "page": "List of television stations in Florida",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11,
+                        "http://dbpedia.org/property/southeast": 0.02,
+                        "http://dbpedia.org/property/northeast": 0.02,
+                        "http://dbpedia.org/property/west": 0.01
+                    },
+                    "subject": "Area served",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.01,
+                        "http://dbpedia.org/property/homicide": 0.01,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/decRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/blank2Info": 0.01,
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.02,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.02,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/novLowF": 0.01,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/arson": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.02,
+                        "http://dbpedia.org/property/marLowF": 0.01,
+                        "http://dbpedia.org/property/janRecordLowF": 0.02,
+                        "http://dbpedia.org/property/yearRecordLowF": 0.02,
+                        "http://dbpedia.org/property/blank3Info": 0.01,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "Area served",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/width": 0.01,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.02,
+                        "http://dbpedia.org/property/febRecordLowF": 0.01,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.01
+                    },
+                    "subject": "Area served",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "City of license",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.03,
+                        "http://dbpedia.org/property/homicide": 0.01,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/janRecordLowF": 0.01,
+                        "http://dbpedia.org/property/aprLowF": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/novRecordLowF": 0.02,
+                        "http://dbpedia.org/property/junRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.02,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.01,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/yearRecordLowF": 0.01,
+                        "http://dbpedia.org/property/blank3Info": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.02
+                    },
+                    "subject": "City of license",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.02,
+                        "http://dbpedia.org/property/sepRecordLowF": 0.01,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/elevation": 0.02,
+                        "http://dbpedia.org/property/febRecordLowF": 0.02,
+                        "http://dbpedia.org/property/junRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowF": 0.01,
+                        "http://dbpedia.org/property/marRecordLowF": 0.01,
+                        "http://dbpedia.org/property/lats": 0.01,
+                        "http://dbpedia.org/property/aprRecordLowF": 0.02,
+                        "http://dbpedia.org/property/octRecordLowF": 0.02,
+                        "http://dbpedia.org/property/elevationM": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.02,
+                        "http://dbpedia.org/property/areaWaterSqMi": 0.01
+                    },
+                    "subject": "City of license",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.2,
+                        "http://dbpedia.org/property/location": 0.88,
+                        "http://dbpedia.org/property/city": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.84
+                    },
+                    "subject": "Callsign",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.43,
+                        "http://dbpedia.org/property/location": 0.88,
+                        "http://dbpedia.org/property/city": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.89
+                    },
+                    "subject": "Callsign",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/virtual": 0.01,
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.88,
+                        "http://dbpedia.org/property/digital": 0.19,
+                        "http://dbpedia.org/property/stationBranding": 0.03
+                    },
+                    "subject": "Callsign",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.13,
+                        "http://dbpedia.org/property/digital": 0.93,
+                        "http://dbpedia.org/property/stationBranding": 0.02
+                    },
+                    "subject": "Callsign",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.11,
+                        "http://dbpedia.org/property/affiliations": 0.35,
+                        "http://dbpedia.org/property/network": 0.01,
+                        "http://dbpedia.org/ontology/owningCompany": 0.1,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.6,
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/property/formerAffiliations": 0.11
+                    },
+                    "subject": "Callsign",
+                    "object": "Network"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.01,
+                        "http://dbpedia.org/property/affiliations": 0.03,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.05,
+                        "http://dbpedia.org/property/sisterStations": 0.01,
+                        "http://dbpedia.org/ontology/owningCompany": 0.01,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Callsign",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headquarters": 0.01
+                    },
+                    "subject": "Network",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/headquarter": 0.01,
+                        "http://dbpedia.org/property/headquarters": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "VC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "RF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sisterStations": 0.01,
+                        "http://dbpedia.org/ontology/sisterStation": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Callsign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.12,
+                        "http://dbpedia.org/property/affiliations": 0.01,
+                        "http://dbpedia.org/property/network": 0.05,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.08,
+                        "http://dbpedia.org/ontology/owningCompany": 0.08,
+                        "http://dbpedia.org/property/affiliation": 0.01,
+                        "http://dbpedia.org/property/sisterNames": 0.12,
+                        "http://dbpedia.org/property/owner": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Network"
+                }
+            ],
+            "table": "Unnamed table in section 'Full-power stations'",
+            "colums": [
+                "Area served",
+                "City of license",
+                "VC",
+                "RF",
+                "Callsign",
+                "Network",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1,
+                        "http://dbpedia.org/property/south": 0.01,
+                        "http://dbpedia.org/property/northeast": 0.01,
+                        "http://dbpedia.org/property/southeast": 0.02
+                    },
+                    "subject": "Area served",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.03,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/blank5Info": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "Area served",
+                    "object": "Channel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "City of license",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationFt": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/blank5Info": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/junRecordLowF": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "City of license",
+                    "object": "Channel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.04,
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/property/city": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Callsign",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.07,
+                        "http://dbpedia.org/property/location": 0.28,
+                        "http://dbpedia.org/property/city": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.28
+                    },
+                    "subject": "Callsign",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/analog": 0.05,
+                        "http://dbpedia.org/ontology/formerChannel": 0.01,
+                        "http://dbpedia.org/property/formerChannelNumbers": 0.01,
+                        "http://dbpedia.org/property/digital": 0.01
+                    },
+                    "subject": "Callsign",
+                    "object": "Channel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.01,
+                        "http://dbpedia.org/property/affiliations": 0.16,
+                        "http://dbpedia.org/property/stationBranding": 0.01,
+                        "http://dbpedia.org/ontology/owningCompany": 0.02,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.16,
+                        "http://dbpedia.org/property/owner": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/formerAffiliations": 0.01
+                    },
+                    "subject": "Callsign",
+                    "object": "Network"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.01,
+                        "http://dbpedia.org/property/affiliations": 0.01,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.01,
+                        "http://dbpedia.org/property/formerAffiliations": 0.01,
+                        "http://dbpedia.org/property/stationBranding": 0.01
+                    },
+                    "subject": "Callsign",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/headquarters": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Network",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/headquarters": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/ontology/headquarter": 0.01
+                    },
+                    "subject": "Network",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Network",
+                    "object": "Callsign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.01,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.01
+                    },
+                    "subject": "Network",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "City of license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/sisterStation": 0.01,
+                        "http://dbpedia.org/property/affiliations": 0.01,
+                        "http://dbpedia.org/property/network": 0.01,
+                        "http://dbpedia.org/property/sisterNames": 0.01,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Network"
+                }
+            ],
+            "table": "Unnamed table in section 'Low-power broadcasting stations - LP, LD, CA, CD stations'",
+            "colums": [
+                "Area served",
+                "City of license",
+                "Channel",
+                "Callsign",
+                "Network",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.07
+                    },
+                    "subject": "Area served",
+                    "object": "Channel"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07
+                    },
+                    "subject": "Callsign",
+                    "object": "Area served"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/analog": 0.07
+                    },
+                    "subject": "Callsign",
+                    "object": "Channel"
+                }
+            ],
+            "table": "Unnamed table in section 'Translators'",
+            "colums": [
+                "Area served",
+                "Channel",
+                "Callsign",
+                "Network",
+                "Notes"
+            ]
+        }
+    ]
+}

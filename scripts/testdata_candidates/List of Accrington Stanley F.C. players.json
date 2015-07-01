@@ -1,0 +1,194 @@
+{
+    "no. of tables": 2,
+    "page": "List of Accrington Stanley F.C. players",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Key'",
+            "colums": [
+                "Symbol",
+                "Meaning"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.05,
+                        "http://dbpedia.org/property/nationalteam": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.22,
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Accrington career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.09,
+                        "http://dbpedia.org/property/nationalcaps": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/caps": 0.69
+                    },
+                    "subject": "Name",
+                    "object": "League Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.8,
+                        "http://dbpedia.org/property/nationalgoals": 0.24,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/height": 0.02,
+                        "http://dbpedia.org/ontology/number": 0.02,
+                        "http://dbpedia.org/property/clubnumber": 0.02,
+                        "http://dbpedia.org/property/caps": 0.4
+                    },
+                    "subject": "Name",
+                    "object": "League Goals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01
+                    },
+                    "subject": "Nationality",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pos": 0.32
+                    },
+                    "subject": "Nationality",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationCensusYear": 0.03,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.03,
+                        "http://dbpedia.org/property/worldCupFirst": 0.01,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.04,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Nationality",
+                    "object": "Accrington career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.01,
+                        "http://dbpedia.org/property/socks": 0.01,
+                        "http://dbpedia.org/property/sepLowC": 0.02,
+                        "http://dbpedia.org/property/octHighC": 0.01,
+                        "http://dbpedia.org/property/marLowC": 0.04,
+                        "http://dbpedia.org/property/worldCupApps": 0.02,
+                        "http://dbpedia.org/property/firstGame": 0.01,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/rightarm": 0.01,
+                        "http://dbpedia.org/property/no": 0.15,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/aprLowC": 0.03,
+                        "http://dbpedia.org/property/fifaMax": 0.02,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.01,
+                        "http://dbpedia.org/property/mayLowC": 0.01,
+                        "http://dbpedia.org/property/score": 0.08,
+                        "http://dbpedia.org/property/percentWater": 0.01,
+                        "http://dbpedia.org/property/eloRank": 0.03,
+                        "http://dbpedia.org/property/sepHighC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01,
+                        "http://dbpedia.org/property/decLowC": 0.03,
+                        "http://dbpedia.org/property/leftarm": 0.01,
+                        "http://dbpedia.org/property/yearHighC": 0.01,
+                        "http://dbpedia.org/property/filename": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/body": 0.01,
+                        "http://dbpedia.org/property/janHighC": 0.01,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/eloMin": 0.01,
+                        "http://dbpedia.org/property/janLowC": 0.03,
+                        "http://dbpedia.org/property/augHighC": 0.02,
+                        "http://dbpedia.org/property/julLowC": 0.02,
+                        "http://dbpedia.org/property/febHighC": 0.01,
+                        "http://dbpedia.org/property/aprHighC": 0.02,
+                        "http://dbpedia.org/property/julHighC": 0.02,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.01,
+                        "http://dbpedia.org/property/augLowC": 0.02,
+                        "http://dbpedia.org/property/octLowC": 0.01,
+                        "http://dbpedia.org/property/marHighC": 0.02,
+                        "http://dbpedia.org/property/regionalCupApps": 0.01,
+                        "http://dbpedia.org/property/firstLoss": 0.03,
+                        "http://dbpedia.org/property/caps": 0.16,
+                        "http://dbpedia.org/property/goals": 0.07,
+                        "http://dbpedia.org/property/populationDensityRank": 0.01,
+                        "http://dbpedia.org/property/decHighC": 0.01,
+                        "http://dbpedia.org/property/novHighC": 0.02,
+                        "http://dbpedia.org/property/junLowC": 0.02,
+                        "http://dbpedia.org/property/yearLowC": 0.02,
+                        "http://dbpedia.org/property/febLowC": 0.03,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "Nationality",
+                    "object": "League Apps"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/shorts": 0.04,
+                        "http://dbpedia.org/property/body": 0.01,
+                        "http://dbpedia.org/property/socks": 0.14,
+                        "http://dbpedia.org/property/janHighC": 0.01,
+                        "http://dbpedia.org/property/aprLowC": 0.03,
+                        "http://dbpedia.org/property/marLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/leftarm": 0.01,
+                        "http://dbpedia.org/property/regionalCupApps": 0.01,
+                        "http://dbpedia.org/property/janLowC": 0.03,
+                        "http://dbpedia.org/property/caps": 0.28,
+                        "http://dbpedia.org/property/augHighC": 0.01,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/utcOffset": 0.01,
+                        "http://dbpedia.org/property/febHighC": 0.01,
+                        "http://dbpedia.org/property/octLowC": 0.01,
+                        "http://dbpedia.org/property/julHighC": 0.01,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/largestLoss": 0.03,
+                        "http://dbpedia.org/property/rightarm": 0.01,
+                        "http://dbpedia.org/property/largestWin": 0.11,
+                        "http://dbpedia.org/property/firstGame": 0.13,
+                        "http://dbpedia.org/property/decLowC": 0.07,
+                        "http://dbpedia.org/property/firstLoss": 0.02,
+                        "http://dbpedia.org/property/no": 0.11,
+                        "http://dbpedia.org/property/fifaMax": 0.03,
+                        "http://dbpedia.org/property/goals": 0.28,
+                        "http://dbpedia.org/property/eloMax": 0.01,
+                        "http://dbpedia.org/property/sepHighC": 0.01,
+                        "http://dbpedia.org/property/score": 0.18,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/decHighC": 0.01,
+                        "http://dbpedia.org/property/yearLowC": 0.03,
+                        "http://dbpedia.org/property/febLowC": 0.03,
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/mayLowC": 0.01,
+                        "http://dbpedia.org/property/longd": 0.26
+                    },
+                    "subject": "Nationality",
+                    "object": "League Goals"
+                }
+            ],
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Nationality",
+                "Position",
+                "Accrington career",
+                "League Apps",
+                "League Goals",
+                "Notes"
+            ]
+        }
+    ]
+}

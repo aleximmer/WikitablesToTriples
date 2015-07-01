@@ -1,0 +1,340 @@
+{
+    "page": "List of professional sports teams in the United States and Canada",
+    "no. of tables": 21,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Football'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.25,
+                        "http://dbpedia.org/property/city": 0.25
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.25
+                    },
+                    "subject": "Team",
+                    "object": "Home Arena"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.12
+                    },
+                    "subject": "Home Arena",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Home Arena",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Home Arena"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Hockey'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.8,
+                        "http://dbpedia.org/property/city": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Home Arena"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.2,
+                        "http://dbpedia.org/ontology/tenant": 0.2
+                    },
+                    "subject": "Home Arena",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.4,
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/property/owner": 0.4,
+                        "http://dbpedia.org/ontology/owner": 0.4
+                    },
+                    "subject": "Home Arena",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Home Arena"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of professional sports teams in the United States and Canada\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City/Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.75
+                    },
+                    "subject": "Team",
+                    "object": "Arena"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.75,
+                        "http://dbpedia.org/property/title": 0.12
+                    },
+                    "subject": "Arena",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Arena",
+                    "object": "City/Area"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City/Area",
+                "Arena"
+            ]
+        },
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of professional sports teams in the United States and Canada\t\t\t'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.5
+                    },
+                    "subject": "Home Arena",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Home Arena",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Home Arena"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Lacrosse'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.62
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/field": 0.25,
+                        "http://dbpedia.org/property/stadium": 0.75
+                    },
+                    "subject": "Team",
+                    "object": "Home Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.12
+                    },
+                    "subject": "City",
+                    "object": "Home Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.62,
+                        "http://dbpedia.org/property/title": 0.12
+                    },
+                    "subject": "Home Stadium",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Home Stadium",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Home Stadium"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Soccer'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.22,
+                        "http://dbpedia.org/property/ground": 0.22
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.78,
+                        "http://dbpedia.org/property/ground": 0.78
+                    },
+                    "subject": "Team",
+                    "object": "Ground"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.11,
+                        "http://dbpedia.org/ontology/tenant": 0.78
+                    },
+                    "subject": "Ground",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owner": 0.11,
+                        "http://dbpedia.org/ontology/owner": 0.11,
+                        "http://dbpedia.org/ontology/location": 0.56,
+                        "http://dbpedia.org/property/location": 0.11
+                    },
+                    "subject": "Ground",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Ground"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Soccer'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/ground": 0.55,
+                        "http://dbpedia.org/property/ground": 0.55,
+                        "http://dbpedia.org/property/stadium": 0.27
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.55,
+                        "http://dbpedia.org/property/ground": 0.55,
+                        "http://dbpedia.org/property/stadium": 0.18
+                    },
+                    "subject": "Team",
+                    "object": "Home Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.18,
+                        "http://dbpedia.org/ontology/tenant": 0.82
+                    },
+                    "subject": "Home Stadium",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.09,
+                        "http://dbpedia.org/ontology/owner": 0.45,
+                        "http://dbpedia.org/property/owner": 0.36,
+                        "http://dbpedia.org/ontology/location": 0.91,
+                        "http://dbpedia.org/property/location": 0.45,
+                        "http://dbpedia.org/ontology/operator": 0.18
+                    },
+                    "subject": "Home Stadium",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Home Stadium"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Softball'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.8
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.6
+                    },
+                    "subject": "Team",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.2
+                    },
+                    "subject": "Stadium",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.4
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                }
+            ],
+            "colums": [
+                "Team",
+                "City",
+                "Stadium"
+            ]
+        }
+    ]
+}

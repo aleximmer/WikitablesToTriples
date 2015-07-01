@@ -1,0 +1,1362 @@
+{
+    "no. of tables": 34,
+    "page": "List of WWE pay-per-view events",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.5
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/property/operator": 0.5,
+                        "http://dbpedia.org/ontology/location": 1.0,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/operator": 0.5
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.6,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.8,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.2,
+                        "http://dbpedia.org/property/operator": 0.2,
+                        "http://dbpedia.org/ontology/location": 1.0,
+                        "http://dbpedia.org/property/owner": 0.2,
+                        "http://dbpedia.org/ontology/operator": 0.2
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.2,
+                        "http://dbpedia.org/property/tenants": 0.2
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/property/owner": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.2,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.75,
+                        "http://dbpedia.org/ontology/location": 0.75
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.25
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.8,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.6,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.2
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.1
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.8,
+                        "http://dbpedia.org/property/owner": 0.1,
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.1
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.77,
+                        "http://dbpedia.org/ontology/location": 0.77
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.92,
+                        "http://dbpedia.org/property/rd3Seed": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08,
+                        "http://dbpedia.org/property/tenants": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.15,
+                        "http://dbpedia.org/ontology/location": 0.85,
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.46,
+                        "http://dbpedia.org/property/owner": 0.38,
+                        "http://dbpedia.org/ontology/operator": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08,
+                        "http://dbpedia.org/property/tenants": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.31,
+                        "http://dbpedia.org/ontology/location": 0.77,
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.38,
+                        "http://dbpedia.org/property/owner": 0.38,
+                        "http://dbpedia.org/ontology/operator": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.71,
+                        "http://dbpedia.org/ontology/location": 0.71
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.86,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.36,
+                        "http://dbpedia.org/property/operator": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.71,
+                        "http://dbpedia.org/property/owner": 0.36,
+                        "http://dbpedia.org/ontology/operator": 0.14
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.79,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.86,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/region": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.14,
+                        "http://dbpedia.org/property/owner": 0.14,
+                        "http://dbpedia.org/ontology/operator": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.71
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.79,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.79,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/owner": 0.21,
+                        "http://dbpedia.org/property/operator": 0.07,
+                        "http://dbpedia.org/ontology/region": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.79,
+                        "http://dbpedia.org/property/owner": 0.21,
+                        "http://dbpedia.org/ontology/operator": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.79,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.86,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.21,
+                        "http://dbpedia.org/ontology/owner": 0.14,
+                        "http://dbpedia.org/property/operator": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.93,
+                        "http://dbpedia.org/property/owner": 0.14,
+                        "http://dbpedia.org/ontology/operator": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.77,
+                        "http://dbpedia.org/ontology/location": 0.77
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.23,
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.85,
+                        "http://dbpedia.org/property/owner": 0.23,
+                        "http://dbpedia.org/ontology/operator": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.08
+                    },
+                    "subject": "City",
+                    "object": "Venue"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.93,
+                        "http://dbpedia.org/property/operator": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.14,
+                        "http://dbpedia.org/property/owner": 0.14,
+                        "http://dbpedia.org/ontology/operator": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.8,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.87,
+                        "http://dbpedia.org/ontology/location": 0.87
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/owner": 0.27,
+                        "http://dbpedia.org/property/owner": 0.27,
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.07,
+                        "http://dbpedia.org/property/resides": 0.07
+                    },
+                    "subject": "Main Event",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.81,
+                        "http://dbpedia.org/ontology/location": 0.88
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.94,
+                        "http://dbpedia.org/ontology/location": 0.94
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.06,
+                        "http://dbpedia.org/property/tenants": 0.06
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/owner": 0.31,
+                        "http://dbpedia.org/property/operator": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.81,
+                        "http://dbpedia.org/property/owner": 0.19,
+                        "http://dbpedia.org/ontology/operator": 0.06
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.87,
+                        "http://dbpedia.org/ontology/location": 0.87
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.93,
+                        "http://dbpedia.org/ontology/location": 0.93
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07,
+                        "http://dbpedia.org/property/title": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.8,
+                        "http://dbpedia.org/property/operator": 0.13,
+                        "http://dbpedia.org/ontology/owner": 0.33,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/operator": 0.13
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.79,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.07,
+                        "http://dbpedia.org/property/owner": 0.21,
+                        "http://dbpedia.org/ontology/owner": 0.29,
+                        "http://dbpedia.org/ontology/location": 0.79
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.86,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.93,
+                        "http://dbpedia.org/ontology/location": 0.93
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.07
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.86,
+                        "http://dbpedia.org/property/owner": 0.21,
+                        "http://dbpedia.org/ontology/operator": 0.07,
+                        "http://dbpedia.org/ontology/owner": 0.21
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.85,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/promotion": 0.08,
+                        "http://dbpedia.org/ontology/promotion": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Main Event"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.54,
+                        "http://dbpedia.org/property/owner": 0.46,
+                        "http://dbpedia.org/ontology/operator": 0.08,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.85,
+                        "http://dbpedia.org/ontology/location": 0.85
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.15,
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/location": 0.85,
+                        "http://dbpedia.org/property/owner": 0.08,
+                        "http://dbpedia.org/ontology/operator": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.83,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/location": 1.0,
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.33,
+                        "http://dbpedia.org/property/owner": 0.25,
+                        "http://dbpedia.org/ontology/operator": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.92,
+                        "http://dbpedia.org/ontology/location": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/location": 1.0,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/operator": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.33
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/venue": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.17
+                    },
+                    "subject": "Venue",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.08,
+                        "http://dbpedia.org/ontology/owner": 0.33,
+                        "http://dbpedia.org/property/owner": 0.33,
+                        "http://dbpedia.org/ontology/operator": 0.08,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.14,
+                        "http://dbpedia.org/ontology/owner": 0.29,
+                        "http://dbpedia.org/property/owner": 0.29,
+                        "http://dbpedia.org/ontology/operator": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.57
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Past pay-per-view events'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0,
+                        "http://dbpedia.org/property/owner": 0.17,
+                        "http://dbpedia.org/ontology/owner": 0.17
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Upcoming pay-per-view schedule'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.33,
+                        "http://dbpedia.org/property/owner": 0.67,
+                        "http://dbpedia.org/ontology/owner": 0.67
+                    },
+                    "subject": "Venue",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imageCaption": 0.33
+                    },
+                    "subject": "City",
+                    "object": "Venue"
+                }
+            ],
+            "table": "Unnamed table in section 'Upcoming pay-per-view schedule'",
+            "colums": [
+                "Date",
+                "Name",
+                "Venue",
+                "City",
+                "Main Event",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Themed pay-per-views'",
+            "colums": [
+                "Pay-per-view",
+                "Feature"
+            ]
+        }
+    ]
+}

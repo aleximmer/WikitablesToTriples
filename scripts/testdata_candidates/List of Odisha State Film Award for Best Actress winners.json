@@ -1,0 +1,390 @@
+{
+    "no. of tables": 23,
+    "page": "Orissa State Film Awards",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.03,
+                        "http://dbpedia.org/property/deathDate": 0.03
+                    },
+                    "subject": "Winners [1] [2] [1]",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Winners [1] [2] [1]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Producer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.02,
+                        "http://dbpedia.org/property/director": 0.02,
+                        "http://dbpedia.org/property/writer": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Producer",
+                    "object": "Director"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Director",
+                    "object": "Producer"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Producer",
+                "Director"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Director"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Director"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.05,
+                        "http://dbpedia.org/property/starring": 0.05
+                    },
+                    "subject": "Film",
+                    "object": "Actor"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsactive": 0.02
+                    },
+                    "subject": "Actor",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Actor"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Actor"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Actress"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.03
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.03,
+                        "http://dbpedia.org/property/starring": 0.06
+                    },
+                    "subject": "Film",
+                    "object": "Actress"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableRole": 0.03
+                    },
+                    "subject": "Actress",
+                    "object": "Film"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Actress"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Comedian"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Winer"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.03
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/cinematography": 0.03
+                    },
+                    "subject": "Film",
+                    "object": "Cinematographer"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Cinematographer"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.02,
+                        "http://dbpedia.org/property/director": 0.02,
+                        "http://dbpedia.org/property/writer": 0.05,
+                        "http://dbpedia.org/ontology/writer": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "Story writer"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Story writer"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.04
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Screen Play"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.25
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Winner"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Winner"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Music Director"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Film",
+                    "object": "Film"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Film",
+                    "object": "Film"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Female Singer",
+                "Film",
+                "Male Singer"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/property/editing": 0.04,
+                        "http://dbpedia.org/property/story": 0.04
+                    },
+                    "subject": "Film",
+                    "object": "Editor"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Editor"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Art Director"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Sound Recordist"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Costumer"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Makeup artist"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.03,
+                        "http://dbpedia.org/property/starring": 0.03
+                    },
+                    "subject": "Film",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Lists of awardees'",
+            "colums": [
+                "Year",
+                "Film",
+                "Winner"
+            ]
+        }
+    ]
+}

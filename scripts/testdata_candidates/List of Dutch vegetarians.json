@@ -1,0 +1,285 @@
+{
+    "no. of tables": 6,
+    "page": "List of vegetarians",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.02,
+                        "http://dbpedia.org/property/occupation": 0.16,
+                        "http://dbpedia.org/ontology/occupation": 0.05,
+                        "http://dbpedia.org/property/shortDescription": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Occupation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inaugural": 0.01
+                    },
+                    "subject": "Occupation",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/label": 0.01
+                    },
+                    "subject": "Occupation",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Vegetarians'",
+            "colums": [
+                "Name",
+                "Occupation",
+                "Country",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/honorificPrefix": 0.01,
+                        "http://dbpedia.org/property/occupation": 0.09,
+                        "http://dbpedia.org/ontology/occupation": 0.02,
+                        "http://purl.org/dc/elements/1.1/description": 0.03,
+                        "http://dbpedia.org/property/shortDescription": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Occupation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.02,
+                        "http://dbpedia.org/property/birthPlace": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Vegetarians'",
+            "colums": [
+                "Name",
+                "Occupation",
+                "Country",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/religion": 0.01,
+                        "http://dbpedia.org/ontology/associatedBand": 0.01,
+                        "http://dbpedia.org/property/honorificSuffix": 0.01,
+                        "http://dbpedia.org/property/associatedActs": 0.01,
+                        "http://dbpedia.org/property/shortDescription": 0.02,
+                        "http://dbpedia.org/ontology/influenced": 0.01,
+                        "http://dbpedia.org/property/subject": 0.01,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.01,
+                        "http://dbpedia.org/property/occupation": 0.19,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/genre": 0.01,
+                        "http://dbpedia.org/ontology/philosophicalSchool": 0.01,
+                        "http://dbpedia.org/property/genre": 0.01,
+                        "http://purl.org/dc/elements/1.1/description": 0.01,
+                        "http://dbpedia.org/property/field": 0.02,
+                        "http://dbpedia.org/ontology/occupation": 0.12,
+                        "http://dbpedia.org/property/religion": 0.01,
+                        "http://dbpedia.org/ontology/instrument": 0.01,
+                        "http://www.w3.org/2004/02/skos/core#subject": 0.01,
+                        "http://dbpedia.org/ontology/field": 0.02,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/schoolTradition": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Occupation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/nationality": 0.02,
+                        "http://dbpedia.org/property/origin": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/property/parliament": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/incumbent": 0.01,
+                        "http://dbpedia.org/property/creator": 0.01,
+                        "http://dbpedia.org/ontology/bandMember": 0.01,
+                        "http://dbpedia.org/property/currentMembers": 0.01
+                    },
+                    "subject": "Occupation",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/meetingPlace": 0.01
+                    },
+                    "subject": "Occupation",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Vegetarians'",
+            "colums": [
+                "Name",
+                "Occupation",
+                "Country",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.02,
+                        "http://dbpedia.org/property/occupation": 0.24,
+                        "http://dbpedia.org/property/party": 0.01,
+                        "http://dbpedia.org/property/mainInterests": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/genre": 0.02,
+                        "http://dbpedia.org/ontology/associatedBand": 0.02,
+                        "http://dbpedia.org/property/genre": 0.02,
+                        "http://purl.org/dc/elements/1.1/description": 0.01,
+                        "http://dbpedia.org/ontology/mainInterest": 0.01,
+                        "http://dbpedia.org/ontology/occupation": 0.15,
+                        "http://dbpedia.org/property/shortDescription": 0.03,
+                        "http://dbpedia.org/ontology/party": 0.01,
+                        "http://dbpedia.org/property/knownFor": 0.01,
+                        "http://dbpedia.org/property/office": 0.01,
+                        "http://dbpedia.org/property/associatedActs": 0.02,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/guru": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Occupation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/country": 0.01,
+                        "http://dbpedia.org/property/hometown": 0.01,
+                        "http://dbpedia.org/property/citizenship": 0.01,
+                        "http://dbpedia.org/property/origin": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/bandMember": 0.01,
+                        "http://dbpedia.org/property/founder": 0.01,
+                        "http://dbpedia.org/ontology/formerBandMember": 0.01,
+                        "http://dbpedia.org/property/pastMembers": 0.01,
+                        "http://dbpedia.org/property/disciple": 0.01,
+                        "http://dbpedia.org/property/currentMembers": 0.01
+                    },
+                    "subject": "Occupation",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/country": 0.01,
+                        "http://dbpedia.org/ontology/longName": 0.01,
+                        "http://dbpedia.org/property/conventionalLongName": 0.01
+                    },
+                    "subject": "Occupation",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Vegetarians'",
+            "colums": [
+                "Name",
+                "Occupation",
+                "Country",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://purl.org/dc/elements/1.1/description": 0.19,
+                        "http://dbpedia.org/property/occupation": 0.26,
+                        "http://dbpedia.org/property/profession": 0.04,
+                        "http://dbpedia.org/property/shortDescription": 0.19
+                    },
+                    "subject": "Name",
+                    "object": "Occupation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ministerFrom": 0.04,
+                        "http://dbpedia.org/property/nationality": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Former vegetarians'",
+            "colums": [
+                "Name",
+                "Occupation",
+                "Country",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/board": 0.06,
+                        "http://purl.org/dc/elements/1.1/description": 0.12,
+                        "http://dbpedia.org/ontology/occupation": 0.12,
+                        "http://dbpedia.org/property/title": 0.06,
+                        "http://dbpedia.org/property/shortDescription": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Occupation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.06,
+                        "http://dbpedia.org/ontology/foundedBy": 0.12
+                    },
+                    "subject": "Occupation",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Disputed vegetarians'",
+            "colums": [
+                "Name",
+                "Occupation",
+                "Country",
+                "Source"
+            ]
+        }
+    ]
+}

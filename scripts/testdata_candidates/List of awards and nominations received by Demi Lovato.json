@@ -1,0 +1,297 @@
+{
+    "page": "List of awards and nominations received by Demi Lovato",
+    "no. of tables": 41,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'ALMA Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'American Partnership for Eosophilic Disorders Award'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Billboard Touring Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'BMA - Brasil Music Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Nominated",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Bravo Otto'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Capital Loves Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'FLZ Award'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Glamour Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'iHeartRadio Music Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Mental Health Advocacy Award'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'MP3 Music Awards'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/accessdate": 1.0,
+                        "http://dbpedia.org/property/relyear": 1.0,
+                        "http://dbpedia.org/property/certyear": 1.0
+                    },
+                    "subject": "Nomination",
+                    "object": "Year"
+                }
+            ],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'MTV Millennial Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'MTV Video Music Awards'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.67,
+                        "http://dbpedia.org/property/accessdate": 0.33,
+                        "http://dbpedia.org/property/certyear": 0.67
+                    },
+                    "subject": "Nomination",
+                    "object": "Year"
+                }
+            ],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'MTV Video Music Brazil'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Myx Music Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Nickelodeon Australian Kids' Choice Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Kids' Choice Awards Mexico'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Sugarscape Twitter Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Teen Vogue Instawards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Unite4: Humanity Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'YouTube Music Awards'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/accessdate": 1.0,
+                        "http://dbpedia.org/property/relyear": 1.0,
+                        "http://dbpedia.org/property/certyear": 1.0
+                    },
+                    "subject": "Nomination",
+                    "object": "Year"
+                }
+            ],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Young Artist Awards'",
+            "predicates": [],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Youth Rocks Awards'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 1.0,
+                        "http://dbpedia.org/property/certyear": 1.0
+                    },
+                    "subject": "Nomination",
+                    "object": "Year"
+                }
+            ],
+            "colums": [
+                "Year",
+                "Award",
+                "Nomination",
+                "Result",
+                "Reference"
+            ]
+        }
+    ]
+}

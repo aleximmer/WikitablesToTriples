@@ -1,0 +1,269 @@
+{
+    "page": "List of wars involving the United States",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/result": 0.2
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.4,
+                        "http://dbpedia.org/ontology/combatant": 0.2
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedEvent": 0.2
+                    },
+                    "subject": "Combatant 1",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.2
+                    },
+                    "subject": "Combatant 2",
+                    "object": "Combatant 1"
+                }
+            ],
+            "colums": [
+                "Conflict",
+                "Combatant 1",
+                "Combatant 2",
+                "Result"
+            ],
+            "table": "Unnamed table in section '18th century wars'"
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.15,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://dbpedia.org/property/place": 0.13,
+                        "http://dbpedia.org/property/combatant": 0.03
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.05,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/place": 0.05,
+                        "http://dbpedia.org/property/combatant": 0.34,
+                        "http://dbpedia.org/ontology/combatant": 0.03
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.02,
+                        "http://dbpedia.org/ontology/commander": 0.03,
+                        "http://dbpedia.org/ontology/territory": 0.02
+                    },
+                    "subject": "Conflict",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/era": 0.02
+                    },
+                    "subject": "Combatant 2",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/ontology/populationPlace": 0.23,
+                        "http://dbpedia.org/property/era": 0.02
+                    },
+                    "subject": "Combatant 2",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.02,
+                        "http://dbpedia.org/property/era": 0.02
+                    },
+                    "subject": "Result",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/related": 0.02,
+                        "http://dbpedia.org/property/related": 0.02
+                    },
+                    "subject": "Result",
+                    "object": "Combatant 2"
+                }
+            ],
+            "colums": [
+                "Conflict",
+                "Combatant 1",
+                "Combatant 2",
+                "Result"
+            ],
+            "table": "Unnamed table in section '19th century wars'"
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.18,
+                        "http://dbpedia.org/property/place": 0.14
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.41,
+                        "http://dbpedia.org/property/place": 0.27,
+                        "http://dbpedia.org/property/combatant": 0.05
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.27
+                    },
+                    "subject": "Conflict",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.05,
+                        "http://dbpedia.org/property/war": 0.05,
+                        "http://dbpedia.org/property/era": 0.05
+                    },
+                    "subject": "Combatant 1",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedEvent": 0.05,
+                        "http://dbpedia.org/property/opponents": 0.05
+                    },
+                    "subject": "Combatant 1",
+                    "object": "Combatant 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opponents": 0.05,
+                        "http://dbpedia.org/property/era": 0.09,
+                        "http://dbpedia.org/property/event": 0.09
+                    },
+                    "subject": "Combatant 2",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.05,
+                        "http://dbpedia.org/property/headquarters": 0.05,
+                        "http://dbpedia.org/ontology/populationPlace": 0.05,
+                        "http://dbpedia.org/ontology/headquarter": 0.05
+                    },
+                    "subject": "Combatant 2",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOfMilitaryConflict": 0.05,
+                        "http://dbpedia.org/property/era": 0.09,
+                        "http://dbpedia.org/property/event": 0.09
+                    },
+                    "subject": "Result",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.05,
+                        "http://dbpedia.org/property/place": 0.05
+                    },
+                    "subject": "Result",
+                    "object": "Combatant 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.14,
+                        "http://dbpedia.org/property/place": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.18,
+                        "http://dbpedia.org/ontology/birthPlace": 0.23,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.05
+                    },
+                    "subject": "Result",
+                    "object": "Combatant 2"
+                }
+            ],
+            "colums": [
+                "Conflict",
+                "Combatant 1",
+                "Combatant 2",
+                "Result"
+            ],
+            "table": "Unnamed table in section '20th century wars'"
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.2
+                    },
+                    "subject": "Conflict",
+                    "object": "Combatant 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedEvent": 0.2
+                    },
+                    "subject": "Combatant 1",
+                    "object": "Combatant 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedEvent": 0.2
+                    },
+                    "subject": "Combatant 1",
+                    "object": "Result"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/battles": 0.2
+                    },
+                    "subject": "Combatant 2",
+                    "object": "Conflict"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOfMilitaryConflict": 0.4
+                    },
+                    "subject": "Result",
+                    "object": "Conflict"
+                }
+            ],
+            "colums": [
+                "Conflict",
+                "Combatant 1",
+                "Combatant 2",
+                "Result"
+            ],
+            "table": "Unnamed table in section '21st century wars'"
+        }
+    ],
+    "no. of tables": 4
+}

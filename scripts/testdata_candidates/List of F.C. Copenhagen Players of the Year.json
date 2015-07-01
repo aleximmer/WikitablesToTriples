@@ -1,0 +1,177 @@
+{
+    "no. of tables": 3,
+    "page": "List of F.C. Copenhagen Players of the Year",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seasonTopscorer": 0.04,
+                        "http://dbpedia.org/property/leagueTopscorer": 0.13,
+                        "http://dbpedia.org/property/name": 0.17,
+                        "http://dbpedia.org/property/p": 0.22
+                    },
+                    "subject": "Season",
+                    "object": "Name[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gs": 0.04,
+                        "http://dbpedia.org/property/n": 0.17,
+                        "http://dbpedia.org/property/g": 0.09,
+                        "http://dbpedia.org/property/no": 0.13,
+                        "http://dbpedia.org/property/a": 0.09,
+                        "http://dbpedia.org/property/m": 0.26,
+                        "http://dbpedia.org/property/c2a": 0.17,
+                        "http://dbpedia.org/property/hgf": 0.04,
+                        "http://dbpedia.org/property/rn": 0.26
+                    },
+                    "subject": "Season",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.13,
+                        "http://dbpedia.org/property/l": 0.04,
+                        "http://dbpedia.org/property/c3a": 0.04,
+                        "http://dbpedia.org/property/c2g": 0.04,
+                        "http://dbpedia.org/property/c2a": 0.04,
+                        "http://dbpedia.org/property/no": 0.09,
+                        "http://dbpedia.org/property/d": 0.09,
+                        "http://dbpedia.org/property/c3g": 0.04,
+                        "http://dbpedia.org/property/gs": 0.04,
+                        "http://dbpedia.org/property/n": 0.22,
+                        "http://dbpedia.org/property/pen": 0.04,
+                        "http://dbpedia.org/property/a": 0.09,
+                        "http://dbpedia.org/property/al": 0.04,
+                        "http://dbpedia.org/property/g": 0.09,
+                        "http://dbpedia.org/property/m": 0.22,
+                        "http://dbpedia.org/property/rn": 0.22,
+                        "http://dbpedia.org/property/ga": 0.13
+                    },
+                    "subject": "Season",
+                    "object": "International\nCaps[3][4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.48
+                    },
+                    "subject": "Name[1]",
+                    "object": "Season"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.09
+                    },
+                    "subject": "Name[1]",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/position": 0.65,
+                        "http://dbpedia.org/ontology/position": 0.78
+                    },
+                    "subject": "Name[1]",
+                    "object": "Position[2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.57,
+                        "http://dbpedia.org/property/birthPlace": 0.48,
+                        "http://dbpedia.org/property/placeOfBirth": 0.22
+                    },
+                    "subject": "Name[1]",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalcaps": 0.7,
+                        "http://dbpedia.org/property/caps": 0.04
+                    },
+                    "subject": "Name[1]",
+                    "object": "International\nCaps[3][4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.13,
+                        "http://dbpedia.org/property/birthPlace": 0.09
+                    },
+                    "subject": "Name[1]",
+                    "object": "Current club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.04,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.04,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/property/gdpPppRank": 0.04,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/areaRank": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sovereigntyNote": 0.04,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "International\nCaps[3][4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.04
+                    },
+                    "subject": "Current club",
+                    "object": "Age"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sovereigntyNote": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.04
+                    },
+                    "subject": "Current club",
+                    "object": "International\nCaps[3][4]"
+                }
+            ],
+            "table": "Unnamed table in section 'Winners'",
+            "colums": [
+                "Season",
+                "Name[1]",
+                "Age",
+                "Position[2]",
+                "Nationality",
+                "International\nCaps[3][4]",
+                "Current club"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Wins by playing position'",
+            "colums": [
+                "Position",
+                "Number of\nwinners"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.12,
+                        "http://dbpedia.org/property/areaMagnitude": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "Number of\nwinners"
+                }
+            ],
+            "table": "Unnamed table in section 'Wins by nationality'",
+            "colums": [
+                "Nationality",
+                "Number of\nwinners"
+            ]
+        }
+    ]
+}

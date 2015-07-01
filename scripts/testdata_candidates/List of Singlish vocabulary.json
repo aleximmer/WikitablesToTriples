@@ -1,0 +1,292 @@
+{
+    "no. of tables": 31,
+    "page": "Singlish vocabulary",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/language": 0.05
+                    },
+                    "subject": "Definition",
+                    "object": "Origin"
+                }
+            ],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Origin",
+                "Definition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Word",
+                "Meaning",
+                "Example/comment"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singlish dictionaries and word lists'",
+            "colums": [
+                "Term",
+                "Definition"
+            ]
+        }
+    ]
+}

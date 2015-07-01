@@ -1,0 +1,259 @@
+{
+    "no. of tables": 11,
+    "page": "List of the busiest airports in Dominican Republic",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.86,
+                        "http://dbpedia.org/property/cityServed": 0.86,
+                        "http://dbpedia.org/property/owner": 0.43,
+                        "http://dbpedia.org/ontology/owner": 0.43,
+                        "http://dbpedia.org/ontology/location": 0.71
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2015)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2014)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2013)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2012)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2011)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2010)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2009)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2008)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.83,
+                        "http://dbpedia.org/property/cityServed": 0.83,
+                        "http://dbpedia.org/property/owner": 0.5,
+                        "http://dbpedia.org/ontology/owner": 0.5,
+                        "http://dbpedia.org/ontology/location": 0.83
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2007)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.8,
+                        "http://dbpedia.org/property/cityServed": 0.8,
+                        "http://dbpedia.org/property/owner": 0.4,
+                        "http://dbpedia.org/ontology/owner": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2006)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.8,
+                        "http://dbpedia.org/property/cityServed": 0.8,
+                        "http://dbpedia.org/property/owner": 0.4,
+                        "http://dbpedia.org/ontology/owner": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Airport Name",
+                    "object": "City served"
+                }
+            ],
+            "table": "Unnamed table in section 'List of airports'",
+            "colums": [
+                "",
+                "Airport Name",
+                "IATA/ICAO Code",
+                "City served",
+                "Passengers (2005)"
+            ]
+        }
+    ]
+}

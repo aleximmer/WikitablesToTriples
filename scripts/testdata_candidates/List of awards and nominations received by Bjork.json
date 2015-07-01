@@ -1,0 +1,362 @@
+{
+    "no. of tables": 63,
+    "page": "List of awards and nominations received by Bj\u00f6rk",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 1.0
+                    },
+                    "subject": "Award",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Music'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bestActress": 1.0
+                    },
+                    "subject": "Year",
+                    "object": "Recipient / Nominated work"
+                }
+            ],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Film'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Other'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Other'",
+            "colums": [
+                "Year",
+                "Recipient / Nominated work",
+                "Award",
+                "Result"
+            ]
+        }
+    ]
+}

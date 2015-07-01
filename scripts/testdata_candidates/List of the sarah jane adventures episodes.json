@@ -1,0 +1,232 @@
+{
+    "no. of tables": 8,
+    "page": "List of The Sarah Jane Adventures serials",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 1.0,
+                        "http://dbpedia.org/property/productionCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nTotal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/executiveProducer": 1.0,
+                        "http://dbpedia.org/property/executiveProducer": 1.0,
+                        "http://dbpedia.org/property/writer": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[7]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nTotal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/author": 0.2,
+                        "http://dbpedia.org/property/writer": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[7]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nTotal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.33,
+                        "http://dbpedia.org/property/series": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/author": 0.17,
+                        "http://dbpedia.org/property/writer": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[8]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[9]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.83,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nTotal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.33,
+                        "http://dbpedia.org/property/author": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[10]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 1.0,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nTotal"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Directed by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/producer": 0.17,
+                        "http://dbpedia.org/property/executiveProducer": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Written by"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.17
+                    },
+                    "subject": "Written by",
+                    "object": "No. in\nTotal"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[11]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "No. in\nTotal"
+                }
+            ],
+            "table": "Unnamed table in section 'Episodes'",
+            "colums": [
+                "No. in\nTotal",
+                "No. in\nSeries",
+                "Title",
+                "Directed by",
+                "Written by",
+                "Original air date",
+                "Production\ncode",
+                "UK viewers\n(million)[12]"
+            ]
+        }
+    ]
+}

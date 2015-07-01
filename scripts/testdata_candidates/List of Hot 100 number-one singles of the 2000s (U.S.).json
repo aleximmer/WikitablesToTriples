@@ -1,0 +1,159 @@
+{
+    "no. of tables": 5,
+    "page": "List of Billboard Hot 100 number-one singles of the 2000s",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.3,
+                        "http://dbpedia.org/property/label": 0.22
+                    },
+                    "subject": "Artist(s)",
+                    "object": "Record label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/peoplesw": 0.01,
+                        "http://dbpedia.org/property/children": 0.01,
+                        "http://dbpedia.org/property/awards": 0.01,
+                        "http://dbpedia.org/property/peoplesn": 0.01
+                    },
+                    "subject": "Artist(s)",
+                    "object": "Weeks at\nnumber one"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.07,
+                        "http://dbpedia.org/property/artist": 0.47,
+                        "http://dbpedia.org/ontology/musicalBand": 0.43,
+                        "http://dbpedia.org/ontology/writer": 0.21,
+                        "http://dbpedia.org/ontology/picture": 0.01,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.43,
+                        "http://dbpedia.org/property/producer": 0.04,
+                        "http://dbpedia.org/property/chronology": 0.01,
+                        "http://dbpedia.org/property/writer": 0.09
+                    },
+                    "subject": "Single",
+                    "object": "Artist(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/recordLabel": 0.58,
+                        "http://dbpedia.org/property/label": 0.55
+                    },
+                    "subject": "Single",
+                    "object": "Record label"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/certification": 0.02,
+                        "http://dbpedia.org/property/border": 0.01,
+                        "http://dbpedia.org/property/number": 0.02,
+                        "http://dbpedia.org/property/rows": 0.02,
+                        "http://dbpedia.org/property/relmonth": 0.01,
+                        "http://dbpedia.org/property/id": 0.01
+                    },
+                    "subject": "Single",
+                    "object": "Weeks at\nnumber one"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 0.01,
+                        "http://dbpedia.org/ontology/foundedBy": 0.01
+                    },
+                    "subject": "Record label",
+                    "object": "Artist(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.01,
+                        "http://dbpedia.org/property/url": 0.01
+                    },
+                    "subject": "Record label",
+                    "object": "Weeks at\nnumber one"
+                }
+            ],
+            "table": "Unnamed table in section 'Number ones'",
+            "colums": [
+                "#",
+                "Reached number one",
+                "Artist(s)",
+                "Single",
+                "Record label",
+                "Weeks at\nnumber one",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Statistics by decade'",
+            "colums": [
+                "Artist",
+                "Weeks at number-one"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Statistics by decade'",
+            "colums": [
+                "Artist",
+                "Number-one hits"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/number": 0.3
+                    },
+                    "subject": "Song",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.4,
+                        "http://dbpedia.org/ontology/musicalBand": 0.7,
+                        "http://dbpedia.org/ontology/writer": 0.7,
+                        "http://dbpedia.org/property/producer": 0.1,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.7,
+                        "http://dbpedia.org/property/artist": 0.5,
+                        "http://dbpedia.org/property/chronology": 0.1,
+                        "http://dbpedia.org/property/writer": 0.3
+                    },
+                    "subject": "Song",
+                    "object": "Artist(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics by decade'",
+            "colums": [
+                "#",
+                "Song",
+                "Artist(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.25,
+                        "http://dbpedia.org/ontology/musicalBand": 0.75,
+                        "http://dbpedia.org/ontology/writer": 0.67,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.75,
+                        "http://dbpedia.org/property/artist": 0.5,
+                        "http://dbpedia.org/property/chronology": 0.08,
+                        "http://dbpedia.org/property/writer": 0.33
+                    },
+                    "subject": "Song",
+                    "object": "Artist(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Statistics by decade'",
+            "colums": [
+                "Weeks at\nnumber one",
+                "Song",
+                "Artist(s)"
+            ]
+        }
+    ]
+}

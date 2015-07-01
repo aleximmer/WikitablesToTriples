@@ -1,0 +1,233 @@
+{
+    "no. of tables": 6,
+    "page": "Use of capital punishment by country",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.02,
+                        "http://dbpedia.org/property/fsiYear": 0.02,
+                        "http://dbpedia.org/property/populationCensusYear": 0.02,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.02,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.06,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02,
+                        "http://dbpedia.org/property/gdpPppYear": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Year of last execution"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.02,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.02,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Year abolished"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalYear": 0.02,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Year abolished"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Key",
+                "Country",
+                "Year of last execution",
+                "Executions 2014[4]",
+                "Year abolished",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Year abolished"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedEvent": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Americas'",
+            "colums": [
+                "Key",
+                "Country",
+                "Year of last execution",
+                "Executions 2014",
+                "Year abolished",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.03,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02,
+                        "http://dbpedia.org/property/giniYear": 0.03,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.03,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.02,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Year of last execution"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalYear": 0.02,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Year abolished"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderTitle": 0.03,
+                        "http://dbpedia.org/property/establishedEvent": 0.02,
+                        "http://dbpedia.org/property/governmentType": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/residence": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia-Pacific'",
+            "colums": [
+                "Key",
+                "Country",
+                "Year of last execution",
+                "Executions 2014[4]",
+                "Year abolished",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Year of last execution"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leaderTitle": 0.02,
+                        "http://dbpedia.org/property/legislature": 0.02,
+                        "http://dbpedia.org/property/governmentType": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "Year of last execution",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/meetingPlace": 0.02,
+                        "http://dbpedia.org/ontology/country": 0.04,
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Key",
+                "Country",
+                "Year of last execution",
+                "Executions 2014[4]",
+                "Year abolished",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Year abolished"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.02,
+                        "http://dbpedia.org/property/decLowC": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/areaRank": 0.02,
+                        "http://dbpedia.org/property/areaMagnitude": 0.04
+                    },
+                    "subject": "Country",
+                    "object": "Countries per year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/augHighC": 0.02,
+                        "http://dbpedia.org/property/octHighC": 0.02,
+                        "http://dbpedia.org/property/julHighC": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Running total"
+                }
+            ],
+            "table": "Unnamed table in section 'Abolition chronology'",
+            "colums": [
+                "Year abolished",
+                "Country",
+                "Countries per year",
+                "Running total"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Executed per capita'",
+            "colums": [
+                "Country",
+                "Total executed\n(2007-2012)[198]",
+                "Total population\n(2007-2012)[199]",
+                "Executed per\n100 million"
+            ]
+        }
+    ]
+}

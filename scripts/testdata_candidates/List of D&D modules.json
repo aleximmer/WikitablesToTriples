@@ -1,0 +1,1629 @@
+{
+    "no. of tables": 56,
+    "page": "List of Dungeons & Dragons modules",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.6
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.23
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.23
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.23,
+                        "http://dbpedia.org/property/releaseDate": 0.15
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.64
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.36
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.43
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.67
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.83
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.89
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.89
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.89
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCharacterLevels": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Levels"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.75
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.44
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.86,
+                        "http://dbpedia.org/property/author": 0.43
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/releaseDate": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/releaseDate": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.47
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.6
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.11
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.8
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.8
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.8
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.8
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.71
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 1.0,
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.3
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.57
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.86
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCharacterLevels": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Levels"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.71
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.78
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.11
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.78
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.17,
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCharacterLevels": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Levels"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.81
+                    },
+                    "subject": "Title",
+                    "object": "Code"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.56
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.69
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                }
+            ],
+            "table": "Unnamed table in section 'Coded modules (1978\u20131994)'",
+            "colums": [
+                "Code",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleCode": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Number"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Levels"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.13
+                    },
+                    "subject": "Title",
+                    "object": "Author(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleFirstPublished": 0.29,
+                        "http://dbpedia.org/property/releaseDate": 0.12
+                    },
+                    "subject": "Title",
+                    "object": "Published"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/series": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/moduleAuthors": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Author(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Other modules'",
+            "colums": [
+                "Number",
+                "Title",
+                "Levels",
+                "Author(s)",
+                "Published",
+                "Notes"
+            ]
+        }
+    ]
+}

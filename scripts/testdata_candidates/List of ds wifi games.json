@@ -1,0 +1,182 @@
+{
+    "no. of tables": 2,
+    "page": "List of Nintendo DS Wi-Fi Connection games",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.36,
+                        "http://dbpedia.org/ontology/genre": 0.36
+                    },
+                    "subject": "Title",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.01,
+                        "http://dbpedia.org/property/publisher": 0.1,
+                        "http://dbpedia.org/ontology/gameEngine": 0.01,
+                        "http://dbpedia.org/ontology/publisher": 0.15,
+                        "http://dbpedia.org/ontology/developer": 0.44,
+                        "http://dbpedia.org/property/developer": 0.43,
+                        "http://dbpedia.org/property/director": 0.01,
+                        "http://dbpedia.org/ontology/distributor": 0.01,
+                        "http://dbpedia.org/property/engine": 0.01,
+                        "http://dbpedia.org/ontology/designer": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.35,
+                        "http://dbpedia.org/ontology/publisher": 0.41,
+                        "http://dbpedia.org/ontology/developer": 0.1,
+                        "http://dbpedia.org/property/developer": 0.11,
+                        "http://dbpedia.org/ontology/recordLabel": 0.01,
+                        "http://dbpedia.org/property/label": 0.01,
+                        "http://dbpedia.org/ontology/distributor": 0.01,
+                        "http://dbpedia.org/property/distributor": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.03
+                    },
+                    "subject": "Developer",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/property/industry": 0.01,
+                        "http://dbpedia.org/ontology/industry": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/parentCompany": 0.1,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/ontology/subsidiary": 0.03,
+                        "http://dbpedia.org/property/parent": 0.09,
+                        "http://dbpedia.org/property/subsid": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/ontology/product": 0.03,
+                        "http://dbpedia.org/ontology/type": 0.01,
+                        "http://dbpedia.org/ontology/owningCompany": 0.03,
+                        "http://dbpedia.org/ontology/foundedBy": 0.02,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.03
+                    },
+                    "subject": "Publisher",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.03,
+                        "http://dbpedia.org/ontology/subsidiary": 0.03,
+                        "http://dbpedia.org/ontology/foundedBy": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "table": "Unnamed table in section 'DS games'",
+            "colums": [
+                "Title",
+                "Genre",
+                "Developer",
+                "Publisher",
+                "Available",
+                "First Released",
+                "Source"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/genre": 0.5,
+                        "http://dbpedia.org/ontology/genre": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 1.0,
+                        "http://dbpedia.org/property/developer": 1.0,
+                        "http://dbpedia.org/ontology/publisher": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5,
+                        "http://dbpedia.org/property/publisher": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/genre": 0.5
+                    },
+                    "subject": "Source",
+                    "object": "Genre"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.5,
+                        "http://dbpedia.org/property/developer": 0.5
+                    },
+                    "subject": "Source",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.5,
+                        "http://dbpedia.org/ontology/publisher": 0.5
+                    },
+                    "subject": "Source",
+                    "object": "Publisher"
+                }
+            ],
+            "table": "Unnamed table in section 'DSi Ware'",
+            "colums": [
+                "Title",
+                "Genre",
+                "Developer",
+                "Publisher",
+                "Available",
+                "First Released",
+                "Source"
+            ]
+        }
+    ]
+}

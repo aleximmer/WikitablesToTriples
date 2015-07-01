@@ -1,0 +1,472 @@
+{
+    "no. of tables": 13,
+    "page": "List of Somerset towers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.5,
+                        "http://dbpedia.org/property/location": 0.25,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/style": 0.25
+                    },
+                    "subject": "Photograph",
+                    "object": "Description"
+                }
+            ],
+            "table": "Unnamed table in section 'Churchill generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.86,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.14
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.14
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'Cheddar generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.6,
+                        "http://dbpedia.org/property/parish": 0.2,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'Mendip generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.25,
+                        "http://dbpedia.org/ontology/location": 0.88
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'Winford generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.67,
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/birthPlace": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.33
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Long panel generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.25,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.25
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.25
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Langport generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'Shepton Beauchamp generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.75,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.25
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.75
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.25
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Developmental/experimental'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.6,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.8
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'West Somerset generation'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.5,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.25
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'West Somerset specials'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.17
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.83
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'South Somerset specials'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.67,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.33
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'Somerset crossing towers'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.6,
+                        "http://dbpedia.org/ontology/location": 0.8
+                    },
+                    "subject": "Photograph",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImageCaption": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Photograph"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/staticImage": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Listed building grade"
+                }
+            ],
+            "table": "Unnamed table in section 'Other Somerset towers'",
+            "colums": [
+                "Name of church",
+                "Photograph",
+                "Listed building grade",
+                "Year tower built",
+                "Height",
+                "Location",
+                "Description",
+                "Ref(s)"
+            ]
+        }
+    ]
+}

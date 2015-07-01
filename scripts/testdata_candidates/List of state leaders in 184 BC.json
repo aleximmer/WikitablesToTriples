@@ -1,0 +1,420 @@
+{
+    "no. of tables": 25,
+    "page": "List of state leaders in 184 BC",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5,
+                        "http://dbpedia.org/property/dynasty": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Royal house"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dynasty": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Royal house"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/founder": 1.0
+                    },
+                    "subject": "Royal house",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Middle East and Asia Minor'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dynasty": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Royal house"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/royalHouse": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Royal house"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "Type",
+                "Name",
+                "Title",
+                "Royal house",
+                "From",
+                "To",
+                "Refs"
+            ]
+        }
+    ]
+}

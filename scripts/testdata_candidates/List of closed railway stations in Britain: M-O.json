@@ -1,0 +1,433 @@
+{
+    "no. of tables": 12,
+    "page": "List of closed railway stations in Britain: M-O",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/company": 0.01,
+                        "http://dbpedia.org/property/manager": 0.05,
+                        "http://dbpedia.org/property/postgroup": 0.04,
+                        "http://dbpedia.org/ontology/operatedBy": 0.07,
+                        "http://dbpedia.org/property/line": 0.03,
+                        "http://dbpedia.org/ontology/owner": 0.02,
+                        "http://dbpedia.org/property/original": 0.15,
+                        "http://dbpedia.org/property/pregroup": 0.13,
+                        "http://dbpedia.org/property/route": 0.28,
+                        "http://dbpedia.org/property/owner": 0.04
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.05,
+                        "http://dbpedia.org/property/endDate": 0.01,
+                        "http://dbpedia.org/property/end": 0.02
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.02,
+                        "http://dbpedia.org/property/endYear": 0.02
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.02,
+                        "http://dbpedia.org/property/postgroup": 0.02,
+                        "http://dbpedia.org/ontology/operatedBy": 0.07,
+                        "http://dbpedia.org/property/line": 0.07,
+                        "http://dbpedia.org/property/original": 0.11,
+                        "http://dbpedia.org/property/pregroup": 0.15,
+                        "http://dbpedia.org/property/route": 0.29
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.02,
+                        "http://dbpedia.org/property/years": 0.05
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.02
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.08,
+                        "http://dbpedia.org/property/postgroup": 0.01,
+                        "http://dbpedia.org/ontology/operatedBy": 0.1,
+                        "http://dbpedia.org/property/line": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.02,
+                        "http://dbpedia.org/property/original": 0.14,
+                        "http://dbpedia.org/property/pregroup": 0.12,
+                        "http://dbpedia.org/property/route": 0.4,
+                        "http://dbpedia.org/property/owner": 0.07
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.01,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/end": 0.05
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/endYear": 0.01
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.05,
+                        "http://dbpedia.org/property/postgroup": 0.03,
+                        "http://dbpedia.org/ontology/operatedBy": 0.05,
+                        "http://dbpedia.org/property/line": 0.03,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/property/original": 0.12,
+                        "http://dbpedia.org/property/pregroup": 0.1,
+                        "http://dbpedia.org/property/route": 0.28,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/property/data": 0.01
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.01,
+                        "http://dbpedia.org/property/years": 0.04
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.01,
+                        "http://dbpedia.org/property/endYear": 0.01
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/original": 0.09,
+                        "http://dbpedia.org/property/manager": 0.04,
+                        "http://dbpedia.org/property/pregroup": 0.17,
+                        "http://dbpedia.org/property/route": 0.22,
+                        "http://dbpedia.org/ontology/operatedBy": 0.04
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.04
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/original": 0.08,
+                        "http://dbpedia.org/property/route": 0.24,
+                        "http://dbpedia.org/property/line": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.04,
+                        "http://dbpedia.org/property/manager": 0.16,
+                        "http://dbpedia.org/property/pregroup": 0.08,
+                        "http://dbpedia.org/ontology/operatedBy": 0.16,
+                        "http://dbpedia.org/property/owner": 0.04
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.08
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/original": 0.1,
+                        "http://dbpedia.org/ontology/operatedBy": 0.05,
+                        "http://dbpedia.org/property/line": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05,
+                        "http://dbpedia.org/property/manager": 0.05,
+                        "http://dbpedia.org/property/pregroup": 0.05,
+                        "http://dbpedia.org/property/route": 0.15,
+                        "http://dbpedia.org/property/owner": 0.05
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/original": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/ontology/operatedBy": 0.1,
+                        "http://dbpedia.org/property/line": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.01,
+                        "http://dbpedia.org/property/manager": 0.07,
+                        "http://dbpedia.org/property/pregroup": 0.12,
+                        "http://dbpedia.org/property/route": 0.26,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/property/postgroup": 0.01
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.01,
+                        "http://dbpedia.org/property/years": 0.05
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Rail company",
+                    "object": "Station\n(Town, unless in station name)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.01,
+                        "http://dbpedia.org/property/endYear": 0.01
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/route": 0.1,
+                        "http://dbpedia.org/property/line": 0.1
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/original": 0.14,
+                        "http://dbpedia.org/property/postgroup": 0.04,
+                        "http://dbpedia.org/ontology/operatedBy": 0.14,
+                        "http://dbpedia.org/property/line": 0.04,
+                        "http://dbpedia.org/property/manager": 0.08,
+                        "http://dbpedia.org/property/pregrouping": 0.01,
+                        "http://dbpedia.org/property/pregroup": 0.19,
+                        "http://dbpedia.org/property/route": 0.36,
+                        "http://dbpedia.org/property/owner": 0.01
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/start": 0.01,
+                        "http://dbpedia.org/property/end": 0.01,
+                        "http://dbpedia.org/property/years": 0.07
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.03,
+                        "http://dbpedia.org/property/endYear": 0.01,
+                        "http://dbpedia.org/property/startYear": 0.01,
+                        "http://dbpedia.org/property/comYears": 0.01
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.25,
+                        "http://dbpedia.org/property/original": 0.25,
+                        "http://dbpedia.org/property/pregroup": 0.25,
+                        "http://dbpedia.org/property/route": 0.75,
+                        "http://dbpedia.org/ontology/operatedBy": 0.25
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.25
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.07,
+                        "http://dbpedia.org/property/postgroup": 0.01,
+                        "http://dbpedia.org/ontology/operatedBy": 0.07,
+                        "http://dbpedia.org/property/line": 0.03,
+                        "http://dbpedia.org/property/original": 0.18,
+                        "http://dbpedia.org/property/pregroup": 0.15,
+                        "http://dbpedia.org/property/route": 0.39,
+                        "http://dbpedia.org/property/owner": 0.02
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Rail company"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.08,
+                        "http://dbpedia.org/property/end": 0.01
+                    },
+                    "subject": "Station\n(Town, unless in station name)",
+                    "object": "Year closed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/close": 0.01,
+                        "http://dbpedia.org/property/endYear": 0.01,
+                        "http://dbpedia.org/property/comYears": 0.01
+                    },
+                    "subject": "Rail company",
+                    "object": "Year closed"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Station\n(Town, unless in station name)",
+                "Rail company",
+                "Year closed"
+            ]
+        }
+    ]
+}

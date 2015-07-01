@@ -1,0 +1,201 @@
+{
+    "no. of tables": 6,
+    "page": "List of the busiest airports in the Baltic states",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.4
+                    },
+                    "subject": "Airport",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Passengers'",
+            "colums": [
+                "Rank",
+                "Country",
+                "Airport",
+                "2014",
+                "2013",
+                "2012",
+                "2011",
+                "2010",
+                "2009",
+                "2008",
+                "2007",
+                "2006",
+                "2005",
+                "2004"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09,
+                        "http://dbpedia.org/property/stateParty": 0.18,
+                        "http://dbpedia.org/property/pushpinMap": 0.55
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.27
+                    },
+                    "subject": "Airport",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.55,
+                        "http://dbpedia.org/ontology/location": 0.27,
+                        "http://dbpedia.org/property/cityServed": 0.55
+                    },
+                    "subject": "Airport",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Passengers'",
+            "colums": [
+                "Rank",
+                "Country",
+                "City",
+                "Airport",
+                "Code\n(IATA/ICAO)",
+                "Passengers\n(2013)",
+                "Change\n2012\u20132013"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09,
+                        "http://dbpedia.org/property/stateParty": 0.18,
+                        "http://dbpedia.org/property/pushpinMap": 0.55
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.27
+                    },
+                    "subject": "Airport",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.55,
+                        "http://dbpedia.org/ontology/location": 0.27,
+                        "http://dbpedia.org/property/cityServed": 0.55
+                    },
+                    "subject": "Airport",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Passengers'",
+            "colums": [
+                "Rank",
+                "Country",
+                "City",
+                "Airport",
+                "Code\n(IATA/ICAO)",
+                "Passengers\n(2012)",
+                "Change\n2011\u20132012"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/property/stateParty": 0.4,
+                        "http://dbpedia.org/property/pushpinMap": 0.4
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.4
+                    },
+                    "subject": "Airport",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 1.0
+                    },
+                    "subject": "Airport",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Aircraft movements'",
+            "colums": [
+                "Rank",
+                "Country",
+                "City",
+                "Airport",
+                "Code\n(IATA/ICAO)",
+                "Movements\n(2012)",
+                "Change\n2011\u20132012"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/property/stateParty": 0.4,
+                        "http://dbpedia.org/property/pushpinMap": 0.4
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.4
+                    },
+                    "subject": "Airport",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/cityServed": 1.0
+                    },
+                    "subject": "Airport",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Freight and Mail Tonnes'",
+            "colums": [
+                "Rank",
+                "Country",
+                "City",
+                "Airport",
+                "Code\n(IATA/ICAO)",
+                "Cargo\n(2012)",
+                "Change\n2011\u20132012"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Busiest Air Routes'",
+            "colums": [
+                "Rank",
+                "City 1",
+                "City 2",
+                "Passengers (2011)",
+                "Change\n2010-2011"
+            ]
+        }
+    ]
+}

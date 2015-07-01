@@ -1,0 +1,315 @@
+{
+    "no. of tables": 7,
+    "page": "Comparison of FTP client software",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developer": 0.36,
+                        "http://dbpedia.org/property/author": 0.14
+                    },
+                    "subject": "Client",
+                    "object": "Creator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.21
+                    },
+                    "subject": "Client",
+                    "object": "First public release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/latestReleaseVersion": 0.07
+                    },
+                    "subject": "Client",
+                    "object": "Latest stable version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.43,
+                        "http://dbpedia.org/property/license": 0.21
+                    },
+                    "subject": "Client",
+                    "object": "Software license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.07,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.07
+                    },
+                    "subject": "Client",
+                    "object": "Copy files over 2 GB limit[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.07,
+                        "http://dbpedia.org/property/date": 0.21,
+                        "http://dbpedia.org/property/debianApproved": 0.64,
+                        "http://dbpedia.org/property/osiApproved": 0.64,
+                        "http://dbpedia.org/property/gplCompatible": 0.07,
+                        "http://dbpedia.org/property/linking": 0.14,
+                        "http://dbpedia.org/property/copyleft": 0.5,
+                        "http://dbpedia.org/property/freeSoftware": 0.57
+                    },
+                    "subject": "Software license",
+                    "object": "Copy files over 2 GB limit[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/license": 0.07
+                    },
+                    "subject": "Interface",
+                    "object": "Software license"
+                }
+            ],
+            "table": "Unnamed table in section 'Free and Open Source'",
+            "colums": [
+                "Client",
+                "Creator",
+                "First public release date",
+                "Latest stable version",
+                "Software license",
+                "Copy files over 2 GB limit[1]",
+                "Interface"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.08,
+                        "http://dbpedia.org/property/developer": 0.15
+                    },
+                    "subject": "Client",
+                    "object": "Creator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.08,
+                        "http://dbpedia.org/property/license": 0.08
+                    },
+                    "subject": "Client",
+                    "object": "Software license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sourceModel": 0.08,
+                        "http://dbpedia.org/ontology/license": 0.08,
+                        "http://dbpedia.org/property/license": 0.08
+                    },
+                    "subject": "Interface",
+                    "object": "Software license"
+                }
+            ],
+            "table": "Unnamed table in section 'Proprietary Freeware'",
+            "colums": [
+                "Client",
+                "Creator",
+                "First public release date",
+                "Latest stable version",
+                "Software license",
+                "Copy files over 2\u00a0GB[1]",
+                "Interface"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.22,
+                        "http://dbpedia.org/property/developer": 0.44
+                    },
+                    "subject": "Client",
+                    "object": "Creator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.11,
+                        "http://dbpedia.org/property/license": 0.11
+                    },
+                    "subject": "Client",
+                    "object": "Software license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/linking": 0.11,
+                        "http://dbpedia.org/property/debianApproved": 0.11,
+                        "http://dbpedia.org/property/osiApproved": 0.11,
+                        "http://dbpedia.org/property/freeSoftware": 0.11
+                    },
+                    "subject": "Software license",
+                    "object": "Copy files over 2\u00a0GB[1]"
+                }
+            ],
+            "table": "Unnamed table in section 'Freeware and commercial editions'",
+            "colums": [
+                "Client",
+                "Creator",
+                "First public release date",
+                "Latest stable version",
+                "Software license",
+                "Copy files over 2\u00a0GB[1]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developer": 0.22,
+                        "http://dbpedia.org/ontology/product": 0.04
+                    },
+                    "subject": "Client",
+                    "object": "Creator"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/license": 0.22,
+                        "http://dbpedia.org/property/license": 0.22
+                    },
+                    "subject": "Client",
+                    "object": "Software license"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/ontology/product": 0.04
+                    },
+                    "subject": "Creator",
+                    "object": "Client"
+                }
+            ],
+            "table": "Unnamed table in section 'Trials of commercial'",
+            "colums": [
+                "Client",
+                "Creator",
+                "First public release date",
+                "Latest stable version",
+                "Software license",
+                "Copy files over 2\u00a0GB[1]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Windows"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Mac OS X"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Linux"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "BSD"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Unix"
+                }
+            ],
+            "table": "Unnamed table in section 'Operating system support'",
+            "colums": [
+                "Client",
+                "Windows",
+                "Mac OS X",
+                "Linux",
+                "BSD",
+                "Unix",
+                "AmigaOS"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "FTP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "FTP over SSH"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "SFTP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "FTPS (FTP over SSL)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Resume Download"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frequentlyUpdated": 0.02,
+                        "http://dbpedia.org/ontology/frequentlyUpdated": 0.02
+                    },
+                    "subject": "Client",
+                    "object": "Passive mode"
+                }
+            ],
+            "table": "Unnamed table in section 'Protocol support'",
+            "colums": [
+                "Client",
+                "FTP",
+                "FTP over SSH",
+                "SFTP",
+                "FTPS (FTP over SSL)",
+                "FXP (Site2site transfer)",
+                "DAV / HTTP(S)",
+                "Compression",
+                "Remote Compression",
+                "API / Commandline available",
+                "Resume Download",
+                "Passive mode"
+            ]
+        }
+    ]
+}

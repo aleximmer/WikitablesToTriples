@@ -1,0 +1,185 @@
+{
+    "no. of tables": 4,
+    "page": "List of Supercopa Libertadores finals",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.4
+                    },
+                    "subject": "Team",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaMagnitude": 0.4
+                    },
+                    "subject": "Team",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.1,
+                        "http://dbpedia.org/property/l": 0.1,
+                        "http://dbpedia.org/property/rd1Score": 0.3,
+                        "http://dbpedia.org/property/rd2Score2A": 0.1,
+                        "http://dbpedia.org/property/rows": 0.2,
+                        "http://dbpedia.org/property/rd1Score4A": 0.1,
+                        "http://dbpedia.org/property/rd4Score": 0.2,
+                        "http://dbpedia.org/property/d": 0.2,
+                        "http://dbpedia.org/property/count": 0.6,
+                        "http://dbpedia.org/property/rd2Score": 0.3,
+                        "http://dbpedia.org/property/w": 0.2,
+                        "http://dbpedia.org/property/rd3Score": 0.2,
+                        "http://dbpedia.org/property/p": 0.2,
+                        "http://dbpedia.org/property/ga": 0.2,
+                        "http://dbpedia.org/property/score": 0.1
+                    },
+                    "subject": "Years won",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.2,
+                        "http://dbpedia.org/property/l": 0.2,
+                        "http://dbpedia.org/property/rd1Score": 0.3,
+                        "http://dbpedia.org/property/rd2Score2A": 0.1,
+                        "http://dbpedia.org/property/rows": 0.1,
+                        "http://dbpedia.org/property/rd1Score4A": 0.1,
+                        "http://dbpedia.org/property/rd4Score": 0.2,
+                        "http://dbpedia.org/property/d": 0.1,
+                        "http://dbpedia.org/property/count": 0.5,
+                        "http://dbpedia.org/property/rd2Score": 0.3,
+                        "http://dbpedia.org/property/w": 0.2,
+                        "http://dbpedia.org/property/rd3Score": 0.2,
+                        "http://dbpedia.org/property/p": 0.1,
+                        "http://dbpedia.org/property/ga": 0.1,
+                        "http://dbpedia.org/property/score": 0.1
+                    },
+                    "subject": "Years won",
+                    "object": "Runner-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.1,
+                        "http://dbpedia.org/property/l": 0.1,
+                        "http://dbpedia.org/property/rd1Score": 0.3,
+                        "http://dbpedia.org/property/rd2Score2A": 0.1,
+                        "http://dbpedia.org/property/socks": 0.1,
+                        "http://dbpedia.org/property/rows": 0.1,
+                        "http://dbpedia.org/property/rd1Score4A": 0.1,
+                        "http://dbpedia.org/property/rd4Score": 0.1,
+                        "http://dbpedia.org/property/d": 0.1,
+                        "http://dbpedia.org/property/count": 0.3,
+                        "http://dbpedia.org/property/rd2Score": 0.3,
+                        "http://dbpedia.org/property/w": 0.1,
+                        "http://dbpedia.org/property/body": 0.1,
+                        "http://dbpedia.org/property/rd3Score": 0.2,
+                        "http://dbpedia.org/property/p": 0.1,
+                        "http://dbpedia.org/property/ga": 0.1,
+                        "http://dbpedia.org/property/score": 0.1
+                    },
+                    "subject": "Years runner-up",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.1,
+                        "http://dbpedia.org/property/l": 0.1,
+                        "http://dbpedia.org/property/rd1Score": 0.3,
+                        "http://dbpedia.org/property/rd2Score2A": 0.1,
+                        "http://dbpedia.org/property/rows": 0.1,
+                        "http://dbpedia.org/property/rd1Score4A": 0.1,
+                        "http://dbpedia.org/property/rd4Score": 0.1,
+                        "http://dbpedia.org/property/d": 0.1,
+                        "http://dbpedia.org/property/count": 0.5,
+                        "http://dbpedia.org/property/rd2Score": 0.3,
+                        "http://dbpedia.org/property/w": 0.1,
+                        "http://dbpedia.org/property/rd3Score": 0.2,
+                        "http://dbpedia.org/property/p": 0.1,
+                        "http://dbpedia.org/property/ga": 0.1,
+                        "http://dbpedia.org/property/score": 0.2
+                    },
+                    "subject": "Years runner-up",
+                    "object": "Runner-up"
+                }
+            ],
+            "table": "Unnamed table in section 'Performances'",
+            "colums": [
+                "Team",
+                "Won",
+                "Runner-up",
+                "Years won",
+                "Years runner-up"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25,
+                        "http://dbpedia.org/property/areaRank": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Runners-Up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.25,
+                        "http://dbpedia.org/property/areaRank": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Runners-Up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.25,
+                        "http://dbpedia.org/property/ground": 0.25
+                    },
+                    "subject": "Winning Clubs",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.5
+                    },
+                    "subject": "Winning Clubs",
+                    "object": "Won"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rightarm": 0.25,
+                        "http://dbpedia.org/property/socks": 0.25,
+                        "http://dbpedia.org/property/body": 0.25,
+                        "http://dbpedia.org/property/leftarm": 0.25,
+                        "http://dbpedia.org/property/no": 0.25,
+                        "http://dbpedia.org/property/shorts": 0.25
+                    },
+                    "subject": "Winning Clubs",
+                    "object": "Runners-Up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rightarm": 0.25,
+                        "http://dbpedia.org/property/socks": 0.25,
+                        "http://dbpedia.org/property/body": 0.25,
+                        "http://dbpedia.org/property/leftarm": 0.25,
+                        "http://dbpedia.org/property/no": 0.25,
+                        "http://dbpedia.org/property/shorts": 0.25
+                    },
+                    "subject": "Winning Clubs",
+                    "object": "Runners-Up"
+                }
+            ],
+            "table": "Unnamed table in section 'Performances'",
+            "colums": [
+                "Country",
+                "Won",
+                "Runners-Up",
+                "Winning Clubs",
+                "Runners-Up"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "no. of tables": 3,
+    "page": "List of municipalities of Spain",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/blank3InfoSec": 0.02,
+                        "http://dbpedia.org/property/blank2InfoSec": 0.02,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.02
+                    },
+                    "subject": "Autonomous community/province",
+                    "object": "No. of municipalities[2]"
+                }
+            ],
+            "table": "Unnamed table in section 'List of municipalities of Spain'",
+            "colums": [
+                "Autonomous community/province",
+                "List",
+                "No. of municipalities[2]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.06,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/octHighC": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/mayPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/decMeanC": 0.02,
+                        "http://dbpedia.org/property/mayMeanC": 0.02,
+                        "http://dbpedia.org/property/yearPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/octMeanC": 0.02,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.04,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.06,
+                        "http://dbpedia.org/property/areaCode": 0.02,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/longd": 0.02,
+                        "http://dbpedia.org/property/novRainMm": 0.02,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/text": 0.02,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.86,
+                        "http://dbpedia.org/property/subdivisionName": 0.28
+                    },
+                    "subject": "Municipality",
+                    "object": "Autonomous community"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/lonMin": 0.02,
+                        "http://dbpedia.org/property/populationBlank": 0.02,
+                        "http://dbpedia.org/property/decPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/blank2InfoSec": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/blank3InfoSec": 0.02,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Autonomous community",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/seat": 0.28
+                    },
+                    "subject": "Autonomous community",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Ranked lists of Spanish municipalities'",
+            "colums": [
+                "#",
+                "Municipality",
+                "Autonomous community",
+                "Pop. (2014)[1]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.02,
+                        "http://dbpedia.org/property/marLowF": 0.02,
+                        "http://dbpedia.org/property/julPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Municipality",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.74,
+                        "http://dbpedia.org/property/subdivisionName": 0.32
+                    },
+                    "subject": "Municipality",
+                    "object": "Autonomous community"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.02,
+                        "http://dbpedia.org/property/blank2InfoSec": 0.02,
+                        "http://dbpedia.org/property/latd": 0.04,
+                        "http://dbpedia.org/property/blank1InfoSec": 0.04,
+                        "http://dbpedia.org/property/populationBlank": 0.02
+                    },
+                    "subject": "Autonomous community",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.08
+                    },
+                    "subject": "Autonomous community",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Ranked lists of Spanish municipalities'",
+            "colums": [
+                "#",
+                "Municipality",
+                "Autonomous community",
+                "Area (Km2)[3]"
+            ]
+        }
+    ]
+}

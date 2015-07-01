@@ -1,0 +1,340 @@
+{
+    "no. of tables": 13,
+    "page": "List of United States stations available in Canada",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.71,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.86
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Call sign"
+                }
+            ],
+            "table": "Unnamed table in section 'Superstations'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.67,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.93
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Bell TV / Nationwide coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.13,
+                        "http://dbpedia.org/ontology/location": 0.13
+                    },
+                    "subject": "Call sign",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.47,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.73
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07
+                    },
+                    "subject": "Affiliation",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.07,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.13
+                    },
+                    "subject": "Notes",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.67,
+                        "http://dbpedia.org/ontology/location": 0.67
+                    },
+                    "subject": "Call sign",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.11,
+                        "http://dbpedia.org/property/affiliations": 0.33,
+                        "http://dbpedia.org/property/formerAffiliations": 0.11,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.44
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.13,
+                        "http://dbpedia.org/property/location": 0.6,
+                        "http://dbpedia.org/property/city": 0.07,
+                        "http://dbpedia.org/ontology/location": 0.73
+                    },
+                    "subject": "Call sign",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.2,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.47
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.26,
+                        "http://dbpedia.org/property/callsignMeaning": 0.04,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.52
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.07,
+                        "http://dbpedia.org/property/location": 0.14,
+                        "http://dbpedia.org/ontology/location": 0.14
+                    },
+                    "subject": "Call sign",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerBroadcastNetwork": 0.07,
+                        "http://dbpedia.org/property/affiliations": 0.14,
+                        "http://dbpedia.org/ontology/owningCompany": 0.04,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.36,
+                        "http://dbpedia.org/property/owner": 0.04,
+                        "http://dbpedia.org/property/formerAffiliations": 0.04
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.04,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.04
+                    },
+                    "subject": "Notes",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.05,
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/property/city": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.2
+                    },
+                    "subject": "Call sign",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.35,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.75
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.14,
+                        "http://dbpedia.org/property/location": 0.24,
+                        "http://dbpedia.org/ontology/location": 0.24
+                    },
+                    "subject": "Call sign",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.62,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.9
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sisterStations": 0.05,
+                        "http://dbpedia.org/property/affiliations": 0.05,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.05,
+                        "http://dbpedia.org/ontology/sisterStation": 0.05
+                    },
+                    "subject": "Call sign",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.05,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Market/City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sisterStations": 0.05,
+                        "http://dbpedia.org/ontology/sisterStation": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Call sign"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.14,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Affiliation"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.78,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.89
+                    },
+                    "subject": "Call sign",
+                    "object": "Affiliation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.11,
+                        "http://dbpedia.org/ontology/broadcastNetwork": 0.11
+                    },
+                    "subject": "Call sign",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Other stations / Local coverage'",
+            "colums": [
+                "Market/City",
+                "Call sign",
+                "Affiliation",
+                "Available?",
+                "Notes"
+            ]
+        }
+    ]
+}

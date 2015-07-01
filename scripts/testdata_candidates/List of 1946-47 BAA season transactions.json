@@ -1,0 +1,31 @@
+{
+    "page": "List of 1946\u201347 BAA season transactions",
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Selling'",
+            "predicates": [
+                {
+                    "object": "Former team",
+                    "subject": "Player",
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.25
+                    }
+                },
+                {
+                    "object": "New team",
+                    "subject": "Player",
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.25
+                    }
+                }
+            ],
+            "colums": [
+                "Player",
+                "Date sold",
+                "Former team",
+                "New team"
+            ]
+        }
+    ]
+}

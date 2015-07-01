@@ -1,0 +1,73 @@
+{
+    "no. of tables": 8,
+    "page": "Acid dissociation constant",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Acid dissociation constant'",
+            "colums": [
+                "equilibrium",
+                "pKa value[16]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Acid dissociation constant'",
+            "colums": [
+                "equilibrium",
+                "pKa value"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Solvent properties at 25\u00a0\u00b0C",
+            "colums": [
+                "Solvent",
+                "Donor number[24]",
+                "Dielectric constant[24]"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "pKa values of acids",
+            "colums": [
+                "HA  A\u2212 + H+",
+                "ACN",
+                "DMSO",
+                "water"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Acids",
+            "colums": [
+                "Compound",
+                "Equilibrium",
+                "pKa",
+                "\u0394G /kJ\u00b7mol\u22121",
+                "\u0394H /kJ\u00b7mol\u22121",
+                "\u2014T\u0394S /kJ\u00b7mol\u22121"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Conjugate acids of bases",
+            "colums": [
+                "Compound",
+                "Equilibrium",
+                "pKa",
+                "\u0394H /kJ\u00b7mol\u22121",
+                "\u2014T\u0394S /kJ\u00b7mol\u22121"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Values for common substances'",
+            "colums": [
+                "Chemical Name",
+                "Equilibrium",
+                "pKa"
+            ]
+        }
+    ]
+}

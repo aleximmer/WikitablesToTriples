@@ -1,0 +1,298 @@
+{
+    "no. of tables": 9,
+    "page": "Historical period drama films set in Asia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.23
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearDeputy": 0.08,
+                        "http://dbpedia.org/property/yearEnd": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Time period"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.08,
+                        "http://dbpedia.org/property/deathPlace": 0.08,
+                        "http://dbpedia.org/property/commonName": 0.08,
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/property/pushpinMap": 0.08
+                    },
+                    "subject": "Notes",
+                    "object": "Setting"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Setting",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.33,
+                        "http://dbpedia.org/property/nextAlbum": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/thisAlbum": 0.03,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Time period"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/language": 0.03,
+                        "http://dbpedia.org/property/director": 0.06,
+                        "http://dbpedia.org/ontology/language": 0.06,
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/ontology/writer": 0.06,
+                        "http://dbpedia.org/ontology/director": 0.06,
+                        "http://dbpedia.org/ontology/starring": 0.06,
+                        "http://dbpedia.org/property/starring": 0.06,
+                        "http://dbpedia.org/property/story": 0.03,
+                        "http://dbpedia.org/property/writer": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.05,
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Time period"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.04,
+                        "http://dbpedia.org/property/starring": 0.04
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant2a": 0.01,
+                        "http://dbpedia.org/property/yearsactive": 0.01,
+                        "http://dbpedia.org/property/combatant1a": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.03,
+                        "http://dbpedia.org/property/yearDeputy": 0.01,
+                        "http://dbpedia.org/property/deathDate": 0.01,
+                        "http://dbpedia.org/property/map": 0.01
+                    },
+                    "subject": "Notes on setting",
+                    "object": "Time period"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.1,
+                        "http://dbpedia.org/property/director": 0.1,
+                        "http://dbpedia.org/ontology/producer": 0.1
+                    },
+                    "subject": "Title",
+                    "object": "Notes on setting"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.28
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Notes on setting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.22,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/storyBy": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.06,
+                        "http://dbpedia.org/property/name": 0.06,
+                        "http://xmlns.com/foaf/0.1/name": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Setting",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Release date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.07
+                    },
+                    "subject": "Title",
+                    "object": "Setting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.14,
+                        "http://dbpedia.org/property/director": 0.14,
+                        "http://dbpedia.org/property/writer": 0.07,
+                        "http://dbpedia.org/ontology/writer": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Sortable table",
+            "colums": [
+                "Title",
+                "Release date",
+                "Time period",
+                "Setting",
+                "Notes"
+            ]
+        }
+    ]
+}

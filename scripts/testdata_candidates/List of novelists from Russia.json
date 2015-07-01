@@ -1,0 +1,540 @@
+{
+    "no. of tables": 22,
+    "page": "List of Russian-language novelists",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.12
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.06,
+                        "http://dbpedia.org/ontology/author": 0.18,
+                        "http://dbpedia.org/property/author": 0.18,
+                        "http://dbpedia.org/ontology/creator": 0.06
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.08,
+                        "http://dbpedia.org/property/notableworks": 0.08
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/writer": 0.04,
+                        "http://dbpedia.org/ontology/author": 0.21,
+                        "http://dbpedia.org/property/author": 0.17,
+                        "http://dbpedia.org/ontology/writer": 0.04
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.12
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.38,
+                        "http://dbpedia.org/property/author": 0.38
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.08,
+                        "http://dbpedia.org/property/notableworks": 0.08
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.08,
+                        "http://dbpedia.org/property/author": 0.08
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.33,
+                        "http://dbpedia.org/property/author": 0.33
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.21
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.21,
+                        "http://dbpedia.org/property/author": 0.21
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 1.0,
+                        "http://dbpedia.org/property/author": 1.0
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.25,
+                        "http://dbpedia.org/property/author": 0.25
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableworks": 0.07
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.1,
+                        "http://dbpedia.org/property/author": 0.1
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.07,
+                        "http://dbpedia.org/property/notableworks": 0.07
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.07,
+                        "http://dbpedia.org/ontology/author": 0.29,
+                        "http://dbpedia.org/property/author": 0.29
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableworks": 0.09
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.09,
+                        "http://dbpedia.org/property/author": 0.09,
+                        "http://dbpedia.org/ontology/translator": 0.09
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.12
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.38,
+                        "http://dbpedia.org/property/author": 0.38
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.09,
+                        "http://dbpedia.org/property/notableworks": 0.05
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.18,
+                        "http://dbpedia.org/property/author": 0.18
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.09,
+                        "http://dbpedia.org/property/author": 0.09
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.06,
+                        "http://dbpedia.org/property/notableworks": 0.06
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/creator": 0.03,
+                        "http://dbpedia.org/ontology/author": 0.08,
+                        "http://dbpedia.org/property/author": 0.08,
+                        "http://dbpedia.org/ontology/writer": 0.03
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.06,
+                        "http://dbpedia.org/property/notableworks": 0.17
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.06,
+                        "http://dbpedia.org/property/author": 0.06
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.07,
+                        "http://dbpedia.org/property/notableworks": 0.07
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.14,
+                        "http://dbpedia.org/property/author": 0.14
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.14,
+                        "http://dbpedia.org/property/notableworks": 0.14
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.29,
+                        "http://dbpedia.org/property/author": 0.29
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.09
+                    },
+                    "subject": "Author",
+                    "object": "Notable works"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/author": 0.09,
+                        "http://dbpedia.org/property/author": 0.09
+                    },
+                    "subject": "Notable works",
+                    "object": "Author"
+                }
+            ],
+            "table": "Unnamed table in section 'Alphabetical list'",
+            "colums": [
+                "Portrait",
+                "Author",
+                "Notable works",
+                "Illustration",
+                "Illustration"
+            ]
+        }
+    ]
+}

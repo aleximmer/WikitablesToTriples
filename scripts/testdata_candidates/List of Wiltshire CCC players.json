@@ -1,0 +1,286 @@
+{
+    "no. of tables": 2,
+    "page": "List of Wiltshire CCC List A players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.01,
+                        "http://dbpedia.org/property/club": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.22,
+                        "http://dbpedia.org/property/lastyear": 0.01,
+                        "http://dbpedia.org/property/debutyear": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.12,
+                        "http://dbpedia.org/property/lastyear": 0.05,
+                        "http://dbpedia.org/property/lasttestyear": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.11,
+                        "http://dbpedia.org/property/fivefor": 0.03,
+                        "http://dbpedia.org/property/matches": 0.41,
+                        "http://dbpedia.org/property/heightinch": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.03,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.13,
+                        "http://dbpedia.org/property/columns": 0.14,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/100s/50s": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.21,
+                        "http://dbpedia.org/property/catches/stumpings": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/heightinch": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.09,
+                        "http://dbpedia.org/property/matches": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/runs": 0.43,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.14,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/heightinch": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.03,
+                        "http://dbpedia.org/property/matches": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/runs": 0.08,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.44,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "HS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Avg"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/heightinch": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.05,
+                        "http://dbpedia.org/property/deliveries": 0.3,
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.26,
+                        "http://dbpedia.org/property/fivefor": 0.07,
+                        "http://dbpedia.org/property/heightinch": 0.03,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.07,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/matches": 0.05,
+                        "http://dbpedia.org/property/columns": 0.1,
+                        "http://dbpedia.org/property/bestBowling": 0.15,
+                        "http://dbpedia.org/property/tenfor": 0.09,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/property/catches/stumpings": 0.07,
+                        "http://dbpedia.org/property/batAvg": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Wkt"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.05,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.08,
+                        "http://dbpedia.org/property/tenfor": 0.08,
+                        "http://dbpedia.org/property/deliveries": 0.05,
+                        "http://dbpedia.org/property/bowlAvg": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "BBI"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.05,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/fivefor": 0.08,
+                        "http://dbpedia.org/property/tenfor": 0.08,
+                        "http://dbpedia.org/property/deliveries": 0.05,
+                        "http://dbpedia.org/property/bowlAvg": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Ave"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.04,
+                        "http://dbpedia.org/property/fivefor": 0.08,
+                        "http://dbpedia.org/property/heightinch": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.08,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/matches": 0.03,
+                        "http://dbpedia.org/property/columns": 0.13,
+                        "http://dbpedia.org/property/bestBowling": 0.04,
+                        "http://dbpedia.org/property/tenfor": 0.05,
+                        "http://dbpedia.org/property/deliveries": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.25,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Ca"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/fivefor": 0.09,
+                        "http://dbpedia.org/property/heightinch": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.1,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/bestBowling": 0.01,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/100s/50s": 0.1,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "St"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.01,
+                        "http://dbpedia.org/property/iccWorldCupQualifierApps": 0.01,
+                        "http://dbpedia.org/property/data": 0.45
+                    },
+                    "subject": "Nationality",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.02,
+                        "http://dbpedia.org/property/data": 0.19
+                    },
+                    "subject": "Nationality",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.01,
+                        "http://dbpedia.org/property/data": 0.16
+                    },
+                    "subject": "Nationality",
+                    "object": "HS"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/data": 0.37
+                    },
+                    "subject": "Nationality",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.01,
+                        "http://dbpedia.org/property/iccWorldCupQualifierApps": 0.01,
+                        "http://dbpedia.org/property/data": 0.75
+                    },
+                    "subject": "Nationality",
+                    "object": "Wkt"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.01,
+                        "http://dbpedia.org/property/data": 0.78
+                    },
+                    "subject": "Nationality",
+                    "object": "Ca"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title3wins": 0.01,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.01,
+                        "http://dbpedia.org/property/data": 0.91
+                    },
+                    "subject": "Nationality",
+                    "object": "St"
+                }
+            ],
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "No.",
+                "Name",
+                "Nationality",
+                "First",
+                "Last",
+                "Mat",
+                "Runs",
+                "HS",
+                "Avg",
+                "Balls",
+                "Wkt",
+                "BBI",
+                "Ave",
+                "Ca",
+                "St"
+            ]
+        }
+    ]
+}

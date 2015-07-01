@@ -1,0 +1,239 @@
+{
+    "no. of tables": 9,
+    "page": "List of 1952 Winter Olympics medal winners",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Alpine skiing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bobsleigh'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cross-country skiing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Figure skating'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ice hockey'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 1.0,
+                        "http://dbpedia.org/ontology/goldMedalist": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/silverMedalist": 1.0,
+                        "http://dbpedia.org/property/silver": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bronze": 1.0,
+                        "http://dbpedia.org/ontology/bronzeMedalist": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Bronze"
+                }
+            ],
+            "table": "Unnamed table in section 'Nordic combined'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gold": 1.0,
+                        "http://dbpedia.org/ontology/goldMedalist": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/silverMedalist": 1.0,
+                        "http://dbpedia.org/property/silver": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bronze": 1.0,
+                        "http://dbpedia.org/ontology/bronzeMedalist": 1.0
+                    },
+                    "subject": "Event",
+                    "object": "Bronze"
+                }
+            ],
+            "table": "Unnamed table in section 'Ski jumping'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/team": 0.11
+                    },
+                    "subject": "Athlete",
+                    "object": "Sport"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/olympicgolds": 0.11,
+                        "http://dbpedia.org/property/olympicmedals": 0.06,
+                        "http://dbpedia.org/property/worldsgolds": 0.06,
+                        "http://dbpedia.org/property/worldsmedals": 0.06
+                    },
+                    "subject": "Athlete",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/olympicgolds": 0.06
+                    },
+                    "subject": "Athlete",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/olympicteams": 0.06,
+                        "http://dbpedia.org/property/olympicgolds": 0.06,
+                        "http://dbpedia.org/property/olympicmedals": 0.11,
+                        "http://dbpedia.org/property/worldsgolds": 0.06,
+                        "http://dbpedia.org/property/worldsmedals": 0.06
+                    },
+                    "subject": "Athlete",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/flagBearer": 0.11,
+                        "http://dbpedia.org/property/flagbearer": 0.11
+                    },
+                    "subject": "Nation",
+                    "object": "Athlete"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfSilverMedalsWon": 0.17,
+                        "http://dbpedia.org/ontology/numberOfGoldMedalsWon": 0.17,
+                        "http://dbpedia.org/property/gold": 0.17,
+                        "http://dbpedia.org/property/silver": 0.28,
+                        "http://dbpedia.org/property/rank": 0.17,
+                        "http://dbpedia.org/property/bronze": 0.17,
+                        "http://dbpedia.org/ontology/rankInFinalMedalCount": 0.17,
+                        "http://dbpedia.org/ontology/numberOfBronzeMedalsWon": 0.06
+                    },
+                    "subject": "Nation",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfGoldMedalsWon": 0.11,
+                        "http://dbpedia.org/ontology/numberOfSilverMedalsWon": 0.11,
+                        "http://dbpedia.org/property/gold": 0.11,
+                        "http://dbpedia.org/property/silver": 0.11,
+                        "http://dbpedia.org/property/rank": 0.28,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/ontology/rankInFinalMedalCount": 0.28
+                    },
+                    "subject": "Nation",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfGoldMedalsWon": 0.06,
+                        "http://dbpedia.org/property/gold": 0.06,
+                        "http://dbpedia.org/property/silver": 0.06,
+                        "http://dbpedia.org/property/rank": 0.06,
+                        "http://dbpedia.org/property/total": 0.11,
+                        "http://dbpedia.org/property/bronze": 0.22,
+                        "http://dbpedia.org/ontology/rankInFinalMedalCount": 0.06,
+                        "http://dbpedia.org/ontology/numberOfBronzeMedalsWon": 0.17
+                    },
+                    "subject": "Nation",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/numberOfGoldMedalsWon": 0.11,
+                        "http://dbpedia.org/property/gold": 0.17,
+                        "http://dbpedia.org/property/silver": 0.11,
+                        "http://dbpedia.org/property/rank": 0.17,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/total": 0.11,
+                        "http://dbpedia.org/property/bronze": 0.5,
+                        "http://dbpedia.org/ontology/rankInFinalMedalCount": 0.17,
+                        "http://dbpedia.org/ontology/numberOfBronzeMedalsWon": 0.39
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Multiple medallists'",
+            "colums": [
+                "Athlete",
+                "Nation",
+                "Sport",
+                "Gold",
+                "Silver",
+                "Bronze",
+                "Total"
+            ]
+        }
+    ]
+}

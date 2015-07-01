@@ -1,0 +1,252 @@
+{
+    "no. of tables": 8,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Notes"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/year1start": 0.02,
+                        "http://dbpedia.org/property/year1end": 0.02,
+                        "http://dbpedia.org/property/year2start": 0.02
+                    },
+                    "object": "Club career"
+                }
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Notes"
+            ],
+            "predicates": []
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "DGs",
+                "Points"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoalsb": 0.5,
+                        "http://dbpedia.org/property/fieldgoalsc": 0.5,
+                        "http://dbpedia.org/property/fieldgoals": 0.5,
+                        "http://dbpedia.org/property/fieldgoalsd": 0.5,
+                        "http://dbpedia.org/property/goalsd": 0.5,
+                        "http://dbpedia.org/property/goalsc": 0.5,
+                        "http://dbpedia.org/property/goals": 0.5
+                    },
+                    "object": "Goals"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoalsb": 0.5,
+                        "http://dbpedia.org/property/fieldgoalsc": 0.5,
+                        "http://dbpedia.org/property/fieldgoals": 0.5,
+                        "http://dbpedia.org/property/fieldgoalsd": 0.5,
+                        "http://dbpedia.org/property/goalsd": 0.5,
+                        "http://dbpedia.org/property/goalsc": 0.5,
+                        "http://dbpedia.org/property/goals": 0.5
+                    },
+                    "object": "DGs"
+                }
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "DGs",
+                "Points"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/tries": 1.0
+                    },
+                    "object": "Tries"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoals": 1.0,
+                        "http://dbpedia.org/property/goals": 1.0
+                    },
+                    "object": "Goals"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoals": 1.0,
+                        "http://dbpedia.org/property/goals": 1.0
+                    },
+                    "object": "DGs"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/points": 1.0
+                    },
+                    "object": "Points"
+                }
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "DGs",
+                "Points"
+            ],
+            "predicates": []
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "DGs",
+                "Points"
+            ],
+            "predicates": [
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/year2start": 0.14
+                    },
+                    "object": "Club career"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/appearances": 0.57,
+                        "http://dbpedia.org/property/points": 0.14
+                    },
+                    "object": "Appearances"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/tries": 0.57,
+                        "http://dbpedia.org/property/year3end": 0.14,
+                        "http://dbpedia.org/property/coachwinsa": 0.14,
+                        "http://dbpedia.org/property/points": 0.14
+                    },
+                    "object": "Tries"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoalsb": 0.14,
+                        "http://dbpedia.org/property/triesa": 0.29,
+                        "http://dbpedia.org/property/points": 0.14,
+                        "http://dbpedia.org/property/coachdrawsa": 0.14,
+                        "http://dbpedia.org/property/goalsa": 0.43,
+                        "http://dbpedia.org/property/goalsc": 0.14,
+                        "http://dbpedia.org/property/goals": 0.43,
+                        "http://dbpedia.org/property/goalsb": 0.14,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.43,
+                        "http://dbpedia.org/property/fieldgoals": 0.43,
+                        "http://dbpedia.org/property/fieldgoalsc": 0.14,
+                        "http://dbpedia.org/property/triesb": 0.14,
+                        "http://dbpedia.org/property/ruGoalsa": 0.14,
+                        "http://dbpedia.org/property/tries": 0.14,
+                        "http://dbpedia.org/property/pointsc": 0.14,
+                        "http://dbpedia.org/property/pointsa": 0.29,
+                        "http://dbpedia.org/property/pointsb": 0.14,
+                        "http://dbpedia.org/property/triesc": 0.14
+                    },
+                    "object": "Goals"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldgoalsb": 0.14,
+                        "http://dbpedia.org/property/tries": 0.14,
+                        "http://dbpedia.org/property/points": 0.14,
+                        "http://dbpedia.org/property/coachdrawsa": 0.14,
+                        "http://dbpedia.org/property/goalsa": 0.29,
+                        "http://dbpedia.org/property/goalsc": 0.14,
+                        "http://dbpedia.org/property/goals": 0.43,
+                        "http://dbpedia.org/property/triesa": 0.14,
+                        "http://dbpedia.org/property/goalsb": 0.14,
+                        "http://dbpedia.org/property/fieldgoalsa": 0.29,
+                        "http://dbpedia.org/property/fieldgoals": 0.57,
+                        "http://dbpedia.org/property/fieldgoalsc": 0.14,
+                        "http://dbpedia.org/property/triesb": 0.14,
+                        "http://dbpedia.org/property/ruGoalsa": 0.14,
+                        "http://dbpedia.org/property/pointsc": 0.14,
+                        "http://dbpedia.org/property/pointsa": 0.14,
+                        "http://dbpedia.org/property/pointsb": 0.14,
+                        "http://dbpedia.org/property/triesc": 0.14
+                    },
+                    "object": "DGs"
+                },
+                {
+                    "subject": "Name",
+                    "predicates": {
+                        "http://dbpedia.org/property/appearances": 0.14,
+                        "http://dbpedia.org/property/points": 0.57
+                    },
+                    "object": "Points"
+                }
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "DGs",
+                "Points"
+            ],
+            "predicates": []
+        },
+        {
+            "table": "Unnamed table in section 'List of players'",
+            "colums": [
+                "Name",
+                "Club career",
+                "Appearances",
+                "Tries",
+                "Goals",
+                "DGs",
+                "Points"
+            ],
+            "predicates": []
+        }
+    ],
+    "page": "List of St Helens RLFC players"
+}

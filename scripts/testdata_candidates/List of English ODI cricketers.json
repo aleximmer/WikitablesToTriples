@@ -1,0 +1,192 @@
+{
+    "no. of tables": 1,
+    "page": "List of England ODI cricketers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.0,
+                        "http://dbpedia.org/property/matches": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/runs": 0.0,
+                        "http://dbpedia.org/property/heightinch": 0.0,
+                        "http://dbpedia.org/property/deliveries": 0.0,
+                        "http://dbpedia.org/property/catches/stumpings": 0.01,
+                        "http://dbpedia.org/property/odicap": 0.67,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/100s/50s": 0.0
+                    },
+                    "subject": "Cap",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t20idebutyear": 0.05,
+                        "http://dbpedia.org/property/year": 0.09,
+                        "http://dbpedia.org/property/odidebutyear": 0.7,
+                        "http://dbpedia.org/property/lastodiyear": 0.11,
+                        "http://dbpedia.org/property/testdebutyear": 0.23,
+                        "http://dbpedia.org/property/lastt20iyear": 0.02,
+                        "http://dbpedia.org/property/years": 0.02,
+                        "http://dbpedia.org/property/lasttestyear": 0.05
+                    },
+                    "subject": "Cap",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastt20iyear": 0.02,
+                        "http://dbpedia.org/property/year": 0.12,
+                        "http://dbpedia.org/property/odidebutyear": 0.12,
+                        "http://dbpedia.org/property/lastodiyear": 0.57,
+                        "http://dbpedia.org/property/testdebutyear": 0.04,
+                        "http://dbpedia.org/property/t20idebutyear": 0.02,
+                        "http://dbpedia.org/property/years": 0.01,
+                        "http://dbpedia.org/property/lasttestyear": 0.21
+                    },
+                    "subject": "Cap",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.08,
+                        "http://dbpedia.org/property/fivefor": 0.05,
+                        "http://dbpedia.org/property/heightinch": 0.01,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.01,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.02,
+                        "http://dbpedia.org/property/matches": 0.84,
+                        "http://dbpedia.org/property/odishirt": 0.0,
+                        "http://dbpedia.org/property/columns": 0.06,
+                        "http://dbpedia.org/property/bestBowling": 0.08,
+                        "http://dbpedia.org/property/heightft": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.06,
+                        "http://dbpedia.org/property/odicap": 0.0,
+                        "http://dbpedia.org/property/bowlAvg": 0.01
+                    },
+                    "subject": "Cap",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/matches": 0.03,
+                        "http://dbpedia.org/property/batAvg": 0.11,
+                        "http://dbpedia.org/property/topScore": 0.1,
+                        "http://dbpedia.org/property/tenfor": 0.02,
+                        "http://dbpedia.org/property/runs": 0.71,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.05,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/heightft": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.03,
+                        "http://dbpedia.org/property/bowlAvg": 0.0
+                    },
+                    "subject": "Cap",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.21,
+                        "http://dbpedia.org/property/bestBowling": 0.22,
+                        "http://dbpedia.org/property/fivefor": 0.24,
+                        "http://dbpedia.org/property/tenfor": 0.19,
+                        "http://dbpedia.org/property/deliveries": 0.17,
+                        "http://dbpedia.org/property/catches/stumpings": 0.01,
+                        "http://dbpedia.org/property/100s/50s": 0.0,
+                        "http://dbpedia.org/property/bowlAvg": 0.24
+                    },
+                    "subject": "Cap",
+                    "object": "Ave"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.1,
+                        "http://dbpedia.org/property/clubnumber": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.14,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/runs": 0.02,
+                        "http://dbpedia.org/property/heightinch": 0.03,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/heightft": 0.03,
+                        "http://dbpedia.org/property/matches": 0.06,
+                        "http://dbpedia.org/property/100s/50s": 0.09,
+                        "http://dbpedia.org/property/oversSecondInnings": 0.0,
+                        "http://dbpedia.org/property/bestBowling": 0.14,
+                        "http://dbpedia.org/property/columns": 0.07,
+                        "http://dbpedia.org/property/batAvg": 0.02,
+                        "http://dbpedia.org/property/tenfor": 0.08,
+                        "http://dbpedia.org/property/deliveries": 0.02,
+                        "http://dbpedia.org/property/catches/stumpings": 0.74,
+                        "http://dbpedia.org/property/odishirt": 0.01,
+                        "http://dbpedia.org/property/oversFirstInnings": 0.0,
+                        "http://dbpedia.org/property/bowlAvg": 0.0
+                    },
+                    "subject": "Cap",
+                    "object": "Ca"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.14,
+                        "http://dbpedia.org/property/koLosses": 0.0,
+                        "http://dbpedia.org/property/fivefor": 0.43,
+                        "http://dbpedia.org/property/subLosses": 0.0,
+                        "http://dbpedia.org/property/koWins": 0.0,
+                        "http://dbpedia.org/property/nc": 0.0,
+                        "http://dbpedia.org/property/heightinch": 0.09,
+                        "http://dbpedia.org/property/bestBowling": 0.04,
+                        "http://dbpedia.org/property/columns": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.38,
+                        "http://dbpedia.org/property/decLosses": 0.0,
+                        "http://dbpedia.org/property/bowlingFirstBestFigures": 0.0,
+                        "http://dbpedia.org/property/mmaKowin": 0.0,
+                        "http://dbpedia.org/property/ko": 0.0,
+                        "http://dbpedia.org/property/bowlAvg": 0.0,
+                        "http://dbpedia.org/property/clubnumber": 0.01,
+                        "http://dbpedia.org/property/mmaSubloss": 0.0,
+                        "http://dbpedia.org/property/mmaKoloss": 0.0,
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/decWins": 0.0,
+                        "http://dbpedia.org/property/mmaSubwin": 0.0,
+                        "http://dbpedia.org/property/losses": 0.0,
+                        "http://dbpedia.org/property/runs": 0.01,
+                        "http://dbpedia.org/property/subWins": 0.0,
+                        "http://dbpedia.org/property/goals": 0.0,
+                        "http://dbpedia.org/property/matches": 0.01,
+                        "http://dbpedia.org/property/mmaDecwin": 0.0,
+                        "http://dbpedia.org/property/mmaDecloss": 0.0,
+                        "http://dbpedia.org/property/100s/50s": 0.41,
+                        "http://dbpedia.org/property/deliveries": 0.04,
+                        "http://dbpedia.org/property/catches/stumpings": 0.1
+                    },
+                    "subject": "Cap",
+                    "object": "St"
+                }
+            ],
+            "table": "England ODI cricketers",
+            "colums": [
+                "Cap",
+                "Name",
+                "First",
+                "Last",
+                "Mat",
+                "Runs",
+                "HS",
+                "Avg",
+                "Balls",
+                "Wkt",
+                "BBI",
+                "Ave",
+                "Ca",
+                "St",
+                "Ref(s)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,358 @@
+{
+    "no. of tables": 21,
+    "page": "List of Hillsong albums",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/thisAlbum": 0.2,
+                        "http://dbpedia.org/property/released": 0.6
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastAlbum": 0.2,
+                        "http://dbpedia.org/property/thisAlbum": 0.2,
+                        "http://dbpedia.org/property/name": 0.2,
+                        "http://dbpedia.org/property/chronology": 0.2,
+                        "http://xmlns.com/foaf/0.1/name": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.14,
+                        "http://dbpedia.org/property/released": 0.43
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.43
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/thisAlbum": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/thisAlbum": 0.25,
+                        "http://dbpedia.org/property/released": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.25,
+                        "http://dbpedia.org/property/chronology": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'H'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                }
+            ],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.33,
+                        "http://dbpedia.org/property/released": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/chronology": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'J'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "\nTitle\n",
+                "\nReleased\n",
+                "\nSeries\n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.5,
+                        "http://dbpedia.org/property/released": 0.25
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                }
+            ],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.4,
+                        "http://dbpedia.org/property/chronology": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/chronology": 0.22
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/chronology": 0.17
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Released"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Series"
+                }
+            ],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'W'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Title",
+                "Released",
+                "Series"
+            ]
+        }
+    ]
+}

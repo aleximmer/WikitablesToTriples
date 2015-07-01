@@ -1,0 +1,185 @@
+{
+    "no. of tables": 3,
+    "page": "List of National Historic Landmarks in Arkansas",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/grades": 0.06,
+                        "http://dbpedia.org/property/longMinutes": 0.06,
+                        "http://dbpedia.org/property/latM": 0.06
+                    },
+                    "subject": "Landmark name",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.06,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/property/city": 0.12,
+                        "http://dbpedia.org/ontology/location": 0.25,
+                        "http://dbpedia.org/property/nearestTown": 0.06,
+                        "http://dbpedia.org/ontology/nearestCity": 0.38,
+                        "http://dbpedia.org/property/nearestCity": 0.38
+                    },
+                    "subject": "Landmark name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.06,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/property/district": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.12
+                    },
+                    "subject": "Landmark name",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Landmark name",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaTotalSqMi": 0.06,
+                        "http://dbpedia.org/property/novRecordLowF": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/areaLandSqMi": 0.06,
+                        "http://dbpedia.org/property/longm": 0.06
+                    },
+                    "subject": "Location",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.81,
+                        "http://dbpedia.org/property/subdivisionName": 0.81
+                    },
+                    "subject": "Location",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/district": 0.06
+                    },
+                    "subject": "County",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.5,
+                        "http://dbpedia.org/ontology/largestCity": 0.5,
+                        "http://dbpedia.org/property/seat": 0.06
+                    },
+                    "subject": "County",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longM": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 0.06,
+                        "http://dbpedia.org/property/place": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "Landmark name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nearestCity": 0.06,
+                        "http://dbpedia.org/property/nearestCity": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06
+                    },
+                    "subject": "Description",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'National Historic Landmarks'",
+            "colums": [
+                "[1]",
+                "Landmark name",
+                "Image",
+                "Date designated[2]",
+                "Location",
+                "County",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Locality[4][5]",
+                    "object": "County[4]"
+                }
+            ],
+            "table": "Unnamed table in section 'National Historic Landmark intended for Arkansas'",
+            "colums": [
+                "",
+                "Landmark name[4]",
+                "Image",
+                "Date designated[4]",
+                "Locality[4][5]",
+                "County[4]",
+                "Description"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Landmark name",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "Location",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/place": 1.0,
+                        "http://dbpedia.org/property/place": 1.0
+                    },
+                    "subject": "Description",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'Historic areas administered by the National Park Service'",
+            "colums": [
+                "",
+                "Landmark name",
+                "Image",
+                "Date established[10]",
+                "Location",
+                "County",
+                "Description"
+            ]
+        }
+    ]
+}

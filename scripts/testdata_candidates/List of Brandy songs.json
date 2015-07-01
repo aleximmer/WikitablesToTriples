@@ -1,0 +1,250 @@
+{
+    "no. of tables": 3,
+    "page": "List of songs recorded by Brandy",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.01,
+                        "http://dbpedia.org/property/producer": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.02,
+                        "http://dbpedia.org/ontology/musicalBand": 0.04,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.04,
+                        "http://dbpedia.org/property/artist": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Artist(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.1,
+                        "http://dbpedia.org/property/producer": 0.05,
+                        "http://dbpedia.org/property/composer": 0.01,
+                        "http://dbpedia.org/ontology/composer": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.21,
+                        "http://dbpedia.org/ontology/musicalBand": 0.02,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.02,
+                        "http://dbpedia.org/property/artist": 0.02,
+                        "http://dbpedia.org/property/writer": 0.07
+                    },
+                    "subject": "Song",
+                    "object": "Writer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/fromAlbum": 0.08,
+                        "http://dbpedia.org/ontology/album": 0.16,
+                        "http://dbpedia.org/property/album": 0.08
+                    },
+                    "subject": "Song",
+                    "object": "Album(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.01,
+                        "http://dbpedia.org/property/recorded": 0.08,
+                        "http://dbpedia.org/property/certyear": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.01,
+                        "http://dbpedia.org/property/artist": 0.01,
+                        "http://dbpedia.org/ontology/musicalBand": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Artist(s)",
+                    "object": "Song"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.01,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.01,
+                        "http://dbpedia.org/property/associatedActs": 0.01,
+                        "http://dbpedia.org/property/writer": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.01
+                    },
+                    "subject": "Artist(s)",
+                    "object": "Writer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/associatedActs": 0.03,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.03
+                    },
+                    "subject": "Writer(s)",
+                    "object": "Artist(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearsActive": 0.01
+                    },
+                    "subject": "Writer(s)",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/thisAlbum": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/property/title": 0.51,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Album(s)",
+                    "object": "Song"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.04,
+                        "http://dbpedia.org/property/recorded": 0.01,
+                        "http://dbpedia.org/property/artist": 0.11,
+                        "http://dbpedia.org/property/producer": 0.01,
+                        "http://dbpedia.org/property/starring": 0.04,
+                        "http://dbpedia.org/ontology/artist": 0.11,
+                        "http://dbpedia.org/property/lastAlbum": 0.09,
+                        "http://dbpedia.org/property/thisAlbum": 0.08,
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/ontology/subsequentWork": 0.01,
+                        "http://dbpedia.org/ontology/recordedIn": 0.01,
+                        "http://dbpedia.org/property/extra": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.08,
+                        "http://dbpedia.org/property/sign": 0.01,
+                        "http://dbpedia.org/property/name": 0.08
+                    },
+                    "subject": "Album(s)",
+                    "object": "Artist(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicComposer": 0.05,
+                        "http://dbpedia.org/ontology/producer": 0.21,
+                        "http://dbpedia.org/property/producer": 0.01,
+                        "http://dbpedia.org/property/extra": 0.05,
+                        "http://dbpedia.org/property/music": 0.05,
+                        "http://dbpedia.org/ontology/artist": 0.03,
+                        "http://dbpedia.org/property/artist": 0.03,
+                        "http://dbpedia.org/property/writer": 0.11
+                    },
+                    "subject": "Album(s)",
+                    "object": "Writer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/relyear": 0.01,
+                        "http://dbpedia.org/property/recorded": 0.14,
+                        "http://dbpedia.org/property/released": 0.01,
+                        "http://dbpedia.org/property/certyear": 0.01
+                    },
+                    "subject": "Album(s)",
+                    "object": "Year"
+                }
+            ],
+            "table": "List of songs recorded by Brandy Norwood",
+            "colums": [
+                "Song",
+                "Artist(s)",
+                "Writer(s)",
+                "Album(s)",
+                "Year",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://dbpedia.org/property/writer": 0.01,
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://dbpedia.org/ontology/writer": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Writer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/artist": 0.01,
+                        "http://dbpedia.org/ontology/musicalArtist": 0.01,
+                        "http://dbpedia.org/property/artist": 0.02,
+                        "http://dbpedia.org/ontology/musicalBand": 0.01,
+                        "http://dbpedia.org/ontology/producer": 0.01
+                    },
+                    "subject": "Song",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02
+                    },
+                    "subject": "Writer(s)",
+                    "object": "Song"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/associatedBand": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/associatedActs": 0.02,
+                        "http://dbpedia.org/ontology/associatedMusicalArtist": 0.02
+                    },
+                    "subject": "Writer(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/bandMember": 0.01,
+                        "http://dbpedia.org/property/currentMembers": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Writer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Unreleased songs'",
+            "colums": [
+                "Song",
+                "Writer(s)",
+                "Notes",
+                "Leak"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthName": 0.06,
+                        "http://xmlns.com/foaf/0.1/givenName": 0.06
+                    },
+                    "subject": "Song",
+                    "object": "Writer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.06,
+                        "http://dbpedia.org/property/artist": 0.12,
+                        "http://dbpedia.org/ontology/recordedIn": 0.06,
+                        "http://dbpedia.org/property/extra": 0.06,
+                        "http://dbpedia.org/ontology/producer": 0.06,
+                        "http://dbpedia.org/ontology/artist": 0.12,
+                        "http://dbpedia.org/property/chronology": 0.06
+                    },
+                    "subject": "Notes",
+                    "object": "Song"
+                }
+            ],
+            "table": "Unnamed table in section 'Unreleased songs'",
+            "colums": [
+                "Song",
+                "Writer(s)",
+                "Notes",
+                "Leak"
+            ]
+        }
+    ]
+}

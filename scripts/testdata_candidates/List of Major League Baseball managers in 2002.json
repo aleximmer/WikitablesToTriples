@@ -1,0 +1,315 @@
+{
+    "no. of tables": 18,
+    "page": "2002 Major League Baseball season",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nAL Central",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nAL Central",
+                    "object": "L"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nAL Central",
+                "W",
+                "L",
+                "Pct.",
+                "GB",
+                "Home",
+                "Road"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/record": 0.2
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nAL East",
+                    "object": "W"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nAL East",
+                "W",
+                "L",
+                "Pct.",
+                "GB",
+                "Home",
+                "Road"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd3Score": 0.25,
+                        "http://dbpedia.org/property/rd2Seed": 0.25,
+                        "http://dbpedia.org/property/rd2Score": 0.25,
+                        "http://dbpedia.org/property/rd1Seed": 0.25
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nAL West",
+                    "object": "GB"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nAL West",
+                "W",
+                "L",
+                "Pct.",
+                "GB",
+                "Home",
+                "Road"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/record": 0.33
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nNL Central",
+                    "object": "W"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nNL Central",
+                "W",
+                "L",
+                "Pct.",
+                "GB",
+                "Home",
+                "Road"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2,
+                        "http://dbpedia.org/property/record": 0.4
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nNL East",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nNL East",
+                    "object": "L"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nNL East",
+                "W",
+                "L",
+                "Pct.",
+                "GB",
+                "Home",
+                "Road"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nNL West",
+                "W",
+                "L",
+                "Pct.",
+                "GB",
+                "Home",
+                "Road"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nDivision Leaders",
+                "W",
+                "L",
+                "Pct."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/property/record": 0.09
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nWild Card teams\n(Top 2 qualify for 1-game playoff)",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.09
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nWild Card teams\n(Top 2 qualify for 1-game playoff)",
+                    "object": "L"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nWild Card teams\n(Top 2 qualify for 1-game playoff)",
+                "W",
+                "L",
+                "Pct.",
+                "GB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/record": 0.67
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nDivision Leaders",
+                    "object": "W"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nDivision Leaders",
+                "W",
+                "L",
+                "Pct."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/record": 0.15
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nWild Card teams\n(Top 2 qualify for 1-game playoff)",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.08
+                    },
+                    "subject": "\n\n\nv\nt\ne\n\n\nWild Card teams\n(Top 2 qualify for 1-game playoff)",
+                    "object": "L"
+                }
+            ],
+            "table": "Unnamed table in section 'Major league baseball final standings'",
+            "colums": [
+                "\n\n\nv\nt\ne\n\n\nWild Card teams\n(Top 2 qualify for 1-game playoff)",
+                "W",
+                "L",
+                "Pct.",
+                "GB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manager": 0.14,
+                        "http://dbpedia.org/ontology/manager": 0.14
+                    },
+                    "subject": "Team",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.07,
+                        "http://dbpedia.org/property/title": 0.07,
+                        "http://dbpedia.org/ontology/team": 0.93
+                    },
+                    "subject": "Manager",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.07,
+                        "http://dbpedia.org/property/title": 0.14,
+                        "http://dbpedia.org/ontology/team": 0.21
+                    },
+                    "subject": "Comments",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.07
+                    },
+                    "subject": "Comments",
+                    "object": "Manager"
+                }
+            ],
+            "table": "Unnamed table in section 'Managers'",
+            "colums": [
+                "Team",
+                "Manager",
+                "Comments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/list2.": 0.06
+                    },
+                    "subject": "Team",
+                    "object": "Manager"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/formerTeam": 0.19,
+                        "http://dbpedia.org/property/title": 0.12,
+                        "http://dbpedia.org/ontology/team": 1.0
+                    },
+                    "subject": "Manager",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/after": 0.06
+                    },
+                    "subject": "Manager",
+                    "object": "Comments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.12,
+                        "http://dbpedia.org/ontology/team": 0.19
+                    },
+                    "subject": "Comments",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.06
+                    },
+                    "subject": "Comments",
+                    "object": "Manager"
+                }
+            ],
+            "table": "Unnamed table in section 'Managers'",
+            "colums": [
+                "Team",
+                "Manager",
+                "Comments"
+            ]
+        }
+    ]
+}

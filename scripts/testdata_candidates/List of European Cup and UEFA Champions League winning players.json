@@ -1,0 +1,226 @@
+{
+    "no. of tables": 1,
+    "page": "List of European Cup and UEFA Champions League winning players",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.38,
+                        "http://dbpedia.org/ontology/birthPlace": 0.41,
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/ontology/team": 0.0,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.0,
+                        "http://dbpedia.org/property/placeOfBirth": 0.16,
+                        "http://dbpedia.org/ontology/nationality": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/property/nationality": 0.0,
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/nationalteam": 0.0
+                    },
+                    "subject": "Player\u00a0\u00a0",
+                    "object": "Nationality\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.0,
+                        "http://dbpedia.org/ontology/managerClub": 0.09,
+                        "http://dbpedia.org/property/managerclubs": 0.08,
+                        "http://dbpedia.org/property/youthclubs": 0.15,
+                        "http://dbpedia.org/property/clubs": 0.93,
+                        "http://dbpedia.org/ontology/team": 0.93,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://dbpedia.org/property/currentclub": 0.13
+                    },
+                    "subject": "Player\u00a0\u00a0",
+                    "object": "Clubs\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bestBowling": 0.0,
+                        "http://dbpedia.org/property/goals": 0.33,
+                        "http://dbpedia.org/property/fr": 0.02,
+                        "http://dbpedia.org/property/managerclubs": 0.0,
+                        "http://dbpedia.org/property/clubs": 0.02,
+                        "http://dbpedia.org/property/quoted": 0.01,
+                        "http://dbpedia.org/property/caps": 0.06,
+                        "http://dbpedia.org/property/nationalcaps": 0.15,
+                        "http://dbpedia.org/property/sc": 0.02,
+                        "http://dbpedia.org/property/nationalgoals": 0.21,
+                        "http://dbpedia.org/ontology/number": 0.01,
+                        "http://dbpedia.org/property/youthclubs": 0.0,
+                        "http://dbpedia.org/property/totalgoals": 0.01,
+                        "http://dbpedia.org/property/clubnumber": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/n": 0.02
+                    },
+                    "subject": "Player\u00a0\u00a0",
+                    "object": "Titles won\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/value": 0.08,
+                        "http://dbpedia.org/property/aprSnowDays": 0.01,
+                        "http://dbpedia.org/property/areaMagnitude": 0.06,
+                        "http://dbpedia.org/property/marSnowDays": 0.0,
+                        "http://dbpedia.org/property/percentWater": 0.0,
+                        "http://dbpedia.org/property/longm": 0.0,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/establishedEvent": 0.0,
+                        "http://dbpedia.org/property/hdiRank": 0.0,
+                        "http://dbpedia.org/property/novSnowDays": 0.01,
+                        "http://dbpedia.org/property/janLowC": 0.07,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.0,
+                        "http://dbpedia.org/property/marLowC": 0.01,
+                        "http://dbpedia.org/property/latd": 0.0,
+                        "http://dbpedia.org/property/novLowC": 0.0,
+                        "http://dbpedia.org/property/aprLowC": 0.0,
+                        "http://dbpedia.org/property/decLowC": 0.08,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/febLowC": 0.07
+                    },
+                    "subject": "Nationality\u00a0\u00a0",
+                    "object": "Titles won\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lcm": 0.0,
+                        "http://dbpedia.org/property/cm": 0.0,
+                        "http://dbpedia.org/property/rm": 0.0,
+                        "http://dbpedia.org/property/lm": 0.0,
+                        "http://dbpedia.org/property/manager": 0.0,
+                        "http://dbpedia.org/ontology/chairman": 0.0,
+                        "http://dbpedia.org/property/cf": 0.0,
+                        "http://dbpedia.org/property/rcm": 0.0,
+                        "http://dbpedia.org/property/rcf": 0.0,
+                        "http://dbpedia.org/property/rb": 0.01,
+                        "http://dbpedia.org/property/lcb": 0.0,
+                        "http://dbpedia.org/property/topscorer": 0.0,
+                        "http://dbpedia.org/property/lb": 0.01,
+                        "http://dbpedia.org/property/gk": 0.0,
+                        "http://dbpedia.org/property/text": 0.01,
+                        "http://dbpedia.org/property/rw": 0.0,
+                        "http://dbpedia.org/property/s": 0.01,
+                        "http://dbpedia.org/property/rcb": 0.01,
+                        "http://dbpedia.org/property/chairman": 0.0,
+                        "http://dbpedia.org/property/lcf": 0.0,
+                        "http://dbpedia.org/ontology/clubsRecordGoalscorer": 0.0,
+                        "http://dbpedia.org/property/dm": 0.0,
+                        "http://dbpedia.org/ontology/manager": 0.0,
+                        "http://dbpedia.org/property/name": 0.11,
+                        "http://dbpedia.org/property/lw": 0.0
+                    },
+                    "subject": "Clubs\u00a0\u00a0",
+                    "object": "Player\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.02
+                    },
+                    "subject": "Clubs\u00a0\u00a0",
+                    "object": "Nationality\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.95,
+                        "http://dbpedia.org/property/day": 0.06,
+                        "http://dbpedia.org/property/other": 0.07
+                    },
+                    "subject": "Clubs\u00a0\u00a0",
+                    "object": "Titles won\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScorer": 0.0,
+                        "http://dbpedia.org/property/goals": 0.0
+                    },
+                    "subject": "Years\u00a0\u00a0",
+                    "object": "Player\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t": 0.11
+                    },
+                    "subject": "Years\u00a0\u00a0",
+                    "object": "Clubs\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rd1Score6Agg": 0.0,
+                        "http://dbpedia.org/property/gf": 0.07,
+                        "http://dbpedia.org/property/rd1Score": 0.46,
+                        "http://dbpedia.org/property/count": 0.35,
+                        "http://dbpedia.org/property/rd2Score4Agg": 0.01,
+                        "http://dbpedia.org/property/w": 0.11,
+                        "http://dbpedia.org/property/rd1Score06Agg": 0.07,
+                        "http://dbpedia.org/property/rd2Score2Agg": 0.03,
+                        "http://dbpedia.org/property/ga": 0.02,
+                        "http://dbpedia.org/property/rd1Score04Agg": 0.02,
+                        "http://dbpedia.org/property/rd1Score2Agg": 0.06,
+                        "http://dbpedia.org/property/rd1Score05Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score09Agg": 0.05,
+                        "http://dbpedia.org/property/rd1Score13Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score8Agg": 0.04,
+                        "http://dbpedia.org/property/rd2Score07Agg": 0.05,
+                        "http://dbpedia.org/property/penaltyscore": 0.07,
+                        "http://dbpedia.org/property/rd1Score4Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score08Agg": 0.02,
+                        "http://dbpedia.org/property/rd2Score04Agg": 0.02,
+                        "http://dbpedia.org/property/rd1Score14Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score05Agg": 0.07,
+                        "http://dbpedia.org/property/rd2Score01Agg": 0.01,
+                        "http://dbpedia.org/property/rd1Score15Agg": 0.1,
+                        "http://dbpedia.org/property/rd3Score02Agg": 0.02,
+                        "http://dbpedia.org/property/rd1Score3Agg": 0.06,
+                        "http://dbpedia.org/property/rd3Score2Agg": 0.11,
+                        "http://dbpedia.org/property/rd1Score5Agg": 0.07,
+                        "http://dbpedia.org/property/rd1Score10Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score12Agg": 0.01,
+                        "http://dbpedia.org/property/rd2Score02Agg": 0.01,
+                        "http://dbpedia.org/property/rd3Score03Agg": 0.02,
+                        "http://dbpedia.org/property/rd1Score7Agg": 0.04,
+                        "http://dbpedia.org/property/rd4Score": 0.12,
+                        "http://dbpedia.org/property/rd2Score06Agg": 0.01,
+                        "http://dbpedia.org/property/d": 0.11,
+                        "http://dbpedia.org/property/score": 0.69,
+                        "http://dbpedia.org/property/rd3Score1Agg": 0.09,
+                        "http://dbpedia.org/property/rd1Score16Agg": 0.02,
+                        "http://dbpedia.org/property/rd1Score11Agg": 0.05,
+                        "http://dbpedia.org/property/rd2Score08Agg": 0.03,
+                        "http://dbpedia.org/property/rd3Score01Agg": 0.05,
+                        "http://dbpedia.org/property/l": 0.11,
+                        "http://dbpedia.org/property/rd3Score04Agg": 0.08,
+                        "http://dbpedia.org/property/rd1Score07Agg": 0.08,
+                        "http://dbpedia.org/property/rd1Score02Agg": 0.04,
+                        "http://dbpedia.org/property/rd2Score3Agg": 0.04,
+                        "http://dbpedia.org/property/rd1Score01Agg": 0.06,
+                        "http://dbpedia.org/property/rd2Score": 0.46,
+                        "http://dbpedia.org/property/rd1Score1Agg": 0.0,
+                        "http://dbpedia.org/property/rd2Score1Agg": 0.03,
+                        "http://dbpedia.org/property/rd1Score03Agg": 0.04,
+                        "http://dbpedia.org/property/rd3Score": 0.23,
+                        "http://dbpedia.org/property/rd2Score03Agg": 0.01
+                    },
+                    "subject": "Years\u00a0\u00a0",
+                    "object": "Titles won\u00a0\u00a0"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.0
+                    },
+                    "subject": "Notes\u00a0\u00a0",
+                    "object": "Titles won\u00a0\u00a0"
+                }
+            ],
+            "table": "Unnamed table in section '\n\t\t\t\tList of European Cup and UEFA Champions League winning players\t\t\t'",
+            "colums": [
+                "Player\u00a0\u00a0",
+                "Nationality\u00a0\u00a0",
+                "Clubs\u00a0\u00a0",
+                "Titles won\u00a0\u00a0",
+                "Years\u00a0\u00a0",
+                "Notes\u00a0\u00a0"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "no. of tables": 2,
+    "page": "List of stadiums in England",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.38,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.75
+                    },
+                    "subject": "Stadium",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/club": 0.08,
+                        "http://dbpedia.org/property/tenants": 0.63,
+                        "http://dbpedia.org/ontology/owner": 0.38,
+                        "http://dbpedia.org/property/operator": 0.15,
+                        "http://dbpedia.org/ontology/tenant": 0.72,
+                        "http://dbpedia.org/property/owner": 0.35,
+                        "http://dbpedia.org/ontology/operator": 0.27,
+                        "http://dbpedia.org/property/title": 0.02
+                    },
+                    "subject": "Stadium",
+                    "object": "Occupant"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.08,
+                        "http://dbpedia.org/property/tenants": 0.05
+                    },
+                    "subject": "Stadium",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.68,
+                        "http://dbpedia.org/property/homeStadium": 0.01,
+                        "http://dbpedia.org/property/ground": 0.83,
+                        "http://dbpedia.org/ontology/stadium": 0.01,
+                        "http://dbpedia.org/property/stadium": 0.01,
+                        "http://dbpedia.org/property/fcdebutvenue": 0.02
+                    },
+                    "subject": "Occupant",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.43,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.06,
+                        "http://dbpedia.org/property/ground": 0.34
+                    },
+                    "subject": "Occupant",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.01
+                    },
+                    "subject": "Occupant",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.01,
+                        "http://dbpedia.org/property/ground": 0.03,
+                        "http://dbpedia.org/property/stadium": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/city": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/property/ground": 0.01,
+                        "http://dbpedia.org/property/stadium": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Current stadiums'",
+            "colums": [
+                "Image",
+                "Stadium",
+                "Location",
+                "Current capacity",
+                "Sport",
+                "Occupant",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.56
+                    },
+                    "subject": "Stadium",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/tenants": 0.44,
+                        "http://dbpedia.org/ontology/owner": 0.44,
+                        "http://dbpedia.org/property/operator": 0.22,
+                        "http://dbpedia.org/ontology/tenant": 0.56,
+                        "http://dbpedia.org/property/owner": 0.44,
+                        "http://dbpedia.org/ontology/operator": 0.44
+                    },
+                    "subject": "Stadium",
+                    "object": "Occupant"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.11
+                    },
+                    "subject": "Occupant",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ground": 0.22,
+                        "http://dbpedia.org/property/location": 0.11,
+                        "http://dbpedia.org/property/ground": 0.11
+                    },
+                    "subject": "Occupant",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Future stadiums'",
+            "colums": [
+                "Stadium",
+                "Location",
+                "Capacity",
+                "Sport",
+                "Occupant",
+                "Notes"
+            ]
+        }
+    ]
+}

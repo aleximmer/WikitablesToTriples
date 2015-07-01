@@ -1,0 +1,22 @@
+{
+    "no. of tables": 2,
+    "page": "List of 2009\u201310 CHL Oakley Awards",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Oakley CHL Player of the Week",
+            "colums": [
+                "Week",
+                "Player"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Oakley 3 Stars Award",
+            "colums": [
+                "Month",
+                "Player"
+            ]
+        }
+    ]
+}

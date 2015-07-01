@@ -1,0 +1,28 @@
+{
+    "no. of tables": 3,
+    "page": "List of Billboard Hot 100 top 10 singles in 1959",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/musicalArtist": 0.2,
+                        "http://dbpedia.org/property/artist": 0.2,
+                        "http://dbpedia.org/ontology/musicalBand": 0.2
+                    },
+                    "subject": "Single",
+                    "object": "Artist(s)"
+                }
+            ],
+            "table": "List of Billboard Hot 100 top ten singles in 1959 which peaked in 1958",
+            "colums": [
+                "Top ten\nentry date",
+                "Single",
+                "Artist(s)",
+                "Peak",
+                "Peak date",
+                "Weeks in\ntop ten"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,441 @@
+{
+    "no. of tables": 9,
+    "page": "List of Virtual Console games for Wii (North America)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.26,
+                        "http://dbpedia.org/ontology/publisher": 0.48,
+                        "http://dbpedia.org/ontology/developer": 0.53,
+                        "http://dbpedia.org/property/developer": 0.48,
+                        "http://dbpedia.org/property/distributor": 0.01,
+                        "http://dbpedia.org/ontology/distributor": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.3,
+                        "http://dbpedia.org/ontology/publisher": 0.51,
+                        "http://dbpedia.org/ontology/developer": 0.33,
+                        "http://dbpedia.org/property/developer": 0.3,
+                        "http://dbpedia.org/property/distributor": 0.01,
+                        "http://dbpedia.org/ontology/distributor": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.02
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.01,
+                        "http://dbpedia.org/property/subsid": 0.07,
+                        "http://dbpedia.org/ontology/subsidiary": 0.07,
+                        "http://dbpedia.org/ontology/product": 0.01,
+                        "http://dbpedia.org/ontology/parentCompany": 0.01,
+                        "http://dbpedia.org/ontology/successor": 0.06,
+                        "http://dbpedia.org/property/successor": 0.06
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.02
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.06,
+                        "http://dbpedia.org/ontology/subsidiary": 0.06,
+                        "http://dbpedia.org/ontology/predecessor": 0.05,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.01
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Developer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.7,
+                        "http://dbpedia.org/property/publisher": 0.16,
+                        "http://dbpedia.org/property/developer": 0.64,
+                        "http://dbpedia.org/ontology/distributor": 0.01,
+                        "http://dbpedia.org/ontology/publisher": 0.54
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.26,
+                        "http://dbpedia.org/ontology/producer": 0.01,
+                        "http://dbpedia.org/property/producer": 0.01,
+                        "http://dbpedia.org/ontology/publisher": 0.59,
+                        "http://dbpedia.org/ontology/developer": 0.46,
+                        "http://dbpedia.org/property/developer": 0.42
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.01
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.05,
+                        "http://dbpedia.org/ontology/subsidiary": 0.05,
+                        "http://dbpedia.org/property/successor": 0.09,
+                        "http://dbpedia.org/ontology/successor": 0.09
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.05,
+                        "http://dbpedia.org/ontology/subsidiary": 0.05,
+                        "http://dbpedia.org/ontology/predecessor": 0.03,
+                        "http://dbpedia.org/ontology/foundationPlace": 0.07
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Developer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.52,
+                        "http://dbpedia.org/property/publisher": 0.33,
+                        "http://dbpedia.org/property/developer": 0.52,
+                        "http://dbpedia.org/ontology/publisher": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.1,
+                        "http://dbpedia.org/property/publisher": 0.76,
+                        "http://dbpedia.org/property/developer": 0.1,
+                        "http://dbpedia.org/ontology/publisher": 0.81
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.75,
+                        "http://dbpedia.org/property/developer": 0.62,
+                        "http://dbpedia.org/ontology/publisher": 0.44,
+                        "http://dbpedia.org/property/publisher": 0.19
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.56,
+                        "http://dbpedia.org/property/developer": 0.44,
+                        "http://dbpedia.org/ontology/publisher": 0.62,
+                        "http://dbpedia.org/property/publisher": 0.38
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.16,
+                        "http://dbpedia.org/ontology/publisher": 0.36,
+                        "http://dbpedia.org/property/artist": 0.01,
+                        "http://dbpedia.org/ontology/gameArtist": 0.01,
+                        "http://dbpedia.org/ontology/developer": 0.71,
+                        "http://dbpedia.org/property/developer": 0.64
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.41,
+                        "http://dbpedia.org/property/developer": 0.32,
+                        "http://dbpedia.org/property/publisher": 0.51,
+                        "http://dbpedia.org/ontology/publisher": 0.73
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rating": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "ESRB"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.11,
+                        "http://dbpedia.org/ontology/successor": 0.05,
+                        "http://dbpedia.org/property/successor": 0.05,
+                        "http://dbpedia.org/ontology/parentCompany": 0.11
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/predecessor": 0.04
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Developer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.6,
+                        "http://dbpedia.org/property/developer": 0.57,
+                        "http://dbpedia.org/property/publisher": 0.3,
+                        "http://dbpedia.org/ontology/distributor": 0.02,
+                        "http://dbpedia.org/ontology/publisher": 0.44
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.41,
+                        "http://dbpedia.org/property/developer": 0.38,
+                        "http://dbpedia.org/property/publisher": 0.33,
+                        "http://dbpedia.org/ontology/distributor": 0.02,
+                        "http://dbpedia.org/ontology/publisher": 0.44
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.05,
+                        "http://dbpedia.org/ontology/product": 0.05
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.1,
+                        "http://dbpedia.org/property/successor": 0.1
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.05,
+                        "http://dbpedia.org/ontology/product": 0.05
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/predecessor": 0.1
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Developer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.52,
+                        "http://dbpedia.org/property/developer": 0.44,
+                        "http://dbpedia.org/ontology/publisher": 0.56,
+                        "http://dbpedia.org/property/publisher": 0.19
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.06,
+                        "http://dbpedia.org/property/publisher": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.78,
+                        "http://dbpedia.org/property/developer": 0.78,
+                        "http://dbpedia.org/ontology/designer": 0.11,
+                        "http://dbpedia.org/property/publisher": 0.22,
+                        "http://dbpedia.org/ontology/publisher": 0.44
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/product": 0.11
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.67,
+                        "http://dbpedia.org/property/developer": 0.57,
+                        "http://dbpedia.org/property/publisher": 0.19,
+                        "http://dbpedia.org/ontology/publisher": 0.57
+                    },
+                    "subject": "Title",
+                    "object": "Developer(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.52,
+                        "http://dbpedia.org/property/developer": 0.43,
+                        "http://dbpedia.org/property/publisher": 0.14,
+                        "http://dbpedia.org/ontology/publisher": 0.52
+                    },
+                    "subject": "Title",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.14,
+                        "http://dbpedia.org/ontology/subsidiary": 0.24,
+                        "http://dbpedia.org/property/successor": 0.14,
+                        "http://dbpedia.org/property/subsid": 0.24
+                    },
+                    "subject": "Developer(s)",
+                    "object": "Publisher(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subsid": 0.24,
+                        "http://dbpedia.org/ontology/subsidiary": 0.24,
+                        "http://dbpedia.org/ontology/predecessor": 0.14
+                    },
+                    "subject": "Publisher(s)",
+                    "object": "Developer(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Available titles'",
+            "colums": [
+                "Title",
+                "Developer(s)",
+                "Publisher(s)",
+                "Release Date",
+                "ESRB"
+            ]
+        }
+    ]
+}

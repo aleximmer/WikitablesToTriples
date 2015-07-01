@@ -1,0 +1,135 @@
+{
+    "no. of tables": 7,
+    "page": "List of undefeated NCAA Division I football teams",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ranking": 0.03,
+                        "http://dbpedia.org/property/headcoachyear": 0.06,
+                        "http://dbpedia.org/property/natltitles": 0.04,
+                        "http://dbpedia.org/property/visitor": 0.01,
+                        "http://dbpedia.org/property/hclosses": 0.03,
+                        "http://dbpedia.org/property/conftitles": 0.03,
+                        "http://dbpedia.org/property/bowllosses": 0.1,
+                        "http://dbpedia.org/property/walterpaytons": 0.01,
+                        "http://dbpedia.org/property/confrecord": 0.03,
+                        "http://dbpedia.org/property/home": 0.01,
+                        "http://dbpedia.org/property/divtitles": 0.03,
+                        "http://dbpedia.org/property/atties": 0.01,
+                        "http://dbpedia.org/property/overall": 0.14,
+                        "http://dbpedia.org/property/bowlties": 0.03,
+                        "http://dbpedia.org/property/conference": 0.08,
+                        "http://dbpedia.org/property/bowlwins": 0.04,
+                        "http://dbpedia.org/property/confstanding": 0.08,
+                        "http://dbpedia.org/property/unclaimedNatlTitles.": 0.01,
+                        "http://dbpedia.org/property/bcsBowlAppearances": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Undefeated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headcoachyear": 0.03,
+                        "http://dbpedia.org/property/heismans": 0.07,
+                        "http://dbpedia.org/property/conftitles": 0.01,
+                        "http://dbpedia.org/property/overall": 0.13,
+                        "http://dbpedia.org/property/atties": 0.01,
+                        "http://dbpedia.org/property/conties": 0.01,
+                        "http://dbpedia.org/property/date": 0.01,
+                        "http://dbpedia.org/property/color1hex": 0.01,
+                        "http://dbpedia.org/property/ranking": 0.04,
+                        "http://dbpedia.org/property/conference": 0.08,
+                        "http://dbpedia.org/property/natltitles": 0.08,
+                        "http://dbpedia.org/property/homeAp": 0.01,
+                        "http://dbpedia.org/property/bowllosses": 0.03,
+                        "http://dbpedia.org/property/homeCoaches": 0.01,
+                        "http://dbpedia.org/property/divtitles": 0.06,
+                        "http://dbpedia.org/property/confrecord": 0.04,
+                        "http://dbpedia.org/property/bowlties": 0.08,
+                        "http://dbpedia.org/property/bowlwins": 0.01,
+                        "http://dbpedia.org/property/confstanding": 0.06,
+                        "http://dbpedia.org/property/color3hex": 0.01,
+                        "http://dbpedia.org/property/unnatltitles": 0.01,
+                        "http://dbpedia.org/property/divtitles.": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Perfect"
+                }
+            ],
+            "table": "Unnamed table in section 'Division I Football Bowl Subdivision'",
+            "colums": [
+                "Team",
+                "Undefeated",
+                "Perfect"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.04,
+                        "http://dbpedia.org/property/ranking": 0.19,
+                        "http://dbpedia.org/property/conference": 0.54,
+                        "http://dbpedia.org/property/overall": 0.81,
+                        "http://dbpedia.org/property/confstanding": 0.38,
+                        "http://dbpedia.org/property/championships": 0.08,
+                        "http://dbpedia.org/property/awards": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "Undefeated"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ranking": 0.27,
+                        "http://dbpedia.org/property/conference": 0.58,
+                        "http://dbpedia.org/property/confrecord": 0.04,
+                        "http://dbpedia.org/property/overall": 0.65,
+                        "http://dbpedia.org/property/overallRecord": 0.04,
+                        "http://dbpedia.org/property/confstanding": 0.27,
+                        "http://dbpedia.org/property/championships": 0.23,
+                        "http://dbpedia.org/property/awards": 0.12
+                    },
+                    "subject": "Team",
+                    "object": "Perfect"
+                }
+            ],
+            "table": "Unnamed table in section 'Division I Football Bowl Subdivision'",
+            "colums": [
+                "Team",
+                "Undefeated",
+                "Perfect"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.19,
+                        "http://dbpedia.org/property/firstyear": 0.05,
+                        "http://dbpedia.org/property/startyear": 0.05,
+                        "http://dbpedia.org/property/rankyear": 0.14
+                    },
+                    "subject": "Team",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Division I Football Championship Subdivision'",
+            "colums": [
+                "Year",
+                "Team",
+                "Record"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Division I Football Championship Subdivision'",
+            "colums": [
+                "Year",
+                "Team",
+                "Record"
+            ]
+        }
+    ]
+}

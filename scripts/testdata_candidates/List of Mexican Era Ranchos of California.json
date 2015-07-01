@@ -1,0 +1,156 @@
+{
+    "no. of tables": 1,
+    "page": "List of Ranchos of California",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.0
+                    },
+                    "subject": "Grant[note 1]",
+                    "object": "Date[note 2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0
+                    },
+                    "subject": "Grant[note 1]",
+                    "object": "Grantee[note 4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Grant[note 1]",
+                    "object": "Location[note 7]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0
+                    },
+                    "subject": "Grant[note 1]",
+                    "object": "County[note 8]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 0.23,
+                        "http://dbpedia.org/property/termStart": 0.18,
+                        "http://dbpedia.org/property/years": 0.0
+                    },
+                    "subject": "Grantor[note 3]",
+                    "object": "Date[note 2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.0,
+                        "http://dbpedia.org/ontology/successor": 0.0,
+                        "http://dbpedia.org/property/successor": 0.0
+                    },
+                    "subject": "Grantor[note 3]",
+                    "object": "Grantee[note 4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/property/deathPlace": 0.0,
+                        "http://dbpedia.org/ontology/occupation": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.0
+                    },
+                    "subject": "Grantee[note 4]",
+                    "object": "Grant[note 1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termStart": 0.0
+                    },
+                    "subject": "Grantee[note 4]",
+                    "object": "Date[note 2]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.0,
+                        "http://dbpedia.org/ontology/successor": 0.0,
+                        "http://dbpedia.org/property/successor": 0.0
+                    },
+                    "subject": "Grantee[note 4]",
+                    "object": "Grantor[note 3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.01,
+                        "http://dbpedia.org/ontology/knownFor": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01
+                    },
+                    "subject": "Grantee[note 4]",
+                    "object": "Location[note 7]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.0,
+                        "http://dbpedia.org/property/placeOfBirth": 0.0,
+                        "http://dbpedia.org/property/deathPlace": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.0
+                    },
+                    "subject": "Grantee[note 4]",
+                    "object": "County[note 8]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/foundingPerson": 0.0,
+                        "http://dbpedia.org/property/founder": 0.0
+                    },
+                    "subject": "Location[note 7]",
+                    "object": "Grantee[note 4]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.7,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.01,
+                        "http://dbpedia.org/property/north": 0.0,
+                        "http://dbpedia.org/property/southeast": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.57,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0
+                    },
+                    "subject": "Location[note 7]",
+                    "object": "County[note 8]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.01,
+                        "http://dbpedia.org/property/south": 0.0,
+                        "http://dbpedia.org/property/parts": 0.01,
+                        "http://dbpedia.org/property/label": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/southwest": 0.0,
+                        "http://dbpedia.org/property/seat": 0.12
+                    },
+                    "subject": "County[note 8]",
+                    "object": "Location[note 7]"
+                }
+            ],
+            "table": "Unnamed table in section 'List of ranchos of California'",
+            "colums": [
+                "Grant[note 1]",
+                "Date[note 2]",
+                "Grantor[note 3]",
+                "Grantee[note 4]",
+                "Size[note 5]",
+                "Land Case No.[note 6]",
+                "Location[note 7]",
+                "County[note 8]"
+            ]
+        }
+    ]
+}

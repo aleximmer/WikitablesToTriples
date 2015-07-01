@@ -1,0 +1,217 @@
+{
+    "no. of tables": 6,
+    "page": "List of tornadoes striking downtown areas of large cities",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junSnowDays": 0.14,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/decRecordLowF": 0.01,
+                        "http://dbpedia.org/property/octSnowDays": 0.07,
+                        "http://dbpedia.org/property/julSnowInch": 0.13,
+                        "http://dbpedia.org/property/maySnowCm": 0.02,
+                        "http://dbpedia.org/property/julSnowDays": 0.14,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/decHighC": 0.02,
+                        "http://dbpedia.org/property/novLowC": 0.01,
+                        "http://dbpedia.org/property/sepSnowCm": 0.03,
+                        "http://dbpedia.org/property/augSnowDays": 0.14,
+                        "http://dbpedia.org/property/maySnowInch": 0.12,
+                        "http://dbpedia.org/property/octRecordLowF": 0.01,
+                        "http://dbpedia.org/property/elevationM": 0.01,
+                        "http://dbpedia.org/property/mayRecordHighF": 0.01,
+                        "http://dbpedia.org/property/junChill": 0.01,
+                        "http://dbpedia.org/property/maySnowDays": 0.13,
+                        "http://dbpedia.org/property/augSnowInch": 0.13,
+                        "http://dbpedia.org/property/elevationFt": 0.02,
+                        "http://dbpedia.org/property/sepSnowInch": 0.13,
+                        "http://dbpedia.org/property/augSnowCm": 0.03,
+                        "http://dbpedia.org/property/febSnowDays": 0.01,
+                        "http://dbpedia.org/property/aprSnowInch": 0.1,
+                        "http://dbpedia.org/property/junSnowCm": 0.03,
+                        "http://dbpedia.org/property/novRecordLowF": 0.01,
+                        "http://dbpedia.org/property/sepSnowDays": 0.14,
+                        "http://dbpedia.org/property/octSnowInch": 0.11,
+                        "http://dbpedia.org/property/julChill": 0.01,
+                        "http://dbpedia.org/property/julSnowCm": 0.03,
+                        "http://dbpedia.org/property/novSnowDays": 0.05,
+                        "http://dbpedia.org/property/coordinatesDisplay": 0.01,
+                        "http://dbpedia.org/property/aprSnowDays": 0.06,
+                        "http://dbpedia.org/property/lats": 0.02,
+                        "http://dbpedia.org/property/sepChill": 0.01,
+                        "http://dbpedia.org/ontology/area": 0.04,
+                        "http://dbpedia.org/ontology/elevation": 0.02,
+                        "http://dbpedia.org/property/novSnowInch": 0.07,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/junSnowInch": 0.13,
+                        "http://dbpedia.org/property/augChill": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Deaths"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fujitascale": 0.22
+                    },
+                    "subject": "Event",
+                    "object": "F#/EF#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areasAffected": 0.01,
+                        "http://dbpedia.org/property/areaAffected": 0.02
+                    },
+                    "subject": "Event",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/f": 0.16,
+                        "http://dbpedia.org/property/totalFatalities": 0.09
+                    },
+                    "subject": "Event",
+                    "object": "Deaths"
+                }
+            ],
+            "table": "Unnamed table in section 'North America'",
+            "colums": [
+                "F#/EF#",
+                "City",
+                "Date",
+                "Deaths",
+                "Event"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South America'",
+            "colums": [
+                "F#",
+                "City",
+                "Date",
+                "Deaths",
+                "Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/lonSec": 0.01,
+                        "http://dbpedia.org/property/alt": 0.01,
+                        "http://dbpedia.org/property/augSnowDays": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/latSec": 0.01,
+                        "http://dbpedia.org/property/julSnowDays": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Deaths"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fujitascale": 0.01
+                    },
+                    "subject": "Event",
+                    "object": "T#/F#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areasAffected": 0.01,
+                        "http://dbpedia.org/property/location": 0.01
+                    },
+                    "subject": "Event",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Europe'",
+            "colums": [
+                "T#/F#",
+                "City",
+                "Date",
+                "Deaths",
+                "Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordLowC": 0.09,
+                        "http://dbpedia.org/property/augPrecipitationMm": 0.09
+                    },
+                    "subject": "Event",
+                    "object": "Deaths"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "F#",
+                "City",
+                "Date",
+                "Deaths",
+                "Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.04,
+                        "http://dbpedia.org/property/julRecordLowC": 0.04,
+                        "http://dbpedia.org/ontology/elevation": 0.04
+                    },
+                    "subject": "City",
+                    "object": "Deaths"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/text": 0.09
+                    },
+                    "subject": "City",
+                    "object": "Event"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.04
+                    },
+                    "subject": "Event",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Asia'",
+            "colums": [
+                "F#",
+                "City",
+                "Date",
+                "Deaths",
+                "Event"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fujitascale": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "F#"
+                }
+            ],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "F#",
+                "City",
+                "Date",
+                "Deaths",
+                "Event"
+            ]
+        }
+    ]
+}

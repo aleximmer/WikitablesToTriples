@@ -1,0 +1,711 @@
+{
+    "page": "List of explorers",
+    "no. of tables": 26,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'A'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.32,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.25,
+                        "http://dbpedia.org/property/nationality": 0.36
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.04,
+                        "http://dbpedia.org/ontology/knownFor": 0.11,
+                        "http://dbpedia.org/property/placeOfDeath": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'B'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfBirth": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/ontology/nationality": 0.17,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.12,
+                        "http://dbpedia.org/property/nationality": 0.14,
+                        "http://dbpedia.org/property/birthPlace": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.02,
+                        "http://dbpedia.org/ontology/knownFor": 0.02,
+                        "http://dbpedia.org/property/placeOfDeath": 0.02,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.02
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/demonym": 0.02
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'C'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.14,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.14,
+                        "http://dbpedia.org/ontology/occupation": 0.02,
+                        "http://dbpedia.org/property/nationality": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.02
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'D'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ethnicity": 0.1,
+                        "http://dbpedia.org/property/ethnicity": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'E'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.1,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.1,
+                        "http://dbpedia.org/property/nationality": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ethnicGroup": 0.1
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'F'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationality": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/namedFor": 0.05
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'G'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.04,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.04,
+                        "http://dbpedia.org/property/nationality": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.17
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'H'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ethnicity": 0.03,
+                        "http://dbpedia.org/ontology/nationality": 0.07,
+                        "http://dbpedia.org/property/nationality": 0.07,
+                        "http://dbpedia.org/property/ethnicity": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.1,
+                        "http://dbpedia.org/property/knownFor": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstAscentPerson": 0.03
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.03
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'I'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.33,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.33,
+                        "http://dbpedia.org/property/nationality": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'J'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.17
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'K'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/ethnicity": 0.08,
+                        "http://dbpedia.org/ontology/nationality": 0.08,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.08,
+                        "http://dbpedia.org/property/ethnicity": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/executedBy": 0.08
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Name"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'L'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.11,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.11,
+                        "http://dbpedia.org/property/nationality": 0.16
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/disappearedPlace": 0.05,
+                        "http://dbpedia.org/ontology/knownFor": 0.05,
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'M'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.08,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.08,
+                        "http://dbpedia.org/property/nationality": 0.12
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.12,
+                        "http://dbpedia.org/ontology/restingPlace": 0.04,
+                        "http://dbpedia.org/ontology/residence": 0.04,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'N'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06,
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/ontology/nationality": 0.06,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.06,
+                        "http://dbpedia.org/property/placeOfDeath": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/firstAscentPerson": 0.06
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.06,
+                        "http://dbpedia.org/property/location": 0.06,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.06
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'O'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.14,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.14,
+                        "http://dbpedia.org/property/nationality": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationPlace": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'P'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfBirth": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/ontology/nationality": 0.1,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.06,
+                        "http://dbpedia.org/property/nationality": 0.26
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Q'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.5,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.5,
+                        "http://dbpedia.org/property/nationality": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'R'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationality": 0.08,
+                        "http://dbpedia.org/property/ethnicity": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'S'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.07,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.07,
+                        "http://dbpedia.org/property/nationality": 0.07,
+                        "http://dbpedia.org/property/ethnicity": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/ontology/sourceCountry": 0.02
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'T'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/ontology/nationality": 0.06,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.06,
+                        "http://dbpedia.org/property/nationality": 0.06,
+                        "http://dbpedia.org/ontology/deathPlace": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'U'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'V'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'W'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.08,
+                        "http://dbpedia.org/ontology/deathPlace": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Main area/s explored"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'X'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Y'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Z'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/citizenship": 0.33,
+                        "http://dbpedia.org/property/placeOfBirth": 0.67,
+                        "http://dbpedia.org/ontology/citizenship": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.67,
+                        "http://dbpedia.org/ontology/deathPlace": 0.33,
+                        "http://dbpedia.org/property/deathPlace": 0.33,
+                        "http://dbpedia.org/ontology/nationality": 0.33,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.33,
+                        "http://dbpedia.org/property/placeOfDeath": 0.33,
+                        "http://dbpedia.org/property/nationality": 0.33,
+                        "http://dbpedia.org/property/birthPlace": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/free": 0.33
+                    },
+                    "subject": "Main area/s explored",
+                    "object": "Nationality"
+                }
+            ],
+            "colums": [
+                "Name",
+                "Nationality",
+                "Century",
+                "Main area/s explored"
+            ]
+        }
+    ]
+}

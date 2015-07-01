@@ -1,0 +1,177 @@
+{
+    "no. of tables": 3,
+    "page": "List of railway lines in Norway",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/start": 0.64,
+                        "http://dbpedia.org/ontology/routeStart": 0.63,
+                        "http://dbpedia.org/property/end": 0.05,
+                        "http://dbpedia.org/ontology/routeEnd": 0.05
+                    },
+                    "subject": "Line",
+                    "object": "Termini"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/stations": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.02
+                    },
+                    "subject": "Line",
+                    "object": "Length\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Line",
+                    "object": "Length\n(mi)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stations": 0.02,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.02
+                    },
+                    "subject": "Line",
+                    "object": "Double\ntrack\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stations": 0.02,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.02
+                    },
+                    "subject": "Line",
+                    "object": "Double\ntrack\n(mi)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/el": 0.37
+                    },
+                    "subject": "Line",
+                    "object": "El"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/stations": 0.03,
+                        "http://dbpedia.org/property/boxWidth": 0.02,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.03
+                    },
+                    "subject": "Line",
+                    "object": "St"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stations": 0.02,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.02
+                    },
+                    "subject": "Line",
+                    "object": "Br"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/stations": 0.05,
+                        "http://dbpedia.org/ontology/numberOfTracks": 0.02,
+                        "http://dbpedia.org/property/notrack": 0.02,
+                        "http://dbpedia.org/ontology/numberOfStations": 0.05
+                    },
+                    "subject": "Line",
+                    "object": "Tu"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/servingRailwayLine": 0.54,
+                        "http://dbpedia.org/property/line": 0.54
+                    },
+                    "subject": "Termini",
+                    "object": "Line"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/prespan": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Termini",
+                    "object": "Length\n(km)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prespan": 0.02
+                    },
+                    "subject": "Termini",
+                    "object": "Length\n(mi)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/postspan": 0.02,
+                        "http://dbpedia.org/property/prespan": 0.02,
+                        "http://dbpedia.org/property/postspan2x": 0.02
+                    },
+                    "subject": "Termini",
+                    "object": "Double\ntrack\n(mi)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/smartcardstatus": 0.02
+                    },
+                    "subject": "Termini",
+                    "object": "El"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/ontology/railwayPlatforms": 0.02
+                    },
+                    "subject": "Termini",
+                    "object": "St"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/ontology/railwayPlatforms": 0.07
+                    },
+                    "subject": "Termini",
+                    "object": "Br"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/platform": 0.03,
+                        "http://dbpedia.org/property/postspan": 0.08,
+                        "http://dbpedia.org/property/prespan": 0.07,
+                        "http://dbpedia.org/property/postspan2x": 0.02,
+                        "http://dbpedia.org/ontology/railwayPlatforms": 0.03
+                    },
+                    "subject": "Termini",
+                    "object": "Tu"
+                }
+            ],
+            "table": "Unnamed table in section 'List'",
+            "colums": [
+                "Line",
+                "Termini",
+                "Length\n(km)",
+                "Length\n(mi)",
+                "Double\ntrack\n(km)",
+                "Double\ntrack\n(mi)",
+                "El",
+                "St",
+                "Br",
+                "Tu",
+                "Opened",
+                "Completed",
+                "Closed",
+                "Ref(s)"
+            ]
+        }
+    ]
+}

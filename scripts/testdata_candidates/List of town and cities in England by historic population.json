@@ -1,0 +1,312 @@
+{
+    "no. of tables": 15,
+    "page": "List of towns and cities in England by historical population",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marLowC": 0.11,
+                        "http://dbpedia.org/property/lats": 0.11
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'Norman Conquest'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Population"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/mayLowC": 0.03,
+                        "http://dbpedia.org/property/marLowC": 0.03,
+                        "http://dbpedia.org/property/novHighC": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.03,
+                        "http://dbpedia.org/property/junRecordLowC": 0.03,
+                        "http://dbpedia.org/property/decLowC": 0.07,
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/aprLowC": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/novLowC": 0.03,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/decLowC": 0.03,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.03,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/marLowC": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febMeanC": 0.14,
+                        "http://dbpedia.org/property/marSnowDays": 0.14,
+                        "http://dbpedia.org/property/decSnowDays": 0.14,
+                        "http://dbpedia.org/property/longd": 0.14
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octRecordHighC": 0.03,
+                        "http://dbpedia.org/property/marRainDays": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03,
+                        "http://dbpedia.org/property/establishedDate": 0.03,
+                        "http://dbpedia.org/property/mayHighC": 0.03,
+                        "http://dbpedia.org/property/octHighC": 0.03,
+                        "http://dbpedia.org/property/octRainDays": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayRecordHighC": 0.03,
+                        "http://dbpedia.org/property/aprSnowDays": 0.03,
+                        "http://dbpedia.org/property/novHighC": 0.03,
+                        "http://dbpedia.org/property/lats": 0.07,
+                        "http://dbpedia.org/property/establishedDate": 0.03,
+                        "http://dbpedia.org/property/longm": 0.07,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprSnowDays": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRecordHighC": 0.03,
+                        "http://dbpedia.org/property/aprSnowDays": 0.03,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepLowC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/decLowC": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janSun": 0.03,
+                        "http://dbpedia.org/property/decLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprHighC": 0.03,
+                        "http://dbpedia.org/property/novHighC": 0.03,
+                        "http://dbpedia.org/property/establishedDate": 0.03,
+                        "http://dbpedia.org/property/sepLowC": 0.03,
+                        "http://dbpedia.org/property/junLowC": 0.03,
+                        "http://dbpedia.org/property/decLowC": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/augLowC": 0.03,
+                        "http://dbpedia.org/property/marRecordHighC": 0.03,
+                        "http://dbpedia.org/property/aprHighC": 0.03,
+                        "http://dbpedia.org/property/decLowC": 0.03,
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decLowC": 0.03,
+                        "http://dbpedia.org/property/lats": 0.03,
+                        "http://dbpedia.org/property/yearHighC": 0.03
+                    },
+                    "subject": "Town",
+                    "object": "Rank"
+                }
+            ],
+            "table": "Unnamed table in section 'List of towns and cities in England by historical population'",
+            "colums": [
+                "Rank",
+                "Town",
+                "Pop'n"
+            ]
+        }
+    ]
+}

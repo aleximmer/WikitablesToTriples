@@ -1,0 +1,233 @@
+{
+    "no. of tables": 2,
+    "page": "List of international cricket centuries at the Oval",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.01,
+                        "http://dbpedia.org/property/fivefor": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/caps": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.02,
+                        "http://dbpedia.org/property/testcap": 0.01,
+                        "http://dbpedia.org/property/columns": 0.01,
+                        "http://dbpedia.org/property/100s/50s": 0.01,
+                        "http://dbpedia.org/property/deliveries": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.02,
+                        "http://dbpedia.org/property/odicap": 0.01
+                    },
+                    "subject": "Player",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.42,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/ontology/deathPlace": 0.12
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.12,
+                        "http://dbpedia.org/property/clubnumber": 0.01,
+                        "http://dbpedia.org/property/nationalcaps": 0.02,
+                        "http://dbpedia.org/property/fivefor": 0.15,
+                        "http://dbpedia.org/property/matches": 0.01,
+                        "http://dbpedia.org/property/heightinch": 0.02,
+                        "http://dbpedia.org/property/batAvg": 0.01,
+                        "http://dbpedia.org/property/topScore": 0.01,
+                        "http://dbpedia.org/property/rows": 0.01,
+                        "http://dbpedia.org/property/tenfor": 0.07,
+                        "http://dbpedia.org/property/runs": 0.01,
+                        "http://dbpedia.org/property/caps": 0.01,
+                        "http://dbpedia.org/property/goals": 0.01,
+                        "http://dbpedia.org/property/bestBowling": 0.28,
+                        "http://dbpedia.org/property/columns": 0.14,
+                        "http://dbpedia.org/property/100s/50s": 0.12,
+                        "http://dbpedia.org/property/deliveries": 0.01,
+                        "http://dbpedia.org/property/catches/stumpings": 0.04,
+                        "http://dbpedia.org/property/odicap": 0.01,
+                        "http://dbpedia.org/property/t20icap": 0.01
+                    },
+                    "subject": "Player",
+                    "object": "Inns."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/win/lossRecord": 0.01,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.01,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.01,
+                        "http://dbpedia.org/property/data": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.02,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.04,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.07,
+                        "http://dbpedia.org/property/data": 0.26
+                    },
+                    "subject": "Team",
+                    "object": "Inns."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.01,
+                        "http://dbpedia.org/property/win/lossRecord": 0.01,
+                        "http://dbpedia.org/property/data": 0.01
+                    },
+                    "subject": "Opposing team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.01,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.1,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.13,
+                        "http://dbpedia.org/property/data": 0.22
+                    },
+                    "subject": "Opposing team",
+                    "object": "Inns."
+                }
+            ],
+            "table": "Unnamed table in section 'List of centuries'",
+            "colums": [
+                "No.",
+                "Score",
+                "Player",
+                "Team",
+                "Balls",
+                "Inns.",
+                "Opposing team",
+                "Date",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubnumber": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.07,
+                        "http://dbpedia.org/property/odishirt": 0.07,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/heightinch": 0.03,
+                        "http://dbpedia.org/property/heightft": 0.03,
+                        "http://dbpedia.org/property/deliveries": 0.07,
+                        "http://dbpedia.org/property/100s/50s": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topScore": 0.14,
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Score"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.21,
+                        "http://dbpedia.org/ontology/country": 0.28
+                    },
+                    "subject": "Player",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deliveries": 0.03,
+                        "http://dbpedia.org/property/matches": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Player",
+                    "object": "Balls"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.21,
+                        "http://dbpedia.org/property/clubnumber": 0.07,
+                        "http://dbpedia.org/property/bestBowling": 0.41,
+                        "http://dbpedia.org/property/fivefor": 0.1,
+                        "http://dbpedia.org/property/heightinch": 0.14,
+                        "http://dbpedia.org/property/tenfor": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.24
+                    },
+                    "subject": "Player",
+                    "object": "Inns."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.03,
+                        "http://dbpedia.org/property/data": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/data": 0.03
+                    },
+                    "subject": "Team",
+                    "object": "Player"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.07,
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.07,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.28,
+                        "http://dbpedia.org/property/data": 0.21
+                    },
+                    "subject": "Team",
+                    "object": "Inns."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentOfficialRank": 0.03,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.03,
+                        "http://dbpedia.org/property/data": 0.1
+                    },
+                    "subject": "Opposing team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/testMatchesThisYear": 0.03,
+                        "http://dbpedia.org/property/win/lossRecordThisYear": 0.17,
+                        "http://dbpedia.org/property/data": 0.21
+                    },
+                    "subject": "Opposing team",
+                    "object": "Inns."
+                }
+            ],
+            "table": "Unnamed table in section 'List of centuries'",
+            "colums": [
+                "No.",
+                "Score",
+                "Player",
+                "Team",
+                "Balls",
+                "Inns.",
+                "Opposing team",
+                "Date",
+                "Result"
+            ]
+        }
+    ]
+}

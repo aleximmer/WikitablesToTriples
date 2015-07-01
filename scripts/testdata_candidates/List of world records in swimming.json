@@ -1,0 +1,422 @@
+{
+    "no. of tables": 9,
+    "page": "List of world records in swimming",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/time": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "Time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recordinfo": 0.05
+                    },
+                    "subject": "Event",
+                    "object": ""
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.65
+                    },
+                    "subject": "Name",
+                    "object": "Event"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/time": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.7,
+                        "http://dbpedia.org/ontology/stateOfOrigin": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.2
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.05,
+                        "http://dbpedia.org/property/capital": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.05
+                    },
+                    "subject": "Nationality",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/time": 0.2
+                    },
+                    "subject": "Event",
+                    "object": "Time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.55
+                    },
+                    "subject": "Name",
+                    "object": "Event"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.7,
+                        "http://dbpedia.org/property/nationality": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.4,
+                        "http://dbpedia.org/property/birthPlace": 0.3,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.05,
+                        "http://dbpedia.org/property/capital": 0.05
+                    },
+                    "subject": "Nationality",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.15,
+                        "http://dbpedia.org/ontology/country": 0.2
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.5
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/time": 0.09
+                    },
+                    "subject": "Event",
+                    "object": "Time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/meet": 0.17
+                    },
+                    "subject": "Event",
+                    "object": "Meet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.48
+                    },
+                    "subject": "Name",
+                    "object": "Event"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.61,
+                        "http://dbpedia.org/property/birthPlace": 0.35,
+                        "http://dbpedia.org/ontology/birthPlace": 0.48,
+                        "http://dbpedia.org/property/placeOfBirth": 0.26
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.09,
+                        "http://dbpedia.org/property/capital": 0.09
+                    },
+                    "subject": "Nationality",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.09
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.26
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Short course'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/time": 0.12
+                    },
+                    "subject": "Event",
+                    "object": "Time"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/meet": 0.21
+                    },
+                    "subject": "Event",
+                    "object": "Meet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Name",
+                    "object": "Event"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.79,
+                        "http://dbpedia.org/property/birthPlace": 0.42,
+                        "http://dbpedia.org/ontology/birthPlace": 0.46,
+                        "http://dbpedia.org/property/placeOfBirth": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/meet": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Meet"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.04
+                    },
+                    "subject": "Meet",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.08
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.12
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Short course'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Short course'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05
+                    },
+                    "subject": "Nation",
+                    "object": "LC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.05
+                    },
+                    "subject": "Nation",
+                    "object": "SC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.11,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.11
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05
+                    },
+                    "subject": "Nation",
+                    "object": "LC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.05
+                    },
+                    "subject": "Nation",
+                    "object": "SC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.11,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.11
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.05,
+                        "http://dbpedia.org/property/value": 0.05,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.05,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05
+                    },
+                    "subject": "Nation",
+                    "object": "LC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.05
+                    },
+                    "subject": "Nation",
+                    "object": "SC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.11,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.05,
+                        "http://dbpedia.org/property/hdiRank": 0.11
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Record holders' rankings'",
+            "colums": [
+                "Nation",
+                "Record\ntally",
+                "LC",
+                "SC",
+                "Total",
+                "LC",
+                "SC",
+                "Total",
+                "LC",
+                "SC",
+                "Total"
+            ]
+        }
+    ]
+}

@@ -92,6 +92,7 @@ def get_correct_key(request):
 def get_prec_rec(request):
     # Retrieve all rated tables
     tables = WikiTable.objects.filter(checked=True)
+    
     result = machineLearningWithPrecisionRecall(tables, True) # Print results in console (debug)
 
     return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'tableCount': result['tableCount'], 'thresholdsState': result['thresholdsState']})

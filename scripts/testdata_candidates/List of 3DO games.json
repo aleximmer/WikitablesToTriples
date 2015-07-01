@@ -1,0 +1,116 @@
+{
+    "no. of tables": 3,
+    "page": "List of 3DO Interactive Multiplayer games",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.21,
+                        "http://dbpedia.org/property/developer": 0.2,
+                        "http://dbpedia.org/ontology/distributor": 0.0,
+                        "http://dbpedia.org/property/publisher": 0.05,
+                        "http://dbpedia.org/ontology/publisher": 0.12
+                    },
+                    "subject": "Title[1]",
+                    "object": "Developer"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/developer": 0.12,
+                        "http://dbpedia.org/property/publisher": 0.16,
+                        "http://dbpedia.org/property/developer": 0.1,
+                        "http://dbpedia.org/ontology/distributor": 0.0,
+                        "http://dbpedia.org/ontology/publisher": 0.24
+                    },
+                    "subject": "Title[1]",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.04
+                    },
+                    "subject": "Developer",
+                    "object": "Title[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parent": 0.01,
+                        "http://dbpedia.org/ontology/successor": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09,
+                        "http://dbpedia.org/property/satServ": 0.0,
+                        "http://dbpedia.org/ontology/type": 0.0,
+                        "http://dbpedia.org/ontology/parentCompany": 0.01,
+                        "http://dbpedia.org/ontology/owningCompany": 0.0,
+                        "http://dbpedia.org/property/successor": 0.01,
+                        "http://dbpedia.org/ontology/foundedBy": 0.01,
+                        "http://dbpedia.org/property/owner": 0.0,
+                        "http://dbpedia.org/ontology/owner": 0.0
+                    },
+                    "subject": "Developer",
+                    "object": "Publisher"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/products": 0.01,
+                        "http://dbpedia.org/ontology/product": 0.02
+                    },
+                    "subject": "Publisher",
+                    "object": "Title[1]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/satServ": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.09,
+                        "http://dbpedia.org/ontology/foundedBy": 0.01
+                    },
+                    "subject": "Publisher",
+                    "object": "Developer"
+                }
+            ],
+            "table": "Unnamed table in section 'Licensed games'",
+            "colums": [
+                "Title[1]",
+                "Year[1]",
+                "Developer",
+                "Publisher",
+                "Regions released"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.09,
+                        "http://dbpedia.org/ontology/publisher": 0.09,
+                        "http://dbpedia.org/property/distributor": 0.09,
+                        "http://dbpedia.org/ontology/developer": 0.36,
+                        "http://dbpedia.org/property/developer": 0.36,
+                        "http://dbpedia.org/ontology/distributor": 0.09
+                    },
+                    "subject": "English title",
+                    "object": "Developer"
+                }
+            ],
+            "table": "Unnamed table in section 'Unreleased games'",
+            "colums": [
+                "English title",
+                "Japanese title\n(English / Kana / Romaji)",
+                "Genre",
+                "Developer"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Unlicensed games'",
+            "colums": [
+                "Title[1]",
+                "Year[1]",
+                "Developer",
+                "Publisher",
+                "Regions released"
+            ]
+        }
+    ]
+}

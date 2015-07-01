@@ -1,0 +1,193 @@
+{
+    "no. of tables": 3,
+    "page": "List of colleges and universities in California",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.89,
+                        "http://dbpedia.org/property/city": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.78,
+                        "http://dbpedia.org/ontology/affiliation": 0.89
+                    },
+                    "subject": "Name",
+                    "object": "System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.44
+                    },
+                    "subject": "Name",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "City",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.56
+                    },
+                    "subject": "County",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.11
+                    },
+                    "subject": "System",
+                    "object": "Founded"
+                }
+            ],
+            "table": "Unnamed table in section 'State institutions'",
+            "colums": [
+                "Name",
+                "City",
+                "County",
+                "System",
+                "Founded"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.86,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/city": 0.77,
+                        "http://dbpedia.org/ontology/campus": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.36,
+                        "http://dbpedia.org/ontology/affiliation": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "System"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.73
+                    },
+                    "subject": "Name",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.86,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "City",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/parts": 0.05,
+                        "http://dbpedia.org/property/label": 0.09,
+                        "http://dbpedia.org/property/seat": 0.23
+                    },
+                    "subject": "County",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.05,
+                        "http://dbpedia.org/property/city": 0.05
+                    },
+                    "subject": "System",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.05
+                    },
+                    "subject": "System",
+                    "object": "Founded"
+                }
+            ],
+            "table": "Unnamed table in section 'State institutions'",
+            "colums": [
+                "Name",
+                "City",
+                "County",
+                "System",
+                "Founded"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.66,
+                        "http://dbpedia.org/ontology/campus": 0.02,
+                        "http://dbpedia.org/property/city": 0.59,
+                        "http://dbpedia.org/property/location": 0.02
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.47
+                    },
+                    "subject": "Name",
+                    "object": "Founded"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Focus"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/type": 0.01,
+                        "http://dbpedia.org/property/affiliation": 0.12,
+                        "http://dbpedia.org/ontology/type": 0.01,
+                        "http://dbpedia.org/ontology/affiliation": 0.15
+                    },
+                    "subject": "Name",
+                    "object": "Affiliation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Founded"
+                }
+            ],
+            "table": "Unnamed table in section 'Private colleges and universities'",
+            "colums": [
+                "Name",
+                "City",
+                "Founded",
+                "Type",
+                "Focus",
+                "Affiliation"
+            ]
+        }
+    ]
+}

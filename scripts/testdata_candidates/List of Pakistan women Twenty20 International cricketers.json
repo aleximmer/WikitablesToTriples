@@ -1,0 +1,153 @@
+{
+    "no. of tables": 2,
+    "page": "List of Pakistan women Twenty20 International cricketers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.06,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.06,
+                        "http://dbpedia.org/property/runs": 0.03
+                    },
+                    "subject": "Cap",
+                    "object": "Name[16]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/t20idebutyear": 0.28,
+                        "http://dbpedia.org/property/year": 0.09,
+                        "http://dbpedia.org/property/odidebutyear": 0.31,
+                        "http://dbpedia.org/property/lastt20iyear": 0.03,
+                        "http://dbpedia.org/property/lastodiyear": 0.25
+                    },
+                    "subject": "Cap",
+                    "object": "First"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lastt20iyear": 0.28,
+                        "http://dbpedia.org/property/year": 0.28,
+                        "http://dbpedia.org/property/t20idebutyear": 0.09,
+                        "http://dbpedia.org/property/lastodiyear": 0.41,
+                        "http://dbpedia.org/property/odidebutyear": 0.06
+                    },
+                    "subject": "Cap",
+                    "object": "Last"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/matches": 0.16,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/runs": 0.06,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.06,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/property/innings": 0.03
+                    },
+                    "subject": "Cap",
+                    "object": "Mat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.06,
+                        "http://dbpedia.org/property/matches": 0.12,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/topScore": 0.06,
+                        "http://dbpedia.org/property/catches/stumpings": 0.09,
+                        "http://dbpedia.org/property/bestBowling": 0.03
+                    },
+                    "subject": "Cap",
+                    "object": "Inn"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bestBowling": 0.06,
+                        "http://dbpedia.org/property/fivefor": 0.06,
+                        "http://dbpedia.org/property/runs": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.03,
+                        "http://dbpedia.org/property/topScore": 0.03,
+                        "http://dbpedia.org/property/catches/stumpings": 0.09,
+                        "http://dbpedia.org/property/batAvg": 0.03,
+                        "http://dbpedia.org/property/matches": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.03,
+                        "http://dbpedia.org/property/columns": 0.03
+                    },
+                    "subject": "Cap",
+                    "object": "NO"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/runs": 0.09,
+                        "http://dbpedia.org/property/fivefor": 0.03,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.03,
+                        "http://dbpedia.org/property/topScore": 0.06,
+                        "http://dbpedia.org/property/catches/stumpings": 0.06,
+                        "http://dbpedia.org/property/tenfor": 0.03,
+                        "http://dbpedia.org/property/matches": 0.03
+                    },
+                    "subject": "Cap",
+                    "object": "Runs"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.03,
+                        "http://dbpedia.org/property/bestBowling": 0.03,
+                        "http://dbpedia.org/property/fivefor": 0.12,
+                        "http://dbpedia.org/property/columns": 0.03,
+                        "http://dbpedia.org/property/tenfor": 0.12,
+                        "http://dbpedia.org/property/deliveries": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/100s/50s": 0.12,
+                        "http://dbpedia.org/property/catches/stumpings": 0.16,
+                        "http://dbpedia.org/property/bowlAvg": 0.06
+                    },
+                    "subject": "Cap",
+                    "object": "Ca"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wickets": 0.12,
+                        "http://dbpedia.org/property/fivefor": 0.41,
+                        "http://dbpedia.org/property/100s/50s": 0.5,
+                        "http://dbpedia.org/property/catches/stumpings": 0.19,
+                        "http://dbpedia.org/property/tenfor": 0.38,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03
+                    },
+                    "subject": "Cap",
+                    "object": "St"
+                }
+            ],
+            "table": "Pakistan women T20I cricketers",
+            "colums": [
+                "Cap",
+                "Name[16]",
+                "First",
+                "Last",
+                "Mat",
+                "Inn",
+                "NO",
+                "Runs",
+                "HS",
+                "50",
+                "Avg",
+                "Balls",
+                "Wkt",
+                "BBI",
+                "Ave",
+                "Ca",
+                "St",
+                "Ref"
+            ]
+        }
+    ]
+}

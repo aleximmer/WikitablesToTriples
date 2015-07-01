@@ -1,0 +1,173 @@
+{
+    "no. of tables": 5,
+    "page": "List of auto racing tracks in Mexico",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.67
+                    },
+                    "subject": "Track",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recordYear": 0.11
+                    },
+                    "subject": "Track",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/events": 0.22,
+                        "http://dbpedia.org/property/recordClass": 0.11
+                    },
+                    "subject": "Track",
+                    "object": "Major series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.78,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "City",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.22
+                    },
+                    "subject": "City",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.22,
+                        "http://dbpedia.org/property/subdivisionName": 0.22
+                    },
+                    "subject": "State",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.11
+                    },
+                    "subject": "State",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Ovals'",
+            "colums": [
+                "Track",
+                "City",
+                "State",
+                "Opened",
+                "Major series",
+                "Length",
+                "Layout"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5
+                    },
+                    "subject": "Track",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "City",
+                    "object": "State"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "State",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Drag strips'",
+            "colums": [
+                "Track",
+                "City",
+                "State",
+                "Opened",
+                "Surface",
+                "Major Series",
+                "Length"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.09,
+                        "http://dbpedia.org/property/latm": 0.09,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.09
+                    },
+                    "subject": "State",
+                    "object": "Racetracks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.18
+                    },
+                    "subject": "State",
+                    "object": "Road"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junSnowDays": 0.09,
+                        "http://dbpedia.org/property/latm": 0.09,
+                        "http://dbpedia.org/property/postalCode": 0.09,
+                        "http://dbpedia.org/property/octSnowDays": 0.09,
+                        "http://dbpedia.org/property/octRecordLowC": 0.09,
+                        "http://dbpedia.org/property/decSnowDays": 0.09,
+                        "http://dbpedia.org/property/julSnowDays": 0.09,
+                        "http://dbpedia.org/property/sepSnowDays": 0.09,
+                        "http://dbpedia.org/property/novSnowDays": 0.09,
+                        "http://dbpedia.org/property/aprSnowDays": 0.09,
+                        "http://dbpedia.org/property/augSnowDays": 0.09,
+                        "http://dbpedia.org/property/maySnowDays": 0.09
+                    },
+                    "subject": "State",
+                    "object": "Oval"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junSnowDays": 0.09,
+                        "http://dbpedia.org/property/latm": 0.09,
+                        "http://dbpedia.org/property/postalCode": 0.09,
+                        "http://dbpedia.org/property/octSnowDays": 0.09,
+                        "http://dbpedia.org/property/octRecordLowC": 0.09,
+                        "http://dbpedia.org/property/decSnowDays": 0.09,
+                        "http://dbpedia.org/property/julSnowDays": 0.09,
+                        "http://dbpedia.org/property/sepSnowDays": 0.09,
+                        "http://dbpedia.org/property/novSnowDays": 0.09,
+                        "http://dbpedia.org/property/aprSnowDays": 0.09,
+                        "http://dbpedia.org/property/augSnowDays": 0.09,
+                        "http://dbpedia.org/property/maySnowDays": 0.09
+                    },
+                    "subject": "State",
+                    "object": "Temporal"
+                }
+            ],
+            "table": "Unnamed table in section 'By State'",
+            "colums": [
+                "State",
+                "Racetracks",
+                "Road",
+                "Oval",
+                "Temporal"
+            ]
+        }
+    ]
+}

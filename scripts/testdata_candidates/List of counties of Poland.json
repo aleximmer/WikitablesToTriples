@@ -1,0 +1,154 @@
+{
+    "no. of tables": 1,
+    "page": "List of Polish counties",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.0,
+                        "http://dbpedia.org/property/nativeName": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "County",
+                    "object": "Polish name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.4,
+                        "http://dbpedia.org/property/p": 0.4,
+                        "http://dbpedia.org/property/subdivisionName": 0.15,
+                        "http://dbpedia.org/property/district": 0.0,
+                        "http://dbpedia.org/property/seat": 0.83
+                    },
+                    "subject": "County",
+                    "object": "County seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.85,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.0
+                    },
+                    "subject": "County",
+                    "object": "Voivodeship"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/longm": 0.01
+                    },
+                    "subject": "County",
+                    "object": "Gminas"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.71,
+                        "http://dbpedia.org/property/subdivisionName": 0.7
+                    },
+                    "subject": "County seat",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.82,
+                        "http://dbpedia.org/property/subdivisionName": 0.74,
+                        "http://dbpedia.org/property/region": 0.0,
+                        "http://dbpedia.org/ontology/region": 0.0
+                    },
+                    "subject": "County seat",
+                    "object": "Voivodeship"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/minimumElevation": 0.0,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/lats": 0.0,
+                        "http://dbpedia.org/property/postalCode": 0.01,
+                        "http://dbpedia.org/property/sepLowC": 0.01,
+                        "http://dbpedia.org/property/establishedDate": 0.02,
+                        "http://dbpedia.org/property/elevationMinM": 0.0,
+                        "http://dbpedia.org/property/aprHighC": 0.0,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/marHighC": 0.0
+                    },
+                    "subject": "County seat",
+                    "object": "Gminas"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 1.0,
+                        "http://dbpedia.org/property/seat": 0.04,
+                        "http://dbpedia.org/property/p": 1.0
+                    },
+                    "subject": "Voivodeship",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.12,
+                        "http://dbpedia.org/property/seat": 0.03,
+                        "http://dbpedia.org/property/p": 0.12
+                    },
+                    "subject": "Voivodeship",
+                    "object": "County seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marSnowDays": 0.01,
+                        "http://dbpedia.org/property/aprPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/latm": 0.03,
+                        "http://dbpedia.org/property/augRainDays": 0.01,
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/sepLowC": 0.01,
+                        "http://dbpedia.org/property/decSnowDays": 0.01,
+                        "http://dbpedia.org/property/julPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/augPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/febSnowDays": 0.01,
+                        "http://dbpedia.org/property/sepRainDays": 0.0,
+                        "http://dbpedia.org/property/febRainDays": 0.01,
+                        "http://dbpedia.org/property/junLowC": 0.01,
+                        "http://dbpedia.org/property/julRainDays": 0.0,
+                        "http://dbpedia.org/property/decRainDays": 0.01,
+                        "http://dbpedia.org/property/octRainDays": 0.01,
+                        "http://dbpedia.org/property/mayRainDays": 0.01,
+                        "http://dbpedia.org/property/marRainDays": 0.0,
+                        "http://dbpedia.org/property/octPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/junRainDays": 0.0,
+                        "http://dbpedia.org/property/parts": 0.03,
+                        "http://dbpedia.org/property/aprRainDays": 0.01,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.0,
+                        "http://dbpedia.org/property/julRecordLowC": 0.01,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/novSnowDays": 0.01,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/mayLowC": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/novRainDays": 0.01,
+                        "http://dbpedia.org/property/febPrecipitationDays": 0.01,
+                        "http://dbpedia.org/property/longs": 0.02,
+                        "http://dbpedia.org/property/janRainDays": 0.01,
+                        "http://dbpedia.org/property/janSnowDays": 0.01,
+                        "http://dbpedia.org/property/octHighC": 0.01,
+                        "http://dbpedia.org/property/janPrecipitationDays": 0.0
+                    },
+                    "subject": "Voivodeship",
+                    "object": "Gminas"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Polish counties'",
+            "colums": [
+                "County",
+                "Polish name",
+                "County seat",
+                "Voivodeship",
+                "Area",
+                "Gminas",
+                "Population"
+            ]
+        }
+    ]
+}

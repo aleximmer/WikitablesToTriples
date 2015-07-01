@@ -1,0 +1,314 @@
+{
+    "no. of tables": 8,
+    "page": "List of Hispanic Medal of Honor recipients",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.33,
+                        "http://dbpedia.org/property/branch": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/unit": 0.33
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'American Civil War'",
+            "colums": [
+                "Image",
+                "Name",
+                "Rank",
+                "Branch",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0,
+                        "http://dbpedia.org/property/branch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                }
+            ],
+            "table": "Unnamed table in section 'Boxer rebellion'",
+            "colums": [
+                "Image",
+                "Name",
+                "Rank",
+                "Branch",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0,
+                        "http://dbpedia.org/property/branch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 1.0,
+                        "http://dbpedia.org/property/unit": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 1.0,
+                        "http://dbpedia.org/property/deathPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfDeath": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section 'World War I'",
+            "colums": [
+                "Image",
+                "Name",
+                "Rank",
+                "Branch",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.47
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0,
+                        "http://dbpedia.org/property/branch": 0.76
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.06,
+                        "http://dbpedia.org/property/unit": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deathPlace": 0.06,
+                        "http://dbpedia.org/property/placeOfDeath": 0.06
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                }
+            ],
+            "table": "Unnamed table in section 'World War II'",
+            "colums": [
+                "Image",
+                "Name",
+                "Branch",
+                "Rank",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.67
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.73,
+                        "http://dbpedia.org/property/branch": 0.47
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.33,
+                        "http://dbpedia.org/property/unit": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.27,
+                        "http://dbpedia.org/ontology/battle": 0.07
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dateOfDeath": 0.13
+                    },
+                    "subject": "Name",
+                    "object": "Date of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.33,
+                        "http://dbpedia.org/property/branch": 0.33
+                    },
+                    "subject": "Unit",
+                    "object": "Branch"
+                }
+            ],
+            "table": "Unnamed table in section 'Korean War'",
+            "colums": [
+                "Image",
+                "Name",
+                "Rank",
+                "Branch",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rank": 0.3
+                    },
+                    "subject": "Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.83,
+                        "http://dbpedia.org/property/branch": 0.43
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 0.22,
+                        "http://dbpedia.org/property/unit": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.09,
+                        "http://dbpedia.org/property/deathPlace": 0.09,
+                        "http://dbpedia.org/property/placeOfDeath": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Place of action"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 0.26,
+                        "http://dbpedia.org/property/branch": 0.13
+                    },
+                    "subject": "Unit",
+                    "object": "Branch"
+                }
+            ],
+            "table": "Unnamed table in section 'Vietnam War'",
+            "colums": [
+                "Image",
+                "Name",
+                "Rank",
+                "Branch",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryBranch": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Branch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/militaryUnit": 1.0
+                    },
+                    "subject": "Name",
+                    "object": "Unit"
+                }
+            ],
+            "table": "Unnamed table in section 'War in Afghanistan'",
+            "colums": [
+                "Image",
+                "Name",
+                "Rank",
+                "Branch",
+                "Unit",
+                "Place of action",
+                "Date of action",
+                "Notes/Reference"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Awards by branch of service",
+            "colums": [
+                "Military\nbranch",
+                "Posthumously",
+                "In person",
+                "Number of\nawards"
+            ]
+        }
+    ]
+}

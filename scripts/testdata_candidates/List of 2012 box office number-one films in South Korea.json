@@ -1,0 +1,24 @@
+{
+    "no. of tables": 1,
+    "tables": [
+        {
+            "table": "Unnamed table in section '\n\t\t\t\tList of 2012 box office number-one films in South Korea\t\t\t'",
+            "colums": [
+                "#",
+                "Date",
+                "Film",
+                "Gross"
+            ],
+            "predicates": [
+                {
+                    "subject": "Film",
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "object": "#"
+                }
+            ]
+        }
+    ],
+    "page": "List of 2012 box office number-one films in South Korea"
+}

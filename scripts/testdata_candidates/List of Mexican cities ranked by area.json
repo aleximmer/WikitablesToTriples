@@ -1,0 +1,193 @@
+{
+    "no. of tables": 2,
+    "page": "List of cities in Mexico",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junHumidity": 0.01,
+                        "http://dbpedia.org/property/junRecordLowC": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/marHighC": 0.01,
+                        "http://dbpedia.org/property/yearHumidity": 0.01,
+                        "http://dbpedia.org/property/febMeanC": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.01,
+                        "http://dbpedia.org/property/julHumidity": 0.01,
+                        "http://dbpedia.org/property/julRecordLowC": 0.02,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.01,
+                        "http://dbpedia.org/property/novRecordLowC": 0.01,
+                        "http://dbpedia.org/property/mayHumidity": 0.01,
+                        "http://dbpedia.org/property/decHumidity": 0.01,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "City/Locality (Localidad)",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governmentType": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.28,
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/property/governmentType": 0.01
+                    },
+                    "subject": "City/Locality (Localidad)",
+                    "object": "Municipality (Municipio)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.89,
+                        "http://dbpedia.org/property/subdivisionName": 0.74,
+                        "http://dbpedia.org/ontology/type": 0.01
+                    },
+                    "subject": "City/Locality (Localidad)",
+                    "object": "State (Estado)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sepRecordHighC": 0.01,
+                        "http://dbpedia.org/property/junRecordLowC": 0.01,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/julRecordLowC": 0.02,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/janLowF": 0.01,
+                        "http://dbpedia.org/property/novRecordLowC": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Municipality (Municipio)",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.26,
+                        "http://dbpedia.org/ontology/isPartOf": 0.26
+                    },
+                    "subject": "Municipality (Municipio)",
+                    "object": "City/Locality (Localidad)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.85,
+                        "http://dbpedia.org/property/subdivisionName": 0.73
+                    },
+                    "subject": "Municipality (Municipio)",
+                    "object": "State (Estado)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.01,
+                        "http://dbpedia.org/property/populationDensityRank": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.01,
+                        "http://dbpedia.org/property/postalCode": 0.03,
+                        "http://dbpedia.org/property/sealSize": 0.01,
+                        "http://dbpedia.org/property/establishedDate": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/longd": 0.03
+                    },
+                    "subject": "State (Estado)",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.34,
+                        "http://dbpedia.org/property/subdivisionName": 0.35,
+                        "http://dbpedia.org/ontology/country": 0.01
+                    },
+                    "subject": "State (Estado)",
+                    "object": "City/Locality (Localidad)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.15,
+                        "http://dbpedia.org/property/subdivisionName": 0.15
+                    },
+                    "subject": "State (Estado)",
+                    "object": "Municipality (Municipio)"
+                }
+            ],
+            "table": "Unnamed table in section 'Largest cities'",
+            "colums": [
+                "Rank",
+                "City/Locality (Localidad)",
+                "Population (2010 census)",
+                "Geographical coordinates",
+                "Municipality (Municipio)",
+                "State (Estado)"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junRecordLowC": 0.01,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/novRecordHighC": 0.01,
+                        "http://dbpedia.org/property/mayRecordLowC": 0.01,
+                        "http://dbpedia.org/property/augRecordLowC": 0.01,
+                        "http://dbpedia.org/property/julRecordHighC": 0.01,
+                        "http://dbpedia.org/property/julMeanC": 0.01,
+                        "http://dbpedia.org/property/decRecordHighC": 0.01,
+                        "http://dbpedia.org/property/octHumidity": 0.01,
+                        "http://dbpedia.org/property/febRecordHighC": 0.01,
+                        "http://dbpedia.org/property/marRecordHighC": 0.01,
+                        "http://dbpedia.org/property/julRecordLowC": 0.01,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.01,
+                        "http://dbpedia.org/property/janRecordHighC": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/longs": 0.01,
+                        "http://dbpedia.org/property/mayMeanC": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.82,
+                        "http://dbpedia.org/property/subdivisionName": 0.7,
+                        "http://dbpedia.org/property/region": 0.01,
+                        "http://dbpedia.org/ontology/type": 0.01
+                    },
+                    "subject": "Municipality",
+                    "object": "Federative Entity"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.01,
+                        "http://dbpedia.org/property/flagSize": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.01,
+                        "http://dbpedia.org/property/sealSize": 0.01,
+                        "http://dbpedia.org/property/establishedDate": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01
+                    },
+                    "subject": "Federative Entity",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.01
+                    },
+                    "subject": "Federative Entity",
+                    "object": "Municipality"
+                }
+            ],
+            "table": "Unnamed table in section 'Most Populous Municipalities'",
+            "colums": [
+                "Rank",
+                "Municipality",
+                "Federative Entity",
+                "Population"
+            ]
+        }
+    ]
+}

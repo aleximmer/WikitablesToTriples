@@ -1,0 +1,44 @@
+{
+    "no. of tables": 17,
+    "page": "List of 24 hours of Le Mans records",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.03,
+                        "http://dbpedia.org/property/hdiRank": 0.03,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.03
+                    },
+                    "subject": "Details",
+                    "object": "Record"
+                }
+            ],
+            "table": "Unnamed table in section 'Driver Records'",
+            "colums": [
+                "Description",
+                "Record",
+                "Details"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Race Records'",
+            "colums": [
+                "Description",
+                "Record",
+                "Details"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Winning fuel'",
+            "colums": [
+                "",
+                "Fuel",
+                "Wins",
+                "Year(s)"
+            ]
+        }
+    ]
+}

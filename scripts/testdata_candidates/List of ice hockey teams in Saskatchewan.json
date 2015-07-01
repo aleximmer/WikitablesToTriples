@@ -1,0 +1,639 @@
+{
+    "no. of tables": 14,
+    "page": "List of ice hockey teams in Saskatchewan",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.33,
+                        "http://dbpedia.org/property/decRainDays": 0.33,
+                        "http://dbpedia.org/property/augSnowDays": 0.67,
+                        "http://dbpedia.org/property/junSnowCm": 0.33,
+                        "http://dbpedia.org/property/augRecordLowC": 0.33,
+                        "http://dbpedia.org/property/augSnowCm": 0.67,
+                        "http://dbpedia.org/property/junSnowDays": 0.33,
+                        "http://dbpedia.org/property/julSnowDays": 0.67,
+                        "http://dbpedia.org/property/julSnowCm": 0.67,
+                        "http://dbpedia.org/property/2006PopDelta": 0.33
+                    },
+                    "subject": "City",
+                    "object": "League titles[15]"
+                }
+            ],
+            "table": "Unnamed table in section 'Major professional'",
+            "colums": [
+                "Team",
+                "City",
+                "Existed[14]",
+                "League titles[15]",
+                "Notes[14][16]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.5,
+                        "http://dbpedia.org/property/city": 0.5
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.5,
+                        "http://dbpedia.org/property/decRainDays": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowDays": 0.5,
+                        "http://dbpedia.org/property/junSnowDays": 0.5,
+                        "http://dbpedia.org/property/julSnowCm": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Lester Patrick Cups[18]"
+                }
+            ],
+            "table": "Unnamed table in section 'Minor professional'",
+            "colums": [
+                "Team",
+                "City",
+                "Existed[17]",
+                "Lester Patrick Cups[18]",
+                "Notes[17]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0,
+                        "http://dbpedia.org/property/birthplace": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dates": 0.2
+                    },
+                    "subject": "Team",
+                    "object": "Established[19]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.4
+                    },
+                    "subject": "Team",
+                    "object": "Notes[19]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.2,
+                        "http://dbpedia.org/property/augSnowDays": 0.4,
+                        "http://dbpedia.org/property/junSnowCm": 0.2,
+                        "http://dbpedia.org/property/augRecordLowC": 0.2,
+                        "http://dbpedia.org/property/augSnowCm": 0.4,
+                        "http://dbpedia.org/property/junSnowDays": 0.2,
+                        "http://dbpedia.org/property/julSnowDays": 0.4,
+                        "http://dbpedia.org/property/julSnowCm": 0.4,
+                        "http://dbpedia.org/property/2006PopDelta": 0.2
+                    },
+                    "subject": "City",
+                    "object": "President's Cups[20]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.2,
+                        "http://dbpedia.org/property/augSnowDays": 0.4,
+                        "http://dbpedia.org/property/junSnowCm": 0.2,
+                        "http://dbpedia.org/property/augRecordLowC": 0.2,
+                        "http://dbpedia.org/property/augSnowCm": 0.4,
+                        "http://dbpedia.org/property/junSnowDays": 0.2,
+                        "http://dbpedia.org/property/julSnowDays": 0.4,
+                        "http://dbpedia.org/property/julSnowCm": 0.4,
+                        "http://dbpedia.org/property/2006PopDelta": 0.2
+                    },
+                    "subject": "City",
+                    "object": "Memorial Cups[21]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.4
+                    },
+                    "subject": "Notes[19]",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dates": 0.2
+                    },
+                    "subject": "Notes[19]",
+                    "object": "Established[19]"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "Team",
+                "City",
+                "Established[19]",
+                "President's Cups[20]",
+                "Memorial Cups[21]",
+                "Notes[19]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/altname": 0.33,
+                        "http://dbpedia.org/ontology/league": 0.67,
+                        "http://dbpedia.org/property/league": 0.67
+                    },
+                    "subject": "Team",
+                    "object": "Notes[19]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.33,
+                        "http://dbpedia.org/property/augSnowDays": 0.67,
+                        "http://dbpedia.org/property/augRecordLowC": 0.33,
+                        "http://dbpedia.org/property/augSnowCm": 0.67,
+                        "http://dbpedia.org/property/julSnowDays": 0.67,
+                        "http://dbpedia.org/property/julSnowCm": 0.67,
+                        "http://dbpedia.org/property/2006PopDelta": 0.33
+                    },
+                    "subject": "City",
+                    "object": "Memorial Cups[21]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/altname": 0.33
+                    },
+                    "subject": "Notes[19]",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "Team",
+                "City",
+                "Existed[19]",
+                "President's Cups[20]",
+                "Memorial Cups[21]",
+                "Notes[19]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dates": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 1.0,
+                        "http://dbpedia.org/property/augSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowCm": 1.0,
+                        "http://dbpedia.org/property/julSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowDays": 1.0,
+                        "http://dbpedia.org/property/julSnowCm": 1.0
+                    },
+                    "subject": "City",
+                    "object": "League titles"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 1.0,
+                        "http://dbpedia.org/property/augSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowCm": 1.0,
+                        "http://dbpedia.org/property/julSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowDays": 1.0,
+                        "http://dbpedia.org/property/julSnowCm": 1.0
+                    },
+                    "subject": "City",
+                    "object": "Doyle Cups"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 1.0,
+                        "http://dbpedia.org/property/augSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowCm": 1.0,
+                        "http://dbpedia.org/property/julSnowDays": 1.0,
+                        "http://dbpedia.org/property/junSnowDays": 1.0,
+                        "http://dbpedia.org/property/julSnowCm": 1.0
+                    },
+                    "subject": "City",
+                    "object": "Royal Bank Cups"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dates": 1.0
+                    },
+                    "subject": "Notes",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "League titles",
+                "Doyle Cups",
+                "Royal Bank Cups",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.91,
+                        "http://dbpedia.org/property/city": 0.91
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dates": 0.18,
+                        "http://dbpedia.org/property/founded": 0.64,
+                        "http://dbpedia.org/property/altdates": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "Established[23]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.09,
+                        "http://dbpedia.org/property/yearMeanC": 0.09,
+                        "http://dbpedia.org/property/augRecordLowC": 0.09,
+                        "http://dbpedia.org/property/augSnowCm": 0.09,
+                        "http://dbpedia.org/property/longm": 0.09,
+                        "http://dbpedia.org/property/yearHighC": 0.09,
+                        "http://dbpedia.org/property/julSnowCm": 0.09
+                    },
+                    "subject": "City",
+                    "object": "Anavet Cups[25]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.09,
+                        "http://dbpedia.org/property/augSnowDays": 0.09,
+                        "http://dbpedia.org/property/augRecordLowC": 0.09,
+                        "http://dbpedia.org/property/augSnowCm": 0.18,
+                        "http://dbpedia.org/property/julSnowDays": 0.09,
+                        "http://dbpedia.org/property/julSnowCm": 0.18
+                    },
+                    "subject": "City",
+                    "object": "Royal Bank Cups[26]"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "Team",
+                "City",
+                "Established[23]",
+                "League titles[24]",
+                "Anavet Cups[25]",
+                "Royal Bank Cups[26]",
+                "Notes[23]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.33,
+                        "http://dbpedia.org/property/city": 0.33
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/league": 0.22,
+                        "http://dbpedia.org/property/league": 0.22
+                    },
+                    "subject": "Team",
+                    "object": "Notes[23]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.56,
+                        "http://dbpedia.org/property/augSnowDays": 0.67,
+                        "http://dbpedia.org/property/augRecordLowC": 0.11,
+                        "http://dbpedia.org/property/augSnowCm": 0.56,
+                        "http://dbpedia.org/property/junSnowCm": 0.56,
+                        "http://dbpedia.org/property/julSnowDays": 0.67,
+                        "http://dbpedia.org/property/junSnowDays": 0.33,
+                        "http://dbpedia.org/property/2006PopDelta": 0.11,
+                        "http://dbpedia.org/property/julSnowCm": 0.67
+                    },
+                    "subject": "City",
+                    "object": "League titles[24]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.56,
+                        "http://dbpedia.org/property/augSnowDays": 0.67,
+                        "http://dbpedia.org/property/augRecordLowC": 0.11,
+                        "http://dbpedia.org/property/augSnowCm": 0.56,
+                        "http://dbpedia.org/property/junSnowCm": 0.56,
+                        "http://dbpedia.org/property/julSnowDays": 0.67,
+                        "http://dbpedia.org/property/junSnowDays": 0.33,
+                        "http://dbpedia.org/property/2006PopDelta": 0.11,
+                        "http://dbpedia.org/property/julSnowCm": 0.67
+                    },
+                    "subject": "City",
+                    "object": "Anavet Cups[25]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.56,
+                        "http://dbpedia.org/property/augSnowDays": 0.67,
+                        "http://dbpedia.org/property/augRecordLowC": 0.11,
+                        "http://dbpedia.org/property/augSnowCm": 0.56,
+                        "http://dbpedia.org/property/junSnowCm": 0.56,
+                        "http://dbpedia.org/property/julSnowDays": 0.67,
+                        "http://dbpedia.org/property/junSnowDays": 0.33,
+                        "http://dbpedia.org/property/2006PopDelta": 0.11,
+                        "http://dbpedia.org/property/julSnowCm": 0.67
+                    },
+                    "subject": "City",
+                    "object": "Royal Bank Cups[26]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.11
+                    },
+                    "subject": "Notes[23]",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "Team",
+                "City",
+                "Existed[23]",
+                "League titles[24]",
+                "Anavet Cups[25]",
+                "Royal Bank Cups[26]",
+                "Notes[23]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/decRainDays": 1.0
+                    },
+                    "subject": "Region",
+                    "object": "Keystone Cup titles[27]"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "League",
+                "Region",
+                "Established",
+                "Keystone Cup titles[27]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Junior'",
+            "colums": [
+                "League",
+                "Region",
+                "Established[28]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Semi-professional, senior and amateur'",
+            "colums": [
+                "Team",
+                "City",
+                "Existed[31][32][33]",
+                "WWHL titles[34][35][36]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearMeanC": 0.33,
+                        "http://dbpedia.org/property/decRainDays": 0.67
+                    },
+                    "subject": "City",
+                    "object": "Allan Cups[38]"
+                }
+            ],
+            "table": "Unnamed table in section 'Semi-professional, senior and amateur'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "Allan Cups[38]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hex": 0.5
+                    },
+                    "subject": "Team",
+                    "object": "Women's conference titles[41]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hex": 0.5
+                    },
+                    "subject": "Team",
+                    "object": "Women's titles[42]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowDays": 0.5,
+                        "http://dbpedia.org/property/julSnowCm": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Men's conference titles[41]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.5,
+                        "http://dbpedia.org/property/decRainDays": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowDays": 0.5,
+                        "http://dbpedia.org/property/junSnowDays": 0.5,
+                        "http://dbpedia.org/property/julSnowCm": 0.5
+                    },
+                    "subject": "City",
+                    "object": "Women's conference titles[41]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 0.5,
+                        "http://dbpedia.org/property/decRainDays": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowCm": 0.5,
+                        "http://dbpedia.org/property/junSnowCm": 0.5,
+                        "http://dbpedia.org/property/julSnowDays": 0.5,
+                        "http://dbpedia.org/property/julSnowCm": 0.5
+                    },
+                    "subject": "City",
+                    "object": "University Cups[42]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/julChill": 1.0,
+                        "http://dbpedia.org/property/junSnowDays": 0.5,
+                        "http://dbpedia.org/property/augSnowDays": 1.0,
+                        "http://dbpedia.org/property/augSnowCm": 1.0,
+                        "http://dbpedia.org/property/junSnowCm": 1.0,
+                        "http://dbpedia.org/property/julSnowDays": 1.0,
+                        "http://dbpedia.org/property/julSnowCm": 1.0
+                    },
+                    "subject": "City",
+                    "object": "Women's titles[42]"
+                }
+            ],
+            "table": "Unnamed table in section 'Semi-professional, senior and amateur'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "Men's conference titles[41]",
+                "Women's conference titles[41]",
+                "University Cups[42]",
+                "Women's titles[42]"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "Team",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 1.0
+                    },
+                    "subject": "City",
+                    "object": "ACAC titles[43]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 1.0
+                    },
+                    "subject": "City",
+                    "object": "CCAA national titles[43]"
+                }
+            ],
+            "table": "Unnamed table in section 'Semi-professional, senior and amateur'",
+            "colums": [
+                "Team",
+                "City",
+                "Established",
+                "ACAC titles[43]",
+                "CCAA national titles[43]",
+                "ACAC women's titles[44]",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sponsor": 0.11,
+                        "http://dbpedia.org/property/relatedComps": 0.11
+                    },
+                    "subject": "Championship",
+                    "object": "Description"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champ": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "Championship"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/scale": 0.11,
+                        "http://dbpedia.org/property/x": 0.11
+                    },
+                    "subject": "Description",
+                    "object": "Times won"
+                }
+            ],
+            "table": "Unnamed table in section 'League, regional and national championships'",
+            "colums": [
+                "Championship",
+                "Times won",
+                "Description"
+            ]
+        }
+    ]
+}

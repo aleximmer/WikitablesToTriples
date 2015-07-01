@@ -1,0 +1,234 @@
+{
+    "no. of tables": 1,
+    "page": "List of U.S. National Parks by elevation",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febLowF": 0.02,
+                        "http://dbpedia.org/property/latD": 0.04,
+                        "http://dbpedia.org/property/latS": 0.02,
+                        "http://dbpedia.org/property/mayLowF": 0.02,
+                        "http://dbpedia.org/property/novLowF": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/relief": 0.02,
+                        "http://dbpedia.org/property/junRecordLowF": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/yearHighF": 0.02,
+                        "http://dbpedia.org/property/latM": 0.02
+                    },
+                    "subject": "Park",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.04,
+                        "http://dbpedia.org/ontology/nearestCity": 0.02,
+                        "http://dbpedia.org/property/location": 0.21,
+                        "http://dbpedia.org/ontology/location": 0.7
+                    },
+                    "subject": "Park",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestLocation": 0.02,
+                        "http://dbpedia.org/ontology/highestMountain": 0.02,
+                        "http://dbpedia.org/ontology/highestPlace": 0.02
+                    },
+                    "subject": "Park",
+                    "object": "Peak Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestLocation": 0.02,
+                        "http://dbpedia.org/ontology/highestMountain": 0.02,
+                        "http://dbpedia.org/ontology/highestPlace": 0.02
+                    },
+                    "subject": "Park",
+                    "object": "Mountain Range"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lowestLocation": 0.02,
+                        "http://dbpedia.org/ontology/lowestMountain": 0.02,
+                        "http://dbpedia.org/property/river": 0.02,
+                        "http://dbpedia.org/ontology/lowestPlace": 0.02,
+                        "http://dbpedia.org/ontology/river": 0.02
+                    },
+                    "subject": "Park",
+                    "object": "Location of Lowest Point"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.02,
+                        "http://dbpedia.org/property/representative": 0.04,
+                        "http://dbpedia.org/property/densityrank": 0.02,
+                        "http://dbpedia.org/property/latitude": 0.07,
+                        "http://dbpedia.org/property/admittanceorder": 0.02,
+                        "http://dbpedia.org/property/poprank": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestpoint": 0.07
+                    },
+                    "subject": "Location",
+                    "object": "Peak Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lowestpoint": 0.07,
+                        "http://dbpedia.org/property/south": 0.02,
+                        "http://dbpedia.org/property/west": 0.02
+                    },
+                    "subject": "Location",
+                    "object": "Location of Lowest Point"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Peak Name",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.18,
+                        "http://dbpedia.org/property/location": 0.18
+                    },
+                    "subject": "Peak Name",
+                    "object": "Park"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mapCaption": 0.02,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.5,
+                        "http://dbpedia.org/property/location": 0.45,
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.02
+                    },
+                    "subject": "Peak Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.54,
+                        "http://dbpedia.org/property/range": 0.52,
+                        "http://dbpedia.org/ontology/archipelago": 0.02
+                    },
+                    "subject": "Peak Name",
+                    "object": "Mountain Range"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Peak Name",
+                    "object": "Location of Lowest Point"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latS": 0.02
+                    },
+                    "subject": "Mountain Range",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.07,
+                        "http://dbpedia.org/ontology/state": 0.27,
+                        "http://dbpedia.org/ontology/location": 0.02
+                    },
+                    "subject": "Mountain Range",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/photoCaption": 0.02,
+                        "http://dbpedia.org/property/highest": 0.12
+                    },
+                    "subject": "Mountain Range",
+                    "object": "Peak Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Mountain Range",
+                    "object": "Location of Lowest Point"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sourceLongS": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Location of Lowest Point",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/junction": 0.02,
+                        "http://dbpedia.org/ontology/sourcePlace": 0.04,
+                        "http://dbpedia.org/property/locationSpecial": 0.02,
+                        "http://dbpedia.org/ontology/region": 0.02,
+                        "http://dbpedia.org/ontology/sourceMountain": 0.04,
+                        "http://dbpedia.org/ontology/routeJunction": 0.02,
+                        "http://dbpedia.org/property/sourceLocation": 0.04
+                    },
+                    "subject": "Location of Lowest Point",
+                    "object": "Park"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/origin": 0.02,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/origin": 0.04,
+                        "http://dbpedia.org/ontology/state": 0.27,
+                        "http://dbpedia.org/property/state": 0.09,
+                        "http://dbpedia.org/property/mouth": 0.02,
+                        "http://dbpedia.org/ontology/riverMouth": 0.02,
+                        "http://dbpedia.org/ontology/location": 0.04
+                    },
+                    "subject": "Location of Lowest Point",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/source": 0.02,
+                        "http://dbpedia.org/ontology/source": 0.02
+                    },
+                    "subject": "Location of Lowest Point",
+                    "object": "Peak Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sourceLocation": 0.02,
+                        "http://dbpedia.org/property/source": 0.04,
+                        "http://dbpedia.org/ontology/sourceMountain": 0.02,
+                        "http://dbpedia.org/ontology/sourcePlace": 0.02,
+                        "http://dbpedia.org/ontology/source": 0.04
+                    },
+                    "subject": "Location of Lowest Point",
+                    "object": "Mountain Range"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest and lowest points in each US National Park'",
+            "colums": [
+                "Rank",
+                "Park",
+                "Location",
+                "Peak Name",
+                "Mountain Range",
+                "Elevation",
+                "Location of Lowest Point",
+                "Minimum Elevation",
+                "Vertical Relief"
+            ]
+        }
+    ]
+}

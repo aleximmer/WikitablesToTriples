@@ -1,0 +1,220 @@
+{
+    "no. of tables": 1,
+    "page": "Football in Algeria",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05,
+                        "http://dbpedia.org/property/position": 0.05,
+                        "http://dbpedia.org/property/no": 0.67
+                    },
+                    "subject": "Club",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.62
+                    },
+                    "subject": "Club",
+                    "object": "ALP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.33
+                    },
+                    "subject": "Club",
+                    "object": "LC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.48
+                    },
+                    "subject": "Club",
+                    "object": "AC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.43
+                    },
+                    "subject": "Club",
+                    "object": "ASC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.24
+                    },
+                    "subject": "Club",
+                    "object": "CL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.24
+                    },
+                    "subject": "Club",
+                    "object": "CCC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.29
+                    },
+                    "subject": "Club",
+                    "object": "CCWC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.24
+                    },
+                    "subject": "Club",
+                    "object": "CAC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.24
+                    },
+                    "subject": "Club",
+                    "object": "CSC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.24
+                    },
+                    "subject": "Club",
+                    "object": "AAC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.38
+                    },
+                    "subject": "Club",
+                    "object": "UAC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.38
+                    },
+                    "subject": "Club",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/l": 0.05,
+                        "http://dbpedia.org/property/w": 0.05,
+                        "http://dbpedia.org/property/d": 0.05,
+                        "http://dbpedia.org/property/score": 0.05,
+                        "http://dbpedia.org/property/p": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/champions": 0.14,
+                        "http://dbpedia.org/property/team": 0.14,
+                        "http://dbpedia.org/property/longestUnbeaten": 0.05,
+                        "http://dbpedia.org/property/winners": 0.05,
+                        "http://dbpedia.org/property/continentalcup1Qualifiers": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "Club"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.05,
+                        "http://dbpedia.org/property/ga": 0.05,
+                        "http://dbpedia.org/property/rows": 0.05,
+                        "http://dbpedia.org/property/numTeams": 0.05,
+                        "http://dbpedia.org/property/p": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "ALP"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.05,
+                        "http://dbpedia.org/property/score": 0.1
+                    },
+                    "subject": "Last honour",
+                    "object": "LC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.05,
+                        "http://dbpedia.org/property/numTeams": 0.05,
+                        "http://dbpedia.org/property/rows": 0.05,
+                        "http://dbpedia.org/property/ga": 0.05,
+                        "http://dbpedia.org/property/score": 0.05,
+                        "http://dbpedia.org/property/p": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "AC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.1
+                    },
+                    "subject": "Last honour",
+                    "object": "ASC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "CL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "CCWC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/score": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "CAC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "UAC"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gf": 0.05,
+                        "http://dbpedia.org/property/rows": 0.05,
+                        "http://dbpedia.org/property/ga": 0.05,
+                        "http://dbpedia.org/property/score": 0.05,
+                        "http://dbpedia.org/property/p": 0.05
+                    },
+                    "subject": "Last honour",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Club football'",
+            "colums": [
+                "Rank",
+                "Club",
+                "ALP",
+                "LC",
+                "AC",
+                "ASC",
+                "CL",
+                "CCC",
+                "CCWC",
+                "CAC",
+                "CSC",
+                "AAC",
+                "UAC",
+                "Total",
+                "Last honour"
+            ]
+        }
+    ]
+}

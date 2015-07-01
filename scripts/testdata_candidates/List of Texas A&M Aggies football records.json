@@ -1,0 +1,1152 @@
+{
+    "no. of tables": 28,
+    "page": "Texas A&M Aggies football series records",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By Division[1]'",
+            "colums": [
+                "Division",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/womens": 0.08
+                    },
+                    "subject": "Conference",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fontColor": 0.08
+                    },
+                    "subject": "Conference",
+                    "object": "Tie"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By Conference'",
+            "colums": [
+                "Conference",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/womens": 0.14
+                    },
+                    "subject": "Conference",
+                    "object": "PF"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By Conference'",
+            "colums": [
+                "Conference",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mens": 0.25
+                    },
+                    "subject": "Conference",
+                    "object": "PA"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By Conference'",
+            "colums": [
+                "Conference",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By Conference'",
+            "colums": [
+                "Conference",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heismanAwards": 0.12,
+                        "http://dbpedia.org/property/hcties": 0.12,
+                        "http://dbpedia.org/property/bowlties": 0.12,
+                        "http://dbpedia.org/property/color4hex": 0.12,
+                        "http://dbpedia.org/property/natltitles": 0.12,
+                        "http://dbpedia.org/property/divtitles": 0.12
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heismans": 0.12,
+                        "http://dbpedia.org/property/hcties": 0.12,
+                        "http://dbpedia.org/property/natltitles": 0.12,
+                        "http://dbpedia.org/property/color3hex": 0.12
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/color4hex": 0.12,
+                        "http://dbpedia.org/property/heismans": 0.25,
+                        "http://dbpedia.org/property/color3hex": 0.12
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.12
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.1,
+                        "http://dbpedia.org/property/ranking": 0.1,
+                        "http://dbpedia.org/property/conference": 0.1,
+                        "http://dbpedia.org/property/conftitles": 0.1,
+                        "http://dbpedia.org/property/overall": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overall": 0.1,
+                        "http://dbpedia.org/property/ranking": 0.1,
+                        "http://dbpedia.org/property/headcoachyear": 0.1,
+                        "http://dbpedia.org/property/hclosses": 0.1,
+                        "http://dbpedia.org/property/conftitles": 0.1,
+                        "http://dbpedia.org/property/atties": 0.1,
+                        "http://dbpedia.org/property/bowllosses": 0.1,
+                        "http://dbpedia.org/property/divtitles": 0.1,
+                        "http://dbpedia.org/property/conference": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overall": 0.1,
+                        "http://dbpedia.org/property/nationalTitles": 0.1,
+                        "http://dbpedia.org/property/heismans": 0.1,
+                        "http://dbpedia.org/property/bowlties": 0.2,
+                        "http://dbpedia.org/property/color1hex": 0.1,
+                        "http://dbpedia.org/property/color2hex": 0.1,
+                        "http://dbpedia.org/property/divtitles": 0.1,
+                        "http://dbpedia.org/property/conference": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imagesize": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.25,
+                        "http://dbpedia.org/property/overall": 0.25,
+                        "http://dbpedia.org/property/heismans": 0.5,
+                        "http://dbpedia.org/property/conference": 0.25,
+                        "http://dbpedia.org/property/color1hex": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headcoachyear": 0.25,
+                        "http://dbpedia.org/property/conference": 0.25,
+                        "http://dbpedia.org/property/conftitles": 0.25,
+                        "http://dbpedia.org/property/color2hex": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.25,
+                        "http://dbpedia.org/property/color2hex": 0.25,
+                        "http://dbpedia.org/property/heismans": 0.25,
+                        "http://dbpedia.org/property/conference": 0.25,
+                        "http://dbpedia.org/property/color1hex": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.25,
+                        "http://dbpedia.org/property/heismans": 0.25,
+                        "http://dbpedia.org/property/color1hex": 0.25
+                    },
+                    "subject": "School",
+                    "object": "PF"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowlties": 0.11,
+                        "http://dbpedia.org/property/heismans": 0.33,
+                        "http://dbpedia.org/property/visitorCoaches": 0.11,
+                        "http://dbpedia.org/property/color1hex": 0.11,
+                        "http://dbpedia.org/property/visitorAp": 0.11,
+                        "http://dbpedia.org/property/headcoachyear": 0.11,
+                        "http://dbpedia.org/property/natltitles": 0.11,
+                        "http://dbpedia.org/property/color2hex": 0.11
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/homeAp": 0.11,
+                        "http://dbpedia.org/property/hcwins": 0.11,
+                        "http://dbpedia.org/property/homeCoaches": 0.11,
+                        "http://dbpedia.org/property/divtitles": 0.22,
+                        "http://dbpedia.org/property/color1hex": 0.11
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heismans": 0.22,
+                        "http://dbpedia.org/property/color1hex": 0.11,
+                        "http://dbpedia.org/property/visitor": 0.11,
+                        "http://dbpedia.org/property/color2hex": 0.11,
+                        "http://dbpedia.org/property/divtitles": 0.22,
+                        "http://dbpedia.org/property/home": 0.11
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.11
+                    },
+                    "subject": "School",
+                    "object": "PF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/imagesize": 0.11,
+                        "http://dbpedia.org/property/divtitles": 0.11,
+                        "http://dbpedia.org/property/color1hex": 0.11
+                    },
+                    "subject": "School",
+                    "object": "PA"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.1,
+                        "http://dbpedia.org/property/ranking": 0.1,
+                        "http://dbpedia.org/property/confstanding": 0.1,
+                        "http://dbpedia.org/property/overall": 0.1,
+                        "http://dbpedia.org/property/conftitles": 0.1,
+                        "http://dbpedia.org/property/headcoachyear": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overall": 0.1,
+                        "http://dbpedia.org/property/heismans": 0.1,
+                        "http://dbpedia.org/property/hclosses": 0.1,
+                        "http://dbpedia.org/property/bowlwins": 0.1,
+                        "http://dbpedia.org/property/color2hex": 0.1,
+                        "http://dbpedia.org/property/allamericans": 0.1,
+                        "http://dbpedia.org/property/bowlties": 0.1,
+                        "http://dbpedia.org/property/conference": 0.1,
+                        "http://dbpedia.org/property/conftitles": 0.1,
+                        "http://dbpedia.org/property/color1hex": 0.2,
+                        "http://dbpedia.org/property/ranking": 0.1,
+                        "http://dbpedia.org/property/headcoachyear": 0.1,
+                        "http://dbpedia.org/property/confstanding": 0.1,
+                        "http://dbpedia.org/property/natltitles": 0.1,
+                        "http://dbpedia.org/property/divtitles": 0.1,
+                        "http://dbpedia.org/property/hcwins": 0.3
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overall": 0.1,
+                        "http://dbpedia.org/property/heismans": 0.1,
+                        "http://dbpedia.org/property/hclosses": 0.1,
+                        "http://dbpedia.org/property/bowlwins": 0.2,
+                        "http://dbpedia.org/property/color2hex": 0.1,
+                        "http://dbpedia.org/property/allamericans": 0.1,
+                        "http://dbpedia.org/property/bowllosses": 0.1,
+                        "http://dbpedia.org/property/bowlties": 0.1,
+                        "http://dbpedia.org/property/conference": 0.1,
+                        "http://dbpedia.org/property/color1hex": 0.2,
+                        "http://dbpedia.org/property/natltitles": 0.1,
+                        "http://dbpedia.org/property/divtitles": 0.1,
+                        "http://dbpedia.org/property/hcwins": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hcwins": 0.1
+                    },
+                    "subject": "School",
+                    "object": "PA"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ranking": 0.25,
+                        "http://dbpedia.org/property/heismans": 0.25,
+                        "http://dbpedia.org/property/overall": 0.5,
+                        "http://dbpedia.org/property/color2hex": 0.25,
+                        "http://dbpedia.org/property/natltitles": 0.25,
+                        "http://dbpedia.org/property/bowlties": 0.25,
+                        "http://dbpedia.org/property/conference": 0.25,
+                        "http://dbpedia.org/property/bowlwins": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/confstanding": 0.25,
+                        "http://dbpedia.org/property/overall": 0.5,
+                        "http://dbpedia.org/property/conference": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/color1hex": 0.25,
+                        "http://dbpedia.org/property/hclosses": 0.25,
+                        "http://dbpedia.org/property/overall": 0.5,
+                        "http://dbpedia.org/property/conference": 0.25,
+                        "http://dbpedia.org/property/hcwins": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headcoachyear": 0.25,
+                        "http://dbpedia.org/property/overall": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.5,
+                        "http://dbpedia.org/property/heismans": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5,
+                        "http://dbpedia.org/property/bowlwins": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.5,
+                        "http://dbpedia.org/property/heismans": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowlwins": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hclosses": 0.25,
+                        "http://dbpedia.org/property/hcwins": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hclosses": 0.25,
+                        "http://dbpedia.org/property/hcwins": 0.25
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heismans": 0.1,
+                        "http://dbpedia.org/property/overall": 0.4,
+                        "http://dbpedia.org/property/confrecord": 0.4,
+                        "http://dbpedia.org/property/bowlties": 0.3,
+                        "http://dbpedia.org/property/conference": 0.4,
+                        "http://dbpedia.org/property/ranking": 0.1,
+                        "http://dbpedia.org/property/headcoachyear": 0.1,
+                        "http://dbpedia.org/property/confstanding": 0.1,
+                        "http://dbpedia.org/property/hcwins": 0.2,
+                        "http://dbpedia.org/property/natltitles": 0.1,
+                        "http://dbpedia.org/property/divtitles": 0.1,
+                        "http://dbpedia.org/property/hclosses": 0.1
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/confrecord": 0.3,
+                        "http://dbpedia.org/property/confstanding": 0.2,
+                        "http://dbpedia.org/property/heismans": 0.2,
+                        "http://dbpedia.org/property/conference": 0.4,
+                        "http://dbpedia.org/property/ranking": 0.2,
+                        "http://dbpedia.org/property/headcoachyear": 0.1,
+                        "http://dbpedia.org/property/bowlties": 0.1,
+                        "http://dbpedia.org/property/divtitles": 0.1,
+                        "http://dbpedia.org/property/overall": 0.3
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/confrecord": 0.3,
+                        "http://dbpedia.org/property/overall": 0.3,
+                        "http://dbpedia.org/property/heismans": 0.3,
+                        "http://dbpedia.org/property/hclosses": 0.1,
+                        "http://dbpedia.org/property/hcwins": 0.1,
+                        "http://dbpedia.org/property/natltitles": 0.1,
+                        "http://dbpedia.org/property/conference": 0.4
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/confrecord": 0.1,
+                        "http://dbpedia.org/property/ranking": 0.2,
+                        "http://dbpedia.org/property/confstanding": 0.1,
+                        "http://dbpedia.org/property/overall": 0.1
+                    },
+                    "subject": "School",
+                    "object": "PF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overall": 0.1,
+                        "http://dbpedia.org/property/ranking": 0.2,
+                        "http://dbpedia.org/property/confstanding": 0.1,
+                        "http://dbpedia.org/property/hclosses": 0.1,
+                        "http://dbpedia.org/property/heismans": 0.1,
+                        "http://dbpedia.org/property/conference": 0.1
+                    },
+                    "subject": "School",
+                    "object": "PA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/confrecord": 0.2,
+                        "http://dbpedia.org/property/ranking": 0.1,
+                        "http://dbpedia.org/property/confstanding": 0.1,
+                        "http://dbpedia.org/property/conference": 0.2,
+                        "http://dbpedia.org/property/bowlwins": 0.1,
+                        "http://dbpedia.org/property/overall": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.09,
+                        "http://dbpedia.org/property/hcties": 0.09,
+                        "http://dbpedia.org/property/bowlties": 0.27,
+                        "http://dbpedia.org/property/heismans": 0.18,
+                        "http://dbpedia.org/property/unclaimedNatlTitles.": 0.09,
+                        "http://dbpedia.org/property/natltitles": 0.18
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.09,
+                        "http://dbpedia.org/property/hcties": 0.09,
+                        "http://dbpedia.org/property/bowlties": 0.09,
+                        "http://dbpedia.org/property/heismans": 0.18,
+                        "http://dbpedia.org/property/l": 0.09,
+                        "http://dbpedia.org/property/natltitles": 0.09,
+                        "http://dbpedia.org/property/atties": 0.09
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hcties": 0.18,
+                        "http://dbpedia.org/property/bowlties": 0.27,
+                        "http://dbpedia.org/property/heismans": 0.27,
+                        "http://dbpedia.org/property/hcwins": 0.09,
+                        "http://dbpedia.org/property/natltitles": 0.09,
+                        "http://dbpedia.org/property/natlfinalist": 0.09,
+                        "http://dbpedia.org/property/color2hex": 0.09
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hclosses": 0.09
+                    },
+                    "subject": "School",
+                    "object": "PF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hclosses": 0.09
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.17,
+                        "http://dbpedia.org/property/divtitles": 0.33
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.17,
+                        "http://dbpedia.org/property/heismans": 0.33,
+                        "http://dbpedia.org/property/color1hex": 0.17
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.17,
+                        "http://dbpedia.org/property/heismans": 0.33,
+                        "http://dbpedia.org/property/color1hex": 0.17
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.17,
+                        "http://dbpedia.org/property/headcoachyear": 0.17
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.14,
+                        "http://dbpedia.org/property/bowlwins": 0.14,
+                        "http://dbpedia.org/property/conftitles": 0.14,
+                        "http://dbpedia.org/property/hcwins": 0.14
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.14,
+                        "http://dbpedia.org/property/bowlwins": 0.14,
+                        "http://dbpedia.org/property/color3hex": 0.14
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/allamericans": 0.14,
+                        "http://dbpedia.org/property/bowlwins": 0.14,
+                        "http://dbpedia.org/property/hclosses": 0.14,
+                        "http://dbpedia.org/property/hcwins": 0.14,
+                        "http://dbpedia.org/property/color3hex": 0.14,
+                        "http://dbpedia.org/property/color2hex": 0.14
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.14
+                    },
+                    "subject": "School",
+                    "object": "PF"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/color1hex": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/color1hex": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headcoachyear": 0.5
+                    },
+                    "subject": "School",
+                    "object": "PA"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hclosses": 0.5
+                    },
+                    "subject": "School",
+                    "object": "PF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hclosses": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5,
+                        "http://dbpedia.org/property/bowlwins": 0.5,
+                        "http://dbpedia.org/property/walterpaytons": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5,
+                        "http://dbpedia.org/property/bowlwins": 0.5,
+                        "http://dbpedia.org/property/walterpaytons": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5,
+                        "http://dbpedia.org/property/bowlwins": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.5,
+                        "http://dbpedia.org/property/heismans": 0.5,
+                        "http://dbpedia.org/property/divtitles": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/natltitles": 0.5,
+                        "http://dbpedia.org/property/heismans": 0.5,
+                        "http://dbpedia.org/property/divtitles": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5,
+                        "http://dbpedia.org/property/bowlwins": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowlwins": 0.5,
+                        "http://dbpedia.org/property/playoffs": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playoffapps": 0.5
+                    },
+                    "subject": "School",
+                    "object": "PA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/atties": 0.5
+                    },
+                    "subject": "School",
+                    "object": "Delta"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/headcoachyear": 0.2,
+                        "http://dbpedia.org/property/bowlwins": 0.2,
+                        "http://dbpedia.org/property/natltitles": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Win"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.6,
+                        "http://dbpedia.org/property/bowlwins": 0.2,
+                        "http://dbpedia.org/property/heismans": 0.4,
+                        "http://dbpedia.org/property/hclosses": 0.4,
+                        "http://dbpedia.org/property/conftitles": 0.4,
+                        "http://dbpedia.org/property/color1hex": 0.2,
+                        "http://dbpedia.org/property/paytons": 0.2,
+                        "http://dbpedia.org/property/natltitles": 0.4,
+                        "http://dbpedia.org/property/bowlties": 0.2,
+                        "http://dbpedia.org/property/divtitles": 0.6,
+                        "http://dbpedia.org/property/hcwins": 0.4
+                    },
+                    "subject": "School",
+                    "object": "Loss"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/bowllosses": 0.6,
+                        "http://dbpedia.org/property/bowlwins": 0.2,
+                        "http://dbpedia.org/property/heismans": 0.4,
+                        "http://dbpedia.org/property/hclosses": 0.4,
+                        "http://dbpedia.org/property/conftitles": 0.4,
+                        "http://dbpedia.org/property/color1hex": 0.2,
+                        "http://dbpedia.org/property/paytons": 0.2,
+                        "http://dbpedia.org/property/natltitles": 0.4,
+                        "http://dbpedia.org/property/bowlties": 0.2,
+                        "http://dbpedia.org/property/divtitles": 0.6,
+                        "http://dbpedia.org/property/hcwins": 0.4
+                    },
+                    "subject": "School",
+                    "object": "Tie"
+                }
+            ],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Records By School'",
+            "colums": [
+                "School",
+                "Win",
+                "Loss",
+                "Tie",
+                "Win\u00a0%",
+                "PF",
+                "PA",
+                "Delta"
+            ]
+        }
+    ]
+}

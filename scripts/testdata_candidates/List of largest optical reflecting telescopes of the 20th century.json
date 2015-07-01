@@ -1,0 +1,191 @@
+{
+    "no. of tables": 3,
+    "page": "List of largest optical telescopes in the 20th century",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/diameter": 0.04
+                    },
+                    "subject": "Name/Observatory",
+                    "object": "Aperture\nm"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/organization": 0.04,
+                        "http://dbpedia.org/property/location": 0.01
+                    },
+                    "subject": "Name/Observatory",
+                    "object": "Nationality of Sponsors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/organization": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/property/telescope2Name": 0.01,
+                        "http://dbpedia.org/property/type": 0.01
+                    },
+                    "subject": "Name/Observatory",
+                    "object": "Site and/or Observatory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.02,
+                        "http://dbpedia.org/property/firstLight": 0.01,
+                        "http://dbpedia.org/property/nssdcId": 0.01
+                    },
+                    "subject": "Name/Observatory",
+                    "object": "FL or Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/yearLeader": 0.02
+                    },
+                    "subject": "Nationality of Sponsors",
+                    "object": "FL or Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope6Name": 0.01,
+                        "http://dbpedia.org/property/telescope1Name": 0.08,
+                        "http://dbpedia.org/property/telescope3Name": 0.06,
+                        "http://dbpedia.org/property/telescope8Name": 0.01,
+                        "http://dbpedia.org/property/telescope11Name": 0.01,
+                        "http://dbpedia.org/property/telescope4Name": 0.01,
+                        "http://dbpedia.org/property/telescope10Name": 0.01,
+                        "http://dbpedia.org/property/telescope2Name": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/telescope5Name": 0.01
+                    },
+                    "subject": "Site and/or Observatory",
+                    "object": "Name/Observatory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/organization": 0.03,
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.01
+                    },
+                    "subject": "Site and/or Observatory",
+                    "object": "Nationality of Sponsors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/openedDate": 0.01,
+                        "http://dbpedia.org/property/established": 0.01
+                    },
+                    "subject": "Site and/or Observatory",
+                    "object": "FL or Built"
+                }
+            ],
+            "table": "Unnamed table in section 'Table of reflecting telescopes'",
+            "colums": [
+                "Name/Observatory",
+                "Aperture\nm",
+                "Aper.\nin",
+                "Mirror type",
+                "Nationality of Sponsors",
+                "Site and/or Observatory",
+                "FL or Built"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/style": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "Mirror/type"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/organization": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Nationality/Sponsors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/property/orbitType": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05,
+                        "http://dbpedia.org/property/cosparId": 0.09,
+                        "http://dbpedia.org/property/year": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Built/Used"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope11Name": 0.05
+                    },
+                    "subject": "Site",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.05
+                    },
+                    "subject": "Site",
+                    "object": "Nationality/Sponsors"
+                }
+            ],
+            "table": "Unnamed table in section 'Selected large telescopes below about ~0.9 meter/90 cm (~3 feet/ 36 in.)'",
+            "colums": [
+                "Name",
+                "Aperture\nm",
+                "Aper.\nin",
+                "Mirror/type",
+                "Nationality/Sponsors",
+                "Site",
+                "Built/Used"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5
+                    },
+                    "subject": "Name/Observatory",
+                    "object": "Nationality of Sponsors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.5
+                    },
+                    "subject": "Name/Observatory",
+                    "object": "Site and/or Observatory"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope1Name": 0.5,
+                        "http://dbpedia.org/property/telescope2Name": 0.5
+                    },
+                    "subject": "Site and/or Observatory",
+                    "object": "Name/Observatory"
+                }
+            ],
+            "table": "Unnamed table in section 'Under Construction'",
+            "colums": [
+                "Name/Observatory",
+                "Aperture\nm",
+                "Aper.\nin",
+                "Mirror type",
+                "Nationality of Sponsors",
+                "Site and/or Observatory",
+                "FL or Built"
+            ]
+        }
+    ]
+}

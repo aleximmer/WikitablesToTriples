@@ -1,0 +1,415 @@
+{
+    "no. of tables": 2,
+    "page": "List of teams on the 2012\u201313 Ontario Curling Tour",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fourth": 0.01,
+                        "http://dbpedia.org/property/third": 0.11
+                    },
+                    "subject": "Skip",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.01,
+                        "http://dbpedia.org/property/second": 0.09
+                    },
+                    "subject": "Skip",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.01,
+                        "http://dbpedia.org/property/second": 0.01,
+                        "http://dbpedia.org/property/lead": 0.08
+                    },
+                    "subject": "Skip",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternate": 0.01
+                    },
+                    "subject": "Skip",
+                    "object": "Alternate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.02,
+                        "http://dbpedia.org/ontology/club": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.12,
+                        "http://dbpedia.org/property/birthPlace": 0.12,
+                        "http://dbpedia.org/property/placeOfBirth": 0.07
+                    },
+                    "subject": "Skip",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.1
+                    },
+                    "subject": "Third",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.01,
+                        "http://dbpedia.org/property/second": 0.08
+                    },
+                    "subject": "Third",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.01,
+                        "http://dbpedia.org/property/second": 0.01,
+                        "http://dbpedia.org/property/lead": 0.05
+                    },
+                    "subject": "Third",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternate": 0.01
+                    },
+                    "subject": "Third",
+                    "object": "Alternate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.02,
+                        "http://dbpedia.org/ontology/club": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02
+                    },
+                    "subject": "Third",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.08
+                    },
+                    "subject": "Second",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.06
+                    },
+                    "subject": "Second",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.05,
+                        "http://dbpedia.org/property/second": 0.01
+                    },
+                    "subject": "Second",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.01,
+                        "http://dbpedia.org/ontology/club": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.05,
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04
+                    },
+                    "subject": "Second",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.06
+                    },
+                    "subject": "Lead",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fourth": 0.01,
+                        "http://dbpedia.org/property/third": 0.04
+                    },
+                    "subject": "Lead",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.01,
+                        "http://dbpedia.org/property/second": 0.04
+                    },
+                    "subject": "Lead",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.01,
+                        "http://dbpedia.org/ontology/club": 0.02,
+                        "http://dbpedia.org/property/birthPlace": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02
+                    },
+                    "subject": "Lead",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.01
+                    },
+                    "subject": "Alternate",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.01
+                    },
+                    "subject": "Alternate",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/second": 0.01
+                    },
+                    "subject": "Alternate",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01
+                    },
+                    "subject": "Alternate",
+                    "object": "Locale"
+                }
+            ],
+            "table": "Unnamed table in section 'Men'",
+            "colums": [
+                "Skip",
+                "Third",
+                "Second",
+                "Lead",
+                "Alternate",
+                "Locale"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.12
+                    },
+                    "subject": "Skip",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.03,
+                        "http://dbpedia.org/property/second": 0.08
+                    },
+                    "subject": "Skip",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.07
+                    },
+                    "subject": "Skip",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternate": 0.03
+                    },
+                    "subject": "Skip",
+                    "object": "Alternate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.02,
+                        "http://dbpedia.org/ontology/club": 0.03,
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.03
+                    },
+                    "subject": "Skip",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.12
+                    },
+                    "subject": "Third",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.02,
+                        "http://dbpedia.org/property/second": 0.08
+                    },
+                    "subject": "Third",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.06,
+                        "http://dbpedia.org/property/skip": 0.01
+                    },
+                    "subject": "Third",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternate": 0.01
+                    },
+                    "subject": "Third",
+                    "object": "Alternate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.01,
+                        "http://dbpedia.org/ontology/club": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/property/placeOfBirth": 0.02
+                    },
+                    "subject": "Third",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.1
+                    },
+                    "subject": "Second",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.07,
+                        "http://dbpedia.org/property/skip": 0.01,
+                        "http://dbpedia.org/property/second": 0.01
+                    },
+                    "subject": "Second",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.07
+                    },
+                    "subject": "Second",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternate": 0.02
+                    },
+                    "subject": "Second",
+                    "object": "Alternate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.01,
+                        "http://dbpedia.org/ontology/club": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.07,
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.06
+                    },
+                    "subject": "Second",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.09
+                    },
+                    "subject": "Lead",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.08
+                    },
+                    "subject": "Lead",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.01,
+                        "http://dbpedia.org/property/second": 0.07
+                    },
+                    "subject": "Lead",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/alternate": 0.02
+                    },
+                    "subject": "Lead",
+                    "object": "Alternate"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.01,
+                        "http://dbpedia.org/ontology/club": 0.02,
+                        "http://dbpedia.org/ontology/birthPlace": 0.06,
+                        "http://dbpedia.org/property/birthPlace": 0.06,
+                        "http://dbpedia.org/property/placeOfBirth": 0.03
+                    },
+                    "subject": "Lead",
+                    "object": "Locale"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/skip": 0.02
+                    },
+                    "subject": "Alternate",
+                    "object": "Skip"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/second": 0.01
+                    },
+                    "subject": "Alternate",
+                    "object": "Third"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/third": 0.02
+                    },
+                    "subject": "Alternate",
+                    "object": "Second"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lead": 0.02
+                    },
+                    "subject": "Alternate",
+                    "object": "Lead"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/curlingClub": 0.01,
+                        "http://dbpedia.org/ontology/club": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01
+                    },
+                    "subject": "Alternate",
+                    "object": "Locale"
+                }
+            ],
+            "table": "Unnamed table in section 'Women'",
+            "colums": [
+                "Skip",
+                "Third",
+                "Second",
+                "Lead",
+                "Alternate",
+                "Locale"
+            ]
+        }
+    ]
+}

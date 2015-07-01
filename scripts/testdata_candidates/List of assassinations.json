@@ -1,0 +1,915 @@
+{
+    "no. of tables": 75,
+    "page": "List of assassinations",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.05,
+                        "http://dbpedia.org/property/deathPlace": 0.05,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.5,
+                        "http://dbpedia.org/property/successor": 0.5,
+                        "http://dbpedia.org/property/after": 0.5
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/predecessor": 0.5
+                    },
+                    "subject": "Notes",
+                    "object": "Victim(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Victim(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.07
+                    },
+                    "subject": "Notes",
+                    "object": "Assassin(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/commander": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Victim(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.25,
+                        "http://dbpedia.org/property/deathPlace": 0.25,
+                        "http://dbpedia.org/ontology/deathPlace": 0.5
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/battle": 0.33
+                    },
+                    "subject": "Assassin(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/combatant": 0.33
+                    },
+                    "subject": "Notes",
+                    "object": "Victim(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'Africa'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/successor": 0.14,
+                        "http://dbpedia.org/property/successor": 0.14,
+                        "http://dbpedia.org/property/after": 0.14
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/before": 0.14,
+                        "http://dbpedia.org/property/predecessor": 0.14
+                    },
+                    "subject": "Notes",
+                    "object": "Victim(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.33,
+                        "http://dbpedia.org/property/deathPlace": 0.33,
+                        "http://dbpedia.org/ontology/deathPlace": 0.33
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33
+                    },
+                    "subject": "Assassin(s)",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/deathPlace": 0.05
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/knownFor": 0.03,
+                        "http://dbpedia.org/ontology/knownFor": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.05
+                    },
+                    "subject": "Victim(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03
+                    },
+                    "subject": "Assassin(s)",
+                    "object": "Victim(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.03,
+                        "http://dbpedia.org/property/conviction": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.03,
+                        "http://dbpedia.org/ontology/deathPlace": 0.03
+                    },
+                    "subject": "Assassin(s)",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/target": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Victim(s)"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/child": 0.03,
+                        "http://dbpedia.org/property/perp": 0.05
+                    },
+                    "subject": "Notes",
+                    "object": "Assassin(s)"
+                }
+            ],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'The Americas'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Oceania'",
+            "colums": [
+                "Date",
+                "Victim(s)",
+                "Assassin(s)",
+                "Notes"
+            ]
+        }
+    ]
+}

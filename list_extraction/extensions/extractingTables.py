@@ -343,7 +343,7 @@ def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
 		print('Error: ' + str(e))
-		print(traceback.format_exc())
+		# print(traceback.format_exc())
 		keyCol = -1
 		uniqueCols = []
 		colCount = countAllCols(htmlTable)

@@ -1,0 +1,26 @@
+{
+    "no. of tables": 2,
+    "page": "List of 2009 box office number-one films in Romania",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/chapterCount": 0.02,
+                        "http://dbpedia.org/property/width": 0.02
+                    },
+                    "subject": "Film",
+                    "object": "#"
+                }
+            ],
+            "table": "Unnamed table in section 'List of 2009 box office number-one films in Romania'",
+            "colums": [
+                "#",
+                "Weekend End Date",
+                "Film",
+                "Total Weekend Gross\n(Romanian leu)",
+                "Notes"
+            ]
+        }
+    ]
+}

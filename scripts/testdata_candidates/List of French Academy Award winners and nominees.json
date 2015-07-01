@@ -1,0 +1,220 @@
+{
+    "no. of tables": 20,
+    "page": "List of French Academy Award winners and nominees",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/starring": 0.67,
+                        "http://dbpedia.org/property/starring": 0.67
+                    },
+                    "subject": "Title",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Actress'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/director": 0.33,
+                        "http://dbpedia.org/ontology/producer": 0.33,
+                        "http://dbpedia.org/property/producer": 0.33,
+                        "http://dbpedia.org/ontology/narrator": 0.33,
+                        "http://dbpedia.org/ontology/writer": 0.33,
+                        "http://dbpedia.org/ontology/director": 0.67
+                    },
+                    "subject": "Title",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Documentary Film'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.2,
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/editing": 0.6,
+                        "http://dbpedia.org/property/editing": 0.6
+                    },
+                    "subject": "Title",
+                    "object": "Winner"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.2,
+                        "http://dbpedia.org/property/director": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Milestone/Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableWorks": 0.2
+                    },
+                    "subject": "Milestone/Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Editing'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/recorded": 0.5,
+                        "http://dbpedia.org/property/years": 0.5
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/producer": 0.5,
+                        "http://dbpedia.org/property/producer": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Film'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/released": 0.03,
+                        "http://dbpedia.org/property/years": 0.12
+                    },
+                    "subject": "Film",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Foreign Language Film'",
+            "colums": [
+                "Year",
+                "Film",
+                "Result"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.2,
+                        "http://dbpedia.org/property/director": 0.2,
+                        "http://dbpedia.org/ontology/producer": 0.4,
+                        "http://dbpedia.org/property/producer": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Short Film'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/director": 0.33,
+                        "http://dbpedia.org/property/director": 0.83,
+                        "http://dbpedia.org/property/writer": 0.17,
+                        "http://dbpedia.org/ontology/writer": 0.33
+                    },
+                    "subject": "Title",
+                    "object": "Winner"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Short Film'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Year"
+                }
+            ],
+            "table": "Unnamed table in section 'Best Sound'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Best Visual Effects'",
+            "colums": [
+                "Year",
+                "Winner",
+                "Title",
+                "Status",
+                "Milestone/Notes"
+            ]
+        }
+    ]
+}

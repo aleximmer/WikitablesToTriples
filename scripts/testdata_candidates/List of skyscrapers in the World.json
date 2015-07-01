@@ -1,0 +1,674 @@
+{
+    "no. of tables": 8,
+    "page": "List of tallest buildings in the world",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "Building[A][9]",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.02,
+                        "http://dbpedia.org/property/location": 0.27,
+                        "http://dbpedia.org/ontology/location": 0.32
+                    },
+                    "subject": "Building[A][9]",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.51,
+                        "http://dbpedia.org/property/locationCountry": 0.06,
+                        "http://dbpedia.org/ontology/country": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.61
+                    },
+                    "subject": "Building[A][9]",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/topFloor": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/floorCount": 0.6,
+                        "http://dbpedia.org/ontology/floorCount": 0.61
+                    },
+                    "subject": "Building[A][9]",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.06,
+                        "http://dbpedia.org/property/opening": 0.15,
+                        "http://dbpedia.org/property/toppedOutDate": 0.01,
+                        "http://dbpedia.org/property/estCompletion": 0.05,
+                        "http://dbpedia.org/property/completionDate": 0.45,
+                        "http://dbpedia.org/property/years": 0.13
+                    },
+                    "subject": "Building[A][9]",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/janSun": 0.01,
+                        "http://dbpedia.org/property/julPercentsun": 0.01,
+                        "http://dbpedia.org/property/junRainDays": 0.01,
+                        "http://dbpedia.org/property/altitude": 0.01,
+                        "http://dbpedia.org/property/aprHumidity": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/property/longm": 0.01,
+                        "http://dbpedia.org/property/text": 0.01,
+                        "http://dbpedia.org/property/latd": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/ontology/timeZone": 0.01,
+                        "http://dbpedia.org/property/subdivisionType": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.28
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febRecordHighC": 0.01,
+                        "http://dbpedia.org/property/mayHumidity": 0.01,
+                        "http://dbpedia.org/property/marHumidity": 0.01,
+                        "http://dbpedia.org/property/aprHumidity": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.01,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.01,
+                        "http://dbpedia.org/property/gini": 0.01,
+                        "http://dbpedia.org/property/longd": 0.01,
+                        "http://dbpedia.org/property/gdpPppRank": 0.01,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/longm": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Building[A][9]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.16,
+                        "http://dbpedia.org/property/capital": 0.14,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://xmlns.com/foaf/0.1/name": 0.05,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.05,
+                        "http://dbpedia.org/property/largestCity": 0.06,
+                        "http://dbpedia.org/property/commonName": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.01,
+                        "http://dbpedia.org/property/width": 0.01,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.03,
+                        "http://dbpedia.org/property/hdiYear": 0.08,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.08,
+                        "http://dbpedia.org/property/populationCensusYear": 0.05,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.02,
+                        "http://dbpedia.org/property/giniYear": 0.09,
+                        "http://dbpedia.org/property/populationDensityKm": 0.03,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.05,
+                        "http://dbpedia.org/property/efYear": 0.01,
+                        "http://dbpedia.org/property/gdpPppYear": 0.06
+                    },
+                    "subject": "Country",
+                    "object": "Built"
+                }
+            ],
+            "table": "Unnamed table in section 'Tallest buildings in the world'",
+            "colums": [
+                "Rank",
+                "Building[A][9]",
+                "City",
+                "Country",
+                "Height (m)[3]",
+                "Height (ft)",
+                "Floors",
+                "Built"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/elevatorCount": 0.04
+                    },
+                    "subject": "Building",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.36,
+                        "http://dbpedia.org/ontology/location": 0.57
+                    },
+                    "subject": "Building",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.51,
+                        "http://dbpedia.org/ontology/location": 0.68
+                    },
+                    "subject": "Building",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/floorCount": 0.74,
+                        "http://dbpedia.org/ontology/floorCount": 0.77
+                    },
+                    "subject": "Building",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.11,
+                        "http://dbpedia.org/property/opening": 0.17,
+                        "http://dbpedia.org/property/toppedOutDate": 0.02,
+                        "http://dbpedia.org/property/estCompletion": 0.02,
+                        "http://dbpedia.org/property/completionDate": 0.45,
+                        "http://dbpedia.org/property/years": 0.26
+                    },
+                    "subject": "Building",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRecordLowF": 0.02,
+                        "http://dbpedia.org/property/julRecordLowC": 0.02,
+                        "http://dbpedia.org/ontology/elevation": 0.04,
+                        "http://dbpedia.org/property/novLowC": 0.02,
+                        "http://dbpedia.org/property/elevationM": 0.04,
+                        "http://dbpedia.org/property/aprRainDays": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/octRainDays": 0.02
+                    },
+                    "subject": "City",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.11,
+                        "http://dbpedia.org/ontology/isPartOf": 0.04,
+                        "http://dbpedia.org/ontology/timeZone": 0.02,
+                        "http://dbpedia.org/property/subdivisionType": 0.04,
+                        "http://dbpedia.org/ontology/country": 0.36
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "City",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.02,
+                        "http://dbpedia.org/property/blankInfo": 0.02
+                    },
+                    "subject": "City",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalRank": 0.02,
+                        "http://dbpedia.org/property/gini": 0.02,
+                        "http://dbpedia.org/property/giniRank": 0.02,
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Building"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.17,
+                        "http://dbpedia.org/property/capital": 0.17,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/ontology/largestCity": 0.17,
+                        "http://dbpedia.org/ontology/capital": 0.19
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.02,
+                        "http://dbpedia.org/property/width": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.02,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.02,
+                        "http://dbpedia.org/property/giniYear": 0.11,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.04,
+                        "http://dbpedia.org/property/populationDensityKm": 0.02,
+                        "http://dbpedia.org/property/gdpPppYear": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Built"
+                }
+            ],
+            "table": "Unnamed table in section 'Alternative measurements'",
+            "colums": [
+                "Rank",
+                "Building",
+                "City",
+                "Country",
+                "Height (m)",
+                "Height (ft)",
+                "Floors",
+                "Built"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.28,
+                        "http://dbpedia.org/ontology/floorCount": 0.28
+                    },
+                    "subject": "Building",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.03,
+                        "http://dbpedia.org/property/estCompletion": 0.09,
+                        "http://dbpedia.org/property/completionDate": 0.11
+                    },
+                    "subject": "Building",
+                    "object": "Planned completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.21,
+                        "http://dbpedia.org/property/locationCountry": 0.1,
+                        "http://dbpedia.org/ontology/country": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.27
+                    },
+                    "subject": "Building",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.1,
+                        "http://dbpedia.org/property/location": 0.29,
+                        "http://dbpedia.org/ontology/location": 0.46
+                    },
+                    "subject": "Building",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/buildingType": 0.01,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Building",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#long": 0.01,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.01,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.12,
+                        "http://dbpedia.org/property/capital": 0.11,
+                        "http://dbpedia.org/ontology/largestCity": 0.19,
+                        "http://dbpedia.org/property/largestCity": 0.19
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/octHumidity": 0.01,
+                        "http://dbpedia.org/property/janHumidity": 0.02,
+                        "http://dbpedia.org/property/febHumidity": 0.01,
+                        "http://dbpedia.org/property/junHumidity": 0.01,
+                        "http://dbpedia.org/property/blank4Info": 0.01,
+                        "http://dbpedia.org/property/augHumidity": 0.01,
+                        "http://dbpedia.org/property/shieldSize": 0.01,
+                        "http://dbpedia.org/property/novHumidity": 0.02,
+                        "http://dbpedia.org/property/yearHighF": 0.03,
+                        "http://dbpedia.org/property/longd": 0.01
+                    },
+                    "subject": "City",
+                    "object": "Floors"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/ontology/timeZone": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.56,
+                        "http://dbpedia.org/ontology/country": 0.83
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/timeZone": 0.01,
+                        "http://dbpedia.org/property/subdivisionName": 0.01,
+                        "http://dbpedia.org/ontology/country": 0.02
+                    },
+                    "subject": "City",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.01,
+                        "http://dbpedia.org/property/capital": 0.01,
+                        "http://dbpedia.org/ontology/largestCity": 0.01,
+                        "http://dbpedia.org/ontology/capital": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Remarks",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Buildings under construction'",
+            "colums": [
+                "Building",
+                "Planned pinnacle height",
+                "Planned roof height",
+                "Floors",
+                "Planned completion",
+                "Country",
+                "City",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opening": 0.08,
+                        "http://dbpedia.org/property/estCompletion": 0.21
+                    },
+                    "subject": "Building",
+                    "object": "Proposed completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.42,
+                        "http://dbpedia.org/ontology/location": 0.54
+                    },
+                    "subject": "Building",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.54,
+                        "http://dbpedia.org/ontology/location": 0.62
+                    },
+                    "subject": "Building",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiYear": 0.25,
+                        "http://dbpedia.org/property/populationEstimateYear": 0.25,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaYear": 0.04,
+                        "http://dbpedia.org/property/giniYear": 0.04,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.12,
+                        "http://dbpedia.org/property/gdpPppYear": 0.08
+                    },
+                    "subject": "Country",
+                    "object": "Proposed completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.33,
+                        "http://dbpedia.org/property/capital": 0.29,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://dbpedia.org/ontology/largestCity": 0.33,
+                        "http://dbpedia.org/ontology/capital": 0.33
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.04
+                    },
+                    "subject": "City",
+                    "object": "Proposed completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.12,
+                        "http://dbpedia.org/ontology/isPartOf": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.42,
+                        "http://dbpedia.org/ontology/country": 0.79
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Buildings on hold'",
+            "colums": [
+                "Building",
+                "Planned pinnacle height",
+                "Proposed completion",
+                "Country",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Building",
+                    "object": "Continent"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.57,
+                        "http://dbpedia.org/ontology/floorCount": 0.57
+                    },
+                    "subject": "Building",
+                    "object": "Floor count"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.14,
+                        "http://dbpedia.org/property/opening": 0.29,
+                        "http://dbpedia.org/property/estCompletion": 0.14,
+                        "http://dbpedia.org/property/completionDate": 0.29,
+                        "http://dbpedia.org/property/years": 0.43
+                    },
+                    "subject": "Building",
+                    "object": "Completed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.71,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Building",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.57,
+                        "http://dbpedia.org/ontology/location": 0.86
+                    },
+                    "subject": "Building",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Building"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationCensusYear": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Completed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.29,
+                        "http://dbpedia.org/property/capital": 0.14,
+                        "http://dbpedia.org/ontology/largestCity": 0.29,
+                        "http://dbpedia.org/ontology/capital": 0.29
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationAsOf": 0.14
+                    },
+                    "subject": "City",
+                    "object": "Completed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.14,
+                        "http://dbpedia.org/property/subdivisionType": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.57
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'List by continent'",
+            "colums": [
+                "Continent",
+                "Building",
+                "Height",
+                "Floor count",
+                "Completed",
+                "Country",
+                "City"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.29,
+                        "http://dbpedia.org/ontology/location": 0.29,
+                        "http://dbpedia.org/ontology/owner": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/floorCount": 0.29,
+                        "http://dbpedia.org/ontology/floorCount": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Floor Count"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/estCompletion": 0.29
+                    },
+                    "subject": "Name",
+                    "object": "Expected completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.14
+                    },
+                    "subject": "Country",
+                    "object": "Floor Count"
+                }
+            ],
+            "table": "Unnamed table in section 'Proposed'",
+            "colums": [
+                "Name",
+                "Height",
+                "City",
+                "Country",
+                "Floor Count",
+                "Expected completion"
+            ]
+        }
+    ]
+}

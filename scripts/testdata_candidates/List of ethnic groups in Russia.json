@@ -1,0 +1,331 @@
+{
+    "no. of tables": 29,
+    "page": "List of ethnic groups in Russia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pop": 0.01
+                    },
+                    "subject": "Group",
+                    "object": "Pop"
+                }
+            ],
+            "table": "Unnamed table in section 'A'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Group",
+                    "object": "Pop"
+                }
+            ],
+            "table": "Unnamed table in section 'B'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'V'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.04
+                    },
+                    "subject": "Group",
+                    "object": "Pop"
+                }
+            ],
+            "table": "Unnamed table in section 'G'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'D'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Z'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'I'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'K'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'L'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'M'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'N'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'O'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'P'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'R'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'S'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'T'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'U'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'F'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Kh'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Ts'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Group",
+                    "object": "Pop"
+                }
+            ],
+            "table": "Unnamed table in section 'C'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sh'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'E'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Y'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Miscellaneous'",
+            "colums": [
+                "Group",
+                "Pop"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "GROUP",
+                    "object": "MALE"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/totalPopulation": 0.01,
+                        "http://dbpedia.org/property/pop": 0.01,
+                        "http://dbpedia.org/property/population": 0.01
+                    },
+                    "subject": "GROUP",
+                    "object": "URBAN"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01
+                    },
+                    "subject": "GROUP",
+                    "object": "U.MALE"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/totalPopulation": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/pop": 0.01,
+                        "http://dbpedia.org/property/population": 0.01
+                    },
+                    "subject": "GROUP",
+                    "object": "U.FEMALE"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/totalPopulation": 0.01,
+                        "http://dbpedia.org/property/pop": 0.01,
+                        "http://dbpedia.org/property/population": 0.01
+                    },
+                    "subject": "GROUP",
+                    "object": "RURAL"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/property/pop": 0.01
+                    },
+                    "subject": "GROUP",
+                    "object": "R.FEMALE"
+                }
+            ],
+            "table": "Unnamed table in section 'Merged table'",
+            "colums": [
+                "GROUP",
+                "TOTAL",
+                "MALE",
+                "FEMALE",
+                "URBAN",
+                "U.MALE",
+                "U.FEMALE",
+                "RURAL",
+                "R.MALE",
+                "R.FEMALE"
+            ]
+        }
+    ]
+}

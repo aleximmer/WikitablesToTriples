@@ -1,0 +1,200 @@
+{
+    "no. of tables": 3,
+    "page": "List of tallest structures in the world \u2013 300 to 400 metres",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestStart": 0.03,
+                        "http://dbpedia.org/property/commissioned": 0.03,
+                        "http://dbpedia.org/property/toppedOutDate": 0.03,
+                        "http://dbpedia.org/property/built": 0.03,
+                        "http://dbpedia.org/property/completionDate": 0.19,
+                        "http://dbpedia.org/property/years": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/buildingType": 0.03
+                    },
+                    "subject": "Name",
+                    "object": "Main use"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.06,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/ontology/country": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.19
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/property/owner": 0.03,
+                        "http://dbpedia.org/property/locale": 0.06,
+                        "http://dbpedia.org/ontology/owner": 0.03,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.06,
+                        "http://dbpedia.org/property/location": 0.09,
+                        "http://dbpedia.org/ontology/country": 0.06,
+                        "http://dbpedia.org/ontology/location": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.09,
+                        "http://dbpedia.org/property/capital": 0.03,
+                        "http://dbpedia.org/ontology/largestCity": 0.09,
+                        "http://dbpedia.org/ontology/capital": 0.03
+                    },
+                    "subject": "Country",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.03,
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/pushpinMap": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.09,
+                        "http://dbpedia.org/ontology/country": 0.38
+                    },
+                    "subject": "Town",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.16,
+                        "http://dbpedia.org/property/subdivisionName": 0.22,
+                        "http://dbpedia.org/ontology/country": 0.25
+                    },
+                    "subject": "Town",
+                    "object": "Remarks"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/voySearch": 0.03,
+                        "http://dbpedia.org/property/location": 0.03,
+                        "http://xmlns.com/foaf/0.1/name": 0.09,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09,
+                        "http://dbpedia.org/property/country": 0.03,
+                        "http://dbpedia.org/property/commonName": 0.09,
+                        "http://dbpedia.org/ontology/country": 0.03
+                    },
+                    "subject": "Remarks",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.06,
+                        "http://dbpedia.org/ontology/capital": 0.03,
+                        "http://dbpedia.org/property/capital": 0.03,
+                        "http://dbpedia.org/ontology/largestCity": 0.09,
+                        "http://dbpedia.org/property/largestcity": 0.03
+                    },
+                    "subject": "Remarks",
+                    "object": "Town"
+                }
+            ],
+            "table": "Unnamed table in section 'Notable structures (past or present) between 300 metres (984\u00a0ft) and 350 metres (1,148\u00a0ft)'",
+            "colums": [
+                "Name",
+                "Pinnacle height",
+                "Year",
+                "Structural type",
+                "Main use",
+                "Country",
+                "Town",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/startDate": 0.08
+                    },
+                    "subject": "Name",
+                    "object": "Expected year\nof completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.17,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/ontology/location": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/giniYear": 0.08,
+                        "http://dbpedia.org/property/ethnicGroupsYear": 0.08
+                    },
+                    "subject": "Country",
+                    "object": "Expected year\nof completion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestCity": 0.17,
+                        "http://dbpedia.org/property/capital": 0.25,
+                        "http://dbpedia.org/property/location": 0.08,
+                        "http://dbpedia.org/ontology/largestCity": 0.17,
+                        "http://dbpedia.org/ontology/capital": 0.25
+                    },
+                    "subject": "Country",
+                    "object": "Town"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.08,
+                        "http://dbpedia.org/ontology/timeZone": 0.08,
+                        "http://dbpedia.org/property/pushpinMap": 0.08,
+                        "http://dbpedia.org/property/subdivisionType": 0.08,
+                        "http://dbpedia.org/property/subdivisionName": 0.25,
+                        "http://dbpedia.org/ontology/country": 0.42
+                    },
+                    "subject": "Town",
+                    "object": "Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Structures between 350 metres (1,148\u00a0ft) and 400 metres (1,312\u00a0ft) under construction'",
+            "colums": [
+                "Name",
+                "Planned pinnacle height",
+                "Expected year\nof completion",
+                "Structural type",
+                "Country",
+                "Town",
+                "Remarks"
+            ]
+        }
+    ]
+}

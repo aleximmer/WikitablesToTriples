@@ -1,0 +1,341 @@
+{
+    "no. of tables": 29,
+    "page": "List of members of the Chamber of Representatives of Belgium, 2014\u201319",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bureau'",
+            "colums": [
+                "",
+                "Office",
+                "Senator",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bureau'",
+            "colums": [
+                "",
+                "Office",
+                "Senator",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bureau'",
+            "colums": [
+                "",
+                "Office",
+                "Senator",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.42,
+                        "http://dbpedia.org/ontology/party": 0.42
+                    },
+                    "subject": "Name",
+                    "object": "Fraction"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.14,
+                        "http://dbpedia.org/ontology/birthPlace": 0.15,
+                        "http://dbpedia.org/property/placeOfBirth": 0.14
+                    },
+                    "subject": "Name",
+                    "object": "Electoral district"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/leader": 0.05,
+                        "http://dbpedia.org/ontology/leader": 0.05
+                    },
+                    "subject": "Fraction",
+                    "object": "Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/majority": 0.01
+                    },
+                    "subject": "Electoral district",
+                    "object": "Fraction"
+                }
+            ],
+            "table": "Unnamed table in section 'List of current Representatives'",
+            "colums": [
+                "",
+                "Name",
+                "Fraction",
+                "Electoral district",
+                "Language group"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'By electoral district'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.15,
+                        "http://dbpedia.org/ontology/party": 0.15
+                    },
+                    "subject": "Representative",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/party": 0.21,
+                        "http://dbpedia.org/ontology/party": 0.21
+                    },
+                    "subject": "Representative",
+                    "object": "Party"
+                }
+            ],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Party"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.74,
+                        "http://dbpedia.org/ontology/birthPlace": 0.74,
+                        "http://dbpedia.org/property/placeOfBirth": 0.74
+                    },
+                    "subject": "Representative",
+                    "object": "Electoral district"
+                }
+            ],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.06
+                    },
+                    "subject": "Representative",
+                    "object": "Electoral district"
+                }
+            ],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/residence": 0.11,
+                        "http://dbpedia.org/property/residence": 0.11
+                    },
+                    "subject": "Representative",
+                    "object": "Electoral district"
+                }
+            ],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of members of the Chamber of Representatives of Belgium, 2014\u201319'",
+            "colums": [
+                "",
+                "Representative",
+                "Electoral district"
+            ]
+        }
+    ]
+}

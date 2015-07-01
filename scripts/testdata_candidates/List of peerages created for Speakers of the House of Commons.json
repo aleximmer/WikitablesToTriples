@@ -1,0 +1,312 @@
+{
+    "no. of tables": 9,
+    "page": "List of peerages created for Speakers of the House of Commons",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termStart": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King George I, reign 1714\u20131727'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.5
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King George II, reign 1727\u20131760'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Created"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/property/title": 0.2
+                    },
+                    "subject": "Title",
+                    "object": "Speaker"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 0.4,
+                        "http://dbpedia.org/property/termStart": 0.2,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King George III, reign 1760\u20131820'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King William IV, reign 1830\u20131837'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 0.4,
+                        "http://dbpedia.org/property/years": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Created"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.4,
+                        "http://dbpedia.org/property/title": 0.4
+                    },
+                    "subject": "Title",
+                    "object": "Speaker"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'Queen Victoria, reign 1837\u20131901'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King Edward VII, reign 1901\u20131910'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King George V, reign 1910\u20131936'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Created"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 1.0,
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Title",
+                    "object": "Speaker"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 1.0,
+                        "http://dbpedia.org/property/years": 1.0
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'King George VI, reign 1936\u20131952'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 0.14,
+                        "http://dbpedia.org/property/years": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Created"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.71,
+                        "http://dbpedia.org/property/title": 0.14
+                    },
+                    "subject": "Title",
+                    "object": "Speaker"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.29
+                    },
+                    "subject": "Speaker",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/termEnd": 0.14,
+                        "http://dbpedia.org/property/years": 0.29
+                    },
+                    "subject": "Speaker",
+                    "object": "Created"
+                }
+            ],
+            "table": "Unnamed table in section 'Queen Elizabeth II, reign 1952\u2013'",
+            "colums": [
+                "Title",
+                "Created",
+                "Speaker",
+                "Current status",
+                "Notes"
+            ]
+        }
+    ]
+}

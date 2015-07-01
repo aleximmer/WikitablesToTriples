@@ -1,0 +1,285 @@
+{
+    "no. of tables": 21,
+    "page": "List of Australians imprisoned or executed abroad",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Argentina'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Bulgaria'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cambodia'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'China'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Egypt'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Fiji'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.08,
+                        "http://dbpedia.org/ontology/birthPlace": 0.08,
+                        "http://dbpedia.org/property/placeOfBirth": 0.08
+                    },
+                    "subject": "Prisoner",
+                    "object": "From"
+                }
+            ],
+            "table": "Unnamed table in section 'Indonesia'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Israel'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 1.0
+                    },
+                    "subject": "Prisoner",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Italy'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Kuwait'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Laos'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Malaysia'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'North Korea'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Singapore'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'South Africa (Limpopo)'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sri Lanka'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Thailand'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/birthPlace": 1.0
+                    },
+                    "subject": "Prisoner",
+                    "object": "From"
+                }
+            ],
+            "table": "Unnamed table in section 'United Kingdom'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United States'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'United Arab Emirates'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Vietnam'",
+            "colums": [
+                "Prisoner",
+                "From",
+                "Convictions",
+                "Arrested",
+                "Release date",
+                "Notes"
+            ]
+        }
+    ]
+}

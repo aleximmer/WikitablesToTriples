@@ -1,0 +1,372 @@
+{
+    "no. of tables": 3,
+    "page": "List of multiple Olympic gold medalists",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/property/wctitles": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "Nation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerYears": 0.0,
+                        "http://dbpedia.org/property/years": 0.03,
+                        "http://dbpedia.org/property/worldchamp": 0.0,
+                        "http://dbpedia.org/property/worldcup": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/frenchopenresult": 0.0,
+                        "http://dbpedia.org/property/australianopenmixedresult": 0.0,
+                        "http://dbpedia.org/property/australianopenresult": 0.0,
+                        "http://dbpedia.org/property/wimbledonmixedresult": 0.0,
+                        "http://dbpedia.org/property/frenchopenmixedresult": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "Gender"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/clubnumber": 0.0,
+                        "http://dbpedia.org/property/draft": 0.0,
+                        "http://dbpedia.org/property/event": 0.0,
+                        "http://dbpedia.org/property/number": 0.0,
+                        "http://dbpedia.org/property/height": 0.0,
+                        "http://dbpedia.org/property/awards": 0.0,
+                        "http://dbpedia.org/property/goals": 0.0,
+                        "http://dbpedia.org/property/olympicgolds": 0.01,
+                        "http://dbpedia.org/property/wctitles": 0.0,
+                        "http://dbpedia.org/ontology/number": 0.0,
+                        "http://dbpedia.org/property/olympicmedals": 0.0,
+                        "http://dbpedia.org/property/olympicteams": 0.0,
+                        "http://dbpedia.org/property/worldsteams": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.01,
+                        "http://dbpedia.org/property/noContests": 0.0,
+                        "http://dbpedia.org/property/wctitles": 0.01,
+                        "http://dbpedia.org/property/wcoveralls": 0.0,
+                        "http://dbpedia.org/property/rows": 0.0,
+                        "http://dbpedia.org/property/heightIn": 0.01,
+                        "http://dbpedia.org/property/losses": 0.0,
+                        "http://dbpedia.org/property/decWins": 0.0,
+                        "http://dbpedia.org/property/caps": 0.0,
+                        "http://dbpedia.org/property/worldsgolds": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.01,
+                        "http://dbpedia.org/property/children": 0.0,
+                        "http://dbpedia.org/ontology/height": 0.0,
+                        "http://dbpedia.org/property/wctitles": 0.0,
+                        "http://dbpedia.org/property/wcoveralls": 0.0,
+                        "http://dbpedia.org/property/rows": 0.0,
+                        "http://dbpedia.org/property/heightIn": 0.01,
+                        "http://dbpedia.org/property/losses": 0.0,
+                        "http://dbpedia.org/property/caps": 0.0,
+                        "http://dbpedia.org/property/noContests": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.0,
+                        "http://dbpedia.org/property/heightIn": 0.0,
+                        "http://dbpedia.org/property/draft": 0.0,
+                        "http://dbpedia.org/property/number": 0.0,
+                        "http://dbpedia.org/property/height": 0.0,
+                        "http://dbpedia.org/property/awards": 0.0,
+                        "http://dbpedia.org/property/heightFt": 0.0,
+                        "http://dbpedia.org/property/nationalgoals": 0.0,
+                        "http://dbpedia.org/property/olympicgolds": 0.0,
+                        "http://dbpedia.org/property/wctitles": 0.0,
+                        "http://dbpedia.org/ontology/number": 0.0,
+                        "http://dbpedia.org/property/olympicmedals": 0.01,
+                        "http://dbpedia.org/property/worldsteams": 0.0
+                    },
+                    "subject": "Athlete",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.0
+                    },
+                    "subject": "Nation",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.0
+                    },
+                    "subject": "Nation",
+                    "object": "Athlete"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games": 0.03,
+                        "http://dbpedia.org/ontology/games": 0.03
+                    },
+                    "subject": "Nation",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.0,
+                        "http://dbpedia.org/ontology/rankInFinalMedalCount": 0.01,
+                        "http://dbpedia.org/property/rank": 0.01
+                    },
+                    "subject": "Nation",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/rankInFinalMedalCount": 0.0,
+                        "http://dbpedia.org/property/rank": 0.0
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/menevents": 0.0
+                    },
+                    "subject": "Sport",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/men'sEvents": 0.0,
+                        "http://dbpedia.org/property/womenevents": 0.05,
+                        "http://dbpedia.org/property/mixedevents": 0.01,
+                        "http://dbpedia.org/property/women'sEvents": 0.0,
+                        "http://dbpedia.org/property/menevents": 0.03
+                    },
+                    "subject": "Sport",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/womenevents": 0.04,
+                        "http://dbpedia.org/property/mixedevents": 0.01,
+                        "http://dbpedia.org/property/menevents": 0.02
+                    },
+                    "subject": "Sport",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/menevents": 0.01,
+                        "http://dbpedia.org/property/womenevents": 0.02,
+                        "http://dbpedia.org/property/mixedevents": 0.01
+                    },
+                    "subject": "Sport",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/men'sEvents": 0.01,
+                        "http://dbpedia.org/property/womenevents": 0.08,
+                        "http://dbpedia.org/property/mixedevents": 0.0,
+                        "http://dbpedia.org/property/women'sEvents": 0.01,
+                        "http://dbpedia.org/property/menevents": 0.05
+                    },
+                    "subject": "Sport",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'List of most Olympic gold medals over career'",
+            "colums": [
+                "No.",
+                "Athlete",
+                "Nation",
+                "Sport",
+                "Years",
+                "Games",
+                "Gender",
+                "Gold",
+                "Silver",
+                "Bronze",
+                "Total"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/rows": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "Nation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playerYears": 0.01,
+                        "http://dbpedia.org/property/years": 0.04
+                    },
+                    "subject": "Athlete",
+                    "object": "Years"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/olympicteams": 0.01,
+                        "http://dbpedia.org/property/olympicgolds": 0.04,
+                        "http://dbpedia.org/property/olympicmedals": 0.01,
+                        "http://dbpedia.org/property/wctitles": 0.01,
+                        "http://dbpedia.org/property/worldsteams": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/noContests": 0.01,
+                        "http://dbpedia.org/property/rows": 0.01,
+                        "http://dbpedia.org/property/losses": 0.01,
+                        "http://dbpedia.org/property/decWins": 0.01,
+                        "http://dbpedia.org/property/worldsgolds": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wcoveralls": 0.01,
+                        "http://dbpedia.org/property/rows": 0.01,
+                        "http://dbpedia.org/property/losses": 0.01,
+                        "http://dbpedia.org/property/noContests": 0.01,
+                        "http://dbpedia.org/property/wctitles": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/olympicmedals": 0.04,
+                        "http://dbpedia.org/property/natlteam": 0.01,
+                        "http://dbpedia.org/property/olympicgolds": 0.02,
+                        "http://dbpedia.org/property/wctitles": 0.01,
+                        "http://dbpedia.org/property/worldsteams": 0.01
+                    },
+                    "subject": "Athlete",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caption": 0.01
+                    },
+                    "subject": "Nation",
+                    "object": "Athlete"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/games": 0.02,
+                        "http://dbpedia.org/ontology/games": 0.02
+                    },
+                    "subject": "Nation",
+                    "object": "Games"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/menevents": 0.01
+                    },
+                    "subject": "Sport",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/men'sEvents": 0.01,
+                        "http://dbpedia.org/property/womenevents": 0.07,
+                        "http://dbpedia.org/property/mixedevents": 0.01,
+                        "http://dbpedia.org/property/women'sEvents": 0.01,
+                        "http://dbpedia.org/property/menevents": 0.05
+                    },
+                    "subject": "Sport",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/womenevents": 0.02,
+                        "http://dbpedia.org/property/menevents": 0.01
+                    },
+                    "subject": "Sport",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/womenevents": 0.01,
+                        "http://dbpedia.org/property/mixedevents": 0.01
+                    },
+                    "subject": "Sport",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/men'sEvents": 0.01,
+                        "http://dbpedia.org/property/womenevents": 0.11,
+                        "http://dbpedia.org/property/mixedevents": 0.01,
+                        "http://dbpedia.org/property/women'sEvents": 0.01,
+                        "http://dbpedia.org/property/menevents": 0.08
+                    },
+                    "subject": "Sport",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'List of most career gold medals in individual events'",
+            "colums": [
+                "No.",
+                "Athlete",
+                "Nation",
+                "Sport",
+                "Years",
+                "Games",
+                "Sex",
+                "Gold",
+                "Silver",
+                "Bronze",
+                "Total"
+            ]
+        }
+    ]
+}

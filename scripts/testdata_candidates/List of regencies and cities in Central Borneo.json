@@ -1,0 +1,1143 @@
+{
+    "no. of tables": 34,
+    "page": "List of regencies and cities of Indonesia",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.74
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.09
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.17,
+                        "http://dbpedia.org/property/subdivisionName": 0.17
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/seat": 0.61
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/longs": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.11
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05,
+                        "http://dbpedia.org/property/seat": 0.58
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.11,
+                        "http://dbpedia.org/property/longs": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.05,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.05
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/property/latm": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/property/latd": 0.18
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.09,
+                        "http://dbpedia.org/property/officialName": 0.09,
+                        "http://xmlns.com/foaf/0.1/name": 0.09
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.18
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.17
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.58
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.08
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.1
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.12
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.06,
+                        "http://dbpedia.org/property/subdivisionName": 0.06
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07,
+                        "http://dbpedia.org/property/seat": 0.13
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.86
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14,
+                        "http://dbpedia.org/property/latd": 0.14
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.29
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.14
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.14,
+                        "http://dbpedia.org/property/subdivisionName": 0.14
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/archipelago": 0.17
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.25
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.12,
+                        "http://dbpedia.org/property/seat": 0.25
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longs": 0.12
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/property/subdivisionName": 0.12,
+                        "http://dbpedia.org/ontology/isPartOf": 0.25,
+                        "http://dbpedia.org/property/seat": 0.12
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.03,
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/seat": 0.03
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.03
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.09,
+                        "http://dbpedia.org/property/subdivisionName": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.43
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.21,
+                        "http://xmlns.com/foaf/0.1/name": 0.29,
+                        "http://dbpedia.org/property/officialName": 0.29,
+                        "http://dbpedia.org/property/subdivisionName": 0.03,
+                        "http://dbpedia.org/property/seat": 0.11
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/elevationM": 0.03,
+                        "http://dbpedia.org/ontology/elevation": 0.03
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/part": 0.2,
+                        "http://dbpedia.org/property/p": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2,
+                        "http://dbpedia.org/property/seat": 0.8
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.2
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.11
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.78
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.11,
+                        "http://dbpedia.org/property/latd": 0.11
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33,
+                        "http://dbpedia.org/property/seat": 0.22
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/latd": 0.1
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.6
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/latd": 0.1
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.5
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.73
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.18,
+                        "http://dbpedia.org/property/subdivisionName": 0.18
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/property/lats": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.14
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/lats": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.15
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.15,
+                        "http://dbpedia.org/property/subdivisionName": 0.15
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.14,
+                        "http://dbpedia.org/property/subdivisionName": 0.14
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.1
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.1
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.2
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.2
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.2,
+                        "http://dbpedia.org/property/subdivisionName": 0.2,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.6
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.33
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.67,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.04,
+                        "http://dbpedia.org/property/seat": 0.29
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04,
+                        "http://dbpedia.org/property/seat": 0.04
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.33,
+                        "http://dbpedia.org/property/subdivisionName": 0.33
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.17,
+                        "http://dbpedia.org/property/subdivisionName": 0.17
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.21,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.15
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.15,
+                        "http://dbpedia.org/property/subdivisionName": 0.15
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.13,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.09
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.27
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.09,
+                        "http://dbpedia.org/property/inchi": 0.09,
+                        "http://dbpedia.org/property/stdinchi": 0.09
+                    },
+                    "subject": "Capital",
+                    "object": "No"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.1,
+                        "http://dbpedia.org/ontology/isPartOf": 0.4,
+                        "http://dbpedia.org/property/subdivisionName": 0.4,
+                        "http://dbpedia.org/ontology/majorIsland": 0.1
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.4,
+                        "http://dbpedia.org/property/subdivisionName": 0.4
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.08
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/seat": 0.46
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.23,
+                        "http://dbpedia.org/property/subdivisionName": 0.23
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.03
+                    },
+                    "subject": "Regency",
+                    "object": "No"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.03,
+                        "http://dbpedia.org/property/seat": 0.07
+                    },
+                    "subject": "Regency",
+                    "object": "Capital"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.03,
+                        "http://dbpedia.org/property/subdivisionName": 0.03
+                    },
+                    "subject": "Capital",
+                    "object": "Regency"
+                }
+            ],
+            "table": "Unnamed table in section 'List of regencies and cities by province'",
+            "colums": [
+                "No",
+                "Regency",
+                "Capital"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,194 @@
+{
+    "no. of tables": 6,
+    "page": "List of European Championships records in swimming",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.55,
+                        "http://dbpedia.org/property/nationality": 0.1,
+                        "http://dbpedia.org/property/shortDescription": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.35,
+                        "http://dbpedia.org/property/placeOfBirth": 0.3,
+                        "http://dbpedia.org/property/birthPlace": 0.35
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course (50 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.15,
+                        "http://dbpedia.org/property/birthPlace": 0.05,
+                        "http://dbpedia.org/ontology/birthPlace": 0.15,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionName": 0.1,
+                        "http://dbpedia.org/ontology/country": 0.1
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Long course (50 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Long course (50 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.75,
+                        "http://dbpedia.org/property/birthPlace": 0.45,
+                        "http://dbpedia.org/ontology/birthPlace": 0.55,
+                        "http://dbpedia.org/property/placeOfBirth": 0.45
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.85
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Short course (25 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/nationality": 0.16,
+                        "http://dbpedia.org/property/birthPlace": 0.32,
+                        "http://dbpedia.org/ontology/birthPlace": 0.32,
+                        "http://dbpedia.org/property/placeOfBirth": 0.32
+                    },
+                    "subject": "Name",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.05
+                    },
+                    "subject": "Meet",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 0.95
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pushpinMap": 0.05,
+                        "http://dbpedia.org/ontology/country": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'Short course (25 m)'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hostcity": 1.0
+                    },
+                    "subject": "Meet",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Mixed relay'",
+            "colums": [
+                "Event",
+                "Time",
+                "",
+                "Name",
+                "Nationality",
+                "Date",
+                "Meet",
+                "Location",
+                "Ref"
+            ]
+        }
+    ]
+}

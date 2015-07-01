@@ -1,0 +1,224 @@
+{
+    "page": "List of historic Indian texts",
+    "no. of tables": 2,
+    "tables": [
+        {
+            "table": "Unnamed table in section 'Collection'",
+            "predicates": [],
+            "colums": [
+                "Name",
+                "Description",
+                "Alternate Names",
+                "Date"
+            ]
+        },
+        {
+            "table": "Unnamed table in section 'Books'",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Book",
+                    "object": "Collection"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/originalLanguage": 0.01,
+                        "http://dbpedia.org/property/origLang": 0.01
+                    },
+                    "subject": "Book",
+                    "object": "Language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.01,
+                        "http://dbpedia.org/property/writer": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.08,
+                        "http://dbpedia.org/ontology/author": 0.01
+                    },
+                    "subject": "Book",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/knownFor": 0.01
+                    },
+                    "subject": "Topic",
+                    "object": "Subject Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Topic",
+                    "object": "Reign Of"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/ontology/influencedBy": 0.03
+                    },
+                    "subject": "Collection",
+                    "object": "Book"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Collection",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/notableworks": 0.01,
+                        "http://dbpedia.org/ontology/notableWork": 0.03,
+                        "http://dbpedia.org/ontology/knownFor": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.02,
+                        "http://dbpedia.org/ontology/influencedBy": 0.03
+                    },
+                    "subject": "Author",
+                    "object": "Book"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/notableWork": 0.06,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.06
+                    },
+                    "subject": "Author",
+                    "object": "Collection"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/occupation": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Author",
+                    "object": "Reign Of"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBurial": 0.01
+                    },
+                    "subject": "Author",
+                    "object": "Geographic Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/religion": 0.01
+                    },
+                    "subject": "Reign Of",
+                    "object": "Subject Area"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Reign Of",
+                    "object": "Topic"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/commonLanguages": 0.01
+                    },
+                    "subject": "Reign Of",
+                    "object": "Language"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Reign Of",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/placeOfBurial": 0.02,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01,
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBurial": 0.03,
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/ontology/restingPlace": 0.01,
+                        "http://dbpedia.org/property/deathPlace": 0.01
+                    },
+                    "subject": "Reign Of",
+                    "object": "Geographic Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.01,
+                        "http://dbpedia.org/property/placeOfBirth": 0.01,
+                        "http://dbpedia.org/property/birthPlace": 0.01
+                    },
+                    "subject": "Reign Of",
+                    "object": "Modern Name of Geographic Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governmentType": 0.01
+                    },
+                    "subject": "Geographic Region",
+                    "object": "Book"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/blank2Info": 0.01
+                    },
+                    "subject": "Geographic Region",
+                    "object": "Language"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.01,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/officialName": 0.01
+                    },
+                    "subject": "Geographic Region",
+                    "object": "Modern Name of Geographic Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Modern Name of Geographic Region",
+                    "object": "Geographic Region"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/influenced": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Book"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/influenced": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Author"
+                }
+            ],
+            "colums": [
+                "Book",
+                "Subject Area",
+                "Topic",
+                "Collection",
+                "Language",
+                "Author",
+                "Date",
+                "Reign Of",
+                "Reign Age",
+                "Geographic Region",
+                "Modern Name of Geographic Region",
+                "Notes"
+            ]
+        }
+    ]
+}

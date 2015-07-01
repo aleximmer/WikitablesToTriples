@@ -1,0 +1,189 @@
+{
+    "no. of tables": 3,
+    "page": "List of highest astronomical observatories",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.09
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Observatory Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.09,
+                        "http://dbpedia.org/property/range": 0.09,
+                        "http://dbpedia.org/property/location": 0.13,
+                        "http://dbpedia.org/property/subdivisionName": 0.04,
+                        "http://dbpedia.org/ontology/isPartOf": 0.04
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.13
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope1Name": 0.09,
+                        "http://dbpedia.org/property/telescope3Name": 0.04,
+                        "http://dbpedia.org/property/telescope10Name": 0.04
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Major Instruments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.09,
+                        "http://dbpedia.org/property/range": 0.13,
+                        "http://dbpedia.org/property/location": 0.35,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.35,
+                        "http://dbpedia.org/property/subdivisionName": 0.09,
+                        "http://dbpedia.org/ontology/isPartOf": 0.09
+                    },
+                    "subject": "Observatory Site",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestpoint": 0.09
+                    },
+                    "subject": "Location",
+                    "object": "Observatory Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.04
+                    },
+                    "subject": "Major Instruments",
+                    "object": "Observatory Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.13
+                    },
+                    "subject": "Major Instruments",
+                    "object": "Location"
+                }
+            ],
+            "table": "Unnamed table in section 'Highest permanent observatories'",
+            "colums": [
+                "Observatory Name",
+                "Elevation",
+                "Observatory Site",
+                "Location",
+                "Coordinates",
+                "Established",
+                "Type of Observatory",
+                "Major Instruments"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Highest temporary observatories'",
+            "colums": [
+                "Observatory Name",
+                "Elevation",
+                "Observatory Site",
+                "Location",
+                "Coordinates",
+                "Established",
+                "Type of Observatory",
+                "Major Instruments"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.24
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Observatory Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.05,
+                        "http://dbpedia.org/property/range": 0.05,
+                        "http://dbpedia.org/property/location": 0.19
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.19
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Established"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/telescope1Name": 0.24
+                    },
+                    "subject": "Observatory Name",
+                    "object": "Major Instruments"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/mountainRange": 0.05,
+                        "http://dbpedia.org/property/range": 0.05,
+                        "http://dbpedia.org/property/location": 0.24,
+                        "http://dbpedia.org/ontology/isPartOf": 0.05,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.29
+                    },
+                    "subject": "Observatory Site",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestMount": 0.05
+                    },
+                    "subject": "Location",
+                    "object": "Observatory Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/source": 0.05,
+                        "http://dbpedia.org/property/location": 0.33,
+                        "http://dbpedia.org/property/organization": 0.05
+                    },
+                    "subject": "Major Instruments",
+                    "object": "Observatory Name"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.19
+                    },
+                    "subject": "Major Instruments",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.05,
+                        "http://dbpedia.org/property/established": 0.05
+                    },
+                    "subject": "Major Instruments",
+                    "object": "Established"
+                }
+            ],
+            "table": "Unnamed table in section 'Other important high altitude observatories'",
+            "colums": [
+                "Observatory Name",
+                "Elevation",
+                "Observatory Site",
+                "Location",
+                "Coordinates",
+                "Established",
+                "Type of Observatory",
+                "Major Instruments"
+            ]
+        }
+    ]
+}

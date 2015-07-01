@@ -1,0 +1,300 @@
+{
+    "no. of tables": 30,
+    "page": "List of 2010 Summer Youth Olympics medal winners",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Archery'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Athletics'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Badminton'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Basketball'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Boxing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Canoeing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Cycling'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Diving'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Equestrian'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Fencing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Gymnastics'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Gymnastics'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Gymnastics'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Modern pentathlon'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Rowing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Sailing'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Shooting'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Table tennis'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Tennis'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Triathlon'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Weightlifting'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Wrestling'",
+            "colums": [
+                "Event",
+                "Gold",
+                "Silver",
+                "Bronze"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/caps": 0.03
+                    },
+                    "subject": "Athlete",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.03
+                    },
+                    "subject": "Athlete",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12,
+                        "http://dbpedia.org/property/silver": 0.06,
+                        "http://dbpedia.org/property/bronze": 0.03,
+                        "http://dbpedia.org/property/rank": 0.06
+                    },
+                    "subject": "Nation",
+                    "object": "Gold"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/q": 0.03,
+                        "http://dbpedia.org/property/gold": 0.03,
+                        "http://dbpedia.org/property/silver": 0.06,
+                        "http://dbpedia.org/property/rank": 0.09,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.06,
+                        "http://dbpedia.org/property/bronze": 0.06,
+                        "http://dbpedia.org/property/score": 0.03
+                    },
+                    "subject": "Nation",
+                    "object": "Silver"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.03,
+                        "http://dbpedia.org/property/silver": 0.06,
+                        "http://dbpedia.org/property/bronze": 0.03,
+                        "http://dbpedia.org/property/rank": 0.06,
+                        "http://dbpedia.org/property/score": 0.03
+                    },
+                    "subject": "Nation",
+                    "object": "Bronze"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/scorea": 0.03,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.12,
+                        "http://dbpedia.org/property/gold": 0.06,
+                        "http://dbpedia.org/property/q": 0.03,
+                        "http://dbpedia.org/property/rank": 0.09
+                    },
+                    "subject": "Nation",
+                    "object": "Total"
+                }
+            ],
+            "table": "Unnamed table in section 'Medal leaders'",
+            "colums": [
+                "Athlete",
+                "Nation",
+                "Sport",
+                "Gold",
+                "Silver",
+                "Bronze",
+                "Total"
+            ]
+        }
+    ]
+}

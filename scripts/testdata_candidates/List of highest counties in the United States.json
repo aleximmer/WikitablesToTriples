@@ -1,0 +1,272 @@
+{
+    "no. of tables": 10,
+    "page": "List of counties in Colorado",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/namedFor": 0.02,
+                        "http://dbpedia.org/property/capital": 0.02,
+                        "http://dbpedia.org/ontology/countySeat": 0.92,
+                        "http://dbpedia.org/ontology/largestCity": 0.69,
+                        "http://dbpedia.org/ontology/capital": 0.02
+                    },
+                    "subject": "County",
+                    "object": "County Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/district": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.95,
+                        "http://dbpedia.org/property/subdivisionName": 0.91,
+                        "http://dbpedia.org/property/district": 0.02
+                    },
+                    "subject": "County Seat",
+                    "object": "County"
+                }
+            ],
+            "table": "The 64 Counties of the State of Colorado\n",
+            "colums": [
+                "County",
+                "INCITS",
+                "Date Established",
+                "County Seat",
+                "Pop Rank",
+                "2013 Pop",
+                "2010 Census",
+                "Pop Change",
+                "Map",
+                "Pop Density",
+                "Land Area",
+                "Water Area",
+                "Total Area",
+                "Max Elev",
+                "Min Elev",
+                "Latitude",
+                "Longitude"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.03
+                    },
+                    "subject": "County",
+                    "object": "History"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.38,
+                        "http://dbpedia.org/property/eventEnd": 0.06
+                    },
+                    "subject": "Territory or State",
+                    "object": "History"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.03
+                    },
+                    "subject": "History",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.38
+                    },
+                    "subject": "History",
+                    "object": "Territory or State"
+                }
+            ],
+            "table": "Counties formerly within the area of the State of Colorado\n",
+            "colums": [
+                "County",
+                "Territory or State",
+                "Created",
+                "Superseded",
+                "History"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "The 12 counties of the\nTerritory of Jefferson",
+            "colums": [
+                "County",
+                "County Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/largestCity": 0.29,
+                        "http://dbpedia.org/ontology/countySeat": 0.29,
+                        "http://dbpedia.org/property/northwest": 0.06
+                    },
+                    "subject": "County",
+                    "object": "First County Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.53,
+                        "http://dbpedia.org/property/subdivisionName": 0.35
+                    },
+                    "subject": "First County Seat",
+                    "object": "County"
+                }
+            ],
+            "table": "The 17 original counties of the\nTerritory of Colorado",
+            "colums": [
+                "County",
+                "First County Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/namedFor": 0.08,
+                        "http://dbpedia.org/ontology/countySeat": 0.75,
+                        "http://dbpedia.org/ontology/largestCity": 0.5
+                    },
+                    "subject": "County",
+                    "object": "County Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.83,
+                        "http://dbpedia.org/property/subdivisionName": 0.67
+                    },
+                    "subject": "County Seat",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'List of counties in Colorado'",
+            "colums": [
+                "County",
+                "County Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 1.0,
+                        "http://dbpedia.org/ontology/largestCity": 1.0
+                    },
+                    "subject": "County",
+                    "object": "County Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "County Seat",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'List of counties in Colorado'",
+            "colums": [
+                "County",
+                "County Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 0.78,
+                        "http://dbpedia.org/ontology/largestCity": 0.78
+                    },
+                    "subject": "County",
+                    "object": "County Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.78,
+                        "http://dbpedia.org/property/subdivisionName": 0.78
+                    },
+                    "subject": "County Seat",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'List of counties in Colorado'",
+            "colums": [
+                "County",
+                "County Seat"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/countySeat": 1.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.33
+                    },
+                    "subject": "County",
+                    "object": "County Seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.33,
+                        "http://dbpedia.org/property/south": 0.33,
+                        "http://dbpedia.org/property/southwest": 0.33
+                    },
+                    "subject": "County",
+                    "object": "Other Counties"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "County Seat",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 1.0
+                    },
+                    "subject": "County Seat",
+                    "object": "Other Counties"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.33,
+                        "http://dbpedia.org/property/northeast": 0.33,
+                        "http://dbpedia.org/property/south": 0.33
+                    },
+                    "subject": "Other Counties",
+                    "object": "County"
+                }
+            ],
+            "table": "Unnamed table in section 'List of counties in Colorado'",
+            "colums": [
+                "County",
+                "County Seat",
+                "Other Counties"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/state": 0.88
+                    },
+                    "subject": "County",
+                    "object": "State"
+                }
+            ],
+            "table": "Highest Counties in the United States",
+            "colums": [
+                "Rank",
+                "County",
+                "State",
+                "Mean Elevation"
+            ]
+        }
+    ]
+}

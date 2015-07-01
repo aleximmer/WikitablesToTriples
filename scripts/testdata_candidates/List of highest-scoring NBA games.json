@@ -1,0 +1,234 @@
+{
+    "no. of tables": 3,
+    "page": "List of highest-scoring NBA games",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.3,
+                        "http://dbpedia.org/property/divisionPlace": 0.1,
+                        "http://dbpedia.org/property/ft": 0.1,
+                        "http://dbpedia.org/property/confPlace": 0.1,
+                        "http://dbpedia.org/property/num": 0.2
+                    },
+                    "subject": "Winning\nteam",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.6
+                    },
+                    "subject": "Winning\nteam",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.1,
+                        "http://dbpedia.org/property/num": 0.1,
+                        "http://dbpedia.org/property/confPlace": 0.1
+                    },
+                    "subject": "Winning\nteam",
+                    "object": "OT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.3,
+                        "http://dbpedia.org/property/divisionPlace": 0.1,
+                        "http://dbpedia.org/property/ft": 0.1,
+                        "http://dbpedia.org/property/confPlace": 0.1,
+                        "http://dbpedia.org/property/num": 0.2
+                    },
+                    "subject": "Losing\nteam",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.2
+                    },
+                    "subject": "Losing\nteam",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/divisionPlace": 0.1
+                    },
+                    "subject": "Losing\nteam",
+                    "object": "OT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/number": 0.1,
+                        "http://dbpedia.org/property/number": 0.1,
+                        "http://dbpedia.org/property/draftPick": 0.1,
+                        "http://dbpedia.org/property/heightFt": 0.2,
+                        "http://dbpedia.org/property/draftRound": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftRound": 0.1
+                    },
+                    "subject": "Notes",
+                    "object": "OT"
+                }
+            ],
+            "table": "Highest-scoring regular season games",
+            "colums": [
+                "",
+                "Total\npoints",
+                "Date",
+                "Location",
+                "Winning\nteam",
+                "Result",
+                "OT",
+                "Losing\nteam",
+                "Notes",
+                "Ref."
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ot": 0.09,
+                        "http://dbpedia.org/property/rd2Score": 0.18,
+                        "http://dbpedia.org/property/rd1Score": 0.27,
+                        "http://dbpedia.org/property/rd3Seed": 0.18,
+                        "http://dbpedia.org/property/rd3Score": 0.27,
+                        "http://dbpedia.org/property/rd2Seed": 0.45,
+                        "http://dbpedia.org/property/rd1Seed": 0.45,
+                        "http://dbpedia.org/property/rd4Score": 0.09
+                    },
+                    "subject": "Date",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/place": 0.09
+                    },
+                    "subject": "Date",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/overtime": 0.09,
+                        "http://dbpedia.org/property/rd2Score": 0.18,
+                        "http://dbpedia.org/property/rd1Score": 0.36,
+                        "http://dbpedia.org/property/rd3Seed": 0.18,
+                        "http://dbpedia.org/property/ot": 0.09,
+                        "http://dbpedia.org/property/rd3Score": 0.18,
+                        "http://dbpedia.org/property/rd2Seed": 0.36,
+                        "http://dbpedia.org/property/rd1Seed": 0.36,
+                        "http://dbpedia.org/property/rd4Score": 0.18
+                    },
+                    "subject": "Date",
+                    "object": "OT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.18,
+                        "http://dbpedia.org/property/divisionPlace": 0.18,
+                        "http://dbpedia.org/property/confPlace": 0.18,
+                        "http://dbpedia.org/property/num": 0.18
+                    },
+                    "subject": "Winner",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playoffs": 0.45
+                    },
+                    "subject": "Winner",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.55
+                    },
+                    "subject": "Winner",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.18,
+                        "http://dbpedia.org/property/divisionPlace": 0.18,
+                        "http://dbpedia.org/property/ot": 0.09,
+                        "http://dbpedia.org/property/num": 0.18
+                    },
+                    "subject": "Winner",
+                    "object": "OT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.36,
+                        "http://dbpedia.org/property/roadWins": 0.09,
+                        "http://dbpedia.org/property/homeLosses": 0.09,
+                        "http://dbpedia.org/property/num": 0.27,
+                        "http://dbpedia.org/property/divisionPlace": 0.18,
+                        "http://dbpedia.org/property/homeWins": 0.09,
+                        "http://dbpedia.org/property/confPlace": 0.09
+                    },
+                    "subject": "Loser",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playoffs": 0.64
+                    },
+                    "subject": "Loser",
+                    "object": "Date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.36
+                    },
+                    "subject": "Loser",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.18,
+                        "http://dbpedia.org/property/divisionPlace": 0.18,
+                        "http://dbpedia.org/property/ot": 0.09,
+                        "http://dbpedia.org/property/homeWins": 0.09,
+                        "http://dbpedia.org/property/confPlace": 0.09
+                    },
+                    "subject": "Loser",
+                    "object": "OT"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.18,
+                        "http://dbpedia.org/property/heightFt": 0.18,
+                        "http://dbpedia.org/property/draftRound": 0.09
+                    },
+                    "subject": "Notes",
+                    "object": "Total\npoints"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draftRound": 0.27
+                    },
+                    "subject": "Notes",
+                    "object": "OT"
+                }
+            ],
+            "table": "Highest-scoring playoff games",
+            "colums": [
+                "",
+                "Total\npoints",
+                "Date",
+                "Location",
+                "Winner",
+                "Result",
+                "OT",
+                "Loser",
+                "Notes",
+                "Ref."
+            ]
+        }
+    ]
+}

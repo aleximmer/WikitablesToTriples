@@ -1,20 +1,54 @@
 from wikitables.sparql import *
+import os
 
-def bestPredicate(page, ignore100=True):
-    tables = []
+"""Helper functions for evaluation and testing go here."""
 
-    for table in page['tables']:
-        tables += table['predicates']
+def best_predicate_in_page(page, ignore=True):
+    """Return predicate with highest relative occurance in page. Set 'ignore' to ignore '100%'."""
 
-    predicates = []
-    for perm in tables:
-        for predicate in perm['predicates']:
-            predicates.append(perm['predicates'][predicate])
+    columnPermutation = [p for table in page['tables'] for p in table['predicates']]
 
-    if ignore100:
-        predicates = [p for p in predicates if not p == 1.0]
+    predicates = [(key, value) for perm in columnPermutation for key, value in perm['predicates'].items()]
 
-    return max(predicates) if len(predicates) > 0 else 0.0
+    if ignore:
+        predicates = [p for p in predicates if not p[1] == 1.0]
 
-def hasPredicate(sub, obj, predicate):
+    return max(predicates, key=lambda x: x[1]) if len(predicates) > 0 else (None, 0.0)
+
+def best_predicate_in_table(table, ignore=True):
+    """Return predicate with highest relative occurence in table. Set 'ignore' to ignore '100%'."""
+
+    predicates = [(key, value) for p in table['predicates'] for key, value in p.items()]
+
+    if ignore:
+        predicates = [p for p in predicates if not p[1] == 1.0]
+
+    return max(predicates, key=lambda x: x[1]) if len(predicates) > 0 else (None, 0.0)
+
+def has_predicate(sub, obj, predicate):
     return predicate in predicates(sub, obj)
+
+def load_pages(path):
+    """This loads all .json-Files from path."""
+    paths = [os.path.join(path,fn) for fn in next(os.walk(path))[2] if fn.endswith('.json')]
+    pages = []
+    for path in paths:
+        try:
+            page = json.load(open(path, 'r'))
+        except ValueError:
+            print('Couldn\'t load %s' % path)
+        else:
+            page['file'] = path.split('/')[-1]
+            pages.append(page)
+    return pages
+
+def collect_tables(list_of_pages):
+    tables = [table for page in list_of_pages for table in page['tables']]
+    return [table for page in list_of_pages for table in page['tables']]
+
+def collect_predicates(list_of_pages):
+    # If you're a learner, have a look https://stackoverflow.com/questions/11264684/flatten-list-of-lists/11264751#answer-11264751
+    return [(key, value) for table in collect_tables(list_of_pages) for p in table['predicates'] for key, value in p['predicates'].items()]
+
+def collect_permutations(list_of_pages):
+    return [p for t in collect_tables(list_of_pages) for p in t['predicates']]

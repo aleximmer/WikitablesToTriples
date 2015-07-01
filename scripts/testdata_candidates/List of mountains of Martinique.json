@@ -1,0 +1,243 @@
+{
+    "no. of tables": 3,
+    "page": "List of mountain peaks of the Caribbean",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/property/latM": 0.07
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.73,
+                        "http://dbpedia.org/property/location": 0.67
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Nation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.27,
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Island"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRainDays": 0.07,
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/ethnicGroups": 0.07,
+                        "http://dbpedia.org/property/longm": 0.07
+                    },
+                    "subject": "Nation",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/map": 0.07
+                    },
+                    "subject": "Nation",
+                    "object": "Island"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRainDays": 0.07
+                    },
+                    "subject": "Island",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestMount": 0.53
+                    },
+                    "subject": "Island",
+                    "object": "Mountain Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13,
+                        "http://dbpedia.org/property/centre": 0.13,
+                        "http://dbpedia.org/ontology/country": 0.53
+                    },
+                    "subject": "Island",
+                    "object": "Nation"
+                }
+            ],
+            "table": "The 15 highest mountain peaks of the Caribbean with at least\n500 meters of topographic prominence\n",
+            "colums": [
+                "Rank",
+                "Mountain Peak",
+                "Nation",
+                "Island",
+                "Elevation",
+                "Prominence",
+                "Isolation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latD": 0.07,
+                        "http://dbpedia.org/property/latM": 0.07
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.8,
+                        "http://dbpedia.org/property/location": 0.73
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Nation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.27,
+                        "http://dbpedia.org/property/location": 0.2
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Island"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRainDays": 0.07,
+                        "http://dbpedia.org/property/ethnicGroups": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Nation",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/map": 0.07
+                    },
+                    "subject": "Nation",
+                    "object": "Island"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/marRainDays": 0.07
+                    },
+                    "subject": "Island",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestMount": 0.6
+                    },
+                    "subject": "Island",
+                    "object": "Mountain Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13,
+                        "http://dbpedia.org/property/centre": 0.07,
+                        "http://dbpedia.org/ontology/country": 0.6
+                    },
+                    "subject": "Island",
+                    "object": "Nation"
+                }
+            ],
+            "table": "The 15 most topographically prominent mountain peaks of the Caribbean\n",
+            "colums": [
+                "Rank",
+                "Mountain Peak",
+                "Nation",
+                "Island",
+                "Elevation",
+                "Prominence",
+                "Isolation"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.07,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.13,
+                        "http://dbpedia.org/property/latM": 0.07
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locatedInArea": 0.73,
+                        "http://dbpedia.org/property/location": 0.67
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Nation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.07,
+                        "http://dbpedia.org/ontology/locatedInArea": 0.27,
+                        "http://dbpedia.org/property/location": 0.27,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Mountain Peak",
+                    "object": "Island"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.07,
+                        "http://dbpedia.org/property/latd": 0.07
+                    },
+                    "subject": "Nation",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/map": 0.07
+                    },
+                    "subject": "Nation",
+                    "object": "Island"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/widthKm": 0.07
+                    },
+                    "subject": "Island",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestMount": 0.6
+                    },
+                    "subject": "Island",
+                    "object": "Mountain Peak"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.13,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13,
+                        "http://dbpedia.org/property/centre": 0.2,
+                        "http://dbpedia.org/ontology/country": 0.47
+                    },
+                    "subject": "Island",
+                    "object": "Nation"
+                }
+            ],
+            "table": "The 15 most topographically isolated mountain peaks of the Caribbean with at least\n500 meters of topographic prominence\n",
+            "colums": [
+                "Rank",
+                "Mountain Peak",
+                "Nation",
+                "Island",
+                "Elevation",
+                "Prominence",
+                "Isolation"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+{
+    "no. of tables": 20,
+    "page": "List of Batman comics",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                }
+            ],
+            "table": "Unnamed table in section 'Ongoing series'",
+            "colums": [
+                "Title",
+                "Issues",
+                "Initial cover date",
+                "Final cover date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Annuals'",
+            "colums": [
+                "Title",
+                "Issues",
+                "Initial cover date",
+                "Final cover date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Limited series'",
+            "colums": [
+                "Title",
+                "Issues",
+                "Initial cover date",
+                "Final cover date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'One shots and graphic novels'",
+            "colums": [
+                "Title",
+                "Cover date",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/publisher": 0.06
+                    },
+                    "subject": "Title",
+                    "object": "Co-publisher"
+                }
+            ],
+            "table": "Unnamed table in section 'Intercompany crossovers'",
+            "colums": [
+                "Title",
+                "Issues",
+                "Initial cover date",
+                "Final cover date",
+                "Co-publisher",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/tpb": 0.01,
+                        "http://dbpedia.org/property/title": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Material collected"
+                }
+            ],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Collected editions'",
+            "colums": [
+                "Title",
+                "Material collected",
+                "Publication date",
+                "ISBN"
+            ]
+        }
+    ]
+}

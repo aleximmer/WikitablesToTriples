@@ -1,0 +1,265 @@
+{
+    "no. of tables": 29,
+    "page": "Growth of photovoltaics",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Global installed PV capacity",
+            "colums": [
+                "Report",
+                "Cumulative (MWp)",
+                "Installed (MWp)",
+                "Year-End\nPeriod",
+                "Release date",
+                "Type",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Summary 2015-projections",
+            "colums": [
+                "Forecast by",
+                "Forecast"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Summary of Forecasts",
+            "colums": [
+                "Forecasting company\nor organization",
+                "Cumulative\nby 2020",
+                "To Be Added\n2015\u201320206",
+                "\u00d8\u00a0Annual\ninstallation"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "IEA \u2013 projected annual PV installations",
+            "colums": [
+                "Year",
+                "2013-Edition",
+                "diff",
+                "2014-Edition"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'History of market development'",
+            "colums": [
+                "Type of cell or module",
+                "Price per watt"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "1990s",
+            "colums": [
+                "\u00a0Year\u00a0",
+                "CapacityA\nMWp",
+                "\u0394%B",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2000s",
+            "colums": [
+                "\u00a0Year\u00a0",
+                "CapacityA\nMWp",
+                "\u0394%B",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2010s",
+            "colums": [
+                "\u00a0Year\u00a0",
+                "CapacityA\nMWp",
+                "\u0394%B",
+                "Refs"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Timeline of reported global PV capacity",
+            "colums": [
+                "Report",
+                "Cumulative (MWp)",
+                "Installed (MWp)",
+                "Year-End\nPeriod",
+                "Release date",
+                "Type",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/giniRank": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Capacity\n2014"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/populationDensity": 0.02,
+                        "http://dbpedia.org/property/decHighC": 0.02,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.02,
+                        "http://dbpedia.org/property/percentWater": 0.02,
+                        "http://dbpedia.org/property/populationDensityKm": 0.02,
+                        "http://dbpedia.org/property/gini": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Added\n2014"
+                }
+            ],
+            "table": "Global PV Capacity by Country in MWp 2014(d)",
+            "colums": [
+                "Country",
+                "Capacity\n2014",
+                "Added\n2014",
+                "Source(a)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Worldwide installed capacity in 2013",
+            "colums": [
+                "Report",
+                "Cumulative (MWp)",
+                "Installed (MWp)",
+                "Release date",
+                "Type",
+                "Ref"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Capacity\n2013"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 0.02,
+                        "http://dbpedia.org/property/euseats": 0.02
+                    },
+                    "subject": "Country",
+                    "object": "Added\n2013"
+                }
+            ],
+            "table": "2013\u2014Global PV Capacity by Country in MWp",
+            "colums": [
+                "Country",
+                "Capacity\n2013",
+                "Added\n2013",
+                "Source(A)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2011 - Year-End PV Capacity by Country in MW[89][97]",
+            "colums": [
+                "Country",
+                "off\ngrid\n\u0394",
+                "on\ngrid\n\u0394",
+                "Installed\n2011",
+                "off\ngrid\n\u03a3",
+                "on\ngrid\n\u03a3",
+                "Total\n2011",
+                "Wp/capita\nTotal",
+                "2011\nGeneration\n(GWh)"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2010 - Year-End PV Capacity by Country in MW[104][97][98]",
+            "colums": [
+                "Country",
+                "off\ngrid\n\u0394",
+                "on\ngrid\n\u0394",
+                "Installed\n2010",
+                "off\ngrid\n\u03a3",
+                "on\ngrid\n\u03a3",
+                "Total\n2010",
+                "Watt/\nCapita",
+                "Module\nPrice\nUS$/Wp",
+                "Feed-in Tariff\nUS$/kW\u00b7h"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2009 - Year-End PV Capacity by Country in MW[105]",
+            "colums": [
+                "Country",
+                "off\ngrid\n\u0394",
+                "on\ngrid\n\u0394",
+                "Installed\n2009",
+                "off\ngrid\n\u03a3",
+                "on\ngrid\n\u03a3",
+                "Total\n2009",
+                "Watt/\nCapita",
+                "Module\nPrice\nUS$/Wp",
+                "Feed-in Tariff\nUS$/kW\u00b7h"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2008 - Year-End PV Capacity by Country in MW[106]",
+            "colums": [
+                "Country",
+                "off\ngrid\n\u0394",
+                "on\ngrid\n\u0394",
+                "Installed\n2008",
+                "off\ngrid\n\u03a3",
+                "on\ngrid\n\u03a3",
+                "Total\n2008",
+                "Watt/\nCapita"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2007 - Year-End PV Capacity by Country in MW",
+            "colums": [
+                "Country",
+                "off\ngrid\n\u0394",
+                "on\ngrid\n\u0394",
+                "Installed\n2007",
+                "off\ngrid\n\u03a3",
+                "on\ngrid\n\u03a3",
+                "Total\n2007",
+                "Watt/\nCapita",
+                "Module\nPrice\n\u20ac/Wp",
+                "Feed-in Tariff\nEU\u00a2/kWh"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "2006 - Year-End PV Capacity by Country in MW[107]",
+            "colums": [
+                "Country",
+                "Cells\nMade",
+                "Modules\nMade",
+                "off\ngrid\n\u0394",
+                "on\ngrid\n\u0394",
+                "Installed\n2006",
+                "off\ngrid\n\u03a3",
+                "on\ngrid\n\u03a3",
+                "Total\n2006",
+                "Watt/\nCapita",
+                "Module\nPrice\n\u20ac/Wp",
+                "Feed-in Tariff\nEU\u00a2/kWh"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,201 @@
+{
+    "no. of tables": 5,
+    "page": "Australian region tropical cyclone",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section '20th century'",
+            "colums": [
+                "Season",
+                "Tropical\nLows",
+                "Tropical\nCyclones",
+                "Severe Tropical\nCyclones",
+                "Strongest\nstorm",
+                "Deaths",
+                "Damages",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalHurricanes": 0.1,
+                        "http://dbpedia.org/property/totalStorms": 0.1,
+                        "http://dbpedia.org/property/averageWindSpeed": 0.2,
+                        "http://dbpedia.org/property/totalDepressions": 0.4
+                    },
+                    "subject": "Season",
+                    "object": "Tropical\nLows"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalHurricanes": 0.5,
+                        "http://dbpedia.org/property/totalIntense": 0.1,
+                        "http://dbpedia.org/property/totalStorms": 0.1,
+                        "http://dbpedia.org/property/averageWindSpeed": 0.2,
+                        "http://dbpedia.org/property/totalDepressions": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Tropical\nCyclones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalIntense": 0.5,
+                        "http://dbpedia.org/property/totalStorms": 0.1,
+                        "http://dbpedia.org/property/inflated": 0.1,
+                        "http://dbpedia.org/property/totalHurricanes": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Severe Tropical\nCyclones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/strongestStormName": 0.7
+                    },
+                    "subject": "Season",
+                    "object": "Strongest\nstorm"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/inflated": 0.2,
+                        "http://dbpedia.org/property/fatalities": 0.5
+                    },
+                    "subject": "Season",
+                    "object": "Deaths"
+                }
+            ],
+            "table": "Unnamed table in section '20th century'",
+            "colums": [
+                "Season",
+                "Tropical\nLows",
+                "Tropical\nCyclones",
+                "Severe Tropical\nCyclones",
+                "Strongest\nstorm",
+                "Deaths",
+                "Damages",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalDepressions": 0.9,
+                        "http://dbpedia.org/property/tc's": 0.5,
+                        "http://dbpedia.org/property/averageWindSpeed": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Tropical\nLows"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/track": 0.1,
+                        "http://dbpedia.org/property/totalHurricanes": 0.9,
+                        "http://dbpedia.org/property/tc's": 0.1,
+                        "http://dbpedia.org/property/averageWindSpeed": 0.3
+                    },
+                    "subject": "Season",
+                    "object": "Tropical\nCyclones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/deaths": 0.1,
+                        "http://dbpedia.org/property/totalIntense": 0.9,
+                        "http://dbpedia.org/property/track": 0.1,
+                        "http://dbpedia.org/property/fatalities": 0.1,
+                        "http://dbpedia.org/property/totalHurricanes": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Severe Tropical\nCyclones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/strongestStormName": 0.6
+                    },
+                    "subject": "Season",
+                    "object": "Strongest\nstorm"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/track": 0.1,
+                        "http://dbpedia.org/property/deaths": 0.4,
+                        "http://dbpedia.org/property/name": 0.1,
+                        "http://dbpedia.org/property/fatalities": 0.6,
+                        "http://dbpedia.org/property/totalIntense": 0.1
+                    },
+                    "subject": "Season",
+                    "object": "Deaths"
+                }
+            ],
+            "table": "Unnamed table in section '21st century'",
+            "colums": [
+                "Season",
+                "Tropical\nLows",
+                "Tropical\nCyclones",
+                "Severe Tropical\nCyclones",
+                "Strongest\nstorm",
+                "Deaths",
+                "Damages",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalDepressions": 0.2,
+                        "http://dbpedia.org/property/tc's": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Tropical\nLows"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/totalHurricanes": 0.6,
+                        "http://dbpedia.org/property/averageWindSpeed": 0.4
+                    },
+                    "subject": "Season",
+                    "object": "Tropical\nCyclones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/track": 0.2,
+                        "http://dbpedia.org/property/totalIntense": 0.8
+                    },
+                    "subject": "Season",
+                    "object": "Severe Tropical\nCyclones"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/strongestStormName": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Strongest\nstorm"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/track": 0.2,
+                        "http://dbpedia.org/property/deaths": 0.6,
+                        "http://dbpedia.org/property/tc's": 0.2,
+                        "http://dbpedia.org/property/fatalities": 0.8,
+                        "http://dbpedia.org/property/totalDepressions": 0.2
+                    },
+                    "subject": "Season",
+                    "object": "Deaths"
+                }
+            ],
+            "table": "Unnamed table in section '21st century'",
+            "colums": [
+                "Season",
+                "Tropical\nLows",
+                "Tropical\nCyclones",
+                "Severe Tropical\nCyclones",
+                "Strongest\nstorm",
+                "Deaths",
+                "Damages",
+                "References"
+            ]
+        }
+    ]
+}

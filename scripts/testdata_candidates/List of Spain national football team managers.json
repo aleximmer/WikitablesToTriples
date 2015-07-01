@@ -1,0 +1,166 @@
+{
+    "no. of tables": 1,
+    "page": "List of Spain national football team managers",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.18,
+                        "http://dbpedia.org/ontology/birthPlace": 0.28,
+                        "http://dbpedia.org/ontology/deathPlace": 0.24,
+                        "http://dbpedia.org/property/deathPlace": 0.18,
+                        "http://dbpedia.org/property/placeOfBirth": 0.22,
+                        "http://dbpedia.org/property/birthPlace": 0.24
+                    },
+                    "subject": "Manager",
+                    "object": "Nat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/manageryears": 0.12
+                    },
+                    "subject": "Manager",
+                    "object": "Spain career"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.02
+                    },
+                    "subject": "Manager",
+                    "object": "G"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.04,
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/nationalcaps": 0.02
+                    },
+                    "subject": "Manager",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.08,
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/caps": 0.02
+                    },
+                    "subject": "Manager",
+                    "object": "D"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.12,
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/nationalcaps": 0.02,
+                        "http://dbpedia.org/property/totalgoals": 0.02,
+                        "http://dbpedia.org/property/caps": 0.02
+                    },
+                    "subject": "Manager",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/goals": 0.02,
+                        "http://dbpedia.org/property/nationalgoals": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/caps": 0.02
+                    },
+                    "subject": "Manager",
+                    "object": "GF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nationalgoals": 0.04,
+                        "http://dbpedia.org/property/goals": 0.02,
+                        "http://dbpedia.org/property/caps": 0.04
+                    },
+                    "subject": "Manager",
+                    "object": "GA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/euseats": 0.02,
+                        "http://dbpedia.org/property/longd": 0.08
+                    },
+                    "subject": "Nat",
+                    "object": "G"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/giniChange": 0.02,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.02,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.04
+                    },
+                    "subject": "Nat",
+                    "object": "W"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Nat",
+                    "object": "D"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02
+                    },
+                    "subject": "Nat",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppRank": 0.02,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02,
+                        "http://dbpedia.org/property/longd": 0.16
+                    },
+                    "subject": "Nat",
+                    "object": "GF"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationEstimateRank": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.04,
+                        "http://dbpedia.org/property/longd": 0.06
+                    },
+                    "subject": "Nat",
+                    "object": "GA"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/penaltyscore": 0.02
+                    },
+                    "subject": "Honours",
+                    "object": "L"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/matches": 0.02
+                    },
+                    "subject": "Honours",
+                    "object": "GA"
+                }
+            ],
+            "table": "Unnamed table in section 'List of Spain national football team managers'",
+            "colums": [
+                "Manager",
+                "Nat",
+                "Spain career",
+                "G",
+                "W",
+                "D",
+                "L",
+                "GF",
+                "GA",
+                "Win\u00a0%",
+                "Honours"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,355 @@
+{
+    "no. of tables": 10,
+    "page": "List of Thor and Delta launches (2000\u201309)",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sites": 0.14,
+                        "http://dbpedia.org/ontology/launchSite": 0.14
+                    },
+                    "subject": "Rocket",
+                    "object": "Launch Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchSite": 0.14,
+                        "http://dbpedia.org/property/launchLocation": 0.14
+                    },
+                    "subject": "Payload",
+                    "object": "Launch Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.43
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2000'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/missionType": 0.14
+                    },
+                    "subject": "Payload",
+                    "object": "Function"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.14
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2001'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sites": 0.25,
+                        "http://dbpedia.org/ontology/launchSite": 0.25
+                    },
+                    "subject": "Rocket",
+                    "object": "Launch Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/payloadLocation": 0.25
+                    },
+                    "subject": "Rocket",
+                    "object": "Orbit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchRocket": 0.5
+                    },
+                    "subject": "Payload",
+                    "object": "Rocket"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchSite": 0.25
+                    },
+                    "subject": "Payload",
+                    "object": "Launch Site"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.25
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2002'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchRocket": 0.22
+                    },
+                    "subject": "Payload",
+                    "object": "Rocket"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/missionType": 0.11
+                    },
+                    "subject": "Payload",
+                    "object": "Function"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitReference": 0.22,
+                        "http://dbpedia.org/property/orbitRegime": 0.33,
+                        "http://dbpedia.org/property/orbitType": 0.11
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2003'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchRocket": 0.12
+                    },
+                    "subject": "Payload",
+                    "object": "Rocket"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/missionType": 0.12
+                    },
+                    "subject": "Payload",
+                    "object": "Function"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/property/orbitRegime": 0.5
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2004'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.33
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2005'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchRocket": 0.22
+                    },
+                    "subject": "Payload",
+                    "object": "Rocket"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.33
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.11
+                    },
+                    "subject": "Payload",
+                    "object": "Remarks"
+                }
+            ],
+            "table": "Unnamed table in section '2006'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.22
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2007'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchRocket": 0.2
+                    },
+                    "subject": "Payload",
+                    "object": "Rocket"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitRegime": 0.4
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                }
+            ],
+            "table": "Unnamed table in section '2008'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/launchRocket": 0.18
+                    },
+                    "subject": "Payload",
+                    "object": "Rocket"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/orbitReference": 0.09,
+                        "http://dbpedia.org/property/orbitRegime": 0.27
+                    },
+                    "subject": "Payload",
+                    "object": "Orbit"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/operator": 0.09
+                    },
+                    "subject": "Payload",
+                    "object": "Remarks"
+                }
+            ],
+            "table": "Unnamed table in section '2009'",
+            "colums": [
+                "Date/Time\n(UTC)",
+                "Rocket",
+                "S/N",
+                "Launch Site",
+                "Payload",
+                "Function",
+                "Orbit",
+                "Outcome",
+                "Remarks"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,563 @@
+{
+    "no. of tables": 7,
+    "page": "List of NCAA college football rivalry games",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.01,
+                        "http://dbpedia.org/property/trophy": 0.1,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/name": 0.01
+                    },
+                    "subject": "Game",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.44
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.44
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.12,
+                        "http://dbpedia.org/property/firstMeetingDate": 0.09
+                    },
+                    "subject": "Game",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.01
+                    },
+                    "subject": "Game",
+                    "object": "Final Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.1
+                    },
+                    "subject": "Trophy",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.07
+                    },
+                    "subject": "Trophy",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.07
+                    },
+                    "subject": "Trophy",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.03,
+                        "http://dbpedia.org/property/firstMeetingDate": 0.04
+                    },
+                    "subject": "Trophy",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.03,
+                        "http://dbpedia.org/property/pagfreevalue": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.01,
+                        "http://dbpedia.org/property/pagfreevalue": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/mascotdisplay": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.1,
+                        "http://dbpedia.org/property/startyear": 0.03,
+                        "http://dbpedia.org/property/endyear": 0.02,
+                        "http://dbpedia.org/property/firstyear": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentseason": 0.01,
+                        "http://dbpedia.org/property/endyear": 0.01,
+                        "http://dbpedia.org/property/year": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Final Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.03,
+                        "http://dbpedia.org/property/pagfreevalue": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.01,
+                        "http://dbpedia.org/property/pagfreevalue": 0.01
+                    },
+                    "subject": "Team",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/mascotdisplay": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.1,
+                        "http://dbpedia.org/property/startyear": 0.03,
+                        "http://dbpedia.org/property/endyear": 0.02,
+                        "http://dbpedia.org/property/firstyear": 0.09
+                    },
+                    "subject": "Team",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentseason": 0.01,
+                        "http://dbpedia.org/property/endyear": 0.01,
+                        "http://dbpedia.org/property/year": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Final Year"
+                }
+            ],
+            "table": "Unnamed table in section 'NCAA Division I Football Bowl Subdivision'",
+            "colums": [
+                "Game",
+                "Trophy",
+                "Team",
+                "Team",
+                "First Year",
+                "Final Year"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.29,
+                        "http://dbpedia.org/property/firstyear": 0.14
+                    },
+                    "subject": "Teams",
+                    "object": "First meeting"
+                }
+            ],
+            "table": "Unnamed table in section 'NCAA Division I Football Bowl Subdivision'",
+            "colums": [
+                "Game",
+                "Trophy",
+                "Teams",
+                "First meeting",
+                "Final meeting"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.02,
+                        "http://dbpedia.org/property/trophy": 0.06
+                    },
+                    "subject": "Game",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.22
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.22
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.02,
+                        "http://dbpedia.org/property/years": 0.04,
+                        "http://dbpedia.org/property/firstMeetingDate": 0.02
+                    },
+                    "subject": "Game",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/prevMatchupYear": 0.02,
+                        "http://dbpedia.org/property/year": 0.02,
+                        "http://dbpedia.org/property/prevMatchupSeason": 0.02
+                    },
+                    "subject": "Game",
+                    "object": "Final Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/trophy": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.14
+                    },
+                    "subject": "Trophy",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.12
+                    },
+                    "subject": "Trophy",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.12
+                    },
+                    "subject": "Trophy",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pagfreevalue": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pagfreevalue": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldname": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.02,
+                        "http://dbpedia.org/property/stadiumbuilt": 0.02,
+                        "http://dbpedia.org/property/firstyear": 0.12
+                    },
+                    "subject": "Team",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentseason": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Final Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pagfreevalue": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pagfreevalue": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/fieldname": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.02,
+                        "http://dbpedia.org/property/stadiumbuilt": 0.02,
+                        "http://dbpedia.org/property/firstyear": 0.12
+                    },
+                    "subject": "Team",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/currentseason": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Final Year"
+                }
+            ],
+            "table": "Unnamed table in section 'NCAA Division I Football Championship Subdivision'",
+            "colums": [
+                "Game",
+                "Trophy",
+                "Team",
+                "Team",
+                "First Year",
+                "Final Year"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/trophy": 0.08
+                    },
+                    "subject": "Game",
+                    "object": "Trophy"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.04
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.04
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.08
+                    },
+                    "subject": "Game",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.04
+                    },
+                    "subject": "Team",
+                    "object": "Team"
+                }
+            ],
+            "table": "Unnamed table in section 'NCAA Division II'",
+            "colums": [
+                "Game",
+                "Trophy",
+                "Team",
+                "Team",
+                "First Year",
+                "Final Year"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.02
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.02
+                    },
+                    "subject": "Game",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.02,
+                        "http://dbpedia.org/property/firstMeetingDate": 0.02
+                    },
+                    "subject": "Game",
+                    "object": "First Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.02
+                    },
+                    "subject": "Trophy",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.02
+                    },
+                    "subject": "Trophy",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Game"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gamename": 0.02
+                    },
+                    "subject": "Team",
+                    "object": "Game"
+                }
+            ],
+            "table": "Unnamed table in section 'NCAA Division III'",
+            "colums": [
+                "Game",
+                "Trophy",
+                "Team",
+                "Team",
+                "First Year",
+                "Final Year"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/division": 0.07
+                    },
+                    "subject": "Series",
+                    "object": "NCAA Div."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/firstyear": 0.07
+                    },
+                    "subject": "Series",
+                    "object": "First meeting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.36
+                    },
+                    "subject": "Series nickname",
+                    "object": "Series"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.14
+                    },
+                    "subject": "Series nickname",
+                    "object": "Continuous\nsince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.14,
+                        "http://dbpedia.org/property/firstMeetingDate": 0.14
+                    },
+                    "subject": "Series nickname",
+                    "object": "First meeting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/visitorNameShort": 0.07,
+                        "http://dbpedia.org/property/host": 0.07,
+                        "http://dbpedia.org/property/rivalryteam": 0.14,
+                        "http://dbpedia.org/property/winner": 0.07
+                    },
+                    "subject": "Series nickname",
+                    "object": "Series leader"
+                }
+            ],
+            "table": "Unnamed table in section 'Longest continuous NCAA college football rivalries'",
+            "colums": [
+                "Series",
+                "Continuous\nsince",
+                "Series nickname",
+                "NCAA Div.",
+                "First meeting",
+                "Series leader",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/year": 0.22,
+                        "http://dbpedia.org/property/startyear": 0.22,
+                        "http://dbpedia.org/property/endyear": 0.22
+                    },
+                    "subject": "Series",
+                    "object": "First meeting"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conf": 0.22
+                    },
+                    "subject": "Series",
+                    "object": "Notes / reason for interruption"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivision": 0.11
+                    },
+                    "subject": "Notes / reason for interruption",
+                    "object": "NCAA Div."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/established": 0.11
+                    },
+                    "subject": "Notes / reason for interruption",
+                    "object": "First meeting"
+                }
+            ],
+            "table": "Unnamed table in section 'Longest continuous NCAA college football rivalries'",
+            "colums": [
+                "Series",
+                "Continuous\nyears",
+                "Length",
+                "NCAA Div.",
+                "First meeting",
+                "Notes / reason for interruption"
+            ]
+        }
+    ]
+}

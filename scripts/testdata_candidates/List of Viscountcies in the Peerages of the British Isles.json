@@ -1,0 +1,255 @@
+{
+    "no. of tables": 6,
+    "page": "List of viscountcies in the peerages of Britain and Ireland",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Peerages and baronetcies of Britain and Ireland",
+            "colums": [
+                "Extant",
+                "All"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Date of creation"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/surname": 0.03
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.48,
+                        "http://dbpedia.org/property/title": 0.04,
+                        "http://dbpedia.org/property/presentHolder": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.12,
+                        "http://dbpedia.org/property/title": 0.02,
+                        "http://dbpedia.org/property/presentHolder": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Date of creation"
+                }
+            ],
+            "table": "Unnamed table in section 'Viscountcies'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.67,
+                        "http://dbpedia.org/property/heirApparent": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.18,
+                        "http://dbpedia.org/property/heirApparent": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                }
+            ],
+            "table": "Unnamed table in section 'Viscountcies'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.72,
+                        "http://dbpedia.org/property/heirApparent": 0.01,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.21,
+                        "http://dbpedia.org/property/heirApparent": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/name": 0.01,
+                        "http://xmlns.com/foaf/0.1/name": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Surname"
+                }
+            ],
+            "table": "Unnamed table in section 'Viscountcies'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Date of creation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/alias": 0.01,
+                        "http://xmlns.com/foaf/0.1/surname": 0.01,
+                        "http://dbpedia.org/property/alternativeNames": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.44,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.13,
+                        "http://dbpedia.org/property/title": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.0
+                    },
+                    "subject": "Notes",
+                    "object": "Date of creation"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/alias": 0.01,
+                        "http://dbpedia.org/property/alternativeNames": 0.01
+                    },
+                    "subject": "Notes",
+                    "object": "Surname"
+                }
+            ],
+            "table": "Unnamed table in section 'Viscountcies'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.02
+                    },
+                    "subject": "Title",
+                    "object": "Date of creation"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/surname": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Surname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.48,
+                        "http://dbpedia.org/property/title": 0.08
+                    },
+                    "subject": "Title",
+                    "object": "Notes"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.34,
+                        "http://dbpedia.org/property/heirApparent": 0.01,
+                        "http://dbpedia.org/property/title": 0.08,
+                        "http://dbpedia.org/property/subsidiaryTitles": 0.0
+                    },
+                    "subject": "Notes",
+                    "object": "Title"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.02
+                    },
+                    "subject": "Notes",
+                    "object": "Date of creation"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/surname": 0.03
+                    },
+                    "subject": "Notes",
+                    "object": "Surname"
+                }
+            ],
+            "table": "Unnamed table in section 'Viscountcies'",
+            "colums": [
+                "Title",
+                "Date of creation",
+                "Surname",
+                "Current status",
+                "Notes"
+            ]
+        }
+    ]
+}

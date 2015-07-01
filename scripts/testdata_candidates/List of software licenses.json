@@ -1,0 +1,237 @@
+{
+    "no. of tables": 2,
+    "page": "Comparison of free and open-source software licenses",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/publisher": 0.05,
+                        "http://dbpedia.org/property/debianApproved": 0.02,
+                        "http://dbpedia.org/property/copyright": 0.19,
+                        "http://dbpedia.org/property/author": 0.6
+                    },
+                    "subject": "License",
+                    "object": "Author"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/linking": 0.02,
+                        "http://dbpedia.org/property/copyleft": 0.02,
+                        "http://dbpedia.org/property/version": 0.19
+                    },
+                    "subject": "License",
+                    "object": "Latest version"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.12,
+                        "http://dbpedia.org/property/linking": 0.02,
+                        "http://dbpedia.org/property/debianApproved": 0.05,
+                        "http://dbpedia.org/property/copyleft": 0.02,
+                        "http://dbpedia.org/property/copyright": 0.02
+                    },
+                    "subject": "License",
+                    "object": "Publication date"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/linking": 0.02,
+                        "http://dbpedia.org/property/copyleft": 0.07
+                    },
+                    "subject": "License",
+                    "object": "Linking"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.05,
+                        "http://dbpedia.org/property/linking": 0.02,
+                        "http://dbpedia.org/property/debianApproved": 0.1,
+                        "http://dbpedia.org/property/copyleft": 0.05
+                    },
+                    "subject": "License",
+                    "object": "Distribution"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/linking": 0.02,
+                        "http://dbpedia.org/property/copyleft": 0.1
+                    },
+                    "subject": "License",
+                    "object": "Modification"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.05,
+                        "http://dbpedia.org/property/debianApproved": 0.24,
+                        "http://dbpedia.org/property/osiApproved": 0.14,
+                        "http://dbpedia.org/property/gplCompatible": 0.07,
+                        "http://dbpedia.org/property/linking": 0.12,
+                        "http://dbpedia.org/property/copyleft": 0.1,
+                        "http://dbpedia.org/property/freeSoftware": 0.14
+                    },
+                    "subject": "License",
+                    "object": "Patent grant"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.05,
+                        "http://dbpedia.org/property/copyfree": 0.05,
+                        "http://dbpedia.org/property/debianApproved": 0.26,
+                        "http://dbpedia.org/property/osiApproved": 0.17,
+                        "http://dbpedia.org/property/gplCompatible": 0.1,
+                        "http://dbpedia.org/property/linking": 0.19,
+                        "http://dbpedia.org/property/copyleft": 0.07,
+                        "http://dbpedia.org/property/freeSoftware": 0.19
+                    },
+                    "subject": "License",
+                    "object": "Private use"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/date": 0.05,
+                        "http://dbpedia.org/property/linking": 0.02,
+                        "http://dbpedia.org/property/debianApproved": 0.1,
+                        "http://dbpedia.org/property/copyleft": 0.05
+                    },
+                    "subject": "License",
+                    "object": "Sublicensing"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.05,
+                        "http://dbpedia.org/property/date": 0.05,
+                        "http://dbpedia.org/property/debianApproved": 0.17,
+                        "http://dbpedia.org/property/osiApproved": 0.07,
+                        "http://dbpedia.org/property/gplCompatible": 0.05,
+                        "http://dbpedia.org/property/linking": 0.05,
+                        "http://dbpedia.org/property/copyleft": 0.12,
+                        "http://dbpedia.org/property/freeSoftware": 0.07
+                    },
+                    "subject": "License",
+                    "object": "Grants TM"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/method": 0.02,
+                        "http://dbpedia.org/property/license": 0.02
+                    },
+                    "subject": "Author",
+                    "object": "License"
+                }
+            ],
+            "table": "Unnamed table in section 'General comparison'",
+            "colums": [
+                "License",
+                "Author",
+                "Latest version",
+                "Publication date",
+                "Linking",
+                "Distribution",
+                "Modification",
+                "Patent grant",
+                "Private use",
+                "Sublicensing",
+                "Grants TM"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.1,
+                        "http://dbpedia.org/property/debianApproved": 0.52,
+                        "http://dbpedia.org/property/fsfApproved": 0.04,
+                        "http://dbpedia.org/property/osiApproved": 0.71,
+                        "http://dbpedia.org/property/gplCompatible": 0.42,
+                        "http://dbpedia.org/property/linking": 0.48,
+                        "http://dbpedia.org/property/copyleft": 0.25,
+                        "http://dbpedia.org/property/freeSoftware": 0.73
+                    },
+                    "subject": "License and version",
+                    "object": "FSF approval\n[20]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.29,
+                        "http://dbpedia.org/property/debianApproved": 0.4,
+                        "http://dbpedia.org/property/fsfApproved": 0.04,
+                        "http://dbpedia.org/property/osiApproved": 0.4,
+                        "http://dbpedia.org/property/gplCompatible": 0.65,
+                        "http://dbpedia.org/property/linking": 0.29,
+                        "http://dbpedia.org/property/copyleft": 0.27,
+                        "http://dbpedia.org/property/freeSoftware": 0.38
+                    },
+                    "subject": "License and version",
+                    "object": "GPL (v3) compatibility\n[21][22][23][24][25]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.04,
+                        "http://dbpedia.org/property/debianApproved": 0.48,
+                        "http://dbpedia.org/property/fsfApproved": 0.02,
+                        "http://dbpedia.org/property/osiApproved": 0.81,
+                        "http://dbpedia.org/property/gplCompatible": 0.35,
+                        "http://dbpedia.org/property/linking": 0.48,
+                        "http://dbpedia.org/property/copyleft": 0.31,
+                        "http://dbpedia.org/property/freeSoftware": 0.67
+                    },
+                    "subject": "License and version",
+                    "object": "OSI approval\n[26]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.46,
+                        "http://dbpedia.org/property/debianApproved": 0.17,
+                        "http://dbpedia.org/property/fsfApproved": 0.02,
+                        "http://dbpedia.org/property/osiApproved": 0.08,
+                        "http://dbpedia.org/property/gplCompatible": 0.4,
+                        "http://dbpedia.org/property/linking": 0.17,
+                        "http://dbpedia.org/property/copyleft": 0.33,
+                        "http://dbpedia.org/property/freeSoftware": 0.1
+                    },
+                    "subject": "License and version",
+                    "object": "Copyfree approval\n[27][28]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.12,
+                        "http://dbpedia.org/property/debianApproved": 0.58,
+                        "http://dbpedia.org/property/fsfApproved": 0.04,
+                        "http://dbpedia.org/property/osiApproved": 0.54,
+                        "http://dbpedia.org/property/gplCompatible": 0.48,
+                        "http://dbpedia.org/property/linking": 0.4,
+                        "http://dbpedia.org/property/copyleft": 0.31,
+                        "http://dbpedia.org/property/freeSoftware": 0.5
+                    },
+                    "subject": "License and version",
+                    "object": "Debian approval\n[29][30]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/copyfree": 0.1,
+                        "http://dbpedia.org/property/debianApproved": 0.5,
+                        "http://dbpedia.org/property/fsfApproved": 0.04,
+                        "http://dbpedia.org/property/osiApproved": 0.67,
+                        "http://dbpedia.org/property/gplCompatible": 0.4,
+                        "http://dbpedia.org/property/linking": 0.46,
+                        "http://dbpedia.org/property/copyleft": 0.25,
+                        "http://dbpedia.org/property/freeSoftware": 0.69
+                    },
+                    "subject": "License and version",
+                    "object": "Fedora approval\n[31]"
+                }
+            ],
+            "table": "Unnamed table in section 'Approvals'",
+            "colums": [
+                "License and version",
+                "FSF approval\n[20]",
+                "GPL (v3) compatibility\n[21][22][23][24][25]",
+                "OSI approval\n[26]",
+                "Copyfree approval\n[27][28]",
+                "Debian approval\n[29][30]",
+                "Fedora approval\n[31]"
+            ]
+        }
+    ]
+}

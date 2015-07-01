@@ -1,0 +1,352 @@
+{
+    "no. of tables": 6,
+    "page": "List of Brussels Metro stations",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Name in French",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Name in French",
+                    "object": "Name in Dutch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.67
+                    },
+                    "subject": "Name in French",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owned": 0.05,
+                        "http://dbpedia.org/ontology/owningOrganisation": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05
+                    },
+                    "subject": "Name in French",
+                    "object": "Interchange"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.05
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.33
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.67
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/owned": 0.05,
+                        "http://dbpedia.org/ontology/owningOrganisation": 0.05,
+                        "http://dbpedia.org/ontology/owner": 0.05
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Interchange"
+                }
+            ],
+            "table": "Unnamed table in section 'Line 1'",
+            "colums": [
+                "#",
+                "Name in French",
+                "Name in Dutch",
+                "Opened",
+                "Interchange",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Name in French",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.21
+                    },
+                    "subject": "Name in French",
+                    "object": "Name in Dutch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.05,
+                        "http://dbpedia.org/property/opened": 0.47,
+                        "http://dbpedia.org/property/rebuilt": 0.05
+                    },
+                    "subject": "Name in French",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.21
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.05,
+                        "http://dbpedia.org/property/opened": 0.47,
+                        "http://dbpedia.org/property/rebuilt": 0.05
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/regions": 0.05
+                    },
+                    "subject": "Interchange",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/regions": 0.05
+                    },
+                    "subject": "Interchange",
+                    "object": "Name in Dutch"
+                }
+            ],
+            "table": "Unnamed table in section 'Line 2'",
+            "colums": [
+                "#",
+                "Name in French",
+                "Name in Dutch",
+                "Opened",
+                "Interchange",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.18
+                    },
+                    "subject": "Name in French",
+                    "object": "Name in Dutch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.79
+                    },
+                    "subject": "Name in French",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.18
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.79
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Line 5'",
+            "colums": [
+                "#",
+                "Name in French",
+                "Name in Dutch",
+                "Opened",
+                "Interchange",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.27
+                    },
+                    "subject": "Name in French",
+                    "object": "Name in Dutch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.04,
+                        "http://dbpedia.org/property/opened": 0.62,
+                        "http://dbpedia.org/property/rebuilt": 0.04
+                    },
+                    "subject": "Name in French",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.27
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/closed": 0.04,
+                        "http://dbpedia.org/property/opened": 0.62,
+                        "http://dbpedia.org/property/rebuilt": 0.04
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Line 6'",
+            "colums": [
+                "#",
+                "Name in French",
+                "Name in Dutch",
+                "Opened",
+                "Interchange",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.18,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.18
+                    },
+                    "subject": "Name in French",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.45
+                    },
+                    "subject": "Name in French",
+                    "object": "Name in Dutch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.09,
+                        "http://dbpedia.org/property/rebuilt": 0.09
+                    },
+                    "subject": "Name in French",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.18,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.18
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.45
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.09,
+                        "http://dbpedia.org/property/rebuilt": 0.09
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/regions": 0.09
+                    },
+                    "subject": "Interchange",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/regions": 0.09
+                    },
+                    "subject": "Interchange",
+                    "object": "Name in Dutch"
+                }
+            ],
+            "table": "Unnamed table in section 'North-South axis'",
+            "colums": [
+                "#",
+                "Name in French",
+                "Name in Dutch",
+                "Opened",
+                "Interchange",
+                "Coordinates"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Name in French",
+                    "object": "Name in Dutch"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.25
+                    },
+                    "subject": "Name in French",
+                    "object": "Opened"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.25
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Name in French"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/opened": 0.25
+                    },
+                    "subject": "Name in Dutch",
+                    "object": "Opened"
+                }
+            ],
+            "table": "Unnamed table in section 'Greater Ring Axis'",
+            "colums": [
+                "#",
+                "Name in French",
+                "Name in Dutch",
+                "Opened",
+                "Interchange",
+                "Coordinates"
+            ]
+        }
+    ]
+}

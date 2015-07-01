@@ -1,0 +1,47 @@
+{
+    "no. of tables": 1,
+    "page": "List of Aberdeen F.C. records and statistics",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.1,
+                        "http://dbpedia.org/property/longd": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "#"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "League Cup"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/establishedDate": 0.1,
+                        "http://dbpedia.org/property/utcOffset": 0.1,
+                        "http://dbpedia.org/property/longs": 0.1,
+                        "http://dbpedia.org/property/lats": 0.1,
+                        "http://dbpedia.org/property/longm": 0.1
+                    },
+                    "subject": "Name",
+                    "object": "Europe"
+                }
+            ],
+            "table": "Unnamed table in section 'Player records'",
+            "colums": [
+                "#",
+                "Name",
+                "Years",
+                "League",
+                "Scottish Cup",
+                "League Cup",
+                "Europe",
+                "Total"
+            ]
+        }
+    ]
+}

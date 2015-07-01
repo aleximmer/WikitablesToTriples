@@ -1,0 +1,209 @@
+{
+    "no. of tables": 2,
+    "page": "List of Frank Lloyd Wright works",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/locationTown": 0.01,
+                        "http://dbpedia.org/ontology/locationCity": 0.0,
+                        "http://dbpedia.org/property/location": 0.29,
+                        "http://dbpedia.org/property/city": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.44,
+                        "http://dbpedia.org/ontology/nearestCity": 0.01,
+                        "http://dbpedia.org/property/nearestCity": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/locationCountry": 0.0,
+                        "http://dbpedia.org/ontology/country": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.0,
+                        "http://dbpedia.org/property/locationTown": 0.0,
+                        "http://dbpedia.org/property/location": 0.13,
+                        "http://dbpedia.org/ontology/state": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.18
+                    },
+                    "subject": "Name",
+                    "object": "State/Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.21,
+                        "http://dbpedia.org/property/startDate": 0.05,
+                        "http://dbpedia.org/property/completionDate": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Designed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.21,
+                        "http://dbpedia.org/property/startDate": 0.06,
+                        "http://dbpedia.org/property/completionDate": 0.01
+                    },
+                    "subject": "Name",
+                    "object": "Built"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/governingBody": 0.0,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.0,
+                        "http://dbpedia.org/property/governingBody": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/ontology/architect": 0.0,
+                        "http://dbpedia.org/property/architect": 0.0
+                    },
+                    "subject": "Name",
+                    "object": "Other Information"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.0,
+                        "http://dbpedia.org/property/pushpinMap": 0.17
+                    },
+                    "subject": "City",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.09,
+                        "http://dbpedia.org/ontology/state": 0.18,
+                        "http://dbpedia.org/ontology/isPartOf": 0.76,
+                        "http://dbpedia.org/property/countryAdminDivisions": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.51
+                    },
+                    "subject": "City",
+                    "object": "State/Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.01,
+                        "http://dbpedia.org/property/capital": 0.01
+                    },
+                    "subject": "Country",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestmetro": 0.0,
+                        "http://dbpedia.org/ontology/capital": 0.05,
+                        "http://dbpedia.org/property/capital": 0.05,
+                        "http://dbpedia.org/property/largestmetroarea": 0.0,
+                        "http://dbpedia.org/property/label": 0.0,
+                        "http://dbpedia.org/ontology/largestCity": 0.13,
+                        "http://dbpedia.org/property/largestcity": 0.13
+                    },
+                    "subject": "State/Province",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.0
+                    },
+                    "subject": "State/Province",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/highestelevus": 0.0
+                    },
+                    "subject": "State/Province",
+                    "object": "Designed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/property/east": 0.0,
+                        "http://dbpedia.org/property/north": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.0
+                    },
+                    "subject": "Other Information",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/countriesAffected": 0.0
+                    },
+                    "subject": "Other Information",
+                    "object": "Country"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/placeOfDeath": 0.01,
+                        "http://dbpedia.org/ontology/isPartOf": 0.0,
+                        "http://dbpedia.org/property/location": 0.0,
+                        "http://dbpedia.org/ontology/deathPlace": 0.01,
+                        "http://dbpedia.org/property/state": 0.0,
+                        "http://dbpedia.org/ontology/state": 0.0,
+                        "http://dbpedia.org/ontology/location": 0.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.0
+                    },
+                    "subject": "Other Information",
+                    "object": "State/Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.0
+                    },
+                    "subject": "Other Information",
+                    "object": "Designed"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/built": 0.0
+                    },
+                    "subject": "Other Information",
+                    "object": "Built"
+                }
+            ],
+            "table": "Completed Works table",
+            "colums": [
+                "Name",
+                "City",
+                "Country",
+                "State/Province",
+                "Designed",
+                "Built",
+                "Other Information",
+                "Image"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/locationCity": 0.09,
+                        "http://dbpedia.org/property/city": 0.09,
+                        "http://dbpedia.org/ontology/location": 0.09
+                    },
+                    "subject": "Name",
+                    "object": "City, State/Country"
+                }
+            ],
+            "table": "Unnamed table in section 'Posthumous constructions'",
+            "colums": [
+                "Name",
+                "City, State/Country",
+                "Designed",
+                "Built",
+                "Other Information",
+                "Image"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,179 @@
+{
+    "no. of tables": 1,
+    "page": "Counties of Romania",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.07,
+                        "http://dbpedia.org/ontology/isPartOf": 0.5,
+                        "http://dbpedia.org/property/subdivisionName": 0.48,
+                        "http://dbpedia.org/property/lcapital": 0.02
+                    },
+                    "subject": "County",
+                    "object": "County seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/developmentRegion": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.48,
+                        "http://dbpedia.org/property/ldevelopmentRegion": 0.45,
+                        "http://dbpedia.org/property/subdivisionName": 0.48
+                    },
+                    "subject": "County",
+                    "object": "Development\nregion"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ind": 0.48,
+                        "http://dbpedia.org/property/blankInfoSec": 0.02
+                    },
+                    "subject": "County",
+                    "object": "ISO code\n[note 3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/ontology/populationTotalRanking": 0.02,
+                        "http://dbpedia.org/property/postalCode": 0.48,
+                        "http://dbpedia.org/property/areaRank": 0.02
+                    },
+                    "subject": "County",
+                    "object": "Postal code\n[note 4][18]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationRank": 0.02,
+                        "http://dbpedia.org/property/telpref": 0.45
+                    },
+                    "subject": "County",
+                    "object": "Area code\n[note 5][19]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/subdivisionType": 0.02,
+                        "http://dbpedia.org/ontology/isPartOf": 0.76,
+                        "http://dbpedia.org/property/subdivisionName": 0.26
+                    },
+                    "subject": "County seat",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/registrationPlate": 0.17,
+                        "http://dbpedia.org/property/blankInfoSec": 0.05,
+                        "http://dbpedia.org/property/blankInfo": 0.1
+                    },
+                    "subject": "County seat",
+                    "object": "ISO code\n[note 3]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/mayLowC": 0.02,
+                        "http://dbpedia.org/property/postalCode": 0.1,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/marHighC": 0.02,
+                        "http://dbpedia.org/property/novHighC": 0.02,
+                        "http://dbpedia.org/property/longd": 0.05,
+                        "http://dbpedia.org/property/sepPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/aprPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/febRecordHighF": 0.02
+                    },
+                    "subject": "County seat",
+                    "object": "Postal code\n[note 4][18]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/aprPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/latd": 0.02
+                    },
+                    "subject": "County seat",
+                    "object": "Area code\n[note 5][19]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.05,
+                        "http://dbpedia.org/property/mouthDistrict": 0.02,
+                        "http://dbpedia.org/property/district": 0.33,
+                        "http://dbpedia.org/ontology/region": 0.02,
+                        "http://dbpedia.org/ontology/district": 0.36,
+                        "http://dbpedia.org/property/sourceDistrict": 0.02,
+                        "http://dbpedia.org/property/region": 0.02
+                    },
+                    "subject": "Name origin\n[note 2][17]",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.19,
+                        "http://dbpedia.org/ontology/mouthPlace": 0.02,
+                        "http://dbpedia.org/property/mouthLocation": 0.02,
+                        "http://dbpedia.org/property/city": 0.19,
+                        "http://dbpedia.org/ontology/mouthMountain": 0.02
+                    },
+                    "subject": "Name origin\n[note 2][17]",
+                    "object": "County seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mouthLatM": 0.02,
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/property/longd": 0.02
+                    },
+                    "subject": "Name origin\n[note 2][17]",
+                    "object": "Postal code\n[note 4][18]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mouthLatD": 0.02,
+                        "http://dbpedia.org/property/sourceLatD": 0.02,
+                        "http://dbpedia.org/property/mouthLongM": 0.02
+                    },
+                    "subject": "Name origin\n[note 2][17]",
+                    "object": "Area code\n[note 5][19]"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02
+                    },
+                    "subject": "Development\nregion",
+                    "object": "County"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.17,
+                        "http://dbpedia.org/property/subdivisionName": 0.17
+                    },
+                    "subject": "Development\nregion",
+                    "object": "County seat"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02
+                    },
+                    "subject": "Development\nregion",
+                    "object": "Postal code\n[note 4][18]"
+                }
+            ],
+            "table": "Unnamed table in section 'Current list'",
+            "colums": [
+                "County",
+                "County seat",
+                "Name origin\n[note 2][17]",
+                "Development\nregion",
+                "ISO code\n[note 3]",
+                "Postal code\n[note 4][18]",
+                "Area code\n[note 5][19]",
+                "NUTS code\n[note 6][20]",
+                "Population\n(2011)[21]",
+                "Area\n[22]",
+                "Map"
+            ]
+        }
+    ]
+}

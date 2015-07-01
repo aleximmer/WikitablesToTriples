@@ -1,0 +1,280 @@
+{
+    "no. of tables": 4,
+    "page": "List of FIFA World Cup finals",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.8
+                    },
+                    "subject": "Year",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/text": 0.05,
+                        "http://dbpedia.org/property/stadium": 0.8
+                    },
+                    "subject": "Year",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/stadium": 0.15,
+                        "http://dbpedia.org/property/homeStadium": 0.1,
+                        "http://dbpedia.org/property/stadium": 0.1
+                    },
+                    "subject": "Winners",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/property/stadium": 0.05
+                    },
+                    "subject": "Winners",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.95,
+                        "http://dbpedia.org/ontology/team": 0.95
+                    },
+                    "subject": "Final score[3]",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.95,
+                        "http://dbpedia.org/ontology/team": 0.95
+                    },
+                    "subject": "Final score[3]",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 1.0,
+                        "http://dbpedia.org/ontology/location": 1.0
+                    },
+                    "subject": "Final score[3]",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.9,
+                        "http://dbpedia.org/property/city": 0.85,
+                        "http://dbpedia.org/property/stadium": 0.85
+                    },
+                    "subject": "Final score[3]",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/stadium": 0.2
+                    },
+                    "subject": "Runners-up",
+                    "object": "Venue"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/property/stadium": 0.15
+                    },
+                    "subject": "Runners-up",
+                    "object": "Location"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.15
+                    },
+                    "subject": "Venue",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.15,
+                        "http://dbpedia.org/ontology/location": 0.05,
+                        "http://dbpedia.org/property/tenants": 0.15
+                    },
+                    "subject": "Venue",
+                    "object": "Winners"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.05,
+                        "http://dbpedia.org/property/tenants": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.05
+                    },
+                    "subject": "Venue",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.35,
+                        "http://dbpedia.org/property/owner": 0.1,
+                        "http://dbpedia.org/ontology/owner": 0.1,
+                        "http://dbpedia.org/ontology/location": 0.95
+                    },
+                    "subject": "Venue",
+                    "object": "Location"
+                }
+            ],
+            "table": "List of finals matches, their venues and locations, the finalists and final scores",
+            "colums": [
+                "Year",
+                "Winners",
+                "Final score[3]",
+                "Runners-up",
+                "Venue",
+                "Location",
+                "Attendance",
+                "References"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.92,
+                        "http://dbpedia.org/property/quoted": 0.08,
+                        "http://dbpedia.org/property/confederationsCupApps": 0.08,
+                        "http://dbpedia.org/property/socks": 0.17,
+                        "http://dbpedia.org/property/shorts": 0.17,
+                        "http://dbpedia.org/property/no": 0.67,
+                        "http://dbpedia.org/property/fifaMax": 0.25,
+                        "http://dbpedia.org/property/goals": 0.92,
+                        "http://dbpedia.org/property/firstGame": 0.33,
+                        "http://dbpedia.org/property/eloMax": 0.25,
+                        "http://dbpedia.org/property/rightarm": 0.08,
+                        "http://dbpedia.org/property/fifaRank": 0.08,
+                        "http://dbpedia.org/property/attendance": 0.08,
+                        "http://dbpedia.org/property/body": 0.08,
+                        "http://dbpedia.org/property/leftarm": 0.08,
+                        "http://dbpedia.org/property/score": 0.75,
+                        "http://dbpedia.org/property/penaltyscore": 0.08
+                    },
+                    "subject": "National team",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/largestLoss": 0.08,
+                        "http://dbpedia.org/property/confederationsCupApps": 0.17,
+                        "http://dbpedia.org/property/socks": 0.17,
+                        "http://dbpedia.org/property/regionalCupApps": 0.08,
+                        "http://dbpedia.org/property/no": 0.58,
+                        "http://dbpedia.org/property/shorts": 0.17,
+                        "http://dbpedia.org/property/goals": 0.83,
+                        "http://dbpedia.org/property/firstGame": 0.08,
+                        "http://dbpedia.org/property/eloMax": 0.08,
+                        "http://dbpedia.org/property/largestWin": 0.08,
+                        "http://dbpedia.org/property/rightarm": 0.08,
+                        "http://dbpedia.org/property/caps": 0.83,
+                        "http://dbpedia.org/property/body": 0.08,
+                        "http://dbpedia.org/property/title": 0.08,
+                        "http://dbpedia.org/property/fifaMax": 0.08,
+                        "http://dbpedia.org/property/leftarm": 0.08,
+                        "http://dbpedia.org/property/score": 0.75,
+                        "http://dbpedia.org/property/penaltyscore": 0.08
+                    },
+                    "subject": "National team",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/caps": 0.92,
+                        "http://dbpedia.org/property/quoted": 0.08,
+                        "http://dbpedia.org/property/confederationsCupApps": 0.25,
+                        "http://dbpedia.org/property/regionalCupApps": 0.08,
+                        "http://dbpedia.org/property/no": 0.83,
+                        "http://dbpedia.org/property/fifaMax": 0.17,
+                        "http://dbpedia.org/property/goals": 0.67,
+                        "http://dbpedia.org/property/firstGame": 0.25,
+                        "http://dbpedia.org/property/eloMax": 0.17,
+                        "http://dbpedia.org/property/fifaRank": 0.08,
+                        "http://dbpedia.org/property/title": 0.08,
+                        "http://dbpedia.org/property/score": 0.58,
+                        "http://dbpedia.org/property/penaltyscore": 0.08
+                    },
+                    "subject": "National team",
+                    "object": "Total finals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.25,
+                        "http://dbpedia.org/property/confederations": 0.17,
+                        "http://dbpedia.org/property/score": 0.58
+                    },
+                    "subject": "Years won",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.08,
+                        "http://dbpedia.org/property/confederations": 0.08,
+                        "http://dbpedia.org/property/score": 0.58
+                    },
+                    "subject": "Years won",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.17,
+                        "http://dbpedia.org/property/confederations": 0.08,
+                        "http://dbpedia.org/property/cities": 0.08,
+                        "http://dbpedia.org/property/score": 0.5
+                    },
+                    "subject": "Years won",
+                    "object": "Total finals"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/penaltyscore": 0.08,
+                        "http://dbpedia.org/property/score": 0.67
+                    },
+                    "subject": "Years runners-up",
+                    "object": "Wins"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.25,
+                        "http://dbpedia.org/property/venues": 0.08,
+                        "http://dbpedia.org/property/score": 0.67,
+                        "http://dbpedia.org/property/penaltyscore": 0.08
+                    },
+                    "subject": "Years runners-up",
+                    "object": "Runners-up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/count": 0.17,
+                        "http://dbpedia.org/property/venues": 0.08,
+                        "http://dbpedia.org/property/score": 0.5
+                    },
+                    "subject": "Years runners-up",
+                    "object": "Total finals"
+                }
+            ],
+            "table": "Unnamed table in section 'Results by nation'",
+            "colums": [
+                "National team",
+                "Wins",
+                "Runners-up",
+                "Total finals",
+                "Years won",
+                "Years runners-up"
+            ]
+        },
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'Results by confederation'",
+            "colums": [
+                "Confederation",
+                "Appearances",
+                "Winners",
+                "Runners-up"
+            ]
+        }
+    ]
+}

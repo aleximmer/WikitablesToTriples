@@ -1,0 +1,17 @@
+{
+    "no. of tables": 1,
+    "page": "List of 1987 box office number-one films in the United States",
+    "tables": [
+        {
+            "predicates": [],
+            "table": "Unnamed table in section 'List of 1987 box office number-one films in the United States'",
+            "colums": [
+                "#",
+                "Weekend end date",
+                "Film",
+                "Box office",
+                "Notes"
+            ]
+        }
+    ]
+}

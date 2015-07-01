@@ -1,0 +1,328 @@
+{
+    "no. of tables": 5,
+    "page": "List of Russian national ice hockey team rosters",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightFt": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 0.92
+                    },
+                    "subject": "Name",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.04,
+                        "http://dbpedia.org/property/placeOfBirth": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "2013\u201314 team\n[\n\nv\nt\ne\n\n]\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/novPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/mayRainDays": 0.04,
+                        "http://dbpedia.org/property/junLowC": 0.04,
+                        "http://dbpedia.org/property/maySnowDays": 0.04,
+                        "http://dbpedia.org/property/novHumidity": 0.04
+                    },
+                    "subject": "Birthplace",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.32
+                    },
+                    "subject": "Birthplace",
+                    "object": "2013\u201314 team\n[\n\nv\nt\ne\n\n]\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/efRank": 0.04,
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/ef": 0.04
+                    },
+                    "subject": "2013\u201314 team\n[\n\nv\nt\ne\n\n]\n",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.08,
+                        "http://dbpedia.org/property/capital": 0.08
+                    },
+                    "subject": "2013\u201314 team\n[\n\nv\nt\ne\n\n]\n",
+                    "object": "Birthplace"
+                }
+            ],
+            "table": "Unnamed table in section 'Men's'",
+            "colums": [
+                "No.",
+                "Pos.",
+                "Name",
+                "Height",
+                "Weight",
+                "Birthdate",
+                "Birthplace",
+                "2013\u201314 team\n[\n\nv\nt\ne\n\n]\n"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/heightIn": 0.04
+                    },
+                    "subject": "\nName\n\n\nv\nt\ne\n\n\n\n",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.92,
+                        "http://dbpedia.org/ontology/birthPlace": 0.92,
+                        "http://dbpedia.org/property/placeOfBirth": 0.88
+                    },
+                    "subject": "\nName\n\n\nv\nt\ne\n\n\n\n",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.58,
+                        "http://dbpedia.org/ontology/draftTeam": 0.33,
+                        "http://dbpedia.org/ontology/formerTeam": 0.67,
+                        "http://dbpedia.org/property/team": 0.33,
+                        "http://dbpedia.org/property/draftTeam": 0.33,
+                        "http://dbpedia.org/ontology/team": 0.33
+                    },
+                    "subject": "\nName\n\n\nv\nt\ne\n\n\n\n",
+                    "object": "2009\u201310 team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.08,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Birthplace",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/divisionTitles": 0.04
+                    },
+                    "subject": "2009\u201310 team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.04
+                    },
+                    "subject": "2009\u201310 team",
+                    "object": "\nName\n\n\nv\nt\ne\n\n\n\n"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/basedIn": 0.04
+                    },
+                    "subject": "2009\u201310 team",
+                    "object": "Birthplace"
+                }
+            ],
+            "table": "Unnamed table in section 'Men's'",
+            "colums": [
+                "No.",
+                "Pos.",
+                "\nName\n\n\nv\nt\ne\n\n\n\n",
+                "Height",
+                "Weight",
+                "Birthdate",
+                "Birthplace",
+                "2009\u201310 team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/heightFt": 0.04
+                    },
+                    "subject": "Name",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 0.96
+                    },
+                    "subject": "Name",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.57,
+                        "http://dbpedia.org/ontology/draftTeam": 0.35,
+                        "http://dbpedia.org/ontology/formerTeam": 0.65,
+                        "http://dbpedia.org/property/team": 0.35,
+                        "http://dbpedia.org/property/draftTeam": 0.3,
+                        "http://dbpedia.org/ontology/team": 0.35
+                    },
+                    "subject": "Name",
+                    "object": "2009\u201310 team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mayPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/latm": 0.09,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/decPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/lats": 0.04,
+                        "http://dbpedia.org/property/octPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/sepPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/janPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/febPrecipitationMm": 0.04,
+                        "http://dbpedia.org/property/novPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/latd": 0.04
+                    },
+                    "subject": "Birthplace",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/divisionTitles": 0.04
+                    },
+                    "subject": "2009\u201310 team",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/captain": 0.04
+                    },
+                    "subject": "2009\u201310 team",
+                    "object": "Name"
+                }
+            ],
+            "table": "Unnamed table in section 'Men's'",
+            "colums": [
+                "No.",
+                "Pos.",
+                "Name",
+                "Height",
+                "Weight",
+                "Birthdate",
+                "Birthplace",
+                "2009\u201310 team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.71,
+                        "http://dbpedia.org/ontology/birthPlace": 0.71,
+                        "http://dbpedia.org/property/placeOfBirth": 0.62
+                    },
+                    "subject": "Name",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.05
+                    },
+                    "subject": "Name",
+                    "object": "2009\u201310 team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/febHumidity": 0.05,
+                        "http://dbpedia.org/property/octHumidity": 0.05,
+                        "http://dbpedia.org/property/latm": 0.05,
+                        "http://dbpedia.org/property/junPrecipitationMm": 0.05,
+                        "http://dbpedia.org/property/sepHumidity": 0.05,
+                        "http://dbpedia.org/property/junHumidity": 0.05
+                    },
+                    "subject": "Birthplace",
+                    "object": "Weight"
+                }
+            ],
+            "table": "Unnamed table in section 'Women's'",
+            "colums": [
+                "Position",
+                "Name",
+                "Height",
+                "Weight",
+                "Birthdate",
+                "Birthplace",
+                "2009\u201310 team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.05
+                    },
+                    "subject": "\nName\n\n\nv\nt\ne\n\n\n\n",
+                    "object": "No."
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1
+                    },
+                    "subject": "\nName\n\n\nv\nt\ne\n\n\n\n",
+                    "object": "Birthplace"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.15,
+                        "http://dbpedia.org/ontology/formerTeam": 0.15,
+                        "http://dbpedia.org/ontology/prospectTeam": 0.05,
+                        "http://dbpedia.org/property/team": 0.3,
+                        "http://dbpedia.org/property/prospectTeam": 0.05,
+                        "http://dbpedia.org/ontology/team": 0.3
+                    },
+                    "subject": "\nName\n\n\nv\nt\ne\n\n\n\n",
+                    "object": "Team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/basedIn": 0.05
+                    },
+                    "subject": "Team",
+                    "object": "Birthplace"
+                }
+            ],
+            "table": "Unnamed table in section 'Junior's'",
+            "colums": [
+                "No.",
+                "Pos.",
+                "\nName\n\n\nv\nt\ne\n\n\n\n",
+                "Height",
+                "Weight",
+                "Birthdate",
+                "Birthplace",
+                "Team"
+            ]
+        }
+    ]
+}

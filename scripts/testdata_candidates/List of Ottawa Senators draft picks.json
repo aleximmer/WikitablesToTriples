@@ -1,0 +1,1690 @@
+{
+    "no. of tables": 24,
+    "page": "List of Ottawa Senators draft picks",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/years": 0.96,
+                        "http://dbpedia.org/property/careerStart": 0.12,
+                        "http://dbpedia.org/property/draftYear": 0.92
+                    },
+                    "subject": "Player",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/draft": 0.83,
+                        "http://dbpedia.org/property/heightFt": 0.04
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.62,
+                        "http://dbpedia.org/ontology/birthPlace": 0.62,
+                        "http://dbpedia.org/property/placeOfBirth": 0.62
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.08,
+                        "http://dbpedia.org/property/team": 0.04,
+                        "http://dbpedia.org/property/formerTeams": 0.25,
+                        "http://dbpedia.org/ontology/team": 0.04,
+                        "http://dbpedia.org/ontology/formerTeam": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppYear": 0.04,
+                        "http://dbpedia.org/property/giniYear": 0.04,
+                        "http://dbpedia.org/property/populationCensusYear": 0.04,
+                        "http://dbpedia.org/property/gdpPppPerCapitaYear": 0.04,
+                        "http://dbpedia.org/property/gdpNominalYear": 0.04,
+                        "http://dbpedia.org/property/efYear": 0.04,
+                        "http://dbpedia.org/property/hdiYear": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaYear": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.04,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.04
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/dates": 0.04,
+                        "http://dbpedia.org/property/acq": 0.04,
+                        "http://dbpedia.org/property/league": 0.04
+                    },
+                    "subject": "Club team",
+                    "object": "Year"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/in": 0.04,
+                        "http://dbpedia.org/property/arwuW": 0.04,
+                        "http://dbpedia.org/property/sports": 0.04,
+                        "http://dbpedia.org/property/hrlr": 0.04,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.04,
+                        "http://dbpedia.org/property/birthmonth": 0.04,
+                        "http://dbpedia.org/property/num": 0.04
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.04,
+                        "http://dbpedia.org/ontology/city": 0.12,
+                        "http://dbpedia.org/property/city": 0.17,
+                        "http://dbpedia.org/ontology/country": 0.04
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section 'First round picks'",
+            "colums": [
+                "Year",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.42,
+                        "http://dbpedia.org/ontology/birthPlace": 0.42,
+                        "http://dbpedia.org/property/placeOfBirth": 0.42
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.08,
+                        "http://dbpedia.org/ontology/formerTeam": 0.08
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.08,
+                        "http://dbpedia.org/property/efRank": 0.08,
+                        "http://dbpedia.org/property/ef": 0.08,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.08,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.08,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.08,
+                        "http://dbpedia.org/property/num": 0.08
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.08
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1992 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.3
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.1,
+                        "http://dbpedia.org/ontology/birthPlace": 0.1,
+                        "http://dbpedia.org/property/placeOfBirth": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.1,
+                        "http://dbpedia.org/ontology/formerTeam": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.1,
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.1,
+                        "http://dbpedia.org/property/percentWater": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1993 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.1,
+                        "http://dbpedia.org/property/draft": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.3,
+                        "http://dbpedia.org/ontology/birthPlace": 0.3,
+                        "http://dbpedia.org/property/placeOfBirth": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.1,
+                        "http://dbpedia.org/ontology/formerTeam": 0.3
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/percentageOfAreaWater": 0.1,
+                        "http://dbpedia.org/property/areaMagnitude": 0.1,
+                        "http://dbpedia.org/property/efRank": 0.1,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.3,
+                        "http://dbpedia.org/property/percentWater": 0.1,
+                        "http://dbpedia.org/property/decHighC": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.1,
+                        "http://dbpedia.org/property/city": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1994 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.11
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.44
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.33,
+                        "http://dbpedia.org/ontology/birthPlace": 0.33,
+                        "http://dbpedia.org/property/placeOfBirth": 0.33
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.11,
+                        "http://dbpedia.org/property/longm": 0.11,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.11,
+                        "http://dbpedia.org/property/novHighC": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/no": 0.11,
+                        "http://dbpedia.org/property/birthday": 0.22,
+                        "http://dbpedia.org/property/birthmonth": 0.11,
+                        "http://dbpedia.org/property/num": 0.22
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                }
+            ],
+            "table": "Unnamed table in section '1995 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.86
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.57,
+                        "http://dbpedia.org/ontology/birthPlace": 0.57,
+                        "http://dbpedia.org/property/placeOfBirth": 0.57
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.29,
+                        "http://dbpedia.org/property/team": 0.14,
+                        "http://dbpedia.org/ontology/team": 0.14,
+                        "http://dbpedia.org/ontology/formerTeam": 0.43
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latm": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.14,
+                        "http://dbpedia.org/property/city": 0.14
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1996 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.12,
+                        "http://dbpedia.org/property/heightFt": 0.12
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.75
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.12,
+                        "http://dbpedia.org/ontology/formerTeam": 0.38
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.12,
+                        "http://dbpedia.org/property/ef": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ratio": 0.12,
+                        "http://dbpedia.org/property/birthmonth": 0.12,
+                        "http://dbpedia.org/property/in": 0.12,
+                        "http://dbpedia.org/property/num": 0.12
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.12,
+                        "http://dbpedia.org/ontology/city": 0.12,
+                        "http://dbpedia.org/property/city": 0.38,
+                        "http://dbpedia.org/ontology/country": 0.12
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1997 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightFt": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.8
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.6,
+                        "http://dbpedia.org/property/placeOfBirth": 0.6
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.1,
+                        "http://dbpedia.org/property/formerTeams": 0.1,
+                        "http://dbpedia.org/ontology/formerTeam": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.1,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.1,
+                        "http://dbpedia.org/property/latm": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/thesW": 0.1,
+                        "http://dbpedia.org/property/thesN": 0.1,
+                        "http://dbpedia.org/property/qsW": 0.1,
+                        "http://dbpedia.org/property/usnwrNu": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/country": 0.1,
+                        "http://dbpedia.org/property/basedIn": 0.2
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1998 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.1,
+                        "http://dbpedia.org/property/heightFt": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.9
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.6,
+                        "http://dbpedia.org/ontology/birthPlace": 0.6,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.1,
+                        "http://dbpedia.org/property/formerTeams": 0.2,
+                        "http://dbpedia.org/ontology/formerTeam": 0.4
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.1,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.1,
+                        "http://dbpedia.org/property/areaMagnitude": 0.1,
+                        "http://dbpedia.org/property/novHighC": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthmonth": 0.1,
+                        "http://dbpedia.org/property/num": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2,
+                        "http://dbpedia.org/property/city": 0.2,
+                        "http://dbpedia.org/property/basedIn": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '1999 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.1,
+                        "http://dbpedia.org/property/heightFt": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.7
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.6,
+                        "http://dbpedia.org/ontology/birthPlace": 0.6,
+                        "http://dbpedia.org/property/placeOfBirth": 0.6
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.1,
+                        "http://dbpedia.org/property/formerTeams": 0.1,
+                        "http://dbpedia.org/ontology/formerTeam": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.2,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/latd": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ft": 0.1,
+                        "http://dbpedia.org/property/birthday": 0.1,
+                        "http://dbpedia.org/property/birthmonth": 0.1,
+                        "http://dbpedia.org/property/num": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.1,
+                        "http://dbpedia.org/ontology/country": 0.1,
+                        "http://dbpedia.org/property/city": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2000 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.08,
+                        "http://dbpedia.org/property/heightFt": 0.08
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.92
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.85,
+                        "http://dbpedia.org/ontology/birthPlace": 0.85,
+                        "http://dbpedia.org/property/placeOfBirth": 0.85
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.15,
+                        "http://dbpedia.org/ontology/formerTeam": 0.15
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.08,
+                        "http://dbpedia.org/property/ef": 0.08,
+                        "http://dbpedia.org/property/value": 0.08,
+                        "http://dbpedia.org/property/ethnicGroups": 0.08,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.08,
+                        "http://dbpedia.org/property/longm": 0.08,
+                        "http://dbpedia.org/property/gdpPppRank": 0.08,
+                        "http://dbpedia.org/property/gdpNominalRank": 0.08,
+                        "http://dbpedia.org/property/hdiRank": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.08,
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.08
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.15,
+                        "http://dbpedia.org/property/birthmonth": 0.08,
+                        "http://dbpedia.org/property/num": 0.08
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.08,
+                        "http://dbpedia.org/property/basedIn": 0.08
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2001 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.62
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.25,
+                        "http://dbpedia.org/ontology/birthPlace": 0.25,
+                        "http://dbpedia.org/property/placeOfBirth": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.25,
+                        "http://dbpedia.org/property/formerTeams": 0.25,
+                        "http://dbpedia.org/ontology/team": 0.25,
+                        "http://dbpedia.org/ontology/formerTeam": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.12,
+                        "http://dbpedia.org/property/populationEstimateRank": 0.12,
+                        "http://dbpedia.org/property/areaMagnitude": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/logosize": 0.12
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.12,
+                        "http://dbpedia.org/property/city": 0.25,
+                        "http://dbpedia.org/property/basedIn": 0.12
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2002 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.11
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.78
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.56,
+                        "http://dbpedia.org/ontology/birthPlace": 0.56,
+                        "http://dbpedia.org/property/placeOfBirth": 0.44
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.11,
+                        "http://dbpedia.org/ontology/formerTeam": 0.22
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.22,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/populationDensityRank": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/sports": 0.11
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.11,
+                        "http://dbpedia.org/ontology/country": 0.11,
+                        "http://dbpedia.org/property/city": 0.11,
+                        "http://dbpedia.org/property/basedIn": 0.11
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2003 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.18
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.73
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.64,
+                        "http://dbpedia.org/ontology/birthPlace": 0.64,
+                        "http://dbpedia.org/property/placeOfBirth": 0.64
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.27,
+                        "http://dbpedia.org/ontology/formerTeam": 0.36
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.09,
+                        "http://dbpedia.org/property/ef": 0.09
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longd": 0.09
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ft": 0.09,
+                        "http://dbpedia.org/property/birthmonth": 0.09,
+                        "http://dbpedia.org/property/num": 0.09
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.09,
+                        "http://dbpedia.org/property/city": 0.09,
+                        "http://dbpedia.org/property/basedIn": 0.09
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2004 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.12,
+                        "http://dbpedia.org/property/heightFt": 0.12
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.88
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/deathPlace": 0.12,
+                        "http://dbpedia.org/property/placeOfDeath": 0.12,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5,
+                        "http://dbpedia.org/ontology/deathPlace": 0.12
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/playedFor": 0.12,
+                        "http://dbpedia.org/property/formerTeams": 0.12,
+                        "http://dbpedia.org/ontology/formerTeam": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.12,
+                        "http://dbpedia.org/property/gdpPppRank": 0.12,
+                        "http://dbpedia.org/property/latm": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.12
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthmonth": 0.12,
+                        "http://dbpedia.org/property/in": 0.12
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthmonth": 0.12,
+                        "http://dbpedia.org/property/in": 0.12,
+                        "http://dbpedia.org/property/num": 0.12
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.12,
+                        "http://dbpedia.org/property/city": 0.12,
+                        "http://dbpedia.org/property/basedIn": 0.25
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2005 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.71
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.57,
+                        "http://dbpedia.org/ontology/birthPlace": 0.57,
+                        "http://dbpedia.org/property/placeOfBirth": 0.43
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.14,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.14,
+                        "http://dbpedia.org/property/birthmonth": 0.14,
+                        "http://dbpedia.org/property/in": 0.14
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.14,
+                        "http://dbpedia.org/property/basedIn": 0.14
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2006 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/birthPlace": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.25
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://www.w3.org/2003/01/geo/wgs84_pos#lat": 0.25
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hrlr": 0.25,
+                        "http://dbpedia.org/property/arwuW": 0.25
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                }
+            ],
+            "table": "Unnamed table in section '2007 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 1.0,
+                        "http://dbpedia.org/ontology/birthPlace": 1.0,
+                        "http://dbpedia.org/property/placeOfBirth": 1.0
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.43,
+                        "http://dbpedia.org/ontology/formerTeam": 0.43
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.14,
+                        "http://dbpedia.org/property/longm": 0.14,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.14,
+                        "http://dbpedia.org/property/areaMagnitude": 0.14,
+                        "http://dbpedia.org/property/hdiRank": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.29,
+                        "http://dbpedia.org/property/city": 0.29
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2008 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightFt": 0.11
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.11,
+                        "http://dbpedia.org/property/draft": 0.44
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.56,
+                        "http://dbpedia.org/ontology/birthPlace": 0.56,
+                        "http://dbpedia.org/property/placeOfBirth": 0.44
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.11,
+                        "http://dbpedia.org/ontology/formerTeam": 0.11
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.22
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.11,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.11
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/ft": 0.11,
+                        "http://dbpedia.org/property/birthday": 0.11,
+                        "http://dbpedia.org/property/birthmonth": 0.22,
+                        "http://dbpedia.org/property/in": 0.11,
+                        "http://dbpedia.org/property/num": 0.22
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pos": 0.11
+                    },
+                    "subject": "Club team",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.11
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2009 draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.25,
+                        "http://dbpedia.org/property/birthday": 0.25,
+                        "http://dbpedia.org/property/birthmonth": 0.25,
+                        "http://dbpedia.org/property/heightFt": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pos": 0.25
+                    },
+                    "subject": "Player",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.5,
+                        "http://dbpedia.org/ontology/birthPlace": 0.5,
+                        "http://dbpedia.org/property/placeOfBirth": 0.5
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.25,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.25
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.5,
+                        "http://dbpedia.org/property/birthmonth": 0.25,
+                        "http://dbpedia.org/property/num": 0.25
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/wt": 0.25
+                    },
+                    "subject": "Club team",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/pos": 0.25
+                    },
+                    "subject": "Club team",
+                    "object": "Position"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthplace": 0.25,
+                        "http://dbpedia.org/property/city": 0.25
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2010 Draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthmonth": 0.3,
+                        "http://dbpedia.org/property/birthday": 0.3,
+                        "http://dbpedia.org/property/heightIn": 0.2,
+                        "http://dbpedia.org/property/num": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.3,
+                        "http://dbpedia.org/property/heightFt": 0.1
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.7,
+                        "http://dbpedia.org/ontology/birthPlace": 0.7,
+                        "http://dbpedia.org/property/placeOfBirth": 0.7
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/formerTeams": 0.2,
+                        "http://dbpedia.org/ontology/formerTeam": 0.2
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.1,
+                        "http://dbpedia.org/property/efRank": 0.1,
+                        "http://dbpedia.org/property/areaMagnitude": 0.1,
+                        "http://dbpedia.org/property/gdpPppPerCapitaRank": 0.1
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.1,
+                        "http://dbpedia.org/property/birthmonth": 0.2,
+                        "http://dbpedia.org/property/num": 0.1
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2011 Draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14,
+                        "http://dbpedia.org/property/heightIn": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/draft": 0.43
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.43,
+                        "http://dbpedia.org/ontology/birthPlace": 0.43,
+                        "http://dbpedia.org/property/placeOfBirth": 0.43
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/prospectTeam": 0.14,
+                        "http://dbpedia.org/property/team": 0.14,
+                        "http://dbpedia.org/ontology/team": 0.14,
+                        "http://dbpedia.org/property/prospectTeam": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/hdiRank": 0.14,
+                        "http://dbpedia.org/property/gdpNominalPerCapitaRank": 0.14
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/country": 0.14,
+                        "http://dbpedia.org/ontology/country": 0.14,
+                        "http://dbpedia.org/property/city": 0.14
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2012 Draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/heightIn": 0.14
+                    },
+                    "subject": "Player",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.14,
+                        "http://dbpedia.org/property/draft": 0.29
+                    },
+                    "subject": "Player",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthPlace": 0.29,
+                        "http://dbpedia.org/ontology/birthPlace": 0.29,
+                        "http://dbpedia.org/property/placeOfBirth": 0.29
+                    },
+                    "subject": "Player",
+                    "object": "Nationality"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/team": 0.29,
+                        "http://dbpedia.org/ontology/team": 0.29
+                    },
+                    "subject": "Player",
+                    "object": "Club team"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.14,
+                        "http://dbpedia.org/property/efRank": 0.29
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthday": 0.14,
+                        "http://dbpedia.org/property/birthmonth": 0.14,
+                        "http://dbpedia.org/property/championships": 0.14,
+                        "http://dbpedia.org/property/num": 0.14
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.14
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2013 Draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/areaRank": 0.2
+                    },
+                    "subject": "Nationality",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/width": 0.2
+                    },
+                    "subject": "Nationality",
+                    "object": "Overall"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/birthmonth": 0.2,
+                        "http://dbpedia.org/property/num": 0.2
+                    },
+                    "subject": "Club team",
+                    "object": "Round"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/city": 0.2
+                    },
+                    "subject": "Club team",
+                    "object": "Nationality"
+                }
+            ],
+            "table": "Unnamed table in section '2014 Draft picks'",
+            "colums": [
+                "Round",
+                "Overall",
+                "Player",
+                "Position",
+                "Nationality",
+                "Club team"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+{
+    "page": "List of prefecture-level cities by GDP per capita",
+    "no. of tables": 3,
+    "tables": [
+        {
+            "table": "List of top prefecture-level cities by GDP per capita over ten thousand US dollars in 2011",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.05,
+                        "http://dbpedia.org/property/longh": 0.02,
+                        "http://dbpedia.org/property/decLowF": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/yearHighC": 0.02,
+                        "http://dbpedia.org/property/p": 0.02,
+                        "http://dbpedia.org/property/s": 0.02,
+                        "http://dbpedia.org/property/t": 0.02
+                    },
+                    "subject": "cities",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.93,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.07,
+                        "http://dbpedia.org/property/voy": 0.02,
+                        "http://dbpedia.org/property/subdivisionName": 0.93,
+                        "http://dbpedia.org/property/location": 0.02,
+                        "http://dbpedia.org/property/wikt": 0.02
+                    },
+                    "subject": "cities",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/p": 0.02,
+                        "http://dbpedia.org/property/arearank": 0.02,
+                        "http://dbpedia.org/property/isoabbrev": 0.02
+                    },
+                    "subject": "Province",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.14,
+                        "http://dbpedia.org/property/largestcity": 0.16,
+                        "http://dbpedia.org/property/seat": 0.05
+                    },
+                    "subject": "Province",
+                    "object": "cities"
+                }
+            ],
+            "colums": [
+                "Rank",
+                "cities",
+                "CNY",
+                "US$",
+                "PPP",
+                "Province"
+            ]
+        },
+        {
+            "table": "List of top municipalities and prefecture-level divisions by GDP per capita over USD 10,000 in 2010",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.04,
+                        "http://dbpedia.org/property/sepRecordLowC": 0.04,
+                        "http://dbpedia.org/property/latm": 0.04,
+                        "http://dbpedia.org/property/junPrecipitationDays": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.08,
+                        "http://dbpedia.org/property/t": 0.04,
+                        "http://dbpedia.org/property/augLowC": 0.04,
+                        "http://dbpedia.org/property/p": 0.04,
+                        "http://dbpedia.org/property/s": 0.04,
+                        "http://dbpedia.org/property/marPrecipitationDays": 0.04
+                    },
+                    "subject": "Municipality/Division",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://xmlns.com/foaf/0.1/name": 0.08,
+                        "http://dbpedia.org/ontology/isPartOf": 0.79,
+                        "http://dbpedia.org/property/location": 0.04,
+                        "http://www.w3.org/2000/01/rdf-schema#label": 0.21,
+                        "http://dbpedia.org/property/voy": 0.04,
+                        "http://dbpedia.org/property/commonName": 0.08,
+                        "http://dbpedia.org/property/wikt": 0.04,
+                        "http://dbpedia.org/property/subdivisionName": 0.79,
+                        "http://dbpedia.org/property/centre": 0.04
+                    },
+                    "subject": "Municipality/Division",
+                    "object": "Province"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/poprank": 0.04
+                    },
+                    "subject": "Province",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.08,
+                        "http://dbpedia.org/property/largestcity": 0.08,
+                        "http://dbpedia.org/property/seat": 0.04
+                    },
+                    "subject": "Province",
+                    "object": "Municipality/Division"
+                }
+            ],
+            "colums": [
+                "Rank",
+                "Municipality/Division",
+                "CNY",
+                "US$",
+                "PPP",
+                "Province"
+            ]
+        },
+        {
+            "table": "List of municipalities and prefecture-level divisions by GDP (PPP) per capita over Intl$. 10,000 in 2010",
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/longm": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageOutLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/ontology/wikiPageInLinkCountCleaned": 0.02,
+                        "http://dbpedia.org/property/latm": 0.02,
+                        "http://dbpedia.org/property/marHumidity": 0.02,
+                        "http://dbpedia.org/property/mayHumidity": 0.02,
+                        "http://dbpedia.org/property/octHumidity": 0.02,
+                        "http://dbpedia.org/property/aprPercentsun": 0.02,
+                        "http://dbpedia.org/property/janHumidity": 0.02
+                    },
+                    "subject": "regions",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.96,
+                        "http://dbpedia.org/property/subdivisionName": 0.96
+                    },
+                    "subject": "regions",
+                    "object": "provinces"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arearank": 0.02,
+                        "http://dbpedia.org/property/latitude": 0.02,
+                        "http://dbpedia.org/property/isoabbrev": 0.02
+                    },
+                    "subject": "provinces",
+                    "object": "Rank"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/capital": 0.21,
+                        "http://dbpedia.org/property/largestcity": 0.21,
+                        "http://dbpedia.org/property/seat": 0.04
+                    },
+                    "subject": "provinces",
+                    "object": "regions"
+                }
+            ],
+            "colums": [
+                "Rank",
+                "regions",
+                "CNY",
+                "US$",
+                "PPP",
+                "provinces"
+            ]
+        }
+    ]
+}

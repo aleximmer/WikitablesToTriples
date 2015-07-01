@@ -1,0 +1,297 @@
+{
+    "no. of tables": 2,
+    "page": "List of NCAA Division II football programs",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mascot": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.01,
+                        "http://dbpedia.org/property/nickname": 0.08
+                    },
+                    "subject": "School",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.91,
+                        "http://dbpedia.org/ontology/campus": 0.01,
+                        "http://dbpedia.org/property/city": 0.88,
+                        "http://dbpedia.org/property/nearestCity": 0.01,
+                        "http://dbpedia.org/property/location": 0.01
+                    },
+                    "subject": "School",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.89,
+                        "http://dbpedia.org/ontology/state": 0.89,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/city": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.01
+                    },
+                    "subject": "School",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/athletics": 0.12,
+                        "http://dbpedia.org/property/affiliations": 0.25,
+                        "http://dbpedia.org/ontology/athletics": 0.08,
+                        "http://dbpedia.org/property/free": 0.02,
+                        "http://dbpedia.org/ontology/affiliation": 0.26
+                    },
+                    "subject": "School",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/arena": 0.01,
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.47,
+                        "http://dbpedia.org/ontology/university": 0.28,
+                        "http://dbpedia.org/property/fightsong": 0.01,
+                        "http://dbpedia.org/property/university": 0.22,
+                        "http://dbpedia.org/ontology/stadium": 0.01
+                    },
+                    "subject": "Nickname",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.48,
+                        "http://dbpedia.org/property/siteCityst": 0.01,
+                        "http://dbpedia.org/property/location": 0.12,
+                        "http://dbpedia.org/property/city": 0.44
+                    },
+                    "subject": "Nickname",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.44,
+                        "http://dbpedia.org/ontology/state": 0.44,
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/city": 0.01,
+                        "http://dbpedia.org/ontology/city": 0.01
+                    },
+                    "subject": "Nickname",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/athletics": 0.07,
+                        "http://dbpedia.org/property/affiliations": 0.12,
+                        "http://dbpedia.org/property/conference": 0.25,
+                        "http://dbpedia.org/property/conf": 0.01,
+                        "http://dbpedia.org/ontology/athletics": 0.04,
+                        "http://dbpedia.org/property/free": 0.01,
+                        "http://dbpedia.org/ontology/affiliation": 0.14,
+                        "http://dbpedia.org/property/gamename": 0.01
+                    },
+                    "subject": "Nickname",
+                    "object": "Conference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/stadium": 0.1,
+                        "http://dbpedia.org/property/stadium": 0.17,
+                        "http://dbpedia.org/property/siteStadium": 0.01
+                    },
+                    "subject": "Nickname",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 0.01,
+                        "http://dbpedia.org/ontology/state": 0.07,
+                        "http://dbpedia.org/ontology/isPartOf": 0.91,
+                        "http://dbpedia.org/property/subdivisionName": 0.82
+                    },
+                    "subject": "City",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/capital": 0.08,
+                        "http://dbpedia.org/property/capital": 0.08,
+                        "http://dbpedia.org/property/label": 0.05,
+                        "http://dbpedia.org/ontology/largestCity": 0.02,
+                        "http://dbpedia.org/property/largestcity": 0.02
+                    },
+                    "subject": "State/\nProvince",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/region": 0.01
+                    },
+                    "subject": "Conference",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.02,
+                        "http://dbpedia.org/property/tenants": 0.06,
+                        "http://dbpedia.org/property/operator": 0.02,
+                        "http://dbpedia.org/ontology/tenant": 0.19,
+                        "http://dbpedia.org/property/owner": 0.12,
+                        "http://dbpedia.org/ontology/operator": 0.09,
+                        "http://dbpedia.org/ontology/owner": 0.15
+                    },
+                    "subject": "Stadium",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.01,
+                        "http://dbpedia.org/property/tenants": 0.04,
+                        "http://dbpedia.org/ontology/owner": 0.08,
+                        "http://dbpedia.org/property/operator": 0.01,
+                        "http://dbpedia.org/ontology/tenant": 0.15,
+                        "http://dbpedia.org/property/owner": 0.06,
+                        "http://dbpedia.org/ontology/operator": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.01
+                    },
+                    "subject": "Stadium",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.2,
+                        "http://dbpedia.org/property/owner": 0.01,
+                        "http://dbpedia.org/ontology/operator": 0.01,
+                        "http://dbpedia.org/ontology/owner": 0.01,
+                        "http://dbpedia.org/ontology/location": 0.25
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.05,
+                        "http://dbpedia.org/ontology/location": 0.07
+                    },
+                    "subject": "Stadium",
+                    "object": "State/\nProvince"
+                }
+            ],
+            "table": "Unnamed table in section 'NCAA Division II football programs'",
+            "colums": [
+                "School",
+                "Nickname",
+                "City",
+                "State/\nProvince",
+                "Conference",
+                "Stadium",
+                "Cap.",
+                "Note"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/nickname": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Nickname"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 1.0,
+                        "http://dbpedia.org/property/city": 1.0
+                    },
+                    "subject": "School",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/state": 1.0,
+                        "http://dbpedia.org/ontology/state": 1.0
+                    },
+                    "subject": "School",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/affiliations": 0.2,
+                        "http://dbpedia.org/ontology/affiliation": 0.2
+                    },
+                    "subject": "School",
+                    "object": "Future\nConference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/university": 0.2,
+                        "http://dbpedia.org/ontology/university": 0.6
+                    },
+                    "subject": "Nickname",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/city": 0.2
+                    },
+                    "subject": "Nickname",
+                    "object": "City"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/conference": 0.2
+                    },
+                    "subject": "Nickname",
+                    "object": "Future\nConference"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/stadium": 0.2,
+                        "http://dbpedia.org/property/stadium": 0.2
+                    },
+                    "subject": "Nickname",
+                    "object": "Stadium"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 1.0,
+                        "http://dbpedia.org/property/subdivisionName": 0.8
+                    },
+                    "subject": "City",
+                    "object": "State/\nProvince"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/tenant": 0.2,
+                        "http://dbpedia.org/property/owner": 0.2,
+                        "http://dbpedia.org/property/tenants": 0.2,
+                        "http://dbpedia.org/ontology/owner": 0.2
+                    },
+                    "subject": "Stadium",
+                    "object": "School"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/location": 0.4,
+                        "http://dbpedia.org/ontology/location": 0.6
+                    },
+                    "subject": "Stadium",
+                    "object": "City"
+                }
+            ],
+            "table": "Unnamed table in section 'Future Division II football programs'",
+            "colums": [
+                "School",
+                "Nickname",
+                "City",
+                "State/\nProvince",
+                "Future\nConference",
+                "Stadium",
+                "Cap.",
+                "Note",
+                "Begins\nPlay"
+            ]
+        }
+    ]
+}

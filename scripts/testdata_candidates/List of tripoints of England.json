@@ -1,0 +1,235 @@
+{
+    "no. of tables": 3,
+    "page": "List of tripoints of England",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southeast": 0.12,
+                        "http://dbpedia.org/property/west": 0.1,
+                        "http://dbpedia.org/property/east": 0.12,
+                        "http://dbpedia.org/property/south": 0.1,
+                        "http://dbpedia.org/property/north": 0.07,
+                        "http://dbpedia.org/property/northeast": 0.12,
+                        "http://dbpedia.org/property/northwest": 0.06,
+                        "http://dbpedia.org/property/southwest": 0.09
+                    },
+                    "subject": "County 1",
+                    "object": "County 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.09,
+                        "http://dbpedia.org/property/southwest": 0.09,
+                        "http://dbpedia.org/property/southeast": 0.12,
+                        "http://dbpedia.org/property/north": 0.1,
+                        "http://dbpedia.org/property/northeast": 0.13,
+                        "http://dbpedia.org/property/east": 0.15,
+                        "http://dbpedia.org/property/northwest": 0.09,
+                        "http://dbpedia.org/property/west": 0.07
+                    },
+                    "subject": "County 1",
+                    "object": "County 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.07,
+                        "http://dbpedia.org/property/west": 0.13,
+                        "http://dbpedia.org/property/east": 0.09,
+                        "http://dbpedia.org/property/north": 0.1,
+                        "http://dbpedia.org/property/southeast": 0.06,
+                        "http://dbpedia.org/property/northwest": 0.13,
+                        "http://dbpedia.org/property/northeast": 0.09,
+                        "http://dbpedia.org/property/southwest": 0.09
+                    },
+                    "subject": "County 2",
+                    "object": "County 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.07,
+                        "http://dbpedia.org/property/west": 0.09,
+                        "http://dbpedia.org/property/east": 0.13,
+                        "http://dbpedia.org/property/north": 0.12,
+                        "http://dbpedia.org/property/southeast": 0.04,
+                        "http://dbpedia.org/property/northwest": 0.07,
+                        "http://dbpedia.org/property/northeast": 0.13,
+                        "http://dbpedia.org/property/southwest": 0.06
+                    },
+                    "subject": "County 2",
+                    "object": "County 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.06,
+                        "http://dbpedia.org/property/southwest": 0.15,
+                        "http://dbpedia.org/property/east": 0.07,
+                        "http://dbpedia.org/property/north": 0.1,
+                        "http://dbpedia.org/property/southeast": 0.07,
+                        "http://dbpedia.org/property/northwest": 0.13,
+                        "http://dbpedia.org/property/northeast": 0.06,
+                        "http://dbpedia.org/property/west": 0.15
+                    },
+                    "subject": "County 3",
+                    "object": "County 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.12,
+                        "http://dbpedia.org/property/west": 0.12,
+                        "http://dbpedia.org/property/southeast": 0.09,
+                        "http://dbpedia.org/property/north": 0.06,
+                        "http://dbpedia.org/property/northeast": 0.07,
+                        "http://dbpedia.org/property/east": 0.09,
+                        "http://dbpedia.org/property/northwest": 0.06,
+                        "http://dbpedia.org/property/southwest": 0.1
+                    },
+                    "subject": "County 3",
+                    "object": "County 2"
+                }
+            ],
+            "table": "Unnamed table in section 'Ceremonial county tripoints'",
+            "colums": [
+                "County 1",
+                "County 2",
+                "County 3",
+                "Grid Ref",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/north": 0.33,
+                        "http://dbpedia.org/property/northeast": 0.33,
+                        "http://dbpedia.org/property/northwest": 0.33,
+                        "http://dbpedia.org/property/east": 0.33
+                    },
+                    "subject": "County 2",
+                    "object": "County 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/west": 0.33
+                    },
+                    "subject": "County 3",
+                    "object": "County 2"
+                }
+            ],
+            "table": "Unnamed table in section 'Ceremonial county tripoints'",
+            "colums": [
+                "County 1",
+                "County 2",
+                "County 3",
+                "Grid Ref",
+                "Notes"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southeast": 0.12,
+                        "http://dbpedia.org/property/south": 0.1,
+                        "http://dbpedia.org/property/west": 0.12,
+                        "http://dbpedia.org/property/east": 0.14,
+                        "http://dbpedia.org/property/north": 0.07,
+                        "http://dbpedia.org/property/northeast": 0.09,
+                        "http://dbpedia.org/property/northwest": 0.05,
+                        "http://dbpedia.org/property/replace": 0.02,
+                        "http://dbpedia.org/property/southwest": 0.09
+                    },
+                    "subject": "County 1",
+                    "object": "County 2"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.09,
+                        "http://dbpedia.org/property/west": 0.1,
+                        "http://dbpedia.org/property/southeast": 0.1,
+                        "http://dbpedia.org/property/north": 0.07,
+                        "http://dbpedia.org/property/northeast": 0.12,
+                        "http://dbpedia.org/property/east": 0.14,
+                        "http://dbpedia.org/property/northwest": 0.05,
+                        "http://dbpedia.org/property/southwest": 0.07
+                    },
+                    "subject": "County 1",
+                    "object": "County 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/south": 0.07,
+                        "http://dbpedia.org/property/west": 0.14,
+                        "http://dbpedia.org/property/east": 0.12,
+                        "http://dbpedia.org/property/north": 0.1,
+                        "http://dbpedia.org/property/southeast": 0.05,
+                        "http://dbpedia.org/property/northwest": 0.12,
+                        "http://dbpedia.org/property/northeast": 0.09,
+                        "http://dbpedia.org/property/southwest": 0.1
+                    },
+                    "subject": "County 2",
+                    "object": "County 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/southeast": 0.03,
+                        "http://dbpedia.org/property/west": 0.09,
+                        "http://dbpedia.org/property/east": 0.12,
+                        "http://dbpedia.org/property/south": 0.03,
+                        "http://dbpedia.org/property/north": 0.12,
+                        "http://dbpedia.org/property/northeast": 0.1,
+                        "http://dbpedia.org/property/northwest": 0.05,
+                        "http://dbpedia.org/property/replace": 0.02,
+                        "http://dbpedia.org/property/southwest": 0.05
+                    },
+                    "subject": "County 2",
+                    "object": "County 3"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/south": 0.07,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/southwest": 0.17,
+                        "http://dbpedia.org/property/east": 0.1,
+                        "http://dbpedia.org/property/north": 0.1,
+                        "http://dbpedia.org/property/southeast": 0.07,
+                        "http://dbpedia.org/property/northwest": 0.14,
+                        "http://dbpedia.org/property/northeast": 0.09,
+                        "http://dbpedia.org/property/west": 0.16
+                    },
+                    "subject": "County 3",
+                    "object": "County 1"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/isPartOf": 0.02,
+                        "http://dbpedia.org/property/southeast": 0.1,
+                        "http://dbpedia.org/property/subdivisionName": 0.02,
+                        "http://dbpedia.org/property/southwest": 0.1,
+                        "http://dbpedia.org/property/east": 0.07,
+                        "http://dbpedia.org/property/south": 0.1,
+                        "http://dbpedia.org/property/north": 0.07,
+                        "http://dbpedia.org/property/northeast": 0.09,
+                        "http://dbpedia.org/property/northwest": 0.03,
+                        "http://dbpedia.org/property/replace": 0.03,
+                        "http://dbpedia.org/property/west": 0.12
+                    },
+                    "subject": "County 3",
+                    "object": "County 2"
+                }
+            ],
+            "table": "Unnamed table in section 'Historic county tripoints'",
+            "colums": [
+                "County 1",
+                "County 2",
+                "County 3",
+                "Grid Ref (1806)",
+                "Grid Ref (1890)",
+                "Notes"
+            ]
+        }
+    ]
+}

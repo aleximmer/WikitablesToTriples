@@ -1,0 +1,271 @@
+{
+    "no. of tables": 6,
+    "page": "List of human spaceflights to Salyut space stations",
+    "tables": [
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 1.0,
+                        "http://dbpedia.org/ontology/mission": 1.0
+                    },
+                    "subject": "Crew",
+                    "object": "Flight up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 1.0,
+                        "http://dbpedia.org/ontology/mission": 1.0
+                    },
+                    "subject": "Crew",
+                    "object": "Flight down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 1.0
+                    },
+                    "subject": "Flight up",
+                    "object": "Crew"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 1.0
+                    },
+                    "subject": "Flight down",
+                    "object": "Crew"
+                }
+            ],
+            "table": "Unnamed table in section 'Salyut 1'",
+            "colums": [
+                "Expedition",
+                "Crew",
+                "Launch (GMT)",
+                "Flight up",
+                "Landing (GMT)",
+                "Flight down",
+                "Duration\n(days)",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 1.0,
+                        "http://dbpedia.org/ontology/mission": 1.0
+                    },
+                    "subject": "Crew",
+                    "object": "Flight up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 1.0,
+                        "http://dbpedia.org/ontology/mission": 1.0
+                    },
+                    "subject": "Crew",
+                    "object": "Flight down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 1.0
+                    },
+                    "subject": "Flight up",
+                    "object": "Crew"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 1.0
+                    },
+                    "subject": "Flight down",
+                    "object": "Crew"
+                }
+            ],
+            "table": "Unnamed table in section 'Salyut 3'",
+            "colums": [
+                "Expedition",
+                "Crew",
+                "Launch (GMT)",
+                "Flight up",
+                "Landing (GMT)",
+                "Flight down",
+                "Duration\n(days)",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 1.0,
+                        "http://dbpedia.org/ontology/mission": 0.67
+                    },
+                    "subject": "Crew",
+                    "object": "Flight up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 1.0,
+                        "http://dbpedia.org/ontology/mission": 0.67
+                    },
+                    "subject": "Crew",
+                    "object": "Flight down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 1.0
+                    },
+                    "subject": "Flight up",
+                    "object": "Crew"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 1.0
+                    },
+                    "subject": "Flight down",
+                    "object": "Crew"
+                }
+            ],
+            "table": "Unnamed table in section 'Salyut 5'",
+            "colums": [
+                "Expedition",
+                "Crew",
+                "Launch (GMT)",
+                "Flight up",
+                "Landing (GMT)",
+                "Flight down",
+                "Duration\n(days)",
+                "Remarks"
+            ]
+        },
+        {
+            "predicates": [
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Up": 0.44,
+                        "http://dbpedia.org/property/crewMembers": 0.5
+                    },
+                    "subject": "Expedition",
+                    "object": "Crew"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.44,
+                        "http://dbpedia.org/property/arrivalCraft": 0.11,
+                        "http://dbpedia.org/property/expedition2Up": 0.11,
+                        "http://dbpedia.org/property/expedition1Up": 0.11
+                    },
+                    "subject": "Expedition",
+                    "object": "Flight up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/ontology/wikiPageRedirects": 0.44,
+                        "http://dbpedia.org/property/departureCraft": 0.11,
+                        "http://dbpedia.org/property/expedition2Up": 0.11,
+                        "http://dbpedia.org/property/expedition1Up": 0.11
+                    },
+                    "subject": "Expedition",
+                    "object": "Flight down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 0.39,
+                        "http://dbpedia.org/ontology/mission": 0.5
+                    },
+                    "subject": "Crew",
+                    "object": "Expedition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 0.72,
+                        "http://dbpedia.org/ontology/mission": 0.78
+                    },
+                    "subject": "Crew",
+                    "object": "Flight up"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/mission": 0.5,
+                        "http://dbpedia.org/ontology/mission": 0.61
+                    },
+                    "subject": "Crew",
+                    "object": "Flight down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/expedition2Up": 0.22,
+                        "http://dbpedia.org/property/expedition1Up": 0.22
+                    },
+                    "subject": "Flight up",
+                    "object": "Expedition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crewLaunching": 0.44,
+                        "http://dbpedia.org/property/crew1Up": 1.0,
+                        "http://dbpedia.org/property/crewMembers": 0.56
+                    },
+                    "subject": "Flight up",
+                    "object": "Crew"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/expedition2Up": 0.11,
+                        "http://dbpedia.org/property/nextMission": 0.06,
+                        "http://dbpedia.org/property/previousMission": 0.11,
+                        "http://dbpedia.org/property/expedition1Up": 0.11
+                    },
+                    "subject": "Flight up",
+                    "object": "Flight down"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/expedition2Up": 0.11,
+                        "http://dbpedia.org/property/expedition1Down": 0.11,
+                        "http://dbpedia.org/property/expedition1Up": 0.11,
+                        "http://dbpedia.org/property/expedition2Down": 0.11
+                    },
+                    "subject": "Flight down",
+                    "object": "Expedition"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/crew1Down": 0.44,
+                        "http://dbpedia.org/property/crew1Up": 0.56,
+                        "http://dbpedia.org/property/crewMembers": 0.56,
+                        "http://dbpedia.org/property/crewLanding": 0.44
+                    },
+                    "subject": "Flight down",
+                    "object": "Crew"
+                },
+                {
+                    "predicates": {
+                        "http://dbpedia.org/property/expedition2Up": 0.11,
+                        "http://dbpedia.org/property/nextMission": 0.11,
+                        "http://dbpedia.org/property/previousMission": 0.06,
+                        "http://dbpedia.org/property/expedition1Up": 0.11
+                    },
+                    "subject": "Flight down",
+                    "object": "Flight up"
+                }
+            ],
+            "table": "Unnamed table in section 'Salyut 6'",
+            "colums": [
+                "Expedition",
+                "Crew",
+                "Launch (GMT)",
+                "Flight up",
+                "Landing (GMT)",
+                "Flight down",
+                "Duration\n(days)",
+                "Remarks"
+            ]
+        }
+    ]
+}
