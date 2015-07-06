@@ -1,7 +1,7 @@
 import wikipedia
 from bs4 import BeautifulSoup
 import requests
-from .table import Table
+from table import Table
 
 class Page:
 
@@ -39,7 +39,7 @@ class Page:
     @property
     def tables(self):
         if not self._tables:
-            self._tables = [Table(table) for table in self.soup.findAll('table', 'wikitable')]
+            self._tables = [Table(table, self.title) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
 
     def hasTable(self):

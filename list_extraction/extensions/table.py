@@ -1,19 +1,20 @@
 from bs4 import BeautifulSoup
-import .sparql
+import sparql
 import itertools
+from keyExtractor import extractKeyColumn
 
 class Table:
 
     """This class abstracts tables in Wikipedia articles to provide additional extraction functionality."""
 
-    def __init__(self, soup):
+    def __init__(self, soup, title):
         self.soup = soup
         self.caption = soup.find('caption')
         self.head = soup.find('thead')
         self.body = soup.find('tbody')
         self.section = self._section()
         self.columnNames = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
-
+        self.pageTitle = title
         self.rows = [tr.findAll('th') + tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
 
     def __repr__(self):
@@ -47,6 +48,10 @@ class Table:
         for i, c in enumerate(self.columnNames):
             columns.append([row[i] for row in self.rows])
         return columns
+
+    @property
+    def key(self):
+        key = extractKeyColumn(self.soup, self.pageTitle, self.caption, '')
 
     def row(self, i):
         return self.rows[i]
@@ -95,7 +100,7 @@ class Table:
 
         return predicates
 
-    def predicatesForSubjectColumn(self, subColumn, relative=True):
+    def predicatesForKeyColumn(self, relative=True):
         """Return all predicates with subColumn as subject and all other columns as possible objects
         Set 'relative' to True if you want relative occurances."""
         objPredicates = {}
@@ -103,7 +108,7 @@ class Table:
             if obj == subColumn:
                 continue
 
-            objPredicates[obj] = self.predicatesForColumns(subColumn, obj, relative=True)
+            objPredicates[obj] = self.predicatesForColumns(self.key, obj, relative=True)
 
         return objPredicates
 
