@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from . import sparql
+import .sparql
 import itertools
 
 class Table:
@@ -7,8 +7,6 @@ class Table:
     """This class abstracts tables in Wikipedia articles to provide additional extraction functionality."""
 
     def __init__(self, soup):
-        if soup.__class__.__name__ == 'str':
-            soup = BeautifulSoup(soup)
         self.soup = soup
         self.caption = soup.find('caption')
         self.head = soup.find('thead')
@@ -53,9 +51,9 @@ class Table:
     def row(self, i):
         return self.rows[i]
 
-    def column(self, key):
+    def column(self, key, content=False):
         i = key if type(key) is int else self.columnNames.index(key)
-        return [row[i] for row in self.rows]
+        return [sparql.cellContent(row[i]) if content else row[i] for row in self.rows]
 
     def skip(self):
         # Something's wrong with rows (TODO: find 'something')
@@ -75,11 +73,8 @@ class Table:
     def predicatesForColumns(self, subColumn, objColumn, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
         Set 'relative' to True if you want relative occurances."""
-        print(str(subColumn) + ' -> ' + objColumn)
         subData = self.column(subColumn)
         objData = self.column(objColumn)
-        #print(subData)
-        #print(objData)
         predicates = {}
         for i in range(0, len(subData)):
             subContent = sparql.cellContent(subData[i])
