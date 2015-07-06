@@ -95,6 +95,19 @@ class Table:
 
         return predicates
 
+    def predicatesForSubjectColumn(self, subColumn, relative=True):
+        """Return all predicates with subColumn as subject and all other columns as possible objects
+        Set 'relative' to True if you want relative occurances."""
+        objPredicates = {}
+        for obj in columns:
+            if obj == subColumn:
+                continue
+
+            objPredicates[obj] = self.predicatesForColumns(subColumn, obj, relative=True)
+
+        return objPredicates
+
+
     def predicatesForAllColumns(self, relative=True, omit=False):
         """Return predicates between all permutations of columns.
         Set 'omit' to 'True' to leave out empty ones."""
