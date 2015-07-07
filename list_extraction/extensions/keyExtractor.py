@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 import codecs
-import json
 import inflect
 import math
 import sys
 import re
+import json
 import traceback
+import copy
 
 from bs4 import BeautifulSoup
 from  more_itertools import unique_everseen
@@ -21,6 +22,8 @@ COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rech
 COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
 FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 
+# Init Inflect Engine
+inflectEngine = inflect.engine()
 
 ########################################## Key extraction ##########################################
 
@@ -29,12 +32,12 @@ FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Pr
 # gibt alle Header als Array von Soup-Elemente zurück.
 # Sollte die Kopfzeile nicht gefunden werden oder kein Header vorhanden,
 # wirft die Funktion einen ValueError.
-def extractTableHead(htmlTable):
-	soup = BeautifulSoup(htmlTable)
+def extractTableHead(htmlTableSoup):
+	htmlTable = str(htmlTableSoup)
 	quickView = htmlTable[0:50]+" [...]"
 
 	# Erste Row (TR) egal ob im TBody oder sogar im THead ist die Kopfzeile (Aussage mit Tests überprüfen?)
-	header = soup.find("tr")
+	header = htmlTableSoup.find("tr")
 	if header == None:
 		raise ValueError("Can\'t find header row of the given table: \n" + quickView)
 
@@ -47,13 +50,12 @@ def extractTableHead(htmlTable):
 
 # <th> tags are used in different ways so it's nearly impossible to parse them
 # Solution: replace them with <td> and act like the <td>-Tags in the first <tr>-Row are <th>-Tags
-def fixTableHeaderTagsForOutput(htmlTable):
-	soup = BeautifulSoup(htmlTable)
-	thTags = soup.findAll('th')
+def fixTableHeaderTagsForOutput(htmlTableSoup):
+	htmlTable = str(htmlTableSoup)
+	thTags = htmlTableSoup.findAll('th')
 
 	for thTag in thTags:
 		thTag.name='td'
-	htmlTable = str(soup)
 
 	# Make the first row to a header row (<td> to <th>)
 	pos1 = htmlTable.find("<tr")
@@ -65,14 +67,7 @@ def fixTableHeaderTagsForOutput(htmlTable):
 	for col in colNames:
 		col.name='th'
 	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
-	return htmlTable[:pos1] + firstRow + htmlTable[pos2:]
-
-
-# Benutze BeautifulSoup, um alle Spalten abzuzählen. In der ersten Reihe dürfen td & th stehen
-def countAllCols(htmlTable):
-	soup = BeautifulSoup(htmlTable)
-	firstRow = soup.find("tr")
-	return len(firstRow.findAll("th") + firstRow.findAll("td"))
+	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:])
 
 # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
 # diese auf Einzigartigkeit (optional). Sollte keine Spalte dem entsprechen, wird
@@ -80,9 +75,9 @@ def countAllCols(htmlTable):
 # Am Ende wird ein Array von Elementen der Form {"xPos": a, "entries": c}
 # zurückgegeben
 # UPDATE: Added originalHTML and attrOrig to get the real tag (hd or td)
-def extractColumnsInfos(htmlTable, originalHTML):
-	soup = BeautifulSoup(htmlTable) # th and td tags by fixTableHeaderTagsForOutput() formatted
-	soupOrig = BeautifulSoup(originalHTML) # orginal html code
+def extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
+	htmlTable = str(htmlTableSoup) # th and td tags by fixTableHeaderTagsForOutput() formatted
+	originalHTML = str(originalHTMLSoup) # orginal html code
 	quickView = originalHTML[0:50]+" [...]" # error output
 
 	# 1.) Überprüfen ob die Tabelle ein gültiges Format hat
@@ -93,8 +88,8 @@ def extractColumnsInfos(htmlTable, originalHTML):
 			raise ValueError("Table uses not supported formattings ("+match.group(1)+" at "+str(match.span())+"): " + match.group())
 
 	# 2.) Alle Spalten als 2D-Array extrahieren
-	rows = soup.findAll("tr")
-	rowsOrig = soupOrig.findAll("tr")
+	rows = htmlTableSoup.findAll("tr")
+	rowsOrig = originalHTMLSoup.findAll("tr")
 	rowCount = len(rows) - 1
 	if rowCount <= 0:
 		raise ValueError("Table doesn\'t contain rows (except the head line): " + quickView)
@@ -138,7 +133,7 @@ def extractColumnsInfos(htmlTable, originalHTML):
 		raise ValueError("Can\'t find any column with unique entries (might be foreing keys)")
 
 	# Führe Title mit Entries und Position zusammen (Schema):
-	tableColNames = extractTableHead(htmlTable)
+	tableColNames = extractTableHead(htmlTableSoup)
 	uniqueCols = [{
 			"xPos": col["xPos"],
 			"unique": col["unique"],
@@ -162,8 +157,8 @@ def countEntities(cols):
 		entityCount = 0
 		multipleEnts = False
 		for entry in entries:
-			soup = BeautifulSoup(entry)
-			links = soup.findAll("a")
+			entrySoup = BeautifulSoup(entry)
+			links = entrySoup.findAll("a")
 			linksHref = [aTag["href"] for aTag in links]
 			linksHref = list(unique_everseen(linksHref))
 			linksCount = len(links)
@@ -213,7 +208,7 @@ def valuateByName(cols, articleName):
 				# Die gegebene Punktzahl ist von der Wortlänge abhängig (Problematische Wörter
 				# wie "in", "the", "of" o.ä. haben dann wenig Einfluss)
 				cols[i]["rating"] += max(len(word), COLNAME_MAX_WORD_POINTS)
-			if p.plural(word) in articleNames:
+			if inflectEngine.plural(word) in articleNames:
 				# Wenn der Plural trifft, ist es ein wichtigerer Treffer als ein normaler
 				cols[i]["rating"] += max(len(word), COLNAME_MAX_WORD_POINTS) + COLNAME_PLURAL_HIT_POINTS
 
@@ -232,7 +227,7 @@ def valuateByPosition( cols ):
 
 # Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten haben mit
 # hoher Warscheinlichkeit die gesuchten Entitäten (KeyCol)
-def lookForTHCol(uniqueCols, originalHTML):
+def lookForTHCol(uniqueCols):
 	for i in range(0, len(uniqueCols)):
 		isVertical = True
 		for entry in uniqueCols[i]['entriesOrig']:
@@ -264,7 +259,14 @@ def findMatchWithListCategories(uniqueCols, articleName):
 # wurde, wird None zurückgegeben (ansonsten das Spaltenelement)
 def validateRatings( cols ):
 	# Create copy to keep the original order in cols
-	ratCols = [{'entries': col['entries'], 'rating': col['rating'], 'entityCount': col['entityCount'], 'multipleEntities': col['multipleEntities'], 'xPos': col['xPos']} for col in cols]
+	ratCols = [{'entries': col['entries'],
+				#'entriesOrig': col['entriesOrig'],
+				'unique': col['unique'],
+				'rating': col['rating'],
+				'entityCount': col['entityCount'],
+				'multipleEntities': col['multipleEntities'],
+				'xPos': col['xPos'],
+				'title': col['title']} for col in cols]
 	ratCols.sort(key=lambda obj: obj['rating'], reverse=True)
 	rating1 = ratCols[0]['rating']
 	if len(ratCols) > 1:
@@ -290,14 +292,14 @@ def validateRatings( cols ):
 
 
 # TODO: Dokumentieren
-def extractKeyColumn(htmlTable, articleName, tableName, abstracts):
+def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
-		originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
-		htmlTable = fixTableHeaderTagsForOutput(htmlTable)
+		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup)) # Save original formatting as copy (force copying)
+		htmlTableSoup = fixTableHeaderTagsForOutput(htmlTableSoup)
 
 		# Extracting and rating columns
-		uniqueCols = extractColumnsInfos(htmlTable, originalHTML)
+		uniqueCols = extractColumnsInfos(htmlTableSoup, originalHTMLSoup)
 
 		# Rating:
 
@@ -311,7 +313,7 @@ def extractKeyColumn(htmlTable, articleName, tableName, abstracts):
 		valuateByPosition(uniqueCols)
 
 		# Nutze vertikale TH-Cols
-		lookForTHCol(uniqueCols, originalHTML)
+		lookForTHCol(uniqueCols)
 
 		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
 		# TODO: textualEvidenceWithAbstracts(uniqueCols, abstracts)
@@ -325,15 +327,18 @@ def extractKeyColumn(htmlTable, articleName, tableName, abstracts):
 		# Validiere die Bewertungen der Spalten
 		keyCol = validateRatings(uniqueCols)
 
-		if keyCol != None:
-		    keyCol = keyCol['xPos']
-		else:
+		if keyCol == None:
 		    print('Can\'t extract a significant single key column')
+		else:
+			print('Extracted Key: ')
+			print(json.dumps(keyCol, indent=4, sort_keys=True))
+		#else:
+		#	keyCol = keyCol['xPos']
 
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
 		print('Error: ' + str(e))
-		# print(traceback.format_exc())
+		print(traceback.format_exc())
 		keyCol = None
 
 	return keyCol

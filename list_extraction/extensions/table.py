@@ -52,6 +52,13 @@ class Table:
     @property
     def key(self):
         key = extractKeyColumn(self.soup, self.pageTitle, self.caption, '')
+        if key != None:
+            # Key object has following params:
+            # entries, unique(no duplicate content), rating, xPos, title
+            # entityCount(number of cells with an entity),
+            # multipleEntities(true if at least one cell contains 2 entities),
+            key = key['xPos']
+        return key
 
     def row(self, i):
         return self.rows[i]
