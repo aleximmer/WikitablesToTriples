@@ -66,6 +66,7 @@ def fixTableHeaderTagsForOutput(htmlTableSoup):
 	colNames = headerSoup.findAll('td')
 	for col in colNames:
 		col.name='th'
+	print(str(type(headerSoup)))
 	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
 	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:])
 

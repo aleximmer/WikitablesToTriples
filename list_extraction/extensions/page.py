@@ -14,6 +14,8 @@ class Page:
     def __init__(self, title, revisionID='', contentOnly=True):
         """Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections."""
         oldID = '&?&oldid='
+        if not revisionID:
+            oldID = ''
         self.page = wikipedia.page(title)
         self.title = self.page.title
         self.url = self.page.url + oldID + str(revisionID)
