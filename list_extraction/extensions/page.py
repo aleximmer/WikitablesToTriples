@@ -11,15 +11,12 @@ class Page:
     _soup = None
     _tables = None
 
-    def __init__(self, title, contentOnly=True, revisionID=None):
+    def __init__(self, title, revisionID='', contentOnly=True):
         """Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections."""
         oldID = '&?&oldid='
-        if revisionID == None:
-            oldID = ''
-            revisionID = ''
         self.page = wikipedia.page(title)
         self.title = self.page.title
-        self.url = self.page.url + oldID + revisionID
+        self.url = self.page.url + oldID + str(revisionID)
         self.contentOnly = contentOnly
 
     def __repr__(self):
