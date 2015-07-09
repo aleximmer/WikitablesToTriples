@@ -296,6 +296,8 @@ def saveCSVData( roundsResults, cols, round ):
 
 # TODO: Dokumentieren
 def extractKeyColumn( htmlTable, articleName, tableName, abstracts ):
+	print('!!! Using extractingTables.py is deprecated !!!')
+
 	try:
 		# Fix <th> tags because <th> is used in different ways:
 		originalHTML = (htmlTable + '.')[:-1] # Save original formatting as copy (force copying)
