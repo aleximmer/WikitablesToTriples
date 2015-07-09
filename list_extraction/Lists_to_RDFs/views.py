@@ -17,6 +17,9 @@ Return initial template used for init_testing on Link /KeyForm
 def init_testing(request):
     return render(request, 'KeyForm.html')
 
+def show_final_tool(request):
+    return render(request, 'Tool.html')
+
 """
 1. retrieve random Table which is not checked yet
 2. generate key for given table
@@ -92,7 +95,7 @@ def get_correct_key(request):
 def get_prec_rec(request):
     # Retrieve all rated tables
     tables = WikiTable.objects.filter(checked=True)
-    
+
     result = machineLearningWithPrecisionRecall(tables, True) # Print results in console (debug)
 
     return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'tableCount': result['tableCount'], 'thresholdsState': result['thresholdsState']})

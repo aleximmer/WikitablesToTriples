@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
-import sparql
+#import sparql
 import itertools
-from keyExtractor import extractKeyColumn
+#from keyExtractor import extractKeyColumn
 
 class Table:
 

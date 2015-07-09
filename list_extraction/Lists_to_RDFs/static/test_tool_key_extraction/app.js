@@ -46,7 +46,7 @@ function receiveJSON(data) {
 
 	// 0. TableID speichern
 	currentTableID = data['tableID']
-	// 1. Im HTML �ber indexOf vor dem ersten "<tr>" die RadioButton einf�gen (Anzahl = count(data['colInfos']))
+	// 1. Im HTML ueber indexOf vor dem ersten "<tr>" die RadioButton einfuegen (Anzahl = count(data['colInfos']))
 	//		- Dabei das Ergebnis des Algorithmus direkt markieren (value=id)
 	var pos = data['tableHTML'].search(/<tr[^>]*>/)
 	if (pos == -1) {
