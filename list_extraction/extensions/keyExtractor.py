@@ -53,7 +53,6 @@ def extractTableHead(htmlTableSoup):
 def fixTableHeaderTagsForOutput(htmlTableSoup):
 	htmlTable = str(htmlTableSoup)
 	thTags = htmlTableSoup.findAll('th')
-
 	for thTag in thTags:
 		thTag.name='td'
 
@@ -61,12 +60,11 @@ def fixTableHeaderTagsForOutput(htmlTableSoup):
 	pos1 = htmlTable.find("<tr")
 	pos2 = htmlTable.find("</tr>") + 5
 	firstRow = htmlTable[pos1:pos2]
-
-	headerSoup = BeautifulSoup(firstRow)
+	headerSoup = BeautifulSoup(firstRow,'lxml')
 	colNames = headerSoup.findAll('td')
 	for col in colNames:
 		col.name='th'
-	print(str(type(headerSoup)))
+	print(firstRow)
 	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
 	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:])
 
