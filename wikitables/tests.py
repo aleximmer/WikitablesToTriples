@@ -1,4 +1,5 @@
 from wikitables.sparql import *
+from wikitables.page import Page
 import os
 
 """Helper functions for evaluation and testing go here."""
@@ -52,3 +53,12 @@ def collect_predicates(list_of_pages):
 
 def collect_permutations(list_of_pages):
     return [p for t in collect_tables(list_of_pages) for p in t['predicates']]
+
+def test_key_extraction(title='List of national parks of India'):
+    pg = Page(title)
+    if pg.tables:
+        tb = pg.tables[0]
+        print(pg.tables[0])
+        print(tb.key)
+    else:
+        print('No tables contained')
