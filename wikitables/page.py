@@ -1,7 +1,7 @@
 import wikipedia
 from bs4 import BeautifulSoup
 import requests
-from table import Table
+from wikitables.table import Table
 
 class Page:
 
@@ -59,3 +59,9 @@ class Page:
                     'predicates': table.predicatesForAllColumns(relative, omit)
                 } for table in self.tables if not table.skip()]
         }
+
+    def browse(self):
+        """Open page in browser."""
+        import webbrowser
+
+        webbrowser.open(self.url, new=2)

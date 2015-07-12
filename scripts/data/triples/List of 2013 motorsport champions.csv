@@ -1,0 +1,11 @@
+<http://dbpedia.org/resource/Camping_World_Truck_Series>,http://dbpedia.org/property/country/region,<http://dbpedia.org/resource/United_States>,0.67,List of 2013 motorsport champions
+<http://dbpedia.org/resource/NASCAR_Whelen_Euroseries>,http://dbpedia.org/property/country/region,<http://dbpedia.org/resource/Spain>,0.67,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Sprint_Cup_Series>,http://dbpedia.org/ontology/series,<http://dbpedia.org/resource/Sprint_Cup_Series>,0.33,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Sprint_Cup_Series>,http://dbpedia.org/property/seriesName,<http://dbpedia.org/resource/Sprint_Cup_Series>,0.17,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Nationwide_Series>,http://dbpedia.org/ontology/series,<http://dbpedia.org/resource/Nationwide_Series>,0.33,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Nationwide_Series>,http://dbpedia.org/property/seriesName,<http://dbpedia.org/resource/Nationwide_Series>,0.17,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Camping_World_Truck_Series>,http://dbpedia.org/ontology/series,<http://dbpedia.org/resource/Camping_World_Truck_Series>,0.33,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Camping_World_Truck_Series>,http://dbpedia.org/property/seriesName,<http://dbpedia.org/resource/Camping_World_Truck_Series>,0.17,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Canadian_Tire_Series_season>,http://dbpedia.org/ontology/series,<http://dbpedia.org/resource/NASCAR_Canadian_Tire_Series>,0.33,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_NASCAR_Toyota_Series_season>,http://dbpedia.org/property/seriesName,<http://dbpedia.org/resource/NASCAR_Toyota_Series>,0.17,List of 2013 motorsport champions
+<http://dbpedia.org/resource/2013_Racecar_Euro_Series>,http://dbpedia.org/property/seriesName,<http://dbpedia.org/resource/NASCAR_Whelen_Euroseries>,0.17,List of 2013 motorsport champions
