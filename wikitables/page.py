@@ -1,7 +1,7 @@
 import wikipedia
 from bs4 import BeautifulSoup
 import requests
-from table import Table
+from wikitables.table import Table
 
 class Page:
 
@@ -33,7 +33,7 @@ class Page:
     @property
     def soup(self):
         if not self._soup:
-            self._soup = BeautifulSoup(self.html)
+            self._soup = BeautifulSoup(self.html, "lxml")
         return self._soup
 
     def categories(self):

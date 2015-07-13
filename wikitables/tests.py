@@ -58,7 +58,16 @@ def test_key_extraction(title='List of national parks of India'):
     pg = Page(title)
     if pg.tables:
         tb = pg.tables[0]
-        print(pg.tables[0])
-        print(tb.key)
+        print(tb.keyName)
     else:
         print('No tables contained')
+
+def test_column_names(title, key):
+    pg = Page(title)
+    if not pg.tables:
+        return
+    tb = pg.tables[0]
+    for column in tb.columnNames:
+        if not column == key:
+            print(column)
+            print(tb.predicatesForColumns(key, column,))

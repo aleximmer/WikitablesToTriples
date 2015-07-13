@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
-import sparql
+import wikitables.sparql as sparql
 import itertools
-from keyExtractor import extractKeyColumn
+from wikitables.keyExtractor import extractKeyColumn
 
 class Table:
 
@@ -59,6 +59,10 @@ class Table:
             # multipleEntities(true if at least one cell contains 2 entities),
             key = key['xPos']
         return key
+
+    @property
+    def keyName(self):
+        return self.columnNames[self.key]
 
     def row(self, i):
         return self.rows[i]

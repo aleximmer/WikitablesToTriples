@@ -62,12 +62,12 @@ def fixTableHeaderTagsForOutput(htmlTableSoup):
 	pos2 = htmlTable.find("</tr>") + 5
 	firstRow = htmlTable[pos1:pos2]
 
-	headerSoup = BeautifulSoup(firstRow)
+	headerSoup = BeautifulSoup(firstRow, "lxml")
 	colNames = headerSoup.findAll('td')
 	for col in colNames:
 		col.name='th'
 	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
-	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:])
+	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:], "lxml")
 
 # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
 # diese auf Einzigartigkeit (optional). Sollte keine Spalte dem entsprechen, wird
@@ -157,7 +157,7 @@ def countEntities(cols):
 		entityCount = 0
 		multipleEnts = False
 		for entry in entries:
-			entrySoup = BeautifulSoup(entry)
+			entrySoup = BeautifulSoup(entry, "lxml")
 			links = entrySoup.findAll("a")
 			linksHref = [aTag["href"] for aTag in links]
 			linksHref = list(unique_everseen(linksHref))
@@ -295,7 +295,7 @@ def validateRatings( cols ):
 def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
-		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup)) # Save original formatting as copy (force copying)
+		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
 		htmlTableSoup = fixTableHeaderTagsForOutput(htmlTableSoup)
 
 		# Extracting and rating columns
@@ -329,11 +329,6 @@ def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 
 		if keyCol == None:
 		    print('Can\'t extract a significant single key column')
-		else:
-			print('Extracted Key: ')
-			print(json.dumps(keyCol, indent=4, sort_keys=True))
-		#else:
-		#	keyCol = keyCol['xPos']
 
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
