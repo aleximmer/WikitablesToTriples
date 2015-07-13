@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import wikitables.sparql as sparql
 import itertools
 from wikitables.keyExtractor import extractKeyColumn
+import json
+from collections import defaultdict
 
 class Table:
 
@@ -19,14 +21,14 @@ class Table:
 
     def __repr__(self):
         if self.caption:
-            return self.caption.text
-        return "Unnamed table in section \'%s\'" % self.section
+            return "\'%s\' in section \'%s\'" % (self.caption.text, self.section)
+        return "Table in section \'%s\'" % self.section
 
     def _section(self):
-        """Try finding first header (h2) before table.
+        """Try finding first header (h2, h3) before table.
         If none found, use the article's title."""
         for sibling in self.soup.previous_siblings:
-            if sibling.name == 'h2':
+            if sibling.name in ['h2', 'h3']:
                 return sibling.span.text
 
         for parent in self.soup.parents:
@@ -138,15 +140,42 @@ class Table:
                 })
         return predicates
 
-    # def populateRows(self):
-    #     trs = [tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
-    #     rowLength = len(max(trs, lambda tr: len(tr)))
-    #     rows = [[None for cell in range(0, rowLength)] for tr in trs]
-    #
-    #     for row, tr in enumerate(trs):
-    #         col = 0
-    #         for td in tr:
-    #             while not rows[row][col]: col += 1
-    #             rows[row][col] = td
-    #
-    #     return rows
+    def generateRDFs(self, threshold=0.0, path=None):
+        """Save RDFs statements generated from table."""
+
+        data = []
+
+        for subColumnName, objColumnName in itertools.permutations(self.columnNames, 2):
+            subColumn = self.column(subColumnName, content=True)
+            objColumn = self.column(objColumnName, content=True)
+
+            existingPredicates = [sparql.predicates(subColumn[i], objColumn[i]) for i in range(len(subColumn))]
+
+            absCount = defaultdict(int)
+            for row in existingPredicates:
+                for predicate in row:
+                    absCount[predicate] += 1
+
+            if not absCount:
+                continue
+
+            relCount = dict((key, value/len(existingPredicates)) for key, value in absCount.items() if value/len(existingPredicates) > threshold)
+            predicates = set(relCount.keys())
+
+            generatedPreciates = [list(predicates - set(row)) for row in existingPredicates]
+
+            for i, row in enumerate(generatedPreciates):
+                for predicate in row:
+                    data.append([subColumn[i], predicate, objColumn[i], relCount[predicate]])
+
+        from pandas import DataFrame
+        df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
+        df['table'] = repr(self)
+        df['page'] = self.pageTitle
+
+        print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
+
+        if path:
+            df.to_csv(path, index=False)
+        else:
+            print(df)
