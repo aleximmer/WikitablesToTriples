@@ -117,8 +117,8 @@ class Table:
         """Return all predicates with subColumn as subject and all other columns as possible objects
         Set 'relative' to True if you want relative occurances."""
         objPredicates = {}
-        for obj in columns:
-            if obj == subColumn:
+        for obj in self.columnNames:
+            if obj == self.keyName:
                 continue
 
             objPredicates[obj] = self.predicatesForColumns(self.key, obj, relative=True)
@@ -140,8 +140,14 @@ class Table:
                 })
         return predicates
 
+    def generateRDFsForKey(self):
+        if not self.keyName:
+            return
+
+
+
     def generateRDFs(self, threshold=0.0, path=None):
-        """Save RDFs statements generated from table."""
+        """Save RDF statements generated from table."""
 
         data = []
 
