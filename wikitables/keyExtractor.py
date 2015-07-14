@@ -123,7 +123,7 @@ def extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
 					break
 				else:
 					checkedValues[i] = value
-	if unique or not ONLY_UNIQUE_COLS:
+		if unique or not ONLY_UNIQUE_COLS:
 			# Alle Einträge der möglichen Key-Spalte als Array speichern (plain, nicht raw)
 			uniqueCols.append({"xPos": j,
 				"unique": unique,
