@@ -62,6 +62,10 @@ class Table:
             key = key['xPos']
         return key
 
+    @property
+    def keyName(self):
+        return self.columnNames[self.key]
+
     def row(self, i):
         return self.rows[i]
 
@@ -136,18 +140,6 @@ class Table:
                 })
         return predicates
 
-    # def populateRows(self):
-    #     trs = [tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
-    #     rowLength = len(max(trs, lambda tr: len(tr)))
-    #     rows = [[None for cell in range(0, rowLength)] for tr in trs]
-    #
-    #     for row, tr in enumerate(trs):
-    #         col = 0
-    #         for td in tr:
-    #             while not rows[row][col]: col += 1
-    #             rows[row][col] = td
-    #
-    #     return rows
     def generateRDFs(self, threshold=0.0, path=None):
         """Save RDFs statements generated from table."""
 

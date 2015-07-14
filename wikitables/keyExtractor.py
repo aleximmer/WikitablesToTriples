@@ -61,12 +61,12 @@ def _fixTableHeaderTagsForOutput(htmlTableSoup):
 	pos2 = htmlTable.find("</tr>") + 5
 	firstRow = htmlTable[pos1:pos2]
 
-	headerSoup = BeautifulSoup(firstRow)
+	headerSoup = BeautifulSoup(firstRow, "lxml")
 	colNames = headerSoup.findAll('td')
 	for col in colNames:
 		col.name='th'
 	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
-	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:])
+	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:], "lxml")
 
 # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
 # diese auf Einzigartigkeit (optional). Sollte keine Spalte dem entsprechen, wird
@@ -122,7 +122,7 @@ def _extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
 					break
 				else:
 					checkedValues[i] = value
-	if unique or not ONLY_UNIQUE_COLS:
+		if unique or not ONLY_UNIQUE_COLS:
 			# Alle Einträge der möglichen Key-Spalte als Array speichern (plain, nicht raw)
 			uniqueCols.append({"xPos": j,
 				"unique": unique,
@@ -156,7 +156,7 @@ def _countEntities(cols):
 		entityCount = 0
 		multipleEnts = False
 		for entry in entries:
-			entrySoup = BeautifulSoup(entry)
+			entrySoup = BeautifulSoup(entry, "lxml")
 			links = entrySoup.findAll("a")
 			linksHref = [aTag["href"] for aTag in links]
 			linksHref = list(unique_everseen(linksHref))
@@ -294,8 +294,13 @@ def _validateRatings( cols ):
 def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
+<<<<<<< HEAD
 		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup)) # Save original formatting as copy (force copying)
 		htmlTableSoup = _fixTableHeaderTagsForOutput(htmlTableSoup)
+=======
+		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
+		htmlTableSoup = fixTableHeaderTagsForOutput(htmlTableSoup)
+>>>>>>> 85082fec329bad07bd19ba7f45489a1faa1e5df5
 
 		# Extracting and rating columns
 		uniqueCols = _extractColumnsInfos(htmlTableSoup, originalHTMLSoup)
@@ -328,11 +333,6 @@ def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 
 		if keyCol == None:
 		    print('Can\'t extract a significant single key column')
-		else:
-			print('Extracted Key: ')
-			print(json.dumps(keyCol, indent=4, sort_keys=True))
-		#else:
-		#	keyCol = keyCol['xPos']
 
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
