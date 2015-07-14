@@ -294,13 +294,9 @@ def _validateRatings( cols ):
 def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
-<<<<<<< HEAD
-		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup)) # Save original formatting as copy (force copying)
-		htmlTableSoup = _fixTableHeaderTagsForOutput(htmlTableSoup)
-=======
+
 		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
-		htmlTableSoup = fixTableHeaderTagsForOutput(htmlTableSoup)
->>>>>>> 85082fec329bad07bd19ba7f45489a1faa1e5df5
+		htmlTableSoup = _fixTableHeaderTagsForOutput(htmlTableSoup)
 
 		# Extracting and rating columns
 		uniqueCols = _extractColumnsInfos(htmlTableSoup, originalHTMLSoup)

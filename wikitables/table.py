@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
-import wikitables.sparql as sparql
+import sparql
 import itertools
-from wikitables.keyExtractor import extractKeyColumn
+from keyExtractor import extractKeyColumn
 import json
 from collections import defaultdict
 

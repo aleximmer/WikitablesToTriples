@@ -1,5 +1,5 @@
-from wikitables.sparql import *
-from wikitables.page import Page
+from sparql import *
+from page import Page
 import os
 
 """Helper functions for evaluation and testing go here."""
