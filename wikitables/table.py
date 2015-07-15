@@ -4,6 +4,8 @@ import itertools
 from keyExtractor import extractKeyColumn
 import json
 from collections import defaultdict
+from fuzzywuzzy import fuzz
+from copy import deepcopy
 
 class Table:
 
@@ -113,12 +115,12 @@ class Table:
 
         return predicates
 
-    def predicatesForKeyColumn(self, relative=True):
+    def relPredicatesForKeyColumn(self, relative=True):
         """Return all predicates with subColumn as subject and all other columns as possible objects
         Set 'relative' to True if you want relative occurances."""
         objPredicates = {}
-        for obj in columns:
-            if obj == subColumn:
+        for obj in self.columnNames:
+            if obj == self.keyName:
                 continue
 
             objPredicates[obj] = self.predicatesForColumns(self.key, obj, relative=True)
@@ -140,8 +142,77 @@ class Table:
                 })
         return predicates
 
+    def predicatesForKeyColumn(self):
+        """generate a dictionary containing all predicates for each
+        entity in the key-column with their predicates"""
+        subjects = []
+        for subject in self.columns[self.key]:
+            subjCell = sparql.cellContent(subject)
+            subjects.append([subjCell, sparql.predicates(subjCell)])
+
+        return subjects
+
+
+    def matchColumnForPredicates(self, predicates):
+        """return a ratio calculated by matching the given predicates
+        names against the column-names of the table"""
+
+        ratios = deepcopy(predicates)
+
+        for column in predicates:
+            for predicate in predicates[column]:
+                matchString = predicate.split('/')[-1:][0]
+                ratio = fuzz.ratio(matchString, column)
+                ratios[column][predicate] = ratio / 100
+
+        return ratios
+
+
+    def generateRDFsForKey(self, threshold=0.0, ratings=[0.7, 0.3], out=True):
+        """ratings consist of two values (first weighs the relative occurency
+        second weighs the string-matching with the column name)"""
+
+        if not self.keyName or len(ratings) != 2:
+            return
+
+        predicates = self.relPredicatesForKeyColumn()
+        stringRatios = self.matchColumnForPredicates(predicates)
+
+        # weigh both factors by given ratings
+        for column in predicates:
+            for predicate in predicates[column]:
+                cert = predicates[column][predicate] * ratings[0]
+                ratio = stringRatios[column][predicate] * ratings[1]
+                predicates[column][predicate] = cert + ratio
+
+        # get highest matching predicate
+        foundPredicates = {}
+        for column in predicates:
+            maxVal = max(predicates[column], key=lambda pred: predicates[column][pred])
+            if predicates[column][maxVal] >= threshold:
+                foundPredicates[column] = maxVal
+
+        subjects = self.predicatesForKeyColumn()
+
+        triples = []
+        index = 0
+        for subj in subjects:
+            print(subj[0])
+            for pred in foundPredicates:
+                if foundPredicates[pred] in subj[1] or not self.column(pred, True)[index]:
+                    continue
+                triple = [subj[0], foundPredicates[pred], self.column(pred, True)[index]]
+                triples.append(triple)
+                if out:
+                    print('\tpred: ', end=""), print(triple[1])
+                    print('\t\tobj/value: ', end=""), print(triple[2])
+            index = index + 1
+
+        return triples
+
+
     def generateRDFs(self, threshold=0.0, path=None):
-        """Save RDFs statements generated from table."""
+        """Save RDF statements generated from table."""
 
         data = []
 
