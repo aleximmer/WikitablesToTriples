@@ -87,16 +87,16 @@ def test_key_predicates(title):
     tb = pg.tables[0]
     print(tb.predicatesForKeyColumn())
 
+def test_key_relative_predicates(title):
+    pg = Page(title)
+    if not pg.tables:
+        return
+    tb = pg.tables[0]
+    print(tb.relPredicatesForKeyColumn())
+
 def test_generate_RDFsForKey(title):
     pg = Page(title)
     if not pg.tables:
         return
     tb = pg.tables[0]
     tb.generateRDFsForKey()
-
-def test_match_key(title):
-    pg = Page(title)
-    if not pg.tables:
-        return
-    tb = pg.tables[0]
-    tb.matchColumnForKey()

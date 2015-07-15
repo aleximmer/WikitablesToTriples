@@ -6,7 +6,6 @@ import json
 from collections import defaultdict
 from fuzzywuzzy import fuzz
 from copy import deepcopy
-import pprint
 
 class Table:
 
