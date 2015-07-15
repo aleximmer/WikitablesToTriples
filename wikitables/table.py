@@ -1,24 +1,25 @@
 from bs4 import BeautifulSoup
-import sparql
+import wikitables.sparql as sparql
 import itertools
-from keyExtractor import extractKeyColumn
+from .keyExtractor import extractKeyColumn
 import json
 from collections import defaultdict
 from fuzzywuzzy import fuzz
 from copy import deepcopy
+from .page import *
 
 class Table:
 
     """This class abstracts tables in Wikipedia articles to provide additional extraction functionality."""
 
-    def __init__(self, soup, title):
+    def __init__(self, soup, page):
         self.soup = soup
         self.caption = soup.find('caption')
         self.head = soup.find('thead')
         self.body = soup.find('tbody')
         self.section = self._section()
         self.columnNames = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
-        self.pageTitle = title
+        self.page = page
         self.rows = [tr.findAll('th') + tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
 
     def __repr__(self):
@@ -55,7 +56,7 @@ class Table:
 
     @property
     def key(self):
-        key = extractKeyColumn(self.soup, self.pageTitle, self.caption, '')
+        key = extractKeyColumn(self.soup, self.pageTitle, self.pageSummary, self.pageCategories)
         if key != None:
             # Key object has following params:
             # entries, unique(no duplicate content), rating, xPos, title
@@ -67,6 +68,18 @@ class Table:
     @property
     def keyName(self):
         return self.columnNames[self.key]
+
+    @property
+    def pageTitle(self):
+        return self.page.title
+
+    @property
+    def pageSummary(self):
+        return self.page.summary
+
+    @property
+    def pageCategories(self):
+        return self.page.categories
 
     def row(self, i):
         return self.rows[i]
