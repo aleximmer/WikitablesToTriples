@@ -146,10 +146,10 @@ class Table:
     def predicatesForKeyColumn(self):
         """generate a dictionary containing all predicates for each
         entity in the key-column with their predicates"""
-        subjects = {}
+        subjects = []
         for subject in self.columns[self.key]:
             subjCell = sparql.cellContent(subject)
-            subjects[subjCell] = sparql.predicates(subjCell)
+            subjects.append([subjCell, sparql.predicates(subjCell)])
 
         return subjects
 
@@ -163,41 +163,53 @@ class Table:
         for column in predicates:
             for predicate in predicates[column]:
                 matchString = predicate.split('/')[-1:][0]
-                print(matchString)
                 ratio = fuzz.ratio(matchString, column)
                 ratios[column][predicate] = ratio / 100
 
         return ratios
 
 
-    def generateRDFsForKey(self, threshold=0.0, ratings=[0.5, 0.5]):
+    def generateRDFsForKey(self, threshold=0.0, ratings=[0.7, 0.3], out=True):
         """ratings consist of two values (first weighs the relative occurency
         second weighs the string-matching with the column name)"""
 
         if not self.keyName or len(ratings) != 2:
             return
 
-        subjects = self.predicatesForKeyColumn()
         predicates = self.relPredicatesForKeyColumn()
         stringRatios = self.matchColumnForPredicates(predicates)
 
+        # weigh both factors by given ratings
         for column in predicates:
             for predicate in predicates[column]:
-                # weigh both factors by given ratings
                 cert = predicates[column][predicate] * ratings[0]
                 ratio = stringRatios[column][predicate] * ratings[1]
                 predicates[column][predicate] = cert + ratio
 
+        # get highest matching predicate
         foundPredicates = {}
         for column in predicates:
-            # get highest matching predicate
             maxVal = max(predicates[column], key=lambda pred: predicates[column][pred])
-            if(predicates[column][maxVal] >= threshold):
+            if predicates[column][maxVal] >= threshold:
                 foundPredicates[column] = maxVal
 
-        print(foundPredicates)
+        subjects = self.predicatesForKeyColumn()
 
+        triples = []
+        index = 0
+        for subj in subjects:
+            print(subj[0])
+            for pred in foundPredicates:
+                if foundPredicates[pred] in subj[1] or not self.column(pred, True)[index]:
+                    continue
+                triple = [subj[0], foundPredicates[pred], self.column(pred, True)[index]]
+                triples.append(triple)
+                if out:
+                    print('\tpred: ', end=""), print(triple[1])
+                    print('\t\tobj/value: ', end=""), print(triple[2])
+            index = index + 1
 
+        return triples
 
 
     def generateRDFs(self, threshold=0.0, path=None):
