@@ -1,0 +1,50 @@
+{
+  "notes":"1.) Compare column name with collections of often occurring column names \n2.) If column name occurres often: Compare name with predictions of each key entity \n3.) Found mostly equal prediction (min: 33% of entities) -> Add to result",
+  "examples":[
+    {
+      "table":"List of national parks of India",
+      "predictions":[
+        {"State": null},
+        {"Established": "http://dbpedia.org/property/established"},
+        {". Area (in km²)": "http://dbpedia.org/property/area"},
+        {"Notability": null}],
+      "failedMapping":{
+        "State": "location"
+      }
+    },
+    {
+      "table":"List of counties in Missouri",
+      "predictions":[
+        {"INCITS\n[7]": null},
+        {"County seat\n[8]": null},
+        {"Established\n[8]": null},
+        {"Formed from\n[3]": null},
+        {"Etymology\n[3][9][10]": null},
+        {"Population\n[6]": null},
+        {"Area\n[8]": null},
+        {"Map": null}],
+      "failedMapping":{
+        "County Seat": "seatWl",
+        "Established": "foundedYear",
+        "Area": "areaTotalSqMi"
+      },
+      "note":"Population failes because there are not enough occurrences of populationDensity/populationTotal"
+    },
+    {
+      "table":"List of post-1692 Anglican parishes in the Province of Maryland",
+      "predictions":[
+        {"Image": null},
+        {"Original parish name": null},
+        {"Location": null},
+        {"County, etc.": null},
+        {"Year established": null},
+        {"Current status": null},
+        {"NRHP": null},
+        {"Description": null},
+        {"Website": null}],
+      "failedMapping":{
+      },
+      "note":"Location failes because there not enough key column entities (min 30% prediction match)"
+    }
+  ]
+}
