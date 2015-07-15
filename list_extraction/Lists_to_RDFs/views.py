@@ -1,8 +1,5 @@
 import random
 import json
-import sys
-import io
-import time
 
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
@@ -10,51 +7,18 @@ from django.template import RequestContext, loader
 from django.http import JsonResponse
 
 from .models import WikiList, WikiTable
-from .forms import *
-
 from extensions.extractingTables import *
+from extensions.table import *
 
-# TODO: Bugfix "\u2014 maps to undefined" but console output is delayed
-"""
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'xmlcharrefreplace')
-print('Hi: ' + sys.stdout.errors)
-"""
 # Create your views here.
-def testKeyExtraction(request):
-    page = WikiTable.objects.all()[1]
-    html = page.html
-    template = loader.get_template('KeyExtractionTest.html')
-    context = RequestContext(request, {
-        'table': html,
-    })
-    return HttpResponse(template.render(context))
-
-
-def get_hum_col(request):
-    # if this is a POST request we need to process the form data
-    if request.method == 'POST':
-
-        # create a form instance and populate it with data from the request:
-        form = TableKeyTest(request.POST)
-
-        # check whether it's valid:
-        if form.is_valid():
-            # process the data in form.cleaned_data as required
-            # ...
-            # redirect to a new URL:
-            # redirect to new random table of tables which haven´t yet been checked
-            return HttpResponseRedirect('/KeyForm/')
-
-    # if a GET we append the choices and render an empty template
-    else:
-        choices = (('test','test'),('none','none'),('another','another'))
-        form = TableKeyTest()
-
-    return render(request, 'KeyForm.html', {'form': form})
-
+"""
+Return initial template used for init_testing on Link /KeyForm
+"""
 def init_testing(request):
-    # TODO: return thomas´ template here
-    return render(request, 'KeyExtractionTest.html')
+    return render(request, 'KeyForm.html')
+
+def show_final_tool(request):
+    return render(request, 'Tool.html')
 
 """
 1. retrieve random Table which is not checked yet
@@ -63,23 +27,21 @@ def init_testing(request):
 """
 def get_table_key(request):
     #----------- 1. retrieve random Table
-    tables = WikiTable.objects.filter(checked=False)
+    tables = WikiTable.objects.filter(id=1026)#checked=False)
     upper_border = tables.count() - 1
-    
+
     index = random.randint(0, upper_border)
-    # Example for colspan="1" -> Allow
-    """
-    for i in range(0, len(tables)):
-        if tables[i].id == 1212:    
-            index = i
-    """
+
     table = tables[index]
     htmlTable = table.html
+
+    # table represented by table-module in extensions
+    mod_table = Table(htmlTable)
 
     #----------- 2. generate key for given table
     articleName = str(table.wiki_list.title)
     abstracts = '' #TODO
-    tableName = '' #TODO
+    tableName = table.title
 
     # See extensions/extractingTables.py for algorithm informations
     result = extractKeyColumn(htmlTable, articleName, tableName, abstracts)
@@ -88,15 +50,38 @@ def get_table_key(request):
     colCount = result['colCount']
     keyCol = result['keyCol']
 
+    """
+    for col in uniqueCols:
+        if col['xPos'] == keyCol:
+            keyCol = col['title']
+            break
+    """
+
     table.algo_col = str(keyCol)
     table.save()
 
-    #----------- 3. Return JsonResponse
-    data = {'tableID': table.id, 'tableName': table.title, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
-            'colCount': colCount, 'articleName': articleName}
-    response = JsonResponse(data, safe=False)
-    return response
+    # get possible ontologies to display for each table
+    pos_ontologies = []
 
+    if keyCol != -1:
+        for column in mod_table.columnNames:
+            if column != mod_table.columnNames[keyCol]:
+                result = mod_table.predicatesForColumns(keyCol, column) # FIXME: Ist immer leer
+                print(str(table.id) + ': ' + column + ' > ' + str(result))
+                pos_ontologies.append(result)
+            else:
+                pos_ontologies.append({})
+
+    #----------- 3. Return JsonResponse
+    data = {'tableID': table.id, 'tableName': tableName, 'tableHTML': htmlTable, 'keyCol': keyCol, 'colInfos': uniqueCols,
+            'colCount': colCount, 'articleName': articleName, 'ontologies': pos_ontologies}
+
+    return JsonResponse(data, safe=False)
+
+"""
+Store correct key in database but keep algorithm-generated
+information in order to optimize the extraction
+"""
 def get_correct_key(request):
     id = request.GET['id']
     key = request.GET['key']
@@ -110,11 +95,7 @@ def get_correct_key(request):
 def get_prec_rec(request):
     # Retrieve all rated tables
     tables = WikiTable.objects.filter(checked=True)
-    result = testWithCustomThresholds(tables, True) # Print results in console (debug)
-	# TODO: Machine learning for thresholdStates
-	
+
+    result = machineLearningWithPrecisionRecall(tables, True) # Print results in console (debug)
+
     return JsonResponse({'precision': result['precision'], 'recall': result['recall'], 'tableCount': result['tableCount'], 'thresholdsState': result['thresholdsState']})
-
-
-
-

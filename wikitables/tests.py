@@ -1,4 +1,5 @@
-from wikitables.sparql import *
+from .sparql import *
+from .page import Page
 import os
 
 """Helper functions for evaluation and testing go here."""
@@ -52,3 +53,50 @@ def collect_predicates(list_of_pages):
 
 def collect_permutations(list_of_pages):
     return [p for t in collect_tables(list_of_pages) for p in t['predicates']]
+
+def test_generate_RDFs(title, threshold=0.0):
+    pg = Page(title)
+    if not pg.tables:
+        print('No tables contained')
+
+    for table in pg.tables:
+        table.generateRDFs(threshold)
+
+def test_key_extraction(title='List of national parks of India'):
+    pg = Page(title)
+    if pg.tables:
+        tb = pg.tables[0]
+        print(tb.keyName)
+    else:
+        print('No tables contained')
+
+def test_column_names(title, key):
+    pg = Page(title)
+    if not pg.tables:
+        return
+    tb = pg.tables[0]
+    for column in tb.columnNames:
+        if not column == key:
+            print(column)
+            print(tb.predicatesForColumns(key, column,))
+
+def test_key_predicates(title):
+    pg = Page(title)
+    if not pg.tables:
+        return
+    tb = pg.tables[0]
+    print(tb.predicatesForKeyColumn())
+
+def test_key_relative_predicates(title):
+    pg = Page(title)
+    if not pg.tables:
+        return
+    tb = pg.tables[0]
+    print(tb.relPredicatesForKeyColumn())
+
+def test_generate_RDFsForKey(title):
+    pg = Page(title)
+    if not pg.tables:
+        return
+    tb = pg.tables[0]
+    tb.generateRDFsForKey()

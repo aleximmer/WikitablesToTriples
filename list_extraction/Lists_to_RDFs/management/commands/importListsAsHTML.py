@@ -10,8 +10,8 @@ class Command(BaseCommand):
 		counter = 0
 		try:
 			# Server-Directory containing Titles-File
-			listsFile = open('/home/projects/wiki-list_of-retrieval/data/Titles.txt', 'r')
-			#listsFile = open('/Users/Alex/Documents/workspace/wiki-list_of-retrieval/data/Titles.txt', 'r')
+			listsFile = open('/home/projects/wiki-list_of-retrieval/data/TitlesShuffled.txt', 'r')
+			#listsFile = open('/Users/Alex/Documents/workspace/wiki-list_of-retrieval/data/TitlesShuffled.txt', 'r')
 
 		except Exception:
 			print('open reading failed')

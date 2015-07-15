@@ -35,6 +35,8 @@ where {
 
 def predicates(sub, obj=None):
     """Return predicates of form '?sub ?predicate ?obj.'"""
+    if not isResource(sub):
+        return []
 
     if obj:
         query = (rrQuery if isResource(obj) else rlQuery) % (sub, obj)

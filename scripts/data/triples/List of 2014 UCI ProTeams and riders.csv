@@ -1,0 +1,134 @@
+<http://dbpedia.org/resource/Ag2r-La_Mondiale>,http://xmlns.com/foaf/0.1/name,ALM,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Ag2r-La_Mondiale>,http://www.w3.org/2000/01/rdf-schema#label,ALM,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Ag2r-La_Mondiale>,http://dbpedia.org/property/oldname,ALM,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://dbpedia.org/ontology/uciCode,AST,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://dbpedia.org/property/code,AST,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://xmlns.com/foaf/0.1/name,AST,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://www.w3.org/2000/01/rdf-schema#label,AST,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://dbpedia.org/property/oldname,AST,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://dbpedia.org/ontology/uciCode,BEL,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://dbpedia.org/property/code,BEL,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://xmlns.com/foaf/0.1/name,BEL,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://www.w3.org/2000/01/rdf-schema#label,BEL,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://dbpedia.org/property/oldname,BEL,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://dbpedia.org/ontology/uciCode,BMC,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://dbpedia.org/property/code,BMC,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://xmlns.com/foaf/0.1/name,BMC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://www.w3.org/2000/01/rdf-schema#label,BMC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://dbpedia.org/property/oldname,BMC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale_Pro_Cycling_Team>,http://xmlns.com/foaf/0.1/name,CAN,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale_Pro_Cycling_Team>,http://www.w3.org/2000/01/rdf-schema#label,CAN,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale_Pro_Cycling_Team>,http://dbpedia.org/property/oldname,CAN,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Europcar>,http://xmlns.com/foaf/0.1/name,EUC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Europcar>,http://www.w3.org/2000/01/rdf-schema#label,EUC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Europcar>,http://dbpedia.org/property/oldname,EUC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://dbpedia.org/ontology/uciCode,GIA,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://dbpedia.org/property/code,GIA,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://xmlns.com/foaf/0.1/name,GIA,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://www.w3.org/2000/01/rdf-schema#label,GIA,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://dbpedia.org/property/oldname,GIA,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://dbpedia.org/ontology/uciCode,GRS,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://dbpedia.org/property/code,GRS,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://xmlns.com/foaf/0.1/name,GRS,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://www.w3.org/2000/01/rdf-schema#label,GRS,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://dbpedia.org/property/oldname,GRS,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Katusha>,http://xmlns.com/foaf/0.1/name,KAT,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Katusha>,http://www.w3.org/2000/01/rdf-schema#label,KAT,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Katusha>,http://dbpedia.org/property/oldname,KAT,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lampre-Merida>,http://xmlns.com/foaf/0.1/name,LAM,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lampre-Merida>,http://www.w3.org/2000/01/rdf-schema#label,LAM,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lampre-Merida>,http://dbpedia.org/property/oldname,LAM,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://dbpedia.org/ontology/uciCode,LTB,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://dbpedia.org/property/code,LTB,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://xmlns.com/foaf/0.1/name,LTB,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://www.w3.org/2000/01/rdf-schema#label,LTB,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://dbpedia.org/property/oldname,LTB,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Movistar_Team>,http://xmlns.com/foaf/0.1/name,MOV,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Movistar_Team>,http://www.w3.org/2000/01/rdf-schema#label,MOV,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Movistar_Team>,http://dbpedia.org/property/oldname,MOV,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://dbpedia.org/ontology/uciCode,OGE,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://dbpedia.org/property/code,OGE,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://xmlns.com/foaf/0.1/name,OGE,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://www.w3.org/2000/01/rdf-schema#label,OGE,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://dbpedia.org/property/oldname,OGE,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://dbpedia.org/ontology/uciCode,OPQ,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://dbpedia.org/property/code,OPQ,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://xmlns.com/foaf/0.1/name,OPQ,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://www.w3.org/2000/01/rdf-schema#label,OPQ,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://dbpedia.org/property/oldname,OPQ,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://dbpedia.org/ontology/uciCode,SKY,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://dbpedia.org/property/code,SKY,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://xmlns.com/foaf/0.1/name,SKY,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://www.w3.org/2000/01/rdf-schema#label,SKY,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://dbpedia.org/property/oldname,SKY,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://dbpedia.org/ontology/uciCode,TCS,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://dbpedia.org/property/code,TCS,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://xmlns.com/foaf/0.1/name,TCS,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://www.w3.org/2000/01/rdf-schema#label,TCS,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://dbpedia.org/property/oldname,TCS,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Trek_Factory_Racing>,http://xmlns.com/foaf/0.1/name,TFR,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Trek_Factory_Racing>,http://www.w3.org/2000/01/rdf-schema#label,TFR,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Trek_Factory_Racing>,http://dbpedia.org/property/oldname,TFR,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Kazakhstan>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Netherlands>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/United_States>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Netherlands>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/United_States>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Belgium>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Australia>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Belgium>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/United_Kingdom>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://dbpedia.org/property/base,<http://dbpedia.org/resource/Russia>,0.44,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Astana_season>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/Specialized_Bicycle_Components>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_LottoNL-Jumbo>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/Bianchi_Bicycles>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_BMC_Racing_Team_season>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/BMC_Trading>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Team_Giant-Alpecin>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/Giant_Bicycles>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale-Garmin>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/Cerv%C3%A9lo>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lotto-Soudal>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/Ridley_Bikes>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Movistar_Team>,http://dbpedia.org/property/bicycles,Canyon,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Orica-GreenEDGE_season>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/SCOTT_Sports>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Omega_Pharma-Quick_Step_season>,http://dbpedia.org/property/bicycles,Specialized,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/2014_Team_Sky_season>,http://dbpedia.org/property/bicycles,<http://dbpedia.org/resource/Pinarello>,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Tinkoff-Saxo>,http://dbpedia.org/property/bicycles,Specialized,0.39,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Focus_Bikes>,http://www.w3.org/2000/01/rdf-schema#label,EUSRL France Cyclisme,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Specialized_Bicycle_Components>,http://www.w3.org/2000/01/rdf-schema#label,Abacanto SA,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Bianchi_Bicycles>,http://www.w3.org/2000/01/rdf-schema#label,Rabo Wielerploegen,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/BMC_Trading>,http://www.w3.org/2000/01/rdf-schema#label,Continuum Sports LLC,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale_Bicycle_Corporation>,http://www.w3.org/2000/01/rdf-schema#label,Brixia Sports,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Colnago>,http://www.w3.org/2000/01/rdf-schema#label,SA Vendée Cyclisme,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lapierre_Bikes>,http://www.w3.org/2000/01/rdf-schema#label,Société de Gestion de L'Echappée,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Giant_Bicycles>,http://www.w3.org/2000/01/rdf-schema#label,SMS Cycling B.V.,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cerv%C3%A9lo>,http://www.w3.org/2000/01/rdf-schema#label,"Slipstream Sports, LLC",0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Canyon_Bicycles>,http://www.w3.org/2000/01/rdf-schema#label,Katusha Management SA,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Merida_Bikes>,http://www.w3.org/2000/01/rdf-schema#label,CGS Cycling Team AG,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Ridley_Bikes>,http://www.w3.org/2000/01/rdf-schema#label,Belgian Cycling Company sa,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/SCOTT_Sports>,http://www.w3.org/2000/01/rdf-schema#label,GreenEdge Cycling,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Pinarello>,http://www.w3.org/2000/01/rdf-schema#label,Tour Racing Limited,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Focus_Bikes>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/France>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Focus_Bikes>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/France>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Specialized_Bicycle_Components>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Kazakhstan>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Specialized_Bicycle_Components>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Kazakhstan>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Bianchi_Bicycles>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Netherlands>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Bianchi_Bicycles>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Netherlands>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/BMC_Trading>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/United_States>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/BMC_Trading>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/United_States>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale_Bicycle_Corporation>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Italy>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cannondale_Bicycle_Corporation>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Italy>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Colnago>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/France>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Colnago>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/France>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lapierre_Bikes>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/France>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Lapierre_Bikes>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/France>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Giant_Bicycles>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Netherlands>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Giant_Bicycles>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Netherlands>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cerv%C3%A9lo>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/United_States>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Cerv%C3%A9lo>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/United_States>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Canyon_Bicycles>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Russia>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Canyon_Bicycles>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Russia>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Merida_Bikes>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Italy>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Merida_Bikes>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Italy>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/SCOTT_Sports>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/Australia>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/SCOTT_Sports>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/Australia>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Pinarello>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/United_Kingdom>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Pinarello>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/United_Kingdom>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Trek_Bicycle_Corporation>,http://dbpedia.org/property/location,<http://dbpedia.org/resource/United_States>,0.06,List of 2014 UCI ProTeams and riders
+<http://dbpedia.org/resource/Trek_Bicycle_Corporation>,http://dbpedia.org/ontology/location,<http://dbpedia.org/resource/United_States>,0.06,List of 2014 UCI ProTeams and riders
