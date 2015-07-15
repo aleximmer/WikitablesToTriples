@@ -1,0 +1,136 @@
+{% load staticfiles %}
+{% csrf_token %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia lists to RDFs</title>
+	<meta charset="utf-8" />
+
+	<!-- Wikipedia styles START -->
+	<!-- Live css links
+	<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cfeatured-articles-links%2CrefToolbar%2Cswitcher%2Cteahouse%7Cext.rtlcite%2Cwikihiero%2CwikimediaBadges%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector&amp;*">
+	<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*">
+	-->
+	<link rel="stylesheet" href="{%static 'final_tool/wikipediaSomeModules.css' %}">
+	<link rel="stylesheet" href="{%static 'final_tool/wikipediaSiteModule.css' %}">
+	<link rel="stylesheet" href="{%static 'final_tool/wikipedia.css' %}">
+	<!-- Wikipedia styles END -->
+
+	<link href="{%static 'final_tool/view.css' %}" rel="stylesheet">
+	<link href="{%static 'final_tool/Ffzap.css' %}" rel="stylesheet">
+	<link href="{%static 'final_tool/dropdown.css' %}" rel="stylesheet">
+
+	<script src="{%static 'jquery.js' %}"></script>
+	<script src="{%static 'final_tool/app.js' %}"></script>
+	<script src="{%static 'final_tool/shortcut.js' %}"></script>
+</head>
+<body>
+
+	<div class="startContainer" style="/*display: none*/">
+		<!-- <button id="start" type="button" class="decissionButton" onclick="loadNextPost()">Go (g)</button> -->
+		<form>
+			<h1>Wikipedia List To RDFs</h1>
+			<br/><br/><br/>
+			<div class="question">
+				<input id="inputListName" type="text" required/>
+				<label>Enter list name</label>
+			</div>
+			<button id="submitListName" onclick="validateListName()">Submit</button>
+		</form>
+	</div>
+
+	<!-- TODO: Show List Container -->
+	<div class="showListContainer" style="display: none">
+		<div>
+			<h1>Wikipedia List To RDFs</h1>
+			<br/>
+			<div id="table-revision" class="table-revision-view">
+				<div class="revisionTitle">
+					Revision:
+				</div>
+				<div class="dropdown">
+		      <select id="revisionSelector" name="revision" class="dropdown-select">
+		        <option value="">Select…</option>
+		        <option value="1">Option #1</option>
+		        <option value="2">Option #2</option>
+		        <option value="3">Option #3</option>
+		      </select>
+		    </div>
+			</div>
+			<div class="submitDiv">
+				<button id="submitListName" onclick="validateListName()">Submit</button>
+			</div>
+			<div id="table-source" class="table-source-view" style="display: inline-block">
+				List of post-1692 Anglican parishes in the Province of Maryland
+			</div>
+			<div id="table-content" class="table-content-view">
+			</div>
+		</div>
+	</div>
+
+	<!-- TODO: Show RDF Container -->
+	<div class="rdfContainer" style="display: none">
+		<h1>Generated Missing RDFs:</h1>
+		<br/><br/><br/>
+		<table class="rdfTable">
+			<tr>
+				<th>Subject</th>
+				<th>Predicate</th>
+				<th>Object</th>
+			</tr>
+				<td>Adair County</td>
+				<td>owl:countySeat</td>
+				<td>Kirksville</td>
+			<tr>
+				<td>Andrew County</td>
+				<td>owl:countySeat</td>
+				<td>Savannah</td>
+			</tr>
+			<tr>
+				<td>Atchison County</td>
+				<td>owl:countySeat</td>
+				<td>Rock Port</td>
+			</tr>
+			<tr>
+				<td>Barry County</td>
+				<td>owl:countySeat</td>
+				<td>Cassville</td>
+			</tr>
+		<table>
+	</div>
+
+	<!--
+	<div class="submit-panel" style="display:none">
+		<label id="decission-status" class="redDec">There is no single key column</label>
+		&nbsp;&nbsp;&nbsp;
+		<button id="demand" type="button" class="decissionButton" onclick="evalResult()">Submit (s)</button>
+		<button id="skip" type="button" class="decissionButton skipButton" onclick="loadNextPost()">Skip (a)</button>
+	</div>
+	-->
+
+	<script>
+	/*
+		$(document).keydown(function(e) {
+			if (e.which == 71) // 'g' pressed
+				loadNextPost()
+		    else if(e.which == 83) // 's' pressed
+				evalResult()
+		    else if (e.which == 82) // 'r' pressed
+				deselectRadioButton()
+		    else if (e.which == 65) // 'a' pressed
+				loadNextPost()
+			// (TODO): Mit Ziffern Spalte auswählen
+			else
+				return
+
+		    e.preventDefault(); // prevent the default action (scroll / move caret)
+		});
+	*/
+	</script>
+</body>
+</html>
+
+<!-- Comments:
+
+-->

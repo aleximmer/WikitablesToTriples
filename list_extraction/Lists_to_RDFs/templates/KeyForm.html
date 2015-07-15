@@ -12,9 +12,9 @@
 	<link rel="stylesheet" href="http://en.wikipedia.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*">
 	<link rel="stylesheet" href="{%static 'test_tool_key_extraction/wikipedia.css' %}">
 	<!-- Wikipedia styles END -->
-	
+
 	<link href="{%static 'test_tool_key_extraction/view.css' %}" rel="stylesheet">
-	
+
 	<script src="{%static 'test_tool_key_extraction/jquery.js' %}"></script>
 	<script src="{%static 'test_tool_key_extraction/app.js' %}"></script>
 	<script src="{%static 'test_tool_key_extraction/shortcut.js' %}"></script>
@@ -40,7 +40,7 @@
 		<button id="demand" type="button" class="decissionButton" onclick="evalResult()">Submit (s)</button>
 		<button id="skip" type="button" class="decissionButton skipButton" onclick="loadNextPost()">Skip (a)</button>
 	</div>
-	
+
 	<script>
 		$(document).keydown(function(e) {
 			if (e.which == 71) // 'g' pressed
@@ -54,10 +54,10 @@
 			// (TODO): Mit Ziffern Spalte auswählen
 			else
 				return
-			
+
 		    e.preventDefault(); // prevent the default action (scroll / move caret)
 		});
-		
+
 		// Onload:
 		$('.container').hide()
 		$('.submit-panel').hide()
@@ -66,5 +66,5 @@
 </html>
 
 <!-- Comments:
-	
+
 -->

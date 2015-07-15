@@ -1,0 +1,77 @@
+<http://dbpedia.org/resource/Day_%26_Night_(2010_film)>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Coyote_Falls>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Fur_of_Flying>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Rabid_Rider>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Star_Tours:_The_Adventures_Continue>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Najwa_Karam>,http://dbpedia.org/property/country,Lebanon,0.3,List of 3D films
+<http://dbpedia.org/resource/I_Tawt_I_Taw_a_Puddy_Tat>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Tangled#Tangled_Ever_After>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Daffy%27s_Rhapsody>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Despicable_Me:_Minion_Mayhem>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Ora_(film)>,http://dbpedia.org/property/country,Canada,0.3,List of 3D films
+<http://dbpedia.org/resource/Feast_(2014_film)>,http://dbpedia.org/property/country,United States,0.3,List of 3D films
+<http://dbpedia.org/resource/Day_%26_Night_(2010_film)>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Day_%26_Night_(2010_film)>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Star_Tours:_The_Adventures_Continue>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Star_Tours:_The_Adventures_Continue>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Najwa_Karam>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Najwa_Karam>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/I_Tawt_I_Taw_a_Puddy_Tat>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/I_Tawt_I_Taw_a_Puddy_Tat>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Tangled#Tangled_Ever_After>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Tangled#Tangled_Ever_After>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Daffy%27s_Rhapsody>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Daffy%27s_Rhapsody>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Despicable_Me:_Minion_Mayhem>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Despicable_Me:_Minion_Mayhem>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Ora_(film)>,http://dbpedia.org/property/distributor,<http://dbpedia.org/resource/Thermographic_camera>,0.03,List of 3D films
+<http://dbpedia.org/resource/Ora_(film)>,http://dbpedia.org/ontology/distributor,<http://dbpedia.org/resource/Thermographic_camera>,0.03,List of 3D films
+<http://dbpedia.org/resource/Kuku_3D>,http://dbpedia.org/property/distributor,Panasonic Z10000,0.03,List of 3D films
+<http://dbpedia.org/resource/Kuku_3D>,http://dbpedia.org/ontology/distributor,Panasonic Z10000,0.03,List of 3D films
+<http://dbpedia.org/resource/Feast_(2014_film)>,http://dbpedia.org/property/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Feast_(2014_film)>,http://dbpedia.org/ontology/distributor,,0.03,List of 3D films
+<http://dbpedia.org/resource/Tokyo_Mater>,http://dbpedia.org/property/ridersPerVehicle,5,0.03,List of 3D films
+<http://dbpedia.org/resource/Tokyo_Mater>,http://dbpedia.org/property/duration,5,0.03,List of 3D films
+<http://dbpedia.org/resource/Partly_Cloudy>,http://dbpedia.org/property/ridersPerVehicle,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Partly_Cloudy>,http://dbpedia.org/property/duration,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Grand_Canyon:_The_Hidden_Secrets>,http://dbpedia.org/property/ridersPerVehicle,35,0.03,List of 3D films
+<http://dbpedia.org/resource/Grand_Canyon:_The_Hidden_Secrets>,http://dbpedia.org/property/duration,35,0.03,List of 3D films
+<http://dbpedia.org/resource/Day_%26_Night_(2010_film)>,http://dbpedia.org/property/ridersPerVehicle,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Day_%26_Night_(2010_film)>,http://dbpedia.org/property/duration,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Coyote_Falls>,http://dbpedia.org/property/ridersPerVehicle,3,0.03,List of 3D films
+<http://dbpedia.org/resource/Coyote_Falls>,http://dbpedia.org/property/duration,3,0.03,List of 3D films
+<http://dbpedia.org/resource/Fur_of_Flying>,http://dbpedia.org/property/ridersPerVehicle,3,0.03,List of 3D films
+<http://dbpedia.org/resource/Fur_of_Flying>,http://dbpedia.org/property/duration,3,0.03,List of 3D films
+<http://dbpedia.org/resource/Rabid_Rider>,http://dbpedia.org/property/ridersPerVehicle,3,0.03,List of 3D films
+<http://dbpedia.org/resource/Rabid_Rider>,http://dbpedia.org/property/duration,3,0.03,List of 3D films
+<http://dbpedia.org/resource/Hawaiian_Vacation>,http://dbpedia.org/property/ridersPerVehicle,5,0.03,List of 3D films
+<http://dbpedia.org/resource/Hawaiian_Vacation>,http://dbpedia.org/property/duration,5,0.03,List of 3D films
+<http://dbpedia.org/resource/Najwa_Karam>,http://dbpedia.org/property/ridersPerVehicle,,0.03,List of 3D films
+<http://dbpedia.org/resource/Najwa_Karam>,http://dbpedia.org/property/duration,,0.03,List of 3D films
+<http://dbpedia.org/resource/I_Tawt_I_Taw_a_Puddy_Tat>,http://dbpedia.org/property/ridersPerVehicle,4,0.03,List of 3D films
+<http://dbpedia.org/resource/I_Tawt_I_Taw_a_Puddy_Tat>,http://dbpedia.org/property/duration,4,0.03,List of 3D films
+<http://dbpedia.org/resource/Tangled#Tangled_Ever_After>,http://dbpedia.org/property/ridersPerVehicle,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Tangled#Tangled_Ever_After>,http://dbpedia.org/property/duration,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Daffy%27s_Rhapsody>,http://dbpedia.org/property/ridersPerVehicle,4,0.03,List of 3D films
+<http://dbpedia.org/resource/Daffy%27s_Rhapsody>,http://dbpedia.org/property/duration,4,0.03,List of 3D films
+<http://dbpedia.org/resource/La_Luna_(2011_film)>,http://dbpedia.org/property/ridersPerVehicle,7,0.03,List of 3D films
+<http://dbpedia.org/resource/La_Luna_(2011_film)>,http://dbpedia.org/property/duration,7,0.03,List of 3D films
+<http://dbpedia.org/resource/The_Longest_Daycare>,http://dbpedia.org/property/ridersPerVehicle,5,0.03,List of 3D films
+<http://dbpedia.org/resource/The_Longest_Daycare>,http://dbpedia.org/property/duration,5,0.03,List of 3D films
+<http://dbpedia.org/resource/Partysaurus_Rex>,http://dbpedia.org/property/ridersPerVehicle,7,0.03,List of 3D films
+<http://dbpedia.org/resource/Partysaurus_Rex>,http://dbpedia.org/property/duration,7,0.03,List of 3D films
+<http://dbpedia.org/resource/Paperman>,http://dbpedia.org/property/ridersPerVehicle,7,0.03,List of 3D films
+<http://dbpedia.org/resource/Paperman>,http://dbpedia.org/property/duration,7,0.03,List of 3D films
+<http://dbpedia.org/resource/Ora_(film)>,http://dbpedia.org/property/ridersPerVehicle,15,0.03,List of 3D films
+<http://dbpedia.org/resource/Ora_(film)>,http://dbpedia.org/property/duration,15,0.03,List of 3D films
+<http://dbpedia.org/resource/The_Blue_Umbrella_(2013_film)>,http://dbpedia.org/property/ridersPerVehicle,6,0.03,List of 3D films
+<http://dbpedia.org/resource/The_Blue_Umbrella_(2013_film)>,http://dbpedia.org/property/duration,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Get_a_Horse!>,http://dbpedia.org/property/ridersPerVehicle,7,0.03,List of 3D films
+<http://dbpedia.org/resource/Get_a_Horse!>,http://dbpedia.org/property/duration,7,0.03,List of 3D films
+<http://dbpedia.org/resource/Kuku_3D>,http://dbpedia.org/property/ridersPerVehicle,8,0.03,List of 3D films
+<http://dbpedia.org/resource/Kuku_3D>,http://dbpedia.org/property/duration,8,0.03,List of 3D films
+<http://dbpedia.org/resource/Feast_(2014_film)>,http://dbpedia.org/property/ridersPerVehicle,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Feast_(2014_film)>,http://dbpedia.org/property/duration,6,0.03,List of 3D films
+<http://dbpedia.org/resource/Cats_%26_Dogs:_The_Revenge_of_Kitty_Galore>,http://dbpedia.org/property/country,United States,0.41,List of 3D films
+<http://dbpedia.org/resource/Legend_of_the_Guardians:_The_Owls_of_Ga%27Hoole>,http://dbpedia.org/property/country,United States,0.41,List of 3D films
+<http://dbpedia.org/resource/Mr._Peabody_%26_Sherman>,http://dbpedia.org/property/country,United States,0.41,List of 3D films
