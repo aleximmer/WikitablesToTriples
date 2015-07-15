@@ -242,11 +242,6 @@ def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
 	# TODO: Abstracts in DB speichern
 	# TODO: in _valuateByName übernehmen
 
-def _findFittingColumnProperties( uniqueCols ):
-	print('TODO: Get sparql connection')
-	# TODO: Properties über SparQL holen
-	# TODO: Property-Name mit Colum-Namen abgleichen
-
 def _findMatchWithListCategories(uniqueCols, articleName):
 	print('TODO: Get sparql connection')
 	# TODO: Kategorien einer Liste(articleName) per SparQL holen
@@ -291,7 +286,7 @@ def _validateRatings( cols ):
 
 
 # TODO: Dokumentieren
-def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
+def extractKeyColumn(originalHTMLSoup, articleName, abstract, categories):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
 
@@ -317,9 +312,6 @@ def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 
 		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
 		# TODO: _textualEvidenceWithAbstracts(uniqueCols, abstracts)
-
-		# Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
-		# TODO: _findFittingColumnProperties(uniqueCols)
 
 		# Listen-Kategorien mit den Spaltennamen abgleichen
 		# TODO: _findMatchWithListCategories(uniqueCols, articleName)
