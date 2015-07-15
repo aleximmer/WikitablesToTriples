@@ -4,6 +4,9 @@ import itertools
 from wikitables.keyExtractor import extractKeyColumn
 import json
 from collections import defaultdict
+from fuzzywuzzy import fuzz
+from copy import deepcopy
+import pprint
 
 class Table:
 
@@ -113,7 +116,7 @@ class Table:
 
         return predicates
 
-    def predicatesForKeyColumn(self, relative=True):
+    def relPredicatesForKeyColumn(self, relative=True):
         """Return all predicates with subColumn as subject and all other columns as possible objects
         Set 'relative' to True if you want relative occurances."""
         objPredicates = {}
@@ -140,9 +143,60 @@ class Table:
                 })
         return predicates
 
-    def generateRDFsForKey(self):
-        if not self.keyName:
+    def predicatesForKeyColumn(self):
+        """generate a dictionary containing all predicates for each
+        entity in the key-column with their predicates"""
+        subjects = {}
+        for subject in self.columns[self.key]:
+            subjCell = sparql.cellContent(subject)
+            subjects[subjCell] = sparql.predicates(subjCell)
+
+        return subjects
+
+
+    def matchColumnForPredicates(self, predicates):
+        """return a ratio calculated by matching the given predicates
+        names against the column-names of the table"""
+
+        ratios = deepcopy(predicates)
+
+        for column in predicates:
+            for predicate in predicates[column]:
+                matchString = predicate.split('/')[-1:][0]
+                print(matchString)
+                ratio = fuzz.ratio(matchString, column)
+                ratios[column][predicate] = ratio / 100
+
+        return ratios
+
+
+    def generateRDFsForKey(self, threshold=0.0, ratings=[0.5, 0.5]):
+        """ratings consist of two values (first weighs the relative occurency
+        second weighs the string-matching with the column name)"""
+
+        if not self.keyName or len(ratings) != 2:
             return
+
+        subjects = self.predicatesForKeyColumn()
+        predicates = self.relPredicatesForKeyColumn()
+        stringRatios = self.matchColumnForPredicates(predicates)
+
+        for column in predicates:
+            for predicate in predicates[column]:
+                # weigh both factors by given ratings
+                cert = predicates[column][predicate] * ratings[0]
+                ratio = stringRatios[column][predicate] * ratings[1]
+                predicates[column][predicate] = cert + ratio
+
+        foundPredicates = {}
+        for column in predicates:
+            # get highest matching predicate
+            maxVal = max(predicates[column], key=lambda pred: predicates[column][pred])
+            if(predicates[column][maxVal] >= threshold):
+                foundPredicates[column] = maxVal
+
+        print(foundPredicates)
+
 
 
 
