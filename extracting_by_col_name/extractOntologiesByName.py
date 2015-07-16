@@ -139,6 +139,7 @@ def test(title='List of national parks of India'):
     pg = Page(title)
     if pg.tables:
         tb = pg.tables[0]
+        #print(str(tb.key) + ' -> ' + tb.keyName)
         extractOntologies(tb)
     else:
         print('No tables contained')

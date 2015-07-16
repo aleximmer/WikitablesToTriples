@@ -10,16 +10,20 @@ import copy
 
 from bs4 import BeautifulSoup
 from  more_itertools import unique_everseen
+from fuzzywuzzy import fuzz
 
 # Thresholds:
 ONLY_UNIQUE_COLS = False # KeyCol muss einzigartig sein
-MIN_ENTITIES_COUNT = 0.4 # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
+MIN_ENTITIES_COUNT = 0.4 # Mind. {x*100} Prozent müssen Entities sein, damit die Spalte der Key sein darf
 MAX_ENTITIES_POINTS = 50 # Bei 100% Entitäten gibt es {x} Punkte
 COLNAME_NAME_POINTS = 20 # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
 COLNAME_MAX_WORD_POINTS = 20 # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
 COLNAME_PLURAL_HIT_POINTS = 10 # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
+COLNAME_ABSTRACTS_SCALE = 2 # Für jeden Match in Abstracts: Addiere Trefferanzahl * {x}
 COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
-COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
+COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkte
+LISTCAT_RATIO = 90 # Fuzzywuzzy Bewertung (prüft auf Ähnlichkeit) zwischen Listkategorien und Spaltennamen
+LISTCAT_MATCH_POINTS = 2 # Ein Listkategorie-Treffer bringt {x} Punkte
 FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 
 # Init Inflect Engine
@@ -149,7 +153,6 @@ def _extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
 # Wikipedia-intern sind (Präfix: "/wiki/...")
 # Prozentual betrachtet wird jeder Spalte eine Bewertung gegeben. Wenn 100%
 # der Einträge einer Spalte Entitäten sind, werden 50 Punkte vergeben.
-# TODO: Weitere Einschränkungen möglich? (Umso mehr Text vor dem Link o.ä.)
 def _countEntities(cols):
 	for i in range(len(cols)):
 		entries = cols[i]["entries"]
@@ -219,38 +222,43 @@ def _valuateByPosition( cols ):
 	colLen = len(cols)
 	for i in range(colLen):
 		posVal = i + 1
-		# Quadratisch bei 10 Spalten: 20, 16, 12, 9, 7, 5, ...
-		# Hyperbel bei 10 Spalten: 20, 10, 6, 5, 4, ...
+		# Quadratische Verteilung: 20, 16, 12, 9, 7, 5, ...
+		# Hyperbolische Verteilung: 20, 10, 6, 5, 4, ...
 		addRating = int(math.floor(COLPOS_MAX_POINTS / posVal)) # Hyperbolisch
 		cols[i]["rating"] += addRating
 
 # Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten haben mit
 # hoher Warscheinlichkeit die gesuchten Entitäten (KeyCol)
 def _lookForTHCol(uniqueCols):
-	for i in range(0, len(uniqueCols)):
+	for col in uniqueCols:
 		isVertical = True
-		for entry in uniqueCols[i]['entriesOrig']:
+		for entry in col['entriesOrig']:
 			if entry[:3] != '<th':
 				isVertical = False
 				break;
 		if isVertical:
-			uniqueCols[i]['rating'] += COL_TH_POINTS
+			col['rating'] += COL_TH_POINTS
 
+# Find matches for each column name with the table abstracts and add
+# for each match rating points
 def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
-	abstractsWords = abstracts.split(" ")
-	print('TODO: Get abstracts of table (Wörter: '+str(abstractsWords)+')')
-	# TODO: Abstracts in DB speichern
-	# TODO: in _valuateByName übernehmen
+	for col in uniqueCols:
+		colName = col['title']
+		colNamePl = inflectEngine.plural(colName)
+		occCount = len(re.findall('('+colName+'|'+colNamePl+')', abstracts))
+		# Rating by occurrence
+		col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
+		print('Added rating value: '+str(occCount*COLNAME_ABSTRACTS_SCALE)) # TODO: Test
 
-def _findFittingColumnProperties( uniqueCols ):
-	print('TODO: Get sparql connection')
-	# TODO: Properties über SparQL holen
-	# TODO: Property-Name mit Colum-Namen abgleichen
-
-def _findMatchWithListCategories(uniqueCols, articleName):
-	print('TODO: Get sparql connection')
-	# TODO: Kategorien einer Liste(articleName) per SparQL holen
-	# TODO: Kategorien-Name über Textual-Evidence mit dem Spaltennamen abgleichen
+# Find matches between column names and categories of the regarding list page.
+# Add for each match rating points to the column
+def _findMatchWithListCategories(uniqueCols, listCategories):
+	for col in uniqueCols:
+		for cat in listCategories:
+			rating = fuzz.partial_ratio(col['title'], cat)
+			if rating > LISTCAT_RATIO:
+				col['rating'] += LISTCAT_MATCH_POINTS
+				print('Added for column "'+col['title']+'" list category "'+cat+'" (Rating: '+str(rating)+')') # TODO: Test
 
 # Vergleicht die Ratings der Spalten, um die Key-Spalte zu ermitteln.
 # Das größte Rating muss 15% vor dem zweiten liegen. Außerdem müssen
@@ -316,13 +324,10 @@ def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 		_lookForTHCol(uniqueCols)
 
 		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
-		# TODO: _textualEvidenceWithAbstracts(uniqueCols, abstracts)
-
-		# Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
-		# TODO: _findFittingColumnProperties(uniqueCols)
+		_textualEvidenceWithAbstracts(uniqueCols, abstracts)
 
 		# Listen-Kategorien mit den Spaltennamen abgleichen
-		# TODO: _findMatchWithListCategories(uniqueCols, articleName)
+		_findMatchWithListCategories(uniqueCols, articleName)
 
 		# Validiere die Bewertungen der Spalten
 		keyCol = _validateRatings(uniqueCols)
