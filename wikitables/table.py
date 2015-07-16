@@ -1,12 +1,12 @@
 from bs4 import BeautifulSoup
-import wikitables.sparql as sparql
+import sparql as sparql
 import itertools
-from .keyExtractor import extractKeyColumn
+from keyExtractor import extractKeyColumn
 import json
 from collections import defaultdict
 from fuzzywuzzy import fuzz
 from copy import deepcopy
-from .page import *
+from page import *
 
 class Table:
 
