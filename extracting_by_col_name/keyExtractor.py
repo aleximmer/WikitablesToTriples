@@ -19,11 +19,11 @@ MAX_ENTITIES_POINTS = 50 # Bei 100% Entitäten gibt es {x} Punkte
 COLNAME_NAME_POINTS = 20 # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
 COLNAME_MAX_WORD_POINTS = 20 # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
 COLNAME_PLURAL_HIT_POINTS = 10 # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
-COLNAME_ABSTRACTS_SCALE = 2 # Für jeden Match in Abstracts: Addiere Trefferanzahl * {x}
+COLNAME_ABSTRACTS_SCALE = 4 # Für jeden Match in Abstracts: Addiere Trefferanzahl * {x}
 COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
 COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkte
 LISTCAT_RATIO = 90 # Fuzzywuzzy Bewertung (prüft auf Ähnlichkeit) zwischen Listkategorien und Spaltennamen
-LISTCAT_MATCH_POINTS = 2 # Ein Listkategorie-Treffer bringt {x} Punkte
+LISTCAT_MATCH_POINTS = 4 # Ein Listkategorie-Treffer bringt {x} Punkte
 FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 
 # Init Inflect Engine
@@ -217,7 +217,6 @@ def _valuateByName(cols, articleName):
 # Umso näher die Spalte am linken Rand ist, desto wichtiger ist sie.
 # Es können maximal 20 Punkte aufgerechnet werden (für die erste Spalte).
 # Nach rechts hin nimmt die Punktvergabe hyperbolisch ab.
-# TODO: Linear, Quadratisch oder Hyperbolisch?
 def _valuateByPosition( cols ):
 	colLen = len(cols)
 	for i in range(colLen):
@@ -239,26 +238,30 @@ def _lookForTHCol(uniqueCols):
 		if isVertical:
 			col['rating'] += COL_TH_POINTS
 
-# Find matches for each column name with the table abstracts and add
-# for each match rating points
+# Find matches for each column name with the table abstracts.
+# Add for each match of a word (or its plural form) in the column name rating points to the column.
 def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
-	for col in uniqueCols:
-		colName = col['title']
-		colNamePl = inflectEngine.plural(colName)
-		occCount = len(re.findall('('+colName+'|'+colNamePl+')', abstracts))
-		# Rating by occurrence
-		col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
-		print('Added rating value: '+str(occCount*COLNAME_ABSTRACTS_SCALE)) # TODO: Test
+	if len(abstracts) > 0:
+		for col in uniqueCols:
+			colName = col['title']
+			for colWord in colName.split(' '):
+				if len(colWord) > 2:
+					colWordPl = inflectEngine.plural(colWord)
+					occCount = len(re.findall('('+colWord+'|'+colWordPl+')', abstracts,flags=re.IGNORECASE))
+					# Rating by occurrence
+					col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
 
 # Find matches between column names and categories of the regarding list page.
-# Add for each match rating points to the column
+# Add for each match of a word (or its plural form) in the column name rating points to the column.
 def _findMatchWithListCategories(uniqueCols, listCategories):
 	for col in uniqueCols:
 		for cat in listCategories:
-			rating = fuzz.partial_ratio(col['title'], cat)
-			if rating > LISTCAT_RATIO:
-				col['rating'] += LISTCAT_MATCH_POINTS
-				print('Added for column "'+col['title']+'" list category "'+cat+'" (Rating: '+str(rating)+')') # TODO: Test
+			cat = cat.lower()
+			for colWord in col['title'].split(' '):
+				if len(colWord) > 2:
+					rating = fuzz.partial_ratio(colWord, cat)
+					if rating > LISTCAT_RATIO:
+						col['rating'] += LISTCAT_MATCH_POINTS
 
 # Vergleicht die Ratings der Spalten, um die Key-Spalte zu ermitteln.
 # Das größte Rating muss 15% vor dem zweiten liegen. Außerdem müssen
@@ -298,11 +301,9 @@ def _validateRatings( cols ):
 	return ratCols[0]
 
 
-# TODO: Dokumentieren
-def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
+def extractKeyColumn(originalHTMLSoup, articleName, abstracts = '', listCategories = []):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
-
 		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
 		htmlTableSoup = _fixTableHeaderTagsForOutput(htmlTableSoup)
 
@@ -327,7 +328,7 @@ def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
 		_textualEvidenceWithAbstracts(uniqueCols, abstracts)
 
 		# Listen-Kategorien mit den Spaltennamen abgleichen
-		_findMatchWithListCategories(uniqueCols, articleName)
+		_findMatchWithListCategories(uniqueCols, listCategories)
 
 		# Validiere die Bewertungen der Spalten
 		keyCol = _validateRatings(uniqueCols)

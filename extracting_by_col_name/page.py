@@ -36,13 +36,18 @@ class Page:
             self._soup = BeautifulSoup(self.html, "lxml")
         return self._soup
 
+    @property
     def categories(self):
-        return [a.text for a in self.soup.find(id='mw-normal-catlinks').findAll('a')]
+        return self.page.categories
+
+    @property
+    def summary(self):
+        return self.page.summary
 
     @property
     def tables(self):
         if not self._tables:
-            self._tables = [Table(table, self.title) for table in self.soup.findAll('table', 'wikitable')]
+            self._tables = [Table(table, self) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
 
     def hasTable(self):
