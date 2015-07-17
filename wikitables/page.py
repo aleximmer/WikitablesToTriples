@@ -6,11 +6,7 @@ from .table import Table
 class Page(wikipedia.WikipediaPage):
     'This class abstracts Wikipedia articles to add table extraction functionality.'
 
-    _html = None
-    _soup = None
-    _tables = None
-
-    def __init__(self, title=None, revisionID='', contentOnly=True, pageid=None, redirect=True, preload=False, original_title='', auto_suggest=True):
+    def __init__(self, title=None, revisionID='', pageid=None, redirect=True, preload=False, original_title='', auto_suggest=True):
         # method taken from wikipedia.page to init OO-Style
         if title is not None:
           if auto_suggest:
@@ -24,15 +20,21 @@ class Page(wikipedia.WikipediaPage):
           super().__init__(pageid=pageid, preload=preload)
         else:
           raise ValueError("Either a title or a pageid must be specified")
-        #Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections.
+
         oldID = '&?&oldid='
         if not revisionID:
             oldID = ''
         self.url = self.url + oldID + str(revisionID)
-        self.contentOnly = contentOnly
+        self._tables = None
+        self._html = None
+        self._soup = None
 
     def __repr__(self):
         return "Title:\n\t%s\n\t%s\nTables:\n\t" % (self.title, self.url) + "\n\t".join([str(t) for t in self.tables])
+
+    def html(self):
+        # override from WikipediaPage
+        return self.html
 
     @property
     def html(self):
