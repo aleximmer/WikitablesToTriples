@@ -325,10 +325,10 @@ def extractKeyColumn(originalHTMLSoup, articleName, abstracts = '', listCategori
 		_lookForTHCol(uniqueCols)
 
 		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
-		_textualEvidenceWithAbstracts(uniqueCols, abstracts)
+		#_textualEvidenceWithAbstracts(uniqueCols, abstracts)
 
 		# Listen-Kategorien mit den Spaltennamen abgleichen
-		_findMatchWithListCategories(uniqueCols, listCategories)
+		#_findMatchWithListCategories(uniqueCols, listCategories)
 
 		# Validiere die Bewertungen der Spalten
 		keyCol = _validateRatings(uniqueCols)
