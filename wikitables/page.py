@@ -3,22 +3,32 @@ from bs4 import BeautifulSoup
 import requests
 from .table import Table
 
-class Page:
-
-    """This class abstracts Wikipedia articles to add table extraction functionality."""
+class Page(wikipedia.WikipediaPage):
+    'This class abstracts Wikipedia articles to add table extraction functionality.'
 
     _html = None
     _soup = None
     _tables = None
 
-    def __init__(self, title, revisionID='', contentOnly=True):
-        """Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections."""
+    def __init__(self, title=None, revisionID='', contentOnly=True, pageid=None, redirect=True, preload=False, original_title='', auto_suggest=True):
+        # method taken from wikipedia.page to init OO-Style
+        if title is not None:
+          if auto_suggest:
+            results, suggestion = wikipedia.search(title, results=1, suggestion=True)
+            try:
+              title = suggestion or results[0]
+            except IndexError:
+              raise wikipedia.PageError(title)
+          super().__init__(title, redirect=redirect, preload=preload)
+        elif pageid is not None:
+          super().__init__(pageid=pageid, preload=preload)
+        else:
+          raise ValueError("Either a title or a pageid must be specified")
+        #Use 'contentOnly=True' if you want to filter 'See also' and 'References' sections.
         oldID = '&?&oldid='
         if not revisionID:
             oldID = ''
-        self.page = wikipedia.page(title)
-        self.title = self.page.title
-        self.url = self.page.url + oldID + str(revisionID)
+        self.url = self.url + oldID + str(revisionID)
         self.contentOnly = contentOnly
 
     def __repr__(self):
@@ -35,14 +45,6 @@ class Page:
         if not self._soup:
             self._soup = BeautifulSoup(self.html, "lxml")
         return self._soup
-
-    @property
-    def categories(self):
-        return self.page.categories
-
-    @property
-    def summary(self):
-        return self.page.summary
 
     @property
     def tables(self):
