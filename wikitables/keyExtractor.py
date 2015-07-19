@@ -245,11 +245,15 @@ def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
 		for col in uniqueCols:
 			colName = col['title']
 			for colWord in colName.split(' '):
-				if len(colWord) > 2:
-					colWordPl = inflectEngine.plural(colWord)
-					occCount = len(re.findall('('+colWord+'|'+colWordPl+')', abstracts,flags=re.IGNORECASE))
-					# Rating by occurrence
-					col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
+				try:
+					if len(colWord) > 2: 
+						colWordPl = inflectEngine.plural(colWord)
+						occCount = len(re.findall('\('+colWord+'\|'+colWordPl+'\)', abstracts,flags=re.IGNORECASE))
+						# Rating by occurrence
+						col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
+				except Exception as e:
+					continue
+
 
 # Find matches between column names and categories of the regarding list page.
 # Add for each match of a word (or its plural form) in the column name rating points to the column.
