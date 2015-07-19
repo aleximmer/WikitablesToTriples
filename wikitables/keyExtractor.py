@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import codecs
 import inflect
 import math
@@ -246,7 +246,8 @@ def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
 			colName = col['title']
 			for colWord in colName.split(' '):
 				if len(colWord) > 2:
-					colWordPl = inflectEngine.plural(colWord)
+					colWordPl = re.escape(inflectEngine.plural(colWord))
+					colWord = re.escape(colWord)
 					occCount = len(re.findall('('+colWord+'|'+colWordPl+')', abstracts,flags=re.IGNORECASE))
 					# Rating by occurrence
 					col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
