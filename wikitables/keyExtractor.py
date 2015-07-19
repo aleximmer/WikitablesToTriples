@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import codecs
 import inflect
 import math
@@ -245,16 +245,12 @@ def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
 		for col in uniqueCols:
 			colName = col['title']
 			for colWord in colName.split(' '):
-				try:
-					if len(colWord) > 2: 
-						colWordPl = inflectEngine.plural(colWord)
-						occCount = len(re.findall('\('+colWord+'\|'+colWordPl+'\)', abstracts,flags=re.IGNORECASE))
-						# Rating by occurrence
-						col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
-				except Exception as e:
-					continue
-
-
+				if len(colWord) > 2:
+					colWordPl = re.escape(inflectEngine.plural(colWord))
+					colWord = re.escape(colWord)
+					occCount = len(re.findall('('+colWord+'|'+colWordPl+')', abstracts,flags=re.IGNORECASE))
+					# Rating by occurrence
+					col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
 # Find matches between column names and categories of the regarding list page.
 # Add for each match of a word (or its plural form) in the column name rating points to the column.
 def _findMatchWithListCategories(uniqueCols, listCategories):
