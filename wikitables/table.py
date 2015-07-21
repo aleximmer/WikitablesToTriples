@@ -264,21 +264,23 @@ class Table:
                 for predicate in row:
                     data.append([subColumn[i], predicate, objColumn[i], relCount[predicate]])
 
-        from pandas import DataFrame
-        df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
-        df['table'] = repr(self)
-        df['page'] = self.pageTitle
+        # TODO: Bring back after demo
+        # from pandas import DataFrame
+        # df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
+        # df['table'] = repr(self)
+        # df['page'] = self.pageTitle
 
-        print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
+        # print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
 
         if path:
-            df.to_csv(path, index=False)
+            # df.to_csv(path, index=False)
+            pass
         else:
             # return df
-            #TODO: Remove after demo
+            # TODO: Remove after demo
             matrix = []
-            for index, row in df.iterrows():
-                matrix.append([row['subject'], '<' + row['predicate'] + '>', row['object'], row['certainty']])
+            for row in data:
+                matrix.append([row[0], '<' + row[1] + '>', row[2], row[3]])
             s = [[str(e) for e in row] for row in matrix]
             lens = [max(map(len, col)) for col in zip(*s)]
             fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
