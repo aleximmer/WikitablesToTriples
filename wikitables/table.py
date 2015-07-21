@@ -148,12 +148,12 @@ class Table:
     #             rows[row][col] = td
     #
     #     return rows
-    def generateRDFs(self, threshold=0.0, path=None):
+    def generateRDFs(self, columns=None, threshold=0.0, path=None):
         """Save RDFs statements generated from table."""
 
         data = []
 
-        for subColumnName, objColumnName in itertools.permutations(self.columnNames, 2):
+        for subColumnName, objColumnName in itertools.permutations(columns if columns else self.columnNames, 2):
             subColumn = self.column(subColumnName, content=True)
             objColumn = self.column(objColumnName, content=True)
 
@@ -186,4 +186,14 @@ class Table:
         if path:
             df.to_csv(path, index=False)
         else:
-            print(df)
+            # return df
+            #TODO: Remove after demo
+            matrix = []
+            for index, row in df.iterrows():
+                matrix.append([row['subject'], '<' + row['predicate'] + '>', row['object'], row['certainty']])
+            s = [[str(e) for e in row] for row in matrix]
+            lens = [max(map(len, col)) for col in zip(*s)]
+            fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
+            table = [fmt.format(*row) for row in s]
+            print('\n'.join(table))
+            # return df
