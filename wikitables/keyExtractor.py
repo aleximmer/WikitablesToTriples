@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import codecs
 import inflect
 import math
@@ -10,16 +10,20 @@ import copy
 
 from bs4 import BeautifulSoup
 from  more_itertools import unique_everseen
+from fuzzywuzzy import fuzz
 
 # Thresholds:
 ONLY_UNIQUE_COLS = False # KeyCol muss einzigartig sein
-MIN_ENTITIES_COUNT = 0.4 # Mind. {x} in Prozent müssen Entities sein, damit die Spalte der Key sein darf
+MIN_ENTITIES_COUNT = 0.4 # Mind. {x*100} Prozent müssen Entities sein, damit die Spalte der Key sein darf
 MAX_ENTITIES_POINTS = 50 # Bei 100% Entitäten gibt es {x} Punkte
 COLNAME_NAME_POINTS = 20 # Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
 COLNAME_MAX_WORD_POINTS = 20 # Wenn ein Wort-Treffer kann max {x} Punkte einbringen
 COLNAME_PLURAL_HIT_POINTS = 10 # Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
+COLNAME_ABSTRACTS_SCALE = 4 # Für jeden Match in Abstracts: Addiere Trefferanzahl * {x}
 COLPOS_MAX_POINTS = 20 # Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch abwärts
-COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkt
+COL_TH_POINTS = 20 # Eine Spalte mit <th>-Tags erhält {x} Punkte
+LISTCAT_RATIO = 90 # Fuzzywuzzy Bewertung (prüft auf Ähnlichkeit) zwischen Listkategorien und Spaltennamen
+LISTCAT_MATCH_POINTS = 4 # Ein Listkategorie-Treffer bringt {x} Punkte
 FIRST_SECOND_RATIO = 0.95 # Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten Spalte sein
 
 # Init Inflect Engine
@@ -27,12 +31,11 @@ inflectEngine = inflect.engine()
 
 ########################################## Key extraction ##########################################
 
-
 # Ermittelt mittels dem BeautifulSoup-Package die Kopfzeile der Tabelle und
 # gibt alle Header als Array von Soup-Elemente zurück.
 # Sollte die Kopfzeile nicht gefunden werden oder kein Header vorhanden,
 # wirft die Funktion einen ValueError.
-def extractTableHead(htmlTableSoup):
+def _extractTableHead(htmlTableSoup):
 	htmlTable = str(htmlTableSoup)
 	quickView = htmlTable[0:50]+" [...]"
 
@@ -50,7 +53,7 @@ def extractTableHead(htmlTableSoup):
 
 # <th> tags are used in different ways so it's nearly impossible to parse them
 # Solution: replace them with <td> and act like the <td>-Tags in the first <tr>-Row are <th>-Tags
-def fixTableHeaderTagsForOutput(htmlTableSoup):
+def _fixTableHeaderTagsForOutput(htmlTableSoup):
 	htmlTable = str(htmlTableSoup)
 	thTags = htmlTableSoup.findAll('th')
 
@@ -62,12 +65,12 @@ def fixTableHeaderTagsForOutput(htmlTableSoup):
 	pos2 = htmlTable.find("</tr>") + 5
 	firstRow = htmlTable[pos1:pos2]
 
-	headerSoup = BeautifulSoup(firstRow)
+	headerSoup = BeautifulSoup(firstRow, "lxml")
 	colNames = headerSoup.findAll('td')
 	for col in colNames:
 		col.name='th'
 	firstRow = str(headerSoup.body.next) # FirstRow without <html><body></body></html>
-	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:])
+	return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:], "lxml")
 
 # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
 # diese auf Einzigartigkeit (optional). Sollte keine Spalte dem entsprechen, wird
@@ -75,8 +78,8 @@ def fixTableHeaderTagsForOutput(htmlTableSoup):
 # Am Ende wird ein Array von Elementen der Form {"xPos": a, "entries": c}
 # zurückgegeben
 # UPDATE: Added originalHTML and attrOrig to get the real tag (hd or td)
-def extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
-	htmlTable = str(htmlTableSoup) # th and td tags by fixTableHeaderTagsForOutput() formatted
+def _extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
+	htmlTable = str(htmlTableSoup) # th and td tags by _fixTableHeaderTagsForOutput() formatted
 	originalHTML = str(originalHTMLSoup) # orginal html code
 	quickView = originalHTML[0:50]+" [...]" # error output
 
@@ -123,7 +126,7 @@ def extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
 					break
 				else:
 					checkedValues[i] = value
-	if unique or not ONLY_UNIQUE_COLS:
+		if unique or not ONLY_UNIQUE_COLS:
 			# Alle Einträge der möglichen Key-Spalte als Array speichern (plain, nicht raw)
 			uniqueCols.append({"xPos": j,
 				"unique": unique,
@@ -133,7 +136,7 @@ def extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
 		raise ValueError("Can\'t find any column with unique entries (might be foreing keys)")
 
 	# Führe Title mit Entries und Position zusammen (Schema):
-	tableColNames = extractTableHead(htmlTableSoup)
+	tableColNames = _extractTableHead(htmlTableSoup)
 	uniqueCols = [{
 			"xPos": col["xPos"],
 			"unique": col["unique"],
@@ -150,14 +153,13 @@ def extractColumnsInfos(htmlTableSoup, originalHTMLSoup):
 # Wikipedia-intern sind (Präfix: "/wiki/...")
 # Prozentual betrachtet wird jeder Spalte eine Bewertung gegeben. Wenn 100%
 # der Einträge einer Spalte Entitäten sind, werden 50 Punkte vergeben.
-# TODO: Weitere Einschränkungen möglich? (Umso mehr Text vor dem Link o.ä.)
-def countEntities(cols):
+def _countEntities(cols):
 	for i in range(len(cols)):
 		entries = cols[i]["entries"]
 		entityCount = 0
 		multipleEnts = False
 		for entry in entries:
-			entrySoup = BeautifulSoup(entry)
+			entrySoup = BeautifulSoup(entry, "lxml")
 			links = entrySoup.findAll("a")
 			linksHref = [aTag["href"] for aTag in links]
 			linksHref = list(unique_everseen(linksHref))
@@ -190,7 +192,7 @@ def countEntities(cols):
 # für das eine Übereinstimmung gefunden wurde, desto mehr Punkte gibt es
 # im Rating (maximal 20/25), damit Nebenwörter wie "in", "the", "of", o.ä.
 # wenig Einfluss haben.
-def valuateByName(cols, articleName):
+def _valuateByName(cols, articleName):
 	# Entferne "List of" und teile die Wörter auf
 	articleNames = articleName[7:].split(" ")
 
@@ -215,49 +217,58 @@ def valuateByName(cols, articleName):
 # Umso näher die Spalte am linken Rand ist, desto wichtiger ist sie.
 # Es können maximal 20 Punkte aufgerechnet werden (für die erste Spalte).
 # Nach rechts hin nimmt die Punktvergabe hyperbolisch ab.
-# TODO: Linear, Quadratisch oder Hyperbolisch?
-def valuateByPosition( cols ):
+def _valuateByPosition( cols ):
 	colLen = len(cols)
 	for i in range(colLen):
 		posVal = i + 1
-		# Quadratisch bei 10 Spalten: 20, 16, 12, 9, 7, 5, ...
-		# Hyperbel bei 10 Spalten: 20, 10, 6, 5, 4, ...
+		# Quadratische Verteilung: 20, 16, 12, 9, 7, 5, ...
+		# Hyperbolische Verteilung: 20, 10, 6, 5, 4, ...
 		addRating = int(math.floor(COLPOS_MAX_POINTS / posVal)) # Hyperbolisch
 		cols[i]["rating"] += addRating
 
 # Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten haben mit
 # hoher Warscheinlichkeit die gesuchten Entitäten (KeyCol)
-def lookForTHCol(uniqueCols):
-	for i in range(0, len(uniqueCols)):
+def _lookForTHCol(uniqueCols):
+	for col in uniqueCols:
 		isVertical = True
-		for entry in uniqueCols[i]['entriesOrig']:
+		for entry in col['entriesOrig']:
 			if entry[:3] != '<th':
 				isVertical = False
 				break;
 		if isVertical:
-			uniqueCols[i]['rating'] += COL_TH_POINTS
+			col['rating'] += COL_TH_POINTS
 
-def textualEvidenceWithAbstracts(uniqueCols, abstracts):
-	abstractsWords = abstracts.split(" ")
-	print('TODO: Get abstracts of table (Wörter: '+str(abstractsWords)+')')
-	# TODO: Abstracts in DB speichern
-	# TODO: in valuateByName übernehmen
+# Find matches for each column name with the table abstracts.
+# Add for each match of a word (or its plural form) in the column name rating points to the column.
+def _textualEvidenceWithAbstracts(uniqueCols, abstracts):
+	if len(abstracts) > 0:
+		for col in uniqueCols:
+			colName = col['title']
+			for colWord in colName.split(' '):
+				if len(colWord) > 2:
+					colWordPl = re.escape(inflectEngine.plural(colWord))
+					colWord = re.escape(colWord)
+					occCount = len(re.findall('('+colWord+'|'+colWordPl+')', abstracts,flags=re.IGNORECASE))
+					# Rating by occurrence
+					col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
 
-def findFittingColumnProperties( uniqueCols ):
-	print('TODO: Get sparql connection')
-	# TODO: Properties über SparQL holen
-	# TODO: Property-Name mit Colum-Namen abgleichen
-
-def findMatchWithListCategories(uniqueCols, articleName):
-	print('TODO: Get sparql connection')
-	# TODO: Kategorien einer Liste(articleName) per SparQL holen
-	# TODO: Kategorien-Name über Textual-Evidence mit dem Spaltennamen abgleichen
+# Find matches between column names and categories of the regarding list page.
+# Add for each match of a word (or its plural form) in the column name rating points to the column.
+def _findMatchWithListCategories(uniqueCols, listCategories):
+	for col in uniqueCols:
+		for cat in listCategories:
+			cat = cat.lower()
+			for colWord in col['title'].split(' '):
+				if len(colWord) > 2:
+					rating = fuzz.partial_ratio(colWord, cat)
+					if rating > LISTCAT_RATIO:
+						col['rating'] += LISTCAT_MATCH_POINTS
 
 # Vergleicht die Ratings der Spalten, um die Key-Spalte zu ermitteln.
 # Das größte Rating muss 15% vor dem zweiten liegen. Außerdem müssen
 # mind. 40% der Einträge Entitäten sein. Wenn keine Key-Spalte gefunden
 # wurde, wird None zurückgegeben (ansonsten das Spaltenelement)
-def validateRatings( cols ):
+def _validateRatings( cols ):
 	# Create copy to keep the original order in cols
 	ratCols = [{'entries': col['entries'],
 				#'entriesOrig': col['entriesOrig'],
@@ -291,49 +302,40 @@ def validateRatings( cols ):
 	return ratCols[0]
 
 
-# TODO: Dokumentieren
-def extractKeyColumn(originalHTMLSoup, articleName, tableName, abstracts):
+def extractKeyColumn(originalHTMLSoup, articleName, abstracts = '', listCategories = []):
 	try:
 		# Fix <th> tags because <th> is used in different ways:
-		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup)) # Save original formatting as copy (force copying)
-		htmlTableSoup = fixTableHeaderTagsForOutput(htmlTableSoup)
+		htmlTableSoup = BeautifulSoup(str(originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
+		htmlTableSoup = _fixTableHeaderTagsForOutput(htmlTableSoup)
 
 		# Extracting and rating columns
-		uniqueCols = extractColumnsInfos(htmlTableSoup, originalHTMLSoup)
+		uniqueCols = _extractColumnsInfos(htmlTableSoup, originalHTMLSoup)
 
 		# Rating:
 
 		# Zähle die Entities pro Spalte
-		countEntities(uniqueCols)
+		_countEntities(uniqueCols)
 
 		# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-		valuateByName(uniqueCols, articleName)
+		_valuateByName(uniqueCols, articleName)
 
 		# Umso weiter links, umso wertvoller ist die Spalte
-		valuateByPosition(uniqueCols)
+		_valuateByPosition(uniqueCols)
 
 		# Nutze vertikale TH-Cols
-		lookForTHCol(uniqueCols)
+		_lookForTHCol(uniqueCols)
 
 		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
-		# TODO: textualEvidenceWithAbstracts(uniqueCols, abstracts)
-
-		# Properties der Spalteneinträge mit den anderen Spaltennamen abgleichen
-		# TODO: findFittingColumnProperties(uniqueCols)
+		_textualEvidenceWithAbstracts(uniqueCols, abstracts)
 
 		# Listen-Kategorien mit den Spaltennamen abgleichen
-		# TODO: findMatchWithListCategories(uniqueCols, articleName)
+		_findMatchWithListCategories(uniqueCols, listCategories)
 
 		# Validiere die Bewertungen der Spalten
-		keyCol = validateRatings(uniqueCols)
+		keyCol = _validateRatings(uniqueCols)
 
 		if keyCol == None:
 		    print('Can\'t extract a significant single key column')
-		else:
-			print('Extracted Key: ')
-			print(json.dumps(keyCol, indent=4, sort_keys=True))
-		#else:
-		#	keyCol = keyCol['xPos']
 
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
