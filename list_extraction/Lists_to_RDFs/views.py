@@ -7,8 +7,10 @@ from django.template import RequestContext, loader
 from django.http import JsonResponse
 
 from .models import WikiList, WikiTable
-from extensions.extractingTables import *
-from extensions.table import *
+#from extensions.sparql import *
+#from extensions.page import Page
+from extensions.keyExtractor import *
+from extensions.page import *
 
 # Create your views here.
 """
@@ -19,6 +21,46 @@ def init_testing(request):
 
 def show_final_tool(request):
     return render(request, 'Tool.html')
+
+"""--------- Roots for the final presentation tool ------------"""
+
+def get_table(request):
+    articleName = request.GET['articleName']
+    print('Input: '+str(articleName))
+    try:
+        pg = Page(articleName) # 'List of universities in England'
+        # TODO: Nicht nur die erste Tabelle bearbeiten
+        if pg.tables:
+            print('Getting table by page title...')
+            tb = pg.tables[0]
+            result = None #tb.generateRDFs(["University", "Location"], threshold=0.6)
+            print(result)
+            return JsonResponse({'result': True, 'pageName': tb.pageTitle, 'htmlCode': tb.tableHTMLCode, 'data': result})
+        else:
+            print('No tables contained')
+            return JsonResponse({'result': False})
+    except:
+        print('Page '+str(articleName)+' doesn\'t exist')
+        return JsonResponse({'result': False})
+
+def get_rdfs(request):
+    articleName = request.GET['articleName']
+    print('Input: '+str(articleName))
+
+    pg = Page(articleName)
+    # TODO: Nicht nur die erste Tabelle bearbeiten
+    if pg.tables:
+        print('Generating RDFs...')
+        tb = pg.tables[0]
+        print(tb.columnNames[0])
+        print(tb.columnNames[1])
+        result = tb.generateRDFs([tb.columnNames[0], tb.columnNames[1]], threshold=0.6)
+        return JsonResponse({'result': True, 'pageName': tb.pageTitle, 'htmlCode': tb.tableHTMLCode, 'data': result})
+    else:
+        print('No tables contained')
+        return JsonResponse({'result': False}, save=False)
+
+"""--------- Roots for the key extracting tool ------------"""
 
 """
 1. retrieve random Table which is not checked yet

@@ -1,7 +1,7 @@
 import wikipedia
 from bs4 import BeautifulSoup
 import requests
-from wikitables.table import Table
+from extensions.table import Table
 
 class Page:
 

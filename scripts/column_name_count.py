@@ -19,6 +19,7 @@ for row in rows[pages:]:
     print(row[0])
     try:
         page = Page(row[0])
+        page.tables
     except Exception:
         pages += 1
         continue

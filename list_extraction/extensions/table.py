@@ -1,12 +1,12 @@
 from bs4 import BeautifulSoup
-import wikitables.sparql as sparql
+import extensions.sparql as sparql
 import itertools
-from wikitables.keyExtractor import extractKeyColumn
+from extensions.keyExtractor import extractKeyColumn
 import json
 from collections import defaultdict
 from fuzzywuzzy import fuzz
 from copy import deepcopy
-from wikitables.page import *
+from extensions.page import *
 
 class Table:
 
@@ -68,6 +68,10 @@ class Table:
     @property
     def keyName(self):
         return self.columnNames[self.key]
+
+    @property
+    def tableHTMLCode(self):
+        return str(self.soup)
 
     @property
     def pageTitle(self):
@@ -286,4 +290,5 @@ class Table:
             fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
             table = [fmt.format(*row) for row in s]
             print('\n'.join(table))
+            return matrix
             # return df
