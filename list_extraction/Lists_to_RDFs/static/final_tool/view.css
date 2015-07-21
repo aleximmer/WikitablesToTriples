@@ -1,3 +1,11 @@
+* {
+	font-family: Calibri Light !important;
+}
+
+html {
+	background-color: #FFF !important;
+}
+
 .showListContainer {
 	padding: 50px;
 	padding-top: 10px;
@@ -5,6 +13,7 @@
 
 .rdfContainer {
 	padding: 50px;
+	padding-top: 10px;
 }
 
 /* A RDF table should only has inner borders*/
@@ -17,8 +26,6 @@
 .rdfTable {
   border-collapse: collapse;
   position: relative;
-  margin-left: -330px;
-  left: 50%;
 }
 .rdfTable td, .rdfTable th {
   border: 1px solid black;
@@ -85,4 +92,5 @@ h1 {
   display: inline-block;
   padding-bottom: 0px;
   vertical-align: bottom;
+	font-size: 20px;
 }

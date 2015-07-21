@@ -23,20 +23,20 @@
 
 	<script src="{%static 'jquery.js' %}"></script>
 	<script src="{%static 'final_tool/app.js' %}"></script>
-	<script src="{%static 'final_tool/shortcut.js' %}"></script>
+	<!--<script src="{%static 'final_tool/shortcut.js' %}"></script>-->
 </head>
 <body>
 
 	<div class="startContainer" style="/*display: none*/">
 		<!-- <button id="start" type="button" class="decissionButton" onclick="loadNextPost()">Go (g)</button> -->
-		<form>
+		<form onsubmit="validateListName(); return false;">
 			<h1>Wikipedia List To RDFs</h1>
 			<br/><br/><br/>
 			<div class="question">
 				<input id="inputListName" type="text" required/>
 				<label>Enter list name</label>
 			</div>
-			<button id="submitListName" onclick="validateListName()">Submit</button>
+			<button id="submitListName">Submit</button>
 		</form>
 	</div>
 
@@ -45,7 +45,7 @@
 		<div>
 			<h1>Wikipedia List To RDFs</h1>
 			<br/>
-			<div id="table-revision" class="table-revision-view">
+			<div id="table-revision" class="table-revision-view" style="display: none">
 				<div class="revisionTitle">
 					Revision:
 				</div>
@@ -58,8 +58,9 @@
 		      </select>
 		    </div>
 			</div>
-			<div class="submitDiv">
-				<button id="submitListName" onclick="validateListName()">Submit</button>
+			<div class="submitDiv" style="margin-top: 30px">
+				<button id="cancelList" onclick="dontAcceptListName()">Cancel</button>
+				<button id="submitList" onclick="acceptListName()">Submit</button>
 			</div>
 			<div id="table-source" class="table-source-view" style="display: inline-block">
 				List of post-1692 Anglican parishes in the Province of Maryland
@@ -72,7 +73,9 @@
 	<!-- TODO: Show RDF Container -->
 	<div class="rdfContainer" style="display: none">
 		<h1>Generated Missing RDFs:</h1>
-		<br/><br/><br/>
+		<br/>
+		<button id="newTable" onclick="dontAcceptListName()">Next table</button>
+		<br/>
 		<table class="rdfTable">
 			<tr>
 				<th>Subject</th>

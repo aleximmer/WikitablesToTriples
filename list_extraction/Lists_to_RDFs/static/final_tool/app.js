@@ -1,5 +1,29 @@
+var currentPage = null
 
 function validateListName() {
+	$('.startContainer').css('opacity', '0.6')
+	$('#submitListName').prop('disabled', true)
+	$.getJSON("/Tables/GetTable", {'articleName': $('#inputListName').val()})
+		.done(function(json) {
+			$('.startContainer').css('opacity', '1')
+			$('#submitListName').prop('disabled', false)
+			console.log('Received data: ', json)
+			if (json.result) {
+				$('.startContainer').hide()
+				$('.showListContainer').show()
+				$('#table-content').html(json.htmlCode)
+				$('#table-source').html(json.pageName)
+				currentPage = json.pageName
+			} else {
+				alert('No wikipedia page with this title (containing tables) found!')
+			}
+		})
+		.fail(function(jqxhr, textStatus, error) {
+			$('.startContainer').css('opacity', '1')
+			$('#submitListName').prop('disabled', false)
+			alert(error)
+			console.log(error)
+		});
 	/* TODO:
 	  1.) Read list name from "inputListName"
 		2.) Check per Sparql for a wikipedia page with this name
@@ -13,16 +37,63 @@ function validateListName() {
 }
 
 function dontAcceptListName() {
-	/* TODO:
-	  1.) Hide tableShowContainer, Show startContainer
-	*/
+	$('.showListContainer').hide()
+	$('.rdfContainer').hide()
+	$('.startContainer').show()
 }
 
 function acceptListName() {
+	$('#submitList').prop('disabled', true)
+	$('#cancelList').prop('disabled', true)
+	$('.showListContainer').css('opacity', '0.6')
+	$.getJSON("/Tables/GetRDFs", {'articleName': currentPage})
+		.done(function(json) {
+			$('#submitList').prop('disabled', false)
+			$('#cancelList').prop('disabled', false)
+			$('.showListContainer').css('opacity', '1.0')
+			console.log('Received data: ', json)
+			if (json.result) {
+				var matrix = json.data
+				if (matrix.length > 0) {
+					$('.showListContainer').hide()
+					$('.rdfContainer').show()
+
+					$('.rdfTable tr').remove()
+				  tHead = $('<tr>');
+					tHead.append($('<th>').html('Subject'))
+					tHead.append($('<th>').html('Predicate'))
+					tHead.append($('<th>').html('Object'))
+					$('.rdfTable').append(tHead)
+
+					$.each(matrix, function(i) {
+					  tRow = $('<tr>');
+						tRow.append($('<td>').html(matrix[i][0].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')))
+						tRow.append($('<td>').html(matrix[i][1].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')))
+						tRow.append($('<td>').html(matrix[i][2].replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')))
+
+					  $('.rdfTable').append(tRow)
+					})
+				} else {
+					alert('Couldn\'t generate new RDFs -> Skip table')
+					$('.showListContainer').hide()
+					$('.startContainer').show()
+				}
+			} else {
+				alert('No wikipedia page with this title (containing tables) found!')
+				$(".submitListName" ).prop("disabled", false)
+			}
+		})
+		.fail(function(jqxhr, textStatus, error) {
+			$('#submitList').prop('disabled', false)
+			$('#cancelList').prop('disabled', false)
+			$('.showListContainer').css('opacity', '1.0')
+			alert(error)
+			console.log(error)
+		});
 	/* TODO:
     1.) Read selected revision
 		2.) Get table object from the given wikipedia table and its revision
-		3.) Execute Algorithmus (returning RDFs)
+		3.) Execute Algorithm (returning RDFs)
 		4.) Show RDFs
 	*/
 }
