@@ -1,4 +1,4 @@
-.transition, form button, .submitDiv button, form .question label, form .question input[type="text"] {
+.transition, form button, .submitDiv button, .rdfContainer button, form .question label, form .question input[type="text"] {
   -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
   -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
   -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
@@ -59,7 +59,8 @@ form button {
   position: relative;
   z-index: 1;
 }
-.submitDiv button {
+.submitDiv button,
+.rdfContainer button {
   margin-top: 0px;
   background-color: white;
   border: 1px solid #6a686a;
@@ -79,7 +80,7 @@ form button:hover, form button:focus {
   color: white;
   background-color: #6a686a;
 }
-.submitDiv button:hover, form button:focus {
+.submitDiv button:hover, .rdfContainer button:hover, form button:focus {
   color: white;
   background-color: #6a686a;
 }
