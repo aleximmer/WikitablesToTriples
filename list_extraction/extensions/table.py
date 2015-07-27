@@ -259,6 +259,10 @@ class Table:
             if not absCount:
                 continue
 
+            #for key, value in absCount.items():
+            #    print(str(key) + ' -> ' + str(value/len(existingPredicates)))
+            #
+
             relCount = dict((key, value/len(existingPredicates)) for key, value in absCount.items() if value/len(existingPredicates) > threshold)
             predicates = set(relCount.keys())
 

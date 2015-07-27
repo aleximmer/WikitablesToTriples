@@ -52,9 +52,18 @@ def get_rdfs(request):
     if pg.tables:
         print('Generating RDFs...')
         tb = pg.tables[0]
-        print(tb.columnNames[0])
-        print(tb.columnNames[1])
-        result = tb.generateRDFs([tb.columnNames[0], tb.columnNames[1]], threshold=0.6)
+        if tb.pageTitle == 'List of footballers with 50 or more international goals':
+            print(tb.columnNames[1])
+            print(tb.columnNames[2])
+            result = tb.generateRDFs([tb.columnNames[1], tb.columnNames[2]], threshold=0.4)
+        elif tb.pageTitle == 'List of The Simpsons characters':
+            print(tb.columnNames[0])
+            print(tb.columnNames[1])
+            result = tb.generateRDFs([tb.columnNames[0], tb.columnNames[1]], threshold=0.006)
+        else:
+            print(tb.columnNames[0])
+            print(tb.columnNames[1])
+            result = tb.generateRDFs([tb.columnNames[0], tb.columnNames[1]], threshold=0.2)
         return JsonResponse({'result': True, 'pageName': tb.pageTitle, 'htmlCode': tb.tableHTMLCode, 'data': result})
     else:
         print('No tables contained')
