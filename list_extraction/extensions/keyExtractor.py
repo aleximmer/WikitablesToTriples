@@ -1,5 +1,4 @@
 ﻿# -*- coding: utf-8 -*-
-import codecs
 import inflect
 import math
 import sys
