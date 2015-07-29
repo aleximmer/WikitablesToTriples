@@ -78,6 +78,10 @@ class Table:
         return self.page.summary
 
     @property
+    def pageLink(self):
+        return self.page.url
+
+    @property
     def pageCategories(self):
         return self.page.categories
 
