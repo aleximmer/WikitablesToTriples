@@ -7,6 +7,8 @@ wrapper.setReturnFormat(JSON)
 
 # Resource (with redirect) -> Resource (with redirect)
 rrQuery = """
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+
 select ?subject ?predicate ?object
 where {
     %s dbpedia-owl:wikiPageRedirects* ?subject.
@@ -16,6 +18,8 @@ where {
 
 # Resource (with redirect) -> Literal
 rlQuery = """
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+
 select ?subject ?predicate ?object
 where {
     %s dbpedia-owl:wikiPageRedirects* ?subject.
@@ -26,6 +30,8 @@ where {
 
 # Resource (with redirect)
 rQuery = """
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+
 select ?subject ?predicate ?object
 where {
     %s dbpedia-owl:wikiPageRedirects* ?subject.
