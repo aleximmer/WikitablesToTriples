@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import sparql as sparql
 import itertools
-from keyExtractor import extractKeyColumn
+from keyExtractor import KeyExtractor
 import json
 from collections import defaultdict
 from fuzzywuzzy import fuzz
@@ -56,7 +56,8 @@ class Table:
 
     @property
     def key(self):
-        key = extractKeyColumn(self.soup, self.pageTitle, self.pageSummary, self.pageCategories)
+        extractor = KeyExtractor(self.soup, self.pageTitle, self.pageSummary, self.pageCategories)
+        key = extractor.extractKeyColumn
         if key != None:
             # Key object has following params:
             # entries, unique(no duplicate content), rating, xPos, title
