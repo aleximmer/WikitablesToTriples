@@ -35,7 +35,7 @@ def get_table(request):
             tb = pg.tables[0]
             result = None #tb.generateRDFs(["University", "Location"], threshold=0.6)
             print(result)
-            return JsonResponse({'result': True, 'pageName': tb.pageTitle, 'htmlCode': tb.tableHTMLCode, 'data': result})
+            return JsonResponse({'result': True, 'pageName': tb.page_title, 'htmlCode': tb.tableHTMLCode, 'data': result})
         else:
             print('No tables contained')
             return JsonResponse({'result': False})
@@ -52,19 +52,19 @@ def get_rdfs(request):
     if pg.tables:
         print('Generating RDFs...')
         tb = pg.tables[0]
-        if tb.pageTitle == 'List of footballers with 50 or more international goals':
+        if tb.page_title == 'List of footballers with 50 or more international goals':
             print(tb.columnNames[1])
             print(tb.columnNames[2])
-            result = tb.generateRDFs([tb.columnNames[1], tb.columnNames[2]], threshold=0.4)
-        elif tb.pageTitle == 'List of The Simpsons characters':
+            result = tb.generate_triples([tb.columnNames[1], tb.columnNames[2]], threshold=0.4)
+        elif tb.page_title == 'List of The Simpsons characters':
             print(tb.columnNames[0])
             print(tb.columnNames[1])
-            result = tb.generateRDFs([tb.columnNames[0], tb.columnNames[1]], threshold=0.006)
+            result = tb.generate_triples([tb.columnNames[0], tb.columnNames[1]], threshold=0.006)
         else:
             print(tb.columnNames[0])
             print(tb.columnNames[1])
-            result = tb.generateRDFs([tb.columnNames[0], tb.columnNames[1]], threshold=0.2)
-        return JsonResponse({'result': True, 'pageName': tb.pageTitle, 'htmlCode': tb.tableHTMLCode, 'data': result})
+            result = tb.generate_triples([tb.columnNames[0], tb.columnNames[1]], threshold=0.2)
+        return JsonResponse({'result': True, 'pageName': tb.page_title, 'htmlCode': tb.tableHTMLCode, 'data': result})
     else:
         print('No tables contained')
         return JsonResponse({'result': False}, save=False)
@@ -117,7 +117,7 @@ def get_table_key(request):
     if keyCol != -1:
         for column in mod_table.columnNames:
             if column != mod_table.columnNames[keyCol]:
-                result = mod_table.predicatesForColumns(keyCol, column) # FIXME: Ist immer leer
+                result = mod_table.predicates_for_columns(keyCol, column) # FIXME: Ist immer leer
                 print(str(table.id) + ': ' + column + ' > ' + str(result))
                 pos_ontologies.append(result)
             else:

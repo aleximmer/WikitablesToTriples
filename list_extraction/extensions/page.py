@@ -61,7 +61,7 @@ class Page:
                 {
                     'table': repr(table),
                     'colums': table.columnNames,
-                    'predicates': table.predicatesForAllColumns(relative, omit)
+                    'predicates': table.predicates_for_all_columns(relative, omit)
                 } for table in self.tables if not table.skip()]
         }
 

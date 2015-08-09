@@ -67,13 +67,13 @@ def test_generate_RDFs(title, threshold=0.0):
         print('No tables contained')
 
     for table in pg.tables:
-        table.generateRDFs(threshold)
+        table.generate_triples(threshold)
 
 def test_key_extraction(title='List of national parks of India'):
     pg = Page(title)
     if pg.tables:
         tb = pg.tables[0]
-        print(tb.keyName)
+        print(tb.key_name)
     else:
         print('No tables contained')
 
@@ -85,25 +85,25 @@ def test_column_names(title, key):
     for column in tb.columnNames:
         if not column == key:
             print(column)
-            print(tb.predicatesForColumns(key, column,))
+            print(tb.predicates_for_columns(key, column,))
 
 def test_key_predicates(title):
     pg = Page(title)
     if not pg.tables:
         return
     tb = pg.tables[0]
-    print(tb.predicatesForKeyColumn())
+    print(tb.predicates_for_key_column())
 
 def test_key_relative_predicates(title):
     pg = Page(title)
     if not pg.tables:
         return
     tb = pg.tables[0]
-    print(tb.relPredicatesForKeyColumn())
+    print(tb.rel_predicates_for_key_column())
 
-def test_generate_RDFsForKey(title):
+def test_generate_triples_for_key(title):
     pg = Page(title)
     if not pg.tables:
         return
     tb = pg.tables[0]
-    tb.generateRDFsForKey()
+    tb.generate_triples_for_key()

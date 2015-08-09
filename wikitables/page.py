@@ -54,7 +54,7 @@ class Page(wikipedia.WikipediaPage):
             self._tables = [Table(table, self) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
 
-    def hasTable(self):
+    def has_table(self):
         return True if self.tables else False
 
     def predicates(self, relative=True, omit=False):
@@ -65,7 +65,7 @@ class Page(wikipedia.WikipediaPage):
                 {
                     'table': repr(table),
                     'colums': table.columnNames,
-                    'predicates': table.predicatesForAllColumns(relative, omit)
+                    'predicates': table.predicates_for_all_columns(relative, omit)
                 } for table in self.tables if not table.skip()]
         }
 

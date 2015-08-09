@@ -1,12 +1,9 @@
-from bs4 import BeautifulSoup
 import sparql as sparql
 import itertools
 from keyExtractor import KeyExtractor
-import json
 from collections import defaultdict
 from fuzzywuzzy import fuzz
 from copy import deepcopy
-from page import *
 
 class Table:
 
@@ -41,7 +38,7 @@ class Table:
     def peek(self, chars=400):
         return self.soup.prettify()[:chars]
 
-    def asDictionary(self, text=False):
+    def as_dictionary(self, text=False):
         columnDict = {}
         for i, c in enumerate(self.columnNames):
             columnDict[c] = [str(row[i]) if text else row[i] for row in self.rows]
@@ -56,7 +53,7 @@ class Table:
 
     @property
     def key(self):
-        extractor = KeyExtractor(self.soup, self.pageTitle, self.pageSummary, self.pageCategories)
+        extractor = KeyExtractor(self.soup, self.page_title, self.page_summary, self.page_categories)
         key = extractor.extractKeyColumn
         if key != None:
             # Key object has following params:
@@ -67,27 +64,27 @@ class Table:
         return key
 
     @property
-    def keyName(self):
+    def key_name(self):
         return self.columnNames[self.key]
 
     @property
-    def pageTitle(self):
+    def page_title(self):
         return self.page.title
 
     @property
-    def pageHTML(self):
+    def page_html(self):
         return str(self.soup)
 
     @property
-    def pageSummary(self):
+    def page_summary(self):
         return self.page.summary
 
     @property
-    def pageLink(self):
+    def page_link(self):
         return self.page.url
 
     @property
-    def pageCategories(self):
+    def page_categories(self):
         return self.page.categories
 
     def row(self, i):
@@ -95,7 +92,7 @@ class Table:
 
     def column(self, key, content=False):
         i = key if type(key) is int else self.columnNames.index(key)
-        return [sparql.cellContent(row[i]) if content else row[i] for row in self.rows]
+        return [sparql.cell_content(row[i]) if content else row[i] for row in self.rows]
 
     def skip(self):
         # Something's wrong with rows (TODO: find 'something')
@@ -112,17 +109,17 @@ class Table:
 
         return False
 
-    def predicatesForColumns(self, subColumn, objColumn, relative=True):
+    def predicates_for_columns(self, subColumn, objColumn, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
         Set 'relative' to True if you want relative occurances."""
         subData = self.column(subColumn)
         objData = self.column(objColumn)
         predicates = {}
         for i in range(0, len(subData)):
-            subContent = sparql.cellContent(subData[i])
-            objContent = sparql.cellContent(objData[i])
+            subContent = sparql.cell_content(subData[i])
+            objContent = sparql.cell_content(objData[i])
 
-            if not (objContent and sparql.isResource(subContent)):
+            if not (objContent and sparql.is_resource(subContent)):
                 continue
 
             for predicate in sparql.predicates(subContent, objContent):
@@ -137,24 +134,24 @@ class Table:
 
         return predicates
 
-    def relPredicatesForKeyColumn(self, relative=True):
+    def rel_predicates_for_key_column(self, relative=True):
         """Return all predicates with subColumn as subject and all other columns as possible objects
         Set 'relative' to True if you want relative occurances."""
         objPredicates = {}
         for obj in self.columnNames:
-            if obj == self.keyName:
+            if obj == self.key_name:
                 continue
 
-            objPredicates[obj] = self.predicatesForColumns(self.key, obj, relative=True)
+            objPredicates[obj] = self.predicates_for_columns(self.key, obj, relative=True)
 
         return objPredicates
 
-    def predicatesForAllColumns(self, relative=True, omit=False):
+    def predicates_for_all_columns(self, relative=True, omit=False):
         """Return predicates between all permutations of columns.
         Set 'omit' to 'True' to leave out empty ones."""
         predicates = []
         for subColumn, objColumn in itertools.permutations(self.columnNames, 2):
-            pred = self.predicatesForColumns(subColumn, objColumn, relative)
+            pred = self.predicates_for_columns(subColumn, objColumn, relative)
             if pred or not omit:
                 predicates.append({
                     'subject': subColumn,
@@ -176,18 +173,17 @@ class Table:
     #
     #     return rows
 
-    def predicatesForKeyColumn(self):
+    def predicates_for_key_column(self):
         """generate a dictionary containing all predicates for each
         entity in the key-column with their predicates"""
         subjects = []
         for subject in self.columns[self.key]:
-            subjCell = sparql.cellContent(subject)
+            subjCell = sparql.cell_content(subject)
             subjects.append([subjCell, sparql.predicates(subjCell)])
 
         return subjects
 
-
-    def matchColumnForPredicates(self, predicates):
+    def match_column_for_predicates(self, predicates):
         """return a ratio calculated by matching the given predicates
         names against the column-names of the table"""
 
@@ -201,16 +197,15 @@ class Table:
 
         return ratios
 
-
-    def generateRDFsForKey(self, threshold=0.0, ratings=[0.7, 0.3], out=True):
+    def generate_triples_for_key(self, threshold=0.0, ratings=[0.7, 0.3], out=True):
         """ratings consist of two values (first weighs the relative occurency
         second weighs the string-matching with the column name)"""
 
-        if not self.keyName or len(ratings) != 2:
+        if not self.key_name or len(ratings) != 2:
             return
 
-        predicates = self.relPredicatesForKeyColumn()
-        stringRatios = self.matchColumnForPredicates(predicates)
+        predicates = self.rel_predicates_for_key_column()
+        stringRatios = self.match_column_for_predicates(predicates)
 
         # weigh both factors by given ratings
         for column in predicates:
@@ -226,7 +221,7 @@ class Table:
             if predicates[column][maxVal] >= threshold:
                 foundPredicates[column] = maxVal
 
-        subjects = self.predicatesForKeyColumn()
+        subjects = self.predicates_for_key_column()
 
         triples = []
         index = 0
@@ -244,8 +239,7 @@ class Table:
 
         return triples
 
-
-    def generateRDFs(self, columns=None, threshold=0.0, path=None):
+    def generate_triples(self, columns=None, threshold=0.0, path=None):
         """Save RDF statements generated from table."""
 
         data = []

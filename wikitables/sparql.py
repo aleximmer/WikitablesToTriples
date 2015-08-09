@@ -1,12 +1,10 @@
-from bs4 import BeautifulSoup
 from SPARQLWrapper import SPARQLWrapper, JSON, SPARQLExceptions
-import json
 
 wrapper = SPARQLWrapper("http://dbpedia.org/sparql")
 wrapper.setReturnFormat(JSON)
 
 # Resource (with redirect) -> Resource (with redirect)
-rrQuery = """
+rr_query = """
 PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
 select ?subject ?predicate ?object
@@ -17,7 +15,7 @@ where {
 }"""
 
 # Resource (with redirect) -> Literal
-rlQuery = """
+rl_query = """
 PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
 select ?subject ?predicate ?object
@@ -29,7 +27,7 @@ where {
 """
 
 # Resource (with redirect)
-rQuery = """
+r_query = """
 PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
 select ?subject ?predicate ?object
@@ -41,13 +39,13 @@ where {
 
 def predicates(sub, obj=None):
     """Return predicates of form '?sub ?predicate ?obj.'"""
-    if not isResource(sub):
+    if not is_resource(sub):
         return []
 
     if obj:
-        query = (rrQuery if isResource(obj) else rlQuery) % (sub, obj)
+        query = (rr_query if is_resource(obj) else rl_query) % (sub, obj)
     else:
-        query = rQuery % sub
+        query = r_query % sub
     wrapper.setQuery(query)
 
     try:
@@ -61,7 +59,7 @@ def predicates(sub, obj=None):
         return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
 
 
-def cellContent(cell):
+def cell_content(cell):
     """Return cell's content ready to be used in SPARQL requests."""
 
     #Remove references
@@ -87,10 +85,10 @@ def cellContent(cell):
 
         return a['href'].replace('/wiki', '<http://dbpedia.org/resource') + '>'
 
-def isResource(str):
+def is_resource(str):
     return str.startswith('<http://dbpedia.org/resource/')
 
-def predicateExists(sub, pre, obj):
+def predicate_exists(sub, pre, obj):
     return pre in predicates(sub, obj)
 
 def predicate_range(predicate):
