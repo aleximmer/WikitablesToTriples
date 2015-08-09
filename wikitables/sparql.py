@@ -58,7 +58,6 @@ def predicates(sub, obj=None):
         return []
 
     else:
-        # print(list(set([r['predicate']['value'] for r in results['results']['bindings'] if r])))
         return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
 
 
@@ -93,3 +92,17 @@ def isResource(str):
 
 def predicateExists(sub, pre, obj):
     return pre in predicates(sub, obj)
+
+def predicate_range(predicate):
+    "Return type schema for given predicate."
+
+    query = """
+    SELECT ?object
+    WHERE {
+        %s <http://www.w3.org/2000/01/rdf-schema#range> ?object
+    }
+    """ % predicate
+
+    wrapper.setQuery(query)
+    result = wrapper.query().convert()
+    return result['results']['bindings'][0]['object']['value']
