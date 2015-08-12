@@ -42,7 +42,7 @@ class KeyExtractor:
 		self.abstracts = abstracts
 		self.listCategories = listCategories
 
-	def __extractTableHead(self, htmlTableSoup):
+	def _extractTableHead(self, htmlTableSoup):
 		htmlTable = str(htmlTableSoup)
 		quickView = htmlTable[0:50]+" [...]"
 
@@ -60,7 +60,7 @@ class KeyExtractor:
 
 	# <th> tags are used in different ways so it's nearly impossible to parse them
 	# Solution: replace them with <td> and act like the <td>-Tags in the first <tr>-Row are <th>-Tags
-	def __fixTableHeaderTagsForOutput(self, htmlTableSoup):
+	def _fixTableHeaderTagsForOutput(self, htmlTableSoup):
 		htmlTable = str(htmlTableSoup)
 		thTags = htmlTableSoup.findAll('th')
 
@@ -85,7 +85,7 @@ class KeyExtractor:
 	# Am Ende wird ein Array von Elementen der Form {"xPos": a, "entries": c}
 	# zurückgegeben
 	# UPDATE: Added originalHTML and attrOrig to get the real tag (hd or td)
-	def __extractColumnsInfos(self, htmlTableSoup):
+	def _extractColumnsInfos(self, htmlTableSoup):
 		htmlTable = str(htmlTableSoup) # th and td tags by _fixTableHeaderTagsForOutput() formatted
 		originalHTML = str(self.originalHTMLSoup) # orginal html code
 		quickView = originalHTML[0:50]+" [...]" # error output
@@ -143,7 +143,7 @@ class KeyExtractor:
 			raise ValueError("Can\'t find any column with unique entries (might be foreing keys)")
 
 		# Führe Title mit Entries und Position zusammen (Schema):
-		tableColNames = self.__extractTableHead(htmlTableSoup)
+		tableColNames = self._extractTableHead(htmlTableSoup)
 		uniqueCols = [{
 				"xPos": col["xPos"],
 				"unique": col["unique"],
@@ -160,7 +160,7 @@ class KeyExtractor:
 	# Wikipedia-intern sind (Präfix: "/wiki/...")
 	# Prozentual betrachtet wird jeder Spalte eine Bewertung gegeben. Wenn 100%
 	# der Einträge einer Spalte Entitäten sind, werden 50 Punkte vergeben.
-	def __countEntities(self, cols):
+	def _countEntities(self, cols):
 		for i in range(len(cols)):
 			entries = cols[i]["entries"]
 			entityCount = 0
@@ -199,7 +199,7 @@ class KeyExtractor:
 	# für das eine Übereinstimmung gefunden wurde, desto mehr Punkte gibt es
 	# im Rating (maximal 20/25), damit Nebenwörter wie "in", "the", "of", o.ä.
 	# wenig Einfluss haben.
-	def __valuateByName(self, cols):
+	def _valuateByName(self, cols):
 		# Entferne "List of" und teile die Wörter auf
 		articleNames = self.articleName[7:].split(" ")
 
@@ -224,7 +224,7 @@ class KeyExtractor:
 	# Umso näher die Spalte am linken Rand ist, desto wichtiger ist sie.
 	# Es können maximal 20 Punkte aufgerechnet werden (für die erste Spalte).
 	# Nach rechts hin nimmt die Punktvergabe hyperbolisch ab.
-	def __valuateByPosition(self, cols):
+	def _valuateByPosition(self, cols):
 		colLen = len(cols)
 		for i in range(colLen):
 			posVal = i + 1
@@ -235,7 +235,7 @@ class KeyExtractor:
 
 	# Manche Tabellen benutztn <th>-Tags vertikal. Diese Spalten haben mit
 	# hoher Warscheinlichkeit die gesuchten Entitäten (KeyCol)
-	def __lookForTHCol(self, uniqueCols):
+	def _lookForTHCol(self, uniqueCols):
 		for col in uniqueCols:
 			isVertical = True
 			for entry in col['entriesOrig']:
@@ -247,7 +247,7 @@ class KeyExtractor:
 
 	# Find matches for each column name with the table abstracts.
 	# Add for each match of a word (or its plural form) in the column name rating points to the column.
-	def __textualEvidenceWithAbstracts(self, uniqueCols, abstracts):
+	def _textualEvidenceWithAbstracts(self, uniqueCols, abstracts):
 		if len(abstracts) > 0:
 			for col in uniqueCols:
 				colName = col['title']
@@ -260,7 +260,7 @@ class KeyExtractor:
 						col['rating'] += occCount * COLNAME_ABSTRACTS_SCALE
 	# Find matches between column names and categories of the regarding list page.
 	# Add for each match of a word (or its plural form) in the column name rating points to the column.
-	def __findMatchWithListCategories(self, uniqueCols, listCategories):
+	def _findMatchWithListCategories(self, uniqueCols, listCategories):
 		for col in uniqueCols:
 			for cat in listCategories:
 				cat = cat.lower()
@@ -274,7 +274,7 @@ class KeyExtractor:
 	# Das größte Rating muss 15% vor dem zweiten liegen. Außerdem müssen
 	# mind. 40% der Einträge Entitäten sein. Wenn keine Key-Spalte gefunden
 	# wurde, wird None zurückgegeben (ansonsten das Spaltenelement)
-	def __validateRatings(self, cols):
+	def _validateRatings(self, cols):
 		# Create copy to keep the original order in cols
 		ratCols = [{'entries': col['entries'],
 					#'entriesOrig': col['entriesOrig'],
@@ -311,24 +311,24 @@ class KeyExtractor:
 	def extractKeyColumn(self):
 		# Fix <th> tags because <th> is used in different ways:
 		htmlTableSoup = BeautifulSoup(str(self.originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
-		htmlTableSoup = self.__fixTableHeaderTagsForOutput(htmlTableSoup)
+		htmlTableSoup = self._fixTableHeaderTagsForOutput(htmlTableSoup)
 
 		# Extracting and rating columns
-		uniqueCols = self.__extractColumnsInfos(htmlTableSoup)
+		uniqueCols = self._extractColumnsInfos(htmlTableSoup)
 
 		# Rating:
 
 		# Zähle die Entities pro Spalte
-		self.__countEntities(uniqueCols)
+		self._countEntities(uniqueCols)
 
 		# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-		self.__valuateByName(uniqueCols)
+		self._valuateByName(uniqueCols)
 
 		# Umso weiter links, umso wertvoller ist die Spalte
-		self.__valuateByPosition(uniqueCols)
+		self._valuateByPosition(uniqueCols)
 
 		# Nutze vertikale TH-Cols
-		self.__lookForTHCol(uniqueCols)
+		self._lookForTHCol(uniqueCols)
 
 		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
 		#_textualEvidenceWithAbstracts(uniqueCols, abstracts)
@@ -337,7 +337,7 @@ class KeyExtractor:
 		#_findMatchWithListCategories(uniqueCols, listCategories)
 
 		# Validiere die Bewertungen der Spalten
-		keyCol = self.__validateRatings(uniqueCols)
+		keyCol = self._validateRatings(uniqueCols)
 
 		return keyCol
 

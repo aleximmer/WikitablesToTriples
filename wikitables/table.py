@@ -1,4 +1,4 @@
-# import wikitables.sparql as sparql
+import wikitables.sparql as sparql
 import itertools
 from wikitables.keyExtractor import KeyExtractor
 from collections import defaultdict
@@ -17,7 +17,7 @@ class Table:
         self.section = self._section()
         self.column_names = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
         self.page = page
-        self.rows = [tr.findAll('th') + tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
+        self.rows = [[sparql.cell_content(cell) for cell in tr.findAll('th') + tr.findAll('td')] for tr in self.soup.findAll('tr') if tr.find('td')]
 
     def __repr__(self):
         if self.caption:
@@ -70,9 +70,14 @@ class Table:
     def row(self, i):
         return self.rows[i]
 
-    def column(self, key, content=False):
+    def column(self, key):
         i = key if type(key) is int else self.column_names.index(key)
-        return [sparql.cell_content(row[i]) if content else row[i] for row in self.rows]
+        return [row[i] for row in self.rows]
+
+    def __getitem__(self, key):
+        "Return column by index or name."
+        i = key if type(key) is int else self.column_names.index(key)
+        return [row[i] for row in self.rows]
 
     def skip(self):
         # Something's wrong with rows (TODO: find 'something')
@@ -89,30 +94,22 @@ class Table:
 
         return False
 
-    def predicates_for_columns(self, subColumn, objColumn, relative=True):
+    def predicates_for_columns(self, sub_column_name, obj_column_name, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
         Set 'relative' to True if you want relative occurances."""
-        subData = self.column(subColumn)
-        objData = self.column(objColumn)
-        predicates = {}
-        for i in range(0, len(subData)):
-            subContent = sparql.cell_content(subData[i])
-            objContent = sparql.cell_content(objData[i])
 
-            if not (objContent and sparql.is_resource(subContent)):
-                continue
+        predicates = defaultdict(int)
+        for sub, obj in zip(self[sub_column_name], self[obj_column_name]):
 
-            for predicate in sparql.predicates(subContent, objContent):
-                if predicate in predicates:
+            if obj and sparql.is_resource(sub):
+                for predicate in sparql.predicates(sub, obj):
                     predicates[predicate] += 1
-                else:
-                    predicates[predicate] = 1
 
         if relative:
             for p in predicates:
-                predicates[p] = round(predicates[p]/len(subData), 2)
+                predicates[p] = round(predicates[p]/len(self[sub_column_name]), 2)
 
-        return predicates
+        return dict(predicates)
 
     def rel_predicates_for_key_column(self, relative=True):
         """Return all predicates with subColumn as subject and all other columns as possible objects
@@ -126,31 +123,8 @@ class Table:
 
         return objPredicates
 
-    def predicates_for_all_columns(self, relative=True, omit=False):
-        """Return predicates between all permutations of columns.
-        Set 'omit' to 'True' to leave out empty ones."""
-        predicates = []
-        for subColumn, objColumn in itertools.permutations(self.column_names, 2):
-            pred = self.predicates_for_columns(subColumn, objColumn, relative)
-            if pred or not omit:
-                predicates.append({
-                    'subject': subColumn,
-                    'object': objColumn,
-                    'predicates': pred
-                })
-        return predicates
-
     # def populateRows(self):
-    #     trs = [tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
-    #     rowLength = len(max(trs, lambda tr: len(tr)))
-    #     rows = [[None for cell in range(0, rowLength)] for tr in trs]
-    #
-    #     for row, tr in enumerate(trs):
-    #         col = 0
-    #         for td in tr:
-    #             while not rows[row][col]: col += 1
-    #             rows[row][col] = td
-    #
+    #     TODO
     #     return rows
 
     def predicates_for_key_column(self):
@@ -208,9 +182,9 @@ class Table:
         for subj in subjects:
             print(subj[0])
             for pred in foundPredicates:
-                if foundPredicates[pred] in subj[1] or not self.column(pred, True)[index]:
+                if foundPredicates[pred] in subj[1] or not self[pred][index]:
                     continue
-                triple = [subj[0], foundPredicates[pred], self.column(pred, True)[index]]
+                triple = [subj[0], foundPredicates[pred], self[pred][index]]
                 triples.append(triple)
                 if out:
                     print('\tpred: ', end=""), print(triple[1])
@@ -223,13 +197,12 @@ class Table:
         """Save RDF statements generated from table."""
 
         data = []
-
         permutations = itertools.permutations(columns if columns else self.column_names, 2)
-        for subColumnName, objColumnName in permutations:
-            subColumn = self.column(subColumnName, content=True)
-            objColumn = self.column(objColumnName, content=True)
+        for sub_column_name, obj_column_name in permutations:
 
-            existing_predicates = [sparql.predicates(subColumn[i], objColumn[i]) for i in range(len(subColumn))]
+            existing_predicates = [ sparql.predicates(sub, obj)
+            for sub, obj
+            in zip(self[sub_column_name], self[obj_column_name])]
 
             absCount = defaultdict(int)
             for row in existing_predicates:
@@ -246,7 +219,7 @@ class Table:
 
             for i, row in enumerate(generatedPreciates):
                 for predicate in row:
-                    data.append([subColumn[i], predicate, objColumn[i], relCount[predicate]])
+                    data.append([self[sub_column_name][i], predicate, self[obj_column_name][i], relCount[predicate]])
 
         from pandas import DataFrame
         df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
@@ -257,8 +230,9 @@ class Table:
 
         if path:
             df.to_csv(path, index=False)
-        else:
-            pass
-            # print(df)
 
         return df
+
+    def triples_for_columns(self, sub_column_name, obj_column_name):
+        # TODO
+        pass
