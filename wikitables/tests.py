@@ -82,7 +82,7 @@ def test_column_names(title, key):
     if not pg.tables:
         return
     tb = pg.tables[0]
-    for column in tb.columnNames:
+    for column in tb.:
         if not column == key:
             print(column)
             print(tb.predicates_for_columns(key, column,))

@@ -3,6 +3,7 @@ node_modules/
 Sandbox
 testdata
 list_schema/*.png
+.idea/
 *.pyc
 # Byte-compiled / optimized / DLL files
 __pycache__/

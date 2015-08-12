@@ -1,7 +1,7 @@
 import wikipedia
 from bs4 import BeautifulSoup
 import requests
-from table import Table
+from wikitables.table import Table
 
 class Page(wikipedia.WikipediaPage):
     'This class abstracts Wikipedia articles to add table extraction functionality.'
@@ -64,7 +64,7 @@ class Page(wikipedia.WikipediaPage):
             'tables': [
                 {
                     'table': repr(table),
-                    'colums': table.columnNames,
+                    'colums': table.column_names,
                     'predicates': table.predicates_for_all_columns(relative, omit)
                 } for table in self.tables if not table.skip()]
         }

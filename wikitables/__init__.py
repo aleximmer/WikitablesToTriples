@@ -1,7 +1,2 @@
-__all__ = [
-    "keyExtractor",
-    "page",
-    "sparql",
-    "table",
-    "testing",
-    "tests" ]
+from .page import Page
+from .table import Table

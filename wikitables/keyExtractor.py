@@ -291,62 +291,55 @@ class KeyExtractor:
 			# Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis nicht eindeutig genug
 			if (rating2 / rating1) > FIRST_SECOND_RATIO:
 				print("Algorithm failed: Not clear enough")
+				raise KeyExtractionError('no prominent candidate for key')
 				return None
 
 		# Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
 		if ratCols[0]["multipleEntities"]:
-			print("Algorithm failed: Entries contain more than one entity")
+			raise KeyExtractionError("elements in candidate column not unique")
 			return None
 
 		rowCount = len(ratCols[0]["entries"])
 		entityCount = ratCols[0]["entityCount"]
 		# Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte nicht ausreichend verwertbar
 		if (entityCount / rowCount) < MIN_ENTITIES_COUNT:
-			print("Algorithm failed: Too less entities")
+			raise KeyExtractionError("too few resources in candidate column")
 			return None
 
 		return ratCols[0]
 
-	@property
 	def extractKeyColumn(self):
-		try:
-			# Fix <th> tags because <th> is used in different ways:
-			htmlTableSoup = BeautifulSoup(str(self.originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
-			htmlTableSoup = self.__fixTableHeaderTagsForOutput(htmlTableSoup)
+		# Fix <th> tags because <th> is used in different ways:
+		htmlTableSoup = BeautifulSoup(str(self.originalHTMLSoup), "lxml") # Save original formatting as copy (force copying)
+		htmlTableSoup = self.__fixTableHeaderTagsForOutput(htmlTableSoup)
 
-			# Extracting and rating columns
-			uniqueCols = self.__extractColumnsInfos(htmlTableSoup)
+		# Extracting and rating columns
+		uniqueCols = self.__extractColumnsInfos(htmlTableSoup)
 
-			# Rating:
+		# Rating:
 
-			# Zähle die Entities pro Spalte
-			self.__countEntities(uniqueCols)
+		# Zähle die Entities pro Spalte
+		self.__countEntities(uniqueCols)
 
-			# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
-			self.__valuateByName(uniqueCols)
+		# Kommt der Artikelname oder das Wort 'Name' im Spaltenname vor
+		self.__valuateByName(uniqueCols)
 
-			# Umso weiter links, umso wertvoller ist die Spalte
-			self.__valuateByPosition(uniqueCols)
+		# Umso weiter links, umso wertvoller ist die Spalte
+		self.__valuateByPosition(uniqueCols)
 
-			# Nutze vertikale TH-Cols
-			self.__lookForTHCol(uniqueCols)
+		# Nutze vertikale TH-Cols
+		self.__lookForTHCol(uniqueCols)
 
-			# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
-			#_textualEvidenceWithAbstracts(uniqueCols, abstracts)
+		# Spaltenname mit der Beschreibung (Abstracts) der Tabelle abgleichen (ähnlich wie mit dem Artikel-Name)
+		#_textualEvidenceWithAbstracts(uniqueCols, abstracts)
 
-			# Listen-Kategorien mit den Spaltennamen abgleichen
-			#_findMatchWithListCategories(uniqueCols, listCategories)
+		# Listen-Kategorien mit den Spaltennamen abgleichen
+		#_findMatchWithListCategories(uniqueCols, listCategories)
 
-			# Validiere die Bewertungen der Spalten
-			keyCol = self.__validateRatings(uniqueCols)
-
-			if keyCol == None:
-			    print('Can\'t extract a significant single key column')
-
-		except Exception as e:
-			# Might be an error caused by wrong html format or unsupported html encoding
-			print('Error: ' + str(e))
-			print(traceback.format_exc())
-			keyCol = None
+		# Validiere die Bewertungen der Spalten
+		keyCol = self.__validateRatings(uniqueCols)
 
 		return keyCol
+
+class KeyExtractionError(Exception):
+	pass

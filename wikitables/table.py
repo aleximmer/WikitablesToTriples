@@ -1,12 +1,12 @@
-import sparql as sparql
+# import wikitables.sparql as sparql
 import itertools
-from keyExtractor import KeyExtractor
+from wikitables.keyExtractor import KeyExtractor
 from collections import defaultdict
 from fuzzywuzzy import fuzz
 from copy import deepcopy
 
-class Table:
 
+class Table:
     """This class abstracts tables in Wikipedia articles to provide additional extraction functionality."""
 
     def __init__(self, soup, page):
@@ -15,7 +15,7 @@ class Table:
         self.head = soup.find('thead')
         self.body = soup.find('tbody')
         self.section = self._section()
-        self.columnNames = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
+        self.column_names = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
         self.page = page
         self.rows = [tr.findAll('th') + tr.findAll('td') for tr in self.soup.findAll('tr') if tr.find('td')]
 
@@ -40,21 +40,21 @@ class Table:
 
     def as_dictionary(self, text=False):
         columnDict = {}
-        for i, c in enumerate(self.columnNames):
+        for i, c in enumerate(self.column_names):
             columnDict[c] = [str(row[i]) if text else row[i] for row in self.rows]
         return columnDict
 
     @property
     def columns(self):
         columns = []
-        for i, c in enumerate(self.columnNames):
+        for i, c in enumerate(self.column_names):
             columns.append([row[i] for row in self.rows])
         return columns
 
     @property
     def key(self):
-        extractor = KeyExtractor(self.soup, self.page_title, self.page_summary, self.page_categories)
-        key = extractor.extractKeyColumn
+        extractor = KeyExtractor(self.soup, self.page.title, self.page.summary, self.page.categories)
+        key = extractor.extractKeyColumn()
         if key != None:
             # Key object has following params:
             # entries, unique(no duplicate content), rating, xPos, title
@@ -65,33 +65,13 @@ class Table:
 
     @property
     def key_name(self):
-        return self.columnNames[self.key]
-
-    @property
-    def page_title(self):
-        return self.page.title
-
-    @property
-    def page_html(self):
-        return str(self.soup)
-
-    @property
-    def page_summary(self):
-        return self.page.summary
-
-    @property
-    def page_link(self):
-        return self.page.url
-
-    @property
-    def page_categories(self):
-        return self.page.categories
+        return self.column_names[self.key]
 
     def row(self, i):
         return self.rows[i]
 
     def column(self, key, content=False):
-        i = key if type(key) is int else self.columnNames.index(key)
+        i = key if type(key) is int else self.column_names.index(key)
         return [sparql.cell_content(row[i]) if content else row[i] for row in self.rows]
 
     def skip(self):
@@ -104,7 +84,7 @@ class Table:
         if max([len(row) for row in self.rows]) != min([len(row) for row in self.rows]):
             return True
 
-        if max([len(row) for row in self.rows]) != len(self.columnNames):
+        if max([len(row) for row in self.rows]) != len(self.column_names):
             return True
 
         return False
@@ -138,7 +118,7 @@ class Table:
         """Return all predicates with subColumn as subject and all other columns as possible objects
         Set 'relative' to True if you want relative occurances."""
         objPredicates = {}
-        for obj in self.columnNames:
+        for obj in self.column_names:
             if obj == self.key_name:
                 continue
 
@@ -150,7 +130,7 @@ class Table:
         """Return predicates between all permutations of columns.
         Set 'omit' to 'True' to leave out empty ones."""
         predicates = []
-        for subColumn, objColumn in itertools.permutations(self.columnNames, 2):
+        for subColumn, objColumn in itertools.permutations(self.column_names, 2):
             pred = self.predicates_for_columns(subColumn, objColumn, relative)
             if pred or not omit:
                 predicates.append({
@@ -244,49 +224,41 @@ class Table:
 
         data = []
 
-        for subColumnName, objColumnName in itertools.permutations(columns if columns else self.columnNames, 2):
+        permutations = itertools.permutations(columns if columns else self.column_names, 2)
+        for subColumnName, objColumnName in permutations:
             subColumn = self.column(subColumnName, content=True)
             objColumn = self.column(objColumnName, content=True)
 
-            existingPredicates = [sparql.predicates(subColumn[i], objColumn[i]) for i in range(len(subColumn))]
+            existing_predicates = [sparql.predicates(subColumn[i], objColumn[i]) for i in range(len(subColumn))]
 
             absCount = defaultdict(int)
-            for row in existingPredicates:
+            for row in existing_predicates:
                 for predicate in row:
                     absCount[predicate] += 1
 
             if not absCount:
                 continue
 
-            relCount = dict((key, value/len(existingPredicates)) for key, value in absCount.items() if value/len(existingPredicates) > threshold)
+            relCount = dict((key, value/len(existing_predicates)) for key, value in absCount.items() if value/len(existing_predicates) > threshold)
             predicates = set(relCount.keys())
 
-            generatedPreciates = [list(predicates - set(row)) for row in existingPredicates]
+            generatedPreciates = [list(predicates - set(row)) for row in existing_predicates]
 
             for i, row in enumerate(generatedPreciates):
                 for predicate in row:
                     data.append([subColumn[i], predicate, objColumn[i], relCount[predicate]])
 
-        # TODO: Bring back after demo
-        # from pandas import DataFrame
-        # df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
-        # df['table'] = repr(self)
-        # df['page'] = self.pageTitle
+        from pandas import DataFrame
+        df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
+        df['table'] = repr(self)
+        df['page'] = self.page.title
 
-        # print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
+        print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
 
         if path:
-            # df.to_csv(path, index=False)
-            pass
+            df.to_csv(path, index=False)
         else:
-            # return df
-            # TODO: Remove after demo
-            matrix = []
-            for row in data:
-                matrix.append([row[0], '<' + row[1] + '>', row[2], row[3]])
-            s = [[str(e) for e in row] for row in matrix]
-            lens = [max(map(len, col)) for col in zip(*s)]
-            fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
-            table = [fmt.format(*row) for row in s]
-            print('\n'.join(table))
-            # return df
+            pass
+            # print(df)
+
+        return df

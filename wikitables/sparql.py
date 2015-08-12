@@ -9,8 +9,8 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
 select ?subject ?predicate ?object
 where {
-    %s dbpedia-owl:wikiPageRedirects* ?subject.
-    %s dbpedia-owl:wikiPageRedirects* ?object.
+    <%s> dbpedia-owl:wikiPageRedirects* ?subject.
+    <%s> dbpedia-owl:wikiPageRedirects* ?object.
     ?subject ?predicate ?object.
 }"""
 
@@ -20,7 +20,7 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
 select ?subject ?predicate ?object
 where {
-    %s dbpedia-owl:wikiPageRedirects* ?subject.
+    <%s> dbpedia-owl:wikiPageRedirects* ?subject.
     ?subject ?predicate ?object.
     FILTER(str(?object)="%s")
 }
@@ -32,7 +32,7 @@ PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
 
 select ?subject ?predicate ?object
 where {
-    %s dbpedia-owl:wikiPageRedirects* ?subject.
+    <%s> dbpedia-owl:wikiPageRedirects* ?subject.
     ?subject ?predicate ?object.
 }
 """
@@ -83,10 +83,10 @@ def cell_content(cell):
         if a.has_attr('class') and 'new' in a['class']:
             return a.text
 
-        return a['href'].replace('/wiki', '<http://dbpedia.org/resource') + '>'
+        return a['href'].replace('/wiki', 'http://dbpedia.org/resource')
 
 def is_resource(str):
-    return str.startswith('<http://dbpedia.org/resource/')
+    return str.startswith('http://dbpedia.org/resource/')
 
 def predicate_exists(sub, pre, obj):
     return pre in predicates(sub, obj)
@@ -97,7 +97,7 @@ def predicate_range(predicate):
     query = """
     SELECT ?object
     WHERE {
-        %s <http://www.w3.org/2000/01/rdf-schema#range> ?object
+        <%s> <http://www.w3.org/2000/01/rdf-schema#range> ?object
     }
     """ % predicate
 
