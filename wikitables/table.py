@@ -17,9 +17,11 @@ class Table:
         self.head = soup.find('thead')
         self.body = soup.find('tbody')
         self.section = self._section()
-        self.column_names = [th.text for th in self.soup.findAll('tr')[0].findAll('th')]
+        self.column_names = [th.text for th in self.soup.findAll('tr')[
+            0].findAll('th')]
         self.page = page
-        self.rows = [[sparql.cell_content(cell) for cell in tr.findAll('th') + tr.findAll('td')] for tr in self.soup.findAll('tr') if tr.find('td')]
+        self.rows = [[sparql.cell_content(cell) for cell in tr.findAll(
+            'th') + tr.findAll('td')] for tr in self.soup.findAll('tr') if tr.find('td')]
 
     def __repr__(self):
         if self.caption:
@@ -45,7 +47,8 @@ class Table:
     def as_dictionary(self, text=False):
         columnDict = {}
         for i, c in enumerate(self.column_names):
-            columnDict[c] = [str(row[i]) if text else row[i] for row in self.rows]
+            columnDict[c] = [str(row[i]) if text else row[i]
+                             for row in self.rows]
         return columnDict
 
     @property
@@ -57,7 +60,8 @@ class Table:
 
     @property
     def key(self):
-        extractor = KeyExtractor(self.soup, self.page.title, self.page.summary, self.page.categories)
+        extractor = KeyExtractor(
+            self.soup, self.page.title, self.page.summary, self.page.categories)
         key = extractor.extractKeyColumn()
         if key != None:
             # Key object has following params:
@@ -120,7 +124,8 @@ class Table:
 
         if relative:
             for p in predicates:
-                predicates[p] = round(predicates[p]/len(self[sub_column_name]), 2)
+                predicates[p] = round(
+                    predicates[p] / len(self[sub_column_name]), 2)
 
         return dict(predicates)
 
@@ -134,7 +139,8 @@ class Table:
             if obj == self.key_name:
                 continue
 
-            objPredicates[obj] = self.predicates_for_columns(self.key, obj, relative=True)
+            objPredicates[obj] = self.predicates_for_columns(
+                self.key, obj, relative=True)
 
         return objPredicates
 
@@ -190,7 +196,8 @@ class Table:
         # get highest matching predicate
         foundPredicates = {}
         for column in predicates:
-            maxVal = max(predicates[column], key=lambda pred: predicates[column][pred])
+            maxVal = max(predicates[column],
+                         key=lambda pred: predicates[column][pred])
             if predicates[column][maxVal] >= threshold:
                 foundPredicates[column] = maxVal
 
@@ -217,15 +224,19 @@ class Table:
         """
 
         data = []
-        permutations = itertools.permutations(columns if columns else self.column_names, 2)
+        permutations = itertools.permutations(
+            columns if columns else self.column_names, 2)
         for sub_column_name, obj_column_name in permutations:
-            data += self.triples_for_columns(sub_column_name, obj_column_name, threshold=threshold)
+            data += self.triples_for_columns(sub_column_name,
+                                             obj_column_name, threshold=threshold)
 
-        df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
+        df = DataFrame(
+            data, columns=['subject', 'predicate', 'object', 'certainty'])
         df['table'] = repr(self)
         df['page'] = self.page.title
 
-        print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
+        print("Generated %d statements with avg. certainty of %.0f%%." %
+              (len(df.index), df['certainty'].mean() * 100))
 
         if path:
             df.to_csv(path, index=False)
@@ -243,26 +254,30 @@ class Table:
         cell_pairs = list(zip(self[sub_column_name], self[obj_column_name]))
 
         # List of existing predicates for every pair of cells
-        existing_row_predicates = [ sparql.predicates(sub, obj) for sub, obj in cell_pairs ]
+        existing_row_predicates = [sparql.predicates(
+            sub, obj) for sub, obj in cell_pairs]
 
         # Count occurence of every predicate in every row
-        counter = Counter([ predicate
-        for row in existing_row_predicates
-        for predicate in row ])
+        counter = Counter([predicate
+                           for row in existing_row_predicates
+                           for predicate in row])
 
         relative_frequencies = dict(
-            (key, value/len(self))
+            (key, value / len(self))
             for key, value in counter.items())
 
-        row_candidates = [relative_frequencies.keys() - row for row in existing_row_predicates]
+        row_candidates = [relative_frequencies.keys(
+        ) - row for row in existing_row_predicates]
 
-        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
+        data = DataFrame(
+            columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
         for i, (sub, obj) in enumerate(cell_pairs):
-            if not sparql.is_resource(sub): # skip subject literals
+            if not sparql.is_resource(sub):  # skip subject literals
                 continue
 
             for predicate in row_candidates[i]:
-                data.loc[len(data)] = [sub, predicate, obj, relative_frequencies[predicate], False, False]
+                data.loc[len(data)] = [sub, predicate, obj,
+                                       relative_frequencies[predicate], False, False]
 
         return data
 
@@ -274,4 +289,5 @@ class Table:
         # TODO: Predicate matches column name?
 
         return round(relative_occurence, 2)
-        # return {key for key, value in candidate_dict.items() if value > threshold}
+        # return {key for key, value in candidate_dict.items() if value >
+        # threshold}

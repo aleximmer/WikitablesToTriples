@@ -37,6 +37,7 @@ where {
 }
 """
 
+
 def predicates(sub, obj=None):
     """Return predicates of form '?sub ?predicate ?obj.'"""
     if not is_resource(sub):
@@ -63,16 +64,16 @@ def predicates(sub, obj=None):
 def cell_content(cell):
     """Return cell's content ready to be used in SPARQL requests."""
 
-    #Remove references
+    # Remove references
     for sup in cell.findAll('sup'):
         sup.decompose()
 
-    #Remove breaks
+    # Remove breaks
     for br in cell.findAll('br'):
         br.decompose()
 
-    #Try find a
-    a = cell.find('a', href = True)
+    # Try find a
+    a = cell.find('a', href=True)
     if not a:
         literal = cell.text.strip('\n \"')
         literal = ' '.join(literal.split())
@@ -80,17 +81,20 @@ def cell_content(cell):
         literal = literal.replace('"', '\\"')
         return literal
     else:
-        #Handle red links
+        # Handle red links
         if a.has_attr('class') and 'new' in a['class']:
             return a.text
 
         return a['href'].replace('/wiki', 'http://dbpedia.org/resource')
 
+
 def is_resource(str):
     return str.startswith('http://dbpedia.org/resource/')
 
+
 def predicate_exists(sub, pre, obj):
     return pre in predicates(sub, obj)
+
 
 def predicate_range(predicate):
     "Return type schema for given predicate."
