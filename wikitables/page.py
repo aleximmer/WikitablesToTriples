@@ -3,23 +3,25 @@ from bs4 import BeautifulSoup
 import requests
 from wikitables.table import Table
 
+
 class Page(wikipedia.WikipediaPage):
     'This class abstracts Wikipedia articles to add table extraction functionality.'
 
     def __init__(self, title=None, revisionID='', pageid=None, redirect=True, preload=False, original_title='', auto_suggest=True):
         # method taken from wikipedia.page to init OO-Style
         if title is not None:
-          if auto_suggest:
-            results, suggestion = wikipedia.search(title, results=1, suggestion=True)
-            try:
-              title = suggestion or results[0]
-            except IndexError:
-              raise wikipedia.PageError(title)
-          super().__init__(title, redirect=redirect, preload=preload)
+            if auto_suggest:
+                results, suggestion = wikipedia.search(
+                    title, results=1, suggestion=True)
+                try:
+                    title = suggestion or results[0]
+                except IndexError:
+                    raise wikipedia.PageError(title)
+            super().__init__(title, redirect=redirect, preload=preload)
         elif pageid is not None:
-          super().__init__(pageid=pageid, preload=preload)
+            super().__init__(pageid=pageid, preload=preload)
         else:
-          raise ValueError("Either a title or a pageid must be specified")
+            raise ValueError("Either a title or a pageid must be specified")
 
         oldID = '&?&oldid='
         if not revisionID:
@@ -51,7 +53,8 @@ class Page(wikipedia.WikipediaPage):
     @property
     def tables(self):
         if not self._tables:
-            self._tables = [Table(table, self) for table in self.soup.findAll('table', 'wikitable')]
+            self._tables = [Table(table, self)
+                            for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
 
     def has_table(self):

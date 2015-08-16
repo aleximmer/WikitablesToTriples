@@ -1,13 +1,15 @@
 import wikitables.sparql as sparql
 import itertools
 from wikitables.keyExtractor import KeyExtractor
-from collections import defaultdict
+from collections import defaultdict, Counter
 from fuzzywuzzy import fuzz
 from copy import deepcopy
+from pandas import DataFrame
 
 
 class Table:
-    """This class abstracts tables in Wikipedia articles to provide additional extraction functionality."""
+    """This class abstracts tables in Wikipedia articles to provide additional extraction functionality.
+    """
 
     def __init__(self, soup, page):
         self.soup = soup
@@ -26,7 +28,9 @@ class Table:
 
     def _section(self):
         """Try finding first header (h2, h3) before table.
-        If none found, use the article's title."""
+        If none found, use the article's title.
+        """
+
         for sibling in self.soup.previous_siblings:
             if sibling.name in ['h2', 'h3']:
                 return sibling.span.text
@@ -75,9 +79,17 @@ class Table:
         return [row[i] for row in self.rows]
 
     def __getitem__(self, key):
-        "Return column by index or name."
+        """Return column by index number or column name.
+        """
+
         i = key if type(key) is int else self.column_names.index(key)
         return [row[i] for row in self.rows]
+
+    def __len__(self):
+        """Return number of rows.
+        """
+
+        return len(self[0])
 
     def skip(self):
         # Something's wrong with rows (TODO: find 'something')
@@ -96,7 +108,8 @@ class Table:
 
     def predicates_for_columns(self, sub_column_name, obj_column_name, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
-        Set 'relative' to True if you want relative occurances."""
+        Set 'relative' to True if you want relative occurances.
+        """
 
         predicates = defaultdict(int)
         for sub, obj in zip(self[sub_column_name], self[obj_column_name]):
@@ -112,8 +125,10 @@ class Table:
         return dict(predicates)
 
     def rel_predicates_for_key_column(self, relative=True):
-        """Return all predicates with subColumn as subject and all other columns as possible objects
-        Set 'relative' to True if you want relative occurances."""
+        """Return all predicates with subColumn as subject and all other columns as possible objects.
+        Set 'relative' to True if you want relative occurances.
+        """
+
         objPredicates = {}
         for obj in self.column_names:
             if obj == self.key_name:
@@ -128,18 +143,21 @@ class Table:
     #     return rows
 
     def predicates_for_key_column(self):
+        # TODO
         """generate a dictionary containing all predicates for each
-        entity in the key-column with their predicates"""
+        entity in the key-column with their predicates.
+        """
+
         subjects = []
-        for subject in self.columns[self.key]:
-            subjCell = sparql.cell_content(subject)
-            subjects.append([subjCell, sparql.predicates(subjCell)])
+        for sub in self.columns[self.key]:
+            subjects.append([sub, sparql.predicates(sub)])
 
         return subjects
 
     def match_column_for_predicates(self, predicates):
         """return a ratio calculated by matching the given predicates
-        names against the column-names of the table"""
+        names against the column-names of the table.
+        """
 
         ratios = deepcopy(predicates)
 
@@ -153,7 +171,8 @@ class Table:
 
     def generate_triples_for_key(self, threshold=0.0, ratings=[0.7, 0.3], out=True):
         """ratings consist of two values (first weighs the relative occurency
-        second weighs the string-matching with the column name)"""
+        second weighs the string-matching with the column name).
+        """
 
         if not self.key_name or len(ratings) != 2:
             return
@@ -194,34 +213,14 @@ class Table:
         return triples
 
     def generate_triples(self, columns=None, threshold=0.0, path=None):
-        """Save RDF statements generated from table."""
+        """Save RDF statements generated from table.
+        """
 
         data = []
         permutations = itertools.permutations(columns if columns else self.column_names, 2)
         for sub_column_name, obj_column_name in permutations:
+            data += self.triples_for_columns(sub_column_name, obj_column_name, threshold=threshold)
 
-            existing_predicates = [ sparql.predicates(sub, obj)
-            for sub, obj
-            in zip(self[sub_column_name], self[obj_column_name])]
-
-            absCount = defaultdict(int)
-            for row in existing_predicates:
-                for predicate in row:
-                    absCount[predicate] += 1
-
-            if not absCount:
-                continue
-
-            relCount = dict((key, value/len(existing_predicates)) for key, value in absCount.items() if value/len(existing_predicates) > threshold)
-            predicates = set(relCount.keys())
-
-            generatedPreciates = [list(predicates - set(row)) for row in existing_predicates]
-
-            for i, row in enumerate(generatedPreciates):
-                for predicate in row:
-                    data.append([self[sub_column_name][i], predicate, self[obj_column_name][i], relCount[predicate]])
-
-        from pandas import DataFrame
         df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
         df['table'] = repr(self)
         df['page'] = self.page.title
@@ -233,6 +232,46 @@ class Table:
 
         return df
 
-    def triples_for_columns(self, sub_column_name, obj_column_name):
-        # TODO
-        pass
+    def triples_for_columns(self, sub_column_name, obj_column_name, threshold=0.0):
+        """Generate triples for a pair of columns.
+        Accumulate predicates already present in SPARQL endpoint and select candidates from this set.
+        Match the candidates certainty (i.e., how likely they correctly represent the column pair) against the provided threshold.
+        Return a Pandas DataFrame for easy saving and printing.
+        """
+
+        # Row-wise pairs of cells
+        cell_pairs = list(zip(self[sub_column_name], self[obj_column_name]))
+
+        # List of existing predicates for every pair of cells
+        existing_row_predicates = [ sparql.predicates(sub, obj) for sub, obj in cell_pairs ]
+
+        # Count occurence of every predicate in every row
+        counter = Counter([ predicate
+        for row in existing_row_predicates
+        for predicate in row ])
+
+        relative_frequencies = dict(
+            (key, value/len(self))
+            for key, value in counter.items())
+
+        row_candidates = [relative_frequencies.keys() - row for row in existing_row_predicates]
+
+        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
+        for i, (sub, obj) in enumerate(cell_pairs):
+            if not sparql.is_resource(sub): # skip subject literals
+                continue
+
+            for predicate in row_candidates[i]:
+                data.loc[len(data)] = [sub, predicate, obj, relative_frequencies[predicate], False, False]
+
+        return data
+
+    def certainty(self, candidate_predicate, subject_column, object_column, relative_occurence):
+        """Calculate a certainty for a given candidate predicate (i.e., how likely it represents the relationship between the column pair).
+        """
+
+        # TODO: Subject isKeyColumn?
+        # TODO: Predicate matches column name?
+
+        return round(relative_occurence, 2)
+        # return {key for key, value in candidate_dict.items() if value > threshold}

@@ -40,12 +40,13 @@ where {
 def predicates(sub, obj=None):
     """Return predicates of form '?sub ?predicate ?obj.'"""
     if not is_resource(sub):
-        return []
+        return set()
 
     if obj:
         query = (rr_query if is_resource(obj) else rl_query) % (sub, obj)
     else:
         query = r_query % sub
+
     wrapper.setQuery(query)
 
     try:
@@ -53,10 +54,10 @@ def predicates(sub, obj=None):
 
     except SPARQLExceptions.QueryBadFormed as e:
         print("queryBadFormed-error occured with subject: %s, and object: %s" % (sub, obj))
-        return []
+        return set()
 
     else:
-        return list(set([r['predicate']['value'] for r in results['results']['bindings'] if r]))
+        return {r['predicate']['value'] for r in results['results']['bindings'] if r}
 
 
 def cell_content(cell):
