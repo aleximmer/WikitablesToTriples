@@ -1,25 +1,17 @@
-from sparql import *
-from page import Page
+import wikitables.sparql as sparql
+from wikitables.page import Page
 import os
 
 """Helper functions for evaluation and testing go here."""
 
 
-def crawl_pages():
-    f = open('titles2.txt', 'r', errors='ignore')
-    titles = f.read()
-    # FERTIG
-
-crawl_pages()
-
-
 def best_predicate_in_page(page, ignore=True):
     """Return predicate with highest relative occurance in page. Set 'ignore' to ignore '100%'."""
 
-    columnPermutation = [p for table in page['tables']
+    column_permutation = [p for table in page['tables']
                          for p in table['predicates']]
 
-    predicates = [(key, value) for perm in columnPermutation for key,
+    predicates = [(key, value) for perm in column_permutation for key,
                   value in perm['predicates'].items()]
 
     if ignore:
@@ -41,7 +33,7 @@ def best_predicate_in_table(table, ignore=True):
 
 
 def has_predicate(sub, obj, predicate):
-    return predicate in predicates(sub, obj)
+    return predicate in sparql.predicates(sub, obj)
 
 
 def load_pages(path):
@@ -61,14 +53,16 @@ def load_pages(path):
 
 
 def collect_tables(list_of_pages):
-    tables = [table for page in list_of_pages for table in page['tables']]
     return [table for page in list_of_pages for table in page['tables']]
 
 
 def collect_predicates(list_of_pages):
     # If you're a learner, have a look
     # https://stackoverflow.com/questions/11264684/flatten-list-of-lists/11264751#answer-11264751
-    return [(key, value) for table in collect_tables(list_of_pages) for p in table['predicates'] for key, value in p['predicates'].items()]
+    return [(key, value)
+            for table in collect_tables(list_of_pages)
+            for p in table['predicates']
+            for key, value in p['predicates'].items()]
 
 
 def collect_permutations(list_of_pages):
@@ -88,7 +82,7 @@ def test_key_extraction(title='List of national parks of India'):
     pg = Page(title)
     if pg.tables:
         tb = pg.tables[0]
-        print(tb.key_name)
+        print(tb.key)
     else:
         print('No tables contained')
 
@@ -98,7 +92,7 @@ def test_column_names(title, key):
     if not pg.tables:
         return
     tb = pg.tables[0]
-    for column in tb.:
+    for column in tb:
         if not column == key:
             print(column)
             print(tb.predicates_for_columns(key, column,))
@@ -126,3 +120,5 @@ def test_generate_triples_for_key(title):
         return
     tb = pg.tables[0]
     tb.generate_triples_for_key()
+
+test_generate_triples_for_key('List of 2000s one-hit wonders in the United States')

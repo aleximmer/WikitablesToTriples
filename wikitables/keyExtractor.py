@@ -49,12 +49,13 @@ inflectEngine = inflect.engine()
 
 
 class KeyExtractor:
+    # TODO: Docstring
 
-    def __init__(self, originalHTMLSoup, articleName, abstracts='', listCategories=[]):
-        self.originalHTMLSoup = originalHTMLSoup
-        self.articleName = articleName
-        self.abstracts = abstracts
-        self.listCategories = listCategories
+    def __init__(self, table):
+        self.originalHTMLSoup = table.soup
+        self.articleName = table.page.title
+        self.abstracts = table.page.summary
+        self.listCategories = table.page.categories
 
     def _extractTableHead(self, htmlTableSoup):
         htmlTable = str(htmlTableSoup)
@@ -332,13 +333,12 @@ class KeyExtractor:
             # Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis
             # nicht eindeutig genug
             if (rating2 / rating1) > FIRST_SECOND_RATIO:
-                print("Algorithm failed: Not clear enough")
-                raise KeyExtractionError('no prominent candidate for key')
+                print('no prominent candidate for key')
                 return None
 
         # Die Entitäten müssen eindeutig sein (Max. eine Entität pro Feld)
         if ratCols[0]["multipleEntities"]:
-            raise KeyExtractionError("elements in candidate column not unique")
+            print("elements in candidate column not unique")
             return None
 
         rowCount = len(ratCols[0]["entries"])
@@ -346,7 +346,7 @@ class KeyExtractor:
         # Wenn weniger als 40% der Einträge Entitäten sind, ist die Spalte
         # nicht ausreichend verwertbar
         if (entityCount / rowCount) < MIN_ENTITIES_COUNT:
-            raise KeyExtractionError("too few resources in candidate column")
+            print("too few resources in candidate column")
             return None
 
         return ratCols[0]
@@ -383,7 +383,7 @@ class KeyExtractor:
         # Validiere die Bewertungen der Spalten
         keyCol = self._validateRatings(uniqueCols)
 
-        return keyCol
+        return keyCol['xPos'] if keyCol else -1
 
 
 class KeyExtractionError(Exception):

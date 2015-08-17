@@ -39,7 +39,8 @@ where {
 
 
 def predicates(sub, obj=None):
-    """Return predicates of form '?sub ?predicate ?obj.'"""
+    """Return predicates of form '?sub ?predicate ?obj.'
+    """
     if not is_resource(sub):
         return set()
 
@@ -62,7 +63,8 @@ def predicates(sub, obj=None):
 
 
 def cell_content(cell):
-    """Return cell's content ready to be used in SPARQL requests."""
+    """Return cell's content ready to be used in SPARQL requests.
+    """
 
     # Remove references
     for sup in cell.findAll('sup'):
@@ -97,7 +99,8 @@ def predicate_exists(sub, pre, obj):
 
 
 def predicate_range(predicate):
-    "Return type schema for given predicate."
+    """Return type schema for given predicate.
+    """
 
     query = """
     SELECT ?object
