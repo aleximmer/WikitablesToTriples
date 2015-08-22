@@ -3,7 +3,6 @@ import itertools
 from wikitables.keyExtractor import KeyExtractor
 from collections import defaultdict, Counter
 from fuzzywuzzy import fuzz
-from copy import deepcopy
 from pandas import DataFrame
 
 
@@ -31,9 +30,8 @@ class Table:
 
     def _section(self):
         """Try finding first header (h2, h3) before table.
-        If none found, use the article's title.
+        If none is found, use the article's title.
         """
-
         for sibling in self.soup.previous_siblings:
             if sibling.name in ['h2', 'h3']:
                 return sibling.span.text
@@ -55,18 +53,18 @@ class Table:
     def __getitem__(self, index):
         """Return column by index number or column name.
         """
-
         i = index if type(index) is int else self.column_names.index(index)
         return [row[i] for row in self.rows]
 
     def __len__(self):
+        """Under the assumption that all columns have equal length.
+        """
         return len(self[0])
 
     def skip(self):
-        """The extraction algorithms rely on assumptions about the table structure.
+        """The extraction algorithms rely on assumptions about the table's structure.
         In most cases this refers to the absence of cells spanning multiple rows or columns.
         """
-
         # TODO ? Colspans?
         if not self.rows:
             print(self.page.title)
@@ -84,9 +82,8 @@ class Table:
 
     def predicates_for_columns(self, sub_column_name, obj_column_name, relative=True):
         """Return all predicates with subColumn's cells as subjects and objColumn's cells as objects.
-        Set 'relative' to True if you want relative occurrences.
+        Set 'relative' to True if you want relative frequencies.
         """
-
         predicates = defaultdict(int)
         for sub, obj in zip(self[sub_column_name], self[obj_column_name]):
 
@@ -101,127 +98,41 @@ class Table:
 
         return dict(predicates)
 
-    def rel_predicates_for_key_column(self):
-        """Return all predicates with subColumn as subject and all other columns as possible objects.
-        Set 'relative' to True if you want relative occurrences.
+    def name_match(self, predicate_identifier, column):
+        """Match the identifier of a predicate against the name of the column.
         """
-
-        obj_predicates = {}
-        for obj in self.column_names:
-
-            if obj == self.key:
-                continue
-
-            obj_predicates[obj] = self.predicates_for_columns(self.key, obj, relative=True)
-
-        return obj_predicates
-
-    # def populateRows(self):
-    #     TODO
-    #     return rows
-
-    def predicates_for_key_column(self):
-        # TODO
-        """generate a dictionary containing all predicates for each
-        entity in the key-column with their predicates.
-        """
-
-        subjects = []
-        for sub in self[self.key]:
-            subjects.append([sub, sparql.predicates(sub)])
-
-        return subjects
-
-    def match_column_for_predicates(self, predicates):
-        """return a ratio calculated by matching the given predicates
-        names against the column-names of the table.
-        """
-
-        ratios = deepcopy(predicates)
-
-        for column_name in predicates:
-            for predicate in predicates[column_name]:
-                ratios[column_name][predicate] = self.name_match(predicate, column_name)
-
-        return ratios
-
-    def name_match(self, predicate, column):
-        # TODO: contained names
-        column_name = (self[column] if type(column) is int else column).lower()
-        predicate_name = predicate.split('/')[-1:][0].lower()
-        ratio = fuzz.ratio(predicate_name, column_name)
-        return ratio / 100
-
-    def generate_triples_for_key(self, threshold=0.0, ratings=[0.7, 0.3], out=True):
-        """ratings consist of two values (first weighs the relative frequency
-        second weighs the string-matching with the column name).
-        """
-
-        if not self.key or len(ratings) != 2:
-            return
-
-        predicates = self.rel_predicates_for_key_column()
-        string_ratios = self.match_column_for_predicates(predicates)
-
-        # weigh both factors by given ratings
-        for column in predicates:
-            for predicate in predicates[column]:
-                cert = predicates[column][predicate] * ratings[0]
-                ratio = string_ratios[column][predicate] * ratings[1]
-                predicates[column][predicate] = cert + ratio
-
-        # get highest matching predicate
-        found_predicates = {}
-        for column in predicates:
-            max_val = max(predicates[column], key=lambda p: predicates[column][p])
-            if predicates[column][max_val] >= threshold:
-                found_predicates[column] = max_val
-
-        subjects = self.predicates_for_key_column()
-
-        triples = []
-        index = 0
-        for subj in subjects:
-            print(subj[0])
-            for pred in found_predicates:
-                if found_predicates[pred] in subj[1] or not self[pred][index]:
-                    continue
-                triple = [subj[0], found_predicates[pred], self[pred][index]]
-                triples.append(triple)
-                if out:
-                    print('\tpred: ', end=""), print(triple[1])
-                    print('\t\tobj/value: ', end=""), print(triple[2])
-            index += 1
-
-        return triples
+        column_name = (self.column_names[column] if type(column) is int else column)
+        predicate_name = predicate_identifier.split('/')[-1:][0]  # remove identifier prefix
+        ratio = fuzz.partial_ratio(predicate_name.lower(), column_name.lower())
+        return ratio / 100  # Return value from 0 to 1
 
     def generate_data(self, columns=None):
-        """Save RDF statements generated from table.
+        """Generate data for all (ordered) pairs of columns.
+        See generate_data_for_columns() for further details.
         """
+        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
 
-        data = DataFrame(columns=['Subject', 'Predicate', 'Object',
-                                  'Frequency', 'isKey', 'nameMatch'])
-        permutations = itertools.permutations(
-            columns if columns else self.column_names, 2)
+        permutations = itertools.permutations(columns if columns else self.column_names, 2)
+
         for sub_column_name, obj_column_name in permutations:
-            data.append(self.generate_triples_for_columns(sub_column_name,
-                                                          obj_column_name))
+            data = data.append(self.generate_data_for_columns(sub_column_name, obj_column_name))
 
-        df = DataFrame(data,
-                       columns=['subject', 'predicate', 'object', 'certainty'])
-        df['table'] = repr(self)
-        df['page'] = self.page.title
+        data['table'] = repr(self)
+        data['page'] = self.page.title
 
-        print("Generated %d statements with avg. certainty of %.0f%%." %
-              (len(df.index), df['certainty'].mean() * 100))
+        print("Generated %d triples with avg. frequency of %.0f%%." %
+              (len(data.index), data['Frequency'].mean() * 100))
 
-        return df
+        return data
 
     def generate_data_for_columns(self, sub_column_name, obj_column_name):
-        """Generate triples for a pair of columns.
+        """Generate data for a pair of columns.
         Accumulate predicates already present in SPARQL endpoint and select candidates from this set.
-        Match the candidates certainty (i.e., how likely they correctly represent the column pair) against the provided threshold.
-        Return a Pandas DataFrame for easy saving and printing.
+        Apply those candidate predicates to all the rows where they were not already present.
+        Return a pandas Table with the resulting triples and
+            a) the frequency of the applied predicate
+            b) the string proximity of the predicate and the object cell's column name
+            c) and whether the subject cell is element of a key column.
         """
 
         # Row-wise pairs of cells
@@ -239,14 +150,14 @@ class Table:
         candidates = dict()
         for key, value in counter.items():
             candidates[key] = {
-                'Frequency': value / len(self),
-                'nameMatch': self.name_match(key, obj_column_name)  # Returns the inverse levenshtein distance
+                'Frequency': value / len(self),  # a)
+                'nameMatch': self.name_match(key, obj_column_name)  # b)
             }
 
         row_candidates = [candidates.keys() - row
                           for row in existing_row_predicates]
 
-        is_key = self.is_key(sub_column_name)
+        is_key = self.is_key(sub_column_name)  # c)
 
         data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
         for i, (sub, obj) in enumerate(cell_pairs):

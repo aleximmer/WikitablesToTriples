@@ -98,22 +98,6 @@ def test_column_names(title, key):
             print(tb.predicates_for_columns(key, column,))
 
 
-def test_key_predicates(title):
-    pg = Page(title)
-    if not pg.tables:
-        return
-    tb = pg.tables[0]
-    print(tb.predicates_for_key_column())
-
-
-def test_key_relative_predicates(title):
-    pg = Page(title)
-    if not pg.tables:
-        return
-    tb = pg.tables[0]
-    print(tb.rel_predicates_for_key_column())
-
-
 def test_generate_triples_for_key(title):
     pg = Page(title)
     if not pg.tables:
