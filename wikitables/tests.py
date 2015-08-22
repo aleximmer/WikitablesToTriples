@@ -69,13 +69,13 @@ def collect_permutations(list_of_pages):
     return [p for t in collect_tables(list_of_pages) for p in t['predicates']]
 
 
-def test_generate_RDFs(title, threshold=0.0):
+def test_generate_RDFs(title):
     pg = Page(title)
     if not pg.tables:
         print('No tables contained')
 
     for table in pg.tables:
-        table.generate_triples(threshold)
+        table.generate_data()
 
 
 def test_key_extraction(title='List of national parks of India'):
@@ -120,5 +120,3 @@ def test_generate_triples_for_key(title):
         return
     tb = pg.tables[0]
     tb.generate_triples_for_key()
-
-test_generate_triples_for_key('List of 2000s one-hit wonders in the United States')
