@@ -42,9 +42,6 @@ class Table:
             if parent.has_attr('id') and parent['id'] == 'content':
                 return parent.h1.text
 
-    def peek(self, chars=400):
-        return self.soup.prettify()[:chars]
-
     @property
     def key(self):
         if not self._key:
@@ -66,16 +63,21 @@ class Table:
         return len(self[0])
 
     def skip(self):
-        # TODO: Something is wrong with rows
+        """The extraction algorithms rely on assumptions about the table structure.
+        In most cases this refers to the absence of cells spanning multiple rows or columns.
+        """
 
+        # TODO ? Colspans?
         if not self.rows:
+            print(self.page.title)
+            print('!!!: not self.rows!?')
             return True
 
-        # Skip tables with unequal row lengths
-        if max([len(row) for row in self.rows]) != min([len(row) for row in self.rows]):
+        row_lengths = [len(row) for row in self.rows]  # Skip tables with unequal row lengths
+        if max(row_lengths) != min(row_lengths):
             return True
 
-        if max([len(row) for row in self.rows]) != len(self.column_names):
+        if max(row_lengths) != len(self.column_names):  # Skip tables with ambiguous headers
             return True
 
         return False
@@ -144,8 +146,9 @@ class Table:
         return ratios
 
     def name_match(self, predicate, column):
+        # TODO: contained names
         column_name = (self[column] if type(column) is int else column).lower()
-        predicate_name = predicate.split('/')[-1:][0]
+        predicate_name = predicate.split('/')[-1:][0].lower()
         ratio = fuzz.ratio(predicate_name, column_name)
         return ratio / 100
 
@@ -192,31 +195,29 @@ class Table:
 
         return triples
 
-    def generate_triples(self, columns=None, threshold=0.0, path=None):
+    def generate_data(self, columns=None):
         """Save RDF statements generated from table.
         """
 
-        data = []
+        data = DataFrame(columns=['Subject', 'Predicate', 'Object',
+                                  'Frequency', 'isKey', 'nameMatch'])
         permutations = itertools.permutations(
             columns if columns else self.column_names, 2)
         for sub_column_name, obj_column_name in permutations:
-            data += self.triples_for_columns(sub_column_name,
-                                             obj_column_name, threshold=threshold)
+            data.append(self.generate_triples_for_columns(sub_column_name,
+                                                          obj_column_name))
 
-        df = DataFrame(
-            data, columns=['subject', 'predicate', 'object', 'certainty'])
+        df = DataFrame(data,
+                       columns=['subject', 'predicate', 'object', 'certainty'])
         df['table'] = repr(self)
         df['page'] = self.page.title
 
         print("Generated %d statements with avg. certainty of %.0f%%." %
               (len(df.index), df['certainty'].mean() * 100))
 
-        if path:
-            df.to_csv(path, index=False)
-
         return df
 
-    def triples_for_columns(self, sub_column_name, obj_column_name, threshold=0.0):
+    def generate_data_for_columns(self, sub_column_name, obj_column_name):
         """Generate triples for a pair of columns.
         Accumulate predicates already present in SPARQL endpoint and select candidates from this set.
         Match the candidates certainty (i.e., how likely they correctly represent the column pair) against the provided threshold.
