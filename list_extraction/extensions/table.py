@@ -242,12 +242,18 @@ class Table:
 
     def generateRDFs(self, columns=None, threshold=0.0, path=None):
         """Save RDF statements generated from table."""
-
         data = []
+        keyIndex = self.key # Calculate name of key column
+        if keyIndex is not None and keyIndex > 0 and keyIndex <= len(self.columnNames):
+            keyColumnName = self.columnNames[keyIndex]
+        else:
+            keyColumnName = None
 
         for subColumnName, objColumnName in itertools.permutations(columns if columns else self.columnNames, 2):
             subColumn = self.column(subColumnName, content=True)
             objColumn = self.column(objColumnName, content=True)
+            if len(subColumn) == 0 or len(objColumn) == 0:
+                raise Exception("Table failed because of defective row formattings")
 
             existingPredicates = [sparql.predicates(subColumn[i], objColumn[i]) for i in range(len(subColumn))]
 
@@ -259,10 +265,6 @@ class Table:
             if not absCount:
                 continue
 
-            #for key, value in absCount.items():
-            #    print(str(key) + ' -> ' + str(value/len(existingPredicates)))
-            #
-
             relCount = dict((key, value/len(existingPredicates)) for key, value in absCount.items() if value/len(existingPredicates) > threshold)
             predicates = set(relCount.keys())
 
@@ -270,29 +272,35 @@ class Table:
 
             for i, row in enumerate(generatedPreciates):
                 for predicate in row:
-                    data.append([subColumn[i], predicate, objColumn[i], relCount[predicate]])
+                    # Generating additional infos for analyzing RDFs
+                    #objColumnName
+                    subIsKey = (keyColumnName == subColumnName)
+                    objIsKey = (keyColumnName == objColumnName)
+                    rowCount = len(subColumn)
+                    data.append([subColumn[i], predicate, objColumn[i], objColumnName, relCount[predicate], subIsKey, objIsKey, rowCount])
+            # TODO: Bring back after demo
+            # from pandas import DataFrame
+            # df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
+            # df['table'] = repr(self)
+            # df['page'] = self.pageTitle
 
-        # TODO: Bring back after demo
-        # from pandas import DataFrame
-        # df = DataFrame(data, columns=['subject', 'predicate', 'object', 'certainty'])
-        # df['table'] = repr(self)
-        # df['page'] = self.pageTitle
+            # print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
 
-        # print("Generated %d statements with avg. certainty of %.0f%%." % (len(df.index), df['certainty'].mean() * 100))
-
-        if path:
-            # df.to_csv(path, index=False)
-            pass
+            if path:
+                # df.to_csv(path, index=False)
+                pass
+            else:
+                # return df
+                # TODO: Remove after demo
+                matrix = []
+                for row in data:
+                    matrix.append([row[0], '<' + row[1] + '>', row[2], row[3], row[4], row[5], row[6], row[7]])
+                s = [[str(e) for e in row] for row in matrix]
+                lens = [max(map(len, col)) for col in zip(*s)]
+                fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
+                table = [fmt.format(*row) for row in s]
+                return matrix
+                # print('\n'.join(table))
+                # return df
         else:
-            # return df
-            # TODO: Remove after demo
-            matrix = []
-            for row in data:
-                matrix.append([row[0], '<' + row[1] + '>', row[2], row[3]])
-            s = [[str(e) for e in row] for row in matrix]
-            lens = [max(map(len, col)) for col in zip(*s)]
-            fmt = '\t'.join('{{:{}}}'.format(x) for x in lens)
-            table = [fmt.format(*row) for row in s]
-            print('\n'.join(table))
-            return matrix
-            # return df
+            return []
