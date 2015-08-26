@@ -110,7 +110,8 @@ class Table:
         """Generate data for all (ordered) pairs of columns.
         See generate_data_for_columns() for further details.
         """
-        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
+        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency',
+                                  'isKey', 'nameMatch', 'subjectColumn', 'objectColumn'])
 
         permutations = itertools.permutations(columns if columns else self.column_names, 2)
 
@@ -159,7 +160,9 @@ class Table:
 
         is_key = self.is_key(sub_column_name)  # c)
 
-        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency', 'isKey', 'nameMatch'])
+        # subjectColumn and objectColumn included for later testing
+        data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency',
+                                  'isKey', 'nameMatch', 'subjectColumn', 'objectColumn'])
         for i, (sub, obj) in enumerate(cell_pairs):
             if not sparql.is_resource(sub):  # skip subject literals
                 continue
@@ -168,6 +171,8 @@ class Table:
                 data.loc[len(data)] = [sub, predicate, obj,
                                        candidates[predicate]['Frequency'],
                                        is_key,
-                                       candidates[predicate]['nameMatch']]
+                                       candidates[predicate]['nameMatch'],
+                                       sub_column_name,
+                                       obj_column_name]
 
         return data
