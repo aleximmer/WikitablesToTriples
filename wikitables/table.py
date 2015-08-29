@@ -98,6 +98,21 @@ class Table:
 
         return dict(predicates)
 
+    def predicates_for_all_columns(self, relative=True, omit=False):
+        """Return list of ordered column pairs with their relationships and frequencies.
+        Use 'omit' to leave out pairs with no relationships present.
+        """
+        column_pairs = []
+        for sub_column, obj_column in itertools.permutations(self.column_names, 2):
+            column_pair_predicates = self.predicates_for_columns(sub_column, obj_column, relative)
+            if column_pair_predicates or not omit:
+                column_pairs.append({
+                    'subject': sub_column,
+                    'object': obj_column,
+                    'predicates': column_pair_predicates
+                })
+        return column_pairs
+
     def name_match(self, predicate_identifier, column):
         """Match the identifier of a predicate against the name of the column.
         """
