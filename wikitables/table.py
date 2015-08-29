@@ -187,7 +187,12 @@ class Table:
                                        candidates[predicate]['Frequency'],
                                        is_key,
                                        candidates[predicate]['nameMatch'],
-                                       sub_column_name,
-                                       obj_column_name]
+                                       self._str_column_name(sub_column_name),
+                                       self._str_column_name(obj_column_name)]
 
         return data
+
+    def _str_column_name(self, key):
+        """Helper function to enforce that a column is identified by it's name and not it's index.
+        """
+        return self.column_names[key] if type(key) is int else key
