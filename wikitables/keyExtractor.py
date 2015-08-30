@@ -12,32 +12,35 @@ from more_itertools import unique_everseen
 from fuzzywuzzy import fuzz
 
 # Thresholds:
-ONLY_UNIQUE_COLS = False  # KeyCol muss einzigartig sein
-# Mind. {x*100} Prozent müssen Entities sein, damit die Spalte der Key
-# sein darf
+
+# KeyCol needs to be unique
+ONLY_UNIQUE_COLS = False
+# At least {x*100} percent have to be entities, so that the column may be a key
 MIN_ENTITIES_COUNT = 0.4
-MAX_ENTITIES_POINTS = 50  # Bei 100% Entitäten gibt es {x} Punkte
-# Wenn der Spaltenname "Name" oder "Title" enthält, gibt's {x} Punkte
+# For having 100% entities, the column receives {x} rating points
+MAX_ENTITIES_POINTS = 50
+# Columns with the name "Name", "Title" or "Type" receive {x} rating points
 COLNAME_NAME_POINTS = 20
-# Wenn ein Wort-Treffer kann max {x} Punkte einbringen
+# Each word can bring not more than {x} rating points
 COLNAME_MAX_WORD_POINTS = 20
-# Wenn ein Wort-Treffer über den Plural trifft, gibt es {x} Punkte zusätzlich
+# Hits for generated plural forms yield {x} rating points
 COLNAME_PLURAL_HIT_POINTS = 10
-# Für jeden Match in Abstracts: Addiere Trefferanzahl * {x}
+# Each match for a word in the Abstract generates {x} rating points
 COLNAME_ABSTRACTS_SCALE = 4
-# Die linke Spalte bekommt {x} Punkte und ab da nach rechts hyperbolisch
-# abwärts
+# The left column receives {x} rating points. The points distribution decreases
+# hyperbolically to the right
 COLPOS_MAX_POINTS = 20
-COL_TH_POINTS = 20  # Eine Spalte mit <th>-Tags erhält {x} Punkte
-# Fuzzywuzzy Bewertung (prüft auf Ähnlichkeit) zwischen Listkategorien und
-# Spaltennamen
+# A column using <th>-Tags for its entries receives {x} rating points
+COL_TH_POINTS = 20
+# The FuzzyWuzzy rating value for list categories has to be over the value {x}
 LISTCAT_RATIO = 90
-LISTCAT_MATCH_POINTS = 4  # Ein Listkategorie-Treffer bringt {x} Punkte
-# Die zweit-höchste Spalte darf höchstens {x} (in Prozent) von der besten
-# Spalte sein
+# An hit for a list category yields {x} rating points
+LISTCAT_MATCH_POINTS = 4
+# The column with the second highest rating score must be lower than the highest
+# score multiplied with {x}
 FIRST_SECOND_RATIO = 0.95
 
-# Init Inflect Engine
+# Initialize Inflect Engine
 inflectEngine = inflect.engine()
 
 ########################################## Key extraction ################
@@ -227,7 +230,7 @@ class KeyExtractor:
             cols[i]["entityCount"] = entityCount
             cols[i]["multipleEntities"] = multipleEnts
 
-    # Überprüft, ob im Spaltentitel das Wort "Name" auftaucht (+20 Rating)
+    # Überprüft, ob im Spaltentitel das Wort "Name", "Title" oder "Type" auftaucht (+20 Rating)
     # oder Übereinstimmungen mit dem Titel des Wikipedia-Artikels existieren.
     # Dabei wird der Singular und Plural betrachtet. Umso länger ein Wort ist,
     # für das eine Übereinstimmung gefunden wurde, desto mehr Punkte gibt es
@@ -240,8 +243,8 @@ class KeyExtractor:
         for i in range(len(cols)):
             colName = cols[i]["title"]
             colNames = colName.lower().split()
-            # Titel auf den Inhalt "Name" oder "Title" überprüfen
-            if "name" in colNames or "title" in colNames:
+            # Titel auf den Inhalt "Name", "Title" und "Type" überprüfen
+            if "name" in colNames or "title" in colNames or "type" in colNames:
                 cols[i]["rating"] += COLNAME_NAME_POINTS
 
             # Titel mit dem Artikelnamen abgleichen

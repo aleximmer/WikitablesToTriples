@@ -335,7 +335,8 @@ def extractKeyColumn(originalHTMLSoup, articleName, abstracts = '', listCategori
 
 		if keyCol == None:
 		    print('Can\'t extract a significant single key column')
-
+		else:
+			print('KeyCol: ' + str(keyCol['title']))
 	except Exception as e:
 		# Might be an error caused by wrong html format or unsupported html encoding
 		print('Error: ' + str(e))
