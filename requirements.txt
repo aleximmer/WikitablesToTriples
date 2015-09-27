@@ -1,11 +1,10 @@
 beautifulsoup4==4.4.0
 inflect==0.2.5
-isodate==0.5.1
 lxml==3.4.4
 more-itertools==2.2
-pyparsing==2.0.3
 rdflib==4.2.0
 requests==2.7.0
 SPARQLWrapper==1.6.4
 wikipedia==1.4.0
 fuzzywuzzy==0.5.0
+pandas==0.16.2
