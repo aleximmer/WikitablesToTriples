@@ -9,10 +9,9 @@ class Page(wikipedia.WikipediaPage):
 
     def __init__(self, title=None, revisionID='', pageid=None, redirect=True, preload=False, original_title='', auto_suggest=True):
         # method taken from wikipedia.page to init OO-Style
-        if title is not None:
+        if title:
             if auto_suggest:
-                results, suggestion = wikipedia.search(
-                    title, results=1, suggestion=True)
+                results, suggestion = wikipedia.search(title, results=1, suggestion=True)
                 try:
                     title = suggestion or results[0]
                 except IndexError:
@@ -32,13 +31,8 @@ class Page(wikipedia.WikipediaPage):
         self._soup = None
 
     def __repr__(self):
-        return "Title:\n\t%s\n\t%s\nTables:\n\t" % (self.title, self.url) + "\n\t".join([str(t) for t in self.tables])
+        return "%s (%s); Tables: " % (self.title, self.url) + ", ".join([str(t) for t in self.tables])
 
-    def html(self):
-        # override from WikipediaPage
-        return self.html
-
-    @property
     def html(self):
         if not self._html:
             self._html = requests.get(self.url).text
@@ -47,14 +41,13 @@ class Page(wikipedia.WikipediaPage):
     @property
     def soup(self):
         if not self._soup:
-            self._soup = BeautifulSoup(self.html, "lxml")
+            self._soup = BeautifulSoup(self.html(), "lxml")
         return self._soup
 
     @property
     def tables(self):
         if not self._tables:
-            self._tables = [Table(table, self)
-                            for table in self.soup.findAll('table', 'wikitable')]
+            self._tables = [Table(table, self) for table in self.soup.findAll('table', 'wikitable')]
         return self._tables
 
     def has_table(self):

@@ -207,10 +207,10 @@ class KeyExtractor:
                 linksCount = len(links)
                 for link in links:
                     # Image werden nicht gezählt
-                    if link.find("img") != None:
+                    if link.find("img"):
                         linksCount -= 1
                     # Ebenso dürfen es nur Wikipedia-interne Links sein
-                    elif link["href"][0:5] != "/wiki":
+                    elif 'wiki' not in link["href"]:
                         linksCount -= 1
                     # Manche Tabellen setzen doppelte Verlinkunden (e.g.
                     # TableID = 513, List of Olympic medalists in basketball)
