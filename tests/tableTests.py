@@ -20,7 +20,7 @@ class TestTableMethods(unittest.TestCase):
     def setUp(self):
         self.page = TestPage(text)
         self.table = self.page.tables[0]
-
+        
     def test_repr(self):
         result = "Table in section 'National Parks'"
         self.assertEqual(result, self.table.__repr__())
@@ -36,8 +36,8 @@ class TestTableMethods(unittest.TestCase):
     def test_is_key(self):
         self.assertTrue(self.table.is_key(0))
         self.assertTrue(self.table.is_key('Name'))
-        self.assertTrue(self.table.is_key(1))
-        self.assertTrue(self.table.is_key('Photo'))
+        self.assertFalse(self.table.is_key(1))
+        self.assertFalse(self.table.is_key('Photo'))
 
     def test_get_item(self):
         self.assertTrue('http://dbpedia.org/resource/Acadia_National_Park' in self.table.__getitem__(0))
