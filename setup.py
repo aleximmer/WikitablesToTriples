@@ -16,13 +16,13 @@ install_reqs = [
 ]
 
 setuptools.setup(
-  name = "wikitable",
-  description = "Wikipedia Wrapper for mining semantic data in Python",
+  name = "wikitables",
+  description = "Extractor for structured knowledge from Wikipedia's tables written in python",
   license = "MIT",
-  keywords = "python wikipedia semantic-web",
+  keywords = "python wikipedia semantic-web dbpedia",
   url = "https://github.com/AlexImmer/wiki-list_of-retrieval",
   install_requires = install_reqs,
-  packages = ['wikitable'],
+  packages = ['wikitables'],
   long_description = local_file('README.md').read(),
   classifiers = [
     'Topic :: Software Development :: Libraries',
