@@ -82,11 +82,12 @@ class KeyExtractor:
     # Solution: replace them with <td> and act like the <td>-Tags in the first
     # <tr>-Row are <th>-Tags
     def _fixTableHeaderTagsForOutput(self, htmlTableSoup):
-        htmlTable = str(htmlTableSoup)
         thTags = htmlTableSoup.findAll('th')
 
         for thTag in thTags:
             thTag.name = 'td'
+
+        htmlTable = str(htmlTableSoup)
 
         # Make the first row to a header row (<td> to <th>)
         pos1 = htmlTable.find("<tr")
@@ -99,6 +100,7 @@ class KeyExtractor:
             col.name = 'th'
         # FirstRow without <html><body></body></html>
         firstRow = str(headerSoup.body.next)
+
         return BeautifulSoup(htmlTable[:pos1] + firstRow + htmlTable[pos2:], "lxml")
 
     # Ermittelt alle Spalten der Tabelle (ohne die Header-Felder) und überprüft
@@ -106,15 +108,13 @@ class KeyExtractor:
     # ein ValueError geworfen.˚
     # Am Ende wird ein Array von Elementen der Form {"xPos": a, "entries": c}
     # zurückgegeben
-    # UPDATE: Added originalHTML and attrOrig to get the real tag (hd or td)
+    # UPDATE: Added originalHTML and attrOrig to get the real tag (th or td)
+    # htmlTableSoup = th and td tags by _fixTableHeaderTagsForOutput() formatted
     def _extractColumnsInfos(self, htmlTableSoup):
-        # th and td tags by _fixTableHeaderTagsForOutput() formatted
-        htmlTable = str(htmlTableSoup)
-        originalHTML = str(self.originalHTMLSoup)  # orginal html code
-        quickView = originalHTML[0:50] + " [...]"  # error output
+        quickView = str(self.originalHTMLSoup)[0:50] + " [...]"  # error output
 
         # 1.) Überprüfen ob die Tabelle ein gültiges Format hat
-        it = re.finditer('(rowspan|colspan)="([0-9]*)"', htmlTable)
+        it = re.finditer('(rowspan|colspan)="([0-9]*)"', str(self.originalHTMLSoup))
         for match in it:
             spanVal = match.group(2)
             if spanVal != "1":
@@ -126,20 +126,15 @@ class KeyExtractor:
         rowsOrig = self.originalHTMLSoup.findAll("tr")
         rowCount = len(rows) - 1
         if rowCount <= 0:
-            raise ValueError(
-                "Table doesn\'t contain rows (except the head line): " + quickView)
+            raise ValueError("Table doesn\'t contain rows (except the head line): " + quickView)
         colCount = len(rows[1].findAll("td"))
         if colCount <= 0:
-            raise ValueError(
-                "Table doesn\'t contain columns in row 1: " + quickView)
+            raise ValueError("Table doesn\'t contain columns in row 1: " + quickView)
 
         # 3.) 2D-Array der HTML-Tabelle reihenweise erzeugen
-        tableData = [[dataField.getText() for dataField in rows[i].findAll("td")]
-                     for i in range(1, rowCount + 1)]
-        tableDataRaw = [[str(dataField) for dataField in rows[
-            i].findAll("td")] for i in range(1, rowCount + 1)]
-        tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[
-            i].findAll(["th", "td"])] for i in range(1, rowCount + 1)]
+        tableData = [[dataField.getText() for dataField in rows[i].findAll("td")] for i in range(1, rowCount + 1)]
+        tableDataRaw = [[str(dataField) for dataField in rows[i].findAll("td")] for i in range(1, rowCount + 1)]
+        tableDataRawOrig = [[str(dataField) for dataField in rowsOrig[i].findAll(["th", "td"])] for i in range(1, rowCount + 1)]
 
         # 4.) Zu jeder Spalte überprüfen, ob die Einträge einzigartig sind
         # Es wird der Plain-Text verglichen, aber der ganze HTML-Code
@@ -172,6 +167,7 @@ class KeyExtractor:
                                    "unique": unique,
                                    "entries": [tableDataRaw[x][j] for x in range(rowCount)],
                                    "entriesOrig": [tableDataRawOrig[x][j] for x in range(rowCount)]})
+                # print(str(j), str(unique), tableDataRawOrig[0][j], str([0]))
         if len(uniqueCols) == 0:
             raise ValueError(
                 "Can\'t find any column with unique entries (might be foreing keys)")
@@ -331,6 +327,8 @@ class KeyExtractor:
                     'title': col['title']} for col in cols]
         ratCols.sort(key=lambda obj: obj['rating'], reverse=True)
         rating1 = ratCols[0]['rating']
+        #print(len(ratCols))
+        #print(ratCols[len(ratCols)-1]['rating'], ratCols[len(ratCols)-1]['title'], ratCols[len(ratCols)-1]['entries'][0])
         if len(ratCols) > 1:
             rating2 = ratCols[1]['rating']
             # Wenn der erste und zweite Platz zu nah sind, ist das Ergebnis

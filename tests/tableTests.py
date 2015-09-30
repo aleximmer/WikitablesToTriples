@@ -20,7 +20,7 @@ class TestTableMethods(unittest.TestCase):
     def setUp(self):
         self.page = TestPage(text)
         self.table = self.page.tables[0]
-        
+
     def test_repr(self):
         result = "Table in section 'National Parks'"
         self.assertEqual(result, self.table.__repr__())

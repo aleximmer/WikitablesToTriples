@@ -17,8 +17,8 @@ class Table:
         self.column_names = [th.text for th in self.soup.findAll('tr')[
             0].findAll('th')]
         self.page = page
-        self.rows = [[sparql.cell_content(cell) for cell in tr.findAll('th')
-            + tr.findAll('td')] for tr in self.soup.findAll('tr') if tr.find('td')]
+        self.rows = [[sparql.cell_content(cell) for cell in tr.findAll(['th', 'td'])]
+            for tr in self.soup.findAll('tr') if tr.find('td')]
         self._key = None
 
     def __repr__(self):
@@ -160,7 +160,7 @@ class Table:
         # subjectColumn and objectColumn included for later testing
         data = DataFrame(columns=['Subject', 'Predicate', 'Object', 'Frequency',
                                   'isKey', 'nameMatch', 'subjectColumn', 'objectColumn'])
-                                  
+
         for i, (sub, obj) in enumerate(cell_pairs):
             if not sparql.is_resource(sub):  # skip subject literals
                 continue
