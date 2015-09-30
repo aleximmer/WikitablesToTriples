@@ -1,6 +1,6 @@
 # Extracting knowledge from tables in List_of pages in Wikipedia
-.. image:: https://travis-ci.org/AlexImmer/WikitablesToTriples.svg?branch=master
-  :https://travis-ci.org/AlexImmer/WikitablesToTriples
+
+[![Build Status](https://travis-ci.org/AlexImmer/WikitablesToTriples.svg?branch=master)](https://travis-ci.org/AlexImmer/WikitablesToTriples)
 
 ### Installation
 
