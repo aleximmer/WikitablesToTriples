@@ -1,6 +1,6 @@
 beautifulsoup4==4.4.0
 inflect==0.2.5
-lxml==4.6.3
+lxml==4.6.5
 more-itertools==2.2
 rdflib==4.2.0
 requests>=2.20.0
